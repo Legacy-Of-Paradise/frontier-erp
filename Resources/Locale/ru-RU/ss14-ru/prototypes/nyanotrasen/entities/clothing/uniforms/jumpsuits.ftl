@@ -1,0 +1,12 @@
+ent-ClothingUniformJumpsuitMailCarrier = комбинезон почтальона
+    .desc = Собаки повсюду!
+ent-ClothingUniformJumpskirtMailCarrier = юбка почтальона
+    .desc = Собаки повсюду!
+ent-ClothingUniformJumpsuitTshirtJeans = белая футболка и джинсы
+    .desc = Даже в космосе этот "костюм" остаётся стильным.
+ent-ClothingUniformJumpsuitTshirtJeansGray = серая футболка и джинсы
+    .desc = Даже несмотря на отсуствие лесов в космосе, этот "костюм" все еще практичен.
+ent-ClothingUniformJumpsuitTshirtJeansPeach = Светло-персиковая футболка и джинсы
+    .desc = Даже несмотря на ваш любимый склад эмо-одежды, этот "костюм" все еще выделяется. 
+ent-ClothingUniformJumpsuitPrisonGuard = серый комбинезон стража
+    .desc = Удобная, прочная, водонепроницаемая униформа, созданная для обеспечения комфорта и безопасности тюремного персонала.
