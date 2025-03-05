@@ -28,7 +28,7 @@ accent-caveman-numbers-8 = восемь
 accent-caveman-numbers-9 = девять
 accent-caveman-numbers-10 = десять
 # For larger numbers
-accent-caveman-numbers-куча = много
+accent-caveman-numbers-many = много
 accent-caveman-grunts-0 = эээ
 accent-caveman-grunts-1 = хмм
 accent-caveman-grunts-2 = аэээ
