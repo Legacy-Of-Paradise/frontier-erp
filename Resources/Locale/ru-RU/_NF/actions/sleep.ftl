@@ -1,1 +1,1 @@
-popup-sleep-in-bag = { ($entity) } сворачивается в клубок и засыпает.
+popup-sleep-in-bag = { THE($entity) } сворачивается в клубок и засыпает.
