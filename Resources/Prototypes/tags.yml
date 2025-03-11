@@ -1415,3 +1415,11 @@
   id: HidesTail # Protecc the tails!
   # LOP edit end
 # ALPHABETICAL
+
+# Mono
+
+- type: Tag
+  id: CartridgeMachineGun
+
+- type: Tag
+  id: CartridgeShell
