@@ -2,7 +2,6 @@
 appraisal-program-name = Оценщик плюс
 appraisal-label-name = Предмет
 appraisal-label-price = Оценочная цена
-
 # Ledger cartridge
 ledger-program-name = СпэсоПоток "лайт"
 ledger-header = Секторальный гроссбух

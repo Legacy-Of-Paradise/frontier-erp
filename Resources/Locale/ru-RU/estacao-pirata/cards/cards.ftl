@@ -1,4 +1,4 @@
-﻿card-examined = Это { $target }.
+card-examined = Это { $target }.
 cards-verb-shuffle = Перемешать
 card-verb-shuffle-success = Карты перемешаны
 cards-verb-draw = Тянуть карту

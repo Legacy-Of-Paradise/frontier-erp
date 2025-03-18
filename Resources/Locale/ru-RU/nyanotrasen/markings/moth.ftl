@@ -1,4 +1,4 @@
-﻿marking-MothAntennasClassicAspen = Антенны (Аспен, Классические)
+marking-MothAntennasClassicAspen = Антенны (Аспен, Классические)
 marking-MothAntennasClassicBrown = Антенны (Коричневые, Классические)
 # Frontier: Deathshead < Death's-Head
 marking-MothAntennasClassicDeathshead = Антенны (Голова Мертвеца, Классические)

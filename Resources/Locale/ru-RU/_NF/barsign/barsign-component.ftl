@@ -12,6 +12,7 @@ barsign-prototype-description-maltroach = Плотва в солоде вежл�
 
 barsign-prototype-name-neon-flamingos = Неоновые фламинго
 barsign-prototype-description-neon-flamingos = Вы сомневаетесь, что сможете стоять на одной ноге после того, как закончите здесь.
+
 ## The Rune
 
 barsign-prototype-name-the-rune = Руна

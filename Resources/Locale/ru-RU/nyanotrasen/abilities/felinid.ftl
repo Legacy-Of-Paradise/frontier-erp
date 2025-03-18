@@ -1,4 +1,4 @@
-﻿action-name-hairball = Выкашлять комок волос
+action-name-hairball = Выкашлять комок волос
 action-description-hairball = Очистите свой химический поток и получите крутой комок волос, который можно бросить в людей.
 hairball-mask = Сначала снимите вашу { $mask }.
 hairball-cough = { CAPITALIZE(THE($name)) } начинает выкашливать комок!

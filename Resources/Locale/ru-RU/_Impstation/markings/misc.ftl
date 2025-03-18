@@ -90,10 +90,8 @@ marking-MothFireflyOverlay-mothfirefly1 = Светлячковое наложе�
 marking-MothFirefly = Крыля (Светлячок)
 marking-MothFirefly-mothfirefly2 = Крылья светлячка
 marking-MothBee = Крыля (Шмель)
-
 marking-MothBee-bee1 = Внешние полосы
 marking-MothBee-bee2 = Крыля
-
 marking-MothBee-bee3 = Внутренняя полоса
 marking-MothBeetleTail = Жучиные Крыля (Нехрущ)
 marking-MothBeetleTail-beetle1 = Контур

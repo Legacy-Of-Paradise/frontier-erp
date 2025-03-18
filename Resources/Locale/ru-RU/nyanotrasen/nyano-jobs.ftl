@@ -1,4 +1,4 @@
-﻿job-name-mail-carrier = Почтальон
+job-name-mail-carrier = Почтальон
 # job-name-prisoner defined in main job-names.ftl
 job-name-valet = Камердинер
 job-name-guard = Тюремный Охранник

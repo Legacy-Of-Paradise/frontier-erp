@@ -1,4 +1,4 @@
-﻿# Frontier: all entries capitalized
+# Frontier: all entries capitalized
 marking-FelinidEarsBasic = Основные Уши
 marking-FelinidEarsBasic-basic_outer = Внешнее Ухо
 marking-FelinidEarsBasic-basic_inner = Внутреннее Ухо
