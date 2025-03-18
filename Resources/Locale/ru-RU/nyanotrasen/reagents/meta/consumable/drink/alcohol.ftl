@@ -1,0 +1,16 @@
+﻿reagent-name-soju = Соджу
+reagent-desc-soju = Алкогольный напиток, получаемый путем дистилляции полированного риса.
+reagent-name-orange-creamcicle = Апельсиновая крем-сосулька
+reagent-desc-orange-creamcicle = Апельсиновое сливочное совершенство
+reagent-name-silverjack = Силверджек
+reagent-desc-silverjack = Напоминает вам о семье.
+reagent-name-brainbomb = Мозговая бомба
+reagent-desc-brainbomb = Токсична для практически всего живого, особенно для вашей печени.
+reagent-name-clownblood = Кровь клоуна
+reagent-desc-clownblood = Любимый напиток службы безопасности после долгого дня.
+reagent-name-circusjuice = Цирковой сок
+reagent-desc-circusjuice =  Хонкомать гордилась бы вами.
+reagent-name-sapopicante = Острая жаба
+reagent-desc-sapopicante = Вкус ничего не имеет общего с жабой.
+reagent-name-graveyard = Кладбище
+reagent-desc-graveyard = Для тех смен, которые никогда не заканчиваются.
