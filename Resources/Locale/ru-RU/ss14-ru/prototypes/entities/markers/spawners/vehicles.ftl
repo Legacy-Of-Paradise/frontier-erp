@@ -1,4 +1,4 @@
-﻿ent-SpawnVehicleSecway = Спавнер Сигвея
+ent-SpawnVehicleSecway = Спавнер Сигвея
     .desc = { ent-MarkerBase.desc }
 ent-SpawnVehicleJanicart = Спавнер Уборочной Машины
     .desc = { ent-MarkerBase.desc }
