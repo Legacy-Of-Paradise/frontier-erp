@@ -32,7 +32,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -42,8 +42,8 @@
 
   ## 1.2. Генератор ДАМ.
   <Box>
-  <GuideEntityEmbed Entity="ДАМController"/>
-  <GuideEntityEmbed Entity="ДАМJar"/>
+  <GuideEntityEmbed Entity="AmeController"/>
+  <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
 
   - Убедитесь, что сердечник ДАМ должным образом построен.

@@ -1,5 +1,5 @@
 <Document>
-  # AKUPARA-CLASS BOTANICAL SHUTTLE
+  # AKUPARA-ШАТТЛ КЛАССА БОТАНИЧЕСКИЙ 
   <Box>
   <GuideEntityEmbed Entity="ChemMaster"/>
   <GuideEntityEmbed Entity="SeedExtractor"/>
@@ -23,7 +23,7 @@
 
   [color=#a4885c]Доступные роли:[/color] Подрядчик, Пилот, Наемник
 
-  "A Средний full-feature botanical research biodome equipped to help a botanist fully interact with their plants in almost any way conceivable."
+  "Современный полнофункциональный ботанический исследовательский купол, оснащенный всем необходимым для того, чтобы помочь ботанику полноценно взаимодействовать со своими растениями практически любым возможным способом."
 
   # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 
@@ -33,25 +33,25 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
-  - Проверьте substation unit Прикручены к полу
-  - Check if all ЛКП unit Main Breakers are toggled on.
-  - Check the current Load of all ЛКП units* (W).
+  - Проверьте  прикручены подстанции к полу
+  - Проверьте Включены ли все ЛКП на борту.
+  - Проверьте текущую нагрузку всех блоки ЛКП* (Вт).
 
   ## 1.2. С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н.
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
-    <GuideEntityEmbed Entity="SheetУран"/>
+    <GuideEntityEmbed Entity="SheetUranium"/>
     <GuideEntityEmbed Entity="SignRadiationMed"/>
   </Box>
 
   - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. Прикручены к полу
   - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. есть топливо. При длительных полетах убедитесь, что у вас достаточно топлива, чтобы обеспечить длительную выработку электроэнергии во время полета.
   - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. установлен на высоковольтный выход.
-  - Установите целевую мощность на 32 [bold]k[/bold]W.
+  - Установите целевую мощность на 32 [bold]кВт[/bold].
   - Запустите Генератор.
 
   ## 2. Атмосфера
@@ -66,40 +66,11 @@
   </Box>
 
   - Проверьте, надежно ли закреплены канистры O2 и N2 в своих портах.
-  - Check the air canister connection port, if required.**
-  - Проверьте gas mixer labelled "Air" has its mixing ratio and output pressure set correctly.
-  - Find the gas filter labelled "Nitrogen" and set it to filter nitrogen.
-  - Find the gas filter labelled "Oxygen" and set it to filter oxygen.
-  - Enable the gas mixer labelled "Air".
-
-  ## 2.2. Выпускной контур
-  <Box>
-  <GuideEntityEmbed Entity="AirAlarm"/>
-  <GuideEntityEmbed Entity="GasValve"/>
-  <GuideEntityEmbed Entity="GasFilterFlipped"/>
-  <GuideEntityEmbed Entity="GasVolumePump"/>
-  <GuideEntityEmbed Entity="StorageCanister"/>
-  </Box>
-
-  The Akupara does Нетt feature a standard Выпускной контур: it is also capable of storing valuable waste gases, and correcting O2-N2 cabin overpressure. Waste pipes are deЗаметкаd with an orange color.
-
-  - Ensure you have enabled the Распределительный контур, as it is an integral part of the Выпускной контур.***
-  - Set all Air Alarms to Filtering (Wide).
-
-  To purge waste gases without collecting them:
-  - Open the manual valve labelled "Waste".
-
-  To collect waste gases:
-  - Keep the manual valve labelled "Waste" closed.
-  - Ensure a storage canister is connected into the collection connector port.
-  - Set the Gas Filter labelled "Waste" to the waste gas you wish to store.
-  - Enable the volumetric gas pump labelled "Waste".
-  - Monitor contents of storage canister. Replace storage canister as necessary.
-
-   To correct cabin O2-N2 overpressure:
-   - Ensure distro O2 and N2 canisters have capacity.
-   - Ensure air alarm in overpressured area has Auto mode enabled.
-   - Set the air alarm in the overpressured area to Panic. Auto mode should reset the air alarm to Filter after pressures are reduced.
+  - При необходимости проверьте баллоны с воздухом.**
+  - Проверьте газовый смеситель с маркировкой "Air": правильную пропорцию смешивания газа и выходное давление.
+  - Найдите газовый фильтр с надписью "Nitrogen" и установите его на фильтрацию азота.
+  - Найдите газовый фильтр с надписью "Oxygen" и установите его на фильтрацию кислорода.
+  - Включите газовый смеситель с надписью "Air".
 
   ## 3. Другие проверки
   <Box>
@@ -107,15 +78,15 @@
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   </Box>
 
-  - Проверьте gyroscope is anchored, powered, and enabled.
-  - Проверьте mini gravity generator is anchored, powered, and enabled.
+  - Проверьте гироскоп закреплен, включен и запитан .
+  - Проверьте мини-гравитационный генератор закреплен, запитан и включён.
 
   ## Рекомендации опытных пилотов
 
-  * - Akupara-class vessels are equipped with three ЛКП units that can be used to appraise the ship's total power consumption. Unmodified Akupara-class vessels require 32 кВ of power to remain operational.
+  * - Суда класса "AKUPARA" оснащены тремя блоками ЛКП, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности судов класса "AKUPARA" в неизменном виде требуется мощность 32 кВт.
 
-  ** - Since the Akupara's Распределительный контур uses a gas mixer, it does Нетt need pre-mixed air for optimal Атмосфера. However, it features a port to accept pre-mixed air.
+  ** - Поскольку в распределительном контуре Akupara используется газовый смеситель, ему не требуется предварительное перемешивание воздуха для достижения оптимальной температуры. Однако в нем есть отверстие для подачи предварительно смешанного воздуха.
 
-  *** - The oxygen and nitrogen filters are critical in the event mutagenic experiments create plants that produce oxygen or nitrogen. Turning them on enables waste to pass through and enables configurating the scrubbers to handle unwanted overpressure.
+  *** - Кислородные и азотные фильтры имеют решающее значение в случае, если в результате мутагенных экспериментов будут созданы установки, вырабатывающие кислород или азот. Их включение позволяет пропускать отходы и позволяет настроить скрубберы таким образом, чтобы они справлялись с нежелательным избыточным давлением.
 
 </Document>

@@ -1,0 +1,9 @@
+ent-NapkinDrum = барабан для салфеток
+    .desc = Держит салфетки.
+ent-NapkinDrum5 = барабан для салфеток
+    .desc = Держит салфетки.
+    .suffix = 5
+ent-Napkin = салфетка
+    .desc = Маленькая салфетка.
+ent-TrashNapkin = смятая салфетка
+    .desc = Смятая салфетка.

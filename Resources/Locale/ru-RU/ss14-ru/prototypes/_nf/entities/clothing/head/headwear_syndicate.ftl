@@ -1,0 +1,13 @@
+ent-ClothingHeadHelmetBombSuitSyndie = шлем смертника Синдиката
+    .desc = { ent-BaseC3SyndicateContrabandUnredeemable.desc }
+ent-ClothingHeadHatHoodBioArmoredSyndicate = био-капюшон
+    .desc = Капюшон, защищающий голову и лицо от биологических загрязнений, а также личность пользователя.
+    .suffix = Синдикат
+ent-ClothingHeadHelmetHardsuitSyndieEliteUnremoveable = { ent-BaseC3SyndicateContrabandUnredeemable }
+    .desc = { ent-BaseC3SyndicateContrabandUnredeemable.desc }
+ent-ClothingHeadHelmetHardsuitSyndieUnremoveable = { ent-BaseC3SyndicateContrabandUnredeemable }
+    .desc = { ent-BaseC3SyndicateContrabandUnredeemable.desc }
+ent-ClothingHeadHelmetHardsuitSyndieMedicUnremoveable = { ent-BaseC3SyndicateContrabandUnredeemable }
+    .desc = { ent-BaseC3SyndicateContrabandUnredeemable.desc }
+ent-ClothingHeadHatHoodWinterSyndieUnremoveable = капюшон пальта Синдиката
+    .desc = { ent-BaseC3SyndicateContrabandUnredeemable.desc }

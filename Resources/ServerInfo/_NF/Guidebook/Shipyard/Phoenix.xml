@@ -30,7 +30,7 @@
     <Box>
       <GuideEntityEmbed Entity="SMESBasic"/>
       <GuideEntityEmbed Entity="SubstationBasic"/>
-      <GuideEntityEmbed Entity="ЛКПBasic"/>
+      <GuideEntityEmbed Entity="APCBasic"/>
     </Box>
 
     - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -41,7 +41,7 @@
     ## 1.2. Генераторны  П.А.К.М.А.Н.ы
     <Box>
       <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-      <GuideEntityEmbed Entity="SheetПлазма"/>
+      <GuideEntityEmbed Entity="SheetPlasma"/>
     </Box>
 
     - Проверте the Генераторны  П.А.К.М.А.Н.ы прикреплены к полу.
@@ -98,8 +98,8 @@
 
     ## Рекомендации опытных пилотов
 
-    * - Phoenix-class research ships are equipped a power monitoring console that be used to appraise the ship's total power consumption. An unmodified Phoenix-class ship requires 24.5 кВ of power to remain operational.
+    * - Исследовательские суда класса "Феникс" оснащены консолью мониторинга энергопотребления, который используется для оценки энергопотребления судна. Для поддержания работоспособности немодифицированного корабля класса "Феникс" требуется мощность 24,5 кВА.
 
-    ** - Phoenix-class research ships come equipped with additional Солнечные панели that can provide up to 17.5 кВ of power under ideal circumstances. Assuming that the solar array will provide a third of its maximum output power, recommended target power output for each Генераторны  П.А.К.М.А.Н. is 12 кВ.
+    ** - Исследовательские суда класса "Феникс" оснащаются солнечными батареями, которые, в идеальных условиях, могут обеспечивать мощность до 17,5 кВт. Предполагая, что солнечная батарея будет обеспечивать треть своей максимальной выходной мощности, рекомендуемая целевая выходная мощность для каждого генератора  П.А.К.М.А.Н. составляет 12 кВ.
 
   </Document>

@@ -9,7 +9,7 @@
   <Box>
   <GuideEntityEmbed Entity="ShuttleMapAmbition" Caption=""/>
   </Box>
-    [color=#a4885c]Размер судна:[/color] Large
+    [color=#a4885c]Размер судна:[/color] Большой
 
 	[color=#a4885c]Рекомендуемый экипаж:[/color] 4-8
 
@@ -19,7 +19,7 @@
 
 	[color=#a4885c]Консоль идентификации:[/color] Нет
 
-  "Declassified gas production and distribution platform seized in a hostile takeover of an Atmosian conglomerate. For the ultimate insurgent."
+  "Корабль по добыче и распределению газа, захваченная в результате поглощения враждебного конгломерата Atmosian. Для решительного мятежника."
 
   # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 
@@ -29,7 +29,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -39,8 +39,8 @@
 
   ## 1.2. Генератор ДАМ.
   <Box>
-  <GuideEntityEmbed Entity="ДАМController"/>
-  <GuideEntityEmbed Entity="ДАМ/>
+	<GuideEntityEmbed Entity="AmeController"/>
+	<GuideEntityEmbed Entity="AmeJar"/>
   </Box>
 
   - Убедитесь, что сердечник ДАМ должным образом построен.
@@ -75,21 +75,21 @@
   <GuideEntityEmbed Entity="GasFilter"/>
   </Box>
 
-  - Enable Выпускной контур pump and valve(s).
-  - Enable Выпускной контур filters.
-  - Set appropriate gases for each storage chamber as needed.
+  - Включите насосы и клапана выпускного контура.
+  - Включите фильтры контура.
+  - При необходимости установите соответствующие газы для каждой камеры хранения.
 
-  ## 2.3. Mix Loop
+  ## 2.3. Петля смешивания
   <Box>
   <GuideEntityEmbed Entity="AirAlarm"/>
   <GuideEntityEmbed Entity="GasVentPump"/>
   <GuideEntityEmbed Entity="GasPort"/>
   </Box>
 
-  - Enable mix loop pumps.
-  - Disable Auto Mode on the air alarm in the Mix Room.
-  - Set the four air vents on the air alarm to Siphoning Mode and set Pressure Bounds to НетBound.
-  - Anchor gas canisters to Connector Ports as needed.
+  - Включить насосы в контуре смешивания.
+  - Отключите автоматический режим воздушной сигнализации в комнате смешивания.
+  - Установите четыре вентиляционных отверстия на воздушной сигнализации в требуемые режимы и установите границы давления в нейтральное положение.
+  - При необходимости прикрепите газовые баллоны к порту.
 
   ## 3. Другие проверки
   <Box>
@@ -104,6 +104,6 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Ambition-class atmospheric platforms are equipped with eight ЛКП units that can be used to appraise the ship's total power consumption. Unmodified Ambition-class ship requires 71 кВ of power to remain operational.
+  * - Атмосферные платформы класса Ambition оснащены восемью блоками ЛКП, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности корабля класса Ambition требуется мощность 71 киловатт.
 
 </Document>

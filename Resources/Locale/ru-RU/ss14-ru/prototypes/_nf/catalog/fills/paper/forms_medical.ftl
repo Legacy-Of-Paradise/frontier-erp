@@ -1,0 +1,15 @@
+ent-BoxFolderMedicalDoctor = папка Медицинской службы
+    .desc = Папка заполненная шаблонами документов Медицинской службы.
+    .suffix = Шаблоны
+ent-PaperWrittenMedicalFormPatientInfo = медицинская карта пациента
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenMedicalFormPrescription = медицинский рецепт
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenMedicalFormHealthInsurance = договор медицинского страхования
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenMedicalFormServiceInvoice = счет за медицинские услуги
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenMedicalFormReceiptInvoice = оплата медицинского вылета
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenMedicalFormRelease = медицинское заключение
+    .desc = { ent-Paper.desc }

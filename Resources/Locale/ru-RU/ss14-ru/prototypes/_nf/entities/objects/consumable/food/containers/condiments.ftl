@@ -1,0 +1,10 @@
+ent-BaseFoodCondimentSqueezeBottle = сжимающийся пакетик
+    .desc = Тонкий пластиковый контейнер, используемый для хранения приправ.
+ent-FoodCondimentSqueezeBottleKetchup = { ent-BaseFoodCondimentSqueezeBottle }
+    .desc = { ent-BaseFoodCondimentSqueezeBottle.desc }
+ent-FoodCondimentSqueezeBottleMustard = { ent-BaseFoodCondimentSqueezeBottle }
+    .desc = { ent-BaseFoodCondimentSqueezeBottle.desc }
+ent-FoodCondimentSqueezeBottleClear = { ent-BaseFoodCondimentSqueezeBottle }
+    .desc = Когда дело доходит до сжимающихся пакетиков, это очевидный выбор.
+ent-FoodCondimentBottleSoysauce = пакетик соевого соуса
+    .desc = Используется для придания блюдам вкуса умами. С добавлением соли!

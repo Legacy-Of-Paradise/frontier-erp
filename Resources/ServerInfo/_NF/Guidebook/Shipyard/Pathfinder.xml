@@ -29,7 +29,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationWallBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -39,8 +39,8 @@
 
   ## 1.2. Генератор ДАМ.
   <Box>
-  <GuideEntityEmbed Entity="ДАМController"/>
-  <GuideEntityEmbed Entity="ДАМ"/>
+  <GuideEntityEmbed Entity="AmeController"/>
+  <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
 
   - Убедитесь, что сердечник ДАМ должным образом построен.
@@ -86,6 +86,6 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Pathfinder- ШАТТЛ ЭКСПЕДИЦИОННОГО КЛАССАs are equipped with two ЛКП units that can be used to appraise the ship's total power consumption. Unmodifued Brigand-class ship requires 16.8 кВ of power to remain operational.
+  * - Pathfinder- ШАТТЛ ЭКСПЕДИЦИОННОГО КЛАССА оснащены двумя блоками ЛКП, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности корабля класса "Pathfinder" в неизменном виде требуется мощность 16,8 кВт.
 
 </Document>

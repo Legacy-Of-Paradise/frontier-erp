@@ -28,7 +28,7 @@
   ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SubstationWallBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что главный ЛКП включен.
@@ -66,7 +66,7 @@
 
   ## 3. Другие проверки
   <Box>
-  <GuideEntityEmbed Entity="МалоеGyroscope"/>
+  <GuideEntityEmbed Entity="SmallGyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   </Box>
 

@@ -1,0 +1,10 @@
+ent-WeaponRevolverArgenti = Аргенти
+    .desc = Гражданский револьвер Аргенти Тип 20. Изготовлен компанией Silver Industries. Несмотря на то, что конструкция с расширенным цилиндром довольно древняя, опытный стрелок знает, как с ним обращаться. В нем используются патроны .20 винтовочные.
+ent-WeaponRevolverArgentiNonlethal = { ent-WeaponRevolverArgenti }
+    .suffix = Не летальные
+    .desc = { ent-WeaponRevolverArgenti.desc }
+ent-WeaponRevolverDeckardNonlethal = { ent-WeaponRevolverDeckard }
+    .suffix = Не летальные
+    .desc = { ent-WeaponRevolverDeckard.desc }
+ent-WeaponRevolverDeckardExpeditionGrifty = Средство решения проблем с обслуживанием клиентов
+    .desc = { ent-WeaponRevolverDeckardExpedition.desc }

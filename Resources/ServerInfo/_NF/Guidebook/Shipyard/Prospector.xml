@@ -27,7 +27,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -38,7 +38,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Проверьте, надежно ли Генераторны  П.А.К.М.А.Н. на полу.
@@ -79,8 +79,8 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Prospector-class salvage ships are equipped with a single ЛКП unit that can be used to appraise the ship's total power consumption (9.9 кВ). One can check the ship's total power consumption against the Генераторны  П.А.К.М.А.Н. Target Power output: to keep substation and ЛКП fully charged, Генераторны  П.А.К.М.А.Н. Target Power output should exceed ЛКП's Load. Remember to check ЛКП Load and adjust the generator unit Target Power after connecting new power-consuming machines.
+  * - Утилизационные суда класса Prospector оснащены единственным блоком ЛКП, который можно использовать для оценки общего энергопотребления судна (9,9 кВ). 
 
-  ** - Prospector-class salvage ships have low power demand meaning that standard Генераторны  П.А.К.М.А.Н.'s Target Power value can be lowered as low as 10 кВ. Please Заметка, that recommended Target Power value to avoid blackouts during Gravity Generator charging sequence is 11 кВ.
+  ** - Спасательные суда класса Prospector обладают низкой потребляемой мощностью, что означает, что значение выроботки генератора П.А.К.М.А.Н. снижено до 10 кВ. Пожалуйста, обратите внимание, что рекомендуемое целевое значение мощности, позволяющее избежать отключения электроэнергии во время зарядки гравитационного генератора, составляет 11 кВ.
 
 </Document>

@@ -1,8 +1,8 @@
 <Document>
   # Утилизационные экспедиции
   <Box>
-  <GuideEntityEmbed Entity="ComputerSalvageExpedition"/>
-  <GuideEntityEmbed Entity="TelecomServerFilledShuttle"/>
+    <GuideEntityEmbed Entity="ComputerSalvageExpedition"/>
+    <GuideEntityEmbed Entity="TelecomServerFilledShuttle"/>
   </Box>
 
   Отправляясь в экспедицию, ваш корабль совершит прыжок на планету, и вам нужно будет выполнить задание за ограниченное время.
@@ -31,11 +31,11 @@
 
   # Быть готовым
   <Box>
-  <GuideEntityEmbed Entity="MobBloodCultistZealotMelee"/>
-  <GuideEntityEmbed Entity="MobFleshGolemExpeditions"/>
-  <GuideEntityEmbed Entity="MobArgocyteEnforcerExpeditions"/>
-  <GuideEntityEmbed Entity="MobCarpHoloExpeditions"/>
-  <GuideEntityEmbed Entity="MobRogueSiliconHunter"/>
+    <GuideEntityEmbed Entity="MobBloodCultistZealotMelee"/>
+    <GuideEntityEmbed Entity="MobFleshGolemExpeditions"/>
+    <GuideEntityEmbed Entity="MobArgocyteEnforcerExpeditions"/>
+    <GuideEntityEmbed Entity="MobCarpHoloExpeditions"/>
+    <GuideEntityEmbed Entity="MobRogueSiliconHunter"/>
   </Box>
   Во время миссий на планете вы столкнетесь с опасностями, начиная от негостеприимной окружающей среды и заканчивая враждебной дикой природой и даже кровожадными культистами или безжалостными роботами. Если вы хотите выжить в миссии с добычей в руках, вы должны быть готовы к предстоящим испытаниям. Вам понадобится правильное снаряжение и знания о том, как и когда это снаряжение следует использовать. И самое главное, вам понадобится помощь ваших товарищей по команде.
 
@@ -44,8 +44,8 @@
   Первая опасность, с которой вы столкнетесь на планете, - это [italic]сама планета[/italic]. Окружающая среда планеты разнообразна: атмосфера и температура могут варироваться - и то, и другое может быть опасным.  [color=#a4885c]Консоль утилизаторов[/color] это даст вам приблизительное представление о том, какие условия на планете. [color=#a4885c]Модификаторы[/color] указаны в описании миссии. Эта информация поможет вам решить, какое снаряжение для защиты окружающей среды вам нужно, если таковое имеется.
 
   <Box>
-  <GuideEntityEmbed Entity="FloorLiquidPlasmaEntity"/>
-  <GuideEntityEmbed Entity="FloorLavaEntity"/>
+    <GuideEntityEmbed Entity="FloorLiquidPlasmaEntity"/>
+    <GuideEntityEmbed Entity="FloorLavaEntity"/>
   </Box>
   [bold][color=#a4885c]Биомы:[/color][/bold]
   - [bold]Луга/Пещеры/Тени:[/bold] ока никаких опасностей не наблюдалось.
@@ -54,8 +54,8 @@
 
 Если вас [italic]все-таки[/italic] подожгут, не забудьте [bold]нажать на [color=#ee0000]значок пожара[/color][/bold] чтобы остановиться, упасть и перевернуться. Может потребоваться [bold]несколько попыток[/bold] чтобы потушить себя же.
   <Box>
-  <GuideEntityEmbed Entity="ClothingMaskGas"/>
-  <GuideEntityEmbed Entity="AirTankFilled"/>
+    <GuideEntityEmbed Entity="ClothingMaskGas"/>
+    <GuideEntityEmbed Entity="AirTankFilled"/>
   </Box>
   [bold][color=#a4885c]Модификаторы качества воздуха:[/color][/bold]
   - [bold]Ничего:[/bold] воздух безопасен. Можно дышать без специализированых устройств.
@@ -63,9 +63,9 @@
   - [bold]Изменчивая атмосфера:[/bold] в атмосфере есть газообразная плазма. Внутренние устройства должны быть включены. В зависимости от наличия других газов атмосфера может воспламениться и поглотить всю планету.
 
   <Box>
-  <GuideEntityEmbed Entity="ClothingOuterWinterMiner"/>
-  <GuideEntityEmbed Entity="ClothingOuterHardsuitEVA"/>
-  <GuideEntityEmbed Entity="ClothingOuterHardsuitBasic"/>
+    <GuideEntityEmbed Entity="ClothingOuterWinterMiner"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitEVA"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitBasic"/>
   </Box>
   [bold][color=#a4885c]Модификаторы температуры:[/color][/bold]
   - [bold]Ничего:[/bold] температура на планете теплая, никакого специального оборудования не требуется.
@@ -75,10 +75,10 @@
   - [bold]Экстремальная жара:[/bold] температура очень высокая, поэтому обязательно наличие защитного костюма.
 
   <Box>
-  <GuideEntityEmbed Entity="Flare"/>
-  <GuideEntityEmbed Entity="GlowstickBlue"/>
-  <GuideEntityEmbed Entity="FlashlightLantern"/>
-  <GuideEntityEmbed Entity="Floodlight"/>
+    <GuideEntityEmbed Entity="Flare"/>
+    <GuideEntityEmbed Entity="GlowstickBlue"/>
+    <GuideEntityEmbed Entity="FlashlightLantern"/>
+    <GuideEntityEmbed Entity="Floodlight"/>
   </Box>
   [bold][color=#a4885c]Время суток:[/color][/bold]
   - [bold]Утреннее/дневное/вечернее время:[/bold] окружающего освещения на планете достаточно, нет необходимости в источниках света.
@@ -89,17 +89,17 @@
 
   ## Инструменты
   <Box>
-  <GuideEntityEmbed Entity="Pickaxe"/>
-  <GuideEntityEmbed Entity="Crowbar"/>
-  <GuideEntityEmbed Entity="Wrench"/>
-  <GuideEntityEmbed Entity="Screwdriver"/>
-  <GuideEntityEmbed Entity="Wirecutter"/>
+    <GuideEntityEmbed Entity="Pickaxe"/>
+    <GuideEntityEmbed Entity="Crowbar"/>
+    <GuideEntityEmbed Entity="Wrench"/>
+    <GuideEntityEmbed Entity="Screwdriver"/>
+    <GuideEntityEmbed Entity="Wirecutter"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="ClothingEyesGlassesMeson"/>
-  <GuideEntityEmbed Entity="Welder"/>
-  <GuideEntityEmbed Entity="Multitool"/>
-  <GuideEntityEmbed Entity="RadioHandheld"/>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesMeson"/>
+    <GuideEntityEmbed Entity="Welder"/>
+    <GuideEntityEmbed Entity="Multitool"/>
+    <GuideEntityEmbed Entity="RadioHandheld"/>
   </Box>
   Чтобы добраться до заброшенного объекта, при проведении спасательных работ часто приходится прорываться сквозь слои скал, а также разбирать стены и окна, чтобы проникнуть в руины. Возможно, вам придется вскрывать неработающие воздушные шлюзы или демонтировать ценное оборудование, чтобы забрать его обратно. С помощью инструментов можно упростить сложные задачи, например, с помощью лома вскрывать воздушные шлюзы (гораздо быстрее, чем руками), или сделать невозможные задачи возможными, например, вести добычу полезных ископаемых с помощью сверла. Кроме того, такие инструменты, как портативная радиостанция, могут обеспечить членам экипажа возможность общаться без использования телекоммуникационного сервера.
 
@@ -107,15 +107,15 @@
 
   ## Медицина
   <Box>
-  <GuideEntityEmbed Entity="EmergencyMedipen"/>
-  <GuideEntityEmbed Entity="Brutepack"/>
-  <GuideEntityEmbed Entity="Ointment"/>
-  <GuideEntityEmbed Entity="Gauze"/>
+    <GuideEntityEmbed Entity="EmergencyMedipen"/>
+    <GuideEntityEmbed Entity="Brutepack"/>
+    <GuideEntityEmbed Entity="Ointment"/>
+    <GuideEntityEmbed Entity="Gauze"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="MedicatedSuture"/>
-  <GuideEntityEmbed Entity="RegenerativeMesh"/>
-  <GuideEntityEmbed Entity="Tourniquet"/>
+    <GuideEntityEmbed Entity="MedicatedSuture"/>
+    <GuideEntityEmbed Entity="RegenerativeMesh"/>
+    <GuideEntityEmbed Entity="Tourniquet"/>
   </Box>
   Тебе будет больно. Иногда. Знание основ медицинской помощи и наличие под рукой необходимых средств могут решить проблему жизни и смерти для вас или ваших товарищей по команде.
 
@@ -125,10 +125,10 @@
 
   ## Броня
   <Box>
-  <GuideEntityEmbed Entity="ClothingHeadHelmetBasic"/>
-  <GuideEntityEmbed Entity="ClothingOuterArmorBulletproof"/>
-  <GuideEntityEmbed Entity="ClothingOuterArmorReflective"/>
-  <GuideEntityEmbed Entity="RiotShield"/>
+    <GuideEntityEmbed Entity="ClothingHeadHelmetBasic"/>
+    <GuideEntityEmbed Entity="ClothingOuterArmorBulletproof"/>
+    <GuideEntityEmbed Entity="ClothingOuterArmorReflective"/>
+    <GuideEntityEmbed Entity="RiotShield"/>
   </Box>
   В большинстве случаев вы не сможете избежать попадание в критическое состояние. Ношение доспехов уменьшает наносимый урон, позволяет вам дольше оставаться в строю и дает шанс не умереть. Поскольку разные типы врагов наносят разный урон, грамотный выбор брони значительно повысит ваши шансы на выживание.
 
@@ -138,21 +138,21 @@
 
   ## Командная работа
   <Box>
-  <GuideEntityEmbed Entity="GuidebookMemeNpcGood" Caption="the good,"/>
-  <GuideEntityEmbed Entity="GuidebookMemeNpcBad" Caption="the bad,"/>
-  <GuideEntityEmbed Entity="GuidebookMemeNpcUgly" Caption="the ugly"/>
-  <GuideEntityEmbed Entity="GuidebookMemeNpcThatGuy" Caption="and that guy"/>
+    <GuideEntityEmbed Entity="GuidebookMemeNpcGood" Caption="the good,"/>
+    <GuideEntityEmbed Entity="GuidebookMemeNpcBad" Caption="the bad,"/>
+    <GuideEntityEmbed Entity="GuidebookMemeNpcUgly" Caption="the ugly"/>
+    <GuideEntityEmbed Entity="GuidebookMemeNpcThatGuy" Caption="and that guy"/>
   </Box>
   Безусловно, лучший способ выжить в экспедиции - это ваши товарищи по команде. Вы можете [italic]знать[/italic] как исцелить себя, но вы [italic]не сможете это сделать[/italic] если ты без сознания.
 
-  <Box>
-  <GuideEntityEmbed Entity="TelecomServerFilledShuttle"/>
-  <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
+    <Box>
+    <GuideEntityEmbed Entity="TelecomServerFilledShuttle"/>
+    <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="ClothingHeadsetGrey" Caption="headset"/>
-  <GuideEntityEmbed Entity="EncryptionKeyMedical"/>
-  <GuideEntityEmbed Entity="MedicalTrackingImplanter"/>
+    <GuideEntityEmbed Entity="ClothingHeadsetGrey" Caption="headset"/>
+    <GuideEntityEmbed Entity="EncryptionKeyMedical"/>
+    <GuideEntityEmbed Entity="MedicalTrackingImplanter"/>
   </Box>
 
   Общение имеет решающее значение. Обязательно поддерживайте контакт со своими товарищами по команде, чтобы знать, что они делают и когда им нужна помощь. Вам понадобятся либо гарнитура и [color=#a4885c]телекоммуникационный сервер[/color] c [color=#a4885c] ключами шифрования[/color], либо  [color=#a4885c]портативные радиостанции[/color] у каждого члена экипажа (убедитесь, что они включены!).
@@ -161,8 +161,8 @@
 
   ## Знай своего врага
   <Box>
-  <GuideEntityEmbed Entity="ClothingEyesHudMedical"/>
-  <GuideEntityEmbed Entity="ClothingEyesHudDiagnostic"/>
+    <GuideEntityEmbed Entity="ClothingEyesHudMedical"/>
+    <GuideEntityEmbed Entity="ClothingEyesHudDiagnostic"/>
   </Box>
   Ключевое значение имеет адаптивность: стратегии и тактики, которые работают против  [textlink="Ксеносов" link="MobsExpeditionGuideXenos"], но может плохо работать против [textlink="Наемников" link="MobsExpeditionGuideMercenaries"], и наоборот. Записи в путеводителе о враждебных существах могут дать некоторое представление о том, чего ожидать на планете, но они [italic]не могу[/italic] замените опытом из первых рук. Вместо этого спуститесь на планету, спасите все, что сможете, и встретьте опасность лицом к лицу. Богатства не будут ждать вечно!
 

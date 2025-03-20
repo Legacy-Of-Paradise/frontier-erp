@@ -8,7 +8,7 @@
 ## Поиск задач
 
 <Box>
-<GuideEntityEmbed Entity="MedicalPod"/>
+    <GuideEntityEmbed Entity="MedicalPod"/>
 </Box>
 
 Спасательные капсулы можно найти на  [color=#88b0d1]обломках корабля[/color]. Каждая аварийная капсула оснащена [color=#ffff00]мигающими индикаторами[/color].Вы можете сразу увидеть их в темноте. Так же, сбоку у них есть отчетливый [color=#80b9c4]дисплей состояния здоровья[/color].
@@ -26,7 +26,7 @@
 Когда вы будете готовы испольнить задачу, верните актив в ближайший [color=#469bbd]пункт приема тел[/color]. Просто вставьте восстановленный актив в этот пункт. [color=#d40606]Оба индикатора[/color] должны гореть. Откройте панель на устройстве, нажмите кнопку "Активировать" и наслаждайтесь с трудом заработанными Спесос.
 
 <Box>
-<GuideEntityEmbed Entity="MachineMedicalBountyRedemption"/>
+    <GuideEntityEmbed Entity="MachineMedicalBountyRedemption"/>
 </Box>
 
 ## История

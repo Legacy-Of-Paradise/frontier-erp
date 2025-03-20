@@ -1,0 +1,12 @@
+ent-FireAxeCabinetCommand = шкаф для пожарных топоров
+    .desc = Имеется небольшая этикетка с надписью "Только для экстренного использования", а также инструкции по безопасному использованию топора. Будто.
+    .suffix = С замком
+ent-FireAxeCabinetOpenCommand = { ent-FireAxeCabinetCommand }
+    .suffix = Открыт, С замком
+    .desc = { ent-FireAxeCabinetCommand.desc }
+ent-FireAxeCabinetFilledCommand = { ent-FireAxeCabinetCommand }
+    .suffix = Полный, С замком
+    .desc = { ent-FireAxeCabinetCommand.desc }
+ent-FireAxeCabinetFilledOpenCommand = { ent-FireAxeCabinetFilledCommand }
+    .suffix = Полный, Открыт, С замком
+    .desc = { ent-FireAxeCabinetFilledCommand.desc }

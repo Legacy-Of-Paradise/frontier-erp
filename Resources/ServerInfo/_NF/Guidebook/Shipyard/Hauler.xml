@@ -1,7 +1,7 @@
 <Document>
   # HAULER-ШАТТЛ КЛАССА УТИЛИЗАТОРА
   <Box>
-    <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="trading crate"/>
+    <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="торговый ящик"/>
     <GuideEntityEmbed Entity="CrateGenericSteel" Caption="mystery loot"/>
     <GuideEntityEmbed Entity="OreProcessor"/>
   </Box>
@@ -28,7 +28,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что подстанция надежно закреплена на полу.
@@ -38,7 +38,7 @@
   ## 1.2. С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
-  <GuideEntityEmbed Entity="SheetУран"/>
+  <GuideEntityEmbed Entity="SheetUranium"/>
   <GuideEntityEmbed Entity="SignRadiationMed"/>
   </Box>
 

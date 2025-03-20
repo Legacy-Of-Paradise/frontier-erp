@@ -29,7 +29,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -40,7 +40,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н.ы
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Проверте Генераторны  П.А.К.М.А.Н.ы прикреплены к полу.
@@ -72,8 +72,7 @@
   </Box>
 
   - Убедитесь, что насос выходного контура включен.
-  - Disable Auto Mode on any Air Alarms.
-  - Set the Air Alarms to Filtering (Wide).
+  - Установите для воздушной сигнализации режим фильтрации (широкий).
 
   ## 3. Другие проверки
   <Box>
@@ -86,8 +85,8 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Sparrow-class research ships are equipped with two ЛКП units that can be used to appraise the ship's total power consumption. An unmodified Sparrow-class ship requires 36.1 кВ of power to remain operational.
+  * - Исследовательские суда класса Sparrow оснащены двумя блоками ЛКП, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности корабля класса Sparrow требуется мощность в 36,1 кВт.
 
-  ** - Sparrow-class research ships have higher power demand than standard Генераторны  П.А.К.М.А.Н.ы can provide at optimal settings. Unanchoring the artifact analyzer when Нетt used will allow for the generator units to be set to as low as 13 кВ.
+  ** - Исследовательские корабли класса Sparrow потребляют больше энергии, чем стандартные генераторы П.А.К.М.А.Н., которые могут обеспечить, при их оптимальных настройках. Отключение анализатора артефактов позволит настроить генераторы П.А.К.М.А.Н. на напряжение всего в 13 кВ.
 
 </Document>

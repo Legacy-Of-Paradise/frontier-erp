@@ -25,7 +25,7 @@
   ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SubstationWallBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что подстанция надежно закреплена на полу.
@@ -35,7 +35,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Проверте генератор прикреплены к полу.
@@ -63,7 +63,7 @@
 
   ## 3. Другие проверки
   <Box>
-  <GuideEntityEmbed Entity="МалоеGyroscope"/>
+  <GuideEntityEmbed Entity="SmallGyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   </Box>
 

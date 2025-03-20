@@ -5,7 +5,7 @@
   <GuideEntityEmbed Entity="Crowbar"/>
   </Box>
   <Box>
-  <GuideEntityEmbed Entity="ShuttleMapTide" Caption="A Малое map of the Tide Shuttle"/>
+  <GuideEntityEmbed Entity="ShuttleMapTide" Caption="Карта малого шаттла Тайд"/>
   </Box>
     [color=#a4885c]Размер судна:[/color] Малое
 
@@ -17,7 +17,7 @@
 
 	[color=#a4885c]Консоль идентификации:[/color] Нет
 
-  "A flying pile of scrap for the seasoned assistant."
+  "Летающая груда металлолома для опытных ассистентов."
 
   # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 
@@ -26,20 +26,20 @@
   ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  - Check to see if the substation is working.
+  - Проверьте, работает ли подстанция.
   - Убедитесь, что главный ЛКП включен.
   - Проверьте текущую нагрузку блока ЛКП* (Вт).
 
   ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
-  - Проверте Генераторны  П.А.К.М.А.Н. is anchored, fueled, and on top of Heavy Voltage cable.
+  - Проверте Генераторны  П.А.К.М.А.Н. is anchored, fueled, и on top of Heavy Voltage cable.
 
   ## 2. Атмосфера
 
@@ -50,9 +50,9 @@
   <GuideEntityEmbed Entity="GasPressurePump"/>
   </Box>
 
-  - Acquire an air canister if wanted.
-  - After acquiring an air canister, attach it to the connector.
-  - Проверте the pipeline is intact.
+  - При желании приобретите баллончик с воздухом.
+  - После приобретения баллона с воздухом присоедините его к разъему.
+  - Убедитесь, что трубопровод цел.
 
   ## 3. Другие проверки
   <Box>
@@ -61,13 +61,13 @@
   </Box>
 
   - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
-  - Ensure the wiring is in order.
+  - Убедитесь, что проводка в порядке.
 
   ## Рекомендации опытных пилотов
 
-  * - The Tide requires around 8 kilowatts of power to be in working order.
+  * - Для поддержания в рабочем состоянии системы Tide требуется около 8 киловатт электроэнергии.
 
-  ** - The Tide has Нет tiny fans, in return, there are pumps in the airlocks so you may vent the gases into the air pipes.
+  ** - У Tide нет крошечных вентиляторов, зато в воздушных шлюзах есть насосы, так что вы можете выпускать газы в воздуховоды.
 
-  *** - There is Нет gravity generator, and there is miНетr damage to the interior and exterior.
+  *** - Отсутствует гравитационный генератор, и имеются внутренние и внешние повреждения.
 </Document>

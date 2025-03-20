@@ -15,8 +15,8 @@
   "Джаред" это безмозглые мясные щиты, которые бросаются на угрозу, не заботясь о своем выживании. Они кажутся более хрупкими, чем обычный человек.
 
   <Box>
-  <GuideEntityEmbed Entity="MobFleshJaredExpeditions"/>
-  <GuideEntityEmbed Entity="MobFleshJaredOldExpeditions"/>
+    <GuideEntityEmbed Entity="MobFleshJaredExpeditions"/>
+    <GuideEntityEmbed Entity="MobFleshJaredOldExpeditions"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с[bold][color=#a4885c]*[/color][/bold]
@@ -33,9 +33,9 @@
   "Голем" безмозглые животные, похожие на "Джаред", но более плотного телосложения. Это делает их немного более выносливыми, но менее проворными.
 
   <Box>
-  <GuideEntityEmbed Entity="MobFleshGolemExpeditions"/>
-  <GuideEntityEmbed Entity="MobFleshGolemAltExpeditions"/>
-  <GuideEntityEmbed Entity="MobFleshGolemOldExpeditions"/>
+    <GuideEntityEmbed Entity="MobFleshGolemExpeditions"/>
+    <GuideEntityEmbed Entity="MobFleshGolemAltExpeditions"/>
+    <GuideEntityEmbed Entity="MobFleshGolemOldExpeditions"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 70 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -52,8 +52,8 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-  <GuideEntityEmbed Entity="MobFleshТискиExpeditions"/>
-  <GuideEntityEmbed Entity="DartAberrantFleshHorrorSpikeGuidebook"/>
+    <GuideEntityEmbed Entity="MobFleshТискиExpeditions"/>
+    <GuideEntityEmbed Entity="DartAberrantFleshHorrorSpikeGuidebook"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 40 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -66,8 +66,8 @@
   [bold][color=#a4885c]________________________________________________________________________[/color]
 
   <Box>
-  <GuideEntityEmbed Entity="MobFleshТискиOldExpeditions"/>
-  <GuideEntityEmbed Entity="MobЖелчекExpeditionsGuidebook"/>
+    <GuideEntityEmbed Entity="MobFleshТискиOldExpeditions"/>
+    <GuideEntityEmbed Entity="MobЖелчекExpeditionsGuidebook"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 40 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -82,7 +82,7 @@
   Неподвижные, лишенные плоти существа, которые набрасываются на жертв. Они вцепляются в них зубами и кусают своих жертв до тех пор, пока не убьют или не избавятся от них.
 
   <Box>
-  <GuideEntityEmbed Entity="MobЖелчекExpeditionsGuidebook"/>
+    <GuideEntityEmbed Entity="MobЖелчекExpeditionsGuidebook"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 8 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 0 м/с
@@ -99,7 +99,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-  <GuideEntityEmbed Entity="MobFleshЛюбовникExpeditions"/>
+    <GuideEntityEmbed Entity="MobFleshЛюбовникExpeditions"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 30 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 5 м/с
@@ -114,7 +114,7 @@
   Несчастный шахтер, который был "заражен" при контакте с ненормальной плотью и медленно начал мутировать.
 
   <Box>
-  <GuideEntityEmbed Entity="MobFleshAssimilatedMiner"/>
+    <GuideEntityEmbed Entity="MobFleshAssimilatedMiner"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -129,7 +129,7 @@
   Более выносливый и живучий, чем обычный монстр из плоти, "Ужас" обладает острыми костяными выступами и сильно развитой мускулатурой, что позволяет ему разрывать плоть своих жертв и эффективно пробивать броню.
 
   <Box>
-  <GuideEntityEmbed Entity="MobHorrorExpeditions"/>
+    <GuideEntityEmbed Entity="MobHorrorExpeditions"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 200 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.6 м/с
@@ -142,13 +142,13 @@
   # Цели миссии
   ## Устранение
   <Box>
-  <GuideEntityEmbed Entity="MobHorrorExpeditions"/>
+    <GuideEntityEmbed Entity="MobHorrorExpeditions"/>
   </Box>
   Уничтожьте крупное и опасное существо - [color=#a4885c]Необыное существо из плоти "Ужас"[/color] в течение заданного срока, для получения денежного вознаграждение.
 
   ## Повреждения
   <Box>
-  <GuideEntityEmbed Entity="AberrantFleshDigestiveSack"/>
+    <GuideEntityEmbed Entity="AberrantFleshDigestiveSack"/>
   </Box>
   Уничтожьте определенное количество [color=#a4885c]"Мешков с Заразой"[/color] в течение заданного срока ,для получения денежного вознаграждение. [bold][color=#a4885c]Примечание[/color][/bold]: каждый "Мешков с Заразой" может периодически порождать несколько новорожденных монстров из плоти. Новорожденные менее выносливы, чем их взрослые собратья.
 </Document>

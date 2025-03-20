@@ -1,0 +1,11 @@
+ent-BaseWeaponTurretNF = турель
+    .suffix = Фронтир
+    .desc = { ent-BaseStructure.desc }
+ent-BaseTurretSearchBeam = { "" }
+    .desc = { "" }
+ent-BaseWeaponTurretBallisticNF = балистическая турель
+    .desc = { ent-BaseWeaponTurretNF.desc }
+ent-BaseWeaponTurretMagazineFed = балистическая турель (перезарежаемый магазин)
+    .desc = Автоматическая балистическая турель с перезарежаемым магазином.
+ent-BaseWeaponTurretEnergyNF = энергетическая турель
+    .desc = { ent-BaseWeaponTurretNF.desc }

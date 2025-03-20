@@ -39,8 +39,8 @@
 
   ## 1.2. Генератор ДАМ.
   <Box>
-  <GuideEntityEmbed Entity="ДАМController"/>
-  <GuideEntityEmbed Entity="ДАМJar"/>
+  <GuideEntityEmbed Entity="AmeController"/>
+  <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
 
   - Убедитесь, что сердечник ДАМ должным образом построен.

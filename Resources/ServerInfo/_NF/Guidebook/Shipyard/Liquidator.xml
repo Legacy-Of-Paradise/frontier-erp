@@ -33,7 +33,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -44,7 +44,7 @@
   ## 1.2. С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
-  <GuideEntityEmbed Entity="SheetУран"/>
+  <GuideEntityEmbed Entity="SheetUranium"/>
   <GuideEntityEmbed Entity="SignRadiationMed"/>
   </Box>
 
@@ -99,9 +99,7 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Liquidator-class service ships are equipped with a single ЛКП unit that can be used to appraise the ship's total power consumption. One can check the ship's total power consumption against the С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. Target Power output: to keep SMES, substation, and ЛКП fully charged, С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. Target Power output should exceed ЛКП's Load. Remember to check ЛКП Load and adjust the generator unit Target Power after connecting new power-consuming machines.
-
-  ** - Liquidator-class service ships have higher power demand than a standard П.А.К.М.А.Н. can provide at optimal settings, and come equipped with a С.У.П.Е.Р. П.А.К.М.А.Н. instead. Please Заметка that the recommended Target Power value to avoid blackouts during Gravity Generator charging sequence is 22 кВ.
+  * - Служебные суда класса "Ликвидатор" потребляют больше энергии, чем может обеспечить генератор  П.А.К.М.А.Н. при оптимальных настройках, и вместо этого оснащаются С.У.П.Е.Р.П.А.К.М.А.Н. Пожалуйста, обратите внимание, что рекомендуемое целевое значение мощности, позволяющее избежать отключения электроэнергии во время зарядки гравитационного генератора, составляет 22 кВ.
 
   <Box>
   <GuideEntityEmbed Entity="SignRadiationMed"/>
@@ -109,6 +107,6 @@
   <GuideEntityEmbed Entity="GeigerCounter"/>
   <GuideEntityEmbed Entity="ShuttersRadiation"/>
   </Box>
-  Заметка: Be sure to take all necessary protective measures when working with radioactive materials: use a radiation suit, engage internals, make sure to enable Geiger's counter, wash your hands after, and keep radiation shutters closed at all times.
+  Заметка: Обязательно принимайте все необходимые меры защиты при работе с радиоактивными материалами: наденьте противорадиационный костюм, включите внутренние устройства, обязательно включите счетчик Гейгера, после этого мойте руки и всегда держите противорадиационные заслонки закрытыми.
 
 </Document>

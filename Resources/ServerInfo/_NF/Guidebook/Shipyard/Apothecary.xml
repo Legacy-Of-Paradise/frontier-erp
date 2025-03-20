@@ -21,7 +21,7 @@
 
     [color=#a4885c]Консоль идентификации:[/color] Нет
 
-    "A modest chemistry lab and medical support vessel designed to provide support deep space colonization, mining and xeНет exploration efforts. Deployed by the Far Star Biotech company, the Apothecary is the definitive aid and health craft for rock hoppers and xeНет biologists."
+    "Скромная химическая лаборатория и медицинское вспомогательное судно, предназначенное для колонизации дальнего космоса, добычи полезных ископаемых и проведения геологоразведочных работ. "APOTHECARY", созданный биотехнологической компанией "Far Star Biotech", является незаменимым медицинским судном для путешественников по камням и биологов."
 
     # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 
@@ -31,7 +31,7 @@
     <Box>
         <GuideEntityEmbed Entity="SMESBasic"/>
         <GuideEntityEmbed Entity="SubstationWallBasic"/>
-        <GuideEntityEmbed Entity="ЛКПBasic"/>
+        <GuideEntityEmbed Entity="APCBasic"/>
     </Box>
 
     - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -42,14 +42,14 @@
     ## 1.2. С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н.
     <Box>
         <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
-        <GuideEntityEmbed Entity="SheetУран"/>
+        <GuideEntityEmbed Entity="SheetUranium"/>
         <GuideEntityEmbed Entity="SignRadiationMed"/>
     </Box>
 
    - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. Прикручены к полу
    - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. есть топливо. При длительных полетах убедитесь, что у вас достаточно топлива, чтобы обеспечить длительную выработку электроэнергии во время полета.
    - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. установлен на высоковольтный выход.
-   - Установите целевую мощность на 16 [bold]k[/bold]W.
+   - Установите целевую мощность на 16 [bold]кВт[/bold].
    - Запустите Генератор.
 
   ## 2. Атмосфера
@@ -62,8 +62,8 @@
     </Box>
 
     - Убедитесь, что баллон с воздухом надежно закреплен на порту.
-    - Проверте the distribution pump is set to 101kPa (101kPa).
-    - Check the distribution pump. Located on the deck of the engineering nacelle.
+    - Проверте гастроен ли распределительный насос на давление 101 кПа.
+    - Проверьте распределительный насос. Расположен на палубе инженерного отсека.
 
     ## 2.2. Выпускной контур
     <Box>
@@ -71,7 +71,7 @@
         <GuideEntityEmbed Entity="AirAlarm"/>
     </Box>
 
-    - Check Выпускной контур pump. Located on the deck of the cargo nacelle.
+    - Проверьте насос выпускного контура. Расположен на палубе грузового отсека.
     - Установите воздушную сигнализацию в машинном отделении на фильтрующую (широкую).
 
     ## 3. Другие проверки
@@ -83,13 +83,12 @@
 
     - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
     - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
-    - Проверте blast doors are closed.
-    - Check to Убедитесь, что figurines are comfortable.
+    - Проверте противопожарные двери.
 
     ## Рекомендации опытных пилотов
 
-    * - Apothecary-class medical response ships are equipped with a single ЛКП unit that can be used to appraise the ship's total power consumption (which for the unmodified ship is 15.3 кВ). To keep the substation and ЛКП fully charged, the generator target power should exceed ЛКП's Load, but by as little as possible to achieve maximum fuel efficiency. Remember to check the ЛКП Load and adjust the generator unit's target power after adding or removing power-consuming machines.
+    * - Корабли медицинского реагирования класса "Apothecary" оснащены одним блоком ЛКП, который можно использовать для оценки общего энергопотребления судна (которое для немодифицированного судна составляет 15,3 кВ).
 
-    ** - Apothecary-class ships have a slightly above average power demand. A standard П.А.К.М.А.Н. generator's target power value can be set to 15-16 кВ to modulate between drain and charge. As much of the powerdraw is to sustain the chemistry lab powering down those machines can dramatically reduce the ship's overall draw.
+    ** - Корабли класса "Аптека" потребляют немного больше энергии, чем обычно. Для стандартного генератора П.А.К.М.А.Н. заданное значение мощности может быть установлено на 15-16 кВ, в зависимости от статуса заряда. Поскольку большая часть потребляемой энергии расходуется на поддержание работы химической лаборатории, отключение лаболатории может значительно снизить общую нагрузку на сеть.
 
 </Document>

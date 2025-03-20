@@ -28,7 +28,7 @@
   ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SubstationWallBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что подстанция надежно закреплена на полу.
@@ -38,7 +38,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Проверте the Генераторны  П.А.К.М.А.Н.ы прикреплены к полу.
@@ -72,7 +72,7 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Skipper-class service ships are equipped with a single ЛКП unit that can be used to appraise the ship's total power consumption. One can check the ship's total power consumption against the Генераторны  П.А.К.М.А.Н.ы Target Power output: to keep substation and ЛКПs fully charged, Генераторны  П.А.К.М.А.Н. Target Power output should exceed the combined load of all ЛКПs. Remember to check ЛКП Loads and adjust the generator unit Target Power after connecting new power-consuming machines. The average combined load of all ЛКПs on a stock model Skipper-class ship is 16'000W when idle.
+  * - Skipper - Суда сервисного класса, оснащены одним блоком ЛКП, который можно использовать для оценки общего энергопотребления судна.
 
-  ** - Skipper-class service ships have low power demand meaning that the Генераторны  П.А.К.М.А.Н.'s Target Power value can be lowered as low as 8 кВ. Please Заметка, that recommended Target Power value to avoid blackouts during Gravity Generator charging sequence and extensive power use is 9 кВ.
+  ** - Skipper суда сервисного класса имеют низкую потребляемую мощность, что означает, что целевое значение мощности генератора П.А.К.М.А.Н. может быть снижено до 8 кВ. Пожалуйста, обратите внимание, что рекомендуемое целевое значение мощности, позволяющее избежать отключения электроэнергии во время зарядки гравитационного генератора и при интенсивном потреблении энергии, составляет 9 кВ.
 </Document>

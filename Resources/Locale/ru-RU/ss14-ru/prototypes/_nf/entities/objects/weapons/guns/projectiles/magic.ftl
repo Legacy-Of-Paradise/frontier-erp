@@ -1,0 +1,8 @@
+ent-BulletFireBolt = огненный снаряд
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletMagicBolt = магическйи снаряд
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletBloodCultDarkBolt = кровавый снаряд
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-BulletEldritchHand = жуткая рука
+    .desc = { ent-BaseBullet.desc }

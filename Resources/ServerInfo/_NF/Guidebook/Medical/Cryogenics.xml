@@ -8,28 +8,28 @@
 - Газовые фильтры: Удаляет отработанные газы (углекислый газ и закись азота) из контура.
 - Выпуск воздуха: газовые отходы поступают сюда либо в резервуар для хранения, либо в сеть отвода отходов.
 <Box>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="0"/>
-<GuideEntityEmbed Entity="CloningPod" Caption="cryo pod" Rotation="0"/>
-<GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Rotation="0"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeStraight" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="0"/>
+    <GuideEntityEmbed Entity="CloningPod" Caption="cryo pod" Rotation="0"/>
+    <GuideEntityEmbed Entity="GasThermoMachineFreezerEnabled" Rotation="0"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="180"/>
-<GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
-<GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
-<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
-<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="270"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="180"/>
+    <GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasFilterFlipped" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="270"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="GasPort" Caption="air out" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
-<GuideEntityEmbed Entity="GasPort" Caption="air in" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPressurePump" Rotation="90"/>
-<GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
+    <GuideEntityEmbed Entity="GasPort" Caption="air out" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeTJunction" Rotation="180"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
+    <GuideEntityEmbed Entity="GasPort" Caption="air in" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPressurePump" Rotation="90"/>
+    <GuideEntityEmbed Entity="GasPipeBend" Rotation="270"/>
 </Box>
 
 Не каждая сеть будет выглядеть так, но, надеюсь, этого достаточно, чтобы дать вам общее представление о том, как она функционирует.
@@ -43,8 +43,8 @@
 
 Стандартное давление для газового насоса составляет 1,325 кПа. Криоксадон работает при температуре ниже 170 Кел., но стандартной практикой является установка морозильной камеры на 100 Кел. для более быстрой заморозки.
 
-<GuideReagentEmbed Reagent="Cryoxadone"/>
-<GuideReagentEmbed Reagent="Doxarubixadone"/>
-<GuideReagentEmbed Reagent="Dexalin"/>
+    <GuideReagentEmbed Reagent="Cryoxadone"/>
+    <GuideReagentEmbed Reagent="Doxarubixadone"/>
+    <GuideReagentEmbed Reagent="Dexalin"/>
 
 </Document>

@@ -1,11 +1,11 @@
 <Document>
   # CAMPER-ПЕРСОНАЛЬНЫЙ ТРАНСПОРТНЫЙ ШАТТЛ
   <Box>
-  <GuideEntityEmbed Entity="ChairПилотSeat" Caption="Cockpit"/>
-  <GuideEntityEmbed Entity="Bed" Caption="Bedroom"/>
-  <GuideEntityEmbed Entity="KitchenKnife" Caption="Kitchen"/>
-  <GuideEntityEmbed Entity="ToiletEmpty" Caption="Bathroom"/>
-  <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle" Caption="Maintenance"/>
+  <GuideEntityEmbed Entity="ChairPilotSeat" Caption="Кабина пилота"/>
+  <GuideEntityEmbed Entity="Bed" Caption="Спальня"/>
+  <GuideEntityEmbed Entity="KitchenKnife" Caption="Кухня"/>
+  <GuideEntityEmbed Entity="ToiletEmpty" Caption="Ванная"/>
+  <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle" Caption="Техобслуживание"/>
   </Box>
 
   [color=#a4885c]Размер судна:[/color] Малое
@@ -39,7 +39,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н..
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Убедитесь, что Генераторны  П.А.К.М.А.Н. надежно закреплены на полу.

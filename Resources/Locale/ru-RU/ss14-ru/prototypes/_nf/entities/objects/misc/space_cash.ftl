@@ -1,0 +1,14 @@
+ent-SpaceCash15000 = { ent-SpaceCash }
+    .suffix = 15000
+    .desc = { ent-SpaceCash.desc }
+ent-SpaceCash25000 = { ent-SpaceCash }
+    .suffix = 25000
+    .desc = { ent-SpaceCash.desc }
+ent-SpaceCash100000 = { ent-SpaceCash }
+    .suffix = 100000
+    .desc = { ent-SpaceCash.desc }
+ent-SpaceCashCounterfeit = спесос
+    .desc = У тебя должны быть деньги.
+ent-SpaceCashCounterfeit200000 = { ent-SpaceCashCounterfeit }
+    .suffix = 200000
+    .desc = { ent-SpaceCashCounterfeit.desc }

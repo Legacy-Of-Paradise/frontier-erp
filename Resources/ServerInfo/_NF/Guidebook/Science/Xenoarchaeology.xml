@@ -8,8 +8,8 @@
 
 ## Узлы артефактов
 <Box>
-<GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
-<GuideEntityEmbed Entity="SimpleXenoArtifactItem" Caption=""/>
+    <GuideEntityEmbed Entity="ComplexXenoArtifact" Caption=""/>
+    <GuideEntityEmbed Entity="SimpleXenoArtifactItem" Caption=""/>
 </Box>
 Артефакты состоят из случайно сгенерированного дерева узлов. Эти узлы имеют "[color=#a4885c]глубину[/color]", представляющую степень опасности узла, и количество других узлов, подключенных к нему, называемых "[color=#a4885c]края[/color]",
 
@@ -27,8 +27,8 @@
 
 ## Анализатор артефактов и аналитическая консоль
 <Box>
-<GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
-<GuideEntityEmbed Entity="ComputerAnalysisConsole"/>
+    <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
+    <GuideEntityEmbed Entity="ComputerAnalysisConsole"/>
 </Box>
 Основное оборудование, которое вы будете использовать для ксеноархеологии, - это [color=#a4885c]анализатор артефактов[/color] и [color=#a4885c]аналитическая консоль[/color]. Вы можете использовать их для создания отчетов, содержащих ценную информацию об артефакте.
 
@@ -49,7 +49,7 @@
 По причинам, пока не понятным науке, использование Артифексиум более устойчиво в лабораториях, чем на камнях в пустоте. Наши ксеноархеологи предполагают, что эти артефакты могут обладать разумными свойствами и быть более устойчивыми в социальных условиях.
 
 ## Сборка артефактов
-<GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
+    <GuideEntityEmbed Entity="ArtifactFragment" Caption="Artifact Fragment"/>
 
 Можно собрать несколько фрагментов артефакта и собрать их в работающий артефакт. Вы можете попросить их у добывающих кораблей, которые обычно находят их во время добычи полезных ископаемых на астероидах или в экспедициях.
 </Document>

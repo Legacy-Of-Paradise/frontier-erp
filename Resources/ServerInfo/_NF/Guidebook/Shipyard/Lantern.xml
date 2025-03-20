@@ -36,7 +36,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -47,7 +47,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Проверьте, надежно ли Генераторны  П.А.К.М.А.Н. на полу.
@@ -99,8 +99,7 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Lantern-class service ships are equipped with three ЛКП units that can be used to appraise the ship's total power consumption. Unmodifued Lantern-class ship requires 22.5 кВ of power to remain operational.
-
-  ** - Lantern-class service ships have higher power demand than standard Генераторны  П.А.К.М.А.Н. can provide at optimal settings, however the ship comes equipped with 38 Солнечные панели that can provide up to 28.5 кВ of power under the ideal circumstances: assuming that on average properly maintained solar array will provide one third of maximum output power, recommended target power output for Генераторны  П.А.К.М.А.Н. is 14 кВ.
+  * - Служебные суда класса "LANTERN" оснащены тремя блоками ЛКП, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности судну класса "LANTERN" в неизменном виде требуется мощность 22,5 кВА.
+  ** - Служебные суда класса "Фонарь" потребляют больше энергии, чем стандартные генераторы П.А.К.М.А.Н., которые могут обеспечить при оптимальных настройках, однако судно оснащено 38 солнечными батареями, которые могут обеспечить до 28,5 кВА энергии в идеальных условиях: при условии, что в среднем должным образом обслуживаемые солнечные батареи массив обеспечивает треть максимальной выходной мощности, рекомендуемая выходная мощность для генератора П.А.К.М.А.Н. составляет 14 кВ.
 
 </Document>

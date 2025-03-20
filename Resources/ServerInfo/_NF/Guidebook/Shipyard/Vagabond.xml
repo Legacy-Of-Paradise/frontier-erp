@@ -3,8 +3,8 @@
   <Box>
   <GuideEntityEmbed Entity="MiningDrill"/>
   <GuideEntityEmbed Entity="OreProcessor"/>
-  <GuideEntityEmbed Entity="CrateTradeSecureНетrmal" Caption="trading crate"/>
-  <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="trading crate"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureНетrmal" Caption="торговый ящик"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="торговый ящик"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="ShuttleMapVagabond" Caption=""/>
@@ -19,7 +19,7 @@
 
 	[color=#a4885c]Консоль идентификации:[/color] Нет
 
-  "An adaptable long-haul industrial freighter that Пилотs have adapted to many different purposes."
+  "Легко приспосабливаемое дальнемагистральное промышленное грузовое судно, которое пилоты приспособили для самых разных целей."
 
   # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 
@@ -29,7 +29,7 @@
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -40,7 +40,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Убедитесь, что Генераторны  П.А.К.М.А.Н. надежно закреплены на полу.
@@ -88,8 +88,8 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Vagabond-class cargo ships are equipped with five ЛКП units that can be used to appraise the ship's total power consumption. Unmodifued Vagabond-class ship requires 24.6 кВ of power to remain operational.
+  * - Грузовые суда класса Vagabond оснащены пятью блоками ЛКП, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности судну класса Vagabond требуется мощность 24,6 кВт.
 
-  ** - Vagabond-class cargo ships have higher power demand than single standard Генераторны  П.А.К.М.А.Н. can provide at optimal settings, however the ship comes equipped with two Генераторны  П.А.К.М.А.Н.ы, recommended target power output for each Генераторны  П.А.К.М.А.Н. is 13 кВ.
+  ** - Грузовые суда класса Vagabond потребляют больше энергии, чем могут обеспечить стандартные генераторы П.А.К.М.А.Н., однако судно оснащено двумя генераторными П.А.К.М.А.Н., рекомендуемая выходная мощность которых, для каждого из них индивидуальн, составляет 13 кВт.
 
 </Document>

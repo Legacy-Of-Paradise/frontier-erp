@@ -7,20 +7,20 @@
 
 ## Пути получения прибыли
 <Box>
-		<GuideEntityEmbed Entity="ComputerBankATM"/>
-		<GuideEntityEmbed Entity="SpaceCash1000"/>
-		<GuideEntityEmbed Entity="ComputerShipyard"/>
-	</Box>
+	<GuideEntityEmbed Entity="ComputerBankATM"/>
+	<GuideEntityEmbed Entity="SpaceCash1000"/>
+	<GuideEntityEmbed Entity="ComputerShipyard"/>
+</Box>
 Вы можете в любое время получить доступ к своему личному банковскому счету, чтобы снять или внести средства в любом [color=#44cc00]Банкомате Галактического банка[/color]
 
 Присоединяйтесь к команде любого корабля, чтобы помочь команде заработать как можно больше денег и принести как можно больше пользы для НаноТрейзен, или воспользуйтесь [color=#cccc00]Консолью верфи[/color] чтобы приобрести свою собственную <u>посудину</u> корабль.
 
 ## Провизия
 <Box>
-		<GuideEntityEmbed Entity="VendingMachineAstroVend"/>
-		<GuideEntityEmbed Entity="VendingMachineAmmo"/>
-		<GuideEntityEmbed Entity="MachineCryoSleepPod"/>
-	</Box>
+	<GuideEntityEmbed Entity="VendingMachineAstroVend"/>
+	<GuideEntityEmbed Entity="VendingMachineAmmo"/>
+	<GuideEntityEmbed Entity="MachineCryoSleepPod"/>
+</Box>
 Компания NT открыла для продажи запас многих машинных плат, взятых из проектов по строительству избыточных станций, наряду со многими другими удобствами, которые помогут вам в изучении New Frontiers™.
 
 На пограничных станциях обычно работают более длительные смены, поэтому, если вам нужно закончить смену пораньше или сделать длительный перерыв на неопределенный срок, вы всегда можете вернуться к [color=##33bbff]Криокапсуле[/color] что-бы поспать.

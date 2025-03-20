@@ -1,0 +1,15 @@
+ent-SpawnMobCarpExpeditions = carp spawner
+    .suffix = AI, Hostile
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobCarpMagicExpeditions = magicarp spawner
+    .suffix = AI, Hostile
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobCarpHoloExpeditions = holocarp spawner
+    .suffix = AI, Hostile
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobSharkExpeditions = magicarp spawner
+    .suffix = AI, Hostile
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnMobSnakeExpeditions = snake spawner
+    .suffix = AI, Hostile
+    .desc = { ent-MarkerBase.desc }

@@ -26,7 +26,7 @@
   ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SubstationWallBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Убедитесь, что подстанция надежно закреплена на полу.
@@ -36,7 +36,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Проверьте, надежно ли Генераторны  П.А.К.М.А.Н. на полу.
@@ -66,7 +66,7 @@
 
   ## 3. Другие проверки
   <Box>
-  <GuideEntityEmbed Entity="МалоеGyroscope"/>
+  <GuideEntityEmbed Entity="SmallGyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   <GuideEntityEmbed Entity="ShuttersWindow"/>
   </Box>
@@ -77,8 +77,8 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Pioneer-class salvage ships are equipped with a single ЛКП unit that can be used to appraise the ship's total power consumption (4.6 кВ). One can check the ship's total power consumption against the Генераторны  П.А.К.М.А.Н. Target Power output: to keep substation and ЛКП fully charged, Генераторны  П.А.К.М.А.Н. Target Power output should exceed ЛКП's Load. Remember to check ЛКП Load and adjust the generator unit Target Power after connecting new power-consuming machines.
+  * - Утилизационныйе суда класса "Пионер" оснащены одним блоком ЛКП, который можно использовать для оценки общего энергопотребления судна (4,6 кВ). Оснащён генератором П.А.К.М.А.Н.
 
-  ** - Pioneer-class salvage ships have low power demand meaning that standard Генераторны  П.А.К.М.А.Н.'s Target Power value can be lowered as low as 5 кВ. Please Заметка, that recommended Target Power value to avoid blackouts during Gravity Generator charging sequence is 6 кВ.
+  ** - Утилизационныйе суда класса "Пионер" имеют низкое энергопотребление, что означает, что выроботка генератора П.А.К.М.А.Н. может быть снижено до 5 кВ. Пожалуйста, обратите внимание, что рекомендуемое целевое значение мощности, позволяющее избежать отключения электроэнергии во время зарядки гравитационного генератора, составляет 6 кВ.
 
 </Document>

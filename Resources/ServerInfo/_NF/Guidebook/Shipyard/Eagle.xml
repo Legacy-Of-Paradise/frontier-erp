@@ -30,7 +30,7 @@
     <Box>
         <GuideEntityEmbed Entity="SMESBasic"/>
         <GuideEntityEmbed Entity="SubstationWallBasic"/>
-        <GuideEntityEmbed Entity="ЛКПBasic"/>
+        <GuideEntityEmbed Entity="APCBasic"/>
     </Box>
 
     - Убедитесь, что модуль СМЭС надежно закреплен на полу.
@@ -41,7 +41,7 @@
     ## 1.2. С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н.s
     <Box>
         <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
-        <GuideEntityEmbed Entity="SheetУран"/>
+        <GuideEntityEmbed Entity="SheetUranium"/>
         <GuideEntityEmbed Entity="SignRadiationMed"/>
     </Box>
 

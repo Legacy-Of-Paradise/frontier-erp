@@ -4,20 +4,20 @@
 NT открыл свою банковскую отрасль для обычных граждан, обеспечивая их до (int32.MAX)!
  
 ## Банкоматы
-<Box>
-<GuideEntityEmbed Entity="ComputerBankATM"/>
-<GuideEntityEmbed Entity="SpaceCash1000"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="ComputerBankATM"/>
+    <GuideEntityEmbed Entity="SpaceCash1000"/>
+  </Box>
 Вы можете в любое время получить доступ к своему личному банковскому счету, чтобы снять или внести средства в любом [color=#44cc00]банкомате Галактического банка[/color].
 
 В настоящее время NT признает законным платежным средством только [color=#44cc00]Spesos[/color] или  "SpaceBucks" ("Космические баксы").
 
 ## Доступ к учетной записи
-<Box>
-<GuideEntityEmbed Entity="VendingMachineAstroVend"/>
-<GuideEntityEmbed Entity="ComputerCargoOrders"/>
-<GuideEntityEmbed Entity="VendingMachineAmmo"/>
-</Box>
+  <Box>
+    <GuideEntityEmbed Entity="VendingMachineAstroVend"/>
+    <GuideEntityEmbed Entity="ComputerCargoOrders"/>
+    <GuideEntityEmbed Entity="VendingMachineAmmo"/>
+  </Box>
 Доступ к вашему банковскому счету ограничен  [color=#44cc00]Банкоматами Галактического банка[/color] И разнообразными [color=#44cc00]Торговыми автоматами[/color], регулируемых НаноТрейзен.
 
 Большинство транзакций, с которыми вы будете иметь дело, будут осуществляться непосредственно с помощью [color=#44cc00]Spesos[/color].

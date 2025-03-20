@@ -2,7 +2,7 @@
   # LEGMAN-ШАТТЛ КЛАССА СЕРВИС
   <Box>
   <GuideEntityEmbed Entity="ComputerTabletopMassMedia"/>
-  <GuideEntityEmbed Entity="SurveillanceWirelessCДАМraMovableEntertainment"/>
+  <GuideEntityEmbed Entity="SurveillanceWirelessCameraMovableEntertainment"/>
   <GuideEntityEmbed Entity="ClothingHeadHatFedoraBrown"/>
   </Box>
   <Box>
@@ -27,7 +27,7 @@
   ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SubstationWallBasic"/>
-  <GuideEntityEmbed Entity="ЛКПBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
   - Проверьте блок подстанции.
@@ -37,7 +37,7 @@
   ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-  <GuideEntityEmbed Entity="SheetПлазма"/>
+  <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
   - Проверьте, надежно ли Генераторны  П.А.К.М.А.Н. на полу.
@@ -70,7 +70,7 @@
 
   ## 3. Другие проверки
   <Box>
-  <GuideEntityEmbed Entity="МалоеGyroscope"/>
+  <GuideEntityEmbed Entity="SmallGyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   <GuideEntityEmbed Entity="ShuttersWindow"/>
   </Box>
@@ -81,8 +81,8 @@
 
   ## Рекомендации опытных пилотов
 
-  * - Legman-class service ships are equipped with one ЛКП units that can be used to appraise the ship's total power consumption. Unmodifued Legman-class ship requires 4.7 кВ of power to remain operational.
+  * - Cуда класса Legman оснащены одним блоком ЛКП, который можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности судна класса Legman в неизменном виде требуется мощность в 4,7 кВА.
 
-  ** - Legman-class service ships have low power demand meaning that standard Генераторны  П.А.К.М.А.Н.'s Target Power value can be lowered as low as 5 кВ. Please Заметка, that recommended Target Power value to avoid blackouts during Gravity Generator charging sequence is 6 кВ.
+  ** - Сервисные суда класса Legman имеют низкую электропотребляемость, что означает, что целевое значение мощности стандартных генераторных установок может быть снижено до 5 кВ. Пожалуйста, обратите внимание, что рекомендуемое целевое значение мощности, позволяющее избежать отключения электроэнергии, во время зарядки гравитационного генератора, составляет 6 кВ.
 
 </Document>

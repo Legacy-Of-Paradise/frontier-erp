@@ -1,0 +1,11 @@
+ent-ClothingNeckCloakJanitor = мантия уборщика
+    .desc = Как ты вообще это получил? Ты сам это сделал?
+ent-ClothingNeckCloakJanitorFilled = { ent-ClothingNeckCloakJanitor }
+    .suffix = Заполненный
+    .desc = { ent-ClothingNeckCloakJanitor.desc }
+ent-ClothingNeckMantleSheriff = мантия Шерифа
+    .desc = Перестрелки с террористами — это просто очередной вторник для этого шерифа. Эта мантия — символ преданности станции.
+ent-ClothingNeckMantleSr = мантия Представителя Фронтира
+    .desc = Эта мантия защищает шею и плечи представителя станции от жестоких порезов бумагой. Эта мантия является символом доверия Центрального Командования.
+ent-ClothingNeckMantleBH = мантия охотника
+    .desc = Я могу привести тебя теплым или холодным. Или ты можешь перебить цену.

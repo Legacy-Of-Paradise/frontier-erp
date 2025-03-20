@@ -1,0 +1,16 @@
+ent-BaseCrossbow = арбалет
+    .desc = Самое оригинальное оружие. Прицелься и стреляй.
+ent-BaseCrossbowWieldable = { ent-BaseCrossbow }
+    .desc = { ent-BaseCrossbow.desc }
+ent-CrossbowModern = { ent-BaseCrossbowWieldable }
+    .desc = { ent-BaseCrossbowWieldable.desc }
+ent-CrossbowImprovised = импровизированный арбалет
+    .desc = { ent-BaseCrossbowWieldable.desc }
+ent-CrossbowBloodCult = арбалет кровавого культа
+    .desc = { ent-BaseCrossbowWieldable.desc }
+ent-CrossbowModernHand = арбалет с ручкой
+    .desc = { ent-BaseCrossbow.desc }
+ent-CrossbowImprovisedHand = импровизированный арбалет с ручкой
+    .desc = { ent-BaseCrossbow.desc }
+ent-CrossbowBloodCultHand = арбалет кровавого культа с ручкой
+    .desc = { ent-BaseCrossbow.desc }

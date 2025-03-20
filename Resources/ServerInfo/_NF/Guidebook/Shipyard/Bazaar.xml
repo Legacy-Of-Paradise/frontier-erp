@@ -2,7 +2,7 @@
   # BAZAAR-ШАТТЛ КЛАССА СЕРВИС
   <Box>
   <GuideEntityEmbed Entity="CrateAirlockKit" Caption="crate"/>
-  <GuideEntityEmbed Entity="ComputerWallmountWithdrawBankATM" Caption="ATM"/>
+  <GuideEntityEmbed Entity="ComputerWallmountWithdrawBankATM" Caption="Банкомат"/>
   <GuideEntityEmbed Entity="Rack"/>
   </Box>
   <Box>
@@ -39,7 +39,7 @@
   ## 1.2. С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
-  <GuideEntityEmbed Entity="SheetУран"/>
+  <GuideEntityEmbed Entity="SheetUranium"/>
   <GuideEntityEmbed Entity="SignRadiationMed"/>
   </Box>
 

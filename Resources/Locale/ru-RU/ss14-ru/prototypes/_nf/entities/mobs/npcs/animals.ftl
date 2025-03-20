@@ -1,0 +1,10 @@
+ent-MobParrotNF = попугай
+    .desc = { ent-MobParrot.desc }
+ent-CageParrot = клетка для переноски попугая
+    .desc = Дом вдали от дома для вашего пронзительно кричащего пернатого друга.
+    .suffix = Пуст
+ent-MobRosyMothroach = розовая мотыльковая плотва
+    .desc = Это восхитительный побочный продукт моль- подождите, а почему он розовый?
+ent-MobAngryBeeTimed = пчела
+    .suffix = Злая, Временная
+    .desc = { ent-MobAngryBee.desc }

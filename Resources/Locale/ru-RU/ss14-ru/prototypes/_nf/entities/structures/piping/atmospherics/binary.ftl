@@ -1,0 +1,17 @@
+ent-GasPressurePumpOn = { ent-GasPressurePump }
+    .suffix = Вкл
+    .desc = { ent-GasPressurePump.desc }
+ent-GasPressurePumpOnMax = { ent-GasPressurePumpOn }
+    .suffix = Вкл, Максимум
+    .desc = { ent-GasPressurePumpOn.desc }
+ent-GasVolumePumpOn = { ent-GasVolumePump }
+    .suffix = Вкл
+    .desc = { ent-GasVolumePump.desc }
+ent-BaseGaslock = газовый стык
+    .desc = { ent-BaseStructure.desc }
+ent-BasePressurePumpGaslock = внешний газовый стык
+    .desc = Соединяет газовые трубы на отдельных судах или станциях вместе, чтобы обеспечить транспортировку газа. Для обеспечения подачи газа оба борта должны быть состыкованы и работать в одном направлении.
+ent-Gaslock = { ent-BasePressurePumpGaslock }
+    .desc = { ent-BasePressurePumpGaslock.desc }
+ent-GaslockFrame = переносной газовый стык
+    .desc = Через него подается газ. Для подачи газа обе стороны должны быть состыкованы и прокачиваться в одном направлении.

@@ -1,0 +1,12 @@
+ent-PinpointerUniversalDebug = { ent-PinpointerUniversal }
+    .suffix = DEBUG, НЕ МАППИТЬ!!!
+    .desc = { ent-PinpointerUniversal.desc }
+ent-PinpointerSyndicatePOI = { ent-PinpointerSyndicateNuclear }
+    .desc = Указывая на какое-то неизвестное место.
+    .suffix = Syndicate FOB
+ent-PinpointerDeadDropHint = Пинпойнтер подсказок по тайникам
+    .desc = Указывает на подсказку о контрабантном тайнике.
+    .suffix = DEBUG
+ent-PinpointerDeadDrop = пинпойнтер тайников
+    .desc = Указывает на скрытый тайник.
+    .suffix = DEBUG
