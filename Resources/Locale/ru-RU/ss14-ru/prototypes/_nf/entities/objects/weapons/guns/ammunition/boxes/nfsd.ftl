@@ -1,4 +1,4 @@
 ent-BoxEmpGrenadesAmmo = ящик для эми-снарядов
     .desc = Коробка с электромагнитными гранатами.
-ent-BoxTrackingDartsAmmo = коробка с дротиками для отслеживания 
+ent-BoxTrackingDartsAmmo = коробка с дротиками для отслеживания
     .desc = Коробка с "следящими" дротиками.

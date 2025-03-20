@@ -1,6 +1,6 @@
-ent-NFBlueprintOreBagOfHolding = чертёж блюспейс сумки для руды 
+ent-NFBlueprintOreBagOfHolding = чертёж блюспейс сумки для руды
     .desc = Чертеж со схемой a блюспейс сумки для руды. Может быть вставлен в автолат или техфаб.
-ent-NFBlueprintMiningDrillDiamond = чертёж бура с алмазным наконечником 
+ent-NFBlueprintMiningDrillDiamond = чертёж бура с алмазным наконечником
     .desc = Чертеж со схемой бура с алмазным наконечником . Может быть вставлен в автолат или техфаб.
 ent-NFBlueprintAdvancedMineralScannerEmpty = продвинутого сканера миниралов чертёж
     .desc = Чертеж со схемой продвинутого сканера миниралов. Может быть вставлен в автолат или техфаб.

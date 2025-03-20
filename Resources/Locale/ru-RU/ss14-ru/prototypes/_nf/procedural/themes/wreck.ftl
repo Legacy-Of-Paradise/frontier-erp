@@ -1,2 +1,2 @@
-ent-NFWreckRoomMarker = маркер разрушеной комнаты 
+ent-NFWreckRoomMarker = маркер разрушеной комнаты
     .desc = { ent-BaseRoomMarker.desc }

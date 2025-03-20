@@ -1,8 +1,8 @@
-ent-NFBlueprintWeaponAntiqueLaser = чертёж старинного лазера 
+ent-NFBlueprintWeaponAntiqueLaser = чертёж старинного лазера
     .desc = Чертеж со схемой старинного лазера. Может быть вставлен в автолат или техфаб.
-ent-NFBlueprintWeaponLaserSvalinn = чертёж пистолета Свалина 
+ent-NFBlueprintWeaponLaserSvalinn = чертёж пистолета Свалина
     .desc = Чертеж со схемой пистолета Свалина . Может быть вставлен в автолат или техфаб.
-ent-NFBlueprintPortableRecharger = чертёж портативного зарядного устройства 
+ent-NFBlueprintPortableRecharger = чертёж портативного зарядного устройства
     .desc = Чертеж со схемой портативного зарядного устройства. Может быть вставлен в автолат или техфаб.
-ent-BlueprintClothingOuterHardsuitScaf = чертёж скафандра 
+ent-BlueprintClothingOuterHardsuitScaf = чертёж скафандра
     .desc = Чертеж со схемой скафандра. Может быть вставлен в автолат или техфаб.

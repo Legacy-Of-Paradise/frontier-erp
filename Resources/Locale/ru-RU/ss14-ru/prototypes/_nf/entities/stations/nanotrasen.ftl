@@ -1,5 +1,5 @@
 ent-StandardFrontierStation = { ent-BaseStation }
-    .suffix = DEBUG
+    .suffix = ДЕБАГ
     .desc = { ent-BaseStation.desc }
 ent-StandardFrontierOutpost = { ent-BaseStation }
     .desc = { ent-BaseStation.desc }

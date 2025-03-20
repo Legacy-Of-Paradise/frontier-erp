@@ -6,5 +6,5 @@ ent-PlantAnalyzerEmpty = { ent-PlantAnalyzer }
     .suffix = Пуст
     .desc = { ent-PlantAnalyzer.desc }
 ent-PlantAnalyzerDebug = { ent-BasePlantAnalyzer }
-    .suffix = Debug
+    .suffix = ДЕБАГ
     .desc = { ent-BasePlantAnalyzer.desc }
