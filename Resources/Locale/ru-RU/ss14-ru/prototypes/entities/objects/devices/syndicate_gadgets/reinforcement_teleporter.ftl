@@ -15,4 +15,3 @@ ent-ReinforcementRadioSyndicateSyndiCat = радия подкрепления с
 ent-ReinforcementRadioSyndicateCyborgAssault = рация подкрепления штурмового киборга синдиката
     .desc = Вызовите хорошо вооруженного штурмового киборга!
     .suffix = Ядерный оперативник
-
