@@ -10,9 +10,20 @@
     - trayScanner
     - AccessConfiguratorUniversal
     - Multitool
-    - PowerDrill
-    - JawsOfLife
-    - WelderIndustrialAdvanced
+    #- PowerDrill
+    #- JawsOfLife
+    #- WelderIndustrialAdvanced
+    # Mono
+    - WeaponForceGunAdmin
+    - WeaponTetherGunAdmin
+    - DoorRemoteAll
+    - WelderExperimental
+    - HolofanProjector
+    - EmagUnlimited
+    - DemagUnlimited
+    - BluespaceBeaker
+    - Omnitool
+    - SyringeBluespace
 
 - type: startingGear
   id: MobClippyGear
