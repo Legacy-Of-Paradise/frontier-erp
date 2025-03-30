@@ -46,6 +46,7 @@ jobs:
         if: steps.fc.outputs.comment-id == ''
         uses: peter-evans/create-or-update-comment@v4
         with:
+          token: ${{ secrets.BOT_TOKEN }}
           issue-number: ${{ github.event.number }}
           body: |
             ${{ steps.diff.outputs.summary-details }}
@@ -54,6 +55,7 @@ jobs:
         if: steps.fc.outputs.comment-id != ''
         uses: peter-evans/create-or-update-comment@v4
         with:
+          token: ${{ secrets.BOT_TOKEN }}
           comment-id: ${{ steps.fc.outputs.comment-id }}
           edit-mode: replace
           body: |
@@ -63,6 +65,7 @@ jobs:
         if: steps.fc.outputs.comment-id != ''
         uses: peter-evans/create-or-update-comment@v4
         with:
+          token: ${{ secrets.BOT_TOKEN }}
           comment-id: ${{ steps.fc.outputs.comment-id }}
           edit-mode: append
           body: |
