@@ -15,7 +15,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobCarpExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -34,7 +34,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobCarpMagicExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -53,7 +53,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobCarpHoloExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -70,7 +70,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobCarpRainbowExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -87,7 +87,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobSharkExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 80 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 7 [color=red]Режущий[/color], 5 [color=#9A54BF]Потеря крови[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -104,7 +104,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobSnakeExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 3 [color=red]Режущий[/color], 3 [color=#9A54BF]Потеря крови[/color], 4 [color=lime]Яд[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -123,7 +123,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDragonDungeon"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 200 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 200 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 15 [color=red]Режущий[/color], 15 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет

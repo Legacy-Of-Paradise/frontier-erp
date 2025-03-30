@@ -15,7 +15,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurCompyExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.1 м/с (4.1 м/с)[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 8 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -32,7 +32,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurDiloExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.3 м/с (4.3 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 8 [color=red]Режущий[/color], 2 [color=orange]Кислотный[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -47,7 +47,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurRaptorExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 80 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (4.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 18 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -62,7 +62,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurParaExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -77,7 +77,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurKentroExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 150 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 150 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 2.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -92,7 +92,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurTrikeExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 200 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 200 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3 м/с (3 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 15 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -107,7 +107,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurAnkiExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 250 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 250 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 2 м/с (2 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 8 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -122,7 +122,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurSpinoExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 350 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 350 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (4.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 12 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -137,7 +137,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurStegoExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 350 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 350 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 2.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 12 [color=red]Тупой[/color], 8 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -152,7 +152,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobDinosaurTrexExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 450 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 450 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (4.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 15 [color=red]Тупой[/color], 10 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет

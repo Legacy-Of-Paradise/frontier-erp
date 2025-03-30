@@ -12,10 +12,10 @@
   Самый младший по званию в военно-космических силах Синдиката. Ваш обычный "Помощник на месте", когда дело доходит до выполнения черной работы.
 
   <Box>
-  <GuideEntityEmbed Entity="MobSyndicateNavalDeckhиA"/>
-  <GuideEntityEmbed Entity="MobSyndicateNavalDeckhиVoid"/>
+    <GuideEntityEmbed Entity="MobSyndicateNavalDeckhandA"/>
+    <GuideEntityEmbed Entity="MobSyndicateNavalDeckhandVoid"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=yellow]Пронзающий[/color] (.35)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 30%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%; [color=yellow]Взрыв[/color] 10% (бронежилет)
@@ -33,7 +33,7 @@
   <GuideEntityEmbed Entity="MobSyndicateNavalEngineerA"/>
   <GuideEntityEmbed Entity="MobSyndicateNavalEngineerVoid"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10 [color=yellow]Пронзающий[/color] (дробь)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 30%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%; [color=yellow]Взрыв[/color] 10% (бронежилет)
@@ -48,7 +48,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobSyndicateNavalSaboteurA"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 0; Электромагнитные разряды (разряжает батареи)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 30%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%; [color=yellow]Взрыв[/color] 10% (бронежилет)
@@ -64,7 +64,7 @@
   <GuideEntityEmbed Entity="MobSyndicateNavalMedicA"/>
   <GuideEntityEmbed Entity="MobSyndicateNavalMedicVoid"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=yellow]Пронзающий[/color], 6 [color=lime]Яд[/color] (syndicate dart)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 20%; [color=red]Режущий[/color] 15%; [color=yellow]Пронзающий[/color] 35%; [color=orange]Ожоги[/color] 15%; [color=orange]Кислотный[/color] 25% (бронированный медицинский халат)
@@ -83,7 +83,7 @@
   <GuideEntityEmbed Entity="MobSyndicateNavalOperatorA"/>
   <GuideEntityEmbed Entity="MobSyndicateNavalOperatorVoid"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=yellow]Пронзающий[/color] (.35)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] и [color=red]Режущий[/color] 10%; [color=yellow]Пронзающий[/color] 60%; [color=orange]Ожоги[/color] 10%; [color=yellow]Взрыв[/color] 20% (пуленепробиваемый жилет)
@@ -98,7 +98,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobSyndicateNavalGrenadierA"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] разнообразный [color=yellow]Взрыв[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 10%; [color=orange]Ожоги[/color] 25%; [color=yellow]Взрыв[/color] 85% (костюм от взрывов синдиката)
@@ -113,7 +113,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobSyndicateNavalChemwarriorA"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] разнообразный
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -125,7 +125,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobSyndicateNavalChemwarriorB"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] разнообразный
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=yellow]Пронзающий[/color] 60%; [color=orange]Ожоги[/color] 40%; [color=yellow]Кислотный[/color] 60% (биокостюм синдиката)
@@ -142,7 +142,7 @@
   <GuideEntityEmbed Entity="MobSyndicateNavalSecondOfficerA"/>
   <GuideEntityEmbed Entity="MobSyndicateNavalSecondOfficerVoid"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 17 [color=orange]Ожоги[/color] (усовершенствованный лазерный пистолет)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 30%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%; [color=yellow]Взрыв[/color] 10% (бронежилет)
@@ -158,7 +158,7 @@
   <GuideEntityEmbed Entity="MobSyndicateNavalCaptainA"/>
   <GuideEntityEmbed Entity="MobSyndicateNavalCaptainVoid"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 35 [color=yellow]Пронзающий[/color] (.45)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color], [color=yellow]Пронзающий[/color] и [color=orange]Ожоги[/color] 30%;  [color=orange]Кислотный[/color] 25%; [color=yellow]Взрыв[/color] 10% (бронированный пальто синдиката)
@@ -171,9 +171,9 @@
   Этот офицер, линия связи Синдиката, несет полную ответственность за ее работу. Неважно кто ты - Агент или Оперативник. Ты с ним знаком. Вооружен штурмовой винтовкой и хорошо бронирован.
 
   <Box>
-  <GuideEntityEmbed Entity="MobSyndicateNavalCommиerA"/>
+  <GuideEntityEmbed Entity="MobSyndicateNavalCommanderA"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 35 [color=yellow]Пронзающий[/color] (.30)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color], [color=yellow]Пронзающий[/color] 40%; [color=orange]Ожоги[/color] 80%; [color=orange]Кислотный[/color] 50%; [color=lime]Радиация[/color] 99%; [color=yellow]Взрыв[/color] 80% (элитный бронекостюм синдиката)
@@ -184,7 +184,7 @@
   # Цели миссии
   ## Устранение
   <Box>
-  <GuideEntityEmbed Entity="MobSyndicateNavalCommиerA"/>
+  <GuideEntityEmbed Entity="MobSyndicateNavalCommanderA"/>
   </Box>
   Уничтожьте крупное и опасное существо - [color=#a4885c]Связиста синдиката[/color] в течение заданного срока, для получения денежного вознаграждение.
 

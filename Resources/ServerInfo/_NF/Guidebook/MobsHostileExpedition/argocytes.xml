@@ -17,7 +17,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteSlurvaExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 15 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 15 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3 м/с (3 м/с)[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 3 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -32,9 +32,9 @@
   Вторая стадия жизненного цикла морфотипа Сталкера. Все еще маленькие, эти существа, как правило, путешествуют небольшими стаями в целях безопасности.
 
   <Box>
-  <GuideEntityEmbed Entity="MobArgocyteБегунExpeditions"/>
+  <GuideEntityEmbed Entity="MobArgocyteSkitterExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 30 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 30 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -49,7 +49,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteSwiperExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 40 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 40 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 8 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -64,7 +64,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteGliderExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (4.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -79,7 +79,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteCrawlerExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 60 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 60 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 5 м/с (5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 12 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -94,7 +94,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteFounderExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 150 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 150 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (4.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -109,7 +109,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteBarrierExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 35 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 35 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 3 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -124,7 +124,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteMolderExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 80 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 8 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -139,7 +139,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocytePouncerExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -154,7 +154,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteHarvesterExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 90 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 90 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 8 [color=orange]Кислотный[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -169,7 +169,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteEnforcerExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -184,7 +184,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobArgocyteLeviathingExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 500 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 500 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 25 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет

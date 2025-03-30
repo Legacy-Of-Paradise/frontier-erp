@@ -15,7 +15,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenarySoldierKnife" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 8 [color=red]Режущий[/color], 2 [color=yellow]Пронзающий[/color] (топорик)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%
@@ -28,7 +28,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenarySoldierPistol" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=yellow]Пронзающий[/color] (.35)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%
@@ -39,7 +39,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenarySoldierNovalite" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 17 [color=yellow]Пронзающий[/color] (.20 round)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%
@@ -54,7 +54,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenaryBreacherмачете" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)[bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 15 [color=red]Режущий[/color] (мачете)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%
@@ -65,7 +65,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenarySoldierRevolver" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 17 [color=yellow]Пронзающий[/color] (.20)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%
@@ -76,7 +76,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenaryBreacherдробовик" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10 [color=yellow]Пронзающий[/color] (картридж для дробовика)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%
@@ -91,7 +91,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenarySpecialistMedic"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 14 [color=orange]Ожоги[/color] (Старомодный лазерный пистолет); 5 [color=red]Тупой[/color], 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color] (циркулярная пила)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%
@@ -102,7 +102,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenarySpecialistAssault"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 14 [color=orange]Ожоги[/color] (Старомодный лазерный пистолет); 5 [color=red]Тупой[/color], 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color] (циркулярная пила)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%
@@ -117,7 +117,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobMercenaryCaptain"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 35 [color=yellow]Пронзающий[/color] (.45)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%

@@ -1,7 +1,7 @@
 <Document>
   # BRIGAND- ШАТТЛ ЭКСПЕДИЦИОННОГО КЛАССА
   <Box>
-  <GuideEntityEmbed Entity="ClothingMaskGasНаемник"/>
+  <GuideEntityEmbed Entity="ClothingMaskGasMercenary"/>
   <GuideEntityEmbed Entity="WeaponRifleAk"/>
   <GuideEntityEmbed Entity="IngotGold"/>
   <GuideEntityEmbed Entity="MobRandomSecurityCorpse"/>

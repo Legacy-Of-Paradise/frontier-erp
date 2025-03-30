@@ -1,7 +1,7 @@
 <Document>
   # INVESTIGATOR-ШАТТЛ ИССЛЕДОВАТЕЛЬСКОГО КЛАССА
   <Box>
-  <GuideEntityEmbed Entity="VariedXeНетArtifactItem"/>
+  <GuideEntityEmbed Entity="VariedXenoArtifactItem"/>
   <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
   <GuideEntityEmbed Entity="ComputerTabletopAnalysisConsole"/>
   <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>

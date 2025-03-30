@@ -17,7 +17,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconScrap" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 60 (Критическое состояние), 120 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 60 (Критическое состояние), 120 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=red]Тупой[/color], 4 [color=orange]Ожоги[/color] (рукопашка); 14 [color=orange]Ожоги[/color] (ranged)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -37,7 +37,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconDroneLethals"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 30 (Критическое состояние), 90 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 30 (Критическое состояние), 90 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 20 [color=orange]Ожоги[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -51,7 +51,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconDroneNonLethals"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 30 (Критическое состояние), 90 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 30 (Критическое состояние), 90 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=orange]Ожоги[/color]; 20 [color=lightblue]Stamina[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -65,7 +65,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconDroneScience"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 30 (Критическое состояние), 90 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 30 (Критическое состояние), 90 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=orange]Ожоги[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -83,7 +83,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconServo"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 80 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=red]Тупой[/color], 4 [color=orange]Ожоги[/color] (рукопашка)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -101,7 +101,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconHerder"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 80 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=red]Тупой[/color], [color=orange]Электрошок[/color], 10 [color=lightblue]Stamina[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -119,7 +119,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconHunter"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 30 (Критическое состояние), 90 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 30 (Критическое состояние), 90 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 17 [color=orange]Ожоги[/color] (лазерная винтовка)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -137,7 +137,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconCatcher"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 80 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=red]Тупой[/color], 4 [color=orange]Ожоги[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -153,7 +153,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconViscerator"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 12 (Критическое состояние), 20 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 12 (Критическое состояние), 20 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 5 м/с (5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 4 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -171,7 +171,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconTesla"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 110 (Критическое состояние), 160 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 110 (Критическое состояние), 160 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 14 [color=yellow]Пронзающий[/color], 10 [color=lightblue]Stamina[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -189,7 +189,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconGuardian"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 200 (Критическое состояние), 400 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 200 (Критическое состояние), 400 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 4 [color=orange]Ожоги[/color] (поврежденный турболазер)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -207,7 +207,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobRogueSiliconBoss"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 300 (Критическое состояние), 400 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 300 (Критическое состояние), 400 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 15 [color=orange]Взрывчатый[/color] (микроракеты)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%

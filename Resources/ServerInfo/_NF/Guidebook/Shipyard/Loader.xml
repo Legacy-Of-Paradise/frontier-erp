@@ -1,8 +1,8 @@
 <Document>
   # LOADER-ШАТТЛ КЛАССА СНАБЖЕНИЯ
   <Box>
-  <GuideEntityEmbed Entity="CrateTradeSecureНетrmal" Caption="trading crate"/>
-  <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="trading crate"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureNormal" Caption="торговый ящик"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="торговый ящик"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="ShuttleMapLoader" Caption=""/>

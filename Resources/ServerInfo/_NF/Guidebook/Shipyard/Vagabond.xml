@@ -3,7 +3,7 @@
   <Box>
   <GuideEntityEmbed Entity="MiningDrill"/>
   <GuideEntityEmbed Entity="OreProcessor"/>
-  <GuideEntityEmbed Entity="CrateTradeSecureНетrmal" Caption="торговый ящик"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureNormal" Caption="торговый ящик"/>
   <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="торговый ящик"/>
   </Box>
   <Box>

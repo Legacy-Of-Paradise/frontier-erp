@@ -1,8 +1,8 @@
 ent-MobCatCrispy = Криспи
     .desc = Женевская конвенция распространяется на животных?
-ent-MobCatSpooky = жуткий
+ent-MobCatSpooky = Жуткий
     .desc = Серьезная ошибка.
-    .suffix = Адмеме
+    .suffix = Адмемы
 ent-FoodMealDragonOmelette = омлет с драконом
     .desc = Лучший из всех омлетов.
 ent-FoodBreadAvocadoToast = тост с авокадо

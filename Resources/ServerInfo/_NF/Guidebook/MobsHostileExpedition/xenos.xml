@@ -14,7 +14,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobXenoBurrowerExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=red]Все типы тупого урона[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -31,7 +31,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobXenoDroneExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 70 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 70 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Все типы тупого урона[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -46,7 +46,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobXenoPraetorianExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10 [color=red]Все типы тупого урона[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -61,7 +61,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobXenoRavagerExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 150 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 150 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.2 м/с (2.3 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 14 [color=red]Все типы тупого урона[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -76,7 +76,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobXenoRunnerExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 6 м/с (2.7 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 3 [color=red]Все типы тупого урона[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -91,7 +91,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobXenoSpitterExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 75 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 75 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=orange]Кислотный[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -104,9 +104,9 @@
   Ксено-Турель это странное, неподвижное существо, которое выделяет и сплевывает ту же кислотную слюну, что и плевательница.
 
   <Box>
-  <GuideEntityEmbed Entity="WeaponТурельXeno"/>
+  <GuideEntityEmbed Entity="WeaponTurretXeno"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 75 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 75 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 0 м/с (0 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=orange]Кислотный[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -121,7 +121,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobXenoQueenDungeon"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 250 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 250 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.8 м/с (2.8 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 20 [color=red]Все типы тупого урона[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет

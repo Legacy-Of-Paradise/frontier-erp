@@ -13,7 +13,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobPunkGangerMeleeT1" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 12 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -26,7 +26,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobPunkGangerMeleeT2" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%; [color=orange]Взрыв[/color] 10% (панковская броня)
@@ -37,7 +37,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobPunkGangerMeleeT3" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 18 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] 10%; [color=yellow]Пронзающий[/color] 60%; [color=orange]Ожоги[/color] 10%; [color=orange]Взрыв[/color] 20% (панковская тяжелая броня)
@@ -48,7 +48,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobPunkGangerPistol" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=yellow]Пронзающий[/color] (.35)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -57,9 +57,9 @@
   [bold][color=#a4885c]________________________________________________________________________[/color]
 
   <Box>
-  <GuideEntityEmbed Entity="MobPunkGangerдробовик" Caption=""/>
+  <GuideEntityEmbed Entity="MobPunkGangerShotgun" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10-60 [color=yellow]Пронзающий[/color] (Дробь)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -70,7 +70,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobPunkGangerSmg" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=yellow]Пронзающий[/color] (.35)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 25%; [color=orange]Ожоги[/color] 20%; [color=orange]Кислотный[/color] 10%; [color=orange]Взрыв[/color] 10% (панковская броня)
@@ -85,7 +85,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobPunkGangerLeader" Caption=""/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 17 [color=orange]Ожоги[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] 10%; [color=yellow]Пронзающий[/color] 60%; [color=orange]Ожоги[/color] 10%; [color=orange]Взрыв[/color] 20% (панковская тяжелая броня)

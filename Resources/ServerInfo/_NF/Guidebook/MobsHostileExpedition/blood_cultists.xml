@@ -15,7 +15,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobBloodCultistPriest"/>per
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10 [color=red]Режущий[/color] (кровавая молния)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=orange]Ожоги[/color] 50%; [color=yellow]Пронзающий[/color] 40% (доспехи послушника)
@@ -33,7 +33,7 @@
   <GuideEntityEmbed Entity="MobBloodCultistJanitor"/>
   <GuideEntityEmbed Entity="ClothingBeltCultForceField"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 0-35 [color=red]Режущий[/color] (1 [color=red]Режущий[/color] Мыльный залп)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=orange]Ожоги[/color] 10%; [color=yellow]Пронзающий[/color] 60%; [color=yellow]Взрыв[/color] 20% (одеяния культа уборщика)
@@ -48,7 +48,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobBloodCultistAcolyte"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=red]Режущий[/color] (жуткий меч)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=orange]Ожоги[/color] 50%; [color=yellow]Пронзающий[/color] 40% (доспехи послушника)
@@ -63,7 +63,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobBloodCultistZealotMelee"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 12 [color=red]Режущий[/color] (ritual dagger)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 30%; [color=orange]Ожоги[/color] 20%; [color=orange]Ожоги[/color] и [color=yellow]Взрыв[/color] 10% (Роба культиста)
@@ -74,7 +74,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobBloodCultistZealotRanged"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 20 [color=red]Режущий[/color], 5 [color=#9A54BF]Потеря крови[/color] (арбалетный болт кровопийцы)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 30%; [color=orange]Ожоги[/color] 20%; [color=orange]Ожоги[/color] и [color=yellow]Взрыв[/color] 10% (Роба культиста)
@@ -85,7 +85,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobBloodCultistЗаклинание"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 2 [color=#9A54BF]Потеря крови[/color] (Заклинание кровавой стрелы)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 30%; [color=orange]Ожоги[/color] 20%; [color=orange]Ожоги[/color] и [color=yellow]Взрыв[/color] 10% (Роба культиста)
@@ -102,7 +102,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobBloodCultLeech"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 80 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 6 м/с (4 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 10 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -117,7 +117,7 @@
   <Box>
   <GuideEntityEmbed Entity="BloodCultТурель"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 300
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 300
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 0 м/с (0 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 2 [color=#9A54BF]Потеря крови[/color] (Заклинание кровавой стрелы)
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -139,7 +139,7 @@
   <GuideEntityEmbed Entity="MobBloodCultistAscended"/>
   <GuideEntityEmbed Entity="ClothingNeckAmuletBloodCult"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 300 (Критическое состояние), 400 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 300 (Критическое состояние), 400 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 20 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -158,7 +158,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobBloodCultDrainedOneGuidebook"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 4 [color=#9A54BF]Asphyxiation[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -177,7 +177,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobBloodCultShadeGuidebook"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 2 [color=red]Режущий[/color], 2 [color=#9A54BF]Потеря крови[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет

@@ -13,7 +13,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobExplorerрукопашкаT1"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с[bold][color=#a4885c]*[/color][/bold]
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 6 [color=red]Тупой[/color], 6 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -30,7 +30,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobExplorerRangedT1"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 12 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
@@ -45,7 +45,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobExplorerрукопашкаT2"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 7 [color=red]Тупой[/color], 6 [color=red]Режущий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 10%; [color=orange]Ожоги[/color] 5%; [color=orange]Кислотный[/color] 10%
@@ -60,7 +60,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobExplorerRangedT2"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 12 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 10%; [color=orange]Ожоги[/color] 5%; [color=orange]Кислотный[/color] 10%
@@ -75,7 +75,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobExplorerрукопашкаT3"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 2 [color=red]Тупой[/color], 2 [color=red]Режущий[/color], 2 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 15%; [color=orange]Ожоги[/color] 10%; [color=orange]Кислотный[/color] 15%
@@ -90,7 +90,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobExplorerRangedT3"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color], [color=red]Режущий[/color] и [color=yellow]Пронзающий[/color] 15%; [color=orange]Ожоги[/color] 10%; [color=orange]Кислотный[/color] 15%
@@ -107,7 +107,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobExplorerHauler"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 200 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 200 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 20 [color=red]Тупой[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] 30%; [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 30%; [color=orange]Кислотный[/color] 10%
@@ -123,7 +123,7 @@
   <Box>
   <GuideEntityEmbed Entity="MobExplorerBoss"/>
   </Box>
-  - [bold][color=#a4885c]Здоровьеs:[/color][/bold] 120 (Критическое состояние), 150 (мертв)
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 120 (Критическое состояние), 150 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
   - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 16 [color=orange]Ожоги[/color], 4 [color=yellow]Пронзающий[/color]
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] [color=red]Тупой[/color] и [color=red]Режущий[/color] 50%; [color=yellow]Пронзающий[/color] 50%; [color=orange]Ожоги[/color] 30%; [color=orange]Кислотный[/color] 50%
