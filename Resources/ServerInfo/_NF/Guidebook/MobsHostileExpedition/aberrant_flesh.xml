@@ -52,7 +52,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-    <GuideEntityEmbed Entity="MobFleshТискиExpeditions"/>
+    <GuideEntityEmbed Entity="MobFleshClampExpeditions"/>
     <GuideEntityEmbed Entity="DartAberrantFleshHorrorSpikeGuidebook"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 40 (мертв)
@@ -61,13 +61,13 @@
   - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
   - [bold][color=#a4885c]Особые способности:[/color][/bold] Полет, Стрелок: Костяные шипы / Желчек
 
-  <GuideReagentEmbed Reagent="GastroЯды"/>
+  <GuideReagentEmbed Reagent="GastroToxin"/>
 
   [bold][color=#a4885c]________________________________________________________________________[/color]
 
   <Box>
-    <GuideEntityEmbed Entity="MobFleshТискиOldExpeditions"/>
-    <GuideEntityEmbed Entity="MobЖелчекExpeditionsGuidebook"/>
+    <GuideEntityEmbed Entity="MobFleshClampOldExpeditions"/>
+    <GuideEntityEmbed Entity="MobMawExpeditionsGuidebook"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 40 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -82,7 +82,7 @@
   Неподвижные, лишенные плоти существа, которые набрасываются на жертв. Они вцепляются в них зубами и кусают своих жертв до тех пор, пока не убьют или не избавятся от них.
 
   <Box>
-    <GuideEntityEmbed Entity="MobЖелчекExpeditionsGuidebook"/>
+    <GuideEntityEmbed Entity="MobMawExpeditionsGuidebook"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 8 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 0 м/с
@@ -99,7 +99,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-    <GuideEntityEmbed Entity="MobFleshЛюбовникExpeditions"/>
+    <GuideEntityEmbed Entity="MobFleshLoverExpeditions"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 30 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 5 м/с

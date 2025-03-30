@@ -11,7 +11,7 @@
   Вооружившись надежной киркой и жадностью. Каждая группа нуждается в своих "помощниках".
 
   <Box>
-  <GuideEntityEmbed Entity="MobExplorerрукопашкаT1"/>
+  <GuideEntityEmbed Entity="MobExplorerMeleeT1"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с[bold][color=#a4885c]*[/color][/bold]
@@ -43,7 +43,7 @@
   Мародер, который собрал достаточно Спесос, чтобы позволить себе приличное снаряжение.
 
   <Box>
-  <GuideEntityEmbed Entity="MobExplorerрукопашкаT2"/>
+  <GuideEntityEmbed Entity="MobExplorerMeleeT2"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -73,7 +73,7 @@
   Бурение во имя... бурения. Ни одна горная порода не устоит перед мощью карьерных буровых установок с двумя ручками - хорошо, что вы не камень.
 
   <Box>
-  <GuideEntityEmbed Entity="MobExplorerрукопашкаT3"/>
+  <GuideEntityEmbed Entity="MobExplorerMeleeT3"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с

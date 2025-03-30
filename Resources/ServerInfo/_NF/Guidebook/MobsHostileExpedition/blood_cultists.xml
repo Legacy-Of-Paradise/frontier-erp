@@ -83,7 +83,7 @@
   [bold][color=#a4885c]________________________________________________________________________[/color]
 
   <Box>
-  <GuideEntityEmbed Entity="MobBloodCultistЗаклинание"/>
+  <GuideEntityEmbed Entity="MobBloodCultistCaster"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 140 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
@@ -115,7 +115,7 @@
   Во время кровавых обрядов души принесенных в жертву культистов собираются в этом пилоне, чтобы защищать своих живых членов. Ведет себя как сторожевая башня.
 
   <Box>
-  <GuideEntityEmbed Entity="BloodCultТурель"/>
+  <GuideEntityEmbed Entity="BloodCultTurret"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 300
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 0 м/с (0 м/с)

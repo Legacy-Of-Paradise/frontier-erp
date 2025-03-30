@@ -52,7 +52,7 @@
   Штурмовики, специализирующиеся на использовании элемента неожиданности - быстрых, агрессивных действиях для достижения своих целей.
 
   <Box>
-  <GuideEntityEmbed Entity="MobMercenaryBreacherмачете" Caption=""/>
+  <GuideEntityEmbed Entity="MobMercenaryBreacherMachete" Caption=""/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)[bold]
@@ -74,7 +74,7 @@
   [bold][color=#a4885c]________________________________________________________________________[/color]
 
   <Box>
-  <GuideEntityEmbed Entity="MobMercenaryBreacherдробовик" Caption=""/>
+  <GuideEntityEmbed Entity="MobMercenaryBreacherShotgun" Caption=""/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (Критическое состояние), 130 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с (2.5 м/с)
