@@ -97,19 +97,10 @@
       # Cloaks
       - !type:GroupSelector
         children:
-        - id: ClothingNeckCloakTrans
         - id: ClothingNeckCloakAdmin
         - id: ClothingNeckCloakMoth
         - id: ClothingNeckCloakVoid
         - id: ClothingNeckCloakGoliathCloak
-        - id: ClothingNeckCloakAce
-        - id: ClothingNeckCloakAro
-        - id: ClothingNeckCloakBi
-        - id: ClothingNeckCloakIntersex
-        - id: ClothingNeckCloakLesbian
-        - id: ClothingNeckCloakGay
-        - id: ClothingNeckCloakEnby
-        - id: ClothingNeckCloakPan
       - id: ToySkeleton
       - id: Basketball
       - id: Football
@@ -247,7 +238,7 @@
       - id: ToolboxArtisticFilled
       - id: GeigerCounter
       - id: trayScanner
-      - id: HandheldGPSBasic
+      # - id: HandheldGPSBasic # Frontier: useless
       - id: HandLabeler
       - id: GlowstickBase
       - id: Bucket
@@ -264,6 +255,7 @@
     - !type:GroupSelector
       weight: 2
       children:
+      - id: Binoculars
       - id: LanternFlash
       - id: PowerCellHigh
       - id: NetProbeCartridge
