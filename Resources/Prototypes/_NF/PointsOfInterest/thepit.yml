@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: ThePit
   parent: BasePOI
-  name: "The Pit"
+  name: "Яма"
   minimumDistance: 2200
   maximumDistance: 4200
   spawnGroup: Arena
@@ -19,7 +19,7 @@
 
 - type: gameMap
   id: ThePit
-  mapName: "The Pit"
+  mapName: "Яма"
   mapPath: /Maps/_NF/POI/arena.yml
   minPlayers: 0
   stations:
@@ -27,4 +27,4 @@
       stationProto: DeadDropFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "The Pit"
+          mapNameTemplate: "Яма"

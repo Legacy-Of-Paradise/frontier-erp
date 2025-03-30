@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Tinnia
   parent: BasePOI
-  name: "Tinnia's Rest"
+  name: "Отдых Тиннии"
   minimumDistance: 1200
   maximumDistance: 2900
   spawnGroup: RestStop
@@ -21,7 +21,7 @@
 
 - type: gameMap
   id: Tinnia
-  mapName: "Tinnia's Rest"
+  mapName: "Отдых Тиннии"
   mapPath: /Maps/_NF/POI/tinnia.yml
   minPlayers: 0
   stations:
@@ -29,4 +29,4 @@
       stationProto: DeadDropFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Tinnia's Rest"
+          mapNameTemplate: "Отдых Тиннии"

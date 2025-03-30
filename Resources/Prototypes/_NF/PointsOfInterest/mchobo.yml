@@ -20,7 +20,7 @@
 
 - type: gameMap
   id: McHobo
-  mapName: "Derelict McCargo"
+  mapName: "Заброшенный McCargo"
   mapPath: /Maps/_NF/POI/mchobo.yml
   minPlayers: 0
   stations:
@@ -28,4 +28,4 @@
       stationProto: DeadDropRecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Derelict McCargo"
+          mapNameTemplate: "Заброшенный McCargo"

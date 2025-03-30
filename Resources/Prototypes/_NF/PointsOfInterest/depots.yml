@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: CargoDepot
   parent: BasePOI
-  name: Cargo Depot
+  name: Склад Грузоперевозок Склад Грузоперевозок 
   minimumDistance: 4000
   maximumDistance: 5000
   spawnGroup: CargoDepot
@@ -25,7 +25,7 @@
 - type: pointOfInterest
   id: CargoDepotAlt
   parent: BasePOI
-  name: Cargo Depot
+  name: Склад Грузоперевозок 
   minimumDistance: 4000
   maximumDistance: 5000
   spawnGroup: CargoDepot
@@ -38,7 +38,7 @@
 
 - type: gameMap
   id: CargoDepot
-  mapName: 'Cargo Depot' # Has a letter appended in PointOfInterestSystem
+  mapName: 'Склад Грузоперевозок ' # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_NF/POI/cargodepotalt.yml
   minPlayers: 0
   stations:
@@ -46,13 +46,13 @@
       stationProto: MarketFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Cargo Depot' # Has a letter appended in PointOfInterestSystem
+          mapNameTemplate: 'Склад Грузоперевозок ' # Has a letter appended in PointOfInterestSystem
         - type: TradeCrateDestination
           destinationProto: CargoA # Redefined in PointOfInterestSystem
 
 - type: gameMap
   id: CargoDepotAlt
-  mapName: 'Cargo Depot' # Has a letter appended in PointOfInterestSystem
+  mapName: 'Склад Грузоперевозок ' # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_NF/POI/cargodepotalt.yml
   minPlayers: 0
   stations:
@@ -60,6 +60,6 @@
       stationProto: MarketFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Cargo Depot' # Has a letter appended in PointOfInterestSystem
+          mapNameTemplate: 'Склад Грузоперевозок ' # Has a letter appended in PointOfInterestSystem
         - type: TradeCrateDestination
           destinationProto: CargoA # Redefined in PointOfInterestSystem

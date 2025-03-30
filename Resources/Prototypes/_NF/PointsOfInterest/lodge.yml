@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Lodge
   parent: BasePOI
-  name: 'Expeditionary Lodge'
+  name: 'Экспедиционный Аванпост'
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: Required
@@ -31,7 +31,7 @@
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Expeditionary Lodge'
+          mapNameTemplate: 'Экспедиционный Аванпост'
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Markers/jobs.rsi/mercenary.png
           stationSubtext: 'frontier-lobby-exped-subtext'

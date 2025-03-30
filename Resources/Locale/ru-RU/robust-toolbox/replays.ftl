@@ -41,8 +41,8 @@ cmd-replay-recording-stats-desc = Displays information about the current replay 
 cmd-replay-recording-stats-help = Usage: replay_recording_stats
 cmd-replay-recording-stats-result = Duration: { $time } min, Ticks: { $ticks }, Size: { $size } mb, rate: { $rate } mb/min.
 # Time Control UI
-replay-time-box-scrubbing-label = Dynamic Scrubbing
-replay-time-box-replay-time-label = Recording Time: { $current } / { $end }  ({ $percentage }%)
-replay-time-box-server-time-label = Server Time: { $current } / { $end }
-replay-time-box-index-label = Index: { $current } / { $total }
-replay-time-box-tick-label = Tick: { $current } / { $total }
+replay-time-box-scrubbing-label = Динамическая очистка
+replay-time-box-replay-time-label = Время записи: { $current } / { $end }  ({ $percentage }%)
+replay-time-box-server-time-label = Серверное время: { $current } / { $end }
+replay-time-box-index-label = Индекс: { $current } / { $total }
+replay-time-box-tick-label = Тик: { $current } / { $total }
