@@ -19,6 +19,7 @@ jobs:
         with:
           format: 'space-delimited'
           filter: | 
+          filter: |
             **.rsi
             **.png
 
@@ -45,6 +46,7 @@ jobs:
       - name: Create comment if it doesn't exist
         if: steps.fc.outputs.comment-id == ''
         uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.number }}
           body: |
@@ -53,6 +55,7 @@ jobs:
       - name: Update comment if it exists
         if: steps.fc.outputs.comment-id != ''
         uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v4
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           edit-mode: replace
@@ -62,8 +65,10 @@ jobs:
       - name: Update comment to read that it has been edited
         if: steps.fc.outputs.comment-id != ''
         uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v4
         with:
           comment-id: ${{ steps.fc.outputs.comment-id }}
           edit-mode: append
           body: |
             Edit: diff updated after ${{ github.event.pull_request.head.sha }}
+
