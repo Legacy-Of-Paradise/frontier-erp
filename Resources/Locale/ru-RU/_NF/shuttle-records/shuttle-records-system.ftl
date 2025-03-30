@@ -1,4 +1,4 @@
-shuttle-records-console-window-title = Компьютер записей шаттлов
+shuttle-records-console-window-title = консоль записей шаттлов
 shuttle-records-copy-deed-button = ID Копирование
 shuttle-records-shuttle-name-label = Наименование шаттла: { $name }
 shuttle-records-shuttle-owner-label = Куплено: { $owner }

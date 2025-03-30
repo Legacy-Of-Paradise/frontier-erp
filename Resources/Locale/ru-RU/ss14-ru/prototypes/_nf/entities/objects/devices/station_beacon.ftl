@@ -1,5 +1,5 @@
 ent-DefaultStationBeaconFrontierATM = { ent-DefaultStationBeacon }
-    .suffix = Банкомат
+    .suffix = банкомат
     .desc = { ent-DefaultStationBeacon.desc }
 ent-DefaultStationBeaconFrontierShipyard = { ent-DefaultStationBeacon }
     .suffix = Верфь

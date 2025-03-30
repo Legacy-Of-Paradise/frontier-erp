@@ -1,5 +1,5 @@
 # Gas sale console
-gas-sale-console-menu-title = Консоль по продаже газов
+gas-sale-console-menu-title = консоль продажи газов
 gas-sale-menu-appraisal-label = Оценочная стоимость:{ " " }
 gas-sale-menu-no-value = Н/Д
 gas-sale-menu-mixture-title = Количество веществ:

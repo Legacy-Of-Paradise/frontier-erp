@@ -33,6 +33,6 @@ analysis-console-no-server-connected = Невозможно извлечь О.И
 analysis-console-no-artifact-placed = На сканере нет артефактов.
 analysis-console-no-points-to-extract = Отсутствуют очки для извлечения.
 analyzer-artifact-component-upgrade-analysis = длительность анализа
-analysis-console-print-popup = Консоль печатает отчет.
+analysis-console-print-popup = консоль печатает отчет.
 analyzer-artifact-extract-popup = Поверхность артефакта мерцает энергией!
 analysis-report-title = Отчет об артефакте: УЗЕЛ { $id }

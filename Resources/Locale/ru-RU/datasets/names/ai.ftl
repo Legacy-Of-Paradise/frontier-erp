@@ -36,7 +36,7 @@ names-ai-dataset-31 = К.Р.Э.Й.Г.
 names-ai-dataset-32 = Крэй-2
 # If we're going to have AOL we may as well have some of their major competitors
 names-ai-dataset-33 = КомпСерп
-names-ai-dataset-34 = Компьютер
+names-ai-dataset-34 = консоль
 names-ai-dataset-35 = Милаш
 names-ai-dataset-36 = Дедал
 # names-ai-dataset-37 = DecTalk
