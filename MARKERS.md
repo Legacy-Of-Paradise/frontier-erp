@@ -1,45 +1,92 @@
-﻿# A quick summary of how to mark code files in this repository
+﻿# Краткое руководство по маркировке файлов кода в этом репозитории
 
 ## CSharp
 
-All C# code contributed after 1 July, 2024 23:00:00 UTC should contain the following header:
+Весь C#-код, добавленный после 1 июля 2024 года 23:00:00 UTC, должен содержать следующий заголовок:
 
 ```csharp
 /*
- * New Frontiers - This file is licensed under AGPLv3
- * Copyright (c) [Year] New Frontiers Contributors
- * See AGPLv3.txt for details.
+ * Legacy Of Paradise - Этот файл лицензирован под AGPLv3
+ * Copyright (c) [Год] Участники Legacy Of Paradise
+ * См. AGPLv3.txt для подробностей.
  */
 ```
 
-For any changes within MIT licensed(upstream) files, the following marker should be used at the start of the modification
+Для любых изменений в файлах, лицензированных по MIT (из upstream-репозиториев), следует использовать следующий маркер в начале модификации:
 
 ```csharp
-/* New Frontiers - [Title of changes] - [Description of changes]
-This code is licensed under AGPLv3. See AGPLv3.txt */
+/* Legacy Of Paradise - [Название изменений] - [Описание изменений]
+Этот код лицензирован под AGPLv3. См. AGPLv3.txt */
 yourCodeHere();
-// End of modified code
+// Конец измененного кода
 ```
 
 ## Yaml
 
-All Yaml files contributed after 1 July, 2024 23:00:00 UTC should contain the following header:
+Все Yaml-файлы, добавленные после 1 июля 2024 года 23:00:00 UTC, должны содержать следующий заголовок:
 
 ```yaml
-# New Frontiers - This file is licensed under AGPLv3
-# Copyright (c) [Year] New Frontiers Contributors
-# See AGPLv3.txt for details.
+# Legacy Of Paradise - Этот файл лицензирован под AGPLv3
+# Copyright (c) [Год] Участники Legacy Of Paradise
+# См. AGPLv3.txt для подробностей.
 ```
 
-For any changes within MIT licensed(upstream) files, the following marker should be used at the start of the modification
+Для любых изменений в файлах, лицензированных по MIT (из upstream-репозиториев), следует использовать следующий маркер в начале модификации:
 
 ```yaml
-# New Frontiers - [Title of changes] - [Description of changes]
-# This code is licensed under AGPLv3. See LICENSE
-modifiedYaml: "Goes Here"
-# End of modified code
+# Legacy Of Paradise - [Название изменений] - [Описание изменений]
+# Этот код лицензирован под AGPLv3. См. LICENSE
+modifiedYaml: "Здесь ваш код"
+# Конец измененного кода
 ```
 
-## Note
+## Примечание
 
-Both Space Wizards and Nyanotrasen code is licensed under MIT, and any changes made to their code should be marked as AGPLv3 with the above markers.
+Код из Space Wizards и Nyanotrasen лицензирован под MIT. Любые изменения в их коде должны быть помечены как AGPLv3 с использованием вышеуказанных маркеров.
+
+```markdown
+# Краткое руководство по маркировке файлов кода в этом репозитории
+
+## CSharp
+
+Весь C#-код, добавленный после 1 июля 2024 года 23:00:00 UTC, должен содержать следующий заголовок:
+
+```csharp
+/*
+ * Legacy Of Paradise - Этот файл лицензирован под AGPLv3
+ * Copyright (c) [Год] Участники Legacy Of Paradise
+ * См. AGPLv3.txt для подробностей.
+ */
+```
+
+Для любых изменений в файлах, лицензированных по MIT (из upstream-репозиториев), следует использовать следующий маркер в начале модификации:
+
+```csharp
+/* Legacy Of Paradise - [Название изменений] - [Описание изменений]
+Этот код лицензирован под AGPLv3. См. AGPLv3.txt */
+yourCodeHere();
+// Конец измененного кода
+```
+
+## Yaml
+
+Все Yaml-файлы, добавленные после 1 июля 2024 года 23:00:00 UTC, должны содержать следующий заголовок:
+
+```yaml
+# Legacy Of Paradise - Этот файл лицензирован под AGPLv3
+# Copyright (c) [Год] Участники Legacy Of Paradise
+# См. AGPLv3.txt для подробностей.
+```
+
+Для любых изменений в файлах, лицензированных по MIT (из upstream-репозиториев), следует использовать следующий маркер в начале модификации:
+
+```yaml
+# Legacy Of Paradise - [Название изменений] - [Описание изменений]
+# Этот код лицензирован под AGPLv3. См. LICENSE
+modifiedYaml: "Здесь ваш код"
+# Конец измененного кода
+```
+
+## Примечание
+
+Код из Space Wizards и Nyanotrasen лицензирован под MIT. Любые изменения в их коде должны быть помечены как AGPLv3 с использованием вышеуказанных маркеров.

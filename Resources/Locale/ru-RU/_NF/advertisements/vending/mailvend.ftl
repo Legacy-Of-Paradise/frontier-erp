@@ -1,0 +1,10 @@
+advertisement-mailvend-1 = Каждое письмо это нечто большее, чем конверт!
+advertisement-mailvend-2 = Конверты! Бумага! Ручки!
+advertisement-mailvend-3 = Когда ты в последний раз писал домой?
+advertisement-mailvend-4 = Кому нужны телекомы? Письмо пришло!
+advertisement-mailvend-5 = Запомните, печати бесплатны!
+advertisement-mailvend-6 = Есть друг по переписке? Почему бы не сделать его?
+goodbye-mailvend-1 = Счастливого написания!
+goodbye-mailvend-2 = Расставьте точки над «и» и скрестите свои буквы «Т».!
+goodbye-mailvend-3 = Помните, почерк имеет значение!
+goodbye-mailvend-4 = Не забудьте как писать!

@@ -1,0 +1,11 @@
+ent-AtmosFixShuttleOxygenMarker = Фиксированный маркер Кислород
+    .desc = Кислород при более низком давлении
+    .suffix = Шаттл
+ent-AtmosFixShuttleNitrogenMarker = Фиксированный маркер Азот
+    .desc = Азот при более низком давлении
+    .suffix = Шаттл
+ent-AtmosFixShuttlePlasmaMarker = Фиксированный маркер Плазма
+    .desc = Плазма при более низком давлении
+    .suffix = Шаттл
+ent-AtmosFixSaunaMarker = Фиксированный маркер Сауна
+    .desc = Сауна

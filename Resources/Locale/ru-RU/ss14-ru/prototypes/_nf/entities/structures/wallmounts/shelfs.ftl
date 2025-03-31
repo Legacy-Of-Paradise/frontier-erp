@@ -1,0 +1,12 @@
+ent-ShelfWallFreezerWhite = настенный морозильник
+    .desc = Удобное место для хранения скоропортящихся продуктов.
+    .suffix = Фронтир, Белый
+ent-ShelfWallFreezerDark = настенный морозильник
+    .suffix = Фронтир, Чёрный
+    .desc = { ent-ShelfWallFreezerWhite.desc }
+ent-ShelfRMetalSecurity = { ent-ShelfRMetal }
+    .suffix = Оххрана, Закрыт
+    .desc = { ent-ShelfRMetal.desc }
+ent-ShelfRWoodSecurity = { ent-ShelfRWood }
+    .suffix = Оххрана, Закрыт
+    .desc = { ent-ShelfRWood.desc }

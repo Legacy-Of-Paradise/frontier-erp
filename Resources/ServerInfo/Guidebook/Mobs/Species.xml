@@ -1,7 +1,7 @@
 <Document>
-  # Species
+  # Расы
 
-  Nanotrasen employs a variety of sapient species.
+  Нанотрейзен нанимает для работы множество разумных видов.
 
   <Box>
   <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnid"/>
@@ -13,14 +13,13 @@
   <GuideEntityEmbed Entity="MobMoth" Caption="Moth Person"/>
   <GuideEntityEmbed Entity="MobReptilian" Caption="Reptilian"/>
   <GuideEntityEmbed Entity="MobSlimePerson" Caption="Slime Person"/>
-  <GuideEntityEmbed Entity="MobVox" Caption="Vox"/>
   </Box>
 
-  # Frontier specific species
+  # Виды, характерные для Нового Горизонта
   <Box>
   <GuideEntityEmbed Entity="MobGoblin" Caption="Goblin"/>
   </Box>
-  # Delta-V specific species
+  # Виды, характерные для "Delta-V"
   <Box>
   <GuideEntityEmbed Entity="MobVulpkanin" Caption="Vulpkanin"/>
   <GuideEntityEmbed Entity="MobFelinid" Caption="Felinid"/>

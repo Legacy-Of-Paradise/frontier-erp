@@ -1,27 +1,24 @@
 <Document>
-  # NT Galactic Bank
+# Галактический банк НаноТрейзен
 
-As a contractor with Nanotrasen, you have a persistent bank account.
-Money that you [bold]deposit[/bold] at an [color=#44cc00]ATM[/color] on Frontier Outpost or Tinnia's rest will be stored in your account.
-
-## ATMs
+NT открыл свою банковскую отрасль для обычных граждан, обеспечивая их до (int32.MAX)!
+ 
+## Банкоматы
   <Box>
     <GuideEntityEmbed Entity="ComputerBankATM"/>
     <GuideEntityEmbed Entity="SpaceCash1000"/>
   </Box>
-  You can access your personal bank account at any time to withdraw your hard-earned [color=#44cc00]Spesos[/color] at any [color=#44cc00]Galactic Bank ATM[/color].
+Вы можете в любое время получить доступ к своему личному банковскому счету, чтобы снять или внести средства в любом [color=#44cc00]банкомате Галактического банка[/color].
 
-Only ATMs on Frontier Outpost and Tinnia's Rest allow you to deposit money.
-Make sure you deposit your cash and sell off your ship before ending your shift!
+В настоящее время NT признает законным платежным средством только [color=#44cc00]Spesos[/color] или  "SpaceBucks" ("Космические баксы").
 
-## Account Access
+## Доступ к учетной записи
   <Box>
     <GuideEntityEmbed Entity="VendingMachineAstroVend"/>
     <GuideEntityEmbed Entity="ComputerCargoOrders"/>
     <GuideEntityEmbed Entity="VendingMachineAmmo"/>
   </Box>
-  Your bank account can be used through [color=#44cc00]Galactic Bank ATMs[/color], [color=#44cc00]cargo computers[/color], and [color=#44cc00]vending machines[/color].
+Доступ к вашему банковскому счету ограничен  [color=#44cc00]Банкоматами Галактического банка[/color] И разнообразными [color=#44cc00]Торговыми автоматами[/color], регулируемых НаноТрейзен.
 
-When trading with other people, you'll usually deal in stacks of [color=#44cc00]Spesos[/color].
-Be sure to deposit these at an [color=#44cc00]ATM[/color] before ending your shift.
+Большинство транзакций, с которыми вы будете иметь дело, будут осуществляться непосредственно с помощью [color=#44cc00]Spesos[/color].
 </Document>

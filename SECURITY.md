@@ -1,9 +1,9 @@
-# Reporting a security vulnerability
-You can report a security vulnerability through Discord or through email.
+# Сообщение об уязвимости безопасности
 
-If you want to send an email, you can contact us at <telecommunications@spacestation14.com>.
-If you want to contact us through Discord, you can join [our server](https://discord.gg/MwDDf6t)
-and then **privately** message anyone with the `@Wizard` or `@SS14 Maintainer` role.
+Вы можете сообщить об уязвимости безопасности через Discord или по электронной почте.
 
-In either case, **do not publicly disclose the vulnerability until we explicitly give
-you permission to do so**.
+Если вы хотите отправить письмо, свяжитесь с нами по адресу <telecommunications@spacestation14.com>.
+Если предпочитаете Discord, присоединяйтесь к [нашему серверу](https://discord.gg/MwDDf6t) и отправьте **личное сообщение** любому участнику с ролью `@Wizard` или `@SS14 Maintainer`.
+
+В любом случае **не раскрывайте уязвимость публично, пока мы не дадим вам на это явное разрешение**.
+

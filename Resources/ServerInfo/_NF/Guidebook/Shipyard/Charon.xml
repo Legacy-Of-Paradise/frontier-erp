@@ -1,5 +1,5 @@
 <Document>
-  # CHARON CLASS RO-RO EQUIPMENT TRANSPORT
+  # CHARON ТРАНСПОРТНЫЙ КОРАЛЬ КЛАССА КОСМИЧЕСКИЙ АВТОБУС
   <Box>
   <GuideEntityEmbed Entity="BannerEngineering"/>
   <GuideEntityEmbed Entity="EngineeringTechFab"/>
@@ -9,87 +9,87 @@
   <Box>
     <GuideEntityEmbed Entity="ShuttleMapCharon" Caption=""/>
   </Box>
-  [color=#a4885c]Ship Size:[/color] Medium
+  [color=#a4885c]Размер судна:[/color] Средний
 
-  [color=#a4885c]Recommended Crew:[/color] 2-4
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 2-4
 
-  [color=#a4885c]Power Gen Type:[/color] AME
+  [color=#a4885c]Тип генератора энергии:[/color] ДАМ
 
-  [color=#a4885c]Expeditions:[/color] Yes
+  [color=#a4885c]Экспедиции:[/color] Да
 
-  [color=#a4885c]IFF Console:[/color] None
+  [color=#a4885c]Консоль идентификации:[/color] Нет
 
-  Originally built as a roll-on, roll-off transport for heavy terraforming equipment. Since its obsolescence and appearance on the secondary market, the Charon has become a favorite of upfitters for the broad possibilities afforded by its open equipment bay. A product of Endurance Industrial Shipyards.
+  Первоначально Charon создавался как передвижной транспорт для тяжелой техники для терраформирования. С тех пор как он устарел и появился на вторичном рынке, он стал любимым транспортным средством для модернизации благодаря широким возможностям, предоставляемым его открытым отсеком для оборудования. Продукт верфей Endurance Industrial Shipyards.
 
-  # PREFLIGHT CHECKLIST
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 
-  ## 1. Power supply
+  ## 1. Источник питания
 
-  ## 1.1. Battery units
+  ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
-  
-  - Check that the SMES units are anchored to the floor, verify charge level and status.
-  - Check that the substation unit is anchored to the floor, verify charge level and status.
-  - Check each APC unit and verify its breaker is on, and that the unit is charging. There are four total, two in the equipment bay, one on the forward wall of the AME room, and one in the bridge.
-  - Verify each APC unit registers some load, if not this may indicate problems.
-  
-  ## 1.2. AME generator unit.
+
+  - Проверте СМЭСы закреплены на полу, проверяют уровень заряда и состояние.
+  - Проверте подстанции, прикручены к полу, проверяет уровень заряда и его состояние.
+  - Проверьте каждый ЛКП и убедитесь, что его выключатель включен и что устройство заряжается. Всего их четыре: два в отсеке для оборудования, один на передней стене помещения для сбора данных и один на мостике.
+  - Убедитесь, что каждый блок ЛКП регистрирует некоторую нагрузку, если это не так, это может указывать на проблемы.
+
+  ## 1.2. Генератор ДАМ.
   <Box>
   <GuideEntityEmbed Entity="AmeController"/>
   <GuideEntityEmbed Entity="AmeJar"/>
   <GuideEntityEmbed Entity="ComputerPowerMonitoring"/>
   </Box>
-  
-  - Check that the AME core is properly shielded.
-  - Check that the AME controller unit is anchored to the floor.
-  - Check the AME controller unit 'Fueling Status' readout.
-  - Check the AME controller unit 'Injection Amount' setting.
-  - Enable AME injection.
-  - Check power monitoring console to validate AME output level and confirm that battery draw is negligible with the AME active. In stock configuration the ship should consume approximately 45kW at idle.
-  
-  ## 2. Atmospherics
-  
-  ## 2.1. Distribution Network
+
+  - Убедитесь, что сердечник ДАМ должным образом построен.
+  - Убедитесь, что блок управления ДАМ надежно закреплен на полу.
+  - Проверьте показания "Состояния заправки" на блоке управления ДАМ.
+  - Проверьте "Объем впрыска" на блоке управления ДАМ.
+  - Включите функцию впрыска.
+  - Проверьте консоль мониторинга энергопотребления, чтобы проверить уровень мощности ДАМ и убедиться, что при включенном ДАМ расход батареи отсутствует. В стандартной конфигурации устройство должно потреблять около 45 кВ в режиме холостого хода.
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительная сеть
   <Box>
   <GuideEntityEmbed Entity="GasMixer"/>
   <GuideEntityEmbed Entity="OxygenCanister"/>
   <GuideEntityEmbed Entity="NitrogenCanister"/>
   </Box>
 
-  - Ensure oxygen and nitrogen canisters are anchored to their connector ports.
-  - Verify atmos network gas mixer is configured to 21% on its primary port (O2) and 79% on is side port (N2).
-  - Verify gas mixer is configured to circa 101kPa.
-  - Enable gas mixer.
+  - Убедитесь, что баллоны с кислородом и азотом закреплены на своих портах.
+  - Убедитесь, что сетевой газовый смеситель atmos настроен на 21% для основного порта (O2) и на 79% для бокового порта (N2).
+  - Убедитесь, что газовый смеситель настроен примерно на 101 кПа.
+  - Включите газовый смеситель.
 
-  ## 2.2. Waste Network
+  ## 2.2. Сеть утилизации воздушных отходов
   <Box>
   <GuideEntityEmbed Entity="GasFilter"/>
   <GuideEntityEmbed Entity="StorageCanister"/>
   </Box>
 
-  - Ensure storage canister is anchored to its connector port.
-  - Inspect and enable waste network booster pumps, located on the starboard side of the ship in the equipment bay, and transit corridor just forward of the cargo section door.
-  - Inspect waste network gas filter, verify it is set to a desired gas for scavenging from waste loop.
-  - Enable waste network gas filter.
-  - Inspect and enable waste network exhaust pump, located in the starboard equipment bay corridor near the conveyor system controls.
+  - Убедитесь, что контейнер для хранения газа закреплен на своем порту.
+  - Осмотрите и включите подпиточные насосы мусорной сети, расположенные по правому борту судна в отсеке для оборудования, и транзитный коридор непосредственно перед дверью грузового отсека.
+  - Проверьте сетевой газовый фильтр для отработавших газов, убедитесь, что он настроен на необходимый уровень газа для удаления из выхлопного контура.
+  - Включите фильтр для отработанного газа.
+  - Проверьте и включите вытяжной насос для сбора отходов, расположенный в коридоре отсека оборудования по правому борту рядом с пультом управления конвейерной системой.
 
-  ## 2.3. Air alarm and firelock system
+  ## 2.3. Система воздушной сигнализации и противопожарного замка
   <Box>
     <GuideEntityEmbed Entity="AirAlarm"/>
   </Box>
 
-  - Examine the crew section air alarm in the bridge, ensure sensors are reading normal.
-  - Set the crew section air alarm in the bridge to 'Filtering (Wide)'.
-  - Note the location of the firelocks linked to the crew section air alarm, which are integrated into the doors to the bridge and galley.
-  - Examine the cargo section air alarm on the forward wall of the engineering capsule, ensure sensors are reading normal.
-  - Set the cargo section air alarm to 'Filtering (Wide)'.
-  - Note the location of the firelocks linked to the cargo section air alarm, which are integrated into the doors to the equipment bay.
+  - Проверьте воздушную сигнализацию в отсеке экипажа на мостике, убедитесь, что датчики показывают нормальные значения.
+  - Установите воздушную сигнализацию в отсеке экипажа на мостике в положение "Фильтрация (широкая)".
+  - Обратите внимание на расположение противопожарных замков, связанных с воздушной сигнализацией в отсеке экипажа, которые встроены в двери, ведущие на мостик и камбуз.
+  - Проверьте воздушную сигнализацию грузового отсека на передней стенке инженерной капсулы, убедитесь, что датчики показывают нейтральные значения.
+  - Установите воздушную сигнализацию грузового отсека в положение "Фильтрация (широкая)".
+  - Обратите внимание на расположение противопожарных замков, связанных с воздушной сигнализацией грузового отсека, которые встроены в двери отсека для оборудования.
 
-  ## 3. Other checks
+  ## 3. Другие проверки
   <Box>
   <GuideEntityEmbed Entity="Gyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
@@ -99,10 +99,10 @@
   <GuideEntityEmbed Entity="ConveyorBelt"/>
   </Box>
 
-  - Check that the gyroscopes are anchored, powered, and enabled. These devices are located in the engineering closets in the equipment bay.
-  - Check that the mini gravity generator is anchored, powered, and enabled. This device is located in the starboard side engineering closet in the equipment bay.
-  - Check that the equipment bay blast doors are closed. These can be controlled by the wall switches to either side of the doors.
-  - Check that the conveyor system blast doors are closed. These can be actuated by the wall switches in the corridor on each side of the engineering capsule.
-  - Check that the conveyor belts on each side of the ship are in good order. These can be operated with the floor levers in the corridor on either side of the engineering capsule.
+  - Проверте гироскопы закреплены, подключены к сети и активированы. Эти устройства расположены в инженерных шкафах в отсеке для оборудования.
+  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен. Это устройство находится в инженерном шкафу по правому борту в отсеке для оборудования.
+  - Проверте противопожарные шлюзы отсека для оборудования закрыты. Ими можно управлять с помощью настенных выключателей, расположенных по обе стороны от дверей.
+  - Проверте противопожарные двери конвейерной системы закрыты. Они могут приводиться в действие настенными выключателями в коридоре с каждой стороны инженерной капсулы.
+  - Проверте конвейерные ленты на каждой стороне корабля находятся в исправном состоянии. Ими можно управлять с помощью рычагов, расположенных на полу в коридоре по обе стороны инженерной капсулы.
 
 </Document>

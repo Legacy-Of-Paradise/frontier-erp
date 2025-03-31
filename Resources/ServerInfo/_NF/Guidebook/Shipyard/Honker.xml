@@ -1,5 +1,5 @@
 <Document>
-  # HONKER-CLASS CLOWN SHUTTLE
+  # HONKER-ШАТТЛ КЛОУНСКОГО КЛАССА
   <Box>
   <GuideEntityEmbed Entity="VendingMachineTheater"/>
   <GuideEntityEmbed Entity="StatueBananiumClown"/>
@@ -8,78 +8,78 @@
   <Box>
   <GuideEntityEmbed Entity="ShuttleMapHonker" Caption=""/>
   </Box>
-    [color=#a4885c]Ship Size:[/color] Small
-	
-	[color=#a4885c]Recommended Crew:[/color] 1-2
-	
-	[color=#a4885c]Power Gen Type:[/color] Plasma
-	
-	[color=#a4885c]Expeditions:[/color] None
-	
-	[color=#a4885c]IFF Console:[/color] None
-	
+    [color=#a4885c]Размер судна:[/color] Малое
+
+	[color=#a4885c]Рекомендуемый экипаж:[/color] 1-2
+
+	[color=#a4885c]Тип генератора энергии:[/color] Плазма
+
+	[color=#a4885c]Экспедиции:[/color] Нет
+
+	[color=#a4885c]Консоль идентификации:[/color] Нет
+
   "HONK HONK HONK HONK HONK HONK"
-    
-  # PREFLIGHT CHECKLIST
-  
-  ## 1. Power supply
-  
-  ## 1.1. Battery units
+
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
+
+  ## 1. Источник питания
+
+  ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SubstationWallBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
-  
-  - Check that the APC unit's Main Breaker is toggled on.
-  - Check the APC unit's current Load* (W).
-  
-  ## 1.2. P.A.C.M.A.N. generator unit
+
+  - Убедитесь, что главный ЛКП включен.
+  - Проверьте текущую нагрузку блока ЛКП* (Вт).
+
+  ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
   <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
-  
-  - Check that the P.A.C.M.A.N. generator unit is anchored to the floor.
-  - Check that the P.A.C.M.A.N. generator unit has fuel. For extended flights make sure that you have enough fuel stockpiled to sustain prolonged power generation during flight.
-  - Check that the P.A.C.M.A.N. generator unit is set to HV output.
-  - Set Target Power for 9-10** [bold]kW[/bold].
-  - Ensure that the P.A.C.M.A.N. generator unit is enabled.
-  
-  ## 2. Atmospherics
-  
-  ## 2.1. Distribution Loop
+
+  - Проверьте, надежно ли Генераторны  П.А.К.М.А.Н. на полу.
+  - Убедитесь, что в Генераторны  П.А.К.М.А.Н. есть топливо. При длительных полетах убедитесь, что у вас достаточно топлива для обеспечения длительной выработки электроэнергии во время полета.
+  - Убедитесь, что Генераторны  П.А.К.М.А.Н. настроен на высоковольтный выход.
+  - Установите целевую мощность на 9-10** [bold]кВ[/bold].
+  - Убедитесь, что Генераторны  П.А.К.М.А.Н. включены.
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительный контур
   <Box>
   <GuideEntityEmbed Entity="AirCanister"/>
   <GuideEntityEmbed Entity="GasPort"/>
   <GuideEntityEmbed Entity="GasPressurePump"/>
   </Box>
-  
-  - Check that the Air canister is anchored to connector port.
-  - Ensure that the distro loop pump is enabled.
-  
-  ## 2.2. Waste Loop
+
+  - Убедитесь, что баллон с воздухом надежно закреплен на порту.
+  - Убедитесь, что насос распределительного контура включен.
+
+  ## 2.2. Выпускной контур
   <Box>
   <GuideEntityEmbed Entity="GasPressurePump"/>
   <GuideEntityEmbed Entity="AirAlarm"/>
   </Box>
-    
-  - Ensure that the waste loop pump is enabled.
-  - Disable Auto Mode on any Air Alarms.
-  - Set the Air Alarms to Filtering (Wide).
-  
-  ## 3. Other checks
+
+  - Убедитесь, что насос выходного контура включен.
+  - Отключите автоматический режим при любой воздушной тревоге.
+  - Установите для воздушной сигнализации режим фильтрации (широкий).
+
+  ## 3. Другие проверки
   <Box>
   <GuideEntityEmbed Entity="Gyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   </Box>
-  
-  - Check that the gyroscope is anchored, powered, and enabled.
-  - Check that the mini gravity generator is anchored, powered, and enabled.
-  
-  ## Sidenotes
-  
-  * - Honker-class clown ships are equipped with an APC unit that can be used to appraise the ship's total power consumption. An unmodified Honker-class ship requires 8.4 kW of power to remain operational.
-  
-  ** - Honker-class clown ships have low power demand meaning that standard P.A.C.M.A.N. generator unit's Target Power value can be lowered as low as 9 kW. Please note, that recommended Target Power value to avoid blackouts during Gravity Generator charging sequence is 10 kW.
+
+  - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
+  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
+
+  ## Рекомендации опытных пилотов
+
+  * - Корабли-клоун класса "Хонкер" оснащены модулем ЛКП, который можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности корабля класса "Хонкер" в неизменном виде требуется мощность в 8,4 кВА.
+
+  ** - Корабли-клоуны класса Honker обладают низкой потребляемой мощностью, что означает, что целевое значение мощности стандартных генераторных установок может быть снижено до 9 кВ. Пожалуйста, обратите внимание, что рекомендуемое целевое значение мощности, позволяющее избежать отключения электроэнергии во время зарядки гравитационного генератора, составляет 10 кВ.
 
 </Document>

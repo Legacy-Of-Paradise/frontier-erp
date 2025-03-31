@@ -1,0 +1,12 @@
+ent-ClothingUniformRandomPunkCroptop = укороченный бандитский комбинезон
+    .desc = Создано с помощью нейронных сетей на основе последних модных тенденций.
+    .suffix = Случайный облик
+ent-ClothingUniformRandomPunkTanktop = удлиненный бандитский комбинезон
+    .desc = { ent-ClothingUniformRandomPunkCroptop.desc }
+ent-ClothingUniformRandomArmlessNoSkirt = цветной комбинезон без рукавов
+    .desc = { ent-ClothingUniformRandomPunkCroptop.desc }
+ent-ClothingUniformRandomPunkCroptopShorts = малый укороченный бандитский комбинезон
+    .desc = Создано с помощью нейронных сетей на основе последних модных тенденций.
+    .suffix = Случайный облик
+ent-ClothingUniformRandomPunkTanktopShorts = малый удлиненный бандитский комбинезон
+    .desc = { ent-ClothingUniformRandomPunkCroptopShorts.desc }

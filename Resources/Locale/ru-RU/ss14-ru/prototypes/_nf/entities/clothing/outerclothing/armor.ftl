@@ -1,0 +1,9 @@
+ent-ClothingOuterArmorSrCarapace = панцирь Представителя Фронтира
+    .desc = Премиальный бронированный нагрудник, обеспечивающий защиту выше среднего для своего размера. Он обеспечивает максимальную мобильность и гибкость благодаря премиальным композитным материалам. Выдается только представителю станции.
+ent-ClothingOuterBioArmoredSyndicate = костюм био-защиты
+    .desc = Любимое защитное снаряжение любого любителя химического оружия из синдиката.
+    .suffix = Синдикат
+ent-ClothingOuterArmorNfsd = бронежилет ДШ
+    .desc = Получив пулю, может быть, выживешь.
+ent-ClothingOuterVestWebMercenaryBlack = { ent-BaseC1Contraband }
+    .desc = { ent-BaseC1Contraband.desc }

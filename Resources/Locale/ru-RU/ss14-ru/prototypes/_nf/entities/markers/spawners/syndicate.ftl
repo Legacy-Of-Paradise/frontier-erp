@@ -1,0 +1,9 @@
+ent-SpawnContrabandCrate = спавнер ящика контрабанды
+    .suffix = Дроп мертвеца
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnEventContrabandCrate = спавнер ящика контрабанды
+    .suffix = Событие
+    .desc = { ent-MarkerBase.desc }
+ent-PinpointerSyndicatePOISpawner = набор Синдиката
+    .suffix = 10 ТК
+    .desc = { ent-MarkerBase.desc }

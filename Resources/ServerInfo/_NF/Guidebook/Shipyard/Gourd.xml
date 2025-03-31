@@ -1,5 +1,5 @@
 <Document>
-  # GOURD-CLASS ENGINEERING SHUTTLE
+  # GOURD-ШАТТЛ ИНЖЕНЕРНОГО КЛАССА
   <Box>
   <GuideEntityEmbed Entity="VariedXenoArtifactItem"/>
   <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
@@ -12,49 +12,49 @@
   <GuideEntityEmbed Entity="IngotSilver"/>
   <GuideEntityEmbed Entity="MobRandomCargoCorpse"/>
   </Box>
-    [color=#a4885c]Ship Size:[/color] Medium
-	
-	[color=#a4885c]Recommended Crew:[/color] 5-8
-	
-	[color=#a4885c]Power Gen Type:[/color] AME
-	
-	[color=#a4885c]Expeditions:[/color] Yes
-	
-	[color=#a4885c]IFF Console:[/color] None
-	
-  "The Gourd is a Science/Expedition vessel with a dedicated blast chamber."
-    
-    # PREFLIGHT CHECKLIST
-  
-  ## 1. Power supply
-  
-  ## 1.1. Battery units
+    [color=#a4885c]Размер судна:[/color] Средний
+
+	[color=#a4885c]Рекомендуемый экипаж:[/color] 5-8
+
+	[color=#a4885c]Тип генератора энергии:[/color] ДАМ
+
+	[color=#a4885c]Экспедиции:[/color] Да
+
+	[color=#a4885c]Консоль идентификации:[/color] Нет
+
+  ""GOURD" - это научно-экспедиционное судно со специальной взрывной камерой."
+
+    # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
+
+  ## 1. Источник питания
+
+  ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
-  
-  - Check that the SMES unit is anchored to the floor.
-  - Check that the substation unit is anchored to the floor.
-  - Check that the APC unit's Main Breaker is toggled on.
-  - Check the APC unit's current Load* (W).
-  
-  ## 1.2. AME generator unit.
+
+  - Убедитесь, что модуль СМЭС надежно закреплен на полу.
+  - Убедитесь, что подстанция надежно закреплена на полу.
+  - Убедитесь, что главный ЛКП включен.
+  - Проверьте текущую нагрузку блока ЛКП* (Вт).
+
+  ## 1.2. Генератор ДАМ.
   <Box>
   <GuideEntityEmbed Entity="AmeController"/>
   <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
-  
-  - Check that the AME core is properly shielded.
-  - Check that the AME controller unit is anchored to the floor.
-  - Check the AME controller unit Fuel Status.
-  - Check the AME controller unit Injection Amount.
-  - Enable Injection.
-  
-  ## 2. Atmospherics
-  
-  ## 2.1. Distribution Loop
+
+  - Убедитесь, что сердечник ДАМ должным образом построен.
+  - Убедитесь, что блок управления ДАМ надежно закреплен на полу.
+  - Проверьте состояние топлива в ДАМ.
+  - Проверьте объем впрыска топлива в ДАМ.
+  - Включите впрыск
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительный контур
   <Box>
   <GuideEntityEmbed Entity="OxygenCanister"/>
   <GuideEntityEmbed Entity="NitrogenCanister"/>
@@ -63,28 +63,28 @@
   <GuideEntityEmbed Entity="GasPressurePump"/>
   </Box>
 
-  - Check that the O2 canister is anchored to connector port.
-  - Check that the N2 canister is anchored to connector port.
-  - Check that the gas mixer is set to the correct mixing ratio (21% Oxygen, 79% Nitrogen).
-  - Check that the gas mixer is set to 101kPa.
-  - Ensure that the gas mixer is enabled.
-  
-  ## 2.2. Waste Loop
+  - Убедитесь, что баллон с O2 надежно закреплен на порту
+  - Убедитесь, что баллон с N2 надежно закреплен на порту
+  - Убедитесь, что газовый смеситель настроен на правильное соотношение компонентов (21% кислорода, 79% азота).
+  - Убедитесь, что газовый смеситель настроен на давление 101 кПа.
+  - Убедитесь, что газовый смеситель включен.
+
+  ## 2.2. Выпускной контур
   <Box>
   <GuideEntityEmbed Entity="GasPressurePump"/>
   </Box>
 
-  - Ensure that the waste loop pump is enabled.
-  
-  ## 3. Other checks
+  - Убедитесь, что насос выходного контура включен.
+
+  ## 3. Другие проверки
   <Box>
   <GuideEntityEmbed Entity="Gyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   <GuideEntityEmbed Entity="BlastDoor"/>
   </Box>
-  
-  - Check that the gyroscope is anchored, powered, and enabled.
-  - Check that the mini gravity generator is anchored, powered, and enabled.
-  - Check that the blast doors are closed.
+
+  - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
+  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
+  - Убедитесь, что противопожарные шлюзы работают.
 
 </Document>

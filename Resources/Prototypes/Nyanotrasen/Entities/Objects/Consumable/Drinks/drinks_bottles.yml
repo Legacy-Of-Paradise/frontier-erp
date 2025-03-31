@@ -2,10 +2,7 @@
   parent: DrinkBottleBaseEmpty
   id: DrinkSakeBottleFull
   name: sake bottle
-  description: | 
-    Clear, or sometimes foggy 
-    Chilled like ice cream alcohol 
-    Fill a cup, drink up!
+  description: Clear, or sometimes foggy. Chilled like ice cream alcohol. Fill a cup, drink up!
   components:
   - type: SolutionContainerManager
     solutions:

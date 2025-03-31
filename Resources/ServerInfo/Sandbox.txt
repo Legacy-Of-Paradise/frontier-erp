@@ -1,16 +1,16 @@
 
-[color=#ffffff]Entity spawn panel options[/color]
-[color=#a4885c]Default[/color] spawns small entities like mugs without aligning them to anything, while aligning block entities like walls to the grid.
-[color=#a4885c]PlaceFree[/color] spawns all entities without aligning them.
-[color=#a4885c]PlaceNearby[/color] limits the spawn radius to around 2 tiles.
-[color=#a4885c]SnapgridCenter[/color] aligns the entity to the middle of the tile.
-[color=#a4885c]SnapgridBorder[/color] aligns the entity to the border of the tile.
+[color=#ffffff]Параметры окна Спавна сущьностей[/color]
+[color=#a4885c]По умолчанию[/color] создает небольшие объекты, такие как кружки, не привязывая их к сетке, в то же время выравнивая некоторые объекты, такие как стены, по сетке.
+[color=#a4885c]Свободная установка [/color] создает все объекты без их выравнивания.
+[color=#a4885c]Установка рядом[/color] ограничивает радиус появления примерно 2 плитками.
+[color=#a4885c]Установка по центру сетки [/color] выравнивает объект по середине сетки.
+[color=#a4885c]Привязка к границе сетки[/color] выравнивает объект по границе сетки.
 
-[color=#ffffff]Grid aligned options[/color]
-[color=#a4885c]AlignSimilar[/color] snaps the entity to similar entities. Currently broken.
-[color=#a4885c]AlignTileAny[/color] aligns the entity to the grid.
-[color=#a4885c]AlignTileEmpty[/color] target tile must be empty
-[color=#a4885c]AlignTileNonDense[/color] no colliders allowed in the target tile.
-[color=#a4885c]AlignTileDense[/color] colliders must be in the target tile.
-[color=#a4885c]AlignWall[/color] snaps to vertical halftiles.
-[color=#a4885c]AlignWallProper[/color] snaps the entity to the middle of the tile edges
+[color=#ffffff]Параметры выравнивания по сетке[/color]
+[color=#a4885c]AlignSimilar[/color] привязывает объект к аналогичным объектам. В настоящее время не работает.
+[color=#a4885c]AlignTileAny[/color] выравнивает объект по сетке.
+[color=#a4885c]AlignTileEmpty[/color] место устоновки должно быть пустым.
+[color=#a4885c]AlignTileNonDense[/color] Запрещает установку если есть колизия.
+[color=#a4885c]AlignTileDense[/color] аналогично AlignTileNonDense, но наоборот (Если есть колизия).
+[color=#a4885c]AlignWall[/color] привязывается к вертикальным половинам сетки.
+[color=#a4885c]AlignWallProper[/color] привязывает объект к середине краев сетки.

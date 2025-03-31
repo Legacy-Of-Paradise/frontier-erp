@@ -1,0 +1,15 @@
+ent-BaseMothershipComputer = { ent-BaseStructureDisableToolUse }
+    .desc = Используется на материнских кораблях для покупки и продажи кораблей, не возвращаясь на станцию.
+    .suffix = Материнский корабль
+ent-SellOnlyMothershipComputer = консоль верьфи продажы
+    .desc = { ent-BaseMothershipComputer.desc }
+ent-EmpressMothershipComputer = консоль верьфи "empress"
+    .desc = { ent-BaseMothershipComputer.desc }
+ent-McCargoMothershipComputer = консоль верьфи "mccargo"
+    .desc = { ent-BaseMothershipComputer.desc }
+ent-CaduceusMothershipComputer = консоль верьфи "caduceus"
+    .desc = { ent-BaseMothershipComputer.desc }
+ent-GasbenderMothershipComputer = консоль верьфи "gasbender"
+    .desc = { ent-BaseMothershipComputer.desc }
+ent-CrescentMothershipComputer = консоль верьфи "crescent"
+    .desc = { ent-BaseMothershipComputer.desc }

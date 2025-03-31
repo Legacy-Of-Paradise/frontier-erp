@@ -1,5 +1,5 @@
 <Document>
-    # APOTHECARY-CLASS MEDICAL SHUTTLE
+    # APOTHECARY-ШАТТЛ КЛАССА МЕДИЦИНСКИЙ
     <Box>
       <GuideEntityEmbed Entity="ComputerCrewMonitoring"/>
       <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
@@ -10,86 +10,85 @@
     <Box>
     <GuideEntityEmbed Entity="ShuttleMapApothecary" Caption=""/>
     </Box>
-  
-    [color=#a4885c]Ship Size:[/color] Small
 
-    [color=#a4885c]Recommended Crew:[/color] 1-3
+    [color=#a4885c]Размер судна:[/color] Малое
 
-    [color=#a4885c]Power Gen Type:[/color] Uranium
+    [color=#a4885c]Рекомендуемый экипаж:[/color] 1-3
 
-    [color=#a4885c]Expeditions:[/color] None
+    [color=#a4885c]Тип генератора энергии:[/color] Уран
 
-    [color=#a4885c]IFF Console:[/color] None
+    [color=#a4885c]Экспедиции:[/color] Нет
 
-    "A modest chemistry lab and medical support vessel designed to provide support deep space colonization, mining and xeno exploration efforts. Deployed by the Far Star Biotech company, the Apothecary is the definitive aid and health craft for rock hoppers and xeno biologists."
+    [color=#a4885c]Консоль идентификации:[/color] Нет
 
-    # PREFLIGHT CHECKLIST
+    "Скромная химическая лаборатория и медицинское вспомогательное судно, предназначенное для колонизации дальнего космоса, добычи полезных ископаемых и проведения геологоразведочных работ. "APOTHECARY", созданный биотехнологической компанией "Far Star Biotech", является незаменимым медицинским судном для путешественников по камням и биологов."
 
-    ## 1. Power supply
+    # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 
-    ## 1.1. Battery units
+    ## 1. Источник питания
+
+    ## 1.1. Аккумуляторные блоки
     <Box>
         <GuideEntityEmbed Entity="SMESBasic"/>
         <GuideEntityEmbed Entity="SubstationWallBasic"/>
         <GuideEntityEmbed Entity="APCBasic"/>
     </Box>
 
-    - Check that the SMES unit is anchored to the floor.
-    - Check the substation unit.
-    - Check that the APC unit's Main Breaker is toggled on.
-    - Check the APC unit's current Load* (W).
+    - Убедитесь, что модуль СМЭС надежно закреплен на полу.
+    - Проверьте блок подстанции.
+    - Убедитесь, что главный ЛКП включен.
+    - Проверьте текущую нагрузку блока ЛКП* (Вт).
 
-    ## 1.2. S.U.P.E.R.P.A.C.M.A.N. generator unit
+    ## 1.2. С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н.
     <Box>
         <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
         <GuideEntityEmbed Entity="SheetUranium"/>
         <GuideEntityEmbed Entity="SignRadiationMed"/>
     </Box>
 
-   - Check if the S.U.P.E.R.P.A.C.M.A.N. generator unit is anchored to the floor.
-   - Check if the S.U.P.E.R.P.A.C.M.A.N. generator unit has fuel. For extended flights make sure that you have enough fuel stockpiled to sustain prolonged power generation during flight.
-   - Check if the S.U.P.E.R.P.A.C.M.A.N. generator unit is set to HV output.
-   - Set Target Power for 16 [bold]k[/bold]W.
-   - Start the S.U.P.E.R.P.A.C.M.A.N. generator unit.
+   - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. Прикручены к полу
+   - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. есть топливо. При длительных полетах убедитесь, что у вас достаточно топлива, чтобы обеспечить длительную выработку электроэнергии во время полета.
+   - Проверьте С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н. установлен на высоковольтный выход.
+   - Установите целевую мощность на 16 [bold]кВт[/bold].
+   - Запустите Генератор.
 
-  ## 2. Atmospherics
+  ## 2. Атмосфера
 
-  ## 2.1. Distribution Loop
+  ## 2.1. Распределительный контур
   <Box>
         <GuideEntityEmbed Entity="AirCanister"/>
         <GuideEntityEmbed Entity="GasPort"/>
         <GuideEntityEmbed Entity="GasPressurePump"/>
     </Box>
 
-    - Check that the air canister is anchored to connector port.
-    - Check that the distribution pump is set to 101kPa (101kPa).
-    - Check the distribution pump. Located on the deck of the engineering nacelle.
+    - Убедитесь, что баллон с воздухом надежно закреплен на порту.
+    - Проверте гастроен ли распределительный насос на давление 101 кПа.
+    - Проверьте распределительный насос. Расположен на палубе инженерного отсека.
 
-    ## 2.2. Waste Loop
+    ## 2.2. Выпускной контур
     <Box>
         <GuideEntityEmbed Entity="GasPressurePump"/>
         <GuideEntityEmbed Entity="AirAlarm"/>
     </Box>
 
-    - Check waste loop pump. Located on the deck of the cargo nacelle.
-    - Set the Air Alarm in the Engine Room to Filtering (Wide).
+    - Проверьте насос выпускного контура. Расположен на палубе грузового отсека.
+    - Установите воздушную сигнализацию в машинном отделении на фильтрующую (широкую).
 
-    ## 3. Other checks
+    ## 3. Другие проверки
     <Box>
         <GuideEntityEmbed Entity="Gyroscope"/>
         <GuideEntityEmbed Entity="GravityGeneratorMini"/>
         <GuideEntityEmbed Entity="BlastDoor"/>
     </Box>
 
-    - Check that the gyroscope is anchored, powered, and enabled.
-    - Check that the mini gravity generator is anchored, powered, and enabled.
-    - Check that blast doors are closed.
-    - Check to ensure that figurines are comfortable.
+    - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
+    - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
+    - Проверте противопожарные двери.
 
-    ## Sidenotes
+    ## Рекомендации опытных пилотов
 
-    * - Apothecary-class medical response ships are equipped with a single APC unit that can be used to appraise the ship's total power consumption (which for the unmodified ship is 15.3 kW). To keep the substation and APC fully charged, the generator target power should exceed APC's Load, but by as little as possible to achieve maximum fuel efficiency. Remember to check the APC Load and adjust the generator unit's target power after adding or removing power-consuming machines.
+    * - Корабли медицинского реагирования класса "Apothecary" оснащены одним блоком ЛКП, который можно использовать для оценки общего энергопотребления судна (которое для немодифицированного судна составляет 15,3 кВ).
 
-    ** - Apothecary-class ships have a slightly above average power demand. A standard P.A.C.M.A.N. generator's target power value can be set to 15-16 kW to modulate between drain and charge. As much of the powerdraw is to sustain the chemistry lab powering down those machines can dramatically reduce the ship's overall draw.
+    ** - Корабли класса "Аптека" потребляют немного больше энергии, чем обычно. Для стандартного генератора П.А.К.М.А.Н. заданное значение мощности может быть установлено на 15-16 кВ, в зависимости от статуса заряда. Поскольку большая часть потребляемой энергии расходуется на поддержание работы химической лаборатории, отключение лаболатории может значительно снизить общую нагрузку на сеть.
 
 </Document>

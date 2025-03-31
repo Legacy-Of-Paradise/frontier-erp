@@ -85,7 +85,7 @@
   - type: Appearance
   - type: DeepFried
     crispinessLevelSet: Crispy
-    originalName: crispy
+    originalName: Криспи
   - type: FriedTrait
     crispinessLevelSet: Crispy
 
@@ -101,7 +101,7 @@
       - spooky
   - type: DeepFried
     crispinessLevelSet: Spectral
-    originalName: spooky
+    originalName: Жуткий
   - type: FriedTrait
     crispinessLevelSet: Spectral
   - type: Spectral

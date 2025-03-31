@@ -1,5 +1,5 @@
 <Document>
-  # BOCADILLO-CLASS SERVICE SHUTTLE
+  # BOCADILLO-ШАТТЛ КЛАССА СЕРВИС
   <Box>
   <GuideEntityEmbed Entity="hydroponicsTrayAnchored"/>
   <GuideEntityEmbed Entity="KitchenMicrowave"/>
@@ -9,77 +9,76 @@
   <Box>
   <GuideEntityEmbed Entity="ShuttleMapBocadillo" Caption=""/>
   </Box>
-  [color=#a4885c]Ship Size:[/color] Small
+  [color=#a4885c]Размер судна:[/color] Малое
 
-  [color=#a4885c]Recommended Crew:[/color] 1-2
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 1-2
 
-  [color=#a4885c]Power Gen Type:[/color] Plasma
+  [color=#a4885c]Тип генератора энергии:[/color] Плазма
 
-  [color=#a4885c]Expeditions:[/color] None
+  [color=#a4885c]Экспедиции:[/color] Нет
 
-  [color=#a4885c]IFF Console:[/color] None
+  [color=#a4885c]Консоль идентификации:[/color] Нет
 
-  "A tiny food truck perfect for a solo chef or a small crew."
+  "Крошечный фургончик с едой, идеально подходящий для шеф-повара-одиночки или для маленькой команды".
 
-  # PREFLIGHT CHECKLIST
-  
-  ## 1. Power supply
-  
-  ## 1.1. Battery units
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
+
+  ## 1. Источник питания
+
+  ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SubstationWallBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
-  
-  - Check that the substation unit is anchored to the floor.
-  - Check that the APC unit's Main Breaker is toggled on.
-  - Check the APC units current Load* (W).
-  
-  ## 1.2. P.A.C.M.A.N. generator unit
+
+  - Убедитесь, что подстанция надежно закреплена на полу.
+  - Убедитесь, что главный ЛКП включен.
+  - Проверьте текущую нагрузку на ЛКП* (Вт).
+
+  ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
   <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
-  
-  - Check that the P.A.C.M.A.N. generator unit is anchored to the floor.
-  - Check that the P.A.C.M.A.N. generator unit has fuel. For extended flights make sure that you have enough fuel stockpiled to sustain prolonged power generation during flight.
-  - Check that the P.A.C.M.A.N. generator unit is set to HV output.
-  - Set Target Power to 10-11** [bold]kW[/bold].
-  - Start the P.A.C.M.A.N. generator unit.
-  
-  ## 2. Atmospherics
-  
-  ## 2.1. Distribution Loop
+
+  - Проверьте, надежно ли Генераторны  П.А.К.М.А.Н. на полу.
+  - Убедитесь, что в Генераторны  П.А.К.М.А.Н. есть топливо. При длительных полетах убедитесь, что у вас достаточно топлива для обеспечения длительной выработки электроэнергии во время полета.
+  - Убедитесь, что Генераторны  П.А.К.М.А.Н. настроен на высоковольтный выход.
+  - Установите целевое напряжение в 10-11** [bold]кВ[/bold].
+  - Запустите Генераторны  П.А.К.М.А.Н.
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительный контур
   <Box>
   <GuideEntityEmbed Entity="AirCanister"/>
   <GuideEntityEmbed Entity="GasPort"/>
   </Box>
-  
-  - Check that the air canister is anchored to connector port.
-  
-  ## 2.2. Waste Loop
+
+  - Убедитесь, что баллон с воздухом надежно закреплен на порту.
+
+  ## 2.2. Выпускной контур
   <Box>
   <GuideEntityEmbed Entity="GasPressurePump"/>
   <GuideEntityEmbed Entity="AirAlarm"/>
   </Box>
-    
-  - Enable waste loop pump.
-  - Disable Auto Mode on the Air Alarm in the Engine Room.
-  - Set the Air Alarm in the Engine Room to Filtering (Wide).
-  
-  ## 3. Other checks
+
+  - Включите насос выпускного контура.
+  - Установите воздушную сигнализацию в машинном отделении на фильтрующую (широкую).
+
+  ## 3. Другие проверки
   <Box>
   <GuideEntityEmbed Entity="SmallGyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   </Box>
-  
-  - Check that the gyroscope is anchored, powered, and enabled.
-  - Check that the mini gravity generator is anchored, powered, and enabled.
-  
-  ## Sidenotes
-  
-  * - Bocadillo-class service ships are equipped with two APC unit that can be used to appraise the ship's total power consumption (10.0 kW). One can check the ship's total power consumption against the P.A.C.M.A.N. generator unit Target Power output: to keep substation and APC fully charged, P.A.C.M.A.N. generator unit Target Power output should exceed APC's Load. Remember to check APC Load and adjust the generator unit Target Power after connecting new power-consuming machines.
-  
-  ** - Bocadillo-class service ships have low power demand meaning that standard P.A.C.M.A.N. generator unit's Target Power value can be lowered as low as 10 kW. Please note, that recommended Target Power value to avoid blackouts during Gravity Generator charging sequence is 11 kW.
+
+  - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
+  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
+
+  ## Рекомендации опытных пилотов
+
+  * - Сервисные суда класса Bocadillo оснащены двумя блоками ЛКП, которые можно использовать для оценки общего энергопотребления судна (10,0 кВ). Можно сравнить общее энергопотребление судна с заданной выходной мощностью генераторного блока: чтобы подстанция и ЛКП были полностью заряжены, заданная выходная мощность генераторного блока должна превышать нагрузку ЛКП. Не забудьте проверить нагрузку на ЛПК и отрегулировать целевую мощность генераторного агрегата после подключения новых энергопотребляющих устройств.
+
+  ** - Сервисные суда класса Bocadillo имеют низкую потребляемую мощность, что означает, что целевое значение мощности стандартных генераторных установок может быть снижено до 10 кВ. Пожалуйста, обратите внимание, что рекомендуемое целевое значение мощности, позволяющее избежать отключения электроэнергии во время зарядки гравитационного генератора, составляет 11 кВ.
 
 </Document>

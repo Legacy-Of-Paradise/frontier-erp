@@ -1,0 +1,14 @@
+ent-NFChromiteRoomMarker = сверхуплотненный маркер хромита
+    .desc = { ent-BaseRoomMarker.desc }
+ent-NFSnowRoomMarker = суперуплотненный маркер снега
+    .desc = { ent-BaseRoomMarker.desc }
+ent-NFAsteroidRoomMarker = сверхуплотненный маркер астероида
+    .desc = { ent-BaseRoomMarker.desc }
+ent-NFAndesiteRoomMarker = сверхуплотненный маркер андезита
+    .desc = { ent-BaseRoomMarker.desc }
+ent-NFBasaltRoomMarker = сверхуплотненный маркер базальта
+    .desc = { ent-BaseRoomMarker.desc }
+ent-NFSandRoomMarker = сверхуплотненный маркер песка
+    .desc = { ent-BaseRoomMarker.desc }
+ent-NFAsteroidRockRoomMarker = сверхуплотненный маркер астероидных камней
+    .desc = { ent-BaseRoomMarker.desc }

@@ -1,0 +1,12 @@
+ent-Suture10Lingering = { ent-MedicatedSuture }
+    .suffix = 10, Длительный
+    .desc = { ent-MedicatedSuture.desc }
+ent-Mesh10Lingering = { ent-RegenerativeMesh }
+    .suffix = 10, Длительный
+    .desc = { ent-RegenerativeMesh.desc }
+ent-NFPillCanisterMannitol = { ent-PillCanister }
+    .desc = Принимайте по две таблетки в день.
+    .suffix = Маннитол 10ед, 10, позитивный
+ent-NFPillMannitol = таблетка
+    .suffix = Маннитол 10ед
+    .desc = { ent-Pill.desc }

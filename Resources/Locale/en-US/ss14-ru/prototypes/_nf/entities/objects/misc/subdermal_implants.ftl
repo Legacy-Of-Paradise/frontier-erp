@@ -1,0 +1,14 @@
+ent-MedicalTrackingImplant = medical tracking implant
+    .desc = This implant has a tracking device monitor for the Medical radio channel.
+ent-FreelanceTrackingImplant = freelance tracking implant
+    .desc = This implant has a tracking device monitor for the Freelance radio channel.
+ent-DeathAcidifierImplantNF = death-acidifier implant
+    .desc = This implant melts the user and their equipment upon death.
+ent-GibAcidifierImplantNF = gib-acidifier implant
+    .desc = This implant melts the user and their equipment upon gibbing.
+ent-BibleUserImplant = faith implant
+    .desc = This implant binds the user to the gods.
+ent-RedLightImplant = light implant (red)
+    .desc = This implant emits light from the user's skin on activation.
+ent-DissonantWhispersImplant = dissonant whispers implant
+    .desc = This implant allows user to emmit dissonant whispers.

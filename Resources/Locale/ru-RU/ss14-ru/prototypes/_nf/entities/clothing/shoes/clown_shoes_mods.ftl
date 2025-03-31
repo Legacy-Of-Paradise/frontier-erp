@@ -1,0 +1,12 @@
+ent-ClothingShoesClownModWhoopie = { ent-BaseC3ContrabandNoValue }
+    .desc = Модифицированные стандартные клоунские ботинки. Черт, они такие мягкие!
+    .suffix = Вупи
+ent-ClothingShoesClownModKetchup = { ent-BaseC3ContrabandNoValue }
+    .desc = Модифицированные стандартные клоунские ботинки. Черт, они мокрые!
+    .suffix = Кетчуп
+ent-ClothingShoesClownModMustarchup = { ent-BaseC3ContrabandNoValue }
+    .desc = Модифицированные стандартные клоунские ботинки. Чёрт, они очень мокрые!
+    .suffix = Мустарчуп
+ent-ClothingShoesClownModUltimate = { ent-BaseC3ContrabandNoValue }
+    .desc = Модифицированные стандартные клоунские ботинки. Чёрт, они мокрые и мягкие!
+    .suffix = Ультимэйт

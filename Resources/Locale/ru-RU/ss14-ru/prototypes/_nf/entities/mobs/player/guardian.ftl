@@ -1,0 +1,9 @@
+ent-MobHoloparasiteGuardianAI = { ent-MobHoloparasiteGuardian }
+    .suffix = ГостРоль, ИИ
+    .desc = { ent-MobHoloparasiteGuardian.desc }
+ent-MobIfritGuardianAI = { ent-MobIfritGuardian }
+    .suffix = ГостРоль, ИИ
+    .desc = { ent-MobIfritGuardian.desc }
+ent-MobHoloClownGuardianAI = { ent-MobHoloClownGuardian }
+    .suffix = ГостРоль, ИИ
+    .desc = { ent-MobHoloClownGuardian.desc }

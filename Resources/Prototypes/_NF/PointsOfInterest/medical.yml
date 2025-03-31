@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Medical
   parent: BasePOI
-  name: 'Medical Dispatch'
+  name: 'Медицинская диспетчерская служба'
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: Required
@@ -31,7 +31,7 @@
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Medical Dispatch'
+          mapNameTemplate: 'Медицинская диспетчерская служба'
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Markers/jobs.rsi/medic.png
           stationSubtext: 'frontier-lobby-medical-subtext'

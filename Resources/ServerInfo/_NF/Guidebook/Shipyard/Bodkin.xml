@@ -1,5 +1,5 @@
 <Document>
-  # BODKIN-CLASS SALVAGE SHUTTLE
+  # BODKIN-ШАТТЛ КЛАССА УТИЛИЗАТОРА
   <Box>
   <GuideEntityEmbed Entity="ClothingOuterHardsuitLuxury"/>
   <GuideEntityEmbed Entity="Pickaxe"/>
@@ -7,23 +7,23 @@
   <GuideEntityEmbed Entity="OreProcessor"/>
   <GuideEntityEmbed Entity="PosterLegitCarpMount"/>
   </Box>
-  [color=#a4885c]Ship Size:[/color] Medium
+  [color=#a4885c]Размер судна:[/color] Средний
 
-  [color=#a4885c]Recommended Crew:[/color] 1-3
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 1-3
 
-  [color=#a4885c]Power Gen Type:[/color] Uranium
+  [color=#a4885c]Тип генератора энергии:[/color] Уран
 
-  [color=#a4885c]Expeditions:[/color] None
+  [color=#a4885c]Экспедиции:[/color] Нет
 
-  [color=#a4885c]IFF Console:[/color] None
+  [color=#a4885c]Консоль идентификации:[/color] Нет
 
-  "The smaller sibling to the Broadhead, the SBB Bodkin is designed for rockhopping and salvage recovery."
+  "Малое судно, являющийся более совершенным аналогом Broadhead, предназначен для добычи и перевозки утиля."
 
-  [italic]Brought to you by BlueBird Starship Design & Construction.[/italic]
+  [italic]Представлено вам компанией BlueBird Starship Design & Construction.[/italic]
 
-  # GETTING THE MOST OUT OF THE BODKIN
+  # ИЗВЛЕКАЕМ МАКСИМАЛЬНУЮ ПОЛЬЗУ ИЗ ЭТОГО СУДНА
 
-  - The consider using the blast doors at the rear of the vessel for boarding wrecks and asteroids. This is the quickest way to get your loot into the cargo bay!
-  - The Bodkin comes with three hardsuits. Hire some people to work with you and make a team!
-  - The Bodkin comes with a withdraw-only ATM so you can sell your salvage to others who might need it, such as scientists. 
+  - Подумайте о том, чтобы использовать противопожарные двери в задней части судна для посадки на затонувшие корабли и астероиды. Это самый быстрый способ доставить добычу в грузовой отсек!
+  - К Bodkin прилагаются три защитных костюма. Наймите несколько человек для работы с вами и создайте команду!
+  - В комплект поставки Bodkin входит банкомат, в котором можно снимать деньги только со счета, так что вы можете воспользоватся своими сбережения, что бы потарговатся понадобиться, например, с учеными.
 </Document>

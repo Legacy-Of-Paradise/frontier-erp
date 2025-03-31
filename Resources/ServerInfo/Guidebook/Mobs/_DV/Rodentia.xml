@@ -1,33 +1,33 @@
 <Document>
-  # Rodentia
+  # Крысолюди
 
   <Box>
     <GuideEntityEmbed Entity="MobRodentiaDummy" Caption=""/>
   </Box>
 
-  Rodentia are a race of humanoid beings resembling rodents. Resourceful, evasive, sneaky, but fragile.
+  Крысалюди представляют собой расу гуманоидных существ, напоминающих грызунов. Изобретательные, увертливые, трусливые, но хрупкие.
 
-  ## Diet
+  ## Диета
 
-  - Can eat raw meat.
-  - Will get poisoned by Theobromine (Chocolate, Tea, Coffee) and Allicin (Onion, Garlic).
+  - Можно есть сырое мясо.
+  - Могут отравиться Теобромином (шоколад, чай, кофе) и Аллицином (лук, чеснок).
 
-  ## Benefits
+  ## Полезные свойства
 
-  - Uses their claws to do some Slashing and Blunt damage.
-  - Smaller than humans.
-  - Can fit in duffelbags.
+  - Использует свои когти для нанесения рубящих и тупых ударов.
+  - Меньше, чем люди.
+  - Может поместиться в спортивную сумку.
 
-  ## Special
+  ## Особенности
 
-  - Can Rummage in disposal chutes, which can dig up trash.
-  - Can store small items in their cheeks. Having items in their mouth makes their speech unintelligible, and they will drop all items in their mouth if attacked, stunned, or shoved.
-  - Can "sneak" underneath tables, but not doors.
+  - Может рыться в мусоропроводах, из которых можно выкапывать мусор.
+  - Могут прятать мелкие предметы за щеками. Наличие предметов во рту делает их речь неразборчивой, и они роняют все предметы, которые были у них во рту, если на них нападают, оглушают или толкают.
+  - Может "прокрадываться" под столами, но не под дверями.
 
-  ## Drawbacks
+  ## Недостатки
 
-  - Takes 30% more Blunt damage, and 15% more Slash and Piercing damage.
-  - Always triggers mousetraps, regardless of whether or not they are wearing shoes.
-  - Gets hungry 33% faster.
+  - Получает на 30% больше тупого урона и на 15% больше рубящего и колющего.
+  - Всегда срабатывает ловушка для мышей, независимо от того, обуты они в обувь или нет.
+  - Голодают на 33% быстрее.
 
 </Document>

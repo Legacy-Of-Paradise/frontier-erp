@@ -1,5 +1,5 @@
 <Document>
-  # GASBENDER-CLASS ENGINEERING SHUTTLE
+  # GASBENDER-ШАТТЛ ИНЖЕНЕРНОГО КЛАССА
   <Box>
   <GuideEntityEmbed Entity="PowerDrill"/>
   <GuideEntityEmbed Entity="JawsOfLife"/>
@@ -14,89 +14,88 @@
   <Box>
   <GuideEntityEmbed Entity="ShuttleMapGasbender" Caption=""/>
   </Box>
-    [color=#a4885c]Ship Size:[/color] Medium
-	
-	[color=#a4885c]Recommended Crew:[/color] 3-6
-	
-	[color=#a4885c]Power Gen Type:[/color] AME
-	
-	[color=#a4885c]Expeditions:[/color] Yes
-	
-	[color=#a4885c]IFF Console:[/color] None
-	
-  "The Gasbender is a medium-sized engineering vessel outfitted for deep space construction projects and gas collection on planets. Features atmospherics setup with mixing/ignition chamber. Designed to work in pair with smaller salvage ship. Manufactured by Langstad-Voigt Heavy Industries."
-    
-    # PREFLIGHT CHECKLIST
-  
-  ## 1. Power supply
-  
-  ## 1.1. Battery units
+    [color=#a4885c]Размер судна:[/color] Средний
+
+	[color=#a4885c]Рекомендуемый экипаж:[/color] 3-6
+
+	[color=#a4885c]Тип генератора энергии:[/color] ДАМ
+
+	[color=#a4885c]Экспедиции:[/color] Да
+
+	[color=#a4885c]Консоль идентификации:[/color] Нет
+
+  "Gasbender - это инженерное судно среднего размера, оснащенное для строительных проектов в дальнем космосе и сбора газа на планетах. Оснащено установкой "Аэратор" с камерой смешивания/воспламенения. Предназначен для работы в паре с Утильским судном Maloeer. Изготовлен компанией Lyngstad-Voigt Heavy Industries."
+
+    # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
+
+  ## 1. Источник питания
+
+  ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
-  
-  - Check that the SMES unit is anchored to the floor.
-  - Check that the substation unit is anchored to the floor.
-  - Check that the APC unit's Main Breaker is toggled on.
-  - Check the APC unit's current Load* (W).
-  
-  ## 1.2. AME generator unit.
+
+  - Убедитесь, что модуль СМЭС надежно закреплен на полу.
+  - Убедитесь, что подстанция надежно закреплена на полу.
+  - Убедитесь, что главный ЛКП включен.
+  - Проверьте текущую нагрузку блока ЛКП* (Вт).
+
+  ## 1.2. Генератор ДАМ.
   <Box>
   <GuideEntityEmbed Entity="AmeController"/>
   <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
-  
-  - Check that the AME core is properly shielded.
-  - Check that the AME controller unit is anchored to the floor.
-  - Check the AME controller unit Fuel Status.
-  - Check the AME controller unit Injection Amount.
-  - Enable Injection.
-  
-  ## 2. Atmospherics
-  
-  ## 2.1. Distribution Loop
+
+  - Убедитесь, что сердечник ДАМ должным образом построен.
+  - Убедитесь, что блок управления ДАМ надежно закреплен на полу.
+  - Проверьте состояние топлива в ДАМ.
+  - Проверьте объем впрыска топлива в ДАМ.
+  - Включите впрыск
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительный контур
   <Box>
   <GuideEntityEmbed Entity="OxygenCanister"/>
   <GuideEntityEmbed Entity="NitrogenCanister"/>
   <GuideEntityEmbed Entity="GasMixer"/>
   <GuideEntityEmbed Entity="GasPressurePump"/>
   </Box>
-  
-  - Check that the O2 output pump is set to 101kPa.
-  - Enable the O2 output pump.
-  - Check that the N2 output pump is set to 101kPa.
-  - Enable N2 output pump.
-  - Check that the gas mixer is set to the correct mixing ratio (21% Oxygen, 79% Nitrogen).
-  - Check that the gas mixer is set to 101kPa.
-  - Enable gas mixer.
-  - Check that the distribution pump is set to 101kPa.
-  - Enable distribution pump.
-  
-  ## 2.2. Waste Loop
+
+  - Настройте предварительную мощность насоса O2 на 101 кПа.
+  - Включите насос для подачи O2.
+  - Настройте предварительную мощность насоса N2 на 101 кПа.
+  - Включите выходной насос N2.
+  - Убедитесь, что газовый смеситель настроен на правильное соотношение компонентов (21% кислорода, 79% азота).
+  - Убедитесь, что газовый смеситель настроен на давление 101 кПа.
+  - Включите газовый смеситель.
+  - Убедитесь, что распределительный насос настроен на давление 101 кПа.
+  - Включите распределительный насос.
+
+  ## 2.2. Выпускной контур
   <Box>
   <GuideEntityEmbed Entity="GasPressurePump"/>
   <GuideEntityEmbed Entity="AirAlarm"/>
   </Box>
-    
-  - Enable waste loop pump.
-  - Disable Auto Mode on the Air Alarm in the Engine Room.
-  - Set the Air Alarm in the Engine Room to Filtering (Wide).
-  
-  ## 3. Other checks
+
+  - Включите насос выпускного контура.
+  - Установите воздушную сигнализацию в машинном отделении на фильтрующую (широкую).
+
+  ## 3. Другие проверки
   <Box>
   <GuideEntityEmbed Entity="Gyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   <GuideEntityEmbed Entity="BlastDoor"/>
   </Box>
-  
-  - Check that the gyroscope is anchored, powered, and enabled.
-  - Check that the mini gravity generator is anchored, powered, and enabled.
-  - Check that the blast doors are closed.
-  
-  ## Sidenotes
-  
-  * - Gasbender-class engineering ships are equipped with a five APC units that can be used to appraise the ship's total power consumption. Unmodifued Gasbender-class ship requires 40 kW of power to remain operational.
+
+  - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
+  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
+  - Убедитесь, что противопожарные шлюзы работают.
+
+  ## Рекомендации опытных пилотов
+
+  * - Инженерные суда класса Gasbender оснащены пятью KRG, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности корабля класса Gasbender в неизменном виде требуется мощность в 40 кВ.
 
 </Document>

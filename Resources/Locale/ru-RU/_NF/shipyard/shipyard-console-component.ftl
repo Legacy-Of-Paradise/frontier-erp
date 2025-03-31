@@ -1,0 +1,75 @@
+## UI
+
+shipyard-console-invalid-vessel = Невозможно купить шаттл:
+shipyard-console-menu-title = Меню верфи
+shipyard-console-menu-listing-free = Бесплатно
+shipyard-console-docking = { $owner } шаттл { $vessel } в пути.
+shipyard-console-leaving = { $owner } шаттл { $vessel } продан { $player }.
+shipyard-console-docking-secret = Незарегистриованный шаттл прибывает в ваш сектор.
+shipyard-console-leaving-secret = Незарегистриованный шаттл покидает ваш сектор.
+shipyard-commands-purchase-desc = Создает и стыкует при помощи БСС указанный шаттл.
+shipyard-console-no-idcard = ID-карта отсутствует.
+shipyard-console-already-deeded = ID-карта уже имеется.
+shipyard-console-invalid-station = Не подходящая станция.
+shipyard-console-no-bank = Банковский счет не найден.
+shipyard-console-no-deed = Документа на судно не обнаружено.
+shipyard-console-sale-reqs = Корабль должен быть пришвартован и весь экипаж высадится.
+shipyard-console-sale-not-docked = Корабль должен быть пришвартован.
+shipyard-console-sale-organic-aboard = Весь экипаж должен высадиться. { $name } все еще на борту.
+# This error message is bad, but if it happens, something awful's happened.
+shipyard-console-sale-invalid-ship = Корабль недействителен и не может быть продан.
+shipyard-console-sale-unknown-reason = Корабль не может быть продан: { reason }
+shipyard-console-deed-label = Зарегрестрирован корабль:
+shipyard-console-appraisal-label = Ориентировочная стоимость шаттла:{ " " }
+shipyard-console-no-voucher-redemptions = Все купоны были использованы.
+shipyard-console-invalid-voucher-type = Этот купон нельзя использовать на этой консоли.
+shipyard-console-contraband-onboard = На борту корбля обнаружена контрабанда.
+shipyard-console-station-resources = На борту обнаружены ресурсы жизненно важные для станции.
+shipyard-console-dangerous-materials = На борту обнаружены опасные материалы.
+shipyard-console-menu-size-label = Размер:{ " " }
+shipyard-console-menu-class-label = Класс:{ " " }
+shipyard-console-menu-engine-label = Двигатель:{ " " }
+shipyard-console-purchase-available = Покупка
+shipyard-console-guidebook = Мануал
+# Keep these in enum order for ease of validation.
+shipyard-console-category-All = Все
+shipyard-console-category-Micro = Микро
+shipyard-console-category-Small = Маленький
+shipyard-console-category-Medium = Средний
+shipyard-console-category-Large = Большой
+shipyard-console-class-All = Все
+shipyard-console-class-Expedition = Экспедиционный
+shipyard-console-class-Scrapyard = Свалочный
+shipyard-console-class-Salvage = Утилизаторский
+shipyard-console-class-Science = Научный
+shipyard-console-class-Cargo = Карго
+shipyard-console-class-Chemistry = Химический
+shipyard-console-class-Botany = Ботанический
+shipyard-console-class-Engineering = Инженерный
+shipyard-console-class-Atmospherics = Атмосферный
+shipyard-console-class-Medical = Медицинский
+shipyard-console-class-Civilian = Гражданский
+shipyard-console-class-Kitchen = Кухонный
+# Antag
+shipyard-console-class-Syndicate = Синдикат
+shipyard-console-class-Pirate = Пират
+# NFSD
+shipyard-console-class-Capital = Флагман
+shipyard-console-class-Detainment = Шаттлозак
+shipyard-console-class-Detective = Детективный
+shipyard-console-class-Fighter = Боевой
+shipyard-console-class-Patrol = Патрульный
+shipyard-console-class-Pursuit = Преследовательный
+shipyard-console-engine-All = ВСЕ
+shipyard-console-engine-AME = Антиматерия
+shipyard-console-engine-TEG = ТЭГ
+shipyard-console-engine-Supermatter = Суперматерия
+shipyard-console-engine-Tesla = Тесла
+shipyard-console-engine-Singularity = Сингулярность
+shipyard-console-engine-Solar = Солнечные панели
+shipyard-console-engine-RTG = РИТЭГ
+shipyard-console-engine-APU = СВУ
+shipyard-console-engine-Welding = Сварочное топливо
+shipyard-console-engine-Plasma = Плазма
+shipyard-console-engine-Uranium = Уран
+shipyard-console-engine-Bananium = Бананиум

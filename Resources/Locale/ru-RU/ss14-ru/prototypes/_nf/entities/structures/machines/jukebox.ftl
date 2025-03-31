@@ -1,0 +1,9 @@
+ent-JukeboxShip = { ent-BaseStructureDisableToolUse }
+    .suffix = Корабль
+    .desc = { ent-BaseStructureDisableToolUse.desc }
+ent-JukeboxWallmount = { ent-BaseStructureWallmount }
+    .suffix = На стене
+    .desc = { ent-BaseStructureWallmount.desc }
+ent-JukeboxWallmountShip = { ent-BaseStructureDisableToolUse }
+    .suffix = На стене, Корабль
+    .desc = { ent-BaseStructureDisableToolUse.desc }

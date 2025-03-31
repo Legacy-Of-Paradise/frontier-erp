@@ -1,0 +1,15 @@
+ent-ThrusterSecurity = двигатель
+    .suffix = Охрана
+    .desc = { ent-BaseStructureDisableAnchoring.desc }
+ent-DebugThrusterSecurity = двигатель
+    .suffix = ДЕБАГ, Охрана
+    .desc = { ent-BaseStructureDisableToolUse.desc }
+ent-GyroscopeSecurity = { ent-BaseStructureDisableToolUse }
+    .suffix = Охрана
+    .desc = { ent-BaseStructureDisableToolUse.desc }
+ent-DebugGyroscopeSecurity = гироскоп
+    .suffix = ДЕБАГ, Охрана
+    .desc = { ent-BaseStructureDisableToolUse.desc }
+ent-SmallGyroscopeSecurity = малый гироскоп
+    .suffix = Охрана
+    .desc = { ent-GyroscopeSecurity.desc }

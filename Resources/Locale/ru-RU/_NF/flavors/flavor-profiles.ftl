@@ -1,0 +1,14 @@
+flavor-base-basic = базовый
+flavor-base-earthy = землистый
+flavor-complex-avocado = как авокадо
+flavor-complex-cucumber = хрустяще и освежающе
+flavor-complex-honeycomb = как восковый мед
+flavor-complex-fast = быстрый
+flavor-complex-greed = как жадность
+flavor-complex-blast = как война в джунглях
+flavor-complex-torpedo = как ковбойские скачки
+flavor-complex-bees = как жужжание и мед
+flavor-complex-wassail = тепло и комфортно
+flavor-complex-fine-noodles = как лапша
+flavor-complex-rich-broth = богатый бульон
+flavor-complex-tangy = острый

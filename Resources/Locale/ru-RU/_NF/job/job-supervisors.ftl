@@ -1,0 +1,9 @@
+job-supervisors-sr = Представитель Фронтира
+job-supervisors-sheriff = Шериф
+job-supervisors-bailiff = Надзиратель
+job-supervisors-sergeant = Сержант
+job-supervisors-cadet = Все, кто званием выше
+job-supervisors-prisoner = Весь персонал ДШ
+job-supervisors-nfsd = Капралы, Надзиратель, и шериф
+job-supervisors-pirate = Главный помощник капитана и капитан пиратов
+job-supervisors-nobody = Никто

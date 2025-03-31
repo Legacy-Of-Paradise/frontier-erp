@@ -1,0 +1,16 @@
+ent-FoodBaseSushi = { "" }
+    .desc = { "" }
+ent-FoodMealAvocadoSushi = суши с авокадо
+    .desc = Откуда взялись эти водоросли?
+ent-FoodMealAvocadoSushiSlice = суши с авокадо
+    .desc = Откуда взялись эти водоросли?
+ent-FoodMealCarpSushi = суши с карпом
+    .desc = Определенно, стоит рискнуть.
+ent-FoodMealCarpSushiSlice = суши с карпом
+    .desc = Конечно, стоит пойти на меньший риск.
+ent-FoodMealGasSafeSushiSlice = суши с заправки
+    .desc = Стоит ли ради этого рисковать?
+    .suffix = Безопасные
+ent-FoodMealGasBadSushiSlice = { ent-FoodBaseSushi }
+    .suffix = Опасные
+    .desc = { ent-FoodBaseSushi.desc }

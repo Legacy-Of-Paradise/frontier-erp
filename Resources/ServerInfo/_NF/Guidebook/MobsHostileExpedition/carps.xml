@@ -1,146 +1,146 @@
 <Document>
-  # Carps
-  
-  Space Carp are alien lifeforms that travel through space in schools. In the event a space station is in the path of a traveling school, anyone unlucky enough to be outside of the station's walls will be attacked.
-  
+  # Карпы
+
+  Космические карпы - это инопланетные формы жизни, которые путешествуют по космосу. Если космическая станция окажется на пути передвижной, любой, кому не повезет оказаться за пределами стен станции, подвергнется нападению.
+
   [bold][color=#a4885c]________________________________________________________________________[/color]
-  
-  # Known Variants
-  # "Carp"
-  
-  A variant of the common space carp, evolved to "swim" through gravity. Equally dangerous.
-  
-  [color=#a4885c]Flier[/color]: creature levitates above the ground and can bypass low obstacles such as tables, machine frames, or railings without being blocked or slowed down.
-  
+
+  # Известные виды
+  # "Карп"
+
+  Разновидность обыкновенного космического карпа, научившегося "плавать" под действием силы тяжести. Не менее опасен.
+
+  [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
+
   <Box>
   <GuideEntityEmbed Entity="MobCarpExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50 (death)
-  - [bold][color=#a4885c]Run speed:[/color][/bold] 4.5 m/s[bold][color=#a4885c]*[/color][/bold]
-  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]Slash[/color], 5 [color=yellow]Piercing[/color]
-  - [bold][color=#a4885c]Damage resistances:[/color][/bold] none
-  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flier
-  
-  [bold][color=#a4885c]*[/color][/bold] - [italic]an average human can run at 4.5 m/s and walk at 2.5 m/s.[/italic]
-  
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с[bold][color=#a4885c]*[/color][/bold]
+  - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color]
+  - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
+  - [bold][color=#a4885c]Особые способности:[/color][/bold] Полет
+
+  [bold][color=#a4885c]*[/color][/bold] - [italic]среднестатистический человек может бегать со скоростью 4,5 м/с и ходить со скоростью 2,5 м/с.[/italic]
+
   [bold][color=#a4885c]________________________________________________________________________[/color]
-  
-  # "Magicarp"
-  
-  A lesser version of spaceproof giant carp believed to have magic powers. Contrary to popular belief, does not possess magical abilities.
-  
-  [color=#a4885c]Flier[/color]: creature levitates above the ground and can bypass low obstacles such as tables, machine frames, or railings without being blocked or slowed down.
-  
+
+  # "Волшебный карп"
+
+  Уменьшенная версия гигантского карпа, который, как считается, обладает магической силой. Вопреки распространенному мнению, не обладает магическими способностями.
+
+  [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
+
   <Box>
   <GuideEntityEmbed Entity="MobCarpMagicExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50 (death)
-  - [bold][color=#a4885c]Run speed:[/color][/bold] 4.5 m/s
-  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]Slash[/color], 5 [color=yellow]Piercing[/color]
-  - [bold][color=#a4885c]Damage resistances:[/color][/bold] none
-  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flier
-  
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
+  - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color]
+  - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
+  - [bold][color=#a4885c]Особые способности:[/color][/bold] Полет
+
   [bold][color=#a4885c]________________________________________________________________________[/color]
-  
-  # "Holocarp"
-  
-  Carp made out of holographic energies. Sadly for you, it is very much real.
-  
-  [color=#a4885c]Flier[/color]: creature levitates above the ground and can bypass low obstacles such as tables, machine frames, or railings without being blocked or slowed down.
-  
-  [color=#a4885c]Incorporeal[/color]: can only be damaged by melee attacks or energy weapons.
-  
+
+  # "Голокарпус"
+
+  Карп, сотканный из голографических энергий. К вашему сожалению, он очень даже реальен.
+
+  [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
+
+  [color=#a4885c]Бестелесный[/color]: может быть поврежден только при атаках в ближнем бою или с помощью оружия из нержавеющей стали.
+
   <Box>
   <GuideEntityEmbed Entity="MobCarpHoloExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50 (death)
-  - [bold][color=#a4885c]Run speed:[/color][/bold] 4.5 m/s
-  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]Slash[/color], 5 [color=yellow]Piercing[/color]
-  - [bold][color=#a4885c]Damage resistances:[/color][/bold] none
-  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flier, Incorporeal
-  
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
+  - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color]
+  - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
+  - [bold][color=#a4885c]Особые способности:[/color][/bold] Полет, Бестелесный
+
   [bold][color=#a4885c]________________________________________________________________________[/color]
-  
-  # "Rainbowcarp"
-  
-  "Wow such a shiny fishie!" you might say. Reasonable, but these are deadly nonetheless.
-  
-  [color=#a4885c]Flier[/color]: creature levitates above the ground and can bypass low obstacles such as tables, machine frames, or railings without being blocked or slowed down.
-  
+
+  # "Радужный карп"
+
+  "Ух ты, какая блестящая рыбка!" - скажете вы. Вы правы, но, тем не менее, они смертельно опасны.
+
+  [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
+
   <Box>
   <GuideEntityEmbed Entity="MobCarpRainbowExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50 (death)
-  - [bold][color=#a4885c]Run speed:[/color][/bold] 4.5 m/s
-  - [bold][color=#a4885c]Damage (type):[/color][/bold] 5 [color=red]Slash[/color], 5 [color=yellow]Piercing[/color]
-  - [bold][color=#a4885c]Damage resistances:[/color][/bold] none
-  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flier
-  
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
+  - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 5 [color=red]Режущий[/color], 5 [color=yellow]Пронзающий[/color]
+  - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
+  - [bold][color=#a4885c]Особые способности:[/color][/bold] Полет
+
   [bold][color=#a4885c]________________________________________________________________________[/color]
-  
-  # "Sharkminnow"
-  
-  A dangerous shark from the blackness of endless space, who loves to drink blood.
-  
-  [color=#a4885c]Flier[/color]: creature levitates above the ground and can bypass low obstacles such as tables, machine frames, or railings without being blocked or slowed down.
-  
+
+  # "Акулья рыбешка"
+
+  Опасная акула из черноты бескрайнего космоса, которая любит пить кровь.
+
+  [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
+
   <Box>
   <GuideEntityEmbed Entity="MobSharkExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 80 (death)
-  - [bold][color=#a4885c]Run speed:[/color][/bold] 4.5 m/s
-  - [bold][color=#a4885c]Damage (type):[/color][/bold] 7 [color=red]Slash[/color], 5 [color=#9A54BF]Bloodloss[/color]
-  - [bold][color=#a4885c]Damage resistances:[/color][/bold] none
-  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flier
-  
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (мертв)
+  - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
+  - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 7 [color=red]Режущий[/color], 5 [color=#9A54BF]Потеря крови[/color]
+  - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
+  - [bold][color=#a4885c]Особые способности:[/color][/bold] Полет
+
   [bold][color=#a4885c]________________________________________________________________________[/color]
-  
-  # "Snake"
-  
-  A small but menacing poisonous snake, distant relative of purple snake from Kepler-283c.
-  
-  [color=#a4885c]Small[/color]: creature is small enough to pass under tables and airlocks.
-  
+
+  # "Змея"
+
+  Маленькая, но грозная ядовитая змея, дальняя родственница пурпурной змеи с Кеплера-283с.
+
+  [color=#a4885c]Маленький[/color]: существо достаточно маленькое, чтобы проходить под столами и воздушными шлюзами.
+
   <Box>
   <GuideEntityEmbed Entity="MobSnakeExpeditions"/>
   </Box>
-  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 50 (death)
-  - [bold][color=#a4885c]Run speed:[/color][/bold] 4.5 m/s
-  - [bold][color=#a4885c]Damage (type):[/color][/bold] 3 [color=red]Slash[/color], 3 [color=#9A54BF]Bloodloss[/color], 4 [color=lime]Poison[/color]
-  - [bold][color=#a4885c]Damage resistances:[/color][/bold] none
-  - [bold][color=#a4885c]Special abilities:[/color][/bold] Small, Poison
-  
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
+  - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
+  - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 3 [color=red]Режущий[/color], 3 [color=#9A54BF]Потеря крови[/color], 4 [color=lime]Яд[/color]
+  - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
+  - [bold][color=#a4885c]Особые способности:[/color][/bold] Маленький, Яд
+
   <GuideReagentEmbed Reagent="Toxin"/>
-  
+
   [bold][color=#a4885c]________________________________________________________________________[/color]
-  
-  # "Space Dragon"
-  
-  A flying leviathan, loosely related to space carps. Capable of rending doors with its powerful jaws and known to eat its victims whole.
-  
-  [color=#a4885c]Flier[/color]: creature levitates above the ground and can bypass low obstacles such as tables, machine frames, or railings without being blocked or slowed down.
-  
+
+  # "Космический дракон"
+
+  Летающий левиафан, близкий родственник космических карпов. Способен разрывать двери своими мощными челюстями и, как известно, съедает своих жертв целиком.
+
+  [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
+
   <Box>
   <GuideEntityEmbed Entity="MobDragonDungeon"/>
   </Box>
-  - [bold][color=#a4885c]Health thresholds:[/color][/bold] 200 (death)
-  - [bold][color=#a4885c]Run speed:[/color][/bold] 5 m/s
-  - [bold][color=#a4885c]Damage (type):[/color][/bold] 15 [color=red]Slash[/color], 15 [color=yellow]Piercing[/color]
-  - [bold][color=#a4885c]Damage resistances:[/color][/bold] none
-  - [bold][color=#a4885c]Special abilities:[/color][/bold] Flier
-  
+  - [bold][color=#a4885c]Здоровье:[/color][/bold] 200 (мертв)
+  - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 5 м/с
+  - [bold][color=#a4885c]Урон (Тип):[/color][/bold] 15 [color=red]Режущий[/color], 15 [color=yellow]Пронзающий[/color]
+  - [bold][color=#a4885c]Сопротивлению урону:[/color][/bold] нет
+  - [bold][color=#a4885c]Особые способности:[/color][/bold] Полет
+
   [bold][color=#a4885c]________________________________________________________________________[/color]
-  
-  # Mission Objectives
-  ## Elimination
+
+  # Цели миссии
+  ## Устранение
   <Box>
   <GuideEntityEmbed Entity="MobDragonDungeon"/>
   </Box>
-  Eliminate a large and dangerous creature - a [color=#a4885c]space dragon[/color] within given time constraints to earn a monetary reward.
-  
-  ## Destruction
+  Уничтожьте крупное и опасное существо - [color=#a4885c]Космический дракон[/color] в течение заданного срока, для получения денежного вознаграждение.
+
+  ## Уничтожить объект
   <Box>
   <GuideEntityEmbed Entity="CarpStatue"/>
   </Box>
-  Destroy a certain number of [color=#a4885c]carp statues[/color] within given time constraints to earn a monetary reward.
+  Уничтожьте определенное количество [color=#a4885c]статуй карпов[/color] в течение заданного срока, для получения денежного вознаграждение.
 </Document>

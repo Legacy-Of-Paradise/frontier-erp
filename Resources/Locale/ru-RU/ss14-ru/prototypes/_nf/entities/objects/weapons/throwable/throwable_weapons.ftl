@@ -1,0 +1,14 @@
+ent-MobHostileThrowableWeapon = дротик
+    .desc = Постарайся не уколоться.
+ent-DartSyndicateImpedrezene = дротик синдиката с импедрезином
+    .desc = Постарайся не уколоться.
+ent-DartSyndicateTranquilizer = дротик синдиката с транквилизатором
+    .desc = { ent-DartSyndicateImpedrezene.desc }
+ent-DartAberrantFleshHorrorSpikeGuidebook = костяной шип
+    .desc = { ent-Dart.desc }
+ent-DartAberrantFleshHorrorSpike = костяной шип
+    .desc = { ent-ConjuredObject10.desc }
+ent-DartAberrantFleshHorrorSpikeCluster = костяной шип
+    .desc = { ent-DartAberrantFleshHorrorSpike.desc }
+ent-DartAberrantFleshHorrorSpikeSpread = { ent-DartAberrantFleshHorrorSpike }
+    .desc = { ent-DartAberrantFleshHorrorSpike.desc }

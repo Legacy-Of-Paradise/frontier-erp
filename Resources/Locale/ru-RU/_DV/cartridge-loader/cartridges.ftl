@@ -1,0 +1,12 @@
+mail-metrics-program-name = МэилМетрикс
+mail-metrics-header = Доходы от доставки почты
+mail-metrics-opened = Доходы (Открыты)
+mail-metrics-expired = Потери (Просрочено)
+mail-metrics-damaged = Потери (Повреждено)
+mail-metrics-tampered = Потери (Испорченны)
+mail-metrics-unopened = Не открыты
+mail-metrics-count-header = Упаковки
+mail-metrics-money-header = Спесо
+mail-metrics-total = В общем
+mail-metrics-progress = { $opened } из { $total } открытых упаковок!
+mail-metrics-progress-percent = Уровень успеха: { $successRate }%

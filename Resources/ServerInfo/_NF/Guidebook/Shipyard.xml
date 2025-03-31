@@ -1,47 +1,47 @@
 <Document>
-  # New Frontiers Shipyards
+  # Верьф "Новых Горизонтов"
 
-To assist in developing the Frontier, shuttles from Nanotrasen and its subsidiaries can be rented for use.
-All rentals last for one shift. Rented shuttles return to Nanotrasen at the end of shift.
-The value of shuttles is returned to the purchaser when ended through a ship console.
-To avoid losses, [bold]make sure you end your rental before ending your shift[/bold].
+Чтобы помочь в развитии "Новых горизонтов", можно арендовать шаттлы компании Нанотрейзен и ее дочерних компаний.
+Срок аренды всех шаттлов рассчитан на одну смену. Арендованные шаттлы возвращаются Натрейзен в конце смены.
+Стоимость шаттлов возвращается покупателю после оплаты через консоль доставки.
+Чтобы избежать потерь, [bold]убедитесь, что вы завершили аренду до окончания своей смены[/bold].
 
-## Shipyard Console
+## Консоль верфи
   <Box>
     <GuideEntityEmbed Entity="PassengerIDCard"/>
     <GuideEntityEmbed Entity="SpaceCash1000"/>
     <GuideEntityEmbed Entity="ComputerShipyard"/>
   </Box>
-  To rent a ship:
-- Eject the ID card from your PDA.
-- Insert the ID card into an unused [color=#cccc00]shipyard console[/color].
-- Use the shipyard console to bring up its interface.
-- Select the ship you would like to rent.
-- Press the Purchase button on the console.
-- Press the Eject button to remove your ID from the console.
-- Reinsert your ID card into your PDA.
+  Что бы арендовать корабль:
+- Извлеките ID из своего КПК.
+- Вставьте ID в неиспользуемый [color=#cccc00]Консоль верфи[/color].
+- Используйте консоль [color=#cccc00]Консоль верфи[/color], чтобы открыть ее интерфейс.
+- Выберите судно, которое вы хотели бы арендовать.
+- Нажмите кнопку покупки на консоли.
+- Нажмите кнопку извлечения, чтобы удалить свой ID с консоли.
+- Снова вставьте свою ID в КПК.
 
-Congratulations, you're now the Captain of your own ship!
+Поздравляю, теперь вы капитан собственного корабля!
 
-To end your rental:
-- Make sure your rented ship is docked with Frontier Outpost.
-- Make sure nobody is aboard the ship.
-- Eject the ID card [bold]used to purchase the ship[/bold] from your PDA.
-- Insert the ID card into an unused [color=#cccc00]shipyard console[/color].
-- Use the shipyard console to bring up its interface.
-- Press the Sell button on the console. The value will be deposited into your bank account.
-- Press the Eject button to remove your ID from the console.
-- Reinsert your ID card into your PDA.
+Чтобы завершить вашу аренду:
+- Убедитесь, что ваш арендованный корабль пришвартован к аванпосту.
+- Убедитесь, что на борту корабля никого нет.
+- Извлеките ID [bold]которая использовалась для покупки корабля[/bold] из вашего КПК.
+- Вставьте ID в неиспользуемую [color=#cccc00]Консоль верфи[/color].
+- Используйте консоль, чтобы открыть ее интерфейс.
+- Нажмите кнопку "Продать" на консоли. Сумма будет зачислена на ваш банковский счет.
+- Нажмите кнопку "Извлеч", чтобы удалить свой идентификатор с консоли.
+- Снова вставьте свой ID в КПК.
 
-## Provisions
+## Обеспечение
   <Box>
     <GuideEntityEmbed Entity="LockerCaptain"/>
     <GuideEntityEmbed Entity="SuitStorageBase"/>
     <GuideEntityEmbed Entity="LockerParamedic"/>
   </Box>
-  Ships come equipped with the tools and supplies needed to perform one or more tasks in the Frontier (e.g. mining, research, medical, food services).
+  Корабли оснащены инструментами и расходными материалами, необходимыми для выполнения одной или нескольких задач на "Новых Горизонтах" (например, добыча полезных ископаемых, исследования, медицина, продовольственное обслуживание).
 
-Ships, especially larger ones, work best with a crew. Refer to the [bold]Hiring[/bold] section for more info.
-Space is a lonely, dangerous place, and you'll have a much better time when you work with a crew.
+На кораблях, особенно больших, лучше всего работать с экипажем. Дополнительную информацию смотрите в разделе [bold]О найме[/bold].
+Космос - это одинокое и опасное место, и вам будет гораздо лучше проводить время, когда вы будете работать с командой.
 
 </Document>

@@ -811,19 +811,6 @@
   - ContractorSoapNT
   # Frontier - try to mirror the upstream trinkets here, but only if they arent job role restricted in some weird way
   - PlushieLizard
-  - ClothingNeckLGBTPin
-  - ClothingNeckAromanticPin
-  - ClothingNeckAsexualPin
-  - ClothingNeckBisexualPin
-  - ClothingNeckGayPin
-  - ClothingNeckIntersexPin
-  - ClothingNeckLesbianPin
-  - ClothingNeckNonBinaryPin
-  - ClothingNeckPansexualPin
-  - ClothingNeckOmnisexualPin
-  - ClothingNeckTransPin
-  - ClothingNeckAutismPin
-  - ClothingNeckGoldAutismPin
 
 - type: loadoutGroup
   id: ContractorBoxSurvival

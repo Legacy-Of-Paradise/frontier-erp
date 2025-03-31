@@ -1,43 +1,44 @@
+# Legacy Of Paradise
+
 <p align="center"> <img alt="Frontier Station 14" width="880" height="300" src="https://github.com/new-frontiers-14/frontier-station-14/blob/30cdc70d8fcbf52f949337150bf42338ececbd80/Resources/Textures/Logo/logo.png?raw=true" /></p>
 
-Frontier Station 14 is a fork of [Space Station 14](https://github.com/space-wizards/space-station-14) that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox) engine written in C#.
+Frontier Station 14 — это форк [Space Station 14](https://github.com/space-wizards/space-station-14), работающий на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
-This is the primary repo for Frontier Station 14.
+Это основной репозиторий Legacy Of Paradise Frontier.
 
-If you want to host or create content for FS14, this is the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+Если вы хотите запустить сервер или создавать контент для FS14, то вам нужен именно этот репозиторий. В нём содержится как RobustToolbox, так и набор ресурсов для разработки новых контент-паков.
 
-## Links
+## Ссылки
 
-[Discord](https://discord.gg/tpuAT7d3zm/) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
+[Discord](https://wiki.legacyofparadise.space/discord/) | [Steam](https://store.steampowered.com/app/1255460/Space_Station_14/)
 
-## Documentation/Wiki
+## Документация/Вики
 
-Our [wiki](https://frontierstation14.com/) has documentation on FS14s content.
+В нашей [вики](https://wiki.legacyofparadise.space/) есть документация по контенту FS14.
 
-## Contributing
+## Внесение вклада
 
-We are happy to accept contributions from anybody. Get in Discord if you want to help. We've got a [list of ideas](https://discord.com/channels/1123826877245694004/1127017858833068114) that can be done and anybody can pick them up. Don't be afraid to ask for help either!
+Мы рады принять вклад от любого участника. Присоединяйтесь к нашему Discord, если хотите помочь. У нас есть [список идей](https://wiki.legacyofparadise.space/discord/), которые можно реализовать, и любой желающий может их взять. Не бойтесь спрашивать, если вам нужна помощь!
 
-We are not currently accepting translations of the game on our main repository. If you would like to translate the game into another language consider creating a fork or contributing to a fork.
+В настоящее время мы не принимаем переводы игры в основном репозитории. Если вы хотите перевести игру на другой язык, рассмотрите возможность создания форка или внесения вклада в существующий форк.
 
-If you make any contributions, please make sure to read the markers section in [MARKERS.md](https://github.com/new-frontiers-14/frontier-station-14/blob/master/MARKERS.md)
-Any changes made to files belonging to our upstream should be properly marked in accordance to what is specified there.
+Если вы вносите изменения, пожалуйста, ознакомьтесь с разделом маркеров в [MARKERS.md](https://github.com/Legacy-Of-Paradise/frontier-erp/blob/master/MARKERS.md). Все изменения в файлах, принадлежащих нашему upstream, должны быть должным образом помечены в соответствии с указанными там правилами.
 
-## Building
+## Сборка
 
-1. Clone this repo.
-2. Run `RUN_THIS.py` to init submodules and download the engine.
-3. Compile the solution.
+1. Клонируйте этот репозиторий.
+2. Запустите `RUN_THIS.py` для инициализации подмодулей и загрузки движка.
+3. Скомпилируйте решение.
 
-[More detailed instructions on building the project.](https://docs.spacestation14.com/en/general-development/setup.html)
+[Более подробные инструкции по сборке проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
 
-## License
+## Лицензия
 
-Content contributed to this repository after commit 2fca06eaba205ae6fe3aceb8ae2a0594f0effee0 is licensed under the GNU Affero General Public License version 3.0, unless otherwise stated. See `LICENSE-AGPLv3.txt`.
-Content contributed to this repository before commit 2fca06eaba205ae6fe3aceb8ae2a0594f0effee0 is licensed under the MIT license, unless otherwise stated. See `LICENSE-MIT.txt`.
+Контент, добавленный в этот репозиторий после коммита `2fca06eaba205ae6fe3aceb8ae2a0594f0effee0`, лицензируется в соответствии с GNU Affero General Public License версии 3.0, если не указано иное. См. `LICENSE-AGPLv3.txt`.
+Контент, добавленный до коммита `2fca06eaba205ae6fe3aceb8ae2a0594f0effee0`, лицензируется по лицензии MIT, если не указано иное. См. `LICENSE-MIT.txt`.
 
-[2fca06eaba205ae6fe3aceb8ae2a0594f0effee0](https://github.com/new-frontiers-14/frontier-station-14/commit/2fca06eaba205ae6fe3aceb8ae2a0594f0effee0) was pushed on July 1, 2024 at 16:04 UTC
+Коммит [2fca06eaba205ae6fe3aceb8ae2a0594f0effee0](https://github.com/Legacy-Of-Paradise/frontier-erp/commit/2fca06eaba205ae6fe3aceb8ae2a0594f0effee0) был загружен 1 июля 2024 года в 16:04 UTC.
 
-Most assets are licensed under [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) unless stated otherwise. Assets have their license and the copyright in the metadata file. [Example](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
+Большинство ресурсов лицензированы под [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), если не указано иное. Лицензия и авторские права указаны в метаданных файлов. [Пример](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
-Note that some assets are licensed under the non-commercial [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) or similar non-commercial licenses and will need to be removed if you wish to use this project commercially.
+Обратите внимание, что некоторые ресурсы лицензированы под некоммерческими лицензиями, такими как [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичными, и их необходимо удалить, если вы планируете коммерческое использование проекта.

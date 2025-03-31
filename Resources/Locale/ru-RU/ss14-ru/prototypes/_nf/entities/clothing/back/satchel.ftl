@@ -1,0 +1,10 @@
+ent-ClothingBackpackSatchelMercenary = сумка наёмника
+    .desc = Сумка, побывавший во многих опасных местах, надежная боевая сумка.
+ent-ClothingBackpackSatchelArcadia = сумка Аркадии
+    .desc = Сумка произведенённая Аркадия Индастриес.
+ent-ClothingBackpackSatchelPilot = сумка пилота
+    .desc = Сумка созданная для настоящих асов.
+ent-ClothingBackpackSatchelNfsdBrown = сумка Департамента Шерифа
+    .desc = { ent-ClothingBackpackSatchelSecurity.desc }
+ent-ClothingBackpackSatchelNfsdCream = { ent-ClothingBackpackSatchelNfsdBrown }
+    .desc = { ent-ClothingBackpackSatchelNfsdBrown.desc }

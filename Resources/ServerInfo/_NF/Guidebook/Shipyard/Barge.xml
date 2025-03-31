@@ -1,68 +1,68 @@
 <Document>
-  # BARGE-CLASS CARGO SHUTTLE
+  # BARGE-ШАТТЛ ГРУЗОВОГО КЛАССА
   <Box>
   <GuideEntityEmbed Entity="OreProcessor"/>
   <GuideEntityEmbed Entity="VendingMachineSalvage"/>
   <GuideEntityEmbed Entity="VendingMachineBooze"/>
-  <GuideEntityEmbed Entity="CrateTradeSecureNormal" Caption="trading crate"/>
-  <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="trading crate"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureNormal" Caption="торговый ящик"/>
+  <GuideEntityEmbed Entity="CrateTradeSecureHigh" Caption="торговый ящик"/>
   </Box>
   <Box>
    <GuideEntityEmbed Entity="ShuttleMapBarge" Caption=""/>
   </Box>
-  [color=#a4885c]Ship Size:[/color] Medium
+  [color=#a4885c]Размер судна:[/color] Средний
 
-  [color=#a4885c]Recommended Crew:[/color] 2-4
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 2-4
 
-  [color=#a4885c]Power Gen Type:[/color] Solar/Plasma
+  [color=#a4885c]Тип генератора энергии:[/color] Солнечная/Плазменная энергия
 
-  [color=#a4885c]Expeditions:[/color] None
+  [color=#a4885c]Экспедиции:[/color] Нет
 
-  [color=#a4885c]IFF Console:[/color] None
+  [color=#a4885c]Консоль идентификации:[/color] Нет
 
-  "A medium shipping vessel repurposed into a salvage bar."
+  "Крупное морское судно, переоборудованное в бар для сбора утильсырья."
 
-  # PREFLIGHT CHECKLIST
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 
-  ## 1. Power supply
+  ## 1. Источник питания
 
-  ## 1.1. Battery units
+  ## 1.1. Аккумуляторные блоки
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  - Check that the SMES unit is anchored to the floor.
-  - Check that the substation unit is anchored to the floor.
-  - Check that the APC unit's Main Breaker is toggled on.
-  - Check the APC unit's current Load* (W).
+  - Убедитесь, что модуль СМЭС надежно закреплен на полу.
+  - Убедитесь, что подстанция надежно закреплена на полу.
+  - Убедитесь, что главный ЛКП включен.
+  - Проверьте текущую нагрузку блока ЛКП* (Вт).
 
-  ## 1.2. P.A.C.M.A.N. generator unit
+  ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
   <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
   <GuideEntityEmbed Entity="SheetPlasma"/>
   </Box>
 
-  - Check that P.A.C.M.A.N. generator unit is anchored to the floor.
-  - Check that P.A.C.M.A.N. generator unit is fueled. For extended flights make sure that you have enough fuel stockpiled to sustain prolonged power generation.
-  - Check that P.A.C.M.A.N. generator unit is set to HV output.
-  - Set Target Power to 14 [bold]kW[/bold] on the generator unit.
-  - Start P.A.C.M.A.N. generator unit.
+  - Проверьте, надежно ли закреплен Генераторны  П.А.К.М.А.Н. на полу.
+  - Убедитесь, что Генераторны  П.А.К.М.А.Н. заправлен. При длительных полетах убедитесь, что у вас достаточно топлива для обеспечения длительной выработки электроэнергии.
+  - Проверте, подклбчены ли Генераторны  П.А.К.М.А.Н. к ВВ кабелю
+  - Установите целевое напряжение в 14 [bold]кВ[/bold] На генераторах.
+  - Запустите Генераторны  П.А.К.М.А.Н.
 
-  ## 1.3. Solar panels
+  ## 1.3. Солнечные панели
   <Box>
   <GuideEntityEmbed Entity="ComputerSolarControl"/>
   <GuideEntityEmbed Entity="SolarTracker"/>
   <GuideEntityEmbed Entity="SolarPanel"/>
   </Box>
-  - Inspect solar control computer (located at shuttle cockpit).
-  - Adjust panel angular velocity.
-  - Adjust panel angle.
+  - Проверьте консоль управления солнечными батареями (расположен в кабине пилота шаттла).
+  - Отрегулируйте угловую скорость панелей.
+  - Отрегулируйте угол наклона панели.
 
-  ## 2. Atmospherics
+  ## 2. Атмосфера
 
-  ## 2.1. Distribution Loop
+  ## 2.1. Распределительный контур
   <Box>
   <GuideEntityEmbed Entity="OxygenCanister"/>
   <GuideEntityEmbed Entity="NitrogenCanister"/>
@@ -70,22 +70,22 @@
   <GuideEntityEmbed Entity="GasMixer"/>
   </Box>
 
-  - Check if the O2 canister and N2 canister are anchored to their connector ports.
-  - Check if the gas mixer has its mixing ratio and output pressure set correctly.
-  - Enable the gas mixer.
+  - Проверьте, надежно ли закреплены канистры O2 и N2 в своих портах.
+  - Проверьте, правильно ли установлена пропорция смешивания в газовом смесителе и выходное давление.
+  - Включите газовый смеситель.
 
-  ## 3. Other checks
+  ## 3. Другие проверки
   <Box>
   <GuideEntityEmbed Entity="Gyroscope"/>
   <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   </Box>
 
-  - Check that the gyroscope is anchored, powered, and enabled.
-  - Check that the mini gravity generator is anchored, powered, and enabled.
+  - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
+  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
 
-  ## Sidenotes
+  ## Рекомендации опытных пилотов
 
-  * - Barge-class cargo ships are equipped with two APC units that can be used to appraise the ship's total power consumption. Unmodified Barge-class ships require 23.7 kW of power to remain operational.
+  * - Грузовые суда класса "BARGE" оснащены двумя блоками ЛКП, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности судов класса "BARGE" в неизменном виде требуется мощность 23,7 кВт.
 
-  ** - Barge-class cargo ships come equipped with 28 solar panels that can provide up to 25 kW of power under the ideal circumstances: assuming that on average properly maintained solar array will provide one third of maximum output power, recommended target power output for P.A.C.M.A.N. generator unit is 14 kW.
+  ** - Грузовые суда класса "BARGE" оснащены 28 солнечными батареями, которые в идеальных условиях могут обеспечить мощность до 25 кВт: предполагая, что в среднем при надлежащем обслуживании солнечные батареи будут обеспечивать треть максимальной выходной мощности, рекомендуемой целевой выходной мощности для Генераторов П.А.К.М.А.Н. составляет 14 кВт.
 </Document>

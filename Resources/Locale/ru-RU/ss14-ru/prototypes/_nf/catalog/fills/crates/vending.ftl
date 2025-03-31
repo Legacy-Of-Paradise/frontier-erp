@@ -1,0 +1,14 @@
+ent-CrateVendingMachineRestockAstroVendFilled = ящик пополнения АстроВенд
+    .desc = Содержит две коробки пополнения запасов для торгового автомата АстроВенд.
+ent-CrateVendingMachineRestockAmmoFilled = ящик пополнения "Освобождение"
+    .desc = Содержит две коробки пополнения запасов для торгового автомата "Освобождение".
+ent-CrateVendingMachineRestockCuddlyCritterVendFilled = ящик пополнения ПлюшеВесельеМатом
+    .desc = Содержит две коробки пополнения запасов для торгового автомата ПлюшеВесельеМатом.
+ent-CrateVendingMachineRestockLessLethalVendFilled = ящик пополнения ОгранЛеталВенда
+    .desc = Содержит две коробки пополнения запасов для торгового автомата ОгранЛеталВенда.
+ent-CrateVendingMachineRestockNonLethalVendFilled = ящик пополнения НеЛеталВенда
+    .desc = Содержит две коробки пополнения запасов для торгового автомата НеЛеталВенда.
+ent-CrateVendingMachineRestockAutoTuneVendFilled = ящик пополнения МузыкМата
+    .desc = Содержит два ящика для пополнения запасов торгового автомата МузыкМата.
+ent-CrateVendingMachineRestockPottedPlantVendFilled = ящик пополения Плант-О-Мат
+    .desc = Содержит две коробки пополнения запасов для торгового автомата Плант-О-Мат.

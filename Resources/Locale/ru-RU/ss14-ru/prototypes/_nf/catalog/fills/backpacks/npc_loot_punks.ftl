@@ -1,0 +1,13 @@
+ent-PunkMessengerGiftBox = вещмешок бандитов
+    .desc = Лут-боксы здесь?
+    .suffix = NPC Loot
+ent-ClothingBackpackPunkLootA = вещмешок экипировки бандитов
+    .desc = { ent-PunkMessengerGiftBox.desc }
+ent-ClothingBackpackPunkLootB = { ent-ClothingBackpackPunkLootA }
+    .desc = { ent-ClothingBackpackPunkLootA.desc }
+ent-ClothingBackpackPunkLootC = { ent-ClothingBackpackPunkLootA }
+    .desc = { ent-ClothingBackpackPunkLootA.desc }
+ent-ClothingBackpackPunkLootD = { ent-ClothingBackpackPunkLootA }
+    .desc = { ent-ClothingBackpackPunkLootA.desc }
+ent-ClothingBackpackPunkLootBoss = { ent-ClothingBackpackPunkLootA }
+    .desc = { ent-ClothingBackpackPunkLootA.desc }

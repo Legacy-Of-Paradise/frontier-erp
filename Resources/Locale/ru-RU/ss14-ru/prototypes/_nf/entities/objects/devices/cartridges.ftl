@@ -1,0 +1,10 @@
+ent-NFBasePDACartridge = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-BountyContractsCartridge = картридж с контрактами на вознаграждение
+    .desc = Программа для отслеживания и размещения контрактов.
+ent-AppraisalCartridge = Оценочный картридж
+    .desc = Программа для оценки денежной стоимости предметов.
+ent-LedgerCartridge = Картридж  SpesoFlow Lite
+    .desc = Программа для отслеживания банковских счетов сектора.
+ent-ContrabandForensicsModule = Картридж криминалистики контрабанды
+    .desc = Программа для сканирования тайников и контейнеров с контрабандой и составления отчетов о них для получения вознаграждений.

@@ -1,0 +1,11 @@
+ent-BaseStockPart = stock part
+    .desc = What?
+ent-CapacitorStockPart = конденсатор
+    .desc = Базовый конденсатор, используемый при создании различных устройств.
+    .suffix = Уровень 1
+ent-MicroManipulatorStockPart = манипулятор
+    .desc = Базовый манипулятор, используемый при создании некоторых устройств.
+    .suffix = Уровень 1
+ent-MatterBinStockPart = емкость материи
+    .desc = Базовая емкость материи, используемая при создании различных устройств.
+    .suffix = Уровень 1

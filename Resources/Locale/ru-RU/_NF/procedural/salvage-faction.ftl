@@ -1,0 +1,10 @@
+dungeon-boss-grid-warning = Возвращение в подземелье.
+salvage-faction-syndicate = Синдикат
+salvage-faction-cultists = Культисты
+salvage-faction-flesh = Плоть
+salvage-faction-argocytes = Аргоциты
+salvage-faction-dinosaurs = Динозавры
+salvage-faction-mercenaries = Наемники
+salvage-faction-explorers = Исследователи
+salvage-faction-silicons = Восставшие синтетики
+salvage-faction-punks = Панки

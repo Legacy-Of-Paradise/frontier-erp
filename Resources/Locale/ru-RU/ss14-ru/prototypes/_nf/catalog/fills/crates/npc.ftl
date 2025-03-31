@@ -1,0 +1,14 @@
+ent-CrateNPCEmotionalSupport = эмоциональная поддержка, клетка для домашних животных
+    .desc = Ящик с одним питомцем, поддерживающим эмоциональную поддержку.
+ent-FillNPCEmotionalSupportSafe = { "" }
+    .suffix = Безопаснный
+    .desc = { "" }
+ent-CrateNPCEmotionalSupportSafe = { ent-FillNPCEmotionalSupportSafe }
+    .desc = { ent-FillNPCEmotionalSupportSafe.desc }
+ent-PetCarrierNPCEmotionalSupportSafe = { ent-PetCarrier }
+    .desc = { ent-PetCarrier.desc }
+ent-CrateWoodCageClugg = { ent-CrateWoodCage }
+    .suffix = Заполенный, Клагг
+    .desc = { ent-CrateWoodCage.desc }
+ent-CrateNPCPoultryCube = ящик для птичих кубиков
+    .desc = Ящик с одной коробкой птичих кубиков.

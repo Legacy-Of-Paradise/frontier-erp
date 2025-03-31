@@ -1,32 +1,32 @@
 <Document>
-  # Felinids
+  # Фелиниды
 
   <Box>
     <GuideEntityEmbed Entity="MobFelinidDummy" Caption=""/>
   </Box>
 
-  Small and mischievous cat-eared people. Being small in itself has lots of upsides and downsides. They can hide inside duffelbags.
+  Маленькие и озорные существа с кошачьими ушами. Маленький рост сам по себе имеет множество плюсов и минусов. Они могут прятаться в рюкзаках.
 
-  ## Diet
+  ## Диета
 
-  - Can eat raw meat.
-  - Will get poisoned by Theobromine (Chocolate, Tea, Coffee) and Allicin (Onion, Garlic).
+  - Можно есть сырое мясо.
+  - Могут отравиться Теобромином (шоколад, чай, кофе) и Аллицином (лук, чеснок).
 
-  ## Benefits
+  ## Полезные свойства
 
-  - They are smaller than Humans, making them harder to hit.
-  - Can fit in duffelbags.
-  - Have the ability to throw up an hairball to get rid of some of the chemicals from their bloodstream.
-  - Able to eat mice and rats after picking them up. This has the benefit of regenerating the hairball ability and feeding them.
-  - Uses their claws to do Slashing damage and Piercing damage.
-  - Can walk completely silently, but only while barefooted.
-  - Immunity to the OwOnavirus disease.
+  - Они меньше людей, что затрудняет их попадание.
+  - Могут помещаться в спортивные сумки.
+  - Обладают способностью выбрасывать комок шерсти, чтобы избавиться от некоторых химических веществ из своего кровотока.
+  - Способны поедать мышей и крыс после того, как их подобрали. Это дает возможность восстанавливать способность "комок шерсти" и кормить их.
+  - Используют свои когти для нанесения режущего и колющего урона.
+  - Могут передвигаться совершенно бесшумно, но только босиком.
+  - Невосприимчивость к УвУвной инфекции.
 
-  ## Drawbacks
+  ## Недостатки
 
-  - Takes 15% more Blunt, Slash and Piercing damage.
-  - Are easily shoved, pushed and carried around by every other morphotypes due to their small size.
-  - They are weaker and struggle to carry and pull things due to their small size. They are unable to carry an Oni.
-  - They have slightly less stamina than Humans.
+  - Получает на 15% больше ударов тупыми, режущими и проникающими предметами.
+  - Из-за небольшого размера их легко толкать и переносить любым другим гуманойдами.
+  - Они слабее и с трудом переносят предметы из-за своего маленького размера. Они не могут носить "Они".
+  - У них немного меньше выносливости, чем у людей.
 
 </Document>

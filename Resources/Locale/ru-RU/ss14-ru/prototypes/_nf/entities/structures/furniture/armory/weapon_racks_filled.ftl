@@ -1,0 +1,12 @@
+ent-StructurePistolRackWallmountedMercenaryFilled = { ent-StructurePistolRackWallmountedMercenary }
+    .suffix = Dunegeon, Наёмник, Полный, Настенный
+    .desc = { ent-StructurePistolRackWallmountedMercenary.desc }
+ent-StructureMeleeWeaponRackWallmountedSalvageFilled = { ent-StructureMeleeWeaponRackWallmountedSalvage }
+    .suffix = Утилизатор, Полный, Настенный
+    .desc = { ent-StructureMeleeWeaponRackWallmountedSalvage.desc }
+ent-StructurePistolRackPiratesFilled = { ent-StructurePistolRackPirates }
+    .suffix = Пират, Полный
+    .desc = { ent-StructurePistolRackPirates.desc }
+ent-StructureMeleeWeaponRackBloodCultFilled = { ent-StructureMeleeWeaponRackBloodCult }
+    .suffix = Кровавый культ, Полный
+    .desc = { ent-StructureMeleeWeaponRackBloodCult.desc }

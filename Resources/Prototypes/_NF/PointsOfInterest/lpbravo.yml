@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: LPBravo
   parent: BasePOI
-  name: 'Listening Point Bravo'
+  name: 'Точка прослушивания Браво'
   minimumDistance: 4000
   maximumDistance: 6000
   spawnGroup: SyndicateFOB
@@ -26,7 +26,7 @@
 
 - type: gameMap
   id: LPBravo
-  mapName: 'Listening Point Bravo'
+  mapName: 'Точка прослушивания Браво'
   mapPath: /Maps/_NF/POI/lpbravo.yml
   minPlayers: 0
   stations:

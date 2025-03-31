@@ -1,0 +1,12 @@
+ent-SplatterChemBase = химические брызги
+    .desc = { ent-BulletWaterShot.desc }
+ent-SplatterChemPhlogNapalm = { ent-SplatterChemBase }
+    .desc = { ent-SplatterChemBase.desc }
+ent-SplatterChemDrugs = { ent-SplatterChemBase }
+    .desc = { ent-SplatterChemBase.desc }
+ent-SplatterChemMute = { ent-SplatterChemBase }
+    .desc = { ent-SplatterChemBase.desc }
+ent-SplatterChemWeh = { ent-SplatterChemBase }
+    .desc = { ent-SplatterChemBase.desc }
+ent-SplatterChemCold = { ent-SplatterChemBase }
+    .desc = { ent-SplatterChemBase.desc }

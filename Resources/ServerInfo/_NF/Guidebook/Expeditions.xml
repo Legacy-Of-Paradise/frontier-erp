@@ -1,170 +1,169 @@
 <Document>
-  # Salvage Expeditions
+  # Утилизационные экспедиции
   <Box>
-  <GuideEntityEmbed Entity="ComputerSalvageExpedition"/>
-  <GuideEntityEmbed Entity="TelecomServerFilledShuttle"/>
+    <GuideEntityEmbed Entity="ComputerSalvageExpedition"/>
+    <GuideEntityEmbed Entity="TelecomServerFilledShuttle"/>
   </Box>
-  
-  When going on expedition, your ship will jump to a planet and you need to complete an objective in a limited time.
-  When that time runs out, the ship jumps back, [bold]whether you're on it or not[/bold].
 
-  Ships purchased at Frontier Outpost [bold]cannot[/bold] go on expedition, but [italic]any purchased at [bold]Expeditionary Lodge[/bold] can[/italic].
-  You will need to use the [color=#a4885c]salvage console[/color] onboard.
+  Отправляясь в экспедицию, ваш корабль совершит прыжок на планету, и вам нужно будет выполнить задание за ограниченное время.
+  Когда это время истечет, корабль прыгнет обратно, [bold]независимо от того, находитесь вы на нем или нет[/bold].
 
-  To go on an expedition:
-  - Pilot your ship so there is 200 m of empty space in each direction.
-  - Use the [color=#a4885c]salvage console[/color].
-  - Pick one of the five missions offered to you.
-  - Note the enemy, conditions, total time, and objectives for the mission.
-  - Buckle into a seat to avoid falling down.
+  Корабли, приобретенные на пограничной заставе[bold]не могу[/bold] отправляйся в экспедицию, но [italic]любые купленные на[bold]Экспедиционном доке[/bold] могут[/italic].
+  Вам нужно будет использовать на борту корабля [color=#a4885c]Консоль утилизаторов[/color].
 
-  Tips for expeditions:
-  - Start with easier missions and progress to harder ones as you get better equipped.
-  - Different enemy types have different strengths and weaknesses. Vary your loadout to best deal with each.
-  - If you don't think you can win a fight, don't take it.
+  Чтобы отправиться в экспедицию:
+  - Управляйте своим кораблем так, чтобы в каждом направлении было по 200 метров свободного пространства.
+  - Используйте [color=#a4885c]Консоль утилизаторов[/color].
+  - Выберите одну из пяти предложенных вам миссий.
+  - Обратите внимание на противника, условия, общее время и цели миссии
+  - Пристегнитесь к сиденью, чтобы не упасть.
 
-  When you arrive on-site, you'll be told which direction the objective is in.
-  There'll be a building in that direction; break in and complete your objective.
-  Note: North is towards the top of the screen in default rotation (default keybinding: [color=#028ed9][keybind="CameraReset"/][/color]).
+  Советы по экспедиций:
+  - Начинайте с более простых миссий и переходите к более сложным по мере того, как вы будете лучше экипированы.
+  - У разных типов врагов разные сильные и слабые стороны. Варируйте свое снаряжение, чтобы наилучшим образом справиться с каждым из них.
+  - Если ты не думаешь, что сможешь выиграть бой, не принимай его.
 
-  While planetside you will be unable to communicate via radio with the wider Frontier Sector, and unless you have a [color=#a4885c]telecommunication server[/color] installed you won't be able to use radio to communicate with your crew in the expedition either.
+  Когда вы прибудете на место, вам скажут, в каком направлении находится цель.
+  В том направлении будет здание; вломитесь в него и выполните свою задачу.
+  Примечание: При повороте на север по умолчанию отображается верхняя часть экрана (default keybinding: [color=#028ed9][keybind="CameraReset"/][/color]).
 
-  # Being Prepared
-  <Box>
-  <GuideEntityEmbed Entity="MobBloodCultistZealotMelee"/>
-  <GuideEntityEmbed Entity="MobFleshGolemExpeditions"/>
-  <GuideEntityEmbed Entity="MobArgocyteEnforcerExpeditions"/>
-  <GuideEntityEmbed Entity="MobCarpHoloExpeditions"/>
-  <GuideEntityEmbed Entity="MobRogueSiliconHunter"/>
-  </Box>
-  During missions planetside, you will encounter dangers ranging from inhospitable environments to hostile wildlife and even bloodthirsty cultists or relentless automatons. If you want to survive a mission with your loot in hand, you've got to be prepared for the challenges ahead. You will need the right gear and the knowledge of how and when that gear should be used. And most importantly, you will need the help of your crewmates.
+  Находясь на планете, вы не сможете поддерживать радиосвязь с более широким пограничным сектором, и если у вас не установлен [color=#a4885c]телекоммуникационный сервер[/color]. После его установки вы также не сможете использовать радио для связи со своим экипажем во время экспедиции.
 
-  # Gear
-  ## Environmental Hazards
-  The first hazard you will encounter on the planet is [italic]the planet itself[/italic]. Planetary environments are diverse: the atmosphere and temperature can vary - both can be dangerous. The [color=#a4885c]salvage console[/color] will give you a rough idea of what conditions on the planet are in the [color=#a4885c]Modifiers[/color] section of the mission description. This information will help you to decide what environmental protection gear you need, if any.
-  
+  # Быть готовым
   <Box>
-  <GuideEntityEmbed Entity="FloorLiquidPlasmaEntity"/>
-  <GuideEntityEmbed Entity="FloorLavaEntity"/>
+    <GuideEntityEmbed Entity="MobBloodCultistZealotMelee"/>
+    <GuideEntityEmbed Entity="MobFleshGolemExpeditions"/>
+    <GuideEntityEmbed Entity="MobArgocyteEnforcerExpeditions"/>
+    <GuideEntityEmbed Entity="MobCarpHoloExpeditions"/>
+    <GuideEntityEmbed Entity="MobRogueSiliconHunter"/>
   </Box>
-  [bold][color=#a4885c]Biomes:[/color][/bold]
-  - [bold]Grassland/Caves/Shadow:[/bold] no hazards have been observed so far.
-  - [bold]Snow:[/bold] liquid plasma pools can be encountered in this biome. Touching one will set you on fire.
-  - [bold]Lava:[/bold] lava pools can be encountered in this biome. Touching one will set you on fire.
+  Во время миссий на планете вы столкнетесь с опасностями, начиная от негостеприимной окружающей среды и заканчивая враждебной дикой природой и даже кровожадными культистами или безжалостными роботами. Если вы хотите выжить в миссии с добычей в руках, вы должны быть готовы к предстоящим испытаниям. Вам понадобится правильное снаряжение и знания о том, как и когда это снаряжение следует использовать. И самое главное, вам понадобится помощь ваших товарищей по команде.
 
-If you [italic]do[/italic] get set on fire, remember to [bold]click the [color=#ee0000]fire icon[/color][/bold] to stop, drop and roll. It may take [bold]multiple tries[/bold] to put yourself out.
-  
-  <Box>
-  <GuideEntityEmbed Entity="ClothingMaskGas"/>
-  <GuideEntityEmbed Entity="AirTankFilled"/>
-  </Box>
-  [bold][color=#a4885c]Air quality modifiers:[/color][/bold]
-  - [bold]None:[/bold] the air is safe to breathe without internals on.
-  - [bold]Dangerous atmosphere:[/bold] ranges from a toxic atmosphere to none at all. Internals must be on, and an EVA suit or hardsuit in extreme cases.
-  - [bold]Volatile atmosphere:[/bold] the atmosphere has gaseous plasma in it. Internals must be on. Depending on the other gases present, the atmosphere may combust and engulf the entire planet.
-  
-  <Box>
-  <GuideEntityEmbed Entity="ClothingOuterWinterMiner"/>
-  <GuideEntityEmbed Entity="ClothingOuterHardsuitEVA"/>
-  <GuideEntityEmbed Entity="ClothingOuterHardsuitBasic"/>
-  </Box>
-  [bold][color=#a4885c]Temperature modifiers:[/color][/bold]
-  - [bold]None:[/bold] the temperature on the planet is warm, no special equipment is needed.
-  - [bold]Low temperature:[/bold] cold, but bearable. Reptilians are advised to wear a winter coat or hardsuit.
-  - [bold]Extreme cold:[/bold] temperatures are close to absolute zero, a hardsuit is required.
-  - [bold]High temperature:[/bold] unpleasantly hot, roughly 150 centigrade. Heat-resistant gear or a hardsuit are needed.
-  - [bold]Extreme heat:[/bold] temperatures are very high, a hardsuit is mandatory.
-  
-  <Box>
-  <GuideEntityEmbed Entity="Flare"/>
-  <GuideEntityEmbed Entity="GlowstickBlue"/>
-  <GuideEntityEmbed Entity="FlashlightLantern"/>
-  <GuideEntityEmbed Entity="Floodlight"/>
-  </Box>
-  [bold][color=#a4885c]Time of day:[/color][/bold]
-  - [bold]Morning/Day/Evening times:[/bold] the ambient light on the planet is sufficient, no need for light sources.
-  - [bold]Night time:[/bold] complete darkness, light sources are required for navigating the planet.
-  
-  [bold][color=#a4885c]Time constraints:[/color][/bold]
-  - [bold]Rush:[/bold] you will have less time to complete the expedition. Set your priorities in advance, and avoid being slowed down too mcuh with heavy gear.
-  
-  ## Tools
-  <Box>
-  <GuideEntityEmbed Entity="Pickaxe"/>
-  <GuideEntityEmbed Entity="Crowbar"/>
-  <GuideEntityEmbed Entity="Wrench"/>
-  <GuideEntityEmbed Entity="Screwdriver"/>
-  <GuideEntityEmbed Entity="Wirecutter"/>
-  </Box>
-  <Box>
-  <GuideEntityEmbed Entity="ClothingEyesGlassesMeson"/>
-  <GuideEntityEmbed Entity="Welder"/>
-  <GuideEntityEmbed Entity="Multitool"/>
-  <GuideEntityEmbed Entity="RadioHandheld"/>
-  </Box>
-  Salvaging often requires digging through layers of rocks to reach an abandoned facility, as well as deconstructing walls and windows, to gain entrance to the ruins. You may need to pry open unpowered airlocks or dismantle valuable machinery to take back. Tools can make hard tasks easier, like using a crowbar to pry open airlocks (much faster than using your hands), or make impossible tasks possible, like mining through rocks with a drill. Also, tools like a handheld radio can provide a way for crewmates to talk without a telecommunication server.
-  
-  For more details see the Guidebook entries on [textlink="Engineering" link="Engineering"] and [textlink="Construction" link="Construction"].
-  
-  ## Medicine
-  <Box>
-  <GuideEntityEmbed Entity="EmergencyMedipen"/>
-  <GuideEntityEmbed Entity="Brutepack"/>
-  <GuideEntityEmbed Entity="Ointment"/>
-  <GuideEntityEmbed Entity="Gauze"/>
-  </Box>
-  <Box>
-  <GuideEntityEmbed Entity="MedicatedSuture"/>
-  <GuideEntityEmbed Entity="RegenerativeMesh"/>
-  <GuideEntityEmbed Entity="Tourniquet"/>
-  </Box>
-  You will get hurt. Period. Knowing the basics of medical care and having supplies at hand can make the difference between life and death for you or your crewmates. 
-  
-  Before going on expedition, consider buying medical supplies for the types of damage you're likely to receive ([color=red]brute[/color] and [color=#ffa500]burn[/color]), and supplies to stop [color=red]bleeding[/color], like [color=#a4885c]gauze[/color] or [color=#a4885c]epinephrine[/color]. Basic medications can be bought from vending machines. More efficient, advanced ones are harder to obtain, but most of the time they can be bought from other players providing medical services.
-  
-  Remember, having medical supplies at hand is only half the job! Remember to [textlink="learn the basics of medical care" link="Medical Doctor"].
-  
-  ## Armor
-  <Box>
-  <GuideEntityEmbed Entity="ClothingHeadHelmetBasic"/>
-  <GuideEntityEmbed Entity="ClothingOuterArmorBulletproof"/>
-  <GuideEntityEmbed Entity="ClothingOuterArmorReflective"/>
-  <GuideEntityEmbed Entity="RiotShield"/>
-  </Box>
-  Most of the time, you can't avoid getting hit. Wearing armor reduces damage taken, keeping you in action for longer, and giving you a chance to go and heal. Since different types of enemies do different types of damage, choosing your armor wisely will significantly increase your chances of survival.
-  
-  Here are some examples for your consideration:
-  - [textlink="Syndicate naval forces" link="MobsExpeditionGuideSyndicate"] use firearms that deal [color=yellow]piercing[/color] damage. Wearing armor with high pierce resistance (like a bulletproof vest) is a good choice.
-  - [textlink="Rogue silicons" link="MobsExpeditionGuideSilicons"] mostly deal [color=#ffa500]heat[/color] damage: wearing a reflective vest is a good choice.
-  
-  ## Teamwork
-  <Box>
-  <GuideEntityEmbed Entity="GuidebookMemeNpcGood" Caption="the good,"/>
-  <GuideEntityEmbed Entity="GuidebookMemeNpcBad" Caption="the bad,"/>
-  <GuideEntityEmbed Entity="GuidebookMemeNpcUgly" Caption="the ugly"/>
-  <GuideEntityEmbed Entity="GuidebookMemeNpcThatGuy" Caption="and that guy"/>
-  </Box>
-  By far, your best bet at surviving expeditions is your crewmates. You might [italic]know[/italic] how to heal yourself, but you [italic]can't[/italic] if you're unconscious.
-  
-  <Box>
-  <GuideEntityEmbed Entity="TelecomServerFilledShuttle"/>
-  <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
-  </Box>
-  <Box>
-  <GuideEntityEmbed Entity="ClothingHeadsetGrey" Caption="headset"/>
-  <GuideEntityEmbed Entity="EncryptionKeyMedical"/>
-  <GuideEntityEmbed Entity="MedicalTrackingImplanter"/>
-  </Box>
-  
-  Communication is crucial. Make sure to keep in contact with your teammates to know what they're doing and when they need help. You'll need either a headset and a [color=#a4885c]telecommunication server[/color] with [color=#a4885c]encryption keys[/color] installed, or [color=#a4885c]handheld radios[/color] on each crewmate (make sure they're on!).
+  # Снаряжение
+  ## Экологические опасности
+  Первая опасность, с которой вы столкнетесь на планете, - это [italic]сама планета[/italic]. Окружающая среда планеты разнообразна: атмосфера и температура могут варироваться - и то, и другое может быть опасным.  [color=#a4885c]Консоль утилизаторов[/color] это даст вам приблизительное представление о том, какие условия на планете. [color=#a4885c]Модификаторы[/color] указаны в описании миссии. Эта информация поможет вам решить, какое снаряжение для защиты окружающей среды вам нужно, если таковое имеется.
 
-  Having a [color=#a4885c]medical encryption key[/color] installed in your headset will tell you when anyone with a [color=#a4885c]medical tracking implanter[/color] installed goes down in combat. Leave no friend behind!
-  
-  ## Know Your Enemy
   <Box>
-  <GuideEntityEmbed Entity="ClothingEyesHudMedical"/>
-  <GuideEntityEmbed Entity="ClothingEyesHudDiagnostic"/>
+    <GuideEntityEmbed Entity="FloorLiquidPlasmaEntity"/>
+    <GuideEntityEmbed Entity="FloorLavaEntity"/>
   </Box>
-  Adaptability is key: strategies and tactics that work against [textlink="xenos" link="MobsExpeditionGuideXenos"] might not work well against [textlink="mercenaries" link="MobsExpeditionGuideMercenaries"], and vice versa. The Guidebook entries on hostile entities may provide some insight into what to expect planetside, but they [italic]cannot[/italic] replace firsthand experience. Instead, descend to the planet, salvage what you can, and face danger head-on. The riches won't wait around forever!
-  
+  [bold][color=#a4885c]Биомы:[/color][/bold]
+  - [bold]Луга/Пещеры/Тени:[/bold] ока никаких опасностей не наблюдалось.
+  - [bold]Снег:[/bold] в этом биоме можно встретить лужи жидкой плазмы. Прикоснувшись к одной из них, вы воспламенитесь.
+  - [bold]Лава:[/bold] в этом биоме можно встретить скопления лавы. Прикоснувшись к одному из них, вы воспламенитесь.
+
+Если вас [italic]все-таки[/italic] подожгут, не забудьте [bold]нажать на [color=#ee0000]значок пожара[/color][/bold] чтобы остановиться, упасть и перевернуться. Может потребоваться [bold]несколько попыток[/bold] чтобы потушить себя же.
+  <Box>
+    <GuideEntityEmbed Entity="ClothingMaskGas"/>
+    <GuideEntityEmbed Entity="AirTankFilled"/>
+  </Box>
+  [bold][color=#a4885c]Модификаторы качества воздуха:[/color][/bold]
+  - [bold]Ничего:[/bold] воздух безопасен. Можно дышать без специализированых устройств.
+  - [bold]Опасная атмосфера:[/bold] атмосфера может быть как токсичной, так и вообще нулевой. Внутренние устройства должны быть включены, а в крайних случаях - скафандр EVA или защитный костюм.
+  - [bold]Изменчивая атмосфера:[/bold] в атмосфере есть газообразная плазма. Внутренние устройства должны быть включены. В зависимости от наличия других газов атмосфера может воспламениться и поглотить всю планету.
+
+  <Box>
+    <GuideEntityEmbed Entity="ClothingOuterWinterMiner"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitEVA"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitBasic"/>
+  </Box>
+  [bold][color=#a4885c]Модификаторы температуры:[/color][/bold]
+  - [bold]Ничего:[/bold] температура на планете теплая, никакого специального оборудования не требуется.
+  - [bold]Низкая температура:[/bold] холодно, но терпимо. Рептилоидам рекомендуется надевать зимнее пальто или EVA.
+  - [bold]Экстремальный холод:[/bold] температура близка к абсолютному нулю, требуется защитный костюм.
+  - [bold]Высокая температура:[/bold] неприятно жарко, примерно 150 градусов по Цельсию. Необходимо надеть термостойкое снаряжение или EVA.
+  - [bold]Экстремальная жара:[/bold] температура очень высокая, поэтому обязательно наличие защитного костюма.
+
+  <Box>
+    <GuideEntityEmbed Entity="Flare"/>
+    <GuideEntityEmbed Entity="GlowstickBlue"/>
+    <GuideEntityEmbed Entity="FlashlightLantern"/>
+    <GuideEntityEmbed Entity="Floodlight"/>
+  </Box>
+  [bold][color=#a4885c]Время суток:[/color][/bold]
+  - [bold]Утреннее/дневное/вечернее время:[/bold] окружающего освещения на планете достаточно, нет необходимости в источниках света.
+  - [bold]Ночное время:[/bold] в полной темноте для навигации по планете требуются источники света.
+
+  [bold][color=#a4885c]Временные ограничения:[/color][/bold]
+  - [bold]Раш:[/bold] у вас будет меньше времени на завершение экспедиции. Заранее расставьте приоритеты и избегайте чрезмерного замедления движения из-за тяжелого снаряжения.
+
+  ## Инструменты
+  <Box>
+    <GuideEntityEmbed Entity="Pickaxe"/>
+    <GuideEntityEmbed Entity="Crowbar"/>
+    <GuideEntityEmbed Entity="Wrench"/>
+    <GuideEntityEmbed Entity="Screwdriver"/>
+    <GuideEntityEmbed Entity="Wirecutter"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingEyesGlassesMeson"/>
+    <GuideEntityEmbed Entity="Welder"/>
+    <GuideEntityEmbed Entity="Multitool"/>
+    <GuideEntityEmbed Entity="RadioHandheld"/>
+  </Box>
+  Чтобы добраться до заброшенного объекта, при проведении спасательных работ часто приходится прорываться сквозь слои скал, а также разбирать стены и окна, чтобы проникнуть в руины. Возможно, вам придется вскрывать неработающие воздушные шлюзы или демонтировать ценное оборудование, чтобы забрать его обратно. С помощью инструментов можно упростить сложные задачи, например, с помощью лома вскрывать воздушные шлюзы (гораздо быстрее, чем руками), или сделать невозможные задачи возможными, например, вести добычу полезных ископаемых с помощью сверла. Кроме того, такие инструменты, как портативная радиостанция, могут обеспечить членам экипажа возможность общаться без использования телекоммуникационного сервера.
+
+  Для получения более подробной информации ознакомьтесь с разделами руководства [textlink="Инженерии" link="Engineering"] и [textlink="Конструкции" link="Construction"].
+
+  ## Медицина
+  <Box>
+    <GuideEntityEmbed Entity="EmergencyMedipen"/>
+    <GuideEntityEmbed Entity="Brutepack"/>
+    <GuideEntityEmbed Entity="Ointment"/>
+    <GuideEntityEmbed Entity="Gauze"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="MedicatedSuture"/>
+    <GuideEntityEmbed Entity="RegenerativeMesh"/>
+    <GuideEntityEmbed Entity="Tourniquet"/>
+  </Box>
+  Тебе будет больно. Иногда. Знание основ медицинской помощи и наличие под рукой необходимых средств могут решить проблему жизни и смерти для вас или ваших товарищей по команде.
+
+  Прежде чем отправиться в экспедицию, подумайте о покупке медикаментов на случай если ([color=red]Вам Врежут/Расцарапоют/Проткнут[/color] и [color=#ffa500]Подожгут/Охладят ниже нуля/Плюнут кислотой[/color]), а так же не забдуте взять снаряжение для [color=red]остановки кроватечения[/color], такие как [color=#a4885c]марля[/color] или [color=#a4885c]адреналин[/color]. Основные лекарства можно приобрести в торговых автоматах. Более эффективные и продвинутые лекарства достать сложнее, но в большинстве случаев их можно купить у других игроков, предоставляющих медицинские услуги.
+
+  Помните, что наличие медикаментов под рукой - это только половина дела! Не забудьте [textlink="изучить основы оказания медицинской помощи" link="Medical Doctor"].
+
+  ## Броня
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadHelmetBasic"/>
+    <GuideEntityEmbed Entity="ClothingOuterArmorBulletproof"/>
+    <GuideEntityEmbed Entity="ClothingOuterArmorReflective"/>
+    <GuideEntityEmbed Entity="RiotShield"/>
+  </Box>
+  В большинстве случаев вы не сможете избежать попадание в критическое состояние. Ношение доспехов уменьшает наносимый урон, позволяет вам дольше оставаться в строю и дает шанс не умереть. Поскольку разные типы врагов наносят разный урон, грамотный выбор брони значительно повысит ваши шансы на выживание.
+
+  Вот несколько примеров для вашего рассмотрения:
+  - [textlink="Военно-космические силы Синдиката" link="MobsExpeditionGuideSyndicate"] используйте огнестрельное оружие, наносящий [color=yellow]колющий[/color] урон. Ношение брони с высокой колющий защитой (например, бронежилета) - хороший выбор.
+  - [textlink="Неконтролируемые силиконовцы" link="MobsExpeditionGuideSilicons"] в основном наносят [color=#ffa500]тепловой[/color] урон лазером. По этому рекомендуется носить отражающий жилет.
+
+  ## Командная работа
+  <Box>
+    <GuideEntityEmbed Entity="GuidebookMemeNpcGood" Caption="the good,"/>
+    <GuideEntityEmbed Entity="GuidebookMemeNpcBad" Caption="the bad,"/>
+    <GuideEntityEmbed Entity="GuidebookMemeNpcUgly" Caption="the ugly"/>
+    <GuideEntityEmbed Entity="GuidebookMemeNpcThatGuy" Caption="and that guy"/>
+  </Box>
+  Безусловно, лучший способ выжить в экспедиции - это ваши товарищи по команде. Вы можете [italic]знать[/italic] как исцелить себя, но вы [italic]не сможете это сделать[/italic] если ты без сознания.
+
+    <Box>
+    <GuideEntityEmbed Entity="TelecomServerFilledShuttle"/>
+    <GuideEntityEmbed Entity="EncryptionKeyCommon"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHeadsetGrey" Caption="headset"/>
+    <GuideEntityEmbed Entity="EncryptionKeyMedical"/>
+    <GuideEntityEmbed Entity="MedicalTrackingImplanter"/>
+  </Box>
+
+  Общение имеет решающее значение. Обязательно поддерживайте контакт со своими товарищами по команде, чтобы знать, что они делают и когда им нужна помощь. Вам понадобятся либо гарнитура и [color=#a4885c]телекоммуникационный сервер[/color] c [color=#a4885c] ключами шифрования[/color], либо  [color=#a4885c]портативные радиостанции[/color] у каждого члена экипажа (убедитесь, что они включены!).
+
+  Наличие  [color=#a4885c]медицинского ключа шифрования[/color] установленного в вашей гарнитуре, сообщит вам, когда любой, у кого установлен [color=#a4885c]медицинский следящий имплантант[/color] погибнет в бою. Не оставляйте друзей без присмотра!
+
+  ## Знай своего врага
+  <Box>
+    <GuideEntityEmbed Entity="ClothingEyesHudMedical"/>
+    <GuideEntityEmbed Entity="ClothingEyesHudDiagnostic"/>
+  </Box>
+  Ключевое значение имеет адаптивность: стратегии и тактики, которые работают против  [textlink="Ксеносов" link="MobsExpeditionGuideXenos"], но может плохо работать против [textlink="Наемников" link="MobsExpeditionGuideMercenaries"], и наоборот. Записи в путеводителе о враждебных существах могут дать некоторое представление о том, чего ожидать на планете, но они [italic]не могу[/italic] замените опытом из первых рук. Вместо этого спуститесь на планету, спасите все, что сможете, и встретьте опасность лицом к лицу. Богатства не будут ждать вечно!
+
 </Document>

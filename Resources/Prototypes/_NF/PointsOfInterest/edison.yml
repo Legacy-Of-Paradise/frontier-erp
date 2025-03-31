@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Edison
   parent: BasePOI
-  name: 'Edison Power Plant'
+  name: 'Электростанция Эдисона'
   minimumDistance: 2650
   maximumDistance: 5400
   spawnGroup: Required
@@ -22,7 +22,7 @@
 
 - type: gameMap
   id: Edison
-  mapName: 'Edison Power Plant'
+  mapName: 'Электростанция Эдисона'
   mapPath: /Maps/_NF/POI/edison.yml
   minPlayers: 0
   stations:
@@ -30,7 +30,7 @@
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Edison Power Plant'
+          mapNameTemplate: 'Электростанция Эдисона'
         # - type: StationJobs
           # availableJobs:
             # Pilot: [ 0, 0 ]

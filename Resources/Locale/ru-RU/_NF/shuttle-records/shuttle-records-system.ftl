@@ -1,0 +1,21 @@
+shuttle-records-console-window-title = Компьютер записей шаттлов
+shuttle-records-copy-deed-button = ID Копирование
+shuttle-records-shuttle-name-label = Наименование шаттла: { $name }
+shuttle-records-shuttle-owner-label = Куплено: { $owner }
+shuttle-records-shuttle-price-label = Цена покупки: { $price }
+shuttle-records-shuttle-status = Статус шаттла: { $status }
+shuttle-records-shuttle-status-active = Активен в секторе
+shuttle-records-shuttle-status-inactive = Продан или удален
+shuttle-records-transactions = Список транзакций
+shuttle-records-detail-title = Выбранные детали шаттла
+shuttle-records-no-idcard = Отсутствует ID карта.
+shuttle-records-no-record-found = Запись не найдена.
+shuttle-records-no-bank-account = Станция не имеет банковский аккаунт.
+shuttle-records-insufficient-funds = Станции не хватает средств.
+shuttle-records-no-access = Доступ отказан.
+shuttle-records-transaction-confirm = Вы уверены?
+shuttle-records-transaction-cost = Стоимость транзакции: { $cost }
+shuttle-records-search = Найти корабль или капитана
+shuttle-records-time-of-purchase = Время покупки: [color=white]{ $time }[/color]
+shuttle-records-show-active-only = Показывать только активные корабли
+shuttle-records-purchased-voucher = Покупка совершена по талону.
