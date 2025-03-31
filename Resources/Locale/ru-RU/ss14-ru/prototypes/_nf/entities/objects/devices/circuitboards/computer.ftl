@@ -1,2 +1,2 @@
-ent-ComputerWithdrawBankATMComputerCircuitboard = мащинная плата банкомата (Только выводить)
+ent-ComputerWithdrawBankATMComputerCircuitboard = мащинная плата банкомата (Только снятие)
     .desc = консольная печатная плата для банкомата, предназначенного только для снятия наличных.

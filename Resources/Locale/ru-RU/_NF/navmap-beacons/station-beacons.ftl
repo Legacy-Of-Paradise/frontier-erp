@@ -1,4 +1,4 @@
-station-beacon-atm = Банкомат
+station-beacon-atm = банкомат
 station-beacon-shipyard = Верфь
 station-beacon-sr-office = Офис ПФ
 station-beacon-sr-quarters = Покои ПФ
