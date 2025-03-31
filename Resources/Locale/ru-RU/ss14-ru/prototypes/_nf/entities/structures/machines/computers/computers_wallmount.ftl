@@ -1,8 +1,8 @@
-ent-ComputerWallmountRadar = { ent-BaseStructureComputerWallmount }
-    .desc = { ent-BaseStructureComputerWallmount.desc }
-ent-ComputerWallmountAdvancedRadar = { ent-BaseStructureComputerWallmount }
-    .desc = { ent-BaseStructureComputerWallmount.desc }
-ent-ComputerWallmountStationRecords = { ent-BaseStructureComputerWallmount }
-    .desc = { ent-BaseStructureComputerWallmount.desc }
-ent-ComputerWallmountCrewMonitoring = { ent-BaseStructureComputerWallmount }
-    .desc = { ent-BaseStructureComputerWallmount.desc }
+ent-ComputerWallmountRadar = { ent-ComputerRadar }
+    .desc = { ent-ComputerRadar.desc }
+ent-ComputerWallmountAdvancedRadar = { ent-ComputerAdvancedRadar }
+    .desc = { ent-ComputerAdvancedRadar.desc }
+ent-ComputerWallmountStationRecords = { ent-ComputerStationRecords }
+    .desc = { ent-ComputerStationRecords.desc }
+ent-ComputerWallmountCrewMonitoring = { ent-ComputerCrewMonitoring }
+    .desc = { ent-ComputerCrewMonitoring.desc }

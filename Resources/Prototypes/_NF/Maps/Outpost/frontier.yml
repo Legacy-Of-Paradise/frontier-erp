@@ -1,6 +1,6 @@
 - type: gameMap
   id: Frontier
-  mapName: 'Аванпост Фронтир'
+  mapName: 'Аванпост Новых Горизонтов'
   mapPath: /Maps/_NF/Outpost/frontier.yml
   minPlayers: 0
   maxPlayers: 100
@@ -11,7 +11,7 @@
       stationProto: StandardFrontierStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Аванпост Фронтир'
+          mapNameTemplate: 'Аванпост Новых Горизонтов'
 #          nameGenerator:
 #            !type:NanotrasenNameGenerator
 #            prefixCreator: '14'

@@ -11,7 +11,7 @@ ledger-total-expenses = Общие расходы
 ledger-no-expenses = Отсутсвует
 ledger-balance = Баланс:
 ledger-no-balance = Н/Д
-ledger-tab-Frontier = Аванпост Фронтира
+ledger-tab-Frontier = Аванпост Новых Горизонтов
 ledger-tab-Nfsd = ДШ
 ledger-tab-Medical = Медицинская диспетчерная
 # Fallback, if this displays, something's wrong.

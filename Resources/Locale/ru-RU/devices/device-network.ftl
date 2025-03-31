@@ -8,7 +8,7 @@ device-frequency-prototype-name-pdas = КПК
 device-frequency-prototype-name-fax = Факс
 device-frequency-prototype-name-basic-device = Базовые устройства
 device-frequency-prototype-name-cyborg-control = Управление киборгами
-device-frequency-prototype-name-robotics-console = Консоль управления робототехникой
+device-frequency-prototype-name-robotics-console = консоль управления робототехникой
 
 ## camera frequencies
 

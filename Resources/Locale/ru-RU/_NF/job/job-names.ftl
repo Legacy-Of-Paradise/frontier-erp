@@ -2,7 +2,7 @@
 job-name-bailiff = Надзиратель
 job-name-brigmedic = Санитар
 job-name-cadet-nf = Курсант
-job-name-contractor = Контрактник
+job-name-contractor = Авантюрист
 job-name-deputy = Капрал
 job-name-nf-detective = Детектив
 job-name-ertmailcarrier = ОБР почтальон

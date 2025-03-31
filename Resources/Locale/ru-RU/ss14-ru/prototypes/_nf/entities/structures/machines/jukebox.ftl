@@ -1,9 +1,9 @@
-ent-JukeboxShip = { ent-BaseStructureDisableToolUse }
+ent-JukeboxShip = Музыкальный автомат
     .suffix = Корабль
-    .desc = { ent-BaseStructureDisableToolUse.desc }
-ent-JukeboxWallmount = { ent-BaseStructureWallmount }
+    .desc = Устройство, способное проигрывать самые разнообразные мелодии. Наслаждение не гарантируется.
+ent-JukeboxWallmount = { ent-JukeboxShip }
     .suffix = На стене
-    .desc = { ent-BaseStructureWallmount.desc }
-ent-JukeboxWallmountShip = { ent-BaseStructureDisableToolUse }
+    .desc = { ent-JukeboxShip.desc }
+ent-JukeboxWallmountShip = { ent-JukeboxShip }
     .suffix = На стене, Корабль
-    .desc = { ent-BaseStructureDisableToolUse.desc }
+    .desc = { ent-JukeboxShip.desc }
