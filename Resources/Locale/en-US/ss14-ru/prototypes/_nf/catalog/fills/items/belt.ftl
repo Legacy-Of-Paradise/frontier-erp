@@ -18,3 +18,6 @@ ent-ClothingBeltChaplainSashFilled = { ent-ClothingBeltChaplainSash }
 ent-ClothingBeltPunkRandomizedFilled = { ent-ClothingBeltPunkRandomized }
     .suffix = Filled, Engineering
     .desc = { ent-ClothingBeltPunkRandomized.desc }
+ent-ClothingBeltSheathFilledHilt = { ent-ClothingBeltSheath }
+    .suffix = Filled, Hilt
+    .desc = { ent-ClothingBeltSheath.desc }

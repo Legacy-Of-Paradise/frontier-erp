@@ -10,3 +10,5 @@ ent-SmugglingEventScheduler = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-FrontierRoundstartVariation = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
+ent-NFBasicStationEventScheduler = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }

@@ -1,5 +1,3 @@
-ent-UniformJabroni = jabroni outfit
-    .desc = For artists, perfomance artists.
 ent-UniformSchoolgirlRed = red schoolgirl uniform
     .desc = Ready for school!
 ent-UniformSchoolgirlBlack = black schoolgirl uniform

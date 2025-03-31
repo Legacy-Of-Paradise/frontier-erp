@@ -12,7 +12,7 @@
   На ранней стадии развития роющие держатся поближе к своим гнездам и роют норы под землей, чтобы оставаться в относительной безопасности.
 
   <Box>
-  <GuideEntityEmbed Entity="MobXenoBurrowerExpeditions"/>
+  <GuideEntityEmbed Entity="MobXeno"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)[bold][color=#a4885c]*[/color][/bold]
@@ -29,7 +29,7 @@
   Трутни, составляющие основу любого улья ксеносов, выполняют функции работников и нянек. Они формируют окружающую среду в соответствии с потребностями улья и ухаживают за невылупившимися яйцами.
 
   <Box>
-  <GuideEntityEmbed Entity="MobXenoDroneExpeditions"/>
+  <GuideEntityEmbed Entity="MobXenoDrone"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 70 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.5 м/с (3 м/с)
@@ -44,7 +44,7 @@
   Преторианцы крупнее трутней, их прочный корпус предназначен для защиты. Внушительный размер также позволяет им эффективно транспортировать крупную добычу обратно в улей.
 
   <Box>
-  <GuideEntityEmbed Entity="MobXenoPraetorianExpeditions"/>
+  <GuideEntityEmbed Entity="MobXenoPraetorian"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 100 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
@@ -59,7 +59,7 @@
   Опустошители - это крупные, злобные убийцы, специализирующиеся на жестоких атаках с большим уроном.
 
   <Box>
-  <GuideEntityEmbed Entity="MobXenoRavagerExpeditions"/>
+  <GuideEntityEmbed Entity="MobXenoRavager"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 150 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.2 м/с (2.3 м/с)
@@ -74,7 +74,7 @@
   Созданный для скорости, Бегун - это очень быстрый хищьник, который использует тактику бега и индивидуального боя. Однако, его легкий корпус делает его уязвимым для любой атаки.
 
   <Box>
-  <GuideEntityEmbed Entity="MobXenoRunnerExpeditions"/>
+  <GuideEntityEmbed Entity="MobXenoRunner"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 6 м/с (2.7 м/с)
@@ -89,7 +89,7 @@
   Плевательница, мастер дальнего боя среди ксеносов, выплевывает сгустки Кислой слюны, которая может с легкостью вывести из строя любого. Быстрым движением своего удлиненного языка Плевательница выпускает струю едкой слизи, которая может прожечь броню и испепелить плоть.
 
   <Box>
-  <GuideEntityEmbed Entity="MobXenoSpitterExpeditions"/>
+  <GuideEntityEmbed Entity="MobXenoSpitter"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 75 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4 м/с (4 м/с)
@@ -119,7 +119,7 @@
   Королева, ответственная как за откладывание яиц, так и за управление своими детьми, является самым важным членом улья ксеносов. Если она умрет, улей потеряет всякое управление.
 
   <Box>
-  <GuideEntityEmbed Entity="MobXenoQueenDungeon"/>
+  <GuideEntityEmbed Entity="MobXenoQueen"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 250 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 3.8 м/с (2.8 м/с)
@@ -132,7 +132,7 @@
   # Цели миссии
   ## Устранение
   <Box>
-  <GuideEntityEmbed Entity="MobXenoQueenDungeon"/>
+  <GuideEntityEmbed Entity="MobXenoQueen"/>
   </Box>
   Уничтожьте крупное и опасное существо - [color=#a4885c]Королеву[/color] в течение заданного срока, для получения денежного вознаграждение.
 

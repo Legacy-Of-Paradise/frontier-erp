@@ -1,5 +1,5 @@
-ent-GasUnaryBase = { ent-GasPipeBase }
-    .desc = { ent-GasPipeBase.desc }
+ent-GasUnaryBase = { ent-RecyclableItemSteelSmall }
+    .desc = { ent-RecyclableItemSteelSmall.desc }
 ent-GasVentPump = air vent
     .desc = Has a valve and a pump attached to it.
 ent-GasPassiveVent = passive vent

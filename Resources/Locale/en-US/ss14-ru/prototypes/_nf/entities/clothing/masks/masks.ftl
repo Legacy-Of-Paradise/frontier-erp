@@ -13,3 +13,5 @@ ent-ClothingMaskCultJanitor = cult janitor mask
 ent-ClothingMaskPunkHalf = punk halfmask
     .desc = A close-fitting breath mask with gamer lights!
     .suffix = Random visuals
+ent-ClothingMaskClownBald = clown mask
+    .desc = If clowning doesn't work out, maybe you can rob a bank.

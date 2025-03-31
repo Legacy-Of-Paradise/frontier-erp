@@ -1,9 +1,52 @@
 <Document>
-## Начало
-Это не все существующие рецепты, этот список предназначен для демонстрации основ.
 
-Продукты смешиваются в мензурке, еда готовится в микроволновке. Время готовки обычно указывается в рецепте.
+  ## Рецепты для микроволновой печи
 
-<GuideFoodGroupEmbed/>
+  Это последняя опубликованная версия сборника рецептов от Центрального Командного Кухонного Отдела De Cuisine NanoTrasen для поваров на судах NanoTrasen.
+
+  ## Пиццы
+<GuideMicrowaveGroupEmbed Group="Pizza"/>
+
+  ## Сытные Блюда
+<GuideMicrowaveGroupEmbed Group="Savory"/>
+
+  ## Хлеб
+<GuideMicrowaveGroupEmbed Group="Breads"/>
+
+  ## Блюда на завтрак
+<GuideMicrowaveGroupEmbed Group="Breakfast"/>
+
+  ## Еда для мотыльков
+<GuideMicrowaveGroupEmbed Group="Moth"/>
+
+  ## Паста и лапша
+<GuideMicrowaveGroupEmbed Group="Pasta"/>
+
+  ## Выпечка и десерты
+<GuideMicrowaveGroupEmbed Group="Dessert"/>
+
+  ## Супы и Рагу
+<GuideMicrowaveGroupEmbed Group="Soup"/>
+
+  ## Пироги и Тарты
+<GuideMicrowaveGroupEmbed Group="Pie"/>
+
+  ## Батончики и Печенье
+<GuideMicrowaveGroupEmbed Group="BarsAndCookies"/>
+
+  ## Торты
+<GuideMicrowaveGroupEmbed Group="Cake"/>
+
+  ## Салаты
+<GuideMicrowaveGroupEmbed Group="Salad"/>
+
+  ## Медицинские
+<GuideMicrowaveGroupEmbed Group="Medicinal"/>
+
+  ## Другое
+<GuideMicrowaveGroupEmbed Group="Other"/>
+
+  ## Секретное
+<GuideMicrowaveGroupEmbed Group="Secret"/>
 
 </Document>

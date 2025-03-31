@@ -254,8 +254,6 @@
       - id: ClothingNeckCloakAdmin
         orGroup: DripLoot
         prob: 0.5
-      - id: ClothingNeckCloakTrans
-        orGroup: DripLoot
       - id: ClothingNeckCloakPirateCap
         orGroup: DripLoot
         prob: 0.25

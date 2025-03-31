@@ -42,3 +42,34 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 Большинство ресурсов лицензированы под [CC-BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/), если не указано иное. Лицензия и авторские права указаны в метаданных файлов. [Пример](https://github.com/space-wizards/space-station-14/blob/master/Resources/Textures/Objects/Tools/crowbar.rsi/meta.json).
 
 Обратите внимание, что некоторые ресурсы лицензированы под некоммерческими лицензиями, такими как [CC-BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) или аналогичными, и их необходимо удалить, если вы планируете коммерческое использование проекта.
+
+## Атрибуты
+
+
+Когда мы берем контент из других форков, мы распределяем его по подкаталогам, специфичным для репо, чтобы лучше отслеживать авторство и ограничить конфликты при слиянии.
+
+
+Содержимое в этих подкаталогах происходит из соответствующих форков и может содержать изменения. Эти изменения обозначаются комментариями вокруг измененных строк.
+
+| Subdirectory | Fork Name | Fork Repository | License |
+|--------------|-----------|-----------------|---------|
+| `_NF` | Frontier Station | https://github.com/new-frontiers-14/frontier-station-14 | AGPL 3.0 |
+| `_CD` | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT |
+| `_Corvax` | Corvax | https://github.com/space-syndicate/space-station-14 | MIT |
+| `_Corvax` | Corvax Frontier | https://github.com/Corvax-Frontier/Frontier | AGPL 3.0 |
+| `_DV` | Delta-V | https://github.com/DeltaV-Station/Delta-v | AGPL 3.0 |
+| `_EE` | Einstein Engines | https://github.com/Simple-Station/Einstein-Engines | AGPL 3.0 |
+| `_Emberfall` | Emberfall | https://github.com/emberfall-14/emberfall | MPL 2.0 |
+| `_EstacaoPirata` | Estacao Pirata | https://github.com/Day-OS/estacao-pirata-14 | AGPL 3.0 |
+| `_Goobstation` | Goob Station | https://github.com/Goob-Station/Goob-Station | AGPL 3.0 |
+| `_Impstation` | Impstation | https://github.com/impstation/imp-station-14 | AGPL 3.0 |
+| `_NC14` | Nuclear 14 | https://github.com/Vault-Overseers/nuclear-14 | AGPL 3.0 |
+| `Nyanotrasen` | Nyanotrasen | https://github.com/Nyanotrasen/Nyanotrasen | MIT |
+
+Ниже перечислены дополнительные репозитории, из которых мы перенесли функции без подкаталогов.
+
+| Fork Name | Fork Repository | License |
+|-----------|-----------------|---------|
+| Sector Umbra | https://github.com/Sector-Umbra/Sector-Umbra | MIT |
+| Space Station 14 | https://github.com/space-wizards/space-station-14 | MIT |
+| White Dream | https://github.com/WWhiteDreamProject/wwdpublic | AGPL 3.0 |

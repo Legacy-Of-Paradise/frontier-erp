@@ -1,11 +1,8 @@
 ent-DrinkKegBase = cask
     .desc = I don't have a drinking problem, the cask solved it.
-ent-DrinkKegSteel = { ent-DrinkKegBase }
-    .suffix = Steel
+ent-DrinkKegSteel = steel cask
     .desc = { ent-DrinkKegBase.desc }
-ent-DrinkKegWood = { ent-DrinkKegBase }
-    .suffix = Wood
+ent-DrinkKegWood = wood cask
     .desc = { ent-DrinkKegBase.desc }
-ent-DrinkKegPlastic = { ent-DrinkKegBase }
-    .suffix = Plastic
+ent-DrinkKegPlastic = plastic cask
     .desc = { ent-DrinkKegBase.desc }

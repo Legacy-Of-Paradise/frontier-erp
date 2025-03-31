@@ -4,7 +4,5 @@ ent-ClothingMaskGasChameleon = gas mask
 ent-ClothingMaskGasVoiceChameleon = { ent-ClothingMaskGasChameleon }
     .suffix = Voice Mask, Chameleon
     .desc = { ent-ClothingMaskGasChameleon.desc }
-ent-ClothingMaskWeldingGas = welding gas mask
-    .desc = A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
 ent-ClothingMaskGoldenCursed = golden mask
     .desc = An ancient-looking mask bearing the visage of some simian monarch. You swear it looks cursed.

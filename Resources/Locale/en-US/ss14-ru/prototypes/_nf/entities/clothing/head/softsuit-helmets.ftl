@@ -50,3 +50,5 @@ ent-ClothingHeadEVAHelmetLvhi = LVHI EVA helmet
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 ent-ClothingHeadEVAHelmetArcadia = arcadia EVA helmet
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
+ent-ClothingHeadHelmetHardsuitFSB = far star biotech voidsuit helmet
+    .desc = A lightweight suit helmet that doesn't restrict your head movements. It has a light!

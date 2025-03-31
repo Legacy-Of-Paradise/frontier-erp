@@ -181,87 +181,6 @@
     neck: ClothingNeckStoleChaplain
 
 - type: loadout
-  id: ContractorClothingNeckCloakTrans
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakTrans
-
-- type: loadout
-  id: ContractorClothingNeckCloakAro
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakAro
-
-- type: loadout
-  id: ContractorClothingNeckCloakAce
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakAce
-
-- type: loadout
-  id: ContractorClothingNeckCloakBi
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakBi
-
-- type: loadout
-  id: ContractorClothingNeckCloakIntersex
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakIntersex
-
-- type: loadout
-  id: ContractorClothingNeckCloakEnby
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakEnby
-
-- type: loadout
-  id: ContractorClothingNeckCloakPan
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakPan
-
-- type: loadout
-  id: ContractorClothingNeckCloakGay
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakGay
-
-- type: loadout
-  id: ContractorClothingNeckCloakLesbian
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT2
-  price: 1000
-  equipment:
-    neck: ClothingNeckCloakLesbian
-
-- type: loadout
   id: ContractorBedsheetRainbow
   effects:
   - !type:GroupLoadoutEffect
@@ -333,6 +252,15 @@
   equipment:
     neck: ClothingNeckIFFPurple
 
+- type: loadout
+  id: ContractorClothingNeckMantleCap
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT2
+  price: 1000
+  equipment:
+    neck: ClothingNeckMantleCap
+
 #T3 for lols
 - type: loadout
   id: ContractorClothingNeckCloakCapFormal
@@ -342,15 +270,6 @@
   price: 2500
   equipment:
     neck: ClothingNeckCloakCapFormal
-
-- type: loadout
-  id: ContractorClothingNeckMantleCap
-  effects:
-  - !type:GroupLoadoutEffect
-    proto: ContractorT3
-  price: 2500
-  equipment:
-    neck: ClothingNeckMantleCap
 
 - type: loadout
   id: ContractorClothingNeckCloakQm
@@ -441,5 +360,3 @@
   price: 7500
   equipment:
     neck: ClothingNeckBling
-
-

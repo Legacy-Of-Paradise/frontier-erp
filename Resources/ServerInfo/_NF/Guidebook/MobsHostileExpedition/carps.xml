@@ -13,7 +13,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-  <GuideEntityEmbed Entity="MobCarpExpeditions"/>
+  <GuideEntityEmbed Entity="MobCarp"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с[bold][color=#a4885c]*[/color][/bold]
@@ -32,7 +32,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-  <GuideEntityEmbed Entity="MobCarpMagicExpeditions"/>
+  <GuideEntityEmbed Entity="MobCarpMagic"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -51,7 +51,7 @@
   [color=#a4885c]Бестелесный[/color]: может быть поврежден только при атаках в ближнем бою или с помощью оружия из нержавеющей стали.
 
   <Box>
-  <GuideEntityEmbed Entity="MobCarpHoloExpeditions"/>
+  <GuideEntityEmbed Entity="MobCarpHolo"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -68,7 +68,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-  <GuideEntityEmbed Entity="MobCarpRainbowExpeditions"/>
+  <GuideEntityEmbed Entity="MobCarpRainbow"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -85,7 +85,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-  <GuideEntityEmbed Entity="MobSharkExpeditions"/>
+  <GuideEntityEmbed Entity="MobShark"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 80 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -102,7 +102,7 @@
   [color=#a4885c]Маленький[/color]: существо достаточно маленькое, чтобы проходить под столами и воздушными шлюзами.
 
   <Box>
-  <GuideEntityEmbed Entity="MobSnakeExpeditions"/>
+  <GuideEntityEmbed Entity="MobSnake"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 50 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 4.5 м/с
@@ -121,7 +121,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-  <GuideEntityEmbed Entity="MobDragonDungeon"/>
+  <GuideEntityEmbed Entity="MobDragon"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 200 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 5 м/с
@@ -134,7 +134,7 @@
   # Цели миссии
   ## Устранение
   <Box>
-  <GuideEntityEmbed Entity="MobDragonDungeon"/>
+  <GuideEntityEmbed Entity="MobDragon"/>
   </Box>
   Уничтожьте крупное и опасное существо - [color=#a4885c]Космический дракон[/color] в течение заданного срока, для получения денежного вознаграждение.
 

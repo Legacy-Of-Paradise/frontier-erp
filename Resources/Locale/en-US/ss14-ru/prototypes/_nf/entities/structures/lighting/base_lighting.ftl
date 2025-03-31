@@ -1,3 +1,3 @@
-ent-PoweredlightBlack = { ent-Poweredlight }
-    .suffix = Black
+ent-PoweredlightUltraviolet = { ent-Poweredlight }
+    .suffix = UV
     .desc = { ent-Poweredlight.desc }

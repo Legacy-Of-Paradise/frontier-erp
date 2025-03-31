@@ -22,3 +22,5 @@ ent-NFBlueprintClothingBackpackDuffelHolding = bluespace duffel blueprint
     .desc = A blueprint with a schematic of a bluespace duffel. It can be inserted into an autolathe or a techfab.
 ent-NFBlueprintConstructionBagOfHolding = bluespace construction bag blueprint
     .desc = A blueprint with a schematic of a bluespace construction bag. It can be inserted into an autolathe or a techfab.
+ent-NFBlueprintPortableGeneratorDKJr = P.R.O.F.P.A.C.M.A.N. blueprint
+    .desc = A blueprint with a schematic of a P.R.O.F.P.A.C.M.A.N.-type portable generator. It can be inserted into an autolathe or a techfab.

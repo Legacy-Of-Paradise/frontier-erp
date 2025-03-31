@@ -1,6 +1,6 @@
 ent-WindoorMurkyDungeon = { "" }
     .desc = A windoor with murky glass, it's hard to see what's on the other side.
-    .suffix = DO NOT MAP, Dungeon only
+    .suffix = Dungeon only, DO NOT MAP
 ent-WindoorDungeon = { ent-WindoorMurkyDungeon }
     .desc = { ent-WindoorMurkyDungeon.desc }
 ent-WindoorSecureDungeon = { ent-WindoorMurkyDungeon }

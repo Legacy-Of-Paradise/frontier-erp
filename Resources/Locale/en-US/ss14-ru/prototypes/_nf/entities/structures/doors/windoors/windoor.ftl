@@ -10,3 +10,6 @@ ent-WindoorSecureFrontierCommandLocked = { ent-WindoorSecure }
 ent-WindoorSecureHeadOfSecurityLocked = { ent-WindoorSecure }
     .suffix = Sheriff, Locked
     .desc = { ent-WindoorSecure.desc }
+ent-WindoorSecureBrigmedicLocked = { ent-WindoorSecure }
+    .suffix = Brigmedic, Locked
+    .desc = { ent-WindoorSecure.desc }
