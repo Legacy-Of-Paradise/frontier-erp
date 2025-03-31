@@ -1,0 +1,45 @@
+ - type: entity
+   id: LPPCratecivdef
+   parent: CrateSecgear
+   name: Civil defense kit
+   description: Ooooh my defense... It contains weapons of not the highest quality, but in large quantities for arming civilians in case of an emergency. The box is kind of flimsy... Requires security access to open.
+   components:
+   - type: Destructible
+     thresholds:
+     - trigger:
+        !type:DamageTrigger
+        damage: 250
+   - type: StorageFill
+     contents:
+       - id: LPPWeaponMarsRifle
+         amount: 3
+       - id: LPPMagazineRifleMars
+         amount: 9
+       - id: LPPMagazineBoxHunting
+         amount: 3
+       - id: MagazineBoxMagnum
+       - id: LPPWeaponSniperLeverPravoved
+
+ - type: entity
+   id: LPPCratehunter
+   parent: CratePrivateSecure
+   name: Hunter kit
+   description: It contains a set of weapons, as well as a space suit, the most suitable for hunting space fauna.
+   components:
+   - type: Destructible
+     thresholds:
+     - trigger:
+        !type:DamageTrigger
+        damage: 250
+   - type: StorageFill
+     contents:
+       - id: LPPweaponPibodi
+       - id: LPPClothingOuterHardsuitHunter
+       - id: LPPClothingBackpackHunter
+       - id: LPPClothingShoesBootsMagHunter
+       - id: JetpackVoidFilled
+       - id: ClothingHandsGlovesCombat
+       - id: DoubleEmergencyOxygenTank
+       - id: WeaponLaserSvalinn
+       - id: ClothingBeltSalvageWebbing
+       - id: MedkitFilled

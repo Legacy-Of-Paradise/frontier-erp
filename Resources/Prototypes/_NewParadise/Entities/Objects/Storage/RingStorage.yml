@@ -1,0 +1,35 @@
+- type: entity
+  parent: BoxCardboard
+  id: LPPRingBox
+  name: ring box
+  description: very good.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Misc/RingBox.rsi
+    state: box
+  - type: Storage
+    grid:
+    - 1,1,3,3
+  - type: Item
+    sprite: _NewParadise/Objects/Misc/RingBox.rsi
+    size: Normal
+    heldPrefix: box
+  - type: StorageFill
+    contents:
+    - id: LPPClothingHandsRingPlazma
+      amount: 1
+    - id: LPPClothingHandsRingEmerald
+      amount: 1
+    - id: LPPClothingHandsRingBlood
+      amount: 1
+    - id: LPPClothingHandsRingTurk
+      amount: 1
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+     enum.ToggleVisuals.Toggled:
+        enum.ToggleVisuals.Layer:
+          True: {state: box-open}
+          False: {state: box}
+  - type: StaticPrice
+    price: 500

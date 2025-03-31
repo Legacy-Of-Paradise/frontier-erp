@@ -20,10 +20,11 @@
     angleIncrease: 6
     angleDecay: 24
     fireRate: 5
+    burstFireRate: 8
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
-    - FullAuto
+    - Burst
   - type: ChamberMagazineAmmoProvider
   - type: ItemSlots
     slots:

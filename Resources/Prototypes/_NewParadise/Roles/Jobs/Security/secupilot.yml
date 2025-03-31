@@ -1,0 +1,42 @@
+# - type: job
+#   id: SecPilot
+#   name: job-name-secpilot
+#   description: job-description-secpilot
+#   playTimeTracker: JobPilot
+#   requirements:
+#     - !type:CharacterHeightRequirement
+#       min: 160
+#     - !type:CharacterPlaytimeRequirement
+#       tracker: JobSecurityOfficer
+#       min: 14400 # 4 hrs
+#     - !type:CharacterDepartmentTimeRequirement
+#       department: Security
+#       min: 28800 # 8 hrs
+#   startingGear: SecPilotGear
+#   icon: "JobIconSecPilot"
+#   supervisors: job-supervisors-hos
+#   canBeAntag: false
+#   access:
+#   - Security
+#   - Maintenance
+#   - Service
+#   - External
+#   - Cryogenics
+#   - Armory
+#   special:
+#   - !type:AddImplantSpecial
+#     implants: [ MindShieldImplant ]
+
+# - type: startingGear
+#   id: SecPilotGear
+#   equipment:
+#     eyes: LPPRedHudGlasses
+#     head: ClothingHeadHatBeretSecurity
+#     outerClothing: ClothingOuterWinterSec
+#     id: LPPSecPilotPDA
+#     ears: ClothingHeadsetSecurity
+#     pocket1: WeaponPistolMk58
+#     socks: LPPClothingUnderSocksNorm
+#     underwear: LPPBoxer
+#   underwear: LPPBriefs
+#   breast: LPPBraAltWhite

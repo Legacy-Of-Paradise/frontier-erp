@@ -1,0 +1,27 @@
+# - type: startingGear
+#   id: LPPChronoLegionnaire
+#   equipment:
+#     jumpsuit: ClothingUniformJumpsuitNanotrasen
+#     back: LPPClothingBackpackHoldingChrono
+#     shoes: ClothingShoesBootsMagAdv
+#     eyes: ClothingEyesGlassesSecurity
+#     gloves: ClothingHandsGlovesCombat
+#     outerClothing: LPPClothingOuterHardsuitChrono
+#     id: ERTLeaderPDA
+#     ears: ClothingHeadsetCentCom
+#     pocket1: LPPChronoKnife
+#     pocket2: BlinkBook
+#   innerClothingSkirt: ClothingUniformJumpsuitNanotrasen
+#   satchel: LPPClothingBackpackHoldingChrono
+#   duffelbag: LPPClothingBackpackHoldingChrono
+
+# - type: entity
+#   noSpawn: true
+#   parent: ClothingBackpackHolding
+#   id: LPPClothingBackpackHoldingChrono
+#   components:
+#   - type: StorageFill
+#     contents:
+#       - id: ClothingMaskBreathMedical
+#       - id: OxygenTankFilled
+#       - id: LPPWeaponLaserChrono

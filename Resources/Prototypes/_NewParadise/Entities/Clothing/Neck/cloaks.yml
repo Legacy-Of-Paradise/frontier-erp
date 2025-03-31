@@ -1,0 +1,156 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPParbitercloak
+  name: Arbiter cloak
+  description: An expensive raincoat of an unknown company with a fur collar. Soft fur and silk of the highest quality. Gold is visible between the threads. Luxury.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Cloak/arbitercloak.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPParbitermask
+    slot: mask
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPPBLCORPcloak
+  name: BL CORP cloak
+  description: A cloak made of very durable materials for special forces.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Cloak/blcorpcloak.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPKirasCloakn
+  name: Kiras cloakn
+  description: beautiful kapeshon u Kirava.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Neck/Cloaks/kiras_cloakn.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Neck/Cloaks/kiras_cloakn.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 1.05
+    sprintModifier: 1.05
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 10000
+  - type: TemperatureProtection
+    coefficient: 0.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.94
+        Slash: 0.92
+        Piercing: 0.93
+        Heat: 0.91
+        Radiation: 0.5
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitKiravaHoodsec
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloakBlueshield
+  name: blueshield's cloak
+  description: They can hide those who really need protection.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Neck/Cloaks/blueshield_neck.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPBestMedic
+  name: best medic
+  description:
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/Cloaks/best_medic.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPBestMedicGif
+  name: best medic+
+  description:
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/Cloaks/best_medic_gif.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPZulieParamedic
+  name: zulie paramedic
+  description:
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/Cloaks/zulie_paramedic.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPZulieParamedicGif
+  name: zulie paramedic+
+  description:
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/Cloaks/zulie_paramedic_gif.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakLeaderNPZ
+  name: Cloak of NPZ leader
+  description: And don't let your cloak get dirty in the blood of xenos, washing is expensive, by the way.
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/NPZ/upgneckleader.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakNPZ
+  name: Cloak NPZ
+  description: A cloak for stylish smashing in the wind while you humiliate the pathetic xenos.
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/NPZ/upgneck.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakAdmiralNPZ
+  name: Cloak of NPZ admiral
+  description: A cloak for pretentious throwing off to show everyone your medals and decorations!
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/NPZ/upgneckadmiral.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakMantleNPZ
+  name: Cape NPZ
+  description: Are we in a hurry or are we acting stealthy?
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/NPZ/NPZmantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPADJUCloak
+  name: The Adjutant's Cloak
+  description: The blue cloak of the adjutant, breathes warmth and bureaucracy when wearing it.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Neck/Cloaks/LPPADJUCloak.rsi

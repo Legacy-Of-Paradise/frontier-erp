@@ -1,0 +1,194 @@
+# TODO: Add descriptions (many)
+# TODO BODY: Part damage
+- type: entity
+  id: LPPPartShark
+  parent: BaseItem
+  name: LPPPartShark
+  abstract: true
+  components:
+    - type: Damageable
+      damageContainer: Biological
+    - type: BodyPart
+    - type: ContainerContainer
+      containers:
+        bodypart: !type:Container
+          ents: []
+
+- type: entity
+  id: LPPTorsoShark
+  name: LPPTorsoShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "torso_m"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "torso_m"
+    - type: BodyPart
+      partType: Torso
+
+- type: entity
+  id: LPPHeadShark
+  name: LPPHeadShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "head_m"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "head_m"
+    - type: BodyPart
+      partType: Head
+      vital: true
+    - type: Input
+      context: "ghost"
+    - type: MovementSpeedModifier
+      baseWalkSpeed: 0
+      baseSprintSpeed: 0
+    - type: InputMover
+    - type: GhostOnMove
+    - type: Tag
+      tags:
+        - Head
+
+- type: entity
+  id: LPPLeftArmShark
+  name: LPPLeftArmShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "l_arm"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "l_arm"
+    - type: BodyPart
+      partType: Arm
+      symmetry: Left
+
+- type: entity
+  id: LPPRightArmShark
+  name: LPPRightArmShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "r_arm"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "r_arm"
+    - type: BodyPart
+      partType: Arm
+      symmetry: Right
+
+- type: entity
+  id: LPPLeftHandShark
+  name: LPPLeftHandShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "l_hand"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "l_hand"
+    - type: BodyPart
+      partType: Hand
+      symmetry: Left
+
+- type: entity
+  id: LPPRightHandShark
+  name: LPPRightHandShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "r_hand"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "r_hand"
+    - type: BodyPart
+      partType: Hand
+      symmetry: Right
+
+- type: entity
+  id: LPPTailShark
+  name: LPPTailShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "tail_m"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "tail_m"
+    - type: BodyPart
+      partType: Tail
+
+- type: entity
+  id: LPPLeftLegShark
+  name: LPPLeftLegShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "l_leg"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "l_leg"
+    - type: BodyPart
+      partType: Leg
+      symmetry: Left
+    - type: MovementBodyPart
+      walkSpeed: 3
+      sprintSpeed: 4.9
+
+- type: entity
+  id: LPPRightLegShark
+  name: LPPRightLegShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "r_leg"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "r_leg"
+    - type: BodyPart
+      partType: Leg
+      symmetry: Right
+    - type: MovementBodyPart
+      walkSpeed: 3
+      sprintSpeed: 4.9
+
+- type: entity
+  id: LPPLeftFootShark
+  name: LPPLeftFootShark
+  parent: LPPPartShark
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "l_foot"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "l_foot"
+    - type: BodyPart
+      partType: Foot
+      symmetry: Left
+
+- type: entity
+  id: LPPRightFootShark
+  name: LPPRightFootShark
+  parent: PartVulpkanin
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "r_foot"
+    - type: Icon
+      sprite: _NewParadise/Mobs/Species/Shark/parts.rsi
+      state: "r_foot"
+    - type: BodyPart
+      partType: Foot
+      symmetry: Right

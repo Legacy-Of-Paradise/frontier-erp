@@ -1,0 +1,193 @@
+- type: entity
+  id: LPPBaseCartridgeRifle
+  name: Bullet (calibre 5,56x45)
+  parent: BaseCartridge
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeM4A1
+  - type: CartridgeAmmo
+    proto: LPPBulletM4A1
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: LPPBaseCartridgeMinigun
+  name: cartridge (.10 rifle)
+  parent: BaseCartridge
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Tag
+    tags:
+      - Cartridge
+      - CartridgeMinigun
+  - type: CartridgeAmmo
+    proto: BulletHeavyRifle
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 10
+
+- type: entity
+  id: LPPCartridgeM4A1Lethal
+  name: Bullet (calibre 5,56x45)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletM4A1
+
+- type: entity
+  id: LPPCartridgeRubberM4A1
+  name: Bullet (calibre 5,56x45 rubber)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletRubberM4A1
+
+- type: entity
+  id: LPPCartridgePracticeM4A1
+  name: Bullet (calibre 5,56x45 practice)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletPracticeM4A1
+
+- type: entity
+  id: LPPCartridgeUraniumM4A1
+  name: Bullet (calibre 5,56x45 uranium)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletUraniumM4A1
+
+- type: entity
+  id: LPPCartridgeIncendiaryM4A1
+  name: Bullet (calibre 5,56x45 incendiary)
+  parent: LPPBaseCartridgeRifle
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletIncendiaryM4A1
+
+- type: entity
+  id: LPPBaseCartridgeLightRifleHunting
+  name: Bullet (.30 hunter)
+  parent: BaseCartridge
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeHunting
+  - type: CartridgeAmmo
+    proto: LPPBulletLightRifleHunting
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+  - type: Appearance
+  - type: SpentAmmoVisuals
+
+- type: entity
+  id: LPPCartridgeLightRifleHunting
+  name: Bullet (.30 hunter)
+  parent: LPPBaseCartridgeLightRifleHunting
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletLightRifleHunting
+
+- type: entity
+  id: LPPCartridgeMinigunrubber
+  name: bullet (.10 rifle rubber)
+  parent: LPPBaseCartridgeMinigun
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletMinigunRubber
+    deleteOnSpawn: true
+
+- type: entity
+  id: LPPCartridgeMinigunPractice
+  name: bullet (.10 rifle practice)
+  parent: LPPBaseCartridgeMinigun
+  components:
+  - type: CartridgeAmmo
+    proto: BaseBulletPractice
+    deleteOnSpawn: true
+
+- type: entity
+  id: LPPCartridgeMinigunAP
+  name: bullet (.10 rifle AP)
+  parent: LPPBaseCartridgeMinigun
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletMinigunAP
+    deleteOnSpawn: true
+
+- type: entity
+  id: LPPCartridgeMinigunUranium
+  name: bullet (.10 rifle uranium)
+  parent: LPPBaseCartridgeMinigun
+  components:
+  - type: CartridgeAmmo
+    proto: LPPBulletMinigunUranium
+    deleteOnSpawn: true
+
+- type: entity
+  parent: CartridgeAntiMateriel
+  id: LPPCartridgeAntiMaterielNonLethal
+  name: cartridge (.60 Non-lethal)
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeAntiMateriel
+  - type: CartridgeAmmo
+    proto: LPPBulletAntiMaterielNonlethal
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+    # - state: tip
+    #   map: [ "enum.AmmoVisualLayers.Tip" ]
+    #   color: "#32a2a8"
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 20
+
+- type: entity
+  parent: CartridgeAntiMateriel
+  id: LPPCartridgeAntiMaterielCP
+  name: cartridge (.60 Cocntere-Piercing)
+  components:
+  - type: Tag
+    tags:
+    - Cartridge
+    - CartridgeAntiMateriel
+  - type: CartridgeAmmo
+    proto: LPPBulletAntiMaterielCP
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
+    layers:
+    - state: base
+      map: ["enum.AmmoVisualLayers.Base"]
+    # - state: tip
+    #   map: [ "enum.AmmoVisualLayers.Tip" ]
+    #   color: "#870e0e"
+  - type: Appearance
+  - type: SpentAmmoVisuals
+  - type: StaticPrice
+    price: 20

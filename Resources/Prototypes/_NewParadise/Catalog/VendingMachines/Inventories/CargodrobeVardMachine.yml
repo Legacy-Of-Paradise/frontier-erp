@@ -1,0 +1,10 @@
+- type: vendingMachineInventory
+  id: CargodrobeVardVendingMachineServitorInventory
+  startingInventory:
+    LPPCargoBlackSkirt: 3
+    LPPGorkaCargo: 3
+    LPPGorkaCargoVarg: 3
+    LPPUtilCargo: 3
+
+  emaggedInventory:
+   LPPUtilCargo: 3

@@ -1,0 +1,96 @@
+- type: entity
+  name: combat knife
+  parent: BaseKnife
+  id: LPPChronoKnife
+  description: A deadly knife intended for melee confrontations.
+  components:
+  - type: Tag
+    tags:
+    - CombatKnife
+    - Knife
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/Chrono-knife.rsi
+    # size: 2
+    state: icon
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Slash: 30
+        Genetic: 20
+  - type: Item
+    size: Small
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/Chrono-knife.rsi
+  - type: DisarmMalus
+    malus: 0.225
+
+- type: entity
+  name: Toy energy katana
+  parent: Katana
+  id: LPPToyEnergyKatana
+  description: A katana infused with strange energy. An unknown mark is visible on the hilt.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Fun/ToyKatana.rsi
+    state: icon
+  - type: MeleeWeapon
+    wideAnimationRotation: -60
+    damage:
+      types:
+        Slash: 0
+  - type: Item
+    size: Normal
+    sprite: _NewParadise/Objects/Fun/ToyKatana.rsi
+  - type: EnergyKatana
+  - type: LimitedCharges
+    maxCharges: 1
+    charges: 1
+  - type: AutoRecharge
+    rechargeDuration: 300
+  - type: Clothing
+    sprite: _NewParadise/Objects/Fun/ToyKatana.rsi
+    slots:
+    - Back
+    - Belt
+  - type: StaminaDamageOnHit
+    damage: 15
+
+- type: entity
+  name: Jagdkommando
+  parent: BaseKnife
+  id: LPPKnifeJagdkommando
+  description: Favourite knife of most elite special groups, be cautios to use- your combat equipment might get a bit bloody after pulling this knife out of your enemy.
+  components:
+  - type: Tag
+    tags:
+    - CombatKnife
+    - Knife
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Melee/jagdkommando.rsi
+    state: icon
+  - type: MeleeWeapon
+    attackRate: 2
+    damage:
+      types:
+        Piercing: 14
+    heavyStaminaCost: 2
+    angle: 2
+  - type: Item
+    size: Small
+    sprite: _NewParadise/Objects/Weapons/Melee/jagdkommando.rsi
+  - type: DisarmMalus
+    malus: 0.225
+  - type: ThrowingAngle
+    angle: 350
+  - type: MeleeChemicalInjector
+    solution: melee
+  - type: RefillableSolution
+    solution: melee
+  - type: InjectableSolution
+    solution: melee
+  - type: SolutionInjectOnEmbed
+    transferAmount: 3
+    solution: melee
+  - type: SolutionTransfer
+    maxTransferAmount: 3
+  - type: Sharp

@@ -1,0 +1,100 @@
+- type: entity
+  parent: ClothingHandsGlovesColorBlack
+  id: LPPClothingHandsGlovesNPZCombat
+  name: NPZ Battle gloves
+  description: Combat gloves of NPZ fighters, with aramid coating in the area of the knuckles, for maiming and knocking out the dope from the enemy.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Hands/Gloves/upgofficerhands.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Hands/Gloves/upgofficerhands.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+  - type: StaminaDamageOnHit
+    damage: 15
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 7
+
+
+# - < DarkSide
+
+- type: entity
+  parent: ClothingHandsButcherable
+  id: LPPClothingHandsGlovesTacticalFingerless
+  name: tactical fingerless combat gloves
+  description: These tactical gloves are fireproof and impact resistant.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Hands/Gloves/CombatFingerless.rsi
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+    fiberColor: fibers-black
+
+# - >
+
+- type: entity
+  parent: ClothingHandsButcherable
+  id: LPPClothingHandsGlovesCombatNitrile
+  name: Nitrile-combat gloves
+  description: Combining high-quality nitrile gloves with combat gloves. An expensive field PPE.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Hands/Gloves/CombatNitrile.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Hands/Gloves/CombatNitrile.rsi
+  - type: Fiber
+    fiberMaterial: lppfibers-nitrile-insulative
+  - type: FingerprintMask
+  - type: Insulated
+
+- type: entity
+  parent: ClothingHandsGlovesBoxingBlue
+  id: LPPClothingHandsGlovesNightGuard
+  name: night guard battle gloves
+  components:
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/combat.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/combat.rsi
+  - type: StaminaDamageOnHit
+    damage: 50
+  - type: MeleeWeapon
+    attackRate: 1.5
+    damage:
+      types:
+        Blunt: 5
+
+- type: entity
+  parent: ClothingHandsBase
+  id: LPPClothingHandsClownPomni
+  name: Pomni's?
+  description: Good ring.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Hands/Gloves/clownPomni.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Hands/Gloves/clownPomni.rsi
+
+- type: entity
+  parent: ClothingHandsGlovesSyntheticBase
+  id: LPPClothingHandsGlovesSalvage
+  name: salvager gloves
+  description: Nylon gloves with polyurethane coating for hand protection. Protects against minor cuts. It felt like they were digging into the ground.
+  components:
+  - type: Sprite
+    sprite:  _NewParadise/Clothing/Hands/Gloves/salvager.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Hands/Gloves/salvager.rsi
+  - type: Fiber
+    fiberColor: fibers-brown
+  - type: Armor
+    modifiers:
+      coefficients:
+        Slash: 0.95

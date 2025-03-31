@@ -1,0 +1,119 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelHop
+  name: hop duffel bag
+  description: Twice as many handcuffs!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/hop.rsi
+
+- type: entity
+  parent: LPPClothingBackpackDuffelBlueshield
+  id: LPPClothingBackpackDuffelBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+    - id: Flash
+    - id: LPPClothingOuterHardsuitBlueshield
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelSecurityEngineer
+  name: hop duffel bag
+  description: Twice as many handcuffs!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/securityEngineer.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelBlueshield
+  name: blueshield duffel bag
+  description: Twice as many handcuffs!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelExpeditor
+  name: expeditor duffel bag
+  description: Twice as many handcuffs!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/expeditor.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelDelta
+  name: delta duffel bag
+  description:
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/iic.rsi
+  - type: Storage
+    grid:
+    - 0,0,10,3
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelCommandDelta
+  name: command delta duffel bag
+  description:
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/iic-command.rsi
+  - type: Storage
+    grid:
+    - 0,0,10,3
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelContractor
+  name: contractor duffel bag
+  description:
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/integduffel.rsi
+  - type: Storage
+    grid:
+    - 0,0,10,4
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelDonk
+  name: Donk duffel bag
+  description:
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/donk.rsi
+  - type: Storage
+    grid:
+    - 0,0,9,5
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelCybersun
+  name: Cybersun duffel bag
+  description:
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/cybersun.rsi
+  - type: Storage
+    grid:
+    - 0,0,9,5
+
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelGorlex
+  name: Gorlex duffel bag
+  description:
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/gorlex.rsi
+  - type: Storage
+    grid:
+    - 0,0,9,5

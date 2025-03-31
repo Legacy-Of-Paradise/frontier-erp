@@ -4,9 +4,13 @@
   loadouts:
   - BailiffClothingUniformJumpsuitBailiff
   - BailiffClothingUniformJumpskirtBailiff
+#LPP
+  - LPPBailiffClothingUniformJumpsuitBailiff
   fallbacks:
   - BailiffClothingUniformJumpsuitBailiff
   - BailiffClothingUniformJumpskirtBailiff
+#LPP
+  - LPPBailiffClothingUniformJumpsuitBailiff
 
 - type: loadoutGroup
   id: BailiffOuterClothing
@@ -18,9 +22,15 @@
 - type: loadoutGroup
   id: BailiffHead
   name: loadout-group-contractor-head
-  minLimit: 0
   loadouts:
   - BailiffClothingHeadHatBailiff
+#LPP
+  - LPPBailiffClothingHeadHatBailiff1
+  - LPPBailiffClothingHeadHatBailiff2
+  fallbacks:
+  - BailiffClothingHeadHatBailiff
+  - LPPBailiffClothingHeadHatBailiff1
+  - LPPBailiffClothingHeadHatBailiff2
 
 - type: loadoutGroup
   id: BailiffNeck
@@ -39,3 +49,5 @@
   - BailiffBailiffPDA
   fallbacks:
   - BailiffBailiffPDA
+
+

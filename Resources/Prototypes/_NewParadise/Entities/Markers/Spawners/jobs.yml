@@ -1,0 +1,35 @@
+# - type: entity
+#   id: LPPAdjutantSpawn
+#   parent: SpawnPointJobBase
+#   name: adjutant spawn
+#   components:
+#   - type: SpawnPoint
+#     job_id: LPPAdjutant
+#   - type: Sprite
+#     layers:
+#     - state: green
+#     - state: hop
+
+# - type: entity
+#   id: LPPSpawnSecPilot
+#   parent: SpawnPointJobBase
+#   name: sec pilot spawn
+#   components:
+#     - type: SpawnPoint
+#       job_id: SecPilot
+#     - type: Sprite
+#       layers:
+#         - state: green
+#         - state: cluwne
+
+# - type: entity
+#   id: LPPSpawnExpeditor
+#   parent: SpawnPointJobBase
+#   name: Expeditor
+#   components:
+#     - type: SpawnPoint
+#       job_id: Expeditor
+#     - type: Sprite
+#       layers:
+#         - state: green
+#         - state: expeditor

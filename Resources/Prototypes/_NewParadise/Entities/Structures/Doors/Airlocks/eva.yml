@@ -1,0 +1,21 @@
+- type: entity
+  parent: Airlock
+  id: LPPAirlockEVA
+  suffix: EVA
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Structures/Doors/Standard/eva.rsi
+  - type: WiresPanelSecurity
+    securityLevel: medSecurity
+  - type: PaintableAirlock
+    department: Command
+  - type: AccessReader
+    access: [["EVA"]]
+
+- type: accessLevel
+  id: EVA
+  name: EVA
+
+- type: accessLevel
+  id: Gateway
+  name: Gate acces

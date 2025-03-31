@@ -1,0 +1,130 @@
+- type: entity
+  abstract: true
+  parent: ClothingBackpack
+  id: LPPClothingSatchelSmugglerAbstract
+  name: Smuggling Satchel
+  description: Smuggling Satchel Abstract
+  components:
+  - type: Tag
+    tags: [] # ignore "WhitelistChameleon" tag
+  - type: Storage
+    maxItemSize: Large
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/satchel.rsi
+    visible: false
+  - type: SubFloorHide
+  - type: Anchorable
+  - type: Appearance
+  - type: CollideOnAnchor
+    enable: false
+  - type: Transform
+    anchored: false
+
+- type: entity
+  parent: LPPClothingBackpackBlueshield
+  id: LPPClothingBackpackBlueshieldFilled
+  components:
+  - type: StorageFill
+    contents:
+    - id: Flash
+    - id: LPPClothingOuterHardsuitBlueshield
+
+- type: entity
+  parent: ClothingBackpackERTLeader
+  id: LPPClothingBackpackIIC
+  name: IIC Backpack 'Delta'
+  description: Spacious backpack with many pockets worn by stormtroopers and officers of the interstellar Intellengence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/iic-backpack.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackHop
+  name: hop backpack
+  description: They say it's bulletproof.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/hop.rsi
+
+- type: entity
+  id: LPPJetpackNightGuardCape
+  parent: BaseJetpack
+  name: night guard jetpack
+  suffix: Empty
+  components:
+  - type: Item
+    sprite: _NewParadise/Clothing/Back/night-guard-cape.rsi
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/night-guard-cape.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Back/night-guard-cape.rsi
+    slots:
+      - Back
+      - suitStorage
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackPG
+  name: PG backpack
+  description: Backpack for all Predator Grosperox's needs.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/pg-backpack.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPBlackClothingBackpackPG
+  name: Black PG backpack
+  description: Backpack for all Predator Grosperox's needs. Nighty needs.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/black-pg-backpack.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackSecurityEngineer
+  name: hop duffel bag
+  description: Twice as many handcuffs!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/securityEngineer.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackBlueshield
+  name: blueshield backpack
+  description: They say it's bulletproof.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/blueshield.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackExpeditor
+  name: expeditor backpack
+  description: They say it's bulletproof.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/expeditor.rsi
+
+- type: entity
+  parent: ClothingBackpackERTLeader
+  id: LPPClothingBackpackBackPackNPZ
+  name: NPZ backpack
+  description: It will contain everything you need.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/upgbacpacks.rsi
+
+- type: entity
+  parent: ClothingBackpack
+  id: LPPClothingBackpackHunter
+  name: Hunter backpack
+  description: A durable backpack with additional pockets, which significantly increases the capacity and at the same time does not restrict the movement of the wearer in any way.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/backhunter.rsi
+  - type: Storage
+    grid:
+    - 0,0,7,3

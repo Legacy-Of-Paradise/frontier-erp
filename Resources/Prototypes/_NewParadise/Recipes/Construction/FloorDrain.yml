@@ -1,0 +1,17 @@
+- type: construction
+  name: Drain
+  id: FloorDrain
+  graph: FloorDrain
+  startNode: start
+  targetNode: FloorDrain
+  category: construction-category-structures
+  description: Drains the puddles around into itself. Useful for emptying buckets or keeping certain areas clean
+  icon:
+    sprite: /Textures/Objects/Specific/Janitorial/drain.rsi
+    state: icon
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

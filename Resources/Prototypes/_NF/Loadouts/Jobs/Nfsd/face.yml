@@ -23,3 +23,9 @@
     proto: EffectSpeciesVox
   equipment:
     mask: ClothingMaskGasNfsd
+
+- type: loadout
+  id: LPPNfsdClothingMaskBalaclava
+  storage:
+    back:
+    - LPPClothingBalaclavawide

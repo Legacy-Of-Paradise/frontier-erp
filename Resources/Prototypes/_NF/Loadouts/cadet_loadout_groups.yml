@@ -7,13 +7,17 @@
   fallbacks:
   - CadetClothingUniformJumpsuitCadet
   - CadetClothingUniformJumpskirtCadet
-  
+
 - type: loadoutGroup
   id: CadetOuterClothing
   name: loadout-group-contractor-outerclothing
-  minLimit: 0
   loadouts:
   - NfsdOuterClothing
+#LPP
+  - LPPNfsdOuterClothing
+  fallbacks:
+  - NfsdOuterClothing
+  - LPPNfsdOuterClothing
 
 - type: loadoutGroup
   id: CadetHead

@@ -95,11 +95,13 @@
 - type: loadoutGroup
   id: NfsdFace
   name: loadout-group-contractor-face
-  hidden: true # No point in showing this, it gets auto-selected.
   loadouts:
   - NfsdClothingMaskGasNfsd
+#LPP
+  - LPPNfsdClothingMaskBalaclava
   fallbacks:
   - NfsdClothingMaskGasNfsd
+  - LPPNfsdClothingMaskBalaclava
 
 - type: loadoutGroup
   id: NfsdGlasses

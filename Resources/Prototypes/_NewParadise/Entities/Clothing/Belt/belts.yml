@@ -1,0 +1,88 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltNightGuardWebbing
+  name: night guard chest rig
+  description: he usually comes at night. Usually.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Belt/night-guard-rps.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Belt/night-guard-rps.rsi
+  - type: Item
+    size: Large
+  - type: Storage
+    grid:
+    - 0,0,7,3
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltPGWebbing
+  name: PG webbing
+  description: Predator Grosperox Webbing for all the soldier's needs
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Belt/pg-rps.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Belt/pg-rps.rsi
+
+- type: entity
+  parent: ClothingBeltBase
+  id: LPPClothingBeltFlamingo
+  name: inflatable flamingo
+  description: Happy happy happy! HAPPY HAPPY HAPPY HAPPY HAPPY HAPPY HAPPY HAPPY HAPPY!!!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Belt/flamingo.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Belt/flamingo.rsi
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltNPZWebbing
+  name: NPZ webbing
+  description: Dense durathread webbing in the colors of the NPZ troops.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Belt/NPZ.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Belt/NPZ.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.85
+        Heat: 0.95
+
+- type: entity
+  id: LPPClothingMilitaryWebbingSecEng
+  parent: ClothingBeltMilitaryWebbing
+  name: Security engineer webbing
+  description: Webbing with a lot of straps for security engineer.
+  suffix: Security
+  components:
+  - type: StorageFill
+    contents:
+    - id: JawsOfLife
+    - id: Wrench
+    - id: Screwdriver
+    - id: WelderIndustrial
+    - id: Multitool
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: LPPClothingBeltMaximumWebbing
+  name: Webbing "Hamster"
+  description: A set of pockets, bags and other rubbish provides a lot of space for your various things that you will stuff here. It looks extremely cumbersome, however.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Belt/upgrwebbing.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Belt/upgrwebbing.rsi
+  - type: Storage
+    grid:
+    - 0,0,15,2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9

@@ -1,0 +1,405 @@
+- type: entity
+  name: ARG rifle
+  parent: [BaseWeaponRifle, BaseC2Contraband]
+  id: LPPWeaponRifleARG
+  description: Cheap rifle, went through many coflicts. Uses .30 caliber rifle cartridges.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/arg-rifle.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/arg-rifle.rsi
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+
+# - type: entity
+#   name: braton rifle
+#   parent: BaseWeaponRifle
+#   id: LPPWeaponRifleBraton
+#   description: An automaton created using forgotten technologies from alternate realities. Uses .30 caliber rifle cartridges.
+#   components:
+#   - type: Sprite
+#     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/braton-rifle.rsi
+#     layers:
+#       - state: base
+#         map: ["enum.GunVisualLayers.Base"]
+#       - state: mag-0
+#         map: ["enum.GunVisualLayers.Mag"]
+#   - type: Clothing
+#     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/braton-rifle.rsi
+#   - type: Gun
+#     fireRate: 10
+#     soundGunshot:
+#       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+#   - type: ItemSlots
+#     slots:
+#       gun_magazine:
+#         name: Magazine
+#         startingItem: MagazineRifle
+#         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+#         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+#         priority: 2
+#         whitelist:
+#           tags:
+#             - MagazineRifle
+#       gun_chamber:
+#         name: Chamber
+#         startingItem: CartridgeRifle
+#         priority: 1
+#         whitelist:
+#           tags:
+#             - CartridgeRifle
+#   - type: ContainerContainer
+#     containers:
+#       gun_magazine: !type:ContainerSlot
+#       gun_chamber: !type:ContainerSlot
+#   - type: MagazineVisuals
+#     magState: mag
+#     steps: 1
+#     zeroVisible: true
+#   - type: Appearance
+
+- type: entity
+  name: HM-10
+  parent: [BaseWeaponSubMachineGun, BaseC2Contraband]
+  id: LPPWeaponRifleHM10
+  description: The old-style special forces assault rifle is not so relevant now, but it is still better than standard modern analogues. Uses .30 caliber rifle cartridges.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/old-rifle.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/old-rifle.rsi
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: STG-144
+  parent: [BaseWeaponRifle, BaseC3Contraband]
+  id: LPPWeaponRifleSTG144
+  description: The most common modification of the assault rifle for the troops of Elysium. Uses .30 caliber
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/stg.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    fireRate: 6
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: BR-12A "Ravager"
+  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
+  id: LPPWeaponRifleBR12ARavager
+  description: Good bullpup system gun. Uses 5.56 rifle cartridges.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/ravager.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    minAngle: 1
+    maxAngle: 12
+    fireRate: 7
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LPPMagazineRifleM4A1Lethal
+        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - LPPMagazineM4A1
+      gun_chamber:
+        name: Chamber
+        startingItem: LPPCartridgeM4A1Lethal
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeM4A1
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/ravager.rsi
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+
+- type: entity
+  name: Waffle corp. MK-556 "Liberator"
+  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
+  id: LPPWeaponRifleMK556Liberator
+  description: Good classic system gun. Uses 5.56 rifle cartridges.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/liberator.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    minAngle: 5
+    maxAngle: 20
+    fireRate: 5.5
+    soundGunshot:
+      path: /Audio/_NewParadise/Weapons/Guns/Gunshots/ar15.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: LPPMagazineRifleM4A1Lethal
+        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - LPPMagazineM4A1
+      gun_chamber:
+        name: Chamber
+        startingItem: LPPCartridgeM4A1Lethal
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeM4A1
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/liberator.rsi
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: Wieldable
+  - type: GunWieldBonus
+    minAngle: -3
+    maxAngle: -12
+
+- type: entity
+  name: BCR-25r
+  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
+  id: LPPWeaponRifleBCR25r
+  description: Small assault rifle bullpup configuration. It's constructed in the past century, uses .25 ammo.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Gun
+    minAngle: 5
+    maxAngle: 20
+    fireRate: 7
+    soundGunshot:
+      path: /Audio/DeltaV/Weapons/Guns/Gunshots/jackdaw.ogg
+  - type: ChamberMagazineAmmoProvider
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineCaselessRifle
+        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineCaselessRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeCaselessRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeCaselessRifle
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: Wieldable
+  - type: GunWieldBonus
+    minAngle: -3
+    maxAngle: -12
+
+- type: entity
+  name: Makeshift'o AK
+  parent: [BaseWeaponRifle, BaseC3Contraband]
+  id: LPPWeaponRifleMakeshiftAK
+  description: Makeshift AK, made by some punks. Probably illegal.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/Craftolak.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/Craftolak.rsi
+    quickEquip: false
+    slots:
+    - Back
+    - suitStorage
+  - type: Gun
+    fireRate: 6
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/lmg.ogg
+  - type: ChamberMagazineAmmoProvider
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        name: Magazine
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineLightRifle
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 2700

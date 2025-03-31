@@ -306,6 +306,8 @@
   - type: SpawnItemsOnUse
     items:
       - id: WeaponRifleAk
+        prob: 0.15
+      - id: LPPWeaponRifleMakeshiftAK
       - id: MagazineLightRifle
       - id: MagazineLightRifle
       - id: ClothingShoesBootsMagSyndie

@@ -1,0 +1,73 @@
+# - type: entity
+#   id: LPPCombatDefibrillator
+#   parent: [ BaseItem, PowerCellSlotHighItem ]
+#   name: Combat defibrillator
+#   description: Quickly. Reliable. Effectively. It has a label "BL CORP technology"
+#   components:
+#     - type: PowerCellDraw
+#       useRate: 100
+#     - type: Defibrillator
+#       zapHeal:
+#         types:
+#           Asphyxiation: -80
+#     - type: UseDelay
+#     - type: ItemSlots
+#       slots:
+#         cell_slot:
+#           name: power-cell-slot-component-slot-name-default
+#           startingItem: PowerCellHigh
+#     - type: Sprite
+#       sprite: _NewParadise/Objects/Specific/Medical/defib.rsi
+#       layers:
+#         - state: icon
+#         - state: screen
+#           map: [ "enum.ToggleVisuals.Layer" ]
+#           visible: false
+#           shader: unshaded
+#         - state: ready
+#           map: ["enum.PowerDeviceVisualLayers.Powered"]
+#           shader: unshaded
+#     - type: Item
+#       size: Small
+#       storedRotation: -90
+#     - type: Appearance
+#     - type: GenericVisualizer
+#       visuals:
+#         enum.ToggleVisuals.Toggled:
+#           enum.ToggleVisuals.Layer:
+#             True: { visible: true }
+#             False: { visible: false }
+#         enum.DefibrillatorVisuals.Ready:
+#           enum.PowerDeviceVisualLayers.Powered:
+#             True: { visible: true }
+#             False: { visible: false }
+#     - type: Speech
+#       speechVerb: Robotic
+#     - type: StaticPrice
+#       price: 50
+
+- type: entity
+  parent: BaseItem
+  id: LPPCombatHypospray
+  name: Combat hypospray
+  description: A slightly stripped-down version of a sterile injector for the rapid administration of drugs to patients. The version is fast enough because of its purpose. DO NOT GIVE IT INTO THE HANDS OF OFFICERS. It has a label "BL CORP technology"
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Specific/Medical/CombatHypospray.rsi
+    state: hypo
+  - type: Item
+    sprite: _NewParadise/Objects/Specific/Medical/CombatHypospray.rsi
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 10
+  - type: RefillableSolution
+    solution: hypospray
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    onlyAffectsMobs: false
+  - type: UseDelay
+    delay: 0.25
+  - type: StaticPrice
+    price: 1000

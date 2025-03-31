@@ -1,0 +1,11 @@
+﻿- type: jukebox
+  id: LPPPivoDance
+  name: Pivo Dance - BL02DL
+  path:
+    path: /Audio/Jukebox/PivoDance.ogg
+
+- type: jukebox
+  id: LPPJaya
+  name: Malinovie Palmi - Jaya
+  path:
+    path: /Audio/Jukebox/Jaya-MalinoviePalmi.ogg

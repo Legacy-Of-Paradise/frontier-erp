@@ -1,0 +1,14 @@
+- type: entity
+  parent: ClothingBackpackDuffel
+  id: LPPClothingBackpackDuffelNFSDUpgraded
+  name: NFSD upgraded duffelbag
+  description: Big duffelbag of NFSD, now you can take all contraband in whole Frontier in one time! (Probably)
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Duffels/NFSDupgradeduffel.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,8,5

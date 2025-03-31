@@ -1,0 +1,1464 @@
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPArmorMovement
+  name: Pilot Suit Security
+  description: For keepers of order among the stars.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/power_armor.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/power_armor.rsi
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 10000
+  - type: TemperatureProtection
+    coefficient: 0.8
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.8
+        Piercing: 0.75
+        Heat: 0.7
+        Radiation: 0.10
+  - type: ToggleableClothing
+    clothingPrototype: LPPArmorMovementHead
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIIC
+  name: Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIIC
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitNightGuard
+  name: Night Guard Hardsuit
+  description: He usually comes at night. Usually.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/night-guard.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/night-guard.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.30
+        Slash: 0.40
+        Piercing: 0.20
+        Heat: 0.25
+        Radiation: 0.05
+        Caustic: 0.3
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitNightGuard
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable]
+  id: LPPClothingOuterHardsuitSWAT
+  name: Tactical hardsuit FPA-56 - "Rhino"
+  description: A special protective kit that protects against the dangerous effects of a low-pressure environment. It has an innovative additional layer of armor used by security personnel.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/swat-armor.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/swat-armor.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.35
+        Slash: 0.35
+        Piercing: 0.45
+        Heat: 0.85
+        Radiation: 0.25
+        Caustic: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitSWAT
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPHardsuitAssaultParamedic
+  name: Assault paramedic suit
+  description: Protective suit used by assault paramedics in rescue operations. Manufactured by Paradise Inc. in association with Nanotrasen as part of a contract to improve healthcare for NT employees.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/assault_paramedic.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/assault_paramedic.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Radiation: 0.5
+        Caustic: 0.25
+  - type: ExplosionResistance
+    damageCoefficient: 0.95
+  - type: ToggleableClothing
+    clothingPrototype: LPPHardsuitHelmetAssaultParamedic
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitPilotSecurity
+  name: pilot security hardsuit
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/pilot_sec_hardsuit.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/pilot_sec_hardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Caustic: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitSecurityPilot
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitSecurityEng
+  name: Tactical hardsuit FPI-72 - "Artificer"
+  description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  components:
+  # - type: Sprite
+  #   sprite: Clothing/OuterClothing/Hardsuits/SecEng.rsi
+  # - type: Clothing
+  #   sprite: Clothing/OuterClothing/Hardsuits/SecEng.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.70
+        Caustic: 0.8
+        Heat: 0.35
+  - type: ClothingSpeedModifier
+    walkModifier: 0.65
+    sprintModifier: 0.65
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSecurity
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPHardsuitSuppressor
+  name: Improved Power Armor
+  description: Improved power armor created by the Red Metal Machine Corporation in conjunction with NanoTrasen for the new generation of TSF Space Marines. Very expensive, very heavy, very robust.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/suppressor_hardsuit.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/suppressor_hardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.05
+        Slash: 0.05
+        Piercing: 0.1
+        Heat: 0.8
+        Radiation: 0.1
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: ToggleableClothing
+    clothingPrototype: LPPHardsuitHelmetSuppressor
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitMiksuit
+  name: Discolored hardsuit GRT-21 "Támadó"
+  description: The restored space suit of the syndicate agents, slightly modified to suit the wishes of the current owner.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/miksuit.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/miksuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.65
+        Radiation: 0.65
+        Caustic: 0.65
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetMikhelm
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitChrono
+  name: chrono hardsuit
+  description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/Chrono-Armor.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/Chrono-Armor.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 10000
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1.2
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.35
+        Piercing: 0.15
+        Heat: 0.35
+  - type: TemperatureProtection
+    coefficient: 0.001
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitChrono
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitBlueshield
+  name: blueshield's hardsuit
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/blueshield_hardsuit.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/blueshield_hardsuit.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingOuterHardsuitBlueshieldHelm
+  - type: Item
+    size: Huge
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.45
+        Heat: 0.45
+        Radiation: 0.45
+        Caustic: 0.45
+  - type: HeldSpeedModifier
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIICPyrotech
+  name: Pyrotech Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-pyrotech.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-pyrotech.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIICPyrotech
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIICMedic
+  name: Medic Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-medic.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-medic.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIICMedic
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIICCommand
+  name: Commander Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-command.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-command.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.35
+        Slash: 0.30
+        Piercing: 0.25
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIICCommand
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitIICEngineer
+  name: Engineer Hardsuit IIC 'Delta'
+  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-engineer.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-engineer.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.40
+        Piercing: 0.35
+        Heat: 0.1
+        Radiation: 0.1
+        Caustic: 0.1
+        Shock: 0.1
+        Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitIICEngineer
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitRND
+  name: Hardsuit RHS-14s - "Lambda"
+  description: The protective suit, developed by braines from the RND, is easy to produce, and also provides, in general, good protection from various external factors, which can be found when working in RND.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/rnd.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.4
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Caustic: 0.3
+        Heat: 0.7
+        Radiation: 0.25
+        Shock: 0.5
+        Cold: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetRND
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitScienceNPZ
+  name: Hardsuit NPZ-34r - "Gelehrt"
+  description: A research spacesuit designed for the work of NPZ scientists, as well as technicians in outer space and harsh planetary conditions.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Caustic: 0.2
+        Heat: 0.7
+        Radiation: 0.1
+        Shock: 0.5
+        Cold: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetScienceNPZ
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitInteq
+  name: Hardsuit INT-05Q - "Lochern"
+  description: A sturdy spacesuit for close quarters combat, it's generally pretty versatile. Painted in a glossy brown color.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/hardsuitinteq.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/hardsuitinteq.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Caustic: 0.4
+        Heat: 0.4
+        Radiation: 0.1
+        Shock: 0.4
+        Cold: 0.4
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitInteq
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitUpgradedMining
+  name: Hardsuit HpI-20b "Kerateia"
+  description: Hephaestus Industries porotype spacesuit designed for salvagers usage in low-pressure environments. Marked to indicate that this model has protection against most types of exposure. Looks not so heavy.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/upgrmining.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/upgrmining.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.5
+        Caustic: 0.45
+        Heat: 0.75
+        Radiation: 0.3
+        Cold: 0.8
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitUpgradedMining
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitMiningPlus
+  name: Hardsuit HpI-20a+ "Rodos"
+  description: Hephaestus Industries upgraded hardsuit, providing more protection from blunt and slash damages, sacrificing protection from piercing damage. Marked to indicate that this model has protection against most types of exposure. Looks pretty light.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/salvplus.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/salvplus.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.55
+        Slash: 0.55
+        Piercing: 0.85
+        Caustic: 0.1
+        Heat: 0.7
+        Radiation: 0.4
+        Cold: 0.8
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitMiningPlus
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitMiningJuggernaut
+  name: Hardsuit HpIP-22 "Argos"
+  description: Hephaestus Industries juggernaut hardsuit, providing lots of protection from different types of damages. It's desined to work in most harsh enviroments. Looks so heavy...
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/miningjugg.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/miningjugg.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.25
+        Slash: 0.25
+        Piercing: 0.35
+        Caustic: 0.05
+        Heat: 0.7
+        Radiation: 0.05
+        Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.6
+    sprintModifier: 0.6
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitMiningJuggernaut
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitDonkTrooper
+  name: Hardsuit DNK-02a - "Alpha"
+  description: A sturdy spacesuit for close quarters combat, it's smells like donk pockets...
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/donkhardsuit.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/donkhardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.4
+        Caustic: 0.4
+        Heat: 0.5
+        Radiation: 0.5
+        Shock: 0.5
+        Cold: 0.1
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.85
+    sprintModifier: 0.85
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitDonkTrooper
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitDonkElite
+  name: Hardsuit DNK-06g - "Gamma"
+  description: A sturdy spacesuit for close quarters combat, it's smells like donk pockets...
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/donkelite.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/donkelite.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.45
+        Caustic: 0.45
+        Heat: 0.3
+        Radiation: 0.5
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitDonkElite
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitDonkMedic
+  name: Hardsuit DNK-03m - "Bravo"
+  description: A sturdy spacesuit for close quarters combat, it's smells like donk pockets...
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/donkmedsuit.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/donkmedsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.55
+        Caustic: 0.4
+        Heat: 0.55
+        Radiation: 0.5
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 1.2
+    sprintModifier: 1.2
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitDonkMedic
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitDonkCommander
+  name: Hardsuit DNK-11 - "Omega"
+  description: A sturdy spacesuit for close quarters combat, it's smells like donk pockets...
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/donkcommaner.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/donkcommaner.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.4
+        Piercing: 0.35
+        Caustic: 0.4
+        Heat: 0.6
+        Radiation: 0.3
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitDonkCommander
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitCybersunJugger
+  name: Hardsuit CBS-212 - "Kuijia"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/cybersunjugger.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/cybersunjugger.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.1
+        Slash: 0.1
+        Piercing: 0.1
+        Caustic: 0.5
+        Heat: 0.35
+        Radiation: 0.3
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.15
+  - type: ClothingSpeedModifier
+    walkModifier: 0.55
+    sprintModifier: 0.55
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitCybersunJugger
+  - type: EmitsSoundOnMove
+    soundCollection:
+      collection: LPPHeavyHardsuitMovement
+      params:
+        playOffsetSeconds: 2
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitCybersunBasic
+  name: Hardsuit CBS-212 - "Puango"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/cybersunstand.rsi
+  - type: Clothing
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/cybersunstand.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Caustic: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitCybersunBasic
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitCybersunElite
+  name: Hardsuit CBS-218p - "Fǎnshè"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/cybersunelite.rsi
+  - type: Clothing
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/cybersunelite.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Caustic: 0.6
+        Heat: 0.45
+        Radiation: 0.5
+        Shock: 0.65
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitCybersunElite
+  - type: Reflect
+    enabled: true
+    reflectProb: 0.45
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitCybersunCommander
+  name: Hardsuit CBS-222 - "Zhǐhuī guān"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/cybersuncom.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/cybersuncom.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.35
+        Slash: 0.35
+        Piercing: 0.3
+        Caustic: 0.35
+        Heat: 0.35
+        Radiation: 0.35
+        Shock: 0.35
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitCybersunCommander
+  - type: Reflect
+    enabled: true
+    reflectProb: 0.05
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitGorlexCommander
+  name: Hardsuit GRX-114p - "Predator"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/gorlexcomander.rsi
+  - type: Clothing
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/gorlexcomander.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.35
+        Caustic: 0.35
+        Heat: 0.35
+        Radiation: 0.35
+        Shock: 0.35
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexCommander
+  - type: Reflect
+    enabled: true
+    reflectProb: 0.1
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitGorlexElite
+  name: Hardsuit GRX-111 - "Ratkin"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/gorlexelite.rsi
+  - type: Clothing
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/gorlexelite.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Caustic: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: ClothingSpeedModifier
+    walkModifier: 1.05
+    sprintModifier: 1.05
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexElite
+
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitGorlexMedic
+  name: Hardsuit GRX-113 - "HyperMed"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/gorlexmedic.rsi
+  - type: Clothing
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/gorlexmedic.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.3
+        Caustic: 0.65
+        Heat: 0.5
+        Radiation: 0.65
+        Shock: 0.65
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: ClothingSpeedModifier
+    walkModifier: 1.1
+    sprintModifier: 1.1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexMedic
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitGorlexSoldier
+  name: Hardsuit GRX-101 - "Cyclops"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Item
+    size: Huge
+  - type: Sprite
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/gorlexsoldier.rsi
+  - type: Clothing
+    sprite:  _NewParadise/Clothing/OuterClothing/Hardsuits/gorlexsoldier.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.45
+        Caustic: 0.5
+        Heat: 0.5
+        Radiation: 0.5
+        Shock: 0.65
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexSoldier
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitAcientHos
+  name: Hardsuit NT-014 - "Granite"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/hosacient.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/hosacient.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Caustic: 0.5
+        Heat: 0.65
+        Radiation: 0.5
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.65
+    sprintModifier: 0.65
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitAcientHos
+  - type: EmitsSoundOnMove
+    soundCollection:
+      collection: LPPHeavyHardsuitMovement
+      params:
+        playOffsetSeconds: 0.5
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitSpatioUpgraded
+  name: Hardsuit GRT|HpI-004 - "Proskynitís"
+  description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/spatioupgr.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/spatioupgr.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 10000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.3
+        Piercing: 0.65
+        Caustic: 0.5
+        Heat: 1.15
+        Radiation: 0.5
+        Shock: 0.5
+  - type: TemperatureProtection
+    coefficient: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitSpatioUpgraded
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitCombatAlternative
+  name: Tactical hardsuit GRT|FPA-88 - "keshik MK.I"
+  description: A purpose-built combat suit designed to protect its user against all manner of enemy combatants in low pressure environments.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/huntersec.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/huntersec.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.50
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.5
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.5
+        Radiation: 0.7
+        Caustic: 0.7
+        Heat: 0.7
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitCombatAlternative
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable]
+  id: LPPClothingOuterDetectiveHardsuit
+  name: Pressure protection suit FDA-87d - "Watson"
+  description: A lightweight suit that helps NanoTrasen detectives investigate even in space!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/detectivehardsuit.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/detectivehardsuit.rsi
+  - type: Item
+    size: Large
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.85
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.65
+        Caustic: 0.7
+        Heat: 0.8
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.90
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetDetectiveHardsuit
+  - type: StaticPrice
+    price: 350
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetDetectiveHardsuit
+  name: Helmet FDA-87d
+  description: It is a pity that there is no hole for a smoking pipe...
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/detectiveharsuithelm.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/detectiveharsuithelm.rsi
+  - type: PointLight
+    color: white
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetHardsuitReflectivepatrolsec
+  name: Helmet NFD-101p
+  categories: [ HideSpawnMenu ]
+  description: A good helmet...the most important thing is to arrange a battle of reds against blues!.
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/bluehelmsvet.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/bluehelmsvet.rsi
+  - type: PointLight
+    color: "#ffeead"
+  - type: PressureProtection
+    highPressureMultiplier: 0.525
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: FlashImmunity
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable]
+  id: LPPClothingOuterHardsuitReflectivepatrolsec
+  name: Deflecting hardsuit NFD-101p "Deflect"
+  description: A spacesuit, but laser-reflecting materials were used as part of his armor.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/bluesechard.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/bluesechard.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.4
+        Radiation: 0.5
+  - type: ClothingSpeedModifier
+    walkModifier: 0.80
+    sprintModifier: 0.80
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHardsuitReflectivepatrolsec
+  - type: Reflect
+    reflectProb: 1
+    reflects:
+      - Energy
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitMiksuitJugger
+  name: Discolored spacesuit GRT-43h - "Teknő"
+  description: A restored spacesuit of old models of Cybersun juggernauts, modified to suit the wishes of the current owner.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/miksuitjugger.rsi
+  - type: Item
+    size: Huge
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/miksuitjugger.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.05
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.25
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.6
+        Piercing: 0.30
+        Heat: 0.40
+        Radiation: 0.2
+        Caustic: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.6
+  # - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetMikhelmJugger
+
+- type: entity
+  parent: ClothingHeadHardsuitWithLightBase
+  id: LPPClothingHeadHelmetMikhelmJugger
+  name: Helmet GRT-43h
+  description: The helmet is from a spacesuit, the display is slightly broken, but you can work...
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: BreathMask
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/miksuitjuggerhelm.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/miksuitjuggerhelm.rsi
+  - type: PointLight
+    color: white
+  - type: PressureProtection
+    highPressureMultiplier: 0.08
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.95
+
+- type: entity
+  parent: ClothingOuterHardsuitBase
+  id: LPPClothingOuterHardsuitHunter
+  name: Hardsuit GRT-42w - "Vadász"
+  description: The spacesuit of the GreyTide co. company, which recently appeared on the market of spacesuits for the needs of civilians as well as the military. Gray tones - the style!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/winterhunter.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/winterhunter.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.40
+        Piercing: 0.65
+        Heat: 0.85
+        Radiation: 0.5
+        Caustic: 0.2
+  - type: ExplosionResistance
+    damageCoefficient: 0.8
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHunter
+    slot: head
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
+  id: LPPClothingOuterHardsuitAcientSyndie
+  name: Tactical hardsuit CSA-21BM - "Tobinezumi"
+  description: A very strange model of the suit of Nuclear Operatives, obviously of a non-standard configuration and as if not from our universe, there is a cut-out text on the foot - "Mika's spacesuit, DS1, Death guards - hands off!".
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/acientsyndiehardsuit.rsi
+  - type: Item
+    size: Huge
+  - type: PressureProtection
+    highPressureMultiplier: 0.02
+    lowPressureMultiplier: 1000
+  - type: ClothingSpeedModifier
+    walkModifier: 1.05
+    sprintModifier: 1.05
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.35
+        Heat: 0.35
+        Radiation: 0.05
+        Caustic: 0.3
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetAcientSyndieEVA
+    requiredSlot:
+    - outerclothing
+    slot: head

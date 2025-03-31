@@ -2,3 +2,13 @@
   id: NfsdOuterClothing
   equipment:
     outerClothing: ClothingOuterArmorNfsd
+
+- type: loadout
+  id: LPPNfsdOuterClothing
+  equipment:
+    outerClothing: LPPClothingOuterVestDeputySherif
+
+- type: loadout
+  id: LPPNfsdOuterClothingDeputy
+  equipment:
+    outerClothing: LPPClothingOuterCoatDeputySherif

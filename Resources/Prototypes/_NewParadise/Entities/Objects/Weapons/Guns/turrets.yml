@@ -1,0 +1,23 @@
+- type: entity
+  parent: BaseWeaponTurret
+  id: LPPWeaponTurretNTCentComm
+  suffix: NanoTrasen, CentComm
+  components:
+  - type: NpcFactionMember
+    factions:
+    - LPPNTCentCom
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifle
+    capacity: 2000
+
+- type: entity
+  parent: BaseWeaponTurret
+  id: LPPWeaponTurretNTCCDeathSquad
+  suffix: DeathSquad, CentComm
+  components:
+  - type: NpcFactionMember
+    factions:
+    - LPPNTCentComDeathSquad
+  - type: BallisticAmmoProvider
+    proto: CartridgeCaselessRifle
+    capacity: 9999

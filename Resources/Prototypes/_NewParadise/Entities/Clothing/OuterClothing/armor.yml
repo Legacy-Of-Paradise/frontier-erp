@@ -1,0 +1,109 @@
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: LPPClothingOuterArmorBlueshield
+  name: blueshield's carapace
+  description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/blueshield_armor.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/blueshield_armor.rsi
+  - type: Item
+    size: Huge
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.6
+        Heat: 0.5
+        Caustic: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.65
+  - type: GroupExamine
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+
+- type: entity
+  parent: ClothingOuterBaseLarge
+  id: LPPClothingOuterArmorErengySyndie
+  name: anti-energy cuirass
+  description: Anti-energy cuirass, that provides, no wonder, good energy protection for wearer, it sometimes can even ricoshet them.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/energyarmor.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/energyarmor.rsi
+  - type: Item
+    size: Huge
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.8
+        Slash: 0.8
+        Piercing: 0.8
+        Heat: 0.15
+        Caustic: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.7
+  - type: GroupExamine
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: Reflect
+    reflectProb: 0.9
+    reflects:
+      - Energy
+
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: LPPlothingOuterArmorSwatAlternative
+  name: Lightened swat suit
+  description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/swatalt.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/swatalt.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.6
+        Heat: 0.6
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
+  - type: GroupExamine
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetSwatAlternative
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+
+- type: entity
+  parent: ClothingOuterEVASuitBase
+  id: LPPlothingOuterArmorSwatEpistemic
+  name: Epistemic swat suit
+  description: Composed of semi-flexible polycarbonate, reinforced materials, and integrated ballistic plating, it offers exceptional protection against melee, bullet, and environmental threats, ensuring officers remain combat-ready in the harshest conditions.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/swatepistemic.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/swatepistemic.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.7
+        Heat: 0.7
+  - type: ExplosionResistance
+    damageCoefficient: 0.50
+  - type: GroupExamine
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetSwatEpistemic
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1

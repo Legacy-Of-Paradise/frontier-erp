@@ -1,0 +1,88 @@
+- type: entity
+  parent: Stunbaton
+  id: LPPStunBatonSelfCharging
+  suffix: Recharging, Do Not Map
+  noSpawn: true
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 10
+  - type: GuideHelp
+    guides:
+    - Security
+
+- type: entity
+  parent: Flash
+  id: LPPFlashRecharging
+  suffix: Recharging, Do Not Map
+  noSpawn: true
+  components:
+  - type: AutoRecharge
+    rechargeDuration: 120
+  - type: GuideHelp
+    guides:
+    - Security
+
+- type: entity
+  name: non-lethal baton
+  parent: BaseItem
+  id: LPPPoliceBatonNonLethal
+  description: First, do no harm.
+  noSpawn: true
+  components:
+    - type: MeleeWeapon
+      wideAnimationRotation: -135
+      damage:
+        types:
+          Blunt: 3
+    - type: StaminaDamageOnHit
+      damage: 35
+      sound: /Audio/Weapons/click.ogg
+    - type: Sprite
+      sprite: Objects/Weapons/Melee/truncheon.rsi
+      state: icon
+    - type: GuideHelp
+      guides:
+      - Security
+
+- type: entity
+  name: CentCoin
+  parent: BaseItem
+  id: LPPCentcoin
+  suffix: 10 Coins
+  description: A coin containing a couple of grams of bluespace crystal, as well as disposable modules for teleporting objects.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
+    state: telecrystal
+  - type: Item
+    sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
+    size: Tiny
+  - type: Stack
+    count: 10
+    stackType: Telecrystal
+  - type: StaticPrice
+    price: 0
+  - type: StackPrice
+    price: 200
+  - type: Currency
+    price:
+      LPPCentcoin: 1
+
+- type: entity
+  name: CentCoin
+  parent: BaseItem
+  id: LPPCentcoin1
+  description: A coin containing a couple of grams of bluespace crystal, as well as disposable modules for teleporting objects.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
+    state: telecrystal
+  - type: Item
+    sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
+    size: Tiny
+  - type: StackPrice
+    price: 200
+  - type: Currency
+    price:
+      LPPCentcoin: 1

@@ -1,0 +1,56 @@
+- type: entity
+  name: armband box
+  parent: BoxCardboard
+  id: LPPBoxArmband
+  description: A box of armbands.
+  components:
+  - type: Item
+    shape:
+    - 0,0,1,1
+  - type: Storage
+    grid:
+    - 0,0,5,2
+    whitelist:
+      tags:
+        - LPPArmband
+  - type: StorageFill
+    contents:
+      - id: LPPArmbandRed
+        amount: 3
+      - id: LPPArmbandGreen
+        amount: 3
+      - id: LPPArmbandBlue
+        amount: 3
+      - id: LPPArmbandWhite
+        amount: 3
+      - id: LPPArmbandYellow
+        amount: 3
+      - id: LPPArmbandPurple
+        amount: 3
+  - type: Sprite
+    sprite: _NewParadise/Objects/Storage/boxes.rsi
+    layers:
+      - state: box_security
+      - state: armband
+
+- type: entity
+  name: .20 pistol magazine box
+  parent: BoxCardboard
+  id: LPPBox20Pistol
+  description: 4 pistol mags of .20
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPMagazinePistolPF20lethal
+        amount: 4
+
+- type: entity
+  name: .20 (rubber) pistol magazine box
+  parent: BoxCardboard
+  id: LPPBox20PistolRubber
+  description: 4 pistol mags of .20
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPMagazinePistolPF20Rubber
+        amount: 4

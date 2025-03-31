@@ -1,0 +1,38 @@
+- type: entity
+  parent: ClothingHeadHatHardhatBase
+  id: LPPClothingHeadHatTacticalHelmetWrittenOff
+  name: Decommissioned tactical helmet PG
+  description: A decommissioned PG helmet with a built-in flashlight
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Helmets/pg-helmet-tacticool.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Helmets/pg-helmet-tacticool.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+
+- type: entity
+  parent: ClothingHeadHatHardhatBase
+  id: LPPClothingHeadHelmetBasic
+  name: Helmet with flashlight
+  description: Standard protective equipment. Protects against impacts and shines in technical tunnels.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Helmets/security.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Helmets/security.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+        Heat: 0.9
+  - type: Construction
+    graph: HudMedSec
+    node: medsecHud

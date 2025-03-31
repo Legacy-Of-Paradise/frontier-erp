@@ -1,0 +1,16 @@
+- type: entity
+  id: LPPCrateFireSuit
+  name: Firefigthers crate
+  description: Contains 2 sets of fireproof protection and equipment
+  parent: CrateRCDAmmo
+  components:
+  - type: StorageFill
+    contents:
+      - id: ClothingOuterSuitFire
+        amount: 2
+      - id: ClothingHeadHelmetFire
+        amount: 2
+      - id: FireExtinguisher
+        amount: 2
+      - id: GasAnalyzer
+        amount: 2

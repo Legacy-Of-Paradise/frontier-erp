@@ -1,0 +1,17 @@
+- type: construction
+  name: Tiny Fan
+  id: AtmosDeviceFanTiny
+  graph: AtmosDeviceFanTiny
+  startNode: start
+  targetNode: AtmosDeviceFanTiny
+  category: construction-category-structures
+  description: Small fan that creates air flow
+  icon:
+    sprite: /Textures/Structures/Piping/Atmospherics/tinyfan.rsi
+    state: icon
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: false
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

@@ -1,0 +1,20 @@
+- type: entity
+  abstract: true
+  parent: ClothingOuterBase
+  id: LPPClothingOuterStorageBaseStealthSuit
+  components:
+  - type: Item
+    size: Huge
+  - type: Storage
+    grid:
+    - 1,1,3,3   # я хз как это работает, потому пусть будет так
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
+  - type: StaticPrice
+    price: 2500

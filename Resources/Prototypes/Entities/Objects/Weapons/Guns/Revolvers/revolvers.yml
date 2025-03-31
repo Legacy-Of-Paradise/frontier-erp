@@ -50,6 +50,17 @@
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
   - type: StaticPrice
     price: 50
+  - type: MeleeWeapon
+    attackRate: 1.2
+    damage:
+      types:
+        Blunt: 7
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 135
+    soundHit:
+      collection: MetalThud
 
 - type: entity
   name: Deckard

@@ -1,0 +1,46 @@
+- type: entity
+  parent: BaseItem
+  id: LPPWeaponEnergyCrossbow
+  name: Mini sindye crossbow
+  description: Agents favorite weapon from a long time ago. The shot immediately hits the target, dropping your target instantly for a short time. Although it does not require ammunition to fire, however, the weapon itself needs to be reloaded to fire again.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Battery/ecbow.rsi
+    layers:
+    - state: icon
+  - type: Item
+    sprite: _NewParadise/Objects/Weapons/Guns/Battery/ecbow.rsi
+    size: Small
+    shape:
+    - 0,0,2,0
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/click.ogg
+  - type: AmmoCounter
+  - type: Appearance
+  - type: GenericVisualizer
+    visuals:
+      enum.AmmoVisuals.HasAmmo:
+        empty-icon:
+          True: { visible: False }
+          False: { visible: True }
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 8
+    rechargeSound:
+      path: /Audio/Items/bow_pull.ogg
+  - type: BasicEntityAmmoProvider
+    proto: LPPBecbowarrow
+    capacity: 1
+    count: 1
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Battery/ecbow.rsi
+    quickEquip: false
+    slots:
+    - Belt
+    - suitStorage
+  - type: UseDelay
+    delay: 1

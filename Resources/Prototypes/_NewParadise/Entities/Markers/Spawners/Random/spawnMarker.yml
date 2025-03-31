@@ -1,0 +1,58 @@
+- type: entity
+  id: LPPSpawnPointSecurityEngineer
+  parent: SpawnPointJobBase
+  name: LPPSecurityEngineer
+  components:
+  - type: SpawnPoint
+    job_id: LPPSecurityEngineer
+  - type: Sprite
+    layers:
+      - state: green
+      - state: security_officer
+
+- type: entity
+  name: random PG loot
+  id: LPPSpawnDungeonLootRandomPG
+  parent: MarkerBasePlaceFree
+  suffix: "Dungeon, PG"
+  components:
+  - type: Sprite
+    layers:
+    - state: pink
+      scale: 0.7, 0.7
+    - sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
+      state: icon
+    - sprite: _NF/Markers/general.rsi
+      state: questionmark
+      color: red
+  - type: RandomSpawner
+    prototypes:
+    - LPPBlackClothingBackpackPG
+    - LPPClothingMaskPG
+    - LPPClothingBackpackPG
+    - LPPClothingUniformJumpsuitPG
+    - LPPClothingHeadHatPGBeanie
+    - LPPClothingNeckPGBandage
+    - LPPClothingHeadHatPGBeret
+    - LPPClothingEyesGlassesSunglassesPG
+    - LPPClothingEyesGlassesNVG
+    - LPPClothingNeckMantlePGGhillie
+    - LPPClothingShoesBootsCombatPG
+    - LPPClothingHeadHatPGCap
+    - LPPClothingBlackMaskPG
+    - LPPClothingHeadHatPGPanama
+    - LPPClothingNeckPGPin
+    - LPPClothingUniformBlackJumpsuitPG
+    - LPPClothingNeckMantlePG
+    - LPPClothingUniformDesertJumpsuitPG
+    chance: 1
+    offset: 0.0
+    rarePrototypes:
+    - LPPClothingBeltPGWebbing
+    - LPPClothingOuterVestPG
+    - LPPClothingOuterVestUrbanPG
+    - LPPClothingHeadHatTacticalHelmet
+    - LPPClothingHeadHelmetPG
+    - LPPClothingHeadUrbanHelmetPG
+    - LPPClothingBeltPGWebbing
+    rareChance: 0.1

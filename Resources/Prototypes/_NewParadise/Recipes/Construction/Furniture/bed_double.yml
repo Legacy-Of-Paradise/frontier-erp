@@ -1,0 +1,35 @@
+#______________________________________|
+#              кровать
+- type: construction
+  name: Double bed up
+  id: LPPBedDoubleUp
+  graph: LPPBedDouble
+  startNode: start
+  targetNode: LPPBedDoubleUp
+  category: construction-category-structures
+  description: What would be convenient!
+  conditions:
+    - !type:TileNotBlocked
+  icon:
+    sprite: _NewParadise/Structures/Furniture/furniture.rsi
+    state: bed_double_up
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+
+- type: construction
+  name: Double bed down
+  id: LPPBedDoubleDown
+  graph: LPPBedDouble
+  startNode: start
+  targetNode: LPPBedDoubleDown
+  category: construction-category-structures
+  description: What would be convenient!
+  conditions:
+    - !type:TileNotBlocked
+  icon:
+    sprite: _NewParadise/Structures/Furniture/furniture.rsi
+    state: bed_double_down
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false

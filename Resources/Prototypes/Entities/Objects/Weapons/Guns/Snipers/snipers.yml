@@ -37,6 +37,22 @@
         ents: []
   - type: StaticPrice
     price: 500
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 8.0
+    bluntStaminaDamageFactor: 1.25
+    swapKeys: true
+    disableHeavy: true
+    wideAnimationRotation: 135
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
 
 - type: entity # Frontier - Mosin rework (PR#1391)
   name: Kardashev-Mosin

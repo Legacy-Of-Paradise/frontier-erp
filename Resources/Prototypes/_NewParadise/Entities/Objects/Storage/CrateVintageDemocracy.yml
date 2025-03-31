@@ -1,0 +1,33 @@
+ - type: entity
+   id: LPPCrateVintageDEMOCRACY
+   parent: CrateSecgear
+   name: Set with vintage gear
+   description: A set of weapons and armor, like a time capsule from the distant past, smells like a jungle. Requires security access to open.
+   components:
+   - type: Destructible
+     thresholds:
+     - trigger:
+        !type:DamageTrigger
+        damage: 3000
+       behaviors:
+       - !type:DoActsBehavior
+         acts: ["Destruction"]
+       - !type:PlaySoundBehavior
+         sound:
+           collection: MetalBreak
+   - type: StorageFill
+     contents:
+       - id: LPPClothingBeltPGWebbing
+       - id: LPPClothingOuterVestPGWrittenOff
+       - id: LPPWeaponM1Garand
+       - id: LPPMagazineRifleGarand
+         amount: 3
+       - id: LPPMagazineBoxHunting
+       - id: LPPWeaponRifleM1A
+       - id: LPPWeaponRifleM14
+       - id: MagazineLightRifle
+         amount: 2
+       - id: LPPClothingEyesGlassesSunglassesPG
+       - id: ClothingHandsMercGlovesCombat
+       - id: LPPClothingHeadHatTacticalHelmetWrittenOff
+       - id: LPPClothingNeckChain

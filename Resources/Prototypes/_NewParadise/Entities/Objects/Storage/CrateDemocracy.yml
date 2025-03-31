@@ -1,0 +1,33 @@
+- type: entity
+  id: LPPCrateDEMOCRACY
+  parent: CrateSecgear
+  name: A set of decommissioned equipment
+  description: It contains a set of decommissioned equipment, the box is clearly reinforced with a couple of layers of plasteel. Requires security access to open.
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 3000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: StorageFill
+    contents:
+      - id: LPPMagazineBoxM4A1Lethal
+        amount: 2
+      - id: LPPClothingBackpackPG
+      - id: LPPClothingBeltPGWebbing
+      - id: LPPClothingOuterVestPGWrittenOff
+      - id: LPPClothingUniformDesertJumpsuitPG
+      - id: LPPM4A1
+      - id: LPPClothingEyesGlassesSunglassesPG
+      - id: ClothingHandsMercGlovesCombat
+      - id: LPPClothingHeadHatTacticalHelmetWrittenOff
+      - id: LPPClothingHeadHatPGCap
+      - id: LPPClothingShoesBootsCombatPG
+      - id: LPPClothingMaskPGWrittenOff
+      - id: LPPMagazineRifleM4A1Lethal

@@ -1,0 +1,39 @@
+- type: lobbyBackground
+  id: Borman
+  background: /Textures/_NewParadise/LobbyScreens/borman.png
+
+- type: lobbyBackground
+  id: Teftelka
+  background: /Textures/_NewParadise/LobbyScreens/teftelka.png
+
+- type: lobbyBackground
+  id: Amina
+  background: /Textures/_NewParadise/LobbyScreens/amina.png
+
+- type: lobbyBackground
+  id: Bigmoon
+  background: /Textures/_NewParadise/LobbyScreens/bigmoon.png
+
+- type: lobbyBackground
+  id: Girls
+  background: /Textures/_NewParadise/LobbyScreens/girls.png
+
+- type: lobbyBackground
+  id: Clara
+  background: /Textures/_NewParadise/LobbyScreens/clara.png
+
+- type: lobbyBackground
+  id: Kirashet
+  background: /Textures/_NewParadise/LobbyScreens/kirashet.png
+
+- type: lobbyBackground
+  id: DarkMoon
+  background: /Textures/_NewParadise/LobbyScreens/darkmoon.png
+
+- type: lobbyBackground
+  id: BreaddotNukies
+  background: /Textures/_NewParadise/LobbyScreens/breaddot_nukies.png
+
+- type: lobbyBackground
+  id: OhShitWTF
+  background: /Textures/_NewParadise/LobbyScreens/ohshit.png

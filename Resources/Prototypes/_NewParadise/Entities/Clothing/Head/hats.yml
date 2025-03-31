@@ -1,0 +1,121 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPBDayCap
+  name: birthday cap
+  description: Happy birthday!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/birthday_cap.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/birthday_cap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadClownPomni
+  name: Clown Pomni Head
+  description: It's a pomni head
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/clownPomni.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/clownPomni.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatIICoficercap
+  name: IIC officer cap
+  description: Cap worn by officers of the Interstellar Intelligence Center.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/iic-cap-officer.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/iic-cap-officer.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatPGPanama
+  name: PG panama
+  description: Protects the head from falling snakes.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/pg-hat.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/pg-hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatPGCap
+  name: PG cap
+  description: Protects from the sun. It won't protect you from snakes.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/pg-cap.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/pg-cap.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadSecHat
+  name: security service's hat
+  description: black hat, to show who's the sherif.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/sec-hat.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/sec-hat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBeretBlueshield
+  name: blueshield's beret
+  description: Dark blue beret with the emblem of the commander's rank. For officers who think more about other people's safety than their own.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/blueshield_beret.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/blueshield_beret.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatBeretNPZ
+  name: NPZ Beret
+  description: Remember what you're fighting for. (For humanity, in case you've forgotten)
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/upgberet.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/upgberet.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCapNPZ
+  name: NPZ Cap
+  description: The cap of the representatives of the armed forces of the NPZ, strikes fear into the hearts of xenophiles, there is nothing more to say.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/upgofficerhat.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/upgofficerhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatMaid
+  name: Maid's cap
+  description: An item of clothing that is an integral part of any elite maid.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/maidencap.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/maidencap.rsi
+
+
+- type: entity
+  parent: ClothingMaskBase
+  id: LPPClothingAnonMask
+  name: Anonymous mask
+  description: Anon!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/anon.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/anon.rsi

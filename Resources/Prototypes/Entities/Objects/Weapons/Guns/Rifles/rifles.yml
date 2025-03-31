@@ -50,6 +50,21 @@
       gun_chamber: !type:ContainerSlot
   - type: StaticPrice
     price: 500
+  - type: MeleeWeapon
+    attackRate: 1.3333
+    damage:
+      types:
+        Blunt: 8.5
+    swapKeys: true
+    disableHeavy: true
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
 
 - type: entity
   name: AKMS
@@ -162,6 +177,14 @@
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/lecter.rsi
   - type: Gun
+    fireRate: 5
+    burstFireRate: 7
+    selectedMode: Burst
+    availableModes:
+      - Burst
+      - SemiAuto
+    shotsPerBurst: 3
+    burstCooldown: 0.25
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
   - type: ItemSlots
