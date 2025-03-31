@@ -9,12 +9,21 @@ ent-PortableGeneratorSuperPacmanShuttle = { ent-BaseGeneratorShuttle }
 ent-PortableGeneratorJrPacmanShuttle = { ent-BaseGeneratorShuttle }
     .suffix = Welding Fuel, 6 kW, Ship
     .desc = { ent-BaseGeneratorShuttle.desc }
-ent-PortableGeneratorHyperPacman = H.Y.P.E.R.P.A.C.M.A.N.-type portable generator
+ent-PortableGeneratorDK = D-K-type portable generator
     .desc =
-        Next gen generator for powering stations.
+        A prototype Dunn-Kikko fission reactor. Use with caution.
+        Runs off bananium and is rated for up to 120 kW.
+        Highly radioactive without protection.
+    .suffix = Bananium, Rad+, 60 kW
+ent-PortableGeneratorDKShuttle = { ent-BaseGeneratorShuttle }
+    .suffix = Bananium, Rad+, 60 kW, Ship
+    .desc = { ent-BaseGeneratorShuttle.desc }
+ent-PortableGeneratorDKJr = D-K Jr.-type portable generator
+    .desc =
+        A miniaturized Dunn-Kikko fission reactor. Use with caution.
         Runs off bananium and is rated for up to 100 kW.
-        Very radioactive without protection.
-    .suffix = Bananium, 60 kW
-ent-PortableGeneratorHyperPacmanShuttle = { ent-BaseGeneratorShuttle }
-    .suffix = Bananium, 60 kW, Ship
+        Quite radioactive without protection.
+    .suffix = Bananium, Rad-, 60 kW
+ent-PortableGeneratorDKJrShuttle = { ent-BaseGeneratorShuttle }
+    .suffix = Bananium, Rad-, 60 kW, Ship
     .desc = { ent-BaseGeneratorShuttle.desc }

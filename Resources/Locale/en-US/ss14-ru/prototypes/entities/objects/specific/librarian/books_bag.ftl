@@ -1,2 +1,2 @@
-ent-BooksBag = books bag
+ent-BooksBag = book bag
     .desc = A refined bag to carry your own library.

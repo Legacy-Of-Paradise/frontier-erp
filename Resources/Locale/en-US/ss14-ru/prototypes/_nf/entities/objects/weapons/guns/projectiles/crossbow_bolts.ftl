@@ -34,5 +34,7 @@ ent-CrossbowBoltShrapnel = shrapnel bolt
     .desc = A bolt with a buckshot shotgun shell attached to it.
 ent-CrossbowBoltShrapnelSpread = { "" }
     .desc = { "" }
+ent-PelletShrapnelCrossbow = crossbow shrapnel pellet
+    .desc = { ent-BaseBullet.desc }
 ent-CrossbowBoltBloodDrinker = blood drinker bolt
     .desc = A razor-sharp bolt with a serrated tip. Unquestionably unethical.

@@ -1,9 +1,9 @@
 ent-BaseWeaponSniper = BaseWeaponSniper
     .desc = A rooty tooty point and shooty.
 ent-WeaponSniperMosin = Kardashev-Mosin
-    .desc = A civilian grade weapon for hunting, or endless trench warfare. Uses .30 rifle ammo. Now with new shiny bayonet!
+    .desc = A weapon for hunting, or endless trench warfare. Uses .30 rifle ammo. Equipped with bayonet.
 ent-WeaponSniperHristov = Hristov
-    .desc = A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo. On the receiver is a label that says 'for authorized use only.'
+    .desc = A portable anti-materiel rifle. Fires armor piercing 14.5mm shells. Uses .60 anti-materiel ammo.
 ent-Musket = musket
     .desc = This should've been in a museum long before you were born. Uses .60 anti-materiel ammo.
 ent-WeaponPistolFlintlock = flintlock pistol

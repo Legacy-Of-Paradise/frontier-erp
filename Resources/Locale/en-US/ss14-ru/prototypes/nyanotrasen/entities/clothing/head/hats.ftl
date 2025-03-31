@@ -1,9 +1,5 @@
 ent-ClothingHeadMailCarrier = mail carrier's hat
     .desc = Smells like a good pension.
-ent-ClothingHeadHoodBrown = brown hood
-    .desc = Spooky.
-ent-ClothingHeadAreopagite = areopagite hat
-    .desc = Intimidating.
 ent-ClothingHeadTinfoil = tinfoil hat
     .desc = Protects you from all manner of intrusive thoughts.
 ent-ClothingHeadHatBellhop = bellhop cap

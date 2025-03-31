@@ -1,6 +1,6 @@
-ent-SimpleArtifactMobBase = { ent-MobAtmosNF }
+ent-SimpleArtifactMobBase = { ent-NFMobAtmos }
     .suffix = AI
-    .desc = { ent-MobAtmosNF.desc }
+    .desc = { ent-NFMobAtmos.desc }
 ent-BaseMobArtifactConstruct = artifact construct
     .desc = { ent-SimpleArtifactMobBase.desc }
 ent-MobGrimForged = Grimforged Construct
