@@ -4,6 +4,9 @@ using Robust.Client;
 using Robust.Client.Player;
 using Robust.Shared.Network;
 using Robust.Shared.Utility;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Lobby
 {
@@ -17,6 +20,9 @@ namespace Content.Client.Lobby
         [Dependency] private readonly IClientNetManager _netManager = default!;
         [Dependency] private readonly IBaseClient _baseClient = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
         public event Action? OnServerDataLoaded;
 
@@ -60,7 +66,22 @@ namespace Content.Client.Lobby
         public void UpdateCharacter(ICharacterProfile profile, int slot)
         {
             var collection = IoCManager.Instance!;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            var allowedMarkings = _sponsorsManager.TryGetInfo(out var sponsor) ? sponsor.AllowedMarkings : Array.Empty<string>();
+            if (allowedMarkings is null) // Somehow
+                allowedMarkings = Array.Empty<string>();
+            if (sponsor != null)
+            {
+                var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
+                var sponsorMarkings = Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                if (sponsorMarkings is not null && sponsorMarkings.Count() > 0)
+                    allowedMarkings = allowedMarkings.Concat(sponsorMarkings).ToArray();
+            }
+            var session = _playerManager.LocalSession!;
+            profile.EnsureValid(session, collection, allowedMarkings);
+#else
             profile.EnsureValid(_playerManager.LocalSession!, collection);
+#endif
             var characters = new Dictionary<int, ICharacterProfile>(Preferences.Characters) {[slot] = profile};
             Preferences = new PlayerPreferences(characters, Preferences.SelectedCharacterIndex, Preferences.AdminOOCColor);
             var msg = new MsgUpdateCharacter

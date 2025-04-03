@@ -11,6 +11,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.Preferences.Managers
 {
@@ -29,6 +32,9 @@ namespace Content.Server.Preferences.Managers
         [Dependency] private readonly ILogManager _log = default!;
         [Dependency] private readonly UserDbDataManager _userDb = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsors = default!;
+#endif
 
         // Cache player prefs on the server so we don't need as much async hell related to them.
         private readonly Dictionary<NetUserId, PlayerPrefData> _cachedPlayerPrefs =
@@ -58,7 +64,13 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (index < 0 || index >= MaxCharacterSlots)
+            if (index < 0 || index >=
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                GetMaxUserCharacterSlots(userId)
+#else
+                MaxCharacterSlots
+#endif
+                )
             {
                 return;
             }
@@ -98,13 +110,33 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
+            if (slot < 0 || slot >=
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                GetMaxUserCharacterSlots(userId)
+#else
+                MaxCharacterSlots
+#endif
+                )
+            {
                 return;
+            }
 
             var curPrefs = prefsData.Prefs!;
             var session = _playerManager.GetSessionById(userId);
 
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            var allowedMarkings = _sponsors.TryGetInfo(userId, out var sponsor) ? sponsor.AllowedMarkings : new string[] { };
+            if (allowedMarkings == null)
+                allowedMarkings = Array.Empty<string>();
+            if (sponsor != null)
+            {
+                var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
+                allowedMarkings = allowedMarkings.Concat(Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries)).ToArray();
+            }
+            profile.EnsureValid(session, _dependencies, allowedMarkings);
+#else
             profile.EnsureValid(session, _dependencies);
+#endif
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
             {
@@ -128,7 +160,13 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
+            if (slot < 0 || slot >=
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                GetMaxUserCharacterSlots(userId)
+#else
+                MaxCharacterSlots
+#endif
+                )
             {
                 return;
             }
@@ -212,11 +250,18 @@ namespace Content.Server.Preferences.Managers
 
             prefsData.PrefsLoaded = true;
 
+#if LPP_Sponsors
+                    var sponsorSlots = GetMaxUserCharacterSlots(session.UserId);
+#endif
+
             var msg = new MsgPreferencesAndSettings();
             msg.Preferences = prefsData.Prefs;
             msg.Settings = new GameSettings
             {
                 MaxCharacterSlots = MaxCharacterSlots
+#if LPP_Sponsors
+                            + sponsorSlots
+#endif
             };
             _netManager.ServerSendMessage(msg, session.Channel);
 
@@ -229,6 +274,15 @@ namespace Content.Server.Preferences.Managers
         {
             _cachedPlayerPrefs.Remove(session.UserId);
         }
+
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        private int GetMaxUserCharacterSlots(NetUserId userId)
+        {
+            var maxSlots = _cfg.GetCVar(CCVars.GameMaxCharacterSlots);
+            var extraSlots = _sponsors.TryGetInfo(userId, out var sponsor) ? sponsor.ExtraSlots : 0;
+            return maxSlots + extraSlots;
+        }
+#endif
 
         public bool HavePreferencesLoaded(ICommonSession session)
         {
@@ -330,13 +384,26 @@ namespace Content.Server.Preferences.Managers
 
         private PlayerPreferences SanitizePreferences(ICommonSession session, PlayerPreferences prefs, IDependencyCollection collection)
         {
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            var allowedMarkings = _sponsors.TryGetInfo(session.UserId, out var sponsor) ? sponsor.AllowedMarkings : new string[] { };
+            if (allowedMarkings == null)
+                allowedMarkings = Array.Empty<string>();
+            if (sponsor != null)
+            {
+                var tier = sponsor.Tier > 5 ? 5 : sponsor.Tier;
+                allowedMarkings = allowedMarkings.Concat(Loc.GetString($"sponsor-markings-tier-{tier}").Split(";", StringSplitOptions.RemoveEmptyEntries)).ToArray();
+            }
+#endif
+
             // Clean up preferences in case of changes to the game,
             // such as removed jobs still being selected.
 
-            return new PlayerPreferences(prefs.Characters.Select(p =>
-            {
-                return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(session, collection));
-            }), prefs.SelectedCharacterIndex, prefs.AdminOOCColor);
+            return new PlayerPreferences(prefs.Characters.Select(p => new KeyValuePair<int, ICharacterProfile>(p.Key,
+        p.Value.Validated(session, collection
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                    , allowedMarkings
+#endif
+            ))), prefs.SelectedCharacterIndex, prefs.AdminOOCColor);
         }
 
         public IEnumerable<KeyValuePair<NetUserId, ICharacterProfile>> GetSelectedProfilesForPlayers(

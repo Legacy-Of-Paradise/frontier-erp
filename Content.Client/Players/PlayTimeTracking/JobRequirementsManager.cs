@@ -141,7 +141,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         // End Frontier: alternate role time checks
     }
 
-    public bool CheckRoleRequirements(HashSet<JobRequirement>? requirements, HumanoidCharacterProfile? profile, [NotNullWhen(false)] out FormattedMessage? reason)
+    public bool CheckRoleRequirements(HashSet<JobRequirement>? requirements, HumanoidCharacterProfile? profile, [NotNullWhen(false)] out FormattedMessage? reason, int sponsorTier = 0, string uuid = "")
     {
         reason = null;
 
@@ -151,7 +151,7 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         var reasons = new List<string>();
         foreach (var requirement in requirements)
         {
-            if (requirement.Check(_entManager, _prototypes, profile, _roles, out var jobReason))
+            if (requirement.Check(_entManager, _prototypes, profile, _roles, out var jobReason, sponsorTier, uuid))
                 continue;
 
             reasons.Add(jobReason.ToMarkup());

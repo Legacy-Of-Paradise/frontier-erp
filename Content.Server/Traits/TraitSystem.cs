@@ -5,6 +5,9 @@ using Content.Shared.Roles;
 using Content.Shared.Traits;
 using Content.Shared.Whitelist;
 using Robust.Shared.Prototypes;
+#if LPP_Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.Traits;
 
@@ -13,6 +16,9 @@ public sealed class TraitSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly SharedHandsSystem _sharedHandsSystem = default!;
     [Dependency] private readonly EntityWhitelistSystem _whitelistSystem = default!;
+#if LPP_Sponsors
+    [Dependency] private readonly CheckSponsorSystem _checkSponsor = default!;
+#endif
 
     public override void Initialize()
     {

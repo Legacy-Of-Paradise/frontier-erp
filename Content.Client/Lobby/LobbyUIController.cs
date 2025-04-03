@@ -24,6 +24,9 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Map;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.Lobby;
 
@@ -453,7 +456,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
     /// <summary>
     /// Loads the profile onto a dummy entity.
     /// </summary>
-    public EntityUid LoadProfileEntity(HumanoidCharacterProfile? humanoid, JobPrototype? job, bool jobClothes)
+    public EntityUid LoadProfileEntity(HumanoidCharacterProfile? humanoid, JobPrototype? job, bool jobClothes) //todo: LegacyOfParadise: add sponsors loadout / добавить спонсорские вещи
     {
         EntityUid dummyEnt;
 

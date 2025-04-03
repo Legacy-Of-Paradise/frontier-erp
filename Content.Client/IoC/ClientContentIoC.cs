@@ -24,6 +24,9 @@ using Content.Shared.Administration.Managers;
 using Content.Shared.Chat;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.IoC
 {
@@ -59,6 +62,9 @@ namespace Content.Client.IoC
             collection.Register<PlayerRateLimitManager>();
             collection.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             collection.Register<TitleWindowManager>();
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            collection.Register<SponsorsManager>();
+#endif
         }
     }
 }

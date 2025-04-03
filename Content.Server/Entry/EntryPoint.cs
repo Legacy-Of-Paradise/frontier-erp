@@ -34,6 +34,9 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.Entry
 {
@@ -111,6 +114,9 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<GhostKickManager>().Initialize();
                 IoCManager.Resolve<ServerInfoManager>().Initialize();
                 IoCManager.Resolve<ServerApi>().Initialize();
+#if LPP_Sponsors  // _LostParadise-Sponsors
+                IoCManager.Resolve<SponsorsManager>().Initialize();
+#endif
                 IoCManager.Resolve<MiniAuthManager>();
 
                 _voteManager.Initialize();

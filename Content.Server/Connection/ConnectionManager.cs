@@ -20,6 +20,9 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Content.Server._NF.Auth; // Frontier
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 /*
  * TODO: Remove baby jail code once a more mature gateway process is established. This code is only being issued as a stopgap to help with potential tiding in the immediate future.
@@ -31,6 +34,8 @@ namespace Content.Server.Connection
     {
         void Initialize();
         void PostInit();
+
+        Task<bool> HasPrivilegedJoin(NetUserId userId);
 
         /// <summary>
         /// Temporarily allow a user to bypass regular connection requirements.
@@ -65,6 +70,9 @@ namespace Content.Server.Connection
         [Dependency] private readonly IHttpClientHolder _http = default!;
         [Dependency] private readonly IAdminManager _adminManager = default!;
         [Dependency] private readonly MiniAuthManager _authManager = default!; //Frontier
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
         private ISawmill _sawmill = default!;
         private readonly Dictionary<NetUserId, TimeSpan> _temporaryBypasses = [];
@@ -243,7 +251,12 @@ namespace Content.Server.Connection
             var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
                             ticker.PlayerGameStatuses.ContainsKey(userId); // Frontier: remove status.JoinedGame check, TryGetValue<ContainsKey
 
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            isPrivileged = await HasPrivilegedJoin(e.UserId);
+            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !isPrivileged)
+#else
             if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !wasInGame) // Frontier: allow users who joined before panic bunker was enforced to reconnect
+#endif
             {
                 var showReason = _cfg.GetCVar(CCVars.PanicBunkerShowReason);
                 var customReason = _cfg.GetCVar(CCVars.PanicBunkerCustomReason);
@@ -395,6 +408,24 @@ namespace Content.Server.Connection
             var assigned = new NetUserId(Guid.NewGuid());
             await _db.AssignUserIdAsync(name, assigned);
             return assigned;
+        }
+
+        public async Task<bool> HasPrivilegedJoin(NetUserId userId)
+        {
+            var isAdmin = await _db.GetAdminDataForAsync(userId) != null;
+            var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
+                ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
+                status == PlayerGameStatus.JoinedGame;
+
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            var havePriorityJoin = _sponsorsManager.TryGetInfo(userId, out var sponsor) && sponsor.HavePriorityJoin;
+#endif
+
+            return isAdmin ||
+#if LPP_Sponsors                            // _LostParadise-Sponsors
+                     havePriorityJoin ||
+#endif
+                   wasInGame;
         }
     }
 }

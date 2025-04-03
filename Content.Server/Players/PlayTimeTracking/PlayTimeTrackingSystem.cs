@@ -22,6 +22,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LPP_Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.Players.PlayTimeTracking;
 
@@ -39,6 +42,9 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypes = default!;
     [Dependency] private readonly SharedRoleSystem _roles = default!;
     [Dependency] private readonly PlayTimeTrackingManager _tracking = default!;
+#if LPP_Sponsors
+    [Dependency] private readonly CheckSponsorSystem _checkSponsor = default!;
+#endif
 
     public override void Initialize()
     {
@@ -201,7 +207,16 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             playTimes = new Dictionary<string, TimeSpan>();
         }
 
-        return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter);
+#if LPP_Sponsors
+        var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+        var uuid = player.UserId.ToString();
+#endif
+
+        return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter
+#if LPP_Sponsors
+            , sponsorTier, uuid
+#endif
+            );
     }
 
     public HashSet<ProtoId<JobPrototype>> GetDisallowedJobs(ICommonSession player)
@@ -216,9 +231,18 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             playTimes = new Dictionary<string, TimeSpan>();
         }
 
+#if LPP_Sponsors
+        var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+        var uuid = player.UserId.ToString();
+#endif
+
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
         {
-            if (JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter))
+            if (JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter
+#if LPP_Sponsors
+                        , sponsorTier, uuid
+#endif
+                ))
                 roles.Add(job.ID);
         }
 
@@ -240,10 +264,19 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
 
+#if LPP_Sponsors
+        var sponsorTier = _checkSponsor.CheckUser(player.UserId).Item2 ?? 0;
+        var uuid = player.UserId.ToString();
+#endif
+
         for (var i = 0; i < jobs.Count; i++)
         {
             if (_prototypes.TryIndex(jobs[i], out var job)
-                && JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(userId).SelectedCharacter))
+                && JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(userId).SelectedCharacter)
+#if LPP_Sponsors
+            , sponsorTier, uuid
+#endif
+                )
             {
                 continue;
             }

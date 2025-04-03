@@ -36,6 +36,9 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 using Content.Client._NF.Emp.Overlays; // Frontier
 
 namespace Content.Client.Entry
@@ -73,6 +76,9 @@ namespace Content.Client.Entry
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly DebugMonitorManager _debugMonitorManager = default!;
         [Dependency] private readonly TitleWindowManager _titleWindowManager = default!;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
         public override void Init()
         {
@@ -173,6 +179,9 @@ namespace Content.Client.Entry
             _userInterfaceManager.SetActiveTheme(_configManager.GetCVar(CVars.InterfaceTheme));
             _documentParsingManager.Initialize();
             _titleWindowManager.Initialize();
+#if LPP_Sponsors
+            _sponsorsManager.Initialize(); // _LostParadise-Sponsors
+#endif
 
             _baseClient.RunLevelChanged += (_, args) =>
             {

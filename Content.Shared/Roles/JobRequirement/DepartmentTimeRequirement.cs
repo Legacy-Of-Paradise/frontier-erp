@@ -28,7 +28,7 @@ public sealed partial class DepartmentTimeRequirement : JobRequirement
         IPrototypeManager protoManager,
         HumanoidCharacterProfile? profile,
         IReadOnlyDictionary<string, TimeSpan> playTimes,
-        [NotNullWhen(false)] out FormattedMessage? reason)
+        [NotNullWhen(false)] out FormattedMessage? reason, int sponsorTier = 0, string uuid = "")
     {
         reason = new FormattedMessage();
         var playtime = TimeSpan.Zero;
@@ -84,3 +84,55 @@ public sealed partial class DepartmentTimeRequirement : JobRequirement
         return true;
     }
 }
+
+#if LPP_Sponsors
+[UsedImplicitly]
+[Serializable, NetSerializable]
+public sealed partial class CharacterSponsorRequirement : JobRequirement
+{
+    [DataField(required: true)]
+    public int Min;
+
+    [DataField(required: true)]
+    public int Max;
+
+    public override bool Check(
+        IEntityManager entManager,
+        IPrototypeManager protoManager,
+        HumanoidCharacterProfile? profile,
+        IReadOnlyDictionary<string, TimeSpan> playTimes,
+        [NotNullWhen(false)] out FormattedMessage? reason,
+        int sponsorTier = 0,
+        string uuid = "")
+    {
+        reason = FormattedMessage.FromMarkupPermissive(Loc.GetString(
+            "character-sponsor-requirement",
+            ("inverted", Inverted),
+            ("min", Min),
+            ("max", Max)
+        ));
+        return sponsorTier >= Min && sponsorTier <= Max;
+    }
+}
+
+[UsedImplicitly]
+[Serializable, NetSerializable]
+public sealed partial class CharacterUUIDRequirement : JobRequirement
+{
+    [DataField(required: true)]
+    public string Uuid;
+
+    public override bool Check(
+        IEntityManager entManager,
+        IPrototypeManager protoManager,
+        HumanoidCharacterProfile? profile,
+        IReadOnlyDictionary<string, TimeSpan> playTimes,
+        [NotNullWhen(false)] out FormattedMessage? reason,
+        int sponsorTier = 0,
+        string uuid = "")
+    {
+        reason = FormattedMessage.FromMarkupPermissive(Loc.GetString("character-uuid-requirement")); //не нужно сообщать uuid
+        return uuid == Uuid;
+    }
+}
+#endif

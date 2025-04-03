@@ -18,12 +18,17 @@ using Robust.Client.UserInterface.CustomControls;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Robust.Client.Player;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
+#if LPP_Sponsors
+using Content.Client._LostParadise.Sponsors;
+#endif
 
 namespace Content.Client.LateJoin
 {
     public sealed class LateJoinGui : DefaultWindow
     {
+        [Dependency] private readonly IPlayerManager _playerManager = default!;
         [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
         [Dependency] private readonly IClientConsoleHost _consoleHost = default!;
         [Dependency] private readonly IConfigurationManager _configManager = default!;
@@ -81,6 +86,14 @@ namespace Content.Client.LateJoin
             _jobLists.Clear();
             _jobButtons.Clear();
             _jobCategories.Clear();
+
+#if LPP_Sponsors
+            var sys = IoCManager.Resolve<SponsorsManager>();
+            var sponsorTier = 0;
+            if (sys.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+            var uuid = _playerManager.LocalUser != null ? _playerManager.LocalUser.ToString() ?? "" : "";
+#endif
 
             if (!_gameTicker.DisallowedLateJoin && _gameTicker.StationNames.Count == 0)
                 Logger.Warning("No stations exist, nothing to display in late-join GUI");
@@ -258,7 +271,11 @@ namespace Content.Client.LateJoin
 
                         jobButton.OnPressed += _ => SelectedId.Invoke((id, jobButton.JobId));
 
-                        if (!_jobRequirements.IsAllowed(prototype, (HumanoidCharacterProfile?)_preferencesManager.Preferences?.SelectedCharacter, out var reason))
+                        if (!_jobRequirements.IsAllowed(prototype, (HumanoidCharacterProfile?)_preferencesManager.Preferences?.SelectedCharacter, out var reason
+#if LPP_Sponsors
+                                ,sponsorTier, uuid
+#endif
+                            ))
                         {
                             jobButton.Disabled = true;
 

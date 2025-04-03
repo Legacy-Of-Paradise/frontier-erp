@@ -30,6 +30,9 @@ using Content.Shared.Chat;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.IoC
 {
@@ -77,6 +80,9 @@ namespace Content.Server.IoC
             IoCManager.Register<IWatchlistWebhookManager, WatchlistWebhookManager>();
             IoCManager.Register<ConnectionManager>();
             IoCManager.Register<MiniAuthManager>(); //Frontier
+#if LPP_Sponsors  // _LostParadise-Sponsors
+            IoCManager.Register<SponsorsManager>();
+#endif
         }
     }
 }

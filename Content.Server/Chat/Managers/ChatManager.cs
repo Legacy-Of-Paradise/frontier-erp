@@ -18,6 +18,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+using Content.Server._LostParadise.Sponsors;
+#endif
 
 namespace Content.Server.Chat.Managers;
 
@@ -44,6 +47,9 @@ internal sealed partial class ChatManager : IChatManager
     [Dependency] private readonly INetConfigurationManager _netConfigManager = default!;
     [Dependency] private readonly IEntityManager _entityManager = default!;
     [Dependency] private readonly PlayerRateLimitManager _rateLimitManager = default!;
+#if LPP_Sponsors  // _LostParadise-Sponsors
+    [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
     /// <summary>
     /// The maximum length a player-sent message can be sent
@@ -256,6 +262,32 @@ internal sealed partial class ChatManager : IChatManager
             wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", patronColor),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
         }
 
+#if LPP_Sponsors  // _LostParadise-Sponsors
+
+        if (_sponsorsManager.TryGetInfo(player.UserId, out var sponsorData) && sponsorData.Tier > 0)
+        {
+            wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", sponsorData.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+        }
+
+        var adminData = _adminManager.GetAdminData(player);
+        if (adminData != null)
+        {
+            var title = adminData.Title ?? "Admin";
+            var prefs = _preferencesManager.GetPreferences(player.UserId);
+            wrappedMessage = Loc.GetString(
+                "chat-manager-send-ooc-admin-wrap-message", ("adminTitle", title), ("adminColor", prefs.AdminOOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+        }
+
+        if (adminData != null && _sponsorsManager.TryGetInfo(player.UserId, out var sponsorData1) && sponsorData1.OOCColor != null)
+        {
+            var title = adminData?.Title ?? "Admin";
+            var prefs = _preferencesManager.GetPreferences(player.UserId);
+            wrappedMessage = Loc.GetString(
+                "chat-manager-send-ooc-admin-sponsor-wrap-message", ("adminColor", prefs.AdminOOCColor), ("adminTitle", title), ("patronColor", sponsorData1.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+        }
+
+#endif
+
         //TODO: player.Name color, this will need to change the structure of the MsgChatMessage
         ChatMessageToAll(ChatChannel.OOC, message, wrappedMessage, EntityUid.Invalid, hideChat: false, recordReplay: true, colorOverride: colorOverride, author: player.UserId);
         _mommiLink.SendOOCMessage(player.Name, message.Replace("@", "\\@").Replace("<", "\\<").Replace("/", "\\/")); // @ and < are both problematic for discord due to pinging. / is sanitized solely to kneecap links to murder embeds via blunt force
@@ -292,7 +324,7 @@ internal sealed partial class ChatManager : IChatManager
         _adminLogger.Add(LogType.Chat, $"Admin chat from {player:Player}: {message}");
     }
 
-    #endregion
+#endregion
 
     #region Utility
 

@@ -1899,5 +1899,21 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
         {
 
         }
+
+#if LPP_Sponsors
+        #region Sponsors
+        public async Task<Sponsor?> GetSponsorInfo(NetUserId userId)   // _LostParadise-Sponsors
+        {
+            await using var db = await GetDb();
+            return await db.DbContext.Sponsors.AsNoTracking().FirstOrDefaultAsync(x => x.UserId == userId.UserId);
+        }
+
+        public async Task<Sponsor[]?> GetSponsorList()                 // _LostParadise-Sponsors
+        {
+            await using var db = await GetDb();
+            return await db.DbContext.Sponsors.AsNoTracking().ToArrayAsync();
+        }
+        #endregion
+#endif
     }
 }

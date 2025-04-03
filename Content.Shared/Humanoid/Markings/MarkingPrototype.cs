@@ -39,6 +39,11 @@ namespace Content.Shared.Humanoid.Markings
 		[DataField("shader")]
 		public string? Shader { get; private set; } = null;
         // end impstation edit
+
+        // LostParadise-Sponsors-Start
+        [DataField("sponsorOnly")]
+        public bool SponsorOnly = false;
+        // LostParadise-Sponsors-End
         public Marking AsMarking()
         {
             return new Marking(ID, Sprites.Count);

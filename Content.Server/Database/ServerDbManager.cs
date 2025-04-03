@@ -355,6 +355,13 @@ namespace Content.Server.Database
         void InjectTestNotification(DatabaseNotification notification);
 
         #endregion
+
+#if LPP_Sponsors
+        #region Sponsors
+        Task<Sponsor?> GetSponsorInfo(NetUserId userId, CancellationToken cancel = default);    //_LostParadise-Sponsors
+        Task<Sponsor[]?> GetSponsorList(CancellationToken cancel = default);
+        #endregion
+#endif
     }
 
     /// <summary>
@@ -1133,6 +1140,20 @@ namespace Content.Server.Database
 
             return enumerable;
         }
+
+#if LPP_Sponsors    // _LostParadise-Sponsors
+        public async Task<Sponsor?> GetSponsorInfo(NetUserId userId, CancellationToken cancel = default)
+        {
+            DbWriteOpsMetric.Inc();
+            return await _db.GetSponsorInfo(userId);
+        }
+
+        public async Task<Sponsor[]?> GetSponsorList(CancellationToken cancel = default)
+        {
+            DbWriteOpsMetric.Inc();
+            return await _db.GetSponsorList();
+        }
+#endif
 
         private (DbContextOptions<PostgresServerDbContext> options, string connectionString) CreatePostgresOptions()
         {
