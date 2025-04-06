@@ -314,7 +314,7 @@ accent-caveman-replaced-133 = theyve
 accent-caveman-replacement-133 = they
 accent-caveman-replaced-134 = I've
 accent-caveman-replacement-134 = me
-# short food enough numbers that are large
+# short enough numbers that are large
 accent-caveman-replaced-135 = сорок
 accent-caveman-replacement-135 = куча
 accent-caveman-replaced-136 = пятьдесят
