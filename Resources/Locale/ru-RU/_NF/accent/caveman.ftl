@@ -314,7 +314,7 @@ accent-caveman-replaced-133 = theyve
 accent-caveman-replacement-133 = they
 accent-caveman-replaced-134 = I've
 accent-caveman-replacement-134 = me
-# short eда неugh numbers that are large
+# short food enough numbers that are large
 accent-caveman-replaced-135 = сорок
 accent-caveman-replacement-135 = куча
 accent-caveman-replaced-136 = пятьдесят
@@ -324,4 +324,4 @@ accent-caveman-replacement-137 = куча
 accent-caveman-replaced-138 = много
 accent-caveman-replacement-138 = куча
 accent-caveman-repaced-139 = офицеры
-accent-caveman-replacement = уги-буги с дубинками
+accent-caveman-replacement-139 = уги-буги с дубинками
