@@ -1,7 +1,7 @@
 contact_links:
-  - name: Report a Security Vulnerability
-    url: https://github.com/space-wizards/space-station-14/blob/master/SECURITY.md
-    about: Please report security vulnerabilities privately so we can fix them before they are publicly disclosed.
-  - name: Request a Feature
-    url: https://discord.gg/rGvu9hKffJ
-    about: Submit feature requests on our Discord server (https://discord.gg/rGvu9hKffJ).
+- name: Сообщить об уязвимости
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/blob/master/SECURITY.md
+  about: Пожалуйста, сообщайте о серьезных эксплойтах и уязвимостях безопасности.
+- name: Предложение
+  url: https://wiki.legacyofparadise.space/discord/
+  about: Свои предложения можете оставлять в соответствующем канале Discord.
