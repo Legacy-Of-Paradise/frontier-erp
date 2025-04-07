@@ -324,4 +324,4 @@ accent-caveman-replacement-137 = куча
 accent-caveman-replaced-138 = много
 accent-caveman-replacement-138 = куча
 accent-caveman-repaced-139 = офицеры
-accent-caveman-replacement = уги-буги с дубинками
+accent-caveman-replacement-139 = уги-буги с дубинками
