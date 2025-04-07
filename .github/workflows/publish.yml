@@ -17,6 +17,14 @@ jobs:
     - uses: actions/checkout@v3.6.0
       with:
         submodules: 'recursive'
+    - name: Download parts
+      run: |
+        git clone ${{ secrets.SecretsFrontier }}
+        mv Secrets/_PrivateResources/_Private Resources/Prototypes/
+        mv Secrets/_PrivateResources/PERSONAL Resources/Textures/
+        mv Secrets/_PrivateShared Content.Shared/_PrivateShared
+        mv Secrets/_PrivateServer Content.Server/_PrivateServer
+        mv Secrets/_PrivateClient Content.Client/_PrivateClient
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v3.2.0
       with:
