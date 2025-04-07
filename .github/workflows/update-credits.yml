@@ -2,15 +2,15 @@ name: Update Contrib and Patreons in credits
 
 on:
   workflow_dispatch:
-  # schedule: # Frontier
-  #   - cron: 0 0 * * 0 # Frontier
+  schedule: # Frontier
+    - cron: 0 0 */15 * * # Frontier
 
 jobs:
   get_credits:
     runs-on: ubuntu-latest
     # Hey there fork dev! If you like to include your own contributors in this then you can probably just change this to your own repo
     # Do this in dump_github_contributors.ps1 too into your own repo
-    if: github.repository == 'new-frontiers-14/frontier-station-14' # Frontier: space-wizards/space-station-14<new-frontiers-14/frontier-station-14
+    if: github.repository == 'Legacy-Of-Paradise/frontier-erp' # Frontier: space-wizards/space-station-14<new-frontiers-14/frontier-station-14
 
     steps:
       - uses: actions/checkout@v3.6.0
@@ -20,7 +20,7 @@ jobs:
       - name: Get this week's Contributors
         shell: pwsh
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{secrets.BOT_TOKEN}}
         run: Tools/dump_github_contributors.ps1 > Resources/Credits/GitHub.txt
 
       # TODO
@@ -48,8 +48,8 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: Update Credits
-          title: Update Credits
-          body: This is an automated Pull Request. This PR updates the github contributors in the credits section.
-          author: FrontierATC <zuuswa@gmail.com>
+          commit-message: Обновление кредитов
+          title: Обновление кредитов
+          body: Это автоматизированный PR. Этот PR обновляет список участников github в разделе кредитов.
+          author: LOPBot <205537028+LOPBot@users.noreply.github.com>
           branch: automated/credits-${{env.NOW}}
