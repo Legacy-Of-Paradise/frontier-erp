@@ -51,5 +51,5 @@ jobs:
           commit-message: Обновление кредитов
           title: Обновление кредитов
           body: Это автоматизированный PR. Этот PR обновляет список участников github в разделе кредитов.
-          author: LOPBot <ss14.new.paradise@gmail.com>
+          author: LOPBot <205537028+LOPBot@users.noreply.github.com>
           branch: automated/credits-${{env.NOW}}
