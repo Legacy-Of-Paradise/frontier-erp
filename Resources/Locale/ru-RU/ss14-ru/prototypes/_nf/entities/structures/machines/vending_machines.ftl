@@ -75,6 +75,3 @@ ent-VendingMachineSalvagePOI = { ent-VendingMachineSalvage }
 ent-VendingMachineTankDispenserEVAPOI = { ent-VendingMachineTankDispenserEVA }
     .suffix = POI, EVA [O2, N2]
     .desc = { ent-VendingMachineTankDispenserEVA.desc }
-ent-VendingMachineChefvendDungeon = { ent-VendingMachineChefvend }
-    .suffix = Dungeon
-    .desc = { ent-VendingMachineChefvend.desc }

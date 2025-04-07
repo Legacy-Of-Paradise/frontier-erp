@@ -9,12 +9,3 @@ ent-PortableGeneratorSuperPacmanShuttle = { ent-BaseGeneratorShuttle }
 ent-PortableGeneratorJrPacmanShuttle = { ent-BaseGeneratorShuttle }
     .suffix = Сварочное топливо, 6 кВ, Корабельный
     .desc = { ent-BaseGeneratorShuttle.desc }
-ent-PortableGeneratorHyperPacman = Г.И.П.Е.Р.П.А.К.М.А.Н.
-    .desc =
-        Генератор нового поколения для станций.
-        Работает на бананиуме и рассчитан на напряжение до 100 кВ.
-        Очень радиоактивен, требует радограждения.
-    .suffix = Бананиуме, 60 кВ
-ent-PortableGeneratorHyperPacmanShuttle = { ent-BaseGeneratorShuttle }
-    .suffix = Бананиуме, 60 кВ, Корабельный
-    .desc = { ent-BaseGeneratorShuttle.desc }

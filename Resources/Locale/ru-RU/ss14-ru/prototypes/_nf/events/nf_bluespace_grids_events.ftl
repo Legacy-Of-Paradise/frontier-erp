@@ -12,5 +12,3 @@ ent-BluespaceBloodMoon = { ent-BaseStationEventShortDelay }
     .desc = { ent-BaseStationEventShortDelay.desc }
 ent-BluespaceCave = { ent-BaseStationEventShortDelay }
     .desc = { ent-BaseStationEventShortDelay.desc }
-ent-BluespaceBrokenMcDelivery = { ent-BaseStationEventShortDelay }
-    .desc = { ent-BaseStationEventShortDelay.desc }

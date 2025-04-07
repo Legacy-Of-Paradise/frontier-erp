@@ -3,11 +3,6 @@
 barsign-prototype-name-little-treats = Угощения в комнате для чаепитий
 barsign-prototype-description-little-treats = Восхитительно расслабляющая комната для чаепитий. Для всех модных парней в космосе.
 
-## Maltroach
-
-barsign-prototype-name-nf-maltroach = Maltroach
-barsign-prototype-description-nf-maltroach = Mothroaches politely greet you into the bar, or are they greeting each other?
-
 ## Neon Flamingos
 
 barsign-prototype-name-neon-flamingos = Неоновые фламинго

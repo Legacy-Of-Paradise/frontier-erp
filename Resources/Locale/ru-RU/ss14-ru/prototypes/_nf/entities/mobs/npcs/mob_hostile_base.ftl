@@ -1,5 +1,3 @@
-ent-MobAtmosNF = { "" }
-    .desc = { "" }
 ent-MobPassiveRegenWeak = { "" }
     .desc = { "" }
 ent-MobPassiveRegen = { "" }
@@ -32,8 +30,6 @@ ent-NFMobTimedDespawn3000 = { "" }
     .desc = { "" }
 ent-MobEnhancedMovement = { "" }
     .desc = { "" }
-ent-MobIncorporealBase = бестелесная сущность
-    .desc = Вы не можете прикоснуться к нему, но оно может прикоснуться к вам.
 ent-MobHostileBossBase = { ent-MobEnhancedMovement }
     .desc = { ent-MobEnhancedMovement.desc }
 ent-MobHumanoidInvetory = { "" }

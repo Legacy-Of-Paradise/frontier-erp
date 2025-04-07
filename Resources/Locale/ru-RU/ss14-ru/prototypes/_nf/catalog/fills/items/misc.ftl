@@ -1,5 +1,3 @@
-ent-ClothingShoesBootsMagCombatFilled = { ent-ClothingShoesBootsMagCombat }
-    .desc = { ent-ClothingShoesBootsMagCombat.desc }
 ent-ClothingShoesBootsMagNfsdFilled = { ent-ClothingShoesBootsMagNfsd }
     .desc = { ent-ClothingShoesBootsMagNfsd.desc }
 ent-ClothingShoesBootsMagPirateFilled = { ent-ClothingShoesBootsMagPirate }

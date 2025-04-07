@@ -12,20 +12,6 @@ bounty-contracts-category-other = Другое
 # Cartridge
 bounty-contracts-program-name = Охота за головами
 
-## Radio Announcements
-
-bounty-contracts-announcement-radio-name = Служба Наградных Контрактов
-bounty-contracts-announcement-pda-name = Назначена награда
-bounty-contracts-announcement-generic-create = Размещен новый контракт на { $target }. Награда: { $reward }.
-bounty-contracts-announcement-criminal-create = Назначена новая награда за преступника { $target }. Награда: { $reward }.
-bounty-contracts-announcement-vacancy-create = Размещена новая вакансия на должность { $target }. Награда: { $reward }.
-bounty-contracts-announcement-construction-create = Размещен новый строительный контракт на { $target }. Награда: { $reward }.
-bounty-contracts-announcement-service-create = Размещен новый сервисный контракт на { $target }. Награда: { $reward }.
-bounty-contracts-radio-name = Сервис охоты за головами
-bounty-contract-collection-name-command = Командное
-bounty-contract-collection-name-public = Публичное
-bounty-contracts-radio-create = Новый заказ на голову "{ $target }". Награда: { $reward }$.
-
 ## UI - List contracts
 
 bounty-contracts-ui-list-no-contracts = Заказ нет...

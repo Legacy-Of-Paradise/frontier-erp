@@ -1,9 +1,5 @@
 ent-ClothingHeadMailCarrier = шляпа почтальона
     .desc = Пахнет как хорошая пенсия.
-ent-ClothingHeadHoodBrown = коричневый капюшон
-    .desc = Страшно.
-ent-ClothingHeadAreopagite = шляпа ареопагита
-    .desc = Пугающе.
 ent-ClothingHeadTinfoil = шляпа из фольги
     .desc = Защищает от навящевых мыслей.
 ent-ClothingHeadHatBellhop = кепка посыльного

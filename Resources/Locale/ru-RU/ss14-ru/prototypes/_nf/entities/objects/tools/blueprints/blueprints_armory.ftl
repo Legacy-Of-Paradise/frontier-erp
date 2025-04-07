@@ -1,5 +1,3 @@
-ent-NFBlueprintWeaponAntiqueLaser = чертёж старинного лазера
-    .desc = Чертеж со схемой старинного лазера. Может быть вставлен в автолат или техфаб.
 ent-NFBlueprintWeaponLaserSvalinn = чертёж пистолета Свалина
     .desc = Чертеж со схемой пистолета Свалина . Может быть вставлен в автолат или техфаб.
 ent-NFBlueprintPortableRecharger = чертёж портативного зарядного устройства

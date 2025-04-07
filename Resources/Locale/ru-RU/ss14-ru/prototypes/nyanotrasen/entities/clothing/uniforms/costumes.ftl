@@ -1,5 +1,3 @@
-ent-UniformJabroni = костюм джаброни
-    .desc = Для аристов вполне артистично.
 ent-UniformSchoolgirlRed = красная школьная женская униформа
     .desc = Готовка к школе!
 ent-UniformSchoolgirlBlack = чёрная школьная женская униформа

@@ -14,5 +14,4 @@ ent-WeaponRifleNovaliteC1 = Новалит С1
 ent-WeaponRifleNovaliteC1Rubber = { ent-WeaponRifleNovaliteC1 }
     .suffix = Не летал
     .desc = { ent-WeaponRifleNovaliteC1.desc }
-ent-WeaponRifleSVT = СВТ-40
-    .desc = Когда-то это было оружие, использовавшееся на войне, а теперь это гражданское охотничье ружье, подаренное вам S.E.S.W.C. На нём выгравлено: "Отступление считается государственной изменой".
+    
