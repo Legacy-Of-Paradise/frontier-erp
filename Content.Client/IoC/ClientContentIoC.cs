@@ -1,3 +1,4 @@
+using Content.Client._NewParadise.TTS;
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
@@ -59,6 +60,10 @@ namespace Content.Client.IoC
             collection.Register<PlayerRateLimitManager>();
             collection.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             collection.Register<TitleWindowManager>();
+
+            //New paradise start
+            collection.Register<TTSManager>();
+            //New paradise end
         }
     }
 }

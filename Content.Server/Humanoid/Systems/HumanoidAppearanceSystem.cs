@@ -1,9 +1,11 @@
+using Content.Shared._NewParadise.TTS;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences;
 using Content.Shared.Verbs;
 using Robust.Shared.GameObjects.Components.Localization;
+using Robust.Shared.Prototypes;
 
 namespace Content.Server.Humanoid;
 
@@ -49,6 +51,12 @@ public sealed partial class HumanoidAppearanceSystem : SharedHumanoidAppearanceS
         if (TryComp<GrammarComponent>(target, out var grammar))
         {
             grammar.Gender = sourceHumanoid.Gender;
+        }
+
+        if (TryComp<SharedTTSComponent>(source, out var ttsComponent))
+        {
+            EnsureComp<SharedTTSComponent>(target);
+            SetTTSVoice(target, ttsComponent.VoicePrototypeId);
         }
 
         Dirty(target, targetHumanoid);
