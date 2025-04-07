@@ -5,9 +5,12 @@ guide-entry-piloting = Пилотирование
 guide-entry-startinggear = Стартовое снаряжение
 guide-entry-hiring = Найм экипажа
 guide-entry-expeditions = Экспедиции
+guide-entry-sector-topology = Топология сектора
 guide-entry-cargo-hauling = Перевозка грузов
 guide-entry-shipyard = Верфь
 guide-entry-frontier-rules = Правила сервера
+# Engineering entries
+guide-entry-offshore-gas-mining = Добыча газа на шельфе
 # Security entries
 guide-entry-nfsd-smuggling = Контрабанда
 # Medical entries
@@ -61,6 +64,7 @@ guide-entry-shipyard-liquidator = Ликвидатор
 guide-entry-shipyard-loader = Погрузчик
 guide-entry-shipyard-mccargo = МакКарго
 guide-entry-shipyard-mcdelivery = МакДеливери
+guide-entry-shipyard-nightlight = Ночник
 guide-entry-shipyard-pathfinder = Поисковик
 guide-entry-shipyard-phoenix = Феникс
 guide-entry-shipyard-pioneer = Пионер

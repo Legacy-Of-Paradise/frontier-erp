@@ -9,6 +9,9 @@ adventure-webhook-list-low = Топ самых расходных:
 adventure-webhook-top-profit = Общий доход { $amount }.
 adventure-webhook-top-loss = Общие расходы { $amount }.
 adventure-webhook-ledger-start = Резюме бухгалтерской книги
+adventure-webhook-footer =
+    Сервер: { $serverName }
+    Раунд: #{ $roundId }
 nf-adventure-title = Приключение
 nf-adventure-description = Присоединяйтесь к команде корабля или купите свой собственный и исследуйте, исследуйте, спасайте или прокладывайте путь к богатству!
 nf-pirate-title = Пираты

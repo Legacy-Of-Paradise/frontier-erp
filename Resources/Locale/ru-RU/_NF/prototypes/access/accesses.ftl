@@ -5,3 +5,5 @@ id-card-access-level-mercenary = Наемник
 id-card-access-level-stc = Диспетчер трафика
 id-card-access-level-sergeant = Сержант
 id-card-access-level-bailiff = Надзиратель
+id-card-access-level-brigmedic = Бригмедик
+id-card-access-level-pirate = Пират

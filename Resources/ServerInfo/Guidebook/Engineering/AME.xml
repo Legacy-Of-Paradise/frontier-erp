@@ -11,15 +11,15 @@
 <GuideEntityEmbed Entity="AmeJar"/>
 </Box>
 
-  The AME Controller is the part of the AME that outputs power to the station's grid through an [textlink="HV connection" link="VoltageNetworks"].
-  Because of this, you'll want to start your AME construction with the controller on top of an [color=orange]HV wire[/color].
+  Контроллер ДАМ - это часть ДАМ, которая подает питание в сеть станции через [textlink="ВВ провода" link="VoltageNetworks"].
+  По этому вам следует закрепить Контроллер ДАМ на[color=orange]ВВ проводах[/color].
 
-  Most stations have exposed [color=orange]HV wiring[/color] or designated spots to wrench an AME controller, so that it connects to the grid.
+  Большинство станций оставляют открытыми [color=orange]ВВ провода[/color]или выделяют места для подключения именного контроллера, чтобы он запитывал станцию.
 
-  AME shielding is the physical structure that makes the antimatter engine. It's made by converting AME flatpacks into shielding using a multitool.
+  ДАМ - это структура, которая позволяет создать двигатель антиматерии. Он изготовлен путем расстановки упакованных экранированных частей ДАМ с помощью мультитула.
 
-  To construct an AME, start putting down a 3x3 or larger square of AME flatpacks in preparation for construction, making sure to maximize the number of "center" pieces that are surrounded on all eight sides.
-  The greater amount of center pieces, the more cores your AME will have, and the more power it will be able to output safely.
+  Чтобы соорудить ядро ДАМ, начните устанавливать запакованные экранированные части ДАМ в структуру 3 на 3 блока, стараясь максимально увеличить количество "центральных" частей, которые будут окружены со всех восьми сторон.
+  Чем больше блоков ДАМ окружены ими же, тем больше ядер будет у вашего ДАМ и тем самым, повысите выходную мощность генератора.
 
   <Box>
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
@@ -37,7 +37,7 @@
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
   </Box>
 
-  Once this is done, you can use a multitool to convert each AME flatpack into shielding, which should form a finished AME configuration.
+  Как только вы всё разложите, вы можете использовать мультитул для преобразования каждой упакованной детали ДАМ в экранирующий элемент ДАМ, который должен сформировать готовую конструкцию.
 
   <GuideEntityEmbed Entity="AmeController" Caption=""/>
   <Box>
@@ -56,20 +56,20 @@
     <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
   </Box>
   <Box>
-    [color=#999999][italic]An example of a one core setup[italic][/color]
+    [color=#999999][italic]Пример ДАМ с одним ядром[italic][/color]
   </Box>
 
-  ## Operation
-  To start the AME, insert a fuel jar into the AME controller, and set the safe injection rate.
+  ## Операция
+  Чтобы запустить ДАМ, вставьте топливо антиматерии в контроллер AME и установите безопасный объём впрыска.
 
-  The safe injection rate is the point where the AME can safely run without overheating, while maximizing power output.
+  Безопасный объём впрыска - это уровень, при котором ДАМ может безопасно работать, не перегреваясь, при выдачи максимальной выходной мощности.
 
-  This rate is always twice the core count.
+  Этот показатель всегда в два раза больше количества ядер.
 
-  For example, an AME with one core will have a safe injection rate of 2. With two cores, the safe injection rate would be 4, and so on.
+  Например, ДАМ с одним ядром будет иметь безопасный объём впрыска равный 2. С двумя ядрами безопасный объём впрыска будет равна 4, и так далее.
 
-  Any more than this ratio will eventually result in the engine [color=#ff0000]overheating[/color] and, shortly afterwards, [color=#ff0000]exploding[/color].
+  Превышение этого соотношения в конечном итоге приведет к [color=#ff0000]перегреву двигателя[/color] вскоре после этого, [color=#ff0000]к взрыву[/color].
 
-  The AME controller will [textlink="report" link="InspectingPower"] on both the amount of power it is providing to the grid, and the theoretical maximum power it could provide if demanded.
+  Контроллер ДАМ будет [textlink="сообщать" link="InspectingPower"] о количестве электроэнергии, которую он подает в сеть, так и от теоретической максимальной мощности, которую он мог бы обеспечить при необходимости.
 
 </Document>

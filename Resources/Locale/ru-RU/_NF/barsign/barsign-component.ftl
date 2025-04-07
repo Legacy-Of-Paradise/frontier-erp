@@ -5,8 +5,8 @@ barsign-prototype-description-little-treats = Восхитительно рас�
 
 ## Maltroach
 
-barsign-prototype-name-maltroach = Плотва в солоде
-barsign-prototype-description-maltroach = Плотва в солоде вежливо поприветствует вас в баре, или нет?
+barsign-prototype-name-nf-maltroach = Maltroach
+barsign-prototype-description-nf-maltroach = Mothroaches politely greet you into the bar, or are they greeting each other?
 
 ## Neon Flamingos
 
@@ -20,5 +20,7 @@ barsign-prototype-description-the-rune = Напитки, меняющие реа
 
 ## Whiskey Echoes
 
-barsign-prototype-name-whiskey-echoes = Виски-Эхо
-barsign-prototype-description-whiskey-echoes = Ух парень! Садись и пей! Независимо от вашей принадлежности, лозунг здесь: «Смерть трезвости!»
+barsign-prototype-name-whiskey-echoes = Whiskey Echoes
+barsign-prototype-description-whiskey-echoes = Wew lad! Sit down and have a drink! No matter your affiliation, the slogan here is 'Death to sobriety!'
+barsign-prototype-name-wyvern-shipyards = Верфи Виверн
+barsign-prototype-description-wyvern-shipyards = Присаживайтесь, расслабьтесь и не волнуйтесь, будущее не может наступить быстрее!

@@ -7,3 +7,4 @@ stamp-component-stamped-name-doc = Главврач
 stamp-component-stamped-name-pal = Бюрократический агент ДШ
 stamp-component-stamped-name-stc = Диспетчер траифка
 stamp-component-stamped-name-sr = Представитель Фронтира
+stamp-component-stamped-name-bailiff = Надзиратель

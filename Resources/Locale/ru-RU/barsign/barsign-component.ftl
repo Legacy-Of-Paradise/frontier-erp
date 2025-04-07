@@ -119,6 +119,16 @@ barsign-prototype-description-emprah = Нравится и фанатикам, �
 barsign-prototype-name-spacebucks = Спейсбакс
 barsign-prototype-description-spacebucks = От них нельзя скрыться, даже в космосе, и даже после того, как некоторые стали называть их "срубли".
 
+## Maltroach
+
+barsign-prototype-name-maltroach = Мальтроуч
+barsign-prototype-description-maltroach = Сквик!
+
+## Whiskey Echoes
+
+barsign-prototype-name-whiskeyechoes = Эхо виски
+barsign-prototype-description-whiskeyechoes = Элитный бар для элитных оперативников... Подождите, это же станция «Нанотрасен». Почему эта вывеска в базе данных?
+
 ## EmpBarSign
 
 barsign-prototype-description-empbarsign = Что-то пошло совсем не так.

@@ -1,0 +1,15 @@
+names-regal-rat-kingdom-dataset-1 = Чума
+names-regal-rat-kingdom-dataset-2 = Аммиак
+names-regal-rat-kingdom-dataset-3 = Обслуживание
+names-regal-rat-kingdom-dataset-4 = Мусор
+names-regal-rat-kingdom-dataset-5 = Отбросы
+names-regal-rat-kingdom-dataset-6 = Крыса
+names-regal-rat-kingdom-dataset-7 = Паразит
+names-regal-rat-kingdom-dataset-8 = Сыр
+names-regal-rat-kingdom-dataset-9 = Жующий
+names-regal-rat-kingdom-dataset-10 = Большой
+names-regal-rat-kingdom-dataset-11 = Грязь
+names-regal-rat-kingdom-dataset-12 = Канализация
+names-regal-rat-kingdom-dataset-13 = Утилизация
+names-regal-rat-kingdom-dataset-14 = Служба
+names-regal-rat-kingdom-dataset-15 = The

@@ -22,3 +22,7 @@ lathe-recipe-NFFoodContainerEggEmpty-name = лоток для яиц (пусто
 lathe-recipe-NFBoxMREEmpty-name = И.Р.П. (пустой)
 # Plastic
 lathe-recipe-NFFoodBoxSushi-name = поднос для суши (пустой)
+# Service
+lathe-recipe-DrinkKegSteel-name = бочка (сталь)
+lathe-recipe-DrinkKegWood-name = бочка (дерево)
+lathe-recipe-DrinkKegPlastic-name = бочка (пластик)

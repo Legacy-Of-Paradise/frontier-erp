@@ -1,1 +1,1 @@
-﻿shutter-rattle = *дребезжит*
+shutter-rattle = *дребезжит*

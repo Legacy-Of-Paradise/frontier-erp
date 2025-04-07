@@ -1,0 +1,16 @@
+descriptions-atv-dataset-1 = Полно-Плиточный транспорт.
+descriptions-atv-dataset-2 = Анти-муравьиный транспорт.
+descriptions-atv-dataset-3 = Лёгко-доступный транспорт.
+descriptions-atv-dataset-4 = Вполне-Двойной транспорт.
+descriptions-atv-dataset-5 = Любого-Типа транспорт.
+descriptions-atv-dataset-6 = Травма-Вспомогательный транспорт.
+descriptions-atv-dataset-7 = Алгоритмически-передоваемый вирус.
+descriptions-atv-dataset-8 = Вакансия Малыша-Алкоголика.
+descriptions-atv-dataset-9 = Задница-Разрывательный вулкан.
+descriptions-atv-dataset-10 = Эль-Теле Видинее.
+descriptions-atv-dataset-11 = Стеснительно-Настроенный бродяга.
+descriptions-atv-dataset-12 = Искустно-трагичный Волонтёр.
+descriptions-atv-dataset-13 = Вакансия ТакоМата.
+descriptions-atv-dataset-14 = Типично-Ещё-Один-Потрясающий Вид.
+descriptions-atv-dataset-15 = Всё для девствиницы.
+descriptions-atv-dataset-16 = Пяти-Звёздочно-Ужасающий автомобиль.

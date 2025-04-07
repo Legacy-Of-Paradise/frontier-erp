@@ -10,6 +10,7 @@ bank-atm-menu-no-deposit = Пуст
 bank-atm-menu-deposit-button = Взнести
 bank-atm-reason-label = Для:{ " " }
 bank-atm-description-label = Описание:{ " " }
+vending-machine-menu-cash-slot-label = Денежный слот:{ " " }
 bank-insufficient-funds = Недостаточно средств
 bank-atm-menu-transaction-denied = Транзакция отклонена
 bank-atm-menu-deposit-successful = Взнос принят
