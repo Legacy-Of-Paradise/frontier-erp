@@ -14,5 +14,5 @@ ghost-respawn-rules-window-rules =
 ## COMMMANDS
 
 ghost-respawn-command-desc = Возрождает вас, если вы подходящий призрак.
-ghost-respawn-not-a-ghost = Вы все еще не в гостах.
-ghost-respawn-ineligible = Вы все еще не подходите.
+ghost-respawn-not-a-ghost = Вы все ещё не в гостах.
+ghost-respawn-ineligible = Вы все ещё не подходите.

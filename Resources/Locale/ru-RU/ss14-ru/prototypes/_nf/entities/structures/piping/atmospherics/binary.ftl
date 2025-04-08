@@ -14,4 +14,4 @@ ent-BasePressurePumpGaslock = внешний газовый стык
 ent-Gaslock = { ent-BasePressurePumpGaslock }
     .desc = { ent-BasePressurePumpGaslock.desc }
 ent-GaslockFrame = переносной газовый стык
-    .desc = Через него подается газ. Для подачи газа обе стороны должны быть состыкованы и прокачиваться в одном направлении.
+    .desc = Через него подаётся газ. Для подачи газа обе стороны должны быть состыкованы и прокачиваться в одном направлении.

@@ -9,7 +9,7 @@ nav-beacon-text-label = Метка:
 nav-beacon-button-apply = Применить
 nav-beacon-examine-text =
     Маяк [color={ $enabled ->
-        [true] forestgreen]включен
+        [true] forestgreen]включён
        *[false] crimson]выключен
     }[/color], а на дисплее написано [color={ $color }]"{ $label }"[/color]
 nav-beacon-pos-no-beacons = неизвестно где

@@ -10,7 +10,7 @@ network-configurator-link-mode-started = Начато соединение ус�
 network-configurator-link-mode-stopped = Прекращено соединение устройства.
 network-configurator-mode-link = Соединение
 network-configurator-mode-list = Список
-network-configurator-switched-mode = Режим переключен на: { $mode }
+network-configurator-switched-mode = Режим переключён на: { $mode }
 # Verbs
 network-configurator-save-device = Сохранить устройство
 network-configurator-configure = Настроить
@@ -19,7 +19,7 @@ network-configurator-link-defaults = Стандартное соединение
 network-configurator-start-link = Начать соединение
 network-configurator-link = Соединить
 # ui
-network-configurator-title-saved-devices = Сохраненные устройства
+network-configurator-title-saved-devices = Сохранённые устройства
 network-configurator-title-device-configuration = Конфигурация устройств
 # ui
 network-configurator-ui-clear-button = Очистить

@@ -6,8 +6,8 @@ rcd-component-examine-build-details = Выбран режим строитель
 ### Interaction Messages
 
 # Mode change
-rcd-component-change-mode = РСУ переключен в режим '{ $mode }'.
-rcd-component-change-build-mode = РСУ переключен в режим строительства. Строится { $name }.
+rcd-component-change-mode = РСУ переключён в режим '{ $mode }'.
+rcd-component-change-build-mode = РСУ переключён в режим строительства. Строится { $name }.
 # Ammo count
 rcd-component-no-ammo-message = В РСУ закончились заряды!
 rcd-component-insufficient-ammo-message = В РСУ не хватает зарядов!
@@ -28,7 +28,7 @@ rcd-component-cannot-build-identical-tile = Эта клетка уже тут и
 ### Category names
 
 rcd-component-walls-and-flooring = Стены и полы
-rcd-component-windows-and-grilles = Окна и решетки
+rcd-component-windows-and-grilles = Окна и решётки
 rcd-component-airlocks = Шлюзы
 rcd-component-electrical = Электроприборы
 rcd-component-lighting = Освещение

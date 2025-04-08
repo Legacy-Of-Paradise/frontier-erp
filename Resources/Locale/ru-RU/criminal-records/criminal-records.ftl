@@ -16,8 +16,8 @@ criminal-records-status-none = Нет
 criminal-records-status-wanted = Разыскивается
 criminal-records-status-detained = Под арестом
 criminal-records-status-suspected = Подозревается
-criminal-records-status-discharged = Освобожден
-criminal-records-status-paroled = Освобожден по УДО
+criminal-records-status-discharged = Освобождён
+criminal-records-status-paroled = Освобождён по УДО
 criminal-records-console-wanted-reason = [color=gray]Причина розыска[/color]
 criminal-records-console-suspected-reason = [color=gray]Причина подозрения[/color]
 criminal-records-console-reason = Причина

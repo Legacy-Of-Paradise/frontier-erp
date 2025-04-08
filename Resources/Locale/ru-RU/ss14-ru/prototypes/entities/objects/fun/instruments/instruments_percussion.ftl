@@ -1,7 +1,7 @@
 ent-GlockenspielInstrument = глокеншпиль
     .desc = { ent-BaseHandheldInstrument.desc }
 ent-MusicBoxInstrument = музыкальная шкатулка
-    .desc = Ее мелодия заставляет вас не бояться страшных аниматроников.
+    .desc = Её мелодия заставляет вас не бояться страшных аниматроников.
 ent-XylophoneInstrument = ксилофон
     .desc = Радужный глокеншпиль.
 ent-MicrophoneInstrument = микрофон
@@ -11,7 +11,7 @@ ent-SynthesizerInstrument = синтезатор
 ent-KalimbaInstrument = калимба
     .desc = Мощь фортепиано прямо под вашими пальцами.
 ent-WoodblockInstrument = коробочка
-    .desc = Достаточно долгое прослушивание заставляет ее звучание въедаться в вашу голову.
+    .desc = Достаточно долгое прослушивание заставляет её звучание въедаться в вашу голову.
 ent-ReverseCymbalsInstrument = реверс-цимбалы
     .desc = Вы уверены, что держите их правильно?
 ent-SuperSynthesizerInstrument = суперсинтезатор

@@ -6,5 +6,5 @@ ent-WeaponLauncherRocketEmp = { ent-BaseC2ContrabandUnredeemable }
     .desc = { ent-BaseC2ContrabandUnredeemable.desc }
 ent-WeaponMailLake = почта ДШНГ
     .desc = Система доставки посылок с Rap(b?)id
-ent-WeaponLauncherNfsdLake = гранатомет ДШНГ
+ent-WeaponLauncherNfsdLake = гранатомёт ДШНГ
     .desc = Способен метать как гранаты, так и дротики!

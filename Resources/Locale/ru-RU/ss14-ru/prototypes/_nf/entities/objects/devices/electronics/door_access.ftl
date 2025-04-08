@@ -11,5 +11,5 @@ ent-DoorElectronicsMailCarrier = { ent-DoorElectronics }
     .suffix = Почта, Закрыт
     .desc = { ent-DoorElectronics.desc }
 ent-DoorElectronicsMercenary = { ent-DoorElectronics }
-    .suffix = Наемник, Закрыт
+    .suffix = Наёмник, Закрыт
     .desc = { ent-DoorElectronics.desc }

@@ -9,7 +9,7 @@ welder-component-on-examine-detailed-message =
     { $status }
 welder-component-suicide-lit-others-message = { $victim } заваривает все свои отверстия! Похоже, что они пытаются совершить самоубийство!
 welder-component-suicide-lit-message = Вы завариваете все свои отверстия!
-welder-component-suicide-unlit-others-message = { $victim } бьет себя незажженной сварочной горелкой!
+welder-component-suicide-unlit-others-message = { $victim } бьёт себя незажженной сварочной горелкой!
 welder-component-suicide-unlit-message = Вы ударили себя незажженной сварочной горелкой!
 welder-component-after-interact-refueled-message = Заправлено!
 welder-component-already-full = Сварочный аппарат уже заправлен.

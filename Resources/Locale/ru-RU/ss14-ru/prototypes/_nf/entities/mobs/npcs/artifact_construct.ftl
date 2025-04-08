@@ -4,5 +4,5 @@ ent-SimpleArtifactMobBase = { ent-MobAtmosNF }
 ent-BaseMobArtifactConstruct = Конструкт из артефакта
     .desc = { ent-SimpleArtifactMobBase.desc }
 ent-MobGrimForged = Выкованый Конструкт
-    .desc = Огромный голем, созданный из искореженного металла и древних камней.
+    .desc = Огромный голем, созданный из искорёженного металла и древних камней.
     .suffix = ИИ

@@ -51,4 +51,4 @@ ent-ClothingHeadEVAHelmetLvhi = шлем скафандра ЛВХИ
 ent-ClothingHeadEVAHelmetArcadia = шлем скафандра Аркадии
     .desc = { ent-ClothingHeadEVAHelmetWithLightBase.desc }
 ent-ClothingHeadHelmetHardsuitFSB = шлем скафандра фар стар биотех
-    .desc = Легкий костюмный шлем, который не стесняет движений головы. В нем есть свет!
+    .desc = Лёгкий костюмный шлем, который не стесняет движений головы. В нем есть свет!

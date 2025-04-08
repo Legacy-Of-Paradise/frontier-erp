@@ -14,10 +14,10 @@ ui-vote-create-button = Запустить
 ui-vote-follow-button = Следовать за пользователем
 ui-vote-type-timeout = Это голосование было недавно запущено ({ $remaining })
 # Unavailable text if a vote type has been disabled manually.
-ui-vote-type-not-available = Этот тип голосования был отключен
+ui-vote-type-not-available = Этот тип голосования был отключён
 # Vote option only available for specific users.
 ui-vote-trusted-users-notice =
-    Этот вариант голосования доступен только для игроков, внесенных в вайтлист или имеющим достаточно игрового времени.
+    Этот вариант голосования доступен только для игроков, внесённых в вайтлист или имеющим достаточно игрового времени.
     Кроме этого, вы должны были быть призраком в течение { $timeReq } секунд.
 # Warning to not abuse a specific vote option.
 ui-vote-abuse-warning =

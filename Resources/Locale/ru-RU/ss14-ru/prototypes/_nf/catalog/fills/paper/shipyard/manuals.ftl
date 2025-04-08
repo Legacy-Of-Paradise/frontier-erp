@@ -1,5 +1,5 @@
 ent-ShipyardInfoBase = чэклист перед вылетом
-    .desc = Предполетный контрольный список для шаттла. Проверьте настройки электропитания!
+    .desc = Предполётный контрольный список для шаттла. Проверьте настройки электропитания!
 ent-ShipyardBookwormInfo = чэклист Букворм
     .desc = { ent-ShipyardInfoBase.desc }
 ent-ShipyardBrigandInfo = чэклист Бригантин

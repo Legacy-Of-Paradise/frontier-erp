@@ -20,7 +20,7 @@ log-probe-printout-device = Отсканированное устройство:
 log-probe-printout-header = Последние логи:
 log-probe-printout-entry = #{ $number } / { $time } / { $accessor }
 astro-nav-program-name = АстроНав
-med-tek-program-name = МедТек
+med-tek-program-name = МёдТёк
 # Wanted list cartridge
 wanted-list-program-name = Список разыскиваемых
 wanted-list-label-no-records = Все спокойно, ковбой.
@@ -37,8 +37,8 @@ wanted-list-status-label = [color=darkgray]статус:[/color] { $status ->
         [suspected] [color=yellow]подозревается[/color]
         [wanted] [color=red]разыскивается[/color]
         [detained] [color=#b18644]под арестом[/color]
-        [paroled] [color=green]освобожден по УДО[/color]
-        [discharged] [color=green]освобожден[/color]
+        [paroled] [color=green]освобождён по УДО[/color]
+        [discharged] [color=green]освобождён[/color]
        *[other] нет
     }
 wanted-list-history-table-time-col = Время

@@ -1,4 +1,4 @@
-advertisement-valetdrobe-1 = Скоро вернетесь? У нас есть для этого знак!
+advertisement-valetdrobe-1 = Скоро вернётесь? У нас есть для этого знак!
 advertisement-valetdrobe-2 = Носите шляпу! Это корпоративная политика!
 advertisement-valetdrobe-3 = Одевайся в красное, так они увидят!
 advertisement-valetdrobe-4 = Хорошая смена? Украсьте чужую смену!

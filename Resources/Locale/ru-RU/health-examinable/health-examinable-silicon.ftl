@@ -1,9 +1,9 @@
 health-examinable-silicon-none = Видимые повреждения корпуса отсутствуют.
 health-examinable-silicon-Blunt-25 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } небольшие вмятины на шасси.[/color]
-health-examinable-silicon-Blunt-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси имеет серьезные вмятины![/color]
+health-examinable-silicon-Blunt-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси имеет серьёзные вмятины![/color]
 health-examinable-silicon-Blunt-75 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси почти разваливается![/color]
 health-examinable-silicon-Slash-10 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } несколько царапин.[/color]
-health-examinable-silicon-Slash-25 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } серьезные царапины![/color]
+health-examinable-silicon-Slash-25 = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } серьёзные царапины![/color]
 health-examinable-silicon-Slash-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } покрытие шасси усыпано глубокими цапапинами![/color]
 health-examinable-silicon-Slash-75 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси полностю разодрано![/color]
 health-examinable-silicon-Piercing-50 = [color=crimson]{ CAPITALIZE(POSS-ADJ($target)) } шасси усеяно глубокими отверстиями![/color]

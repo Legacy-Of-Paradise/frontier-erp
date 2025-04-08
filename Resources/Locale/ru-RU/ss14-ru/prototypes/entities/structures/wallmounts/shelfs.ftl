@@ -1,6 +1,6 @@
 ent-ShelfBase = полка
     .desc = Странное место для хранения, ну, в общем, чего угодно. Вам кажется, что вы не должны видеть это.
-ent-ShelfBaseReinforced = укрепленная полка
+ent-ShelfBaseReinforced = укреплённая полка
     .desc = Она выглядит такой же прочной, как и наша реальность.
 ent-ShelfWood = деревянная полка
     .desc = Удобное место для размещения, ээ, да чего угодно.
@@ -21,5 +21,5 @@ ent-ShelfKitchen = кухонная полка
 ent-ShelfChemistry = химическая полка
     .desc = Держите все ваши химикаты в безопасности и подальше от клоу... эээ... публики!
 ent-ShelfChemistryChemistrySecure = { ent-ShelfChemistry }
-    .suffix = Химия, Защищенный
+    .suffix = Химия, Защищённый
     .desc = { ent-ShelfChemistry.desc }

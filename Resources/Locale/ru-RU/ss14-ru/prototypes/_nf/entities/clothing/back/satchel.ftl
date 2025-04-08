@@ -1,5 +1,5 @@
 ent-ClothingBackpackSatchelMercenary = сумка наёмника
-    .desc = Сумка, побывавший во многих опасных местах, надежная боевая сумка.
+    .desc = Сумка, побывавший во многих опасных местах, надёжная боевая сумка.
 ent-ClothingBackpackSatchelArcadia = сумка Аркадии
     .desc = Сумка произведенённая Аркадия Индастриес.
 ent-ClothingBackpackSatchelPilot = сумка пилота

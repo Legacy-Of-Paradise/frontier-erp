@@ -1,17 +1,17 @@
 salvage-expedition-window-finish = Завершить экспедицию
 salvage-expedition-announcement-early-finish = Экспедиция завершилась раньше запланированного срока. Шаттл отправится через { $departTime } секунд.
 salvage-expedition-shuttle-not-found = Нет возможности найти шаттл.
-salvage-expedition-not-everyone-aboard = Не весь экипаж на борту! { CAPITALIZE(THE($target)) } все еще там!
+salvage-expedition-not-everyone-aboard = Не весь экипаж на борту! { CAPITALIZE(THE($target)) } все ещё там!
 # Salvage mods
 salvage-time-mod-standard-time = Нормальная продолжительность
 salvage-time-mod-rush = Штурм
-salvage-weather-mod-heavy-snowfall = Тяжелый снегопад
+salvage-weather-mod-heavy-snowfall = Тяжёлый снегопад
 salvage-weather-mod-rain = Дождь
 salvage-biome-mod-shadow = Тени
 salvage-dungeon-mod-cave-factory = Пещерная фабрика
 salvage-dungeon-mod-med-sci = Научно-медицинская база
 salvage-dungeon-mod-factory-dorms = Заводские общежития
-salvage-dungeon-mod-lava-mercenary = Лавовая база наемников
+salvage-dungeon-mod-lava-mercenary = Лавовая база наёмников
 salvage-dungeon-mod-virology-lab = Лаборатория вирусологии
 salvage-dungeon-mod-salvage-outpost = Аванпост утилизаторов
 salvage-air-mod-1 = 82 N2, 21 O2

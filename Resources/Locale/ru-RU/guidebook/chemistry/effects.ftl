@@ -1,6 +1,6 @@
 -create-3rd-person =
     { $chance ->
-        [1] Создает
+        [1] Создаёт
        *[other] создают
     }
 -cause-3rd-person =
@@ -15,7 +15,7 @@
     }
 reagent-effect-guidebook-create-entity-reaction-effect =
     { $chance ->
-        [1] Создает
+        [1] Создаёт
        *[other] создают
     } { $amount ->
         [1] { $entname }
@@ -38,12 +38,12 @@ reagent-effect-guidebook-flash-reaction-effect =
     } ослепительную вспышку
 reagent-effect-guidebook-foam-area-reaction-effect =
     { $chance ->
-        [1] Создает
+        [1] Создаёт
        *[other] создают
     } большое количество пены
 reagent-effect-guidebook-smoke-area-reaction-effect =
     { $chance ->
-        [1] Создает
+        [1] Создаёт
        *[other] создают
     } большое количество дыма
 reagent-effect-guidebook-satiate-thirst =
@@ -214,7 +214,7 @@ reagent-effect-guidebook-chem-vomit =
     } рвоту
 reagent-effect-guidebook-create-gas =
     { $chance ->
-        [1] Создает
+        [1] Создаёт
        *[other] создают
     } { $moles } { $moles ->
         [1] моль
@@ -227,7 +227,7 @@ reagent-effect-guidebook-drunk =
     } опьянение
 reagent-effect-guidebook-electrocute =
     { $chance ->
-        [1] Бьет током
+        [1] Бьёт током
        *[other] бьют током
     } употребившего в течении { NATURALFIXED($time, 3) }
 reagent-effect-guidebook-extinguish-reaction =
@@ -338,7 +338,7 @@ reagent-effect-guidebook-add-to-solution-reaction =
     { $chance ->
         [1] Заставляет
        *[other] заставляют
-    } химикаты, примененные к объекту, добавиться во внутренний контейнер для растворов этого объекта
+    } химикаты, применённые к объекту, добавиться во внутренний контейнер для растворов этого объекта
 reagent-effect-guidebook-plant-attribute =
     { $chance ->
         [1] Изменяет
@@ -363,7 +363,7 @@ reagent-effect-guidebook-plant-robust-harvest =
     { $chance ->
         [1] Повышает
        *[other] повышают
-    } потенцию растения путем { $increase } до максимума в { $limit }. Приводит к тому, что растение теряет свои семена, когда потенция достигает { $seedlesstreshold }. Попытка повысить потенцию свыше { $limit } может вызвать снижение урожайности с вероятностью 10%
+    } потенцию растения путём { $increase } до максимума в { $limit }. Приводит к тому, что растение теряет свои семена, когда потенция достигает { $seedlesstreshold }. Попытка повысить потенцию свыше { $limit } может вызвать снижение урожайности с вероятностью 10%
 reagent-effect-guidebook-plant-seeds-add =
     { $chance ->
         [1] Восстанавливает

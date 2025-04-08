@@ -33,7 +33,7 @@ names-moth-first-male-dataset-14 = Скорос (Греческое "платя�
 ## Myth and legend
 
 # Legendary king of the Britons who crafted wings and died in his attempt at flight
-names-moth-first-male-dataset-15 = Бладуд (Легендарный король бриттов, который смастерил крылья и погиб в своей попытке полета)
+names-moth-first-male-dataset-15 = Бладуд (Легендарный король бриттов, который смастерил крылья и погиб в своей попытке полёта)
 # Father of Icarus
 names-moth-first-male-dataset-16 = Дедал (Отец Икара)
 # Greek primordial deity of darkness

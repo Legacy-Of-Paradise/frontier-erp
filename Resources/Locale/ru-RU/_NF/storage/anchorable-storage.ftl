@@ -1,1 +1,1 @@
-anchored-storage-already-present = Объект уже прикреплен!
+anchored-storage-already-present = Объект уже прикреплён!

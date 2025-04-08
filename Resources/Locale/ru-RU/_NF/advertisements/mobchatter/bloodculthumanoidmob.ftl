@@ -15,6 +15,6 @@ advertisement-bloodcultisthumanoid-14 = Никакой пощады неверн
 advertisement-bloodcultisthumanoid-15 = Крутые шмотки, теперь они принадлежат Нар'Си!
 advertisement-bloodcultisthumanoid-16 = Смерть еретикам!
 advertisement-bloodcultisthumanoid-17 = Да-да, больше крови... Да даа...
-advertisement-bloodcultisthumanoid-18 = Пустота заберет тебя!
+advertisement-bloodcultisthumanoid-18 = Пустота заберёт тебя!
 advertisement-bloodcultisthumanoid-19 = *Бурчит под нос*
 advertisement-bloodcultisthumanoid-20 = Я буду пить вино из твоего черепа!

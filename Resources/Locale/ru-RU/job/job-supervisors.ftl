@@ -10,6 +10,6 @@ job-supervisors-service = Поварам, Ботаникам, Барменам, 
 job-supervisors-engineering = Инженерам, Атмосферным Техникам, и Старшему Инженеру
 job-supervisors-medicine = Врачам, Химикам, и Главному Врачу
 job-supervisors-security = Офицерам, Смотрителю, и Главе Службы Безопасности
-job-supervisors-science = Ученым, Научному Руководителю
+job-supervisors-science = Учёным, Научному Руководителю
 job-supervisors-hire = своим нанимателям
 job-supervisors-everyone = вообще всем

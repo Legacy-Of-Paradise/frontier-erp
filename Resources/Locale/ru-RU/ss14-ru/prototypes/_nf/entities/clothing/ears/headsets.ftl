@@ -1,5 +1,5 @@
 ent-ClothingHeadsetCommon = гарнитура
-    .desc = Обновленный модульный интерком, который крепится через голову. Берет ключи шифрования.
+    .desc = Обновлённый модульный интерком, который крепится через голову. Берет ключи шифрования.
 ent-ClothingHeadsetNfsdBrown = гарнитура ДШ
     .desc = { ent-ClothingHeadset.desc }
 ent-ClothingHeadsetNfsdGreen = { ent-ClothingHeadsetNfsdBrown }

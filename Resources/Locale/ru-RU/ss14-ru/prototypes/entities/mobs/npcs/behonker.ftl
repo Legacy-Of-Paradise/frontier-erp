@@ -10,5 +10,5 @@ ent-MobBehonkerGrav = бехонкер
     .suffix = Гравитация
     .desc = { ent-BaseMobBehonker.desc }
 ent-MobBehonkerIce = бехонкер
-    .suffix = Лед
+    .suffix = Лёд
     .desc = { ent-BaseMobBehonker.desc }

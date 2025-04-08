@@ -10,7 +10,7 @@ discord-watchlist-connection-entry =
        *[other] { " " }(истекает <t:{ $expiry }:R>)
     }{ $otherWatchlists ->
         [0] { "" }
-        [one] { " " }и еще { $otherWatchlists } наблюдением
-        [few] { " " }и еще { $otherWatchlists } наблюдения
-       *[other] { " " }и еще { $otherWatchlists } наблюдений
+        [one] { " " }и ещё { $otherWatchlists } наблюдением
+        [few] { " " }и ещё { $otherWatchlists } наблюдения
+       *[other] { " " }и ещё { $otherWatchlists } наблюдений
     }

@@ -3,7 +3,7 @@
 ## Delay shuttle round end
 
 emergency-shuttle-command-round-desc = Останавливает таймер окончания раунда, когда эвакуационный шаттл покидает гиперпространство.
-emergency-shuttle-command-round-yes = Раунд продлен.
+emergency-shuttle-command-round-yes = Раунд продлён.
 emergency-shuttle-command-round-no = Невозможно продлить окончание раунда.
 
 ## Dock emergency shuttle
@@ -14,14 +14,14 @@ emergency-shuttle-command-dock-desc = Вызывает спасательный 
 
 emergency-shuttle-command-launch-desc = Досрочно запускает эвакуационный шаттл, если это возможно.
 # Emergency shuttle
-emergency-shuttle-left = Эвакуационный шаттл покинул станцию. Расчетное время прибытия шаттла на станцию Центкома - { $transitTime } секунд.
+emergency-shuttle-left = Эвакуационный шаттл покинул станцию. Расчётное время прибытия шаттла на станцию Центкома - { $transitTime } секунд.
 emergency-shuttle-launch-time = Эвакуационный шаттл будет запущен через { $consoleAccumulator } секунд.
 emergency-shuttle-docked = Эвакуационный шаттл пристыковался к станции { $location }, направление: { $direction }. Он улетит через { $time } секунд.{ $extended }
 emergency-shuttle-good-luck = Эвакуационный шаттл не может найти станцию. Удачи.
 emergency-shuttle-nearby = Эвакуационный шаттл не может найти подходящий стыковочный шлюз. Он дрейфует около станции, { $location }, направление: { $direction }. Он улетит через { $time } секунд.{ $extended }
 emergency-shuttle-extended = { " " }Время до запуска было продлено в связи с непредвиденными обстоятельствами.
 # Emergency shuttle console popup / announcement
-emergency-shuttle-console-no-early-launches = Досрочный запуск отключен
+emergency-shuttle-console-no-early-launches = Досрочный запуск отключён
 emergency-shuttle-console-auth-left =
     { $remaining } { $remaining ->
         [one] авторизация осталась
@@ -34,7 +34,7 @@ emergency-shuttle-console-auth-revoked =
         [few] авторизации необходимы
        *[other] авторизаций необходимо
     }.
-emergency-shuttle-console-denied = Доступ запрещен
+emergency-shuttle-console-denied = Доступ запрещён
 # UI
 emergency-shuttle-console-window-title = Консоль эвакуационного шаттла
 emergency-shuttle-ui-engines = ДВИГАТЕЛИ:

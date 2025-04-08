@@ -13,7 +13,7 @@ names-moth-last-dataset-6 = Уста
 # Thysania agrippina
 names-moth-last-dataset-7 = Уайтвич
 # Operophtera brumata
-names-moth-last-dataset-8 = Винтер
+names-moth-last-dataset-8 = Винтёр
 
 ## Other languages
 

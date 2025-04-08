@@ -7,11 +7,11 @@ holopad-window-no-calls-in-progress = Никакие голо-звонки не 
 holopad-window-incoming-call = Входящий голо-звонок от:
 holopad-window-relay-label = Происходит из:
 holopad-window-outgoing-call = Попытка установить соединение...
-holopad-window-call-in-progress = Ведется голо-звонок
+holopad-window-call-in-progress = Ведётся голо-звонок
 holopad-window-call-ending = Отсоединение...
 holopad-window-call-rejected = Не удалось установить соединение
 holopad-window-ai-request = Ваше присутствие запрашивает:
-holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold]Ведется экстренная трансляция[/bold][/color]
+holopad-window-emergency-broadcast-in-progress = [color=#cf2f2f][bold]Ведётся экстренная трансляция[/bold][/color]
 holopad-window-controls-locked-out = Управление этим устройством заблокировано:
 holopad-window-controls-unlock-countdown = Оно автоматически разблокируется через: { $countdown }
 # Buttons
@@ -67,7 +67,7 @@ holopad-science-artifact-north = Научный - Ксеноархеология
 holopad-science-artifact-south = Научный - Ксеноархеология Юг
 holopad-science-robotics = Научный - Робототехника
 holopad-science-rnd = Научный - РНД
-holopad-science-front = Научный - Приемная
+holopad-science-front = Научный - Приёмная
 holopad-science-breakroom = Научный - Комната отдыха
 # Medical
 holopad-medical-medbay = Медицинский - Медбей
@@ -77,11 +77,11 @@ holopad-medical-morgue = Медицинский - Морг
 holopad-medical-surgery = Медицинский - Хирургия
 holopad-medical-paramedic = Медицинский - Парамедик
 holopad-medical-virology = Медицинский - Вирусология
-holopad-medical-front = Медицинский - Приемная
+holopad-medical-front = Медицинский - Приёмная
 holopad-medical-breakroom = Медицинский - Комната отдыха
 holopad-medical-clinic = Медицинский - Клиника
 # Cargo
-holopad-cargo-front = Снабжение - Приемная
+holopad-cargo-front = Снабжение - Приёмная
 holopad-cargo-bay = Снабжение - Грузовой отсек
 holopad-cargo-salvage-bay = Снабжение - Утилизаторский отсек
 holopad-cargo-breakroom = Снабжение - Комната отдыха
@@ -89,19 +89,19 @@ holopad-cargo-ats = Снабжение - АТС
 holopad-cargo-shuttle = Снабжение - Шаттл
 holopad-cargo-mailroom = Снабжение - Почта
 # Engineering
-holopad-engineering-atmos-front = Атмос - Приемная
+holopad-engineering-atmos-front = Атмос - Приёмная
 holopad-engineering-atmos-main = Атмос - Главный
 holopad-engineering-atmos-teg = Атмос - ТЭГ
 holopad-engineering-storage = Инженерия - Склад
 holopad-engineering-breakroom = Инженерный - Комната отдыха
-holopad-engineering-front = Инженерный - Приемная
+holopad-engineering-front = Инженерный - Приёмная
 holopad-engineering-telecoms = Инженерный - Телекоммуникации
 holopad-engineering-tech-vault = Инженерный - Техническое хранилище
 holopad-engineering-ame = Инженерный - ДАМ
 holopad-engineering-power = Инженерный - Питание
 holopad-engineering-main = Инженерный - Главный
 # S ecurity
-holopad-security-front = СБ - Приемная
+holopad-security-front = СБ - Приёмная
 holopad-security-brig = СБ - Бриг
 holopad-security-warden = СБ - Смотритель
 holopad-security-interrogation = СБ - Допросная
@@ -124,7 +124,7 @@ holopad-service-chapel = Сервис - Церковь
 holopad-service-library = Сервис - Библиотека
 holopad-service-newsroom = Сервис - Новостная
 holopad-service-zookeeper = Сервис - Зоотехник
-holopad-service-boxer = Сервис - Боксер
+holopad-service-boxer = Сервис - Боксёр
 holopad-service-clown = Сервис - Клоун
 holopad-service-musician = Сервис - Музыкант
 holopad-service-mime = Сервис - Мим

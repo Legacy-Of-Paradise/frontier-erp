@@ -1,5 +1,5 @@
 ent-ComputerAdvancedRadar = радиолокационный компьютер
-    .desc = Этот усовершенствованный радар позволяет обнаруживать удаленные объекты, что увеличивает тактическое преимущество.
+    .desc = Этот усовершенствованный радар позволяет обнаруживать удалённые объекты, что увеличивает тактическое преимущество.
 ent-ComputerPalletConsoleNFMarket = компьютер для продажи грузов
     .desc = Используется для продажи товаров, погруженных на грузовые поддоны.
     .suffix = Нормальны
@@ -43,7 +43,7 @@ ent-ComputerSalvageExpeditionDebug = { ent-ComputerSalvageExpedition }
     .suffix = ДЕБАГ
     .desc = { ent-ComputerSalvageExpedition.desc }
 ent-GasSaleConsole = консоль продажи газа
-    .desc = Продает газ, закачиваемый в связанный порт продажи газа.
+    .desc = Продаёт газ, закачиваемый в связанный порт продажи газа.
 ent-BaseComputerTraffic = { "" }
     .desc = { "" }
 ent-BaseComputerTrafficRemote = { ent-BaseStructureDisableToolUse }

@@ -5,7 +5,7 @@ cards-verb-draw = Тянуть карту
 cards-verb-flip = Перевернуть карты
 card-verb-join = Объединить карты
 card-verb-organize-success =
-    Карты перевернуты лицом { $facedown ->
+    Карты перевёрнуты лицом { $facedown ->
         [true] вниз
        *[false] вверх
     }

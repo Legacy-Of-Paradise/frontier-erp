@@ -50,8 +50,8 @@ anomaly-gorilla-charge-infinite = Осталось [color=gold]бесконеч�
 anomaly-sync-connected = Аномалия успешно привязана
 anomaly-sync-disconnected = Соединение с аномалией было потеряно!
 anomaly-sync-no-anomaly = Отсутствует аномалия в пределах диапазона.
-anomaly-sync-examine-connected = Он [color=darkgreen]присоединен[/color] к аномалии.
-anomaly-sync-examine-not-connected = Он [color=darkred]не присоединен[/color] к аномалии.
+anomaly-sync-examine-connected = Он [color=darkgreen]присоединён[/color] к аномалии.
+anomaly-sync-examine-not-connected = Он [color=darkred]не присоединён[/color] к аномалии.
 anomaly-sync-connect-verb-text = Присоединить аномалию
 anomaly-sync-connect-verb-message = Присоединить близлежащую аномалию к { $machine }.
 anomaly-generator-ui-title = генератор аномалий

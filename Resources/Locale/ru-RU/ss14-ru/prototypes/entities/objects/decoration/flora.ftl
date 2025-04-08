@@ -1,5 +1,5 @@
 ent-BaseRock = валун
-    .desc = Тяжелый как действительно тяжелая вещь.
+    .desc = Тяжёлый как действительно тяжёлая вещь.
 ent-BaseTree = { "" }
     .desc = Да, это дерево.
 ent-BaseTreeSnow = { ent-BaseTree }
@@ -34,7 +34,7 @@ ent-FloraTreeChristmas03 = рождественская ель
     .desc = { ent-FloraTreeChristmas02.desc }
 ent-FloraTreeStumpConifer = пень
     .desc = { ent-BaseTreeConifer.desc }
-ent-ShadowTree = темное дерево
+ent-ShadowTree = тёмное дерево
     .desc = Листья шепчутся о тебе.
 ent-LightTree = светящееся дерево
     .desc = Удивительное дерево, наполненное странной энергией.

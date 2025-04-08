@@ -21,7 +21,7 @@ spellbook-ethereal-jaunt-name = Эфирная прогулка
 spellbook-ethereal-jaunt-description = Перейдите на Эфирный план чтобы ускользнуть от врагов!
 spellbook-mind-swap-name = Обмен разумом
 spellbook-animate-name = Анимация
-spellbook-animate-description = Оживите неодушевленный предмет!
+spellbook-animate-description = Оживите неодушевлённый предмет!
 spellbook-smite-name = Молния
 spellbook-smite-desc = Не нравится? Взрывайте их на потроха! Требуется мантия и шляпа волшебника.
 spellbook-cluwne-name = Проклятие Клувня
@@ -42,9 +42,9 @@ spellbook-wand-locker-name = Волшебная палочка шкафчика
 spellbook-hammer-mjollnir-name = Мьёлльнир
 spellbook-hammer-mjollnir-description = В ваших руках мощь THUNDER. Отправляйте врагов в полет с помощью мощного взмаха или броска прямо в них!
 spellbook-hammer-singularity-name = Молот сингулярности
-spellbook-hammer-singularity-description = Вы когда-нибудь задумывались, каково это - быть сингулярностью? Размахивайте этим молотком, чтобы нарисовать свое окружение, даже если вы промахнетесь!
+spellbook-hammer-singularity-description = Вы когда-нибудь задумывались, каково это - быть сингулярностью? Размахивайте этим молотком, чтобы нарисовать своё окружение, даже если вы промахнётесь!
 spellbook-staff-animation-name = Персонал анимации
-spellbook-staff-animation-description = Оживите неодушевленные предметы!
+spellbook-staff-animation-description = Оживите неодушевлённые предметы!
 spellbook-wand-locker-description = Стреляйте в своих врагов проклятыми шкафчиками и запирайте их!
 
 # Events

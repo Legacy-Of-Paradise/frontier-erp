@@ -1,8 +1,8 @@
 ## UI
 
 adventure-list-start = [color=gold]Галактический банк NanoTrasen[/color]
-adventure-list-profit = общий счет дохода [color=#d19e5e]{ $amount }[/color].
-adventure-list-loss = общие счет расходов [color=#659cc9]{ $amount }[/color].
+adventure-list-profit = общий счёт дохода [color=#d19e5e]{ $amount }[/color].
+adventure-list-loss = общие счёт расходов [color=#659cc9]{ $amount }[/color].
 adventure-webhook-list-start = Галактический банк NanoTrasen
 adventure-webhook-list-high = Топ самых доходных:
 adventure-webhook-list-low = Топ самых расходных:
@@ -22,13 +22,13 @@ shipyard-rules-default1 =
     Приобретая судно безопасности, вы соглашаетесь соблюдать космический закон.
 shipyard-rules-default2 =
     Любые действия, совершенные вами или вашим экипажем, нарушающие космический закон.
-    может и приведет к силовым мерам.
+    может и приведёт к силовым мерам.
     Благодарим вас за выбор сил безопасности NanoTrasen.
 shuttle-ftl-proximity = Близлежащие объекты слишком массивны для БСС!
-shuttle-ftl-recharge = БСС двигатели все еще работают!
+shuttle-ftl-recharge = БСС двигатели все ещё работают!
 shuttle-ftl-too-many = Слишком много шаттлов уже в экспедиции!
 changelog-tab-title-Upstream = Апстрим чейнжлог
-multiauth-already-connected = Уже подключен к серверу.
+multiauth-already-connected = Уже подключён к серверу.
 public-transit-shuttle-name = Космическая маршрутка
-public-transit-departure = Отправление в { $destination }. Приблизительное время полета: { $flytime } секунд.
+public-transit-departure = Отправление в { $destination }. Приблизительное время полёта: { $flytime } секунд.
 public-transit-arrival = Спасибо что выбираете общественный транспорт от NanoTrasen. { $destination } отправление через { $waittime } секунд.

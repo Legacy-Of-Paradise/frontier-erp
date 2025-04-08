@@ -1,5 +1,5 @@
 ent-ClothingBackpackDuffelMercenary = вещмешок наёмника
-    .desc = Вещь, побывавшая во многих опасных местах, надежная боевая сумка.
+    .desc = Вещь, побывавшая во многих опасных местах, надёжная боевая сумка.
 ent-ClothingBackpackDuffelArcadia = вещмешок Аркадии
     .desc = Вещмешок, что производит корпорация "Аркадия".
 ent-ClothingBackpackDuffelPilot = вещмешок пилота

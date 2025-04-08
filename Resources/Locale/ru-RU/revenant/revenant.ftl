@@ -1,8 +1,8 @@
 revenant-essence-amount = У вас [color=plum]{ $current } эссенции[/color]. Ваш максимум — [color=plum]{ $max } эссенции[/color].
 revenant-max-essence-increased = Максимальный запас эссенции увеличился!
 revenant-not-enough-essence = Недостаточно эссенции!
-revenant-in-solid = Вы не можете использовать эту способность, пока находитесь внутри твердого объекта.
-revenant-soul-too-powerful = Эта душа слишком сильна, чтобы ее собрать!
+revenant-in-solid = Вы не можете использовать эту способность, пока находитесь внутри твёрдого объекта.
+revenant-soul-too-powerful = Эта душа слишком сильна, чтобы её собрать!
 revenant-soul-harvested = Эта душа уже собрана!
 revenant-soul-searching = Вы ищете душу { $target }.
 revenant-soul-yield-high = { CAPITALIZE($target) } имеет душу выше среднего!

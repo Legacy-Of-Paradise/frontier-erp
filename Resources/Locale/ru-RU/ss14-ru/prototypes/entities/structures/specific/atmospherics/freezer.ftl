@@ -8,5 +8,5 @@ ent-GasVentPumpFreezer = { ent-AirSensorFreezerBase }
 ent-GasVentScrubberFreezer = { ent-AirSensorFreezerBase }
     .desc = { ent-AirSensorFreezerBase.desc }
 ent-AirAlarmFreezer = { ent-AirAlarm }
-    .suffix = Сенсор холодной атмосферы, автоматический режим отключен
+    .suffix = Сенсор холодной атмосферы, автоматический режим отключён
     .desc = { ent-AirAlarm.desc }

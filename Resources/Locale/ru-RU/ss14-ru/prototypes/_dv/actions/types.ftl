@@ -1,4 +1,4 @@
-ent-ActionOpenMouthStorage = Открыть хранилище щек
+ent-ActionOpenMouthStorage = Открыть хранилище щёк
     .desc = Позволяет вам прятать предметы за своими щеками.
 ent-ActionToggleSneakMode = Активировать ползанье
     .desc = Проползайте под столами.

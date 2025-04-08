@@ -4,5 +4,5 @@ role-type-team-antagonist-name = Командный антагонист
 role-type-free-agent-name = Свободный агент
 role-type-familiar-name = Фамильяр
 role-type-silicon-name = Синтетик
-role-type-silicon-antagonist-name = Измененный синтетик
+role-type-silicon-antagonist-name = Изменённый синтетик
 role-type-update-message = Ваша роль: [color = { $color }]{ $role }[/color]

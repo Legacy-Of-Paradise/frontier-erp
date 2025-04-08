@@ -6,7 +6,7 @@ lathe-recipe-ToolboxEmergencyNF-name = инструментный ящик (эк
 # оружейный ящикs
 lathe-recipe-WeaponCaseShort-name = оружейный ящик (маленький, пустой)
 lathe-recipe-WeaponCaseLong-name = оружейный ящик (пустой)
-lathe-recipe-WeaponCaseHeavy-name = оружейный ящик (тяжелый, пустой)
+lathe-recipe-WeaponCaseHeavy-name = оружейный ящик (тяжёлый, пустой)
 lathe-recipe-WeaponCaseShortAmmo-name = патронный ящик (маленький, пустой)
 lathe-recipe-WeaponCaseShortExplosives-name = ящик со взрывчаткой (маленький, пустой)
 # Cardboard

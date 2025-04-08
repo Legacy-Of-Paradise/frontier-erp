@@ -1,5 +1,5 @@
 ent-HoloprojectorNfsd = ДШНГ голографический проектор
-    .desc = Создает прочный, но хрупкий голографический барьер.
+    .desc = Создаёт прочный, но хрупкий голографический барьер.
 ent-HoloprojectorNfsdEmpty = { ent-HoloprojectorSecurityEmpty }
     .suffix = Пустой
     .desc = { ent-HoloprojectorSecurityEmpty.desc }

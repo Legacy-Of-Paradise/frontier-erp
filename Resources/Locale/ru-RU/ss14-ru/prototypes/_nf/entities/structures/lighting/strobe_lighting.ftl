@@ -1,5 +1,5 @@
 ent-PoweredStrobeIncandescent = { ent-PoweredStrobeLightEmpty }
-    .suffix = Раскаленный
+    .suffix = Раскалённый
     .desc = { ent-PoweredStrobeLightEmpty.desc }
 ent-PoweredStrobeLed = { ent-PoweredStrobeLightEmpty }
     .suffix = Светодиодный

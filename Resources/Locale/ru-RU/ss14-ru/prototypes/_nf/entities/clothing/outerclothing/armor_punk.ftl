@@ -7,6 +7,6 @@ ent-ClothingOuterArmorPunkRed = бронежилет бандита
 ent-ClothingOuterArmorPunkRandomized = бронежилет бандита
     .suffix = Случайный облик
     .desc = { ent-ClothingOuterArmorPunkGreen.desc }
-ent-ClothingOuterArmorElitePunkRandomized = тяжелая броня бандита
+ent-ClothingOuterArmorElitePunkRandomized = тяжёлая броня бандита
     .suffix = Случайный облик
     .desc = { ent-ClothingOuterStorageBase.desc }

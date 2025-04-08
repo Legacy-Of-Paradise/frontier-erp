@@ -1,7 +1,7 @@
 names-chicken-dataset-1 = Мадам Клукингтон
 names-chicken-dataset-2 = Генриетта
 names-chicken-dataset-3 = Наггет
-names-chicken-dataset-4 = Перышко
+names-chicken-dataset-4 = Пёрышко
 names-chicken-dataset-5 = Нут
 names-chicken-dataset-6 = Клювач
 names-chicken-dataset-7 = Яичко
@@ -19,7 +19,7 @@ names-chicken-dataset-18 = Дотти
 names-chicken-dataset-19 = Глазок
 names-chicken-dataset-20 = Попкорн
 names-chicken-dataset-21 = Пудинг
-names-chicken-dataset-22 = Цыпленок
+names-chicken-dataset-22 = Цыплёнок
 names-chicken-dataset-23 = Печенька
 names-chicken-dataset-24 = Солнышко
 names-chicken-dataset-25 = Вафля

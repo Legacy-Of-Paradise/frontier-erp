@@ -3,10 +3,10 @@ comp-kitchen-spike-deny-butcher = { CAPITALIZE($victim) } не может быт
 comp-kitchen-spike-deny-butcher-knife = { CAPITALIZE($victim) } не может быть разделан на { $this }, используйте нож для разделки.
 comp-kitchen-spike-deny-not-dead =
     { CAPITALIZE($victim) } не может быть разделан. { CAPITALIZE(SUBJECT($victim)) } { GENDER($victim) ->
-        [male] еще жив
-        [female] еще жива
-        [epicene] еще живы
-       *[neuter] еще живо
+        [male] ещё жив
+        [female] ещё жива
+        [epicene] ещё живы
+       *[neuter] ещё живо
     }!
 comp-kitchen-spike-begin-hook-victim = { CAPITALIZE($user) } начинает насаживать вас на { $this }!
 comp-kitchen-spike-begin-hook-self = Вы начинаете насаживать себя на { $this }!

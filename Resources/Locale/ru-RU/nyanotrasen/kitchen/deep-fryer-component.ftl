@@ -7,7 +7,7 @@ deep-fryer-oil-no-slag = Шлак не требуется сливать.
 deep-fryer-storage-full = Все корзины заполнены.
 deep-fryer-storage-no-fit = { CAPITALIZE(THE($item)) } не поместится в корзину.
 deep-fryer-interact-using-not-item = Похоже, это не предмет.
-deep-fryer-need-liquid-container-in-hand = Сначала возьмите в руки емкость с жидкостью, например, мензурку или миску.
+deep-fryer-need-liquid-container-in-hand = Сначала возьмите в руки ёмкость с жидкостью, например, мензурку или миску.
 deep-fryer-thrown-missed = Промах!
 deep-fryer-thrown-hit-oil = Хлоп!
 deep-fryer-thrown-hit-oil-low = Бульк!
@@ -22,9 +22,9 @@ deep-fryer-label-oil-purity = Чистота Масла
 deep-fryer-button-insert-item = Поместить предмет
 deep-fryer-button-insert-item-tooltip = Поместите предмет в ваших руках в одну из корзин фритюрницы.
 deep-fryer-button-scoop-vat = Зачерпнуть жидкость
-deep-fryer-button-scoop-vat-tooltip = Зачерпните немного жидкости из чана с маслом. Для этого вам понадобится емкость.
+deep-fryer-button-scoop-vat-tooltip = Зачерпните немного жидкости из чана с маслом. Для этого вам понадобится ёмкость.
 deep-fryer-button-clear-slag = Очистить фритюрницу от шлака
-deep-fryer-button-clear-slag-tooltip = Очистите фритюрницу от отходов. Для этого вам понадобится емкость для жидкости.
+deep-fryer-button-clear-slag-tooltip = Очистите фритюрницу от отходов. Для этого вам понадобится ёмкость для жидкости.
 deep-fryer-button-remove-all-items = Убрать все предметы
 deep-fryer-button-remove-all-items-tooltip = Выньте из корзины фритюрницы сразу все предметы.
 
@@ -40,7 +40,7 @@ deep-fried-burned-item-examine = Он почернел до угольков.
 deep-fried-spooky-item = жуткий { $entity }
 deep-fried-spooky-item-examine = Оно пропитано маслом и полупрозрачно.
 deep-fried-spectral-item = спектральный { $entity }
-deep-fried-spectral-item-examine = Он маслянистый, прозрачный и неестественно легкий.
+deep-fried-spectral-item-examine = Он маслянистый, прозрачный и неестественно лёгкий.
 
 # Set reuses burned item from above
 # End Frontier

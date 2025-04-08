@@ -14,7 +14,7 @@ assembler-bound-user-interface-cook-time-label = ВРЕМЕНИ ОСТАЛОСЬ
 ## UI
 
 microwave-menu-range-title = Электроплита
-microwave-menu-range-footer-flavor-left = NanoTrasen не несет ответственности за ущерб, возникший в результате пожара на кухне.
+microwave-menu-range-footer-flavor-left = NanoTrasen не несёт ответственности за ущерб, возникший в результате пожара на кухне.
 assembler-menu-title = Едамат
 assembler-menu-medical-title = Медсборник
 assembler-menu-start-button = Сборка

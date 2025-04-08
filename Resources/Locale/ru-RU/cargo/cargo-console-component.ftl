@@ -21,7 +21,7 @@ cargo-console-menu-populate-orders-cargo-order-row-product-name-text = { $produc
 cargo-console-menu-cargo-order-row-approve-button = Одобрить
 cargo-console-menu-cargo-order-row-cancel-button = Отменить
 # Orders
-cargo-console-order-not-allowed = Доступ запрещен
+cargo-console-order-not-allowed = Доступ запрещён
 cargo-console-station-not-found = Нет доступной станции
 cargo-console-invalid-product = Неверный ID продукта
 cargo-console-too-many = Слишком много одобренных заказов

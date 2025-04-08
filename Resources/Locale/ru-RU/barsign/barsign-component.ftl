@@ -67,12 +67,12 @@ barsign-prototype-description-maid-cafe = С возвращением, хозя�
 ## Maltese Falcon
 
 barsign-prototype-name-maltese-falcon = Мальтийский сокол
-barsign-prototype-description-maltese-falcon = Сыграй еще раз, Сэм.
+barsign-prototype-description-maltese-falcon = Сыграй ещё раз, Сэм.
 
 ## The Sun
 
 barsign-prototype-name-the-sun = Солнце
-barsign-prototype-description-the-sun = Иронично яркая для такого темного бара.
+barsign-prototype-description-the-sun = Иронично яркая для такого тёмного бара.
 
 ## The Birdcage
 
@@ -101,13 +101,13 @@ barsign-prototype-description-the-lightbulb = Кафе, популярное с�
 
 ## The Loose Goose
 
-barsign-prototype-name-goose = Веселый гусь
+barsign-prototype-name-goose = Весёлый гусь
 barsign-prototype-description-goose = Пей до рвоты и/или нарушай законы реальности!
 
 ## The Engine Change
 
 barsign-prototype-name-enginechange = Замена двигателя
-barsign-prototype-description-enginechange = Все еще ожидаем.
+barsign-prototype-description-enginechange = Все ещё ожидаем.
 
 ## 4 The Emprah
 
