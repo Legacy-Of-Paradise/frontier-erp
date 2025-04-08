@@ -1,112 +1,112 @@
 <Document>
-  # NIGHTLIGHT-CLASS SERVICE SHUTTLE
-  <Box>
+  # СЛУЖЕБНЫЙ ШАТТЛ КЛАССА "НОЧНОЙ СВЕТ"
+  <Box>
 
-  <GuideEntityEmbed Entity="NFPosterContrabandFsbLogo" Caption="Research"/>
-  <GuideEntityEmbed Entity="Biogenerator" Caption="Recycle"/>
-  <GuideEntityEmbed Entity="NFPosterContrabandFsbNightlight" Caption="Entertain"/>
+  <GuideEntityEmbed Entity="NFPosterContrabandFsbLogo" Caption="Исследования"/>
+  <GuideEntityEmbed Entity="Biogenerator" Caption="Переработка"/>
+  <GuideEntityEmbed Entity="NFPosterContrabandFsbNightlight" Caption="Развлечения"/>
 
-  </Box>  
-  <Box>
-  <GuideEntityEmbed Entity="ShuttleMapNightlight" Caption=""/>
-  </Box>
-  [color=#a4885c]Ship Size:[/color] Medium
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="ShuttleMapNightlight" Caption=""/>
+  </Box>
+  [color=#a4885c]Размер корабля:[/color] Средний
 
-  [color=#a4885c]Recommended Crew:[/color] 1-4
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 1-4
 
-  [color=#a4885c]Power Gen Type:[/color] Uranium
+  [color=#a4885c]Тип электроснабжения:[/color] Урановый
 
-  [color=#a4885c]Base Power Draw:[/color] 25kw
+  [color=#a4885c]Базовое энергопотребление:[/color] 25 кВт
 
-  [color=#a4885c]Expeditions:[/color] None
+  [color=#a4885c]Экспедиции:[/color] Нет
 
-  [color=#a4885c]IFF Console:[/color] None
+  [color=#a4885c]Консоль IFF:[/color] Нет
 
-  "The Nightlight is the Far Star Biotech's flagship biomass biorecombination research vessel. Providing top of the line hospitality and nutritional preperation accomidations for Nanotrasen standard xenotypes; the Nightlight should provide any research teams investigating new strains of recombinant nutrition with a distraction free crop of eager bioforms."
+  "Nightlight - это флагманский исследовательский корабль Far Star Biotech для биорекомбинации биомассы. Предлагая первоклассное гостеприимство и условия для приготовления пищи для стандартных рабочих Nanotrasen; Nightlight должен обеспечить любые исследовательские группы, изучающие новые штаммы рекомбинантного питания, беспрепятственным потоком готовых биоформ."
 
-  # Ship Functions
+  # Функции корабля
 
-  <Box>
-    <GuideEntityEmbed Entity="ButtonFrameCautionSecurity" Caption="Bolt Exterior Airlocks"/>
-    <GuideEntityEmbed Entity="ButtonFrameCaution" Caption="Power Down Thrusters"/>
-    <GuideEntityEmbed Entity="ButtonFrameGrey" Caption="Toggle Shutters"/>
-    <GuideEntityEmbed Entity="ButtonFrameJanitor" Caption="Operate Bar Lighting"/>
-  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ButtonFrameCautionSecurity" Caption="Блокировка внешних шлюзов"/>
+    <GuideEntityEmbed Entity="ButtonFrameCaution" Caption="Отключить двигатели"/>
+    <GuideEntityEmbed Entity="ButtonFrameGrey" Caption="Переключить ставни"/>
+    <GuideEntityEmbed Entity="ButtonFrameJanitor" Caption="Управление освещением"/>
+  </Box>
 
-  # Piloting
-  <Box>
-    <GuideEntityEmbed Entity="ComputerShuttle"/>
-  </Box>
-  After clicking the shuttle console, you should see a radar view of the shuttle. Here are the steps for piloting the shuttle back and forth:
+  # Пилотирование
+  <Box>
+    <GuideEntityEmbed Entity="ComputerShuttle"/>
+  </Box>
+  После нажатия на консоль шаттла вы увидите радарный вид шаттла. Вот шаги для пилотирования шаттла вперед и назад:
 
-  - First, disconnect any airlocks that are connected to the dock.
-  - Then, you actually get to pilot the shuttle. The controls are fairly simple, with [color=#028ed9]"W"[/color] and [color=#028ed9]"S"[/color] being forward and backward, [color=#028ed9]"A"[/color] and [color=#028ed9]"D"[/color] being left and right, and [color=#028ed9]"Q"[/color] and [color=#028ed9]"E"[/color] being rotating left and right; and [color=#028ed9]"spacebar"[/color] being the brake and moving precicely by holding the [color=#028ed9]"spacebar"[/color] while doing other inputs.
-  
-  # Hiring crew
-  <Box>
-    <GuideEntityEmbed Entity="ComputerStationRecords"/>
-    <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
-    <GuideEntityEmbed Entity="IntercomCommon"/>
-  </Box>
-  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will. There are two ways you as a Captain can go about hiring crew: you can either use the [color=#a4885c]station records computer[/color] on your ship to open crew slots (jobs available vary from ship to ship) or invite through in-game communications other players to your crew.
-  
-  # PREFLIGHT CHECKLIST
-  
-  ## 1. Power supply
-  
-  ## 1.1. Battery units
-  <Box>
-  <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="APCBasic"/>
-  </Box>
-  
-    - Check if the APC unit's Main Breaker is toggled on.
-    - Check the APC unit's current Load* (W).
-  
-  ## 1.2. S.U.P.E.R.P.A.C.M.A.N. generator unit
-  <Box>
-    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
-    <GuideEntityEmbed Entity="SheetUranium"/>
-    <GuideEntityEmbed Entity="SignRadiationMed"/>
-  </Box>
-  
-  - Check if the S.U.P.E.R.P.A.C.M.A.N. generator unit is anchored to the floor.
-  - Check if the S.U.P.E.R.P.A.C.M.A.N. generator unit has fuel. For extended flights make sure that you have enough fuel stockpiled to sustain prolonged power generation during flight.
-  - Check if the S.U.P.E.R.P.A.C.M.A.N. generator unit is set to HV output.
-  - Set Target Power for 30 [bold]k[/bold]W.
-  - Start the S.U.P.E.R.P.A.C.M.A.N. generator unit.
-  - Close radiation shielding.
+  - Сначала отсоедините все шлюзы, подключенные к док-станции.
+  - Затем вы сможете непосредственно пилотировать шаттл. Управление довольно простое: [color=#028ed9]"W"[/color] и [color=#028ed9]"S"[/color] - вперед и назад, [color=#028ed9]"A"[/color] и [color=#028ed9]"D"[/color] - влево и вправо, а [color=#028ed9]"Q"[/color] и [color=#028ed9]"E"[/color] - вращение влево и вправо; [color=#028ed9]"пробел"[/color] - тормоз и точное перемещение при удержании [color=#028ed9]"пробела"[/color] во время других действий.
 
-  ## 2. Atmospherics
+  # Набор экипажа
+  <Box>
+    <GuideEntityEmbed Entity="ComputerStationRecords"/>
+    <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
+    <GuideEntityEmbed Entity="IntercomCommon"/>
+  </Box>
+  Как капитан корабля Nanotrasen, вы имеете право по своему усмотрению нанимать, увольнять, понижать или повышать в должности членов экипажа. Есть два способа набора экипажа для капитана: вы можете либо использовать [color=#a4885c]компьютер с записями станции[/color] на своем корабле, чтобы открыть вакансии (доступные должности зависят от корабля), либо пригласить других игроков в свою команду через внутриигровые средства связи.
 
-  ## 2.1. Distribution Loop
-  <Box>
-  <GuideEntityEmbed Entity="AirCanister"/>
-  <GuideEntityEmbed Entity="GasPort"/>
-  <GuideEntityEmbed Entity="GasPressurePump"/>
-  </Box>
-  
-  - Check if the air canister is anchored to connector port.
-  - Check if the distribution pump is set to normal pressure (101kPa).
-  - Enable the distribution pump.
-  
-  ## 2.2. Waste Loop
-  <Box>
-  <GuideEntityEmbed Entity="GasPressurePump"/>
-  <GuideEntityEmbed Entity="AirAlarm"/>
-  </Box>
-    
-  - Enable waste loop pump.
-  - Disable Auto Mode on the Air Alarm in the Engine Room.
-  - Set the Air Alarm in the Engine Room to Filtering (Wide).
-  
-  ## 3. Other checks
-  <Box>
-  <GuideEntityEmbed Entity="Gyroscope"/>
-  <GuideEntityEmbed Entity="GravityGeneratorMini"/>
-  </Box>
-  
-  - Check if the gyroscope is anchored, powered, and enabled.
-  - Check if the mini gravity generator is anchored, powered, and enabled.
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА
+
+  ## 1. Электропитание
+
+  ## 1.1. Аккумуляторные блоки
+  <Box>
+  <GuideEntityEmbed Entity="SubstationBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+
+    - Проверьте, включен ли главный выключатель блока ЛКП.
+    - Проверьте текущую нагрузку* (Вт) блока ЛКП.
+
+  ## 1.2. Генераторная установка С.У.П.Е.Р.П.А.К.М.А.Н.
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
+    <GuideEntityEmbed Entity="SheetUranium"/>
+    <GuideEntityEmbed Entity="SignRadiationMed"/>
+  </Box>
+
+  - Проверьте, закреплена ли генераторная установка С.У.П.Е.Р.П.А.К.М.А.Н. на полу.
+  - Проверьте наличие топлива в генераторной установке С.У.П.Е.Р.П.А.К.М.А.Н.. Для длительных полетов убедитесь, что у вас достаточно топлива для обеспечения продолжительной выработки энергии во время полета.
+  - Проверьте, установлен ли выход HV на генераторной установке С.У.П.Е.Р.П.А.К.М.А.Н..
+  - Установите целевую мощность 30 [bold]кВт[/bold].
+  - Запустите генераторную установку С.У.П.Е.Р.П.А.К.М.А.Н..
+  - Закройте радиационную защиту.
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительный контур
+  <Box>
+  <GuideEntityEmbed Entity="AirCanister"/>
+  <GuideEntityEmbed Entity="GasPort"/>
+  <GuideEntityEmbed Entity="GasPressurePump"/>
+  </Box>
+
+  - Проверьте, закреплен ли баллон с воздухом на порту подключения.
+  - Проверьте, установлено ли нормальное давление (101 кПа) на распределительном насосе.
+  - Включите распределительный насос.
+
+  ## 2.2. Контур отходов
+  <Box>
+  <GuideEntityEmbed Entity="GasPressurePump"/>
+  <GuideEntityEmbed Entity="AirAlarm"/>
+  </Box>
+
+  - Включите насос контура отходов.
+  - Отключите автоматический режим воздушной тревоги в машинном отделении.
+  - Установите для воздушной тревоги в машинном отделении режим фильтрации (широкий).
+
+  ## 3. Прочие проверки
+  <Box>
+  <GuideEntityEmbed Entity="Gyroscope"/>
+  <GuideEntityEmbed Entity="GravityGeneratorMini"/>
+  </Box>
+
+  - Проверьте, закреплен ли, запитан и включен гироскоп.
+  - Проверьте, закреплен ли, запитан и включен мини-генератор гравитации.
 
 </Document>

@@ -1,1 +1,14 @@
-
+ent-NFBreakerFlip = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-NFFalseAlarm = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-NFGasLeak = { ent-BaseStationEventShortDelay }
+    .desc = { ent-BaseStationEventShortDelay.desc }
+ent-NFPowerGridCheck = { ent-BaseStationEventShortDelay }
+    .desc = { ent-BaseStationEventShortDelay.desc }
+ent-NFSolarFlare = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-NFVentClog = { ent-BaseStationEventLongDelay }
+    .desc = { ent-BaseStationEventLongDelay.desc }
+ent-NFIonStorm = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }

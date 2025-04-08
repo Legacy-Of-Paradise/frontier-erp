@@ -1,0 +1,13 @@
+ent-SpaceCashExpedition = кредиты
+    .desc = Портфель, набитый купюрами, только что отчеканенными на цифровом монетном дворе. Пахнет успехом и неуплаченными налогами.
+    .suffix = Деньги
+ent-SpaceCashExpeditionT1 = кредиты (5,000)
+    .desc = { ent-SpaceCashExpedition.desc }
+ent-SpaceCashExpeditionT2 = кредиты (10,000)
+    .desc = { ent-SpaceCashExpedition.desc }
+ent-SpaceCashExpeditionT3 = кредиты (20,000)
+    .desc = { ent-SpaceCashExpedition.desc }
+ent-SpaceCashExpeditionT4 = кредиты (40,000)
+    .desc = { ent-SpaceCashExpedition.desc }
+ent-SpaceCashExpeditionT5 = кредиты (70,000)
+    .desc = { ent-SpaceCashExpedition.desc }

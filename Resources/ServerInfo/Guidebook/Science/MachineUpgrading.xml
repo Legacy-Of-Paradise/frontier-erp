@@ -1,37 +1,37 @@
 <Document>
-# Machine Upgrading
+# Модернизация Оборудования
 
-Machines help the station run smoothly, and as a scientist, you can help them run even better!
+Оборудование помогает станции работать бесперебойно, и как ученый, вы можете помочь ему работать еще лучше!
 
-## Parts
-<Box>Stock Parts:</Box>
+## Детали
+<Box>Стандартные Детали:</Box>
 <Box>
 <GuideEntityEmbed Entity="CapacitorStockPart"/>
 <GuideEntityEmbed Entity="MatterBinStockPart"/>
 <GuideEntityEmbed Entity="MicroManipulatorStockPart"/>
 </Box>
-You can examine each machine part to see both the type and the rating, which range from 1 to 4.
+Вы можете изучить каждую деталь оборудования, чтобы увидеть ее тип и рейтинг, который варьируется от 1 до 4.
 
-Parts of higher levels can be researched as well as found through artifacts or salvage.
+Детали более высоких уровней могут быть исследованы, а также найдены в артефактах или при утилизации.
 <Box>
 <GuideEntityEmbed Entity="AdvancedMatterBinStockPart"/>
 <GuideEntityEmbed Entity="SuperMatterBinStockPart"/>
 <GuideEntityEmbed Entity="BluespaceMatterBinStockPart"/>
 </Box>
 
-## Upgrading
-To know if a machine can be upgraded, you can examine it and check for the [color=#a4885c]lightning bolt[/color] icon in the lower right corner. Clicking on it will allow you to see what kinds of upgrades the machine has.
+## Модернизация
+Чтобы узнать, можно ли модернизировать оборудование, вы можете изучить его и проверить наличие значка [color=#a4885c]молнии[/color] в правом нижнем углу. Нажатие на него позволит вам увидеть, какие виды улучшений доступны для этого оборудования.
 
-To check what parts a machine needs, you can examine its board. Try it here:
+Чтобы проверить, какие детали необходимы оборудованию, вы можете изучить его плату. Попробуйте здесь:
 <Box Orientation="Vertical">
 <GuideEntityEmbed Entity="ProtolatheMachineCircuitboard"/>
 <GuideEntityEmbed Entity="CloningPodMachineCircuitboard"/>
 <GuideEntityEmbed Entity="ThermomachineFreezerMachineCircuitBoard"/>
 </Box>
-You can use any rating part for any part requirement. Using higher rated parts will increase how effective the machine is.
+Вы можете использовать деталь любого рейтинга для любого требования к детали. Использование деталей более высокого рейтинга повысит эффективность оборудования.
 
-If you want to upgrade an existing machine, simply deconstruct it with a screwdriver and crowbar, and replace the existing parts with parts of a higher level.
+Если вы хотите модернизировать существующее оборудование, просто разберите его с помощью отвертки и монтировки и замените существующие детали деталями более высокого уровня.
 
-You can also quickly upgrade machines by using an RPED, loading it with machine parts, and then clicking on a machine. It will quickly be upgraded with whatever parts were inserted.
+Вы также можете быстро модернизировать оборудование с помощью РПЕД, загрузив в него детали оборудования, а затем щелкнув по оборудованию. Оно будет быстро модернизировано с использованием вставленных деталей.
 <GuideEntityEmbed Entity="RPED"/>
 </Document>

@@ -1,1 +1,12 @@
-
+ent-NFBaseStationEventModerateDelay = { ent-BaseGameRule }
+    .desc = { ent-BaseGameRule.desc }
+ent-NFBluespaceCargoCrate = { ent-NFBaseStationEventModerateDelay }
+    .desc = { ent-NFBaseStationEventModerateDelay.desc }
+ent-NFBluespaceMcCargoCrate = { ent-NFBaseStationEventModerateDelay }
+    .desc = { ent-NFBaseStationEventModerateDelay.desc }
+ent-NFBluespaceSyndicateCrate = { ent-NFBaseStationEventModerateDelay }
+    .desc = { ent-NFBaseStationEventModerateDelay.desc }
+ent-NFSmugglingFax = { ent-BaseStationEventShortDelay }
+    .desc = { ent-BaseStationEventShortDelay.desc }
+ent-NFSmugglingFaxBig = { ent-BaseStationEventShortDelay }
+    .desc = { ent-BaseStationEventShortDelay.desc }

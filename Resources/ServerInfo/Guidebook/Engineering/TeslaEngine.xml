@@ -1,105 +1,105 @@
 ﻿<Document>
-  # Tesla Engine
-  The Tesla Engine is a powerful generator that uses a contained ball of lightning to produce energy for the station.
-  <Box>
-    <GuideEntityEmbed Entity="TeslaGenerator"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="TeslaEnergyBall"/>
-  </Box>
+  # Двигатель Тесла
+  Двигатель Тесла - это мощный генератор, который использует управляемый шаровой молнией для производства энергии для станции.
+  <Box>
+    <GuideEntityEmbed Entity="TeslaGenerator"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="TeslaEnergyBall"/>
+  </Box>
 
-  It generates power by harnessing the lightning strikes produced by the lightning ball using Tesla Coils.
+  Он генерирует энергию, используя удары молний, создаваемые шаровой молнией, с помощью Катушек Тесла.
 
-  ## Containment Field
-  The Tesla Engine requires a containment field to prevent the lightning ball from escaping and destroying the station.
+  ## Поле Удержания
+  Двигателю Тесла требуется поле удержания, чтобы предотвратить выход шаровой молнии из-под контроля и разрушение станции.
 
-  It is suggested to use the minimum size containment field for the lightning ball.
-  Larger containment fields allow the lightning ball to reach closer to sensitive equipment and potentially strike it, ignoring placed grounding rods and tesla coils.
+  Рекомендуется использовать поле удержания минимального размера для шаровой молнии.
+  Более крупные поля удержания позволяют шаровой молнии приближаться к чувствительному оборудованию и потенциально поражать его, игнорируя установленные заземляющие стержни и катушки Тесла.
 
-  <Box>
-    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
-    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="ContainmentField" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="TeslaGenerator" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="ContainmentField" Caption="" Margin="0"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
-    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
-  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="TeslaGenerator" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Margin="0"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentField" Caption="" Rotation="90" Margin="0"/>
+    <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption="" Margin="0"/>
+  </Box>
 
-  ## Lightning Strikes
-  When the Tesla Engine is active, the lightning ball will periodically strike objects surrounding it.
+  ## Удары Молний
+  Когда Двигатель Тесла активен, шаровая молния будет периодически поражать окружающие объекты.
 
-  The Tesla prefers to strike some objects more than others, such as Tesla Coils and Grounding Rods.
+  Тесла предпочитает поражать одни объекты больше, чем другие, например, Катушки Тесла и Заземляющие Стержни.
 
-  If the tesla can't find any Tesla Coils or Grounding Rods to strike first, it will strike almost any station object capable of being powered, such as Substations, APCs, and general machinery.
+  Если тесла не может найти Катушек Тесла или Заземляющих Стержней для поражения в первую очередь, она поразит почти любой объект станции, способный получать питание, такой как Подстанции, АРС и общее оборудование.
 
-  Certain objects aren't struck by the tesla, such as batteries, lights, PDAs, and other handheld items.
+  Некоторые объекты не поражаются теслой, такие как батареи, светильники, КПК и другие портативные предметы.
 
-  It will also strike mobs and crew members, shocking them. Make sure to wear insulated gloves before approaching it.
+  Она также будет поражать мобов и членов экипажа, вызывая у них шок. Обязательно наденьте изолирующие перчатки, прежде чем приближаться к ней.
 
-  ## Tesla Coils
-  Lightning strikes can be harnessed using Tesla Coils, which convert the lightning strikes into power for the station.
+  ## Катушки Тесла
+  Удары молний можно использовать с помощью Катушек Тесла, которые преобразуют удары молний в энергию для станции.
 
-  <Box>
-    <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
-    <GuideEntityEmbed Entity="TeslaCoil"/>
-    <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
-  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
+    <GuideEntityEmbed Entity="TeslaCoil"/>
+    <GuideEntityEmbed Entity="TeslaCoil" Caption=""/>
+  </Box>
 
-  Tesla Coils should be placed around the lightning ball to capture the energy from lightning strikes, as well as to prevent the lightning from striking sensitive equipment further away.
+  Катушки Тесла следует размещать вокруг шаровой молнии, чтобы улавливать энергию от ударов молний, а также предотвращать поражение молнией чувствительного оборудования, расположенного дальше.
 
-  Tesla Coils take damage every time they are struck by lightning, and will eventually break if not repaired.
-  Be sure to monitor the condition of the Tesla Coils and repair them as needed.
+  Катушки Тесла получают повреждения каждый раз, когда в них попадает молния, и со временем сломаются, если их не ремонтировать.
+  Обязательно следите за состоянием Катушек Тесла и ремонтируйте их по мере необходимости.
 
-  When lightning strikes Tesla Coils, they fill an internal battery, which is rapidly discharged to the grid.
-  It will discharge this power even if there is no consumer to take it, so it's a good idea to have an SMES nearby to store the power and discharge it smoothly.
+  Когда молния поражает Катушки Тесла, они заряжают внутреннюю батарею, которая быстро разряжается в сеть.
+  Она будет разряжать эту энергию, даже если нет потребителя, поэтому рекомендуется иметь поблизости СМЭС для хранения энергии и ее плавной разрядки.
 
-  ## Grounding Rods
-  Grounding Rods help protect sensitive equipment from being struck and prevent a loosed tesla (tesloose).
+  ## Заземляющие Стержни
+  Заземляющие Стержни помогают защитить чувствительное оборудование от ударов молний и предотвратить выход теслы из-под контроля (теслосвобода).
 
-  <Box>
-    <Box>
-      <GuideEntityEmbed Entity="TeslaGroundingRod" Caption=""/>
-    </Box>
-    <Box>
-      <GuideEntityEmbed Entity="TeslaGroundingRod"/>
-    </Box>
-    <Box>
-      <GuideEntityEmbed Entity="TeslaGroundingRod" Caption=""/>
-    </Box>
-  </Box>
+  <Box>
+    <Box>
+      <GuideEntityEmbed Entity="TeslaGroundingRod" Caption=""/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="TeslaGroundingRod"/>
+    </Box>
+    <Box>
+      <GuideEntityEmbed Entity="TeslaGroundingRod" Caption=""/>
+    </Box>
+  </Box>
 
-  Grounding rods do not take damage from lightning strikes.
-  This makes them beneficial for forming a saftey net of grounding rods to rely on in case the tesla coils are damaged or destroyed.
+  Заземляющие стержни не получают повреждений от ударов молний.
+  Это делает их полезными для создания защитной сети заземляющих стержней, на которую можно положиться в случае повреждения или уничтожения катушек Тесла.
 
-  Engineers should use grounding rods to protect sensitive equipment from lightning strikes, such as the Emitters powering the containment field generators.
+  Инженерам следует использовать заземляющие стержни для защиты чувствительного оборудования от ударов молний, такого как Эмиттеры, питающие генераторы поля удержания.
 
-  ## Loosed Tesla (Tesloose)
-  If the lightning ball escapes the containment field, it is referred to as a loosed tesla, or tesloose.
+  ## Вырвавшаяся Тесла (Теслосвобода)
+  Если шаровая молния вырывается из поля удержания, ее называют вырвавшейся теслой, или теслосвободой.
 
-  An escaped tesla will randomly walk around the station, attracted to objects that can be powered, such as APCs, Substations, and machinery.
-  It will also gladly strike crew members and mobs, shocking them.
+  Вырвавшаяся тесла будет случайным образом перемещаться по станции, привлеченная объектами, которые могут получать питание, такими как АРС, Подстанции и оборудование.
+  Она также с удовольствием поразит членов экипажа и мобов, вызывая у них шок.
 
-  Wearing insulated gloves will protect you from being shocked by the tesla, but it won't prevent the tesla from striking you.
+  Ношение изолирующих перчаток защитит вас от поражения электрическим током от теслы, но не предотвратит ее удара.
 
-  <Box>
-    <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
-  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
+  </Box>
 
-  The tesla can be destroyed by firing antiparticles at it using a Portable Particle Decelerator, however, the Tesla is much more powerful than the Singularity, and it will take a lot of antiparticles to destroy it.
-  A group of people using decelerators is recommended to destroy a tesloose.
+  Теслу можно уничтожить, выстрелив в нее античастицами с помощью Портативного Замедлителя Частиц, однако Тесла гораздо мощнее Сингулярности, и для ее уничтожения потребуется много античастиц.
+  Для уничтожения вырвавшейся теслы рекомендуется группа людей, использующих замедлители.
 
-  Portable Particle Decelerators can be either researched and made by the Research Department, or they can be bought from Cargo.
+  Портативные Замедлители Частиц могут быть либо исследованы и изготовлены Научным Отделом, либо куплены в Грузовом Отделе.
 
-  <Box>
-    <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>
-  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>
+  </Box>
 
 
 </Document>

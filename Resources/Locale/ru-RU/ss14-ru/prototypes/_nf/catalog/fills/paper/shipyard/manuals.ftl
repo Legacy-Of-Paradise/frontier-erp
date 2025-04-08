@@ -26,5 +26,7 @@ ent-ShipyardPioneerInfo = чэклист Пионера
     .desc = { ent-ShipyardInfoBase.desc }
 ent-ShipyardSearchlightInfo = чэклист Прожектора
     .desc = { ent-ShipyardInfoBase.desc }
+ent-ShipyardNightlightInfo = чэклист Ночника
+    .desc = { ent-ShipyardInfoBase.desc }
 ent-ShipyardCharonInfo = чэклист Харона
     .desc = { ent-ShipyardInfoBase.desc }

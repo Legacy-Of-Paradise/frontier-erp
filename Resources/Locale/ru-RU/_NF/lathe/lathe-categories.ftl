@@ -1,4 +1,4 @@
-lathe-category-evasuits = ЕВА
+lathe-category-evasuits = ВКД
 lathe-category-armor-nf = Броня
 lathe-category-storage-nf = Хранение
 lathe-category-kitchen-nf = Кухня

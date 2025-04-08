@@ -1,21 +1,21 @@
 ﻿<Document>
-  # Portable Scrubber
-  The portable scrubber is a portable machine that can be used to scrub the atmosphere in a room.
-  <Box>
-    <GuideEntityEmbed Entity="PortableScrubber"/>
-  </Box>
+  # Переносной Фильтр
+  Переносной фильтр - это портативное устройство, которое можно использовать для очистки атмосферы в помещении.
+  <Box>
+    <GuideEntityEmbed Entity="PortableScrubber"/>
+  </Box>
 
-  It is invaluable for quickly removing unwanted gasses from a room when regular [textlink="scrubbers" link="AirScrubber"] are working too slow, or when a [textlink="scrubber" link="AirScrubber"] is not present.
+  Он незаменим для быстрого удаления нежелательных газов из помещения, когда обычные [textlink="фильтры" link="AirScrubber"] работают слишком медленно или когда [textlink="фильтр" link="AirScrubber"] отсутствует.
 
-  The portable scrubber requires [textlink="power" link="Power"] through a nearby [textlink="LV cable" link="VoltageNetworks"] to function.
+  Для работы переносному фильтру требуется [textlink="энергия" link="Power] от ближайшего [textlink="низковольтного кабеля" link="VoltageNetworks"].
 
-  The portable scrubber automatically starts removing all non-breathable gasses from the room when it is bolted (wrenched) to the floor.
+  Переносной фильтр автоматически начинает удалять все непригодные для дыхания газы из помещения, когда он прикреплен (затянут гаечным ключом) к полу.
 
-  It will stop scrubbing when unbolted (unwrenched) from the floor or when its internal volume is full. The scrubber has an internal capacity of [color=orange][protodata="PortableScrubber" comp="PortableScrubber" member="Volume"/] liters[/color].
+  Он прекратит очистку, когда будет откреплен (отпущен гаечным ключом) от пола или когда его внутренний объем заполнится. Внутренний объем фильтра составляет [color=orange][protodata="PortableScrubber" comp="PortableScrubber" member="Volume"/] литров[/color].
 
-  ## Dumping Waste and Storage
-  The scrubber's internal volume can be emptied by anchoring (wrenching) onto a [textlink="connector" link="GasCanisters"].
+  ## Сброс Отходов и Хранение
+  Внутренний объем фильтра можно опорожнить, прикрепив (затянув гаечным ключом) его к [textlink="соединителю" link="GasCanisters"].
 
-  Stations commonly have a dedicated emptying point to quickly transfer the waste from the scrubber to the station's wastenet.
+  На станциях обычно имеется специальная точка опорожнения для быстрой перекачки отходов из фильтра в отходную сеть станции.
 
 </Document>

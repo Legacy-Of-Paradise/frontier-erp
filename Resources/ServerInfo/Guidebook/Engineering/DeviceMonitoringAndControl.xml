@@ -1,39 +1,39 @@
 ﻿<Document>
-  # Device Monitoring and Control
-  Given the station-wide nature of the atmospherics network, it is important to have a way to monitor and control devices from a central location.
+  # Мониторинг и Управление Устройствами
+  Учитывая общестанционный характер сети атмосферныйх устройств, важно иметь возможность контролировать и управлять устройствами из центрального места.
 
-  Using these systems, Atmospherics can monitor and control the atmosphere across the entire station.
+  Используя эти системы, отдел Атмосферы может контролировать и управлять атмосферой по всей станции.
 
-  <Box>
-    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
-    <GuideEntityEmbed Entity="AirSensor" Caption=""/>
-  </Box>
-  <Box>
-    ## Air Alarms
-  </Box>
-  <Box>
-    [color=#999999][italic]Wide area monitoring and control over atmos devices[italic][/color]
-  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+    <GuideEntityEmbed Entity="AirSensor" Caption=""/>
+  </Box>
+  <Box>
+    ## Воздушные Тревоги
+  </Box>
+  <Box>
+    [color=#999999][italic]Широкозонный мониторинг и управление устройствами атмосферы[italic][/color]
+  </Box>
 
-  <Box>
-    <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
-  </Box>
-  <Box>
-    ## Atmospheric Alerts Computer
-  </Box>
-  <Box>
-    [color=#999999][italic]Station-wide monitoring of air alarms[italic][/color]
-  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
+  </Box>
+  <Box>
+    ## Компьютер Атмосферных Тревог
+  </Box>
+  <Box>
+    [color=#999999][italic]Общестанционный мониторинг воздушных тревог[italic][/color]
+  </Box>
 
-  <Box>
-    <GuideEntityEmbed Entity="ComputerAtmosMonitoring" Caption=""/>
-    <GuideEntityEmbed Entity="GasPipeSensor" Caption=""/>
-  </Box>
-  <Box>
-    ## Atmospheric Network Monitor
-  </Box>
-  <Box>
-    [color=#999999][italic]Monitoring of whole pipe networks[italic][/color]
-  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ComputerAtmosMonitoring" Caption=""/>
+    <GuideEntityEmbed Entity="GasPipeSensor" Caption=""/>
+  </Box>
+  <Box>
+    ## Монитор Атмосферной Сети
+  </Box>
+  <Box>
+    [color=#999999][italic]Мониторинг целых трубопроводных сетей[italic][/color]
+  </Box>
 
 </Document>
