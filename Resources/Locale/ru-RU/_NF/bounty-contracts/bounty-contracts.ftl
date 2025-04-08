@@ -14,7 +14,16 @@ bounty-contracts-program-name = Охота за головами
 
 ## UI - List contracts
 
+bounty-contracts-announcement-radio-name = Контракты с наградами
+bounty-contracts-announcement-pda-name = Назначена награда
+bounty-contracts-announcement-generic-create = Размещён новый контракт на { $target }. Награда: { $reward }.
+bounty-contracts-announcement-criminal-create = Назначена новая награда за преступника { $target }. Награда: { $reward }.
+bounty-contracts-announcement-vacancy-create = Опубликована новая вакансия для { $target }. Вознаграждение: { $reward }.
+bounty-contracts-announcement-construction-create = Размещён новый строительный контракт на { $target }. Награда: { $reward }.
+bounty-contracts-announcement-service-create = Размещён новый сервисный контракт на { $target }. Награда: { $reward }.
 bounty-contracts-ui-list-no-contracts = Заказ нет...
+bounty-contract-collection-name-command = Коммандование
+bounty-contract-collection-name-public = Публичное
 bounty-contracts-ui-list-no-description = Дополнительное описание не приложено...
 bounty-contracts-ui-list-create = Новый заказ
 bounty-contracts-ui-list-refresh = Обновить

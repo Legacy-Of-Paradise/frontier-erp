@@ -127,7 +127,7 @@ barsign-prototype-description-maltroach = Сквик!
 ## Whiskey Echoes
 
 barsign-prototype-name-whiskeyechoes = Эхо виски
-barsign-prototype-description-whiskeyechoes = Элитный бар для элитных оперативников... Подождите, это же станция «Нанотрасен». Почему эта вывеска в базе данных?
+barsign-prototype-description-whiskeyechoes = Элитный бар для элитных оперативников... Подождите, это же станция NanoTrasen. Почему эта вывеска в базе данных?
 
 ## EmpBarSign
 

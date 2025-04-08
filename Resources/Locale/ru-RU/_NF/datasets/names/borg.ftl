@@ -1,4 +1,4 @@
-﻿names-nf-borg-dataset-1 = Боб
+names-nf-borg-dataset-1 = Боб
 names-nf-borg-dataset-2 = Джо
 names-nf-borg-dataset-3 = Бип
 names-nf-borg-dataset-4 = Бип II

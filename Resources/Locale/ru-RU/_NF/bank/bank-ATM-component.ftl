@@ -1,6 +1,6 @@
 ## UI
 
-bank-atm-menu-title = Галактический банк НаноТрайзен
+bank-atm-menu-title = Галактический банк NanoTrasen
 bank-atm-menu-balance-label = Баланс:{ " " }
 bank-atm-menu-no-bank = Нет банковского аккаунта!
 bank-atm-menu-withdraw-button = Считать
@@ -29,7 +29,7 @@ station-bank-assets-sold = Проданные активы
 # Misc reasons (withdrawal and deposit)
 station-bank-required = (Требуется)
 station-bank-other = Другое
-station-bank-requires-reason = НаноТрайзен требуется информация о транзакции
+station-bank-requires-reason = NanoTrasen требуется информация о транзакции
 station-bank-unauthorized = Несанкционированный доступ!
 bank-atm-menu-cash-error = ОШБ: НЕВЕРНО
 

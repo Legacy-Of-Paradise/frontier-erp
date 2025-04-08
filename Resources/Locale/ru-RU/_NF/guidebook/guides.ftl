@@ -1,6 +1,6 @@
 # Base entries
 guide-entry-nf14 = Фронтир гайд
-guide-entry-bank = Галактический банк НаноТрайзен
+guide-entry-bank = Галактический банк NanoTrasen
 guide-entry-piloting = Пилотирование
 guide-entry-startinggear = Стартовое снаряжение
 guide-entry-hiring = Найм экипажа

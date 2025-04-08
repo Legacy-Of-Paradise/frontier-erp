@@ -8,6 +8,7 @@ loadout-group-contractor-outerclothing = внешняя одежда
 loadout-group-contractor-belt = пояс
 loadout-group-contractor-shoes = обувь
 loadout-group-contractor-neck = шея
+loadout-group-contractor-pda = КПК
 loadout-group-contractor-backpack = рюкзак
 loadout-group-contractor-glasses = очки
 loadout-group-contractor-backpack-items = предметы в рюкзак
@@ -16,4 +17,5 @@ loadout-group-contractor-face = маска
 loadout-group-contractor-encryption-key = ключи шифрования
 loadout-group-contractor-survival-box = аварийный набор
 loadout-group-contractor-cartridge = КПК картриджы
-
+loadout-group-contractor-wallet = кошелёк
+loadout-group-contractor-implanter = импланты

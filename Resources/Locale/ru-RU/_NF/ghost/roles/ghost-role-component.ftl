@@ -10,7 +10,7 @@ ghost-role-information-clippy-description = Верный сотрудник пр
 ghost-role-information-clugg-name = Клагг
 ghost-role-information-clugg-description = Угг! Клагг любит есть мясо. Найдите новый дом за пределами космического камня и устройте большую охоту.
 ghost-role-information-clarpy-name = Кларпи
-ghost-role-information-clarpy-description = Стоять, ваша почта! разыскивается Нанотразеном за преступления против мышей.
+ghost-role-information-clarpy-description = Стоять, ваша почта! разыскивается NanoTrasen за преступления против мышей.
 ghost-role-information-clarpy-rules = Вы [color=red][bold]в команде антагонистов[/bold][/color] вместе со всеми другими пиратами.
 ghost-role-information-cult-cat-name = Кот культа крови
 ghost-role-information-cult-cat-description = От скуки основал Культ Крови.
@@ -48,7 +48,7 @@ ghost-role-information-aberrant-flesh-horror-dungeon-description = Защити�
 ghost-role-information-explorer-captain-dungeon-name = Капитан исследователей
 ghost-role-information-explorer-captain-dungeon-description = Вы попали на этот объект первым! Защитите экспедиционное подземелье и свою добычу вместе с другими исследователями!
 ghost-role-information-punk-boss-dungeon-name = Лидер банды панков
-ghost-role-information-punk-boss-dungeon-description = Защитите экспедиционное подземелье и свою добычу вместе с другими панками от рукоблудов НаноТрайзен!
+ghost-role-information-punk-boss-dungeon-description = Защитите экспедиционное подземелье и свою добычу вместе с другими панками от рукоблудов NanoTrasen!
 ghost-role-information-dungeon-boss-rules =
     Вы [color=red][bold]командный антагонист[/bold][/color] со всеми другими мобами.
     Сражайтесь с игроками в подземелье, защищайте свое подземелье.

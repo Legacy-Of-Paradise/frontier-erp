@@ -1,4 +1,4 @@
-﻿names-dog-dataset-1 = Тоби
+names-dog-dataset-1 = Тоби
 names-dog-dataset-2 = Дейзи
 names-dog-dataset-3 = Чарли
 names-dog-dataset-4 = Белла

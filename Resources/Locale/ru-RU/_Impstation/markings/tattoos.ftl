@@ -1,5 +1,5 @@
-marking-TattooNanotrasenChest-tattoo_nanotrasen_chest = Татуировка на грудь (НаноТрайзен)
-marking-TattooNanotrasenChest = Татуировка на грудь (НаноТрайзен)
+marking-TattooNanotrasenChest-tattoo_nanotrasen_chest = Татуировка на грудь (NanoTrasen)
+marking-TattooNanotrasenChest = Татуировка на грудь (NanoTrasen)
 marking-ArmDollJointsTattooLeft-l_arm_doll = Татуировка "Кукла" (Левая)
 marking-ArmDollJointsTattooLeft = Татуировка "Кукла" (Левая)
 marking-ArmDollJointsTattooRight-r_arm_doll = Татуировка "Кукла" (Правая)

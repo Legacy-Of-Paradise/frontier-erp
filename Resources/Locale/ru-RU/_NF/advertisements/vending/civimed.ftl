@@ -1,6 +1,6 @@
 advertisement-civimed-1 = УТИЛИ, НЕ ПОМИРАЙТЕ!
 advertisement-civimed-2 = Вместо подыхания в космосе купите лучше лекарств!
-advertisement-civimed-3 = КорпорацияНаноТрайзенненесетответственностизавашижизни
+advertisement-civimed-3 = КорпорацияNanoTrasenненесетответственностизавашижизни
 advertisement-civimed-4 = Кошелек или жизнь!
 advertisement-civimed-5 = Девять из десяти трупов не запасаются медикаментами.
 advertisement-civimed-6 = Всегда оставьте место на медикаменты.

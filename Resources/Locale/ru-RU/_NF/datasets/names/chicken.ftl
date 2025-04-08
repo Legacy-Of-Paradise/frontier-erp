@@ -1,4 +1,4 @@
-﻿names-chicken-dataset-1 = Мадам Клукингтон
+names-chicken-dataset-1 = Мадам Клукингтон
 names-chicken-dataset-2 = Генриетта
 names-chicken-dataset-3 = Наггет
 names-chicken-dataset-4 = Перышко

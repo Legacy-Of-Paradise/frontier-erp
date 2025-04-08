@@ -1,4 +1,4 @@
-﻿# использовался этот инструмент: https://www.fantasynamegenerators.com/goblin-wow-names.php
+# использовался этот инструмент: https://www.fantasynamegenerators.com/goblin-wow-names.php
 names-goblin-first-male-dataset-1 = Крирт
 names-goblin-first-male-dataset-2 = Век
 names-goblin-first-male-dataset-3 = Блак

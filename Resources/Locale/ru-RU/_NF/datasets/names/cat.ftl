@@ -1,4 +1,4 @@
-﻿names-cat-clarpy-dataset-1 = Кларпи
+names-cat-clarpy-dataset-1 = Кларпи
 names-cat-clarpy-dataset-2 = Кларррпи
 names-cat-clarpy-dataset-3 = Кларрррпи
 names-cat-clarpy-dataset-4 = Кларррррпи

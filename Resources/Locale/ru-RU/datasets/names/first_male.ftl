@@ -1,4 +1,4 @@
-﻿names-first-male-dataset-1 = Аарон
+names-first-male-dataset-1 = Аарон
 names-first-male-dataset-2 = Августин
 names-first-male-dataset-3 = Авраам
 names-first-male-dataset-4 = Адам

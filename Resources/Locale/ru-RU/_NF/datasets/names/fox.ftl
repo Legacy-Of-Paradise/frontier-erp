@@ -1,4 +1,4 @@
-﻿names-fox-dataset-1 = Эмбер
+names-fox-dataset-1 = Эмбер
 names-fox-dataset-2 = Виксен
 names-fox-dataset-3 = Блейз
 names-fox-dataset-4 = Расти

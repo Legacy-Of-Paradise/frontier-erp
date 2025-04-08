@@ -1,4 +1,4 @@
-﻿names-goblin-last-dataset-1 = Катснап
+names-goblin-last-dataset-1 = Катснап
 names-goblin-last-dataset-2 = Дедшифт
 names-goblin-last-dataset-3 = Смартрокет
 names-goblin-last-dataset-4 = Педдлбим

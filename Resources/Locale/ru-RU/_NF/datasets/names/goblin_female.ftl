@@ -1,4 +1,4 @@
-﻿names-goblin-first-female-dataset-1 = Мильм
+names-goblin-first-female-dataset-1 = Мильм
 names-goblin-first-female-dataset-2 = Тулкс
 names-goblin-first-female-dataset-3 = Чойсз
 names-goblin-first-female-dataset-4 = Согс

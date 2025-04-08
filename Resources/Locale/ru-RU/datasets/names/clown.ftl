@@ -1,4 +1,4 @@
-﻿names-clown-dataset-1 = Смешкитон
+names-clown-dataset-1 = Смешкитон
 names-clown-dataset-2 = Хонкел III
 names-clown-dataset-3 = Гусь МакСанни
 names-clown-dataset-4 = Тудлз Шарпертон
