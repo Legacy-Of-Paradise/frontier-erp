@@ -10,7 +10,7 @@ on:
 
 jobs:
   Label:
-    if: ( github.event.pull_request.draft == false ) && ( github.actor != 'PJBot' ) && ( github.actor != 'FrontierATC' ) && (github.repository == 'Legacy-Of-Paradise/frontier-erp') or (github.repository == 'Legacy-Of-Paradise/frontier-nonerp')# Frontier
+    if: ( github.event.pull_request.draft == false ) && ( github.actor != 'PJBot' ) && ( github.actor != 'FrontierATC' ) && (github.repository == 'Legacy-Of-Paradise/frontier-erp') or (github.repository == 'Legacy-Of-Paradise/frontier-nonerp')
     runs-on: ubuntu-latest
     steps:
       - name: Check for Merge Conflicts
