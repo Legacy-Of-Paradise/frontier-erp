@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/e1142f20f5e4661cb6845cfcf2dd69f864d67432. Suit and back storages drawn by Ubaser.",
+  "copyright": "Taken from tgstation at https://github.com/tgstation/tgstation/commit/e1142f20f5e4661cb6845cfcf2dd69f864d67432. equipped-SUITSTORAGE-secdog modified from equipped-SUITSTORAGE-dog by TJohnson.",
   "size": {
     "x": 32,
     "y": 32
@@ -24,6 +24,11 @@
       "delays": [[1],[1],[1],[1]]
     },
     {
+      "name": "equipped-SUITSTORAGE-secdog",
+      "directions": 4,
+      "delays": [[1],[1],[1],[1]]
+    },
+    {
       "name": "equipped-SUITSTORAGE-puppy",
       "directions": 4,
       "delays": [[1],[1],[1],[1]]
@@ -35,11 +40,6 @@
     },
     {
       "name": "equipped-SUITSTORAGE-cat",
-      "directions": 4,
-      "delays": [[1],[1],[1],[1]]
-    },
-    {
-      "name": "equipped-SUITSTORAGE-chicken",
       "directions": 4,
       "delays": [[1],[1],[1],[1]]
     },
@@ -65,11 +65,6 @@
     },
     {
       "name": "equipped-SUITSTORAGE-pig",
-      "directions": 4,
-      "delays": [[1],[1],[1],[1]]
-    },
-    {
-      "name": "equipped-SUITSTORAGE-pitbull",
       "directions": 4,
       "delays": [[1],[1],[1],[1]]
     },

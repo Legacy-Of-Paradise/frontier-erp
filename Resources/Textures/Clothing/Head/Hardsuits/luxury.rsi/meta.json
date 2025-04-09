@@ -22,11 +22,15 @@
       "directions": 4
     },
     {
-      "name": "on-equipped-HELMET",
+      "name": "off-equipped-HELMET-tajaran",
       "directions": 4
     },
     {
-      "name": "on-equipped-HELMET-vulpkanin",
+      "name": "off-equipped-HELMET-shark",
+      "directions": 4
+    },
+    {
+      "name": "off-equipped-HELMET-reptilian",
       "directions": 4
     },
     {
@@ -35,6 +39,26 @@
     },
     {
       "name": "on-equipped-HELMET-vox",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET-vulpkanin",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET-tajaran",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET-shark",
+      "directions": 4
+    },
+    {
+      "name": "on-equipped-HELMET-reptilian",
       "directions": 4
     }
   ]

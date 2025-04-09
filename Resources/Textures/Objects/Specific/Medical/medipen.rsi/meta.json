@@ -98,22 +98,16 @@
       "name": "medipen-inhand-right"
     },
     {
-      "name": "punctpen"
+      "name": "dexpen"
     },
     {
-      "name": "punctpen_empty"
+      "name": "dexpen_empty"
     },
     {
       "name": "pyrapen"
     },
     {
-      "name": "pyrapen_empty"
-    },
-    {
-      "name": "dexpen"
-    },
-    {
-      "name": "dexpen_empty"
+      "name": "punctpen"
     }
   ]
 }

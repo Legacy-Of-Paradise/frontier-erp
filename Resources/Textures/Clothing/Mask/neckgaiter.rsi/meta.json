@@ -15,11 +15,23 @@
       "directions": 4
     },
     {
-      "name": "equipped-MASK-reptilian",
+      "name": "equipped-MASK-vox",
       "directions": 4
     },
     {
-      "name": "equipped-MASK-vox",
+      "name": "equipped-MASK-vulpkanin",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-tajaran",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-shark",
+      "directions": 4
+    },
+    {
+      "name": "equipped-MASK-reptilian",
       "directions": 4
     },
     {
