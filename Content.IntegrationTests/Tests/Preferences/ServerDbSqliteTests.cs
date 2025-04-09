@@ -53,7 +53,8 @@ namespace Content.IntegrationTests.Tests.Preferences
                     Color.Azure,
                     Color.Beige,
                     new ())
-            }.WithBankBalance(27000); // Frontier - accessor issue
+            }.WithBankBalance(27000) //Frontier edit
+            .WithTtsVoice("Nord"); //New paradise edit
         }
 
         private static ServerDbSqlite GetDb(RobustIntegrationTest.ServerIntegrationInstance server)

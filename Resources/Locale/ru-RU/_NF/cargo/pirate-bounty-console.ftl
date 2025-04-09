@@ -1,4 +1,4 @@
-pirate-bounty-console-menu-title = Консоль пиратский заказов
+pirate-bounty-console-menu-title = консоль пиратских заказов
 pirate-bounty-console-accept-button-chest = Призвать сундук
 pirate-bounty-console-accept-button-label = Принять
 pirate-bounty-console-skip-button-text = Пропустить

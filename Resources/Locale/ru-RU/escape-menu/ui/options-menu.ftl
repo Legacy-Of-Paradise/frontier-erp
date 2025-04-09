@@ -40,6 +40,7 @@ ui-options-display-label = Дисплей
 ui-options-quality-label = Качество
 ui-options-misc-label = Разное
 ui-options-interface-label = Интерфейс
+ui-options-tts-volume = Громкость TTS
 
 ## Graphics menu
 
@@ -164,7 +165,7 @@ ui-options-function-focus-looc-window = Писать в чат (LOOC)
 ui-options-function-focus-ooc-window = Писать в чат (OOC)
 ui-options-function-focus-admin-chat-window = Писать в чат (Админ)
 ui-options-function-focus-dead-chat-window = Писать в чат (Мертвые)
-ui-options-function-focus-console-chat-window = Писать в чат (Консоль)
+ui-options-function-focus-console-chat-window = Писать в чат (консоль)
 ui-options-function-cycle-chat-channel-forward = Переключение каналов чата (Вперед)
 ui-options-function-cycle-chat-channel-backward = Переключение каналов чата (Назад)
 ui-options-function-open-character-menu = Открыть меню персонажа
