@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: TTS
-    voicePrototypeId: Nord
+    voicePrototypeId: Glados
   - type: ActionGrant
     actions:
     - ActionVendingThrow
