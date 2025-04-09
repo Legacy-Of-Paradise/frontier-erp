@@ -42,8 +42,6 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-      - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
       - map: [ "socks" ]
       - map: [ "jumpsuit" ]
       - map: ["enum.HumanoidVisualLayers.LFoot"]
@@ -127,7 +125,7 @@
 #    baseWalkSpeed: 2.5 # Frontier
 #    baseSprintSpeed: 5.0 # Frontier
     weightlessAcceleration: 2.5
-  - type: Inventory 
+  - type: Inventory
     speciesId: harpy
     displacements:
       jumpsuit:
@@ -154,7 +152,7 @@
   components:
   - type: HumanoidAppearance
     species: Harpy
-  - type: Inventory 
+  - type: Inventory
     speciesId: harpy
     displacements:
       jumpsuit:
@@ -174,8 +172,6 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ]
-      - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ]
       - map: [ "socks" ]
       - map: [ "jumpsuit" ]
       - map: ["enum.HumanoidVisualLayers.LFoot"]
