@@ -1,66 +1,66 @@
 ﻿<Document>
-  # Добыча и Хранение Газа
-  Газы часто используются безвозвратно. Независимо от того, теряются ли они в [textlink="космосе" link="Spacing"] или используются в камере сгорания, станции необходимо иметь возможность производить больше газа для восполнения потерь.
-  Также необходимо безопасно и эффективно хранить этот газ.
+   # Добыча и Хранение Газа
+   Газы часто используются безвозвратно. Независимо от того, теряются ли они в [textlink="космосе" link="Spacing"] или используются в камере сгорания, станции необходимо иметь возможность производить больше газа для восполнения потерь.
+   Также необходимо безопасно и эффективно хранить этот газ.
 
-  ## Газовые Добытчики
-  Газовые добытчики используются для пополнения запасов газа на станции. Они находятся в резервуарах для хранения газа в отделе Атмосферы.
+   ## Газовые Добытчики
+   Газовые добытчики используются для пополнения запасов газа на станции. Они находятся в резервуарах для хранения газа в отделе Атмосферы.
 
-  <Box>
-    <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="GasMinerOxygenStation"/>
+       <GuideEntityEmbed Entity="GasMinerNitrogenStation"/>
+   </Box>
 
-  Газовые добытчики постоянно производят газ комнатной температуры и закачивают его в окружающую атмосферу. Для работы они не требуют энергии и никогда не прекращают работу, если не достигнут определенного [bold]предельного давления[/bold].
+   Газовые добытчики постоянно производят газ комнатной температуры и закачивают его в окружающую атмосферу. Для работы они не требуют энергии и никогда не прекращают работу, если не достигнут определенного [bold]предельного давления[/bold].
 
-  Вы можете получить дополнительную информацию о газовых добытчиках, осмотрев их с помощью [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
-  Попробуйте осмотреть представленные выше газовые добытчики.
+   Вы можете получить дополнительную информацию о газовых добытчиках, осмотрев их с помощью [color=yellow][bold][keybind="ExamineEntity"][/bold][/color].
+   Попробуйте осмотреть представленные выше газовые добытчики.
 
-  Газовые добытчики бывают разных уровней, причем у более крупных версий предельное давление выше, чем у более мелких.
+   Газовые добытчики бывают разных уровней, причем у более крупных версий предельное давление выше, чем у более мелких.
 
-  <Box>
-    <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 кПа"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 кПа"/>
-    <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 кПа"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="GasMinerNitrogen" Caption="300 кПа"/>
+       <GuideEntityEmbed Entity="GasMinerNitrogenStation" Caption="1000 кПа"/>
+       <GuideEntityEmbed Entity="GasMinerNitrogenStationLarge" Caption="4500 кПа"/>
+   </Box>
 
-  Если газовые добытчики когда-либо будут отсоединены от станции, их можно снова закрепить с помощью обычного гаечного ключа.
+   Если газовые добытчики когда-либо будут отсоединены от станции, их можно снова закрепить с помощью обычного гаечного ключа.
 
-  ## Хранение Газа
-  Резервуары для хранения газа используются для хранения газа, производимого газовыми добытчиками, и для обеспечения его доступности для других процессов. Они находятся в отделе Атмосферы.
+   ## Хранение Газа
+   Резервуары для хранения газа используются для хранения газа, производимого газовыми добытчиками, и для обеспечения его доступности для других процессов. Они находятся в отделе Атмосферы.
 
-  <Box>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasOutletInjector" Rotation="270" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasMinerOxygenStation" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-    <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+   </Box>
+   <Box>
+       <GuideEntityEmbed Entity="ReinforcedPlasmaWindow" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="GasOutletInjector" Rotation="270" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="GasMinerOxygenStation" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="GasPassiveVent" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+   </Box>
+   <Box>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="WallReinforced" Rotation="0" Caption="" Margin="0"/>
+   </Box>
 
-  <Box>
-    [color=#999999][italic]Пример небольшого резервуара для хранения газа[italic][/color]
-  </Box>
+   <Box>
+       [color=#999999][italic]Пример небольшого резервуара для хранения газа[italic][/color]
+   </Box>
 
-  Различные атмосферные процессы вводят и выводят газы из резервуаров для хранения газа.
-  Например:
-  - Газовый добытчик поставляет свежие газы в резервуары для хранения газа, если есть место.
-  - Рециркуляционная сеть закачивает регенерированные газы в резервуары для хранения газа для повторного использования.
-  - Такие системы, как распределительная сеть и камера сгорания, удаляют газы из резервуаров для хранения газа.
+   Различные атмосферные процессы вводят и выводят газы из резервуаров для хранения газа.
+   Например:
+   - Газовый добытчик поставляет свежие газы в резервуары для хранения газа, если есть место.
+   - Рециркуляционная сеть закачивает регенерированные газы в резервуары для хранения газа для повторного использования.
+   - Такие системы, как распределительная сеть и камера сгорания, удаляют газы из резервуаров для хранения газа.
 
-  Резервуары для хранения газа спроектированы таким образом, чтобы их можно было измерять с помощью [textlink="Анализатора Газов" link="AtmosTools"].
-  Поскольку выходной вентиль является [textlink="пассивным вентилем" link="PassiveVent"], вы можете использовать [textlink="анализатор газов" link="AtmosTools"] для измерения газового состава на входе [textlink="насоса" link="Pumps"], который качает газ из резервуара для хранения газа.
+   Резервуары для хранения газа спроектированы таким образом, чтобы их можно было измерять с помощью [textlink="Анализатора Газов" link="AtmosTools"].
+   Поскольку выходной вентиль является [textlink="пассивным вентилем" link="PassiveVent"], вы можете использовать [textlink="анализатор газов" link="AtmosTools"] для измерения газового состава на входе [textlink="насоса" link="Pumps"], который качает газ из резервуара для хранения газа.
 </Document>

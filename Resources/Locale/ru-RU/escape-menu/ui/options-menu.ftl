@@ -312,5 +312,4 @@ ui-options-screen-shake-intensity = Интенсивность дрожания 
 ui-options-speech-bubble-text-opacity = Прозрачность текста в речевом пузыре
 ui-options-speech-bubble-speaker-opacity = Прозрачность динамика в речевом пузыре
 ui-options-speech-bubble-background-opacity = Прозрачность фона речевого пузыря
-ui-options-censor-nudity = Цензура (НЕ ВКЛЮЧАТЬ, СЛОМАНО/В РАЗРАБОТКЕ)
 ui-options-enable-classic-overlay = Верните интерфейс антагонов из классический режим

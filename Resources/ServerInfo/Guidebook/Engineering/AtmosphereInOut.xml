@@ -1,25 +1,25 @@
 ﻿<Document>
-  # Ввод и Вывод Атмосферы
-  Ввод и вывод газов из существующей (или несуществующей) атмосферы является важной частью работы Атмоса.
-  <Box>
-    <GuideEntityEmbed Entity="GasVentPump"/>
-    <GuideEntityEmbed Entity="GasPassiveVent"/>
-    <GuideEntityEmbed Entity="GasOutletInjector"/>
-    <GuideEntityEmbed Entity="GasVentScrubber"/>
-    <GuideEntityEmbed Entity="PortableScrubber"/>
-  </Box>
+   # Ввод и Вывод Атмосферы
+   Ввод и вывод газов из существующей (или несуществующей) атмосферы является важной частью работы Атмоса.
+   <Box>
+       <GuideEntityEmbed Entity="GasVentPump"/>
+       <GuideEntityEmbed Entity="GasPassiveVent"/>
+       <GuideEntityEmbed Entity="GasOutletInjector"/>
+       <GuideEntityEmbed Entity="GasVentScrubber"/>
+       <GuideEntityEmbed Entity="PortableScrubber"/>
+   </Box>
 
-  С помощью этих устройств Атмоса может вводить, выводить или очищать нежелательные газы из любой желаемой атмосферы.
-  Это позволяет поддерживать безопасную, пригодную для дыхания атмосферу.
+   С помощью этих устройств Атмоса может вводить, выводить или очищать нежелательные газы из любой желаемой атмосферы.
+   Это позволяет поддерживать безопасную, пригодную для дыхания атмосферу.
 
-  Некоторые из этих устройств требуют [textlink="энергию" link="Power"] для работы и могут быть подключены к [textlink="воздушной тревоге" link="AirAlarms"].
+   Некоторые из этих устройств требуют [textlink="энергию" link="Power"] для работы и могут быть подключены к [textlink="воздушной тревоге" link="AirAlarms"].
 
-  [textlink="Подключение" link="Networking"] совместимых устройств к воздушной тревоге открывает дополнительные параметры конфигурации и функциональность. В противном случае эти устройства работают в соответствии со своим поведением по умолчанию, как определено в подразделах руководства.
+   [textlink="Подключение" link="Networking"] совместимых устройств к воздушной тревоге открывает дополнительные параметры конфигурации и функциональность. В противном случае эти устройства работают в соответствии со своим поведением по умолчанию, как определено в подразделах руководства.
 
-  <Box>
-    <GuideEntityEmbed Entity="AirAlarm"/>
-    <GuideEntityEmbed Entity="Multitool"/>
-    <GuideEntityEmbed Entity="NetworkConfigurator"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="AirAlarm"/>
+       <GuideEntityEmbed Entity="Multitool"/>
+       <GuideEntityEmbed Entity="NetworkConfigurator"/>
+   </Box>
 
 </Document>

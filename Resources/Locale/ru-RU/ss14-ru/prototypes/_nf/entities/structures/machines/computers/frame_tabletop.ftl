@@ -1,4 +1,4 @@
-ent-Computer = { ent-BaseStructure }
+ent-BaseStructureComputerTabletop = { ent-BaseStructure }
     .suffix = Настольный
     .desc = { ent-BaseStructure.desc }
 ent-ComputerTabletopFrame = { ent-ComputerFrame }

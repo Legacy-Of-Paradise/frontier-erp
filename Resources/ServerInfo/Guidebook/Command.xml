@@ -4,19 +4,19 @@
 
 ## Персонал
 [color=#1b67a5]Командование[/color] состоит из глав каждого отдела: [color=#9fed58]Главы Персонала[/color], [color=#cb0000]Главы Службы Безопасности[/color], [color=#5b97bc]Главного Врача[/color], [color=#f39f27]Главного Инженера[/color], [color=#c96dbf]Научного Руководителя[/color], [color=#b18644]Квартирмейстера[/color] и, прежде всего, [color=#1b67a5]Капитана[/color].
-  <Box>
-    <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Капитан"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="Глава Персонала"/>
-    <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Глава СБ"/>
-    <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Главврач"/>
-  </Box>
-  <Box>
-    <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="ГИ"/>
-    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="НР"/>
-    <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="КМС"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="ToyFigurineCaptain" Caption="Капитан"/>
+   </Box>
+   <Box>
+       <GuideEntityEmbed Entity="ToyFigurineHeadOfPersonnel" Caption="Глава Персонала"/>
+       <GuideEntityEmbed Entity="ToyFigurineHeadOfSecurity" Caption="Глава СБ"/>
+       <GuideEntityEmbed Entity="ToyFigurineChiefMedicalOfficer" Caption="Главврач"/>
+   </Box>
+   <Box>
+       <GuideEntityEmbed Entity="ToyFigurineChiefEngineer" Caption="ГИ"/>
+       <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="НР"/>
+       <GuideEntityEmbed Entity="ToyFigurineQuartermaster" Caption="КМС"/>
+   </Box>
 
 ## Принятие Командования
 Поздравляем с повышением! Помимо всей этой дополнительной бумажной работы, ваши новые [color=#a4885c]обязанности[/color] включают управление вашим отделом, внесение изменений и выбор приоритетов, обеспечение безопасности персонала и оборудования, а также безделье, пока ваши приспешники выполняют всю работу.
@@ -29,14 +29,14 @@
 ## Ваш Шкафчик
 
 Чтобы справиться с вашими новыми душераздирающими задачами, каждому главе выдаются специальные предметы для руководства подчиненными. Большинство ваших новых блестящих инструментов можно найти в вашем [color=#a4885c]шкафчике[/color].
-  <Box>
-    <GuideEntityEmbed Entity="LockerCaptain"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="LockerCaptain"/>
+   </Box>
 
 Ваш [color=#a4885c]пульт дистанционного управления[/color] очень прост, но его значение сильно недооценивают. Маленькая, но могучая сила, ваш пульт может открывать и закрывать [color=#a4885c]шлюзы[/color], вращать [color=#a4885c]болты[/color], чтобы заблокировать их, или переключать [color=#a4885c]аварийный доступ[/color]. Он может делать это на расстоянии.
-  <Box>
-    <GuideEntityEmbed Entity="DoorRemoteCommand"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="DoorRemoteCommand"/>
+   </Box>
 Пульт дистанционного управления влияет на перемещение людей. Главы могут блокировать доступ персонала в опасные зоны или позволять людям быстро зайти, чтобы что-то взять.
 
 У вас также есть доступ к вашему собственному [color=#1b67a5]Командному[/color] каналу, как и у любого другого отдела. Однако ваш канал особенно важен, поскольку люди, которые могут вас слышать, имеют в своем распоряжении [color=#a4885c]целые отделы[/color].
@@ -44,13 +44,13 @@
 
 [color=#1b67a5]Капитан[/color] и [color=#9fed58]Глава Персонала[/color] получают доступ к ценному [color=#a4885c]мастер-ключу шифрования[/color], позволяющему им настраиваться на каждый радиоканал на станции. Это чрезвычайно ценно, поскольку вы можете координировать действия между отделами самостоятельно.
 [color=#a4885c]Не упустите это жизненно важное преимущество![/color]
-  <Box>
-    <GuideEntityEmbed Entity="ClothingHeadsetCommand"/>
-    <GuideEntityEmbed Entity="EncryptionKeyStationMaster"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="ClothingHeadsetCommand"/>
+       <GuideEntityEmbed Entity="EncryptionKeyStationMaster"/>
+   </Box>
 
 Чтобы сделать болото бумажной работы (которое вас определенно захлестнет) еще более невыносимым, вам щедро выдали [color=#a4885c]печать[/color] в вашем шкафчике. Используйте ее для подписи документов. После того как вы поставите печать, документ нельзя будет отредактировать. Сначала внимательно его изучите.
-  <Box>
-    <GuideEntityEmbed Entity="RubberStampCaptain"/>
-  </Box>
+   <Box>
+       <GuideEntityEmbed Entity="RubberStampCaptain"/>
+   </Box>
 </Document>
