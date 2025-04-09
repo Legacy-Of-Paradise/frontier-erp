@@ -1,9 +1,0 @@
-ent-MagazineNovaliteC1Empty = обоима (.20 винтовочный любой)
-    .suffix = empty
-    .desc = { ent-BaseMagazineRifle.desc }
-ent-MagazineNovaliteC1 = обоима (.20 винтовочный)
-    .suffix = full
-    .desc = { ent-MagazineNovaliteC1Empty.desc }
-ent-MagazineNovaliteC1Rubber = обоима (.20 винтовочный резина)
-    .suffix = full
-    .desc = { ent-MagazineNovaliteC1Empty.desc }

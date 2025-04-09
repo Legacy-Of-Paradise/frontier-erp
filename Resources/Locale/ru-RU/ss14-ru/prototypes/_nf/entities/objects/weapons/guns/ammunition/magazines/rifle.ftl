@@ -1,2 +1,11 @@
 ent-MagazineRifleRubber = магазин (.20 винтовочный резина)
     .desc = { ent-BaseMagazineRifle.desc }
+ent-MagazineNovaliteC1Empty = магазин (.20 винтовочный любой)
+    .suffix = пустой
+    .desc = { ent-BaseMagazineRifle.desc }
+ent-MagazineNovaliteC1 = магазин (.20 винтовочный)
+    .suffix = полный
+    .desc = { ent-MagazineNovaliteC1Empty.desc }
+ent-MagazineNovaliteC1Rubber = магазин (.20 винтовочный резина)
+    .suffix = полный
+    .desc = { ent-MagazineNovaliteC1Empty.desc }

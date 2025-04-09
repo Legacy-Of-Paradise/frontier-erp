@@ -22,3 +22,5 @@ ent-BaseStationDeadDrops = { "" }
     .desc = { "" }
 ent-BaseStationDeadDropHintExempt = { "" }
     .desc = { "" }
+ent-BaseStationBusDepot = { "" }
+    .desc = { "" }

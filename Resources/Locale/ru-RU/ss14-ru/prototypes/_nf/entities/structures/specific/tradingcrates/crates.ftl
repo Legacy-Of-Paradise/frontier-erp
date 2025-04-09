@@ -1,0 +1,14 @@
+﻿ent-CrateTradeSecureNormal = защищённый торговый ящик
+    .desc = Содержит товары, произведённые в Пограничном секторе, готовые к продаже на грузовом складе по более высокой цене. УБЕДИТЕСЬ, ЧТО ЯЩИК НЕ ПОВРЕЖДЁН.
+ent-CrateTradeSecureHigh = защищённый экспресс-торговый ящик
+    .desc = Срочный ящик с товарами, произведёнными в Пограничном секторе, готовый к быстрой продаже на грузовом складе по более высокой цене. УБЕДИТЕСЬ, ЧТО ЯЩИК НЕ ПОВРЕЖДЁН.
+ent-CrateTradeContrabandSecure1 = { ent-CrateTradeBaseSecureContraband }
+    .desc = { ent-CrateTradeBaseSecureContraband.desc }
+ent-CrateTradeContrabandSecure2 = { ent-CrateTradeBaseSecureContraband }
+    .desc = { ent-CrateTradeBaseSecureContraband.desc }
+ent-CrateTradeContrabandSecure3 = { ent-CrateTradeBaseSecureContraband }
+    .desc = { ent-CrateTradeBaseSecureContraband.desc }
+ent-CrateTradeContrabandSecure4 = контрабандный ящик "Донк Ко."
+    .desc = { ent-CrateTradeBaseSecureContraband.desc }
+ent-CrateTradeContrabandSecure5 = контрабандный ящик "Киберсан Индастриз"
+    .desc = { ent-CrateTradeBaseSecureContraband.desc }

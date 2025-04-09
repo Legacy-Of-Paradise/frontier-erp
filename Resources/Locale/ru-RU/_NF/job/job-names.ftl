@@ -17,7 +17,7 @@ job-name-security-guard = Охранник
 job-name-sheriff = Шериф
 job-name-stc = Диспетчер трафика
 job-name-sr = Представитель Фронтира
-job-name-pal = Бюрократический агент ДШ
+job-name-pal = Бюр-агент ДШ
 job-name-doc = Главврач
 job-name-valet = Валет
 # Job titles

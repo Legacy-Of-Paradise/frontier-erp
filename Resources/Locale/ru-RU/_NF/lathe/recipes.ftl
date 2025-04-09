@@ -12,7 +12,7 @@ lathe-recipe-WeaponCaseShortExplosives-name = ящик со взрывчатко
 # Cardboard
 lathe-recipe-NFHappyHonkMimeEmpty-name = ланчбокс "хэппи хонк" (пустой)
 lathe-recipe-NFHappyHonkEmpty-name = ланчбокс "хэппи хонк" (пустой)
-lathe-recipe-NFHappyHonkMcCargoEmpty-name = ланчбокс МакКарго (пустой)
+lathe-recipe-NFHappyHonkMcCargoEmpty-name = ланчбокс McCargo (пустой)
 lathe-recipe-NFHappyHonkCluwneEmpty-name = ланчбокс Клувня (пустой)
 lathe-recipe-NFHappyHonkNukieEmpty-name = робастный ланчбокс ядерных оперативников (пустой)
 lathe-recipe-NFFoodBoxPizza-name = коробка из под пиццы (пустой)

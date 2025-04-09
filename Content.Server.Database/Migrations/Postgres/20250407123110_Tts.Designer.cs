@@ -970,6 +970,11 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("integer")
                         .HasColumnName("profile_role_loadout_id");
 
+                    b.Property<string>("EntityName")
+                        .HasMaxLength(256)
+                        .HasColumnType("character varying(256)")
+                        .HasColumnName("entity_name");
+
                     b.HasKey("Id")
                         .HasName("PK_profile_loadout_group");
 

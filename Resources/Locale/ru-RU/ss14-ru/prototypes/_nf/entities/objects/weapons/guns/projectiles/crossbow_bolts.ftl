@@ -34,5 +34,7 @@ ent-CrossbowBoltShrapnel = болт с шрапнелью
     .desc = Болт с прикреплённым к ней патроном от дробовика с картечью.
 ent-CrossbowBoltShrapnelSpread = { "" }
     .desc = { "" }
+ent-PelletShrapnelCrossbow = шрапнельные снаряды арбалета
+    .desc = { ent-BaseBullet.desc }
 ent-CrossbowBoltBloodDrinker = болт "Кровопийца"
     .desc = Острый, как бритва, нож с зазубренным концом. Несомненно, это неэтично.

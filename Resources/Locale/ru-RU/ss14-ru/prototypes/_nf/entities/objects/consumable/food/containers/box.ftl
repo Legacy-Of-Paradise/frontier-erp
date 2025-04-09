@@ -1,4 +1,4 @@
-ent-HappyHonkMcCargo = блюдо из мяса маккарго
+ent-HappyHonkMcCargo = блюдо из мяса McCargo
     .desc = { ent-HappyHonk.desc }
 ent-HappyHonkMcCargoFood = { ent-HappyHonkMcCargo }
     .desc = { ent-HappyHonkMcCargo.desc }

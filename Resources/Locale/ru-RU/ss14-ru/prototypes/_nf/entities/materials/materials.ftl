@@ -1,2 +1,11 @@
 ent-MaterialHideRosyMothroach = розовая кленовая шкура мотылька
     .desc = Тонкий слой кожи мотылька из розового клёна.
+ent-MaterialBiomass50 = { ent-MaterialBiomass }
+    .suffix = 50
+    .desc = { ent-MaterialBiomass.desc }
+ent-CrateMaterialBiomass50 = ящик с биомассой
+    .desc = 50 штук биомассы.
+    .suffix = 50
+ent-CrateMcCargoMaterialBiomass50 = McCargo ящик с биомассой
+    .desc = 50 штук биомассы.
+    .suffix = 50

@@ -25,10 +25,12 @@ shipyard-rules-default2 =
     может и приведёт к силовым мерам.
     Благодарим вас за выбор сил безопасности NanoTrasen.
 shuttle-ftl-proximity = Близлежащие объекты слишком массивны для БСС!
+shuttle-ftl-invalid = Неправильный корабль для БСС!
 shuttle-ftl-recharge = БСС двигатели все ещё работают!
 shuttle-ftl-too-many = Слишком много шаттлов уже в экспедиции!
 changelog-tab-title-Upstream = Апстрим чейнжлог
 multiauth-already-connected = Уже подключён к серверу.
 public-transit-shuttle-name = Космическая маршрутка
+public-transit-shuttle-screen-text = { " " }АВТОБУС  { $number }{ $suffix }
 public-transit-departure = Отправление в { $destination }. Приблизительное время полёта: { $flytime } секунд.
 public-transit-arrival = Спасибо что выбираете общественный транспорт от NanoTrasen. { $destination } отправление через { $waittime } секунд.
