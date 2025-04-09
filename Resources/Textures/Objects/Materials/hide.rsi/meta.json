@@ -15,6 +15,14 @@
     },
     {
       "name": "goliath_hide_3"
+    },
+    {
+      "name": "goliathhide-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "goliathhide-inhand-left",
+      "directions": 4
     }
   ]
 }

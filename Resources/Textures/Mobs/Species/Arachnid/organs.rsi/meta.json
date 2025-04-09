@@ -44,6 +44,30 @@
     },
     {
       "name": "web-gland"
+    },
+    {
+        "name": "eyeballs-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "eyeballs-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "stomach-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "stomach-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "heart-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "heart-inhand-left",
+        "directions": 4
     }
   ]
 }

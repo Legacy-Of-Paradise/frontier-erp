@@ -75,6 +75,54 @@
     },
     {
       "name": "vessel"
+    },
+    {
+        "name": "eyeballs-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "eyeballs-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "stomach-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "stomach-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "heart-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "heart-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "liver-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "liver-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "kidneys-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "kidneys-inhand-left",
+        "directions": 4
+    },
+    {
+        "name": "lungs-inhand-right",
+        "directions": 4
+    },
+    {
+        "name": "lungs-inhand-left",
+        "directions": 4
     }
   ]
 }

@@ -183,6 +183,70 @@
     },
     {
       "name": "normality_3"
+    },
+    {
+      "name": "cotton-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "corgihide-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "bones-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "durathread-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "cloth-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "bones-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "bananium-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "bananium-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "corgihide-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "cloth-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "durathread-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "cotton-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "pyrotton-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "cardboard-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "pyrotton-inhand-right",
+      "directions": 4
+    },
+    {
+      "name": "cardboard-inhand-left",
+      "directions": 4
     }
   ]
 }

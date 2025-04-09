@@ -36,6 +36,18 @@
     {
       "name": "equipped-BELT",
       "directions": 4
+    },
+    {
+      "name": "mopbucket_carpplush"
+    },
+    {
+      "name": "mopbucket_shark_blue"
+    },
+    {
+      "name": "mopbucket_shark_pink"
+    },
+    {
+      "name": "mopbucket_shark_grey"
     }
   ]
 }

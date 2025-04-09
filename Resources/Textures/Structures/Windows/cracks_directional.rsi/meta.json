@@ -12,11 +12,23 @@
       "directions": 4
     },
     {
+      "name": "DamageOverlay_5",
+      "directions": 4
+    },
+    {
       "name": "DamageOverlay_8",
       "directions": 4
     },
     {
+      "name": "DamageOverlay_10",
+      "directions": 4
+    },
+    {
       "name": "DamageOverlay_12",
+      "directions": 4
+    },
+    {
+      "name": "DamageOverlay_20",
       "directions": 4
     }
   ]

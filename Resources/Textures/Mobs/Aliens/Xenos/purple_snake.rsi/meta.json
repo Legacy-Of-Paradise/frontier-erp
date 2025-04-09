@@ -32,8 +32,9 @@
     },
     {
           "name": "dead_small_purple_snake"
-      }
-
-
+    },
+    {
+          "name": "icon"
+    }
   ]
 }

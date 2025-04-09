@@ -7,6 +7,14 @@
   [
     {
       "name": "icon"
+    },
+    {
+      "name": "silk-inhand-left",
+      "directions": 4
+    },
+    {
+      "name": "silk-inhand-right",
+      "directions": 4
     }
   ]
 }

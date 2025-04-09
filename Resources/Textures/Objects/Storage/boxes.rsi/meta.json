@@ -223,6 +223,12 @@
         },
         {
             "name": "envelope"
+        },
+        {
+            "name": "shelltranquilizer"
+        },
+        {
+            "name": "agrichemkit"
         }
     ]
 }

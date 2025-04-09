@@ -50,7 +50,15 @@
       "directions": 4
     },
     {
+      "name": "corgi-equipped-HELMET-vox",
+      "directions": 4
+    },
+    {
       "name": "corgi2-equipped-HELMET",
+      "directions": 4
+    },
+    {
+      "name": "corgi2-equipped-HELMET-vox",
       "directions": 4
     }
   ]
