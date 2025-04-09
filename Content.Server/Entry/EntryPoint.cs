@@ -1,3 +1,4 @@
+using Content.Server._NewParadise.TTS;
 using Content.Server._NF.Auth;
 using Content.Server.Acz;
 using Content.Server.Administration;
@@ -112,6 +113,10 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<ServerInfoManager>().Initialize();
                 IoCManager.Resolve<ServerApi>().Initialize();
                 IoCManager.Resolve<MiniAuthManager>();
+
+                //New paradise edit start
+                IoCManager.Resolve<TTSManager>().Initialize();
+                // New paradise edit end
 
                 _voteManager.Initialize();
                 _updateManager.Initialize();

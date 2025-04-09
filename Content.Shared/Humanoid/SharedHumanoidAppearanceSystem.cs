@@ -1,5 +1,6 @@
 using System.IO;
 using System.Linq;
+using Content.Shared._NewParadise.TTS;
 using Content.Shared.CCVar;
 using Content.Shared.Decals;
 using Content.Shared.Examine;
@@ -39,6 +40,13 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
     [ValidatePrototypeId<SpeciesPrototype>]
     public const string DefaultSpecies = "Human";
+
+    public static readonly Dictionary<Sex, ProtoId<TTSVoicePrototype>> DefaultSexVoice = new()
+    {
+        { Sex.Male, "Nord" },
+        { Sex.Female, "Amina" },
+        { Sex.Unsexed, "Alyx" },
+    };
 
     public override void Initialize()
     {
@@ -349,6 +357,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         SetSpecies(uid, profile.Species, false, humanoid);
         SetSex(uid, profile.Sex, false, humanoid);
+        SetTTSVoice(uid, profile.VoiceId);
         humanoid.EyeColor = profile.Appearance.EyeColor;
 
         SetSkinColor(uid, profile.Appearance.SkinColor, false);
@@ -497,6 +506,28 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         Log.Error("Tried to get representation of unknown species: {speciesId}");
         return Loc.GetString("humanoid-appearance-component-unknown-species");
+    }
+
+    public void SetTTSVoice(
+        EntityUid uid,
+        ProtoId<TTSVoicePrototype> voiceId,
+        bool sync = true,
+        HumanoidAppearanceComponent? humanoid = null)
+    {
+        if (!TryComp<SharedTTSComponent>(uid, out var comp))
+            return;
+
+        if (!Resolve(uid, ref humanoid))
+        {
+            return;
+        }
+
+        comp.VoicePrototypeId = voiceId;
+
+        if (sync)
+        {
+            Dirty(uid, humanoid);
+        }
     }
 
     public string GetAgeRepresentation(string species, int age)

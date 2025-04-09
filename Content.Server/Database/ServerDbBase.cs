@@ -243,6 +243,17 @@ namespace Content.Server.Database
                 loadouts[role.RoleName] = loadout;
             }
 
+            // New paradise edit start
+
+            var voiceId = profile.VoiceId;
+
+            if (string.IsNullOrEmpty(voiceId))
+            {
+                voiceId = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
+            }
+
+            // New paradise edit end
+
             return new HumanoidCharacterProfile(
                 profile.CharacterName,
                 profile.FlavorText,
@@ -266,7 +277,8 @@ namespace Content.Server.Database
                 (PreferenceUnavailableMode) profile.PreferenceUnavailable,
                 antags.ToHashSet(),
                 traits.ToHashSet(),
-                loadouts
+                loadouts,
+                voiceId // New paradise edit
             );
         }
 
@@ -298,6 +310,7 @@ namespace Content.Server.Database
             profile.Markings = markings;
             profile.Slot = slot;
             profile.PreferenceUnavailable = (DbPreferenceUnavailableMode) humanoid.PreferenceUnavailable;
+            profile.VoiceId = humanoid.VoiceId; // New paradise edit
 
             profile.Jobs.Clear();
             profile.Jobs.AddRange(

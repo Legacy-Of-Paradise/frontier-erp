@@ -9,6 +9,7 @@ using Content.Client.Players.PlayTimeTracking;
 using Content.Client.Sprite;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.Guidebook;
+using Content.Shared._NewParadise.TTS;
 using Content.Shared.CCVar;
 using Content.Shared.Clothing;
 using Content.Shared.GameTicking;
@@ -198,6 +199,12 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Age
+
+            #region Voice
+
+            InitializeVoice();
+
+            #endregion
 
             #region Gender
 
@@ -769,6 +776,7 @@ namespace Content.Client.Lobby.UI
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
+            UpdateTTSVoicesControls();
 
             RefreshAntags();
             RefreshJobs();
@@ -1198,6 +1206,7 @@ namespace Content.Client.Lobby.UI
             }
 
             UpdateGenderControls();
+            UpdateTTSVoicesControls();
             Markings.SetSex(newSex);
             ReloadPreview();
         }
@@ -1641,6 +1650,20 @@ namespace Content.Client.Lobby.UI
                 await file.Value.fileStream.DisposeAsync();
             }
         }
+
+        //New paradise start
+        private void SetVoice(ProtoId<TTSVoicePrototype> newVoice)
+        {
+            if (Profile == null)
+            {
+                return;
+            }
+
+            Profile = Profile.WithTtsVoice(newVoice);
+
+            SetDirty();
+        }
+        //New paradise end
 
         private void StartExport()
         {

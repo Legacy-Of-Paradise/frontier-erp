@@ -1,5 +1,6 @@
 using System.Linq;
 using System.Text.RegularExpressions;
+using Content.Shared._NewParadise.TTS;
 using Content.Shared._NF.Bank;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
@@ -30,14 +31,19 @@ namespace Content.Shared.Preferences
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
         public const int MaxNameLength = 32;
+        
         public const int MaxLoadoutNameLength = 32;
+        
         public const int MaxDescLength = 512;
 
         public const int DefaultBalance = 30000;
 
         //private readonly Dictionary<string, JobPriority> _jobPriorities; // Frontier: commented out during merge.
+
         //private readonly List<string> _antagPreferences; // Frontier: commented out during merge.
+
         //private readonly List<string> _traitPreferences; // Frontier: commented out during merge.
+
 
         /// <summary>
         /// Job preferences for initial spawn.
@@ -72,6 +78,9 @@ namespace Content.Shared.Preferences
 
         [DataField]
         public string Name { get; set; } = "John Doe";
+
+        [DataField]
+        public ProtoId<TTSVoicePrototype> VoiceId { get; set; } = "Nord";
 
         /// <summary>
         /// Detailed text that can appear for the character if <see cref="CCVars.FlavorText"/> is enabled.
@@ -150,7 +159,8 @@ namespace Content.Shared.Preferences
             PreferenceUnavailableMode preferenceUnavailable,
             HashSet<ProtoId<AntagPrototype>> antagPreferences,
             HashSet<ProtoId<TraitPrototype>> traitPreferences,
-            Dictionary<string, RoleLoadout> loadouts)
+            Dictionary<string, RoleLoadout> loadouts,
+            ProtoId<TTSVoicePrototype> voiceId)
         {
             Name = name;
             FlavorText = flavortext;
@@ -166,6 +176,7 @@ namespace Content.Shared.Preferences
             _antagPreferences = antagPreferences;
             _traitPreferences = traitPreferences;
             _loadouts = loadouts;
+            VoiceId = voiceId;
         }
 
         /// <summary>Copy constructor but with overridable references (to prevent useless copies)</summary>
@@ -176,7 +187,7 @@ namespace Content.Shared.Preferences
             HashSet<ProtoId<TraitPrototype>> traitPreferences,
             Dictionary<string, RoleLoadout> loadouts)
             : this(other.Name, other.FlavorText, other.Species, other.Age, other.Sex, other.Gender, other.BankBalance, other.Appearance, other.SpawnPriority,
-                jobPriorities, other.PreferenceUnavailable, antagPreferences, traitPreferences, loadouts)
+                jobPriorities, other.PreferenceUnavailable, antagPreferences, traitPreferences, loadouts, other.VoiceId)
         {
         }
 
@@ -195,7 +206,8 @@ namespace Content.Shared.Preferences
                 other.PreferenceUnavailable,
                 new HashSet<ProtoId<AntagPrototype>>(other.AntagPreferences),
                 new HashSet<ProtoId<TraitPrototype>>(other.TraitPreferences),
-                new Dictionary<string, RoleLoadout>(other.Loadouts))
+                new Dictionary<string, RoleLoadout>(other.Loadouts),
+                other.VoiceId)
         {
         }
 
@@ -251,17 +263,25 @@ namespace Content.Shared.Preferences
 
             var gender = Gender.Epicene;
 
+            ProtoId<TTSVoicePrototype> voiceId;
             switch (sex)
             {
                 case Sex.Male:
                     gender = Gender.Male;
+                    voiceId = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
                     break;
                 case Sex.Female:
                     gender = Gender.Female;
+                    voiceId = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
+                    break;
+                default:
+                    voiceId = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
                     break;
             }
 
             var name = GetName(species, gender);
+
+
             return new HumanoidCharacterProfile()
             {
                 Name = name,
@@ -270,6 +290,7 @@ namespace Content.Shared.Preferences
                 Gender = gender,
                 Species = species,
                 Appearance = HumanoidCharacterAppearance.Random(species, sex),
+                VoiceId = voiceId
             };
         }
 
@@ -309,7 +330,6 @@ namespace Content.Shared.Preferences
         {
             return new(this) { Species = species };
         }
-
 
         public HumanoidCharacterProfile WithCharacterAppearance(HumanoidCharacterAppearance appearance)
         {
@@ -453,6 +473,14 @@ namespace Content.Shared.Preferences
             };
         }
 
+        public HumanoidCharacterProfile WithTtsVoice(ProtoId<TTSVoicePrototype> ttsVoice)
+        {
+            return new(this)
+            {
+                VoiceId = ttsVoice
+            };
+        }
+
         public HumanoidCharacterProfile WithoutTraitPreference(ProtoId<TraitPrototype> traitId, IPrototypeManager protoManager)
         {
             var list = new HashSet<ProtoId<TraitPrototype>>(_traitPreferences);
@@ -491,6 +519,7 @@ namespace Content.Shared.Preferences
             if (!_traitPreferences.SequenceEqual(other._traitPreferences)) return false;
             if (!Loadouts.SequenceEqual(other.Loadouts)) return false;
             if (FlavorText != other.FlavorText) return false;
+            if (VoiceId != other.VoiceId) return false;
             return Appearance.MemberwiseEquals(other.Appearance);
         }
 
@@ -796,5 +825,12 @@ namespace Content.Shared.Preferences
         {
             return new HumanoidCharacterProfile(this);
         }
+
+        //NewParadise-edit
+        public static bool CanHaveVoice(TTSVoicePrototype voice, Sex sex)
+        {
+            return voice.RoundStart && sex == Sex.Unsexed || voice.Sex == sex || voice.Sex == Sex.Unsexed;
+        }
+        //NewParadise-edit end
     }
 }

@@ -5,6 +5,7 @@ using System.Text.Json;
 using Content.Server.Database;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using NpgsqlTypes;
@@ -14,9 +15,11 @@ using NpgsqlTypes;
 namespace Content.Server.Database.Migrations.Postgres
 {
     [DbContext(typeof(PostgresServerDbContext))]
-    partial class PostgresServerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250407123110_Tts")]
+    partial class Tts
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -983,11 +986,6 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnName("profile_role_loadout_id");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("EntityName")
-                        .HasMaxLength(256)
-                        .HasColumnType("character varying(256)")
-                        .HasColumnName("entity_name");
 
                     b.Property<int>("ProfileId")
                         .HasColumnType("integer")

@@ -1,3 +1,4 @@
+using Content.Server._NewParadise.TTS;
 using Content.Server._NF.Auth;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
@@ -79,6 +80,10 @@ namespace Content.Server.IoC
             IoCManager.Register<MultiServerKickManager>();
             IoCManager.Register<CVarControlManager>();
             IoCManager.Register<MiniAuthManager>(); //Frontier
+
+            //New paradise edit start
+            IoCManager.Register<TTSManager>();
+            //New paradise edit end
         }
     }
 }
