@@ -12,10 +12,8 @@
     - BorgChassis
   chatMessages: [honks.]
   chatTriggers:
-    - honk
-    - honks
-    - honking
-    - honked
+    - хонк
+    - хонкает
 
 - type: emote
   id: HarpyRing
@@ -30,11 +28,10 @@
     - BorgChassis
   chatMessages: [rings.]
   chatTriggers:
-    - ring
-    - rings
-    - ringing
-    - ringed
-    - rang
+    - звенит
+    - звон
+    - звонит
+    - звянькает
 
 - type: emote
   id: HarpyPew
@@ -49,9 +46,9 @@
     - BorgChassis
   chatMessages: [pews.]
   chatTriggers:
-    - pew
-    - pews
-    - pewpew
+    - пиу
+    - пиф
+    - пуф
 
 - type: emote
   id: HarpyBang
@@ -66,10 +63,8 @@
     - BorgChassis
   chatMessages: [bangs.]
   chatTriggers:
-    - bang
-    - bangs
-    - banging
-    - banged
+    - бам
+    - бум
 
 - type: emote
   id: HarpyBeep
@@ -84,10 +79,10 @@
     - BorgChassis
   chatMessages: [beeps.]
   chatTriggers:
-    - beep
-    - beeps
-    - beeping
-    - beeped
+    - бип
+    - буп
+    - бап
+    - биб
 
 - type: emote
   id: HarpyRev
@@ -120,10 +115,10 @@
     - BorgChassis
   chatMessages: [caws.]
   chatTriggers:
-    - caw
-    - caws
-    - cawing
-    - cawed
+    - кар
+    - каркнул
+    - каркает
+    - каркнула
 
 #Vulpkanin
 - type: emote
@@ -139,10 +134,10 @@
     - BorgChassis
   chatMessages: [barks.]
   chatTriggers:
-    - bark
-    - barks
-    - barked
-    - barking
+    - лает
+    - гав
+    - лай
+    - гаф
 
 - type: emote
   id: Snarl
@@ -157,10 +152,9 @@
     - BorgChassis
   chatMessages: [snarls.]
   chatTriggers:
-    - snarl
-    - snarls
-    - snarled
-    - snarling
+    - рычит
+    - рык
+    - рыкает
 
 - type: emote
   id: Whine
@@ -175,10 +169,8 @@
     - BorgChassis
   chatMessages: [whines.]
   chatTriggers:
-    - whine
-    - whines
-    - whined
-    - whining
+    - скул
+    - скулит
 
 - type: emote
   id: Howl
@@ -193,10 +185,8 @@
     - BorgChassis
   chatMessages: [howls.]
   chatTriggers:
-    - howl
-    - howls
-    - howling
-    - howled
+    - лает
+    - лай
 
 - type: emote
   id: Awoo
@@ -211,7 +201,7 @@
     - BorgChassis
   chatMessages: [awoos.]
   chatTriggers:
-    - awoo
-    - awoos
-    - awooing
-    - awooed
+    - аву
+    - uwu
+    - owo
+    - авукает

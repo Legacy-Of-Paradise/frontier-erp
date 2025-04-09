@@ -13,15 +13,12 @@
     - BorgChassis
   chatMessages: [hisses.]
   chatTriggers:
-    - hiss
-    - hisses
-    - hiss.
-    - hisses.
-    - hisses!
-    - hissing
-    - hissed
-    - hissing.
-    - hissed.
+    - шш
+    - хшш
+    - шипит
+    - хсш
+    - шшш
+    - хшшш
 
 - type: emote
   id: Meow
@@ -37,33 +34,23 @@
     - BorgChassis
   chatMessages: [meows.]
   chatTriggers:
-    - meow
-    - meows
-    - meow.
-    - meow!
-    - meowing
-    - meowed
-    - miau
-    - miaus
-    - meows.
-    - meows~
-    - meows!
-    - meowing.
-    - meowed.
-    - miau.
-    - miaus.
-    - miaus!
-    - nya
-    - nyas
-    - nya.
-    - nyas.
-    - nyas!
-    - mraow.
-    - mraow!
-    - mraow~
-    - mraows.
-    - mraows!
-    - mraows~
+    - мяу
+    - мяф
+    - мяфк
+    - мя
+    - ня
+    - ня!
+    - мяу!
+    - мяф!
+    - мяфк!
+    - мяу~
+    - мяф~
+    - мяфк~
+    - мя~
+    - ня~
+    - миау
+    - миау!
+    - мияу~
 
 - type: emote
   id: Mew
@@ -79,10 +66,8 @@
     - BorgChassis
   chatMessages: [mews.]
   chatTriggers:
-    - mew
-    - mews
-    - mewing
-    - mewed
+    - кричит
+    - орёт
 
 - type: emote
   id: Growl
@@ -98,10 +83,9 @@
     - BorgChassis
   chatMessages: [growls.]
   chatTriggers:
-    - growl
-    - growls
-    - growling
-    - growled
+    - рычит
+    - рык
+    - шипит
 
 - type: emote
   id: Purr
@@ -117,7 +101,7 @@
     - BorgChassis
   chatMessages: [purrs.]
   chatTriggers:
-    - purr
-    - purrs
-    - purring
-    - purred
+    - мурчит
+    - мур
+    - мурк
+    - мурьк
