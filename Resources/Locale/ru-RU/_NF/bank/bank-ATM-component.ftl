@@ -3,7 +3,7 @@
 bank-atm-menu-title = Галактический банк NanoTrasen
 bank-atm-menu-balance-label = Баланс:{ " " }
 bank-atm-menu-no-bank = Нет банковского аккаунта!
-bank-atm-menu-withdraw-button = Считать
+bank-atm-menu-withdraw-button = Снять
 bank-atm-menu-deposit-label = Взнос:{ " " }
 bank-atm-menu-amount-label = Высчет:{ " " }
 bank-atm-menu-no-deposit = Пуст

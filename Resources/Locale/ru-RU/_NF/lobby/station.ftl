@@ -1,2 +1,2 @@
-station-frontier-outpost = Аванпост Фронтира
-station-nsfd = Офис ДШ
+station-frontier-outpost = Аванпост Новых Горизонтов
+station-nsfd = Департамент Шерифа
