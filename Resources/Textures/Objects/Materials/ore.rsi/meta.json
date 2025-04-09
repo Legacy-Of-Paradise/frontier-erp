@@ -60,6 +60,10 @@
       "directions": 4
     },
     {
+      "name": "iron-inhand-left",
+      "directions": 4
+    },
+    {
       "name": "gold-inhand-left",
       "directions": 4
     },
