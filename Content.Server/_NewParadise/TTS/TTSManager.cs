@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading;
@@ -62,15 +63,23 @@ public sealed class TTSManager
         string? effect = null)
     {
         var url = _cfg.GetCVar(NewParadiseCvars.TtsApiUrl);
+        var apiKey = _cfg.GetCVar(NewParadiseCvars.TtsApiKey);
         var maxCacheSize = _cfg.GetCVar(NewParadiseCvars.TtsMaxCacheSize);
 
-        if (string.IsNullOrWhiteSpace(url)) // zaebal padat
+        if (string.IsNullOrWhiteSpace(url))
         {
             _sawmill.Log(LogLevel.Error, nameof(TTSManager), "TTS Api url not specified");
             return null;
         }
 
+        if (string.IsNullOrWhiteSpace(apiKey))
+        {
+            _sawmill.Log(LogLevel.Error, nameof(TTSManager), "TTS ApiKey not specified");
+            return null;
+        }
+
         WantedCount.Inc();
+
         var cacheKey = GenerateCacheKey(speaker, text);
         if (_cache.TryGetValue(cacheKey, out var data))
         {
@@ -88,13 +97,14 @@ public sealed class TTSManager
             Effect = effect
         };
 
-        var request = CreateRequestLink(url, body);
+        var request = CreateRequestLink(url, apiKey, body);
 
         var reqTime = DateTime.UtcNow;
         try
         {
             var cts = new CancellationTokenSource(TimeSpan.FromSeconds(10));
-            var response = await _httpClient.GetAsync(request, cts.Token);
+            var response = await _httpClient.SendAsync(request, cts.Token);
+
             if (!response.IsSuccessStatusCode)
             {
                 throw new Exception($"TTS request returned bad status code: {response.StatusCode}");
@@ -131,7 +141,7 @@ public sealed class TTSManager
         }
     }
 
-    private static string CreateRequestLink(string url, GenerateVoiceRequest body)
+    private static HttpRequestMessage CreateRequestLink(string url, string apiKey, GenerateVoiceRequest body)
     {
         var uriBuilder = new UriBuilder(url);
         var query = HttpUtility.ParseQueryString(uriBuilder.Query);
@@ -145,7 +155,19 @@ public sealed class TTSManager
             query["effect"] = body.Effect;
 
         uriBuilder.Query = query.ToString();
-        return uriBuilder.ToString();
+
+        var request = new HttpRequestMessage()
+        {
+            Method = HttpMethod.Get,
+            RequestUri = new Uri(uriBuilder.ToString()),
+            Headers =
+            {
+                Authorization = new AuthenticationHeaderValue("Bearer", apiKey),
+            },
+        };
+
+
+        return request;
     }
 
     public void ResetCache()

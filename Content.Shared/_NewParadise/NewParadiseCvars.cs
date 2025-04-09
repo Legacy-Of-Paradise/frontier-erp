@@ -5,6 +5,7 @@ namespace Content.Shared._NewParadise;
 [CVarDefs]
 public sealed class NewParadiseCvars
 {
+    #region TTS
     /// <summary>
     /// Is TTS enabled
     /// </summary>
@@ -16,6 +17,12 @@ public sealed class NewParadiseCvars
     /// </summary>
     public static readonly CVarDef<string> TtsApiUrl =
         CVarDef.Create("tts.api_url", string.Empty, CVar.SERVERONLY);
+
+    /// <summary>
+    /// Tts api key
+    /// </summary>
+    public static readonly CVarDef<string> TtsApiKey =
+        CVarDef.Create("tts.api_key", string.Empty, CVar.SERVERONLY);
 
     /// <summary>
     /// TTS Volume
@@ -30,4 +37,5 @@ public sealed class NewParadiseCvars
         CVarDef.Create("tts.max_cash_size", 200, CVar.SERVERONLY | CVar.ARCHIVE);
 
 
+    #endregion
 }
