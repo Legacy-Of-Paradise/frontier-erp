@@ -5,6 +5,8 @@
   description: Just add capitalism!
   abstract: true
   components:
+  - type: TTS
+    voicePrototypeId: Nord
   - type: ActionGrant
     actions:
     - ActionVendingThrow
