@@ -1,6 +1,12 @@
 ent-DemagUnlimited = криптографический преобразователь последовательности (ЕМАГ)
     .desc = Универсальное решение для взлома. Замок для думающего человека. Культовый инструмент для исправления ошибок.
-    .suffix = Нелеметированый
+    .suffix = Неограниченный
 ent-Demag = { ent-DemagUnlimited }
-    .suffix = Лимитированный
+    .suffix = Ограниченный
     .desc = { ent-DemagUnlimited.desc }
+ent-PmagUnlimited = Освободитель машин
+    .desc = Удаляет привязку к станции машинного DRM. Лучший друг пирата.
+    .suffix = Неограниченный
+ent-Pmag = { ent-PmagUnlimited }
+    .suffix = Ограниченный
+    .desc = { ent-PmagUnlimited.desc }

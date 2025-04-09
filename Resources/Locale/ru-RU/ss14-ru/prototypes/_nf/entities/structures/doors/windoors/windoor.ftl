@@ -11,5 +11,5 @@ ent-WindoorSecureHeadOfSecurityLocked = { ent-WindoorSecure }
     .suffix = Шериф, Закрыто
     .desc = { ent-WindoorSecure.desc }
 ent-WindoorSecureBrigmedicLocked = { ent-WindoorSecure }
-    .suffix = БригМедик, Закрыто
+    .suffix = Бригмедик, Закрыто
     .desc = { ent-WindoorSecure.desc }

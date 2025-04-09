@@ -1,2 +1,14 @@
 ent-VehicleKeyHoverbikeNF = ключи от ховербайка
     .desc = Симпатичный брелок.
+ent-VehicleKeyJanicart = ключи от убор-тележки
+    .desc = Клёвый дизайн!
+ent-VehicleKeySecway = ключи от сегвея
+    .desc = Ключ к будущему!
+ent-VehicleKeyATV = ключи от квадроцикла
+    .desc = Думаете, это выглядит как всего лишь один ключ? Ключи от квадроцикла означают "четыре ключа".
+ent-VehicleKeySkeleton = ключи от транспорта скелета
+    .desc = Заведут любой транспорт!
+ent-VehicleKeySyndicateSegway = ключи от сегвея Синдиката
+    .desc = Дизайн выполнен по образцу культового ЕМАГ.
+ent-VehicleKeySkeletonMotorcycle = ключи от скелетного мотоцикла.
+    .desc = Красивая связка ключей, украшенная черепом.
