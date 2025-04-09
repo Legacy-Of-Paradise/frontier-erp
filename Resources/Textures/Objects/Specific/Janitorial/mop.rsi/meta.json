@@ -18,13 +18,51 @@
       "name": "inhand-right",
       "directions": 4
     },
-  	{
+    {
+      "name": "inhand-left-fill-1",
+      "directions": 4
+    },
+    {
+      "name": "inhand-left-fill-2",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right-fill-1",
+      "directions": 4
+    },
+    {
+      "name": "inhand-right-fill-2",
+      "directions": 4
+    },
+    {
       "name": "wielded-inhand-left",
       "directions": 4
     },
-	  {
+    {
       "name": "wielded-inhand-right",
       "directions": 4
+    },
+    {
+      "name": "wielded-inhand-left-fill-1",
+      "directions": 4
+    },
+    {
+      "name": "wielded-inhand-left-fill-2",
+      "directions": 4
+    },
+    {
+      "name": "wielded-inhand-right-fill-1",
+      "directions": 4
+    },
+    {
+      "name": "wielded-inhand-right-fill-2",
+      "directions": 4
+    },
+    {
+      "name": "fill-1"
+    },
+    {
+      "name": "fill-2"
     }
   ]
 }
