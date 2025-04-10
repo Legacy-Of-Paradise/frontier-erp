@@ -259,7 +259,6 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
-    fireOnDropChance: 1
   - type: BallisticAmmoProvider
     capacity: 7
     proto: CartridgeMagnum

@@ -23,8 +23,8 @@
   #   modifiers:
   #     coefficients:
   #       Shock: 1.05 # oh no so conductive
-  - type: Insulated
-    coefficients: 1.5
+  # - type: Insulated
+  #   coefficients: 1.5
   - type: Tag
     tags:
     - BrassKnucklesNF
