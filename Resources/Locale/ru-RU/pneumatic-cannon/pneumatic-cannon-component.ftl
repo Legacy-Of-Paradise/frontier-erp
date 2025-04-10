@@ -4,7 +4,7 @@ pneumatic-cannon-component-itemslot-name = Газовый баллон
 
 ## Shown when trying to fire, but no gas
 
-pneumatic-cannon-component-fire-no-gas = { CAPITALIZE($cannon) } щелкает, но газ не выходит.
+pneumatic-cannon-component-fire-no-gas = { CAPITALIZE($cannon) } щёлкает, но газ не выходит.
 
 ## Shown when changing power.
 

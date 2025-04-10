@@ -38,11 +38,10 @@
       - map: [ "enum.HumanoidVisualLayers.Head" ]
       - map: [ "enum.HumanoidVisualLayers.Snout" ]
       - map: [ "enum.HumanoidVisualLayers.Eyes" ]
+      - map: [ "enum.HumanoidVisualLayers.RArm" ] # Frontier: return to top near LArm
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "underpants" ]
-      - map: [ "undershirt" ]
       - map: [ "socks" ]
       - map: [ "jumpsuit" ]
       - map: ["enum.HumanoidVisualLayers.LFoot"]
@@ -61,8 +60,8 @@
       - map: [ "outerClothing" ]
       - map: [ "eyes" ]
       - map: [ "belt" ]
-      - map: [ "neck" ]
       - map: [ "back" ]
+      - map: [ "neck" ]
       - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
       - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
       - map: [ "enum.HumanoidVisualLayers.Tail" ]
@@ -72,8 +71,7 @@
         sprite: "Effects/creampie.rsi"
         state: "creampie_human"
         visible: false
-# Yes, RArm has to be down here
-      - map: [ "enum.HumanoidVisualLayers.RArm" ]
+      - map: [ "enum.HumanoidVisualLayers.RArmExtension" ] # Frontier
       - map: [ "enum.HumanoidVisualLayers.Hair" ]
       - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
       - map: [ "mask" ]
@@ -127,7 +125,7 @@
 #    baseWalkSpeed: 2.5 # Frontier
 #    baseSprintSpeed: 5.0 # Frontier
     weightlessAcceleration: 2.5
-  - type: Inventory 
+  - type: Inventory
     speciesId: harpy
     displacements:
       jumpsuit:
@@ -135,6 +133,7 @@
           32:
             sprite: _DV/Mobs/Species/Harpy/displacement.rsi
             state: jumpsuit
+    femaleDisplacements: {} # Frontier: female jumpsuit displacement
   - type: HarpyVisuals
   - type: UltraVision
 #  - type: Tag # Frontier
@@ -153,7 +152,7 @@
   components:
   - type: HumanoidAppearance
     species: Harpy
-  - type: Inventory 
+  - type: Inventory
     speciesId: harpy
     displacements:
       jumpsuit:
@@ -161,6 +160,7 @@
           32:
             sprite: _DV/Mobs/Species/Harpy/displacement.rsi
             state: jumpsuit
+    femaleDisplacements: {} # Frontier: female jumpsuit displacement
   - type: Sprite
     scale: 0.9, 0.9
     layers:
@@ -168,11 +168,10 @@
       - map: [ "enum.HumanoidVisualLayers.Head" ]
       - map: [ "enum.HumanoidVisualLayers.Snout" ]
       - map: [ "enum.HumanoidVisualLayers.Eyes" ]
+      - map: [ "enum.HumanoidVisualLayers.RArm" ] # Frontier: return to top near LArm
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "underpants" ]
-      - map: [ "undershirt" ]
       - map: [ "socks" ]
       - map: [ "jumpsuit" ]
       - map: ["enum.HumanoidVisualLayers.LFoot"]
@@ -198,8 +197,7 @@
         sprite: "Effects/creampie.rsi"
         state: "creampie_human"
         visible: false
-# Yes, RArm has to be down here
-      - map: [ "enum.HumanoidVisualLayers.RArm" ]
+      - map: [ "enum.HumanoidVisualLayers.RArmExtension" ] # Frontier
       - map: [ "enum.HumanoidVisualLayers.Hair" ]
       - map: [ "mask" ]
       - map: [ "head" ]

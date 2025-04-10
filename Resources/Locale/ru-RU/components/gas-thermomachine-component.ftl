@@ -6,4 +6,4 @@ comp-gas-thermomachine-ui-status-disabled = Выкл
 comp-gas-thermomachine-ui-status-enabled = Вкл
 gas-thermo-component-upgrade-heating = максимальная температура
 gas-thermo-component-upgrade-cooling = минимальная температура
-gas-thermo-component-upgrade-heat-capacity = теплоемкость
+gas-thermo-component-upgrade-heat-capacity = теплоёмкость

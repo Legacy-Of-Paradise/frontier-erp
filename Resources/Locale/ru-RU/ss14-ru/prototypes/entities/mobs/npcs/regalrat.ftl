@@ -16,4 +16,4 @@ ent-ActionRatKingOrderFollow = Следовать
 ent-ActionRatKingOrderCheeseEm = Убить
     .desc = Прикажите своей армии атаковать тех, на кого вы укажете.
 ent-ActionRatKingOrderLoose = Вольно
-    .desc = Прикажите своей армии действовать на свое усмотрение.
+    .desc = Прикажите своей армии действовать на своё усмотрение.

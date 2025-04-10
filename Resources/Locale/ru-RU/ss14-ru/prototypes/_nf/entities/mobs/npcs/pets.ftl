@@ -6,6 +6,8 @@ ent-MobCatClarpy = Кларпи
     .desc = Первый кот, получивший награду.
 ent-MobCatCappy = Колпачок
     .desc = Первый кот, который выстрелил из пистолета.
+ent-MobCatElCapo = Эль капо
+    .desc = Разыскивается за бесчисленные кошачьи преступления.
 ent-MobCatClugg = Клаг
     .desc = { ent-NFMobPet.desc }
 ent-MobCatMistake = Ошибка
@@ -17,4 +19,4 @@ ent-EldritchPushGun = жуткий ручной пистолет
 ent-ActionEldritchPush = [color=yellow]Сила Удара[/color]
     .desc = Призовите сверхъестественную руку. [color=yellow]5-минутная перезарядка.[/color]
 ent-MobKoboldYipyip = Ип-ип
-    .desc = Он живет в ананасе на Горизонте!
+    .desc = Он живёт в ананасе на Горизонте!

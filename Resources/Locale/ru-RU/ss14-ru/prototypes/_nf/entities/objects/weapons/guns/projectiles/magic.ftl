@@ -6,3 +6,5 @@ ent-BulletBloodCultDarkBolt = кровавый снаряд
     .desc = { ent-BaseBulletTrigger.desc }
 ent-BulletEldritchHand = жуткая рука
     .desc = { ent-BaseBullet.desc }
+ent-ProjectileIcicleLowDamage = { ent-ProjectileIcicle }
+    .desc = { ent-ProjectileIcicle.desc }

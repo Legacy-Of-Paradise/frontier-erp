@@ -9,12 +9,21 @@ ent-PortableGeneratorSuperPacmanShuttle = { ent-BaseGeneratorShuttle }
 ent-PortableGeneratorJrPacmanShuttle = { ent-BaseGeneratorShuttle }
     .suffix = Сварочное топливо, 6 кВ, Корабельный
     .desc = { ent-BaseGeneratorShuttle.desc }
-ent-PortableGeneratorHyperPacman = Г.И.П.Е.Р.П.А.К.М.А.Н.
+ent-PortableGeneratorDK = портативный генератор типа Д-К
     .desc =
-        Генератор нового поколения для станций.
-        Работает на бананиуме и рассчитан на напряжение до 100 кВ.
-        Очень радиоактивен, требует радограждения.
-    .suffix = Бананиуме, 60 кВ
-ent-PortableGeneratorHyperPacmanShuttle = { ent-BaseGeneratorShuttle }
-    .suffix = Бананиуме, 60 кВ, Корабельный
+        Прототип реактора деления Данн-Кикко. Использовать с осторожностью.
+        Работает на бананиуме, номинальная мощность до 120 кВт.
+        Сильно радиоактивен без защиты.
+    .suffix = Бананиум, Рад+, 60 кВт
+ent-PortableGeneratorDKShuttle = { ent-BaseGeneratorShuttle }
+    .suffix = Бананиум, Рад+, 60 кВт, Корабль
+    .desc = { ent-BaseGeneratorShuttle.desc }
+ent-PortableGeneratorDKJr = портативный генератор типа Д-К Младший
+    .desc =
+        Миниатюрный реактор деления Данн-Кикко. Использовать с осторожностью.
+        Работает на бананиуме, номинальная мощность до 100 кВт.
+        Довольно радиоактивен без защиты.
+    .suffix = Бананиум, Рад-, 60 кВт
+ent-PortableGeneratorDKJrShuttle = { ent-BaseGeneratorShuttle }
+    .suffix = Бананиум, Рад-, 60 кВт, Корабль
     .desc = { ent-BaseGeneratorShuttle.desc }

@@ -13,3 +13,5 @@ ent-ClothingMaskCultJanitor = маска культиста-уборщика
 ent-ClothingMaskPunkHalf = бандитская полумаска
     .desc = Плотно прилегающая дыхательная маска с подсветкой!
     .suffix = Случайный облик
+ent-ClothingMaskClownBald = маска клоуна
+    .desc = Если с клоунадой не сложится, может, ограбишь банк?

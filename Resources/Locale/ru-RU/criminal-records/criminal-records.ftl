@@ -3,6 +3,11 @@ criminal-records-console-records-list-title = Члены экипажа
 criminal-records-console-select-record-info = Выбрать запись.
 criminal-records-console-no-records = Записи не найдены!
 criminal-records-console-no-record-found = Записи о выбранном сотруднике не найдены.
+# Frontier: no fun allowed
+# criminal-records-console-flavor-left = Сначала арестовать! Задавайте вопросы потом.
+criminal-records-console-flavor-left = Защитите закон! Это ваше бремя, которое вы должны нести.
+criminal-records-console-flavor-right = v2.1
+criminal-records-console-show-all = Все
 
 ## Status
 
@@ -11,8 +16,8 @@ criminal-records-status-none = Нет
 criminal-records-status-wanted = Разыскивается
 criminal-records-status-detained = Под арестом
 criminal-records-status-suspected = Подозревается
-criminal-records-status-discharged = Освобожден
-criminal-records-status-paroled = Освобожден по УДО
+criminal-records-status-discharged = Освобождён
+criminal-records-status-paroled = Освобождён по УДО
 criminal-records-console-wanted-reason = [color=gray]Причина розыска[/color]
 criminal-records-console-suspected-reason = [color=gray]Причина подозрения[/color]
 criminal-records-console-reason = Причина

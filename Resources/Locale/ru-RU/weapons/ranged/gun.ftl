@@ -6,6 +6,7 @@ gun-disabled = Вы не можете использовать оружие!
 gun-clumsy = Оружие взрывается вам в лицо!
 gun-set-fire-mode = Выбран режим { $mode }
 gun-magazine-whitelist-fail = Это не помещается в оружие!
+gun-magazine-fired-empty = Патроны закончились!
 # SelectiveFire
 gun-SemiAuto = полуавто
 gun-Burst = очередь
@@ -36,7 +37,7 @@ gun-chamber-bolt-close = Закрыть затвор
 gun-chamber-bolt-open = Открыть затвор
 gun-chamber-bolt-closed-state = открыт
 gun-chamber-bolt-open-state = закрыт
-gun-chamber-rack = Передернуть затвор
+gun-chamber-rack = Передёрнуть затвор
 # MagazineAmmoProvider
 gun-magazine-examine =
     Тут [color={ $color }]{ $count }[/color] { $count ->

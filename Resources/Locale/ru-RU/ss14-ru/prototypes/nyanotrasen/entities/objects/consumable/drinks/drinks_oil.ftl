@@ -1,6 +1,6 @@
 ent-BaseOilJar = { ent-DrinkBottleBaseEmpty }
     .desc = { ent-DrinkBottleBaseEmpty.desc }
-ent-OilJarGhee = банка топленого масла
+ent-OilJarGhee = банка топлёного масла
     .desc = Большая банка из тонированного стекла с простой этикеткой с изображением сливочного масла.
 ent-OilJarCorn = баночка кукурузного масла
     .desc = Большая банка из тонированного стекла с простой этикеткой в ​​виде стебля кукурузы.

@@ -5,4 +5,4 @@ gas-miner-moles-cutoff-text = Ограничение окружающих мол
 gas-miner-pressure-cutoff-text = Ограничение окружающего давления: { $pressure } кПа.
 gas-miner-state-working-text = Газодобытчик [color=green]активен[/color] и добывает газ.
 gas-miner-state-idle-text = Газодобытчик [color=yellow]простаивает[/color] и не добывает газ.
-gas-miner-state-disabled-text = Газодобытчик [color=red]отключен[/color] и не добывает газ.
+gas-miner-state-disabled-text = Газодобытчик [color=red]отключён[/color] и не добывает газ.

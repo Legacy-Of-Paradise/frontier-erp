@@ -9,5 +9,5 @@ ent-WizardStaffMeleeSoap = нейтральный мыльный посох во
 ent-WizardStaffMeleeBlood = нейтральный посох культистса
     .desc = { ent-BaseC3CultContraband.desc }
 ent-WizardStaffDarkBolt = культистский посох
-    .suffix = Темная молния
+    .suffix = Тёмная молния
     .desc = { ent-BaseC3CultContraband.desc }

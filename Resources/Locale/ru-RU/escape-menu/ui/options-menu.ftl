@@ -2,6 +2,7 @@
 
 ui-options-title = Игровые настройки
 ui-options-tab-accessibility = Доступность
+ui-options-tab-admin = Админ
 ui-options-tab-graphics = Графика
 ui-options-tab-controls = Управление
 ui-options-tab-audio = Аудио
@@ -28,6 +29,8 @@ ui-options-master-volume = Основная громкость:
 ui-options-midi-volume = Громкость MIDI (Муз. инструменты):
 ui-options-ambient-music-volume = Громкость музыки окружения:
 ui-options-ambience-volume = Громкость окружения:
+# Frontier: add expedition music volume
+ui-options-exped-music-volume = Громкость музыки экспедиции:
 ui-options-lobby-volume = Громкость лобби и окончания раунда:
 ui-options-interface-volume = Громкость интерфейса:
 ui-options-ambience-max-sounds = Кол-во одновременных звуков окружения:
@@ -35,6 +38,7 @@ ui-options-lobby-music = Музыка в лобби
 ui-options-restart-sounds = Звуки перезапуска раунда
 ui-options-event-music = Музыка событий
 ui-options-admin-sounds = Музыка админов
+ui-options-bwoink-sound = Проигрывать звук Ahelp'а
 ui-options-volume-label = Громкость
 ui-options-display-label = Дисплей
 ui-options-quality-label = Качество
@@ -75,24 +79,24 @@ ui-options-hud-theme-retro = Ретро
 ui-options-hud-theme-minimalist = Минимализм
 ui-options-hud-theme-ashen = Пепел
 ui-options-hud-layout-default = Стандартный
-ui-options-hud-layout-separated = Разделенный
+ui-options-hud-layout-separated = Разделённый
 ui-options-vp-stretch = Растянуть изображение для соответствия окну игры
 ui-options-vp-scale = Фиксированный масштаб окна игры:
 ui-options-vp-scale-value = x{ $scale }
-ui-options-vp-integer-scaling = Использовать целочисленное масштабирование (может вызывать появление черных полос/обрезания)
+ui-options-vp-integer-scaling = Использовать целочисленное масштабирование (может вызывать появление чёрных полос/обрезания)
 ui-options-vp-integer-scaling-tooltip =
     Если эта опция включена, область просмотра будет масштабироваться,
-    используя целочисленное значение при определенных разрешениях. Хотя это и
-    приводит к четким текстурам, это часто означает, что сверху/снизу экрана будут
-    черные полосы или что часть окна не будет видна.
+    используя целочисленное значение при определённых разрешениях. Хотя это и
+    приводит к чётким текстурам, это часто означает, что сверху/снизу экрана будут
+    чёрные полосы или что часть окна не будет видна.
 ui-options-vp-vertical-fit = Подгон окна просмотра по вертикали
 ui-options-vp-vertical-fit-tooltip =
     Когда функция включена, основное окно просмотра не будет учитывать горизонтальную ось
     при подгонке под ваш экран. Если ваш экран меньше, чем окно просмотра,
-    то это приведет к его обрезанию по горизонтальной оси.
+    то это приведёт к его обрезанию по горизонтальной оси.
 ui-options-vp-low-res = Изображение низкого разрешения
 ui-options-parallax-low-quality = Низкокачественный параллакс (фон)
-ui-options-fps-counter = Показать счетчик FPS
+ui-options-fps-counter = Показать счётчик FPS
 ui-options-vp-width = Ширина окна игры:
 ui-options-hud-layout = Тип HUD:
 
@@ -114,6 +118,11 @@ ui-options-header-shuttle = Шаттл
 ui-options-header-map-editor = Редактор карт
 ui-options-header-dev = Разработка
 ui-options-header-general = Основное
+ui-options-header-text-cursor = Текстовый курсор
+ui-options-header-text-cursor-select = Выделение текста
+ui-options-header-text-edit = Изменение текста
+ui-options-header-text-chat = Чат
+ui-options-header-text-other = Другой ввод текста
 ui-options-hotkey-keymap = Использовать клавиши QWERTY (США)
 ui-options-hotkey-toggle-walk = Переключать шаг\бег
 ui-options-function-move-up = Двигаться вверх
@@ -159,14 +168,14 @@ ui-options-function-flip-object = Перевернуть
 ui-options-function-focus-chat-input-window = Писать в чат
 ui-options-function-focus-local-chat-window = Писать в чат (IC)
 ui-options-function-focus-emote = Писать в чат (Emote)
-ui-options-function-focus-whisper-chat-window = Писать в чат (Шепот)
+ui-options-function-focus-whisper-chat-window = Писать в чат (Шёпот)
 ui-options-function-focus-radio-window = Писать в чат (Радио)
 ui-options-function-focus-looc-window = Писать в чат (LOOC)
 ui-options-function-focus-ooc-window = Писать в чат (OOC)
 ui-options-function-focus-admin-chat-window = Писать в чат (Админ)
-ui-options-function-focus-dead-chat-window = Писать в чат (Мертвые)
-ui-options-function-focus-console-chat-window = Писать в чат (консоль)
-ui-options-function-cycle-chat-channel-forward = Переключение каналов чата (Вперед)
+ui-options-function-focus-dead-chat-window = Писать в чат (Мёртвые)
+ui-options-function-focus-console-chat-window = Писать в чат (Консоль)
+ui-options-function-cycle-chat-channel-forward = Переключение каналов чата (Вперёд)
 ui-options-function-cycle-chat-channel-backward = Переключение каналов чата (Назад)
 ui-options-function-open-character-menu = Открыть меню персонажа
 ui-options-function-open-context-menu = Открыть контекстное меню
@@ -227,6 +236,41 @@ ui-options-function-shuttle-strafe-down = Стрейф вниз
 ui-options-function-shuttle-rotate-left = Поворот налево
 ui-options-function-shuttle-rotate-right = Поворот направо
 ui-options-function-shuttle-brake = Торможение
+ui-options-function-text-cursor-left = Переместить курсор влево
+ui-options-function-text-cursor-right = Переместить курсор вправо
+ui-options-function-text-cursor-up = Переместить курсор вверх
+ui-options-function-text-cursor-down = Переместить курсор вниз
+ui-options-function-text-cursor-word-left = Переместить курсор влево по слову
+ui-options-function-text-cursor-word-right = Переместите курсор вправо по слову
+ui-options-function-text-cursor-begin = Переместить курсор в начало
+ui-options-function-text-cursor-end = Переместить курсор в начало
+ui-options-function-text-cursor-select = Выделить текст
+ui-options-function-text-cursor-select-left = Разверните выделение влево
+ui-options-function-text-cursor-select-right = Разверните выделение справа
+ui-options-function-text-cursor-select-up = Разверните выделение вверх
+ui-options-function-text-cursor-select-down = Разверните выделение вниз
+ui-options-function-text-cursor-select-word-left = Расширить выделение в лево
+ui-options-function-text-cursor-select-word-right = Расширить выделение в право
+ui-options-function-text-cursor-select-begin = Расширить выделение в в начало
+ui-options-function-text-cursor-select-end = Расширить выделение в конец
+ui-options-function-text-backspace = Стереть
+ui-options-function-text-delete = Удалить
+ui-options-function-text-word-backspace = Стереть слово
+ui-options-function-text-word-delete = Удалить слово
+ui-options-function-text-newline = Новая строка
+ui-options-function-text-submit = Предоставить
+ui-options-function-multiline-text-submit = Предоставить на мультилинии
+ui-options-function-text-select-all = Выделить всё
+ui-options-function-text-copy = Копировать
+ui-options-function-text-cut = Вырезать
+ui-options-function-text-paste = Вставить
+ui-options-function-text-history-prev = Предыдущее из истории
+ui-options-function-text-history-next = Следующее из истории
+ui-options-function-text-release-focus = Сфокусироваться на показе
+ui-options-function-text-scroll-to-bottom = Прокрутите страницу до конца
+ui-options-function-text-tab-complete = Заполнение вкладки
+ui-options-function-text-complete-next = Завершите следующее
+ui-options-function-text-complete-prev = Завершить предыдущее
 ui-options-net-interp-ratio = Сетевое сглаживание
 ui-options-net-predict = Предугадывание на стороне клиента
 ui-options-net-interp-ratio-tooltip =
@@ -243,18 +287,18 @@ ui-options-net-predict-tick-bias-tooltip =
 ui-options-net-pvs-spawn = Лимит появление PVS сущностей
 ui-options-net-pvs-spawn-tooltip =
     Ограничение частоты отправки новых появившихся сущностей сервером на клиент.
-    Снижение этого параметра может помочь уменьшить "захлебывания",
+    Снижение этого параметра может помочь уменьшить "захлёбывания",
     вызываемые спавном сущностей, но может привести к их резкому появлению.
 ui-options-net-pvs-entry = Лимит PVS сущностей
 ui-options-net-pvs-entry-tooltip =
     Ограничение частоты отправки новых видимых сущностей сервером на клиент.
-    Снижение этого параметра может помочь уменьшить "захлебывания",
+    Снижение этого параметра может помочь уменьшить "захлёбывания",
     вызываемые спавном сущностей, но может привести к их резкому появлению.
 ui-options-net-pvs-leave = Частота удаления PVS
 ui-options-net-pvs-leave-tooltip =
     Ограничение частоты, с которой клиент будет удалять
     сущности вне поля зрения. Снижение этого параметра может помочь
-    уменьшить "захлебывания" при ходьбе, но иногда может
+    уменьшить "захлёбывания" при ходьбе, но иногда может
     привести к неправильным предугадываниям и другим проблемам.
 cmd-options-desc = Открывает меню опций, опционально с конкретно выбранной вкладкой.
 cmd-options-help = Использование: options [tab]
@@ -263,3 +307,7 @@ ui-options-colorblind-friendly = Режим для дальтоников
 ui-options-reduced-motion = Снижение интенсивности визуальных эффектов
 ui-options-chat-window-opacity = Прозрачность окна чата
 ui-options-screen-shake-intensity = Интенсивность дрожания экрана
+ui-options-speech-bubble-text-opacity = Прозрачность текста в речевом пузыре
+ui-options-speech-bubble-speaker-opacity = Прозрачность динамика в речевом пузыре
+ui-options-speech-bubble-background-opacity = Прозрачность фона речевого пузыря
+ui-options-enable-classic-overlay = Верните интерфейс антагонов из классический режим

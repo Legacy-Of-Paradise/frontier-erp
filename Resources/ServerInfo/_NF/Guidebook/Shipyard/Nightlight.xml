@@ -1,0 +1,112 @@
+<Document>
+  # СЛУЖЕБНЫЙ ШАТТЛ КЛАССА "НОЧНОЙ СВЕТ"
+  <Box>
+
+  <GuideEntityEmbed Entity="NFPosterContrabandFsbLogo" Caption="Исследования"/>
+  <GuideEntityEmbed Entity="Biogenerator" Caption="Переработка"/>
+  <GuideEntityEmbed Entity="NFPosterContrabandFsbNightlight" Caption="Развлечения"/>
+
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="ShuttleMapNightlight" Caption=""/>
+  </Box>
+  [color=#a4885c]Размер корабля:[/color] Средний
+
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 1-4
+
+  [color=#a4885c]Тип электроснабжения:[/color] Урановый
+
+  [color=#a4885c]Базовое энергопотребление:[/color] 25 кВт
+
+  [color=#a4885c]Экспедиции:[/color] Нет
+
+  [color=#a4885c]Консоль IFF:[/color] Нет
+
+  "Nightlight - это флагманский исследовательский корабль Far Star Biotech для биорекомбинации биомассы. Предлагая первоклассное гостеприимство и условия для приготовления пищи для стандартных рабочих Nanotrasen; Nightlight должен обеспечить любые исследовательские группы, изучающие новые штаммы рекомбинантного питания, беспрепятственным потоком готовых биоформ."
+
+  # Функции корабля
+
+  <Box>
+    <GuideEntityEmbed Entity="ButtonFrameCautionSecurity" Caption="Блокировка внешних шлюзов"/>
+    <GuideEntityEmbed Entity="ButtonFrameCaution" Caption="Отключить двигатели"/>
+    <GuideEntityEmbed Entity="ButtonFrameGrey" Caption="Переключить ставни"/>
+    <GuideEntityEmbed Entity="ButtonFrameJanitor" Caption="Управление освещением"/>
+  </Box>
+
+  # Пилотирование
+  <Box>
+    <GuideEntityEmbed Entity="ComputerShuttle"/>
+  </Box>
+  После нажатия на консоль шаттла вы увидите радарный вид шаттла. Вот шаги для пилотирования шаттла вперед и назад:
+
+  - Сначала отсоедините все шлюзы, подключенные к док-станции.
+  - Затем вы сможете непосредственно пилотировать шаттл. Управление довольно простое: [color=#028ed9]"W"[/color] и [color=#028ed9]"S"[/color] - вперед и назад, [color=#028ed9]"A"[/color] и [color=#028ed9]"D"[/color] - влево и вправо, а [color=#028ed9]"Q"[/color] и [color=#028ed9]"E"[/color] - вращение влево и вправо; [color=#028ed9]"пробел"[/color] - тормоз и точное перемещение при удержании [color=#028ed9]"пробела"[/color] во время других действий.
+
+  # Набор экипажа
+  <Box>
+    <GuideEntityEmbed Entity="ComputerStationRecords"/>
+    <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
+    <GuideEntityEmbed Entity="IntercomCommon"/>
+  </Box>
+  Как капитан корабля Nanotrasen, вы имеете право по своему усмотрению нанимать, увольнять, понижать или повышать в должности членов экипажа. Есть два способа набора экипажа для капитана: вы можете либо использовать [color=#a4885c]компьютер с записями станции[/color] на своем корабле, чтобы открыть вакансии (доступные должности зависят от корабля), либо пригласить других игроков в свою команду через внутриигровые средства связи.
+
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА
+
+  ## 1. Электропитание
+
+  ## 1.1. Аккумуляторные блоки
+  <Box>
+  <GuideEntityEmbed Entity="SubstationBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+
+    - Проверьте, включен ли главный выключатель блока ЛКП.
+    - Проверьте текущую нагрузку* (Вт) блока ЛКП.
+
+  ## 1.2. Генераторная установка С.У.П.Е.Р.П.А.К.М.А.Н.
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
+    <GuideEntityEmbed Entity="SheetUranium"/>
+    <GuideEntityEmbed Entity="SignRadiationMed"/>
+  </Box>
+
+  - Проверьте, закреплена ли генераторная установка С.У.П.Е.Р.П.А.К.М.А.Н. на полу.
+  - Проверьте наличие топлива в генераторной установке С.У.П.Е.Р.П.А.К.М.А.Н.. Для длительных полетов убедитесь, что у вас достаточно топлива для обеспечения продолжительной выработки энергии во время полета.
+  - Проверьте, установлен ли выход HV на генераторной установке С.У.П.Е.Р.П.А.К.М.А.Н..
+  - Установите целевую мощность 30 [bold]кВт[/bold].
+  - Запустите генераторную установку С.У.П.Е.Р.П.А.К.М.А.Н..
+  - Закройте радиационную защиту.
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительный контур
+  <Box>
+  <GuideEntityEmbed Entity="AirCanister"/>
+  <GuideEntityEmbed Entity="GasPort"/>
+  <GuideEntityEmbed Entity="GasPressurePump"/>
+  </Box>
+
+  - Проверьте, закреплен ли баллон с воздухом на порту подключения.
+  - Проверьте, установлено ли нормальное давление (101 кПа) на распределительном насосе.
+  - Включите распределительный насос.
+
+  ## 2.2. Контур отходов
+  <Box>
+  <GuideEntityEmbed Entity="GasPressurePump"/>
+  <GuideEntityEmbed Entity="AirAlarm"/>
+  </Box>
+
+  - Включите насос контура отходов.
+  - Отключите автоматический режим воздушной тревоги в машинном отделении.
+  - Установите для воздушной тревоги в машинном отделении режим фильтрации (широкий).
+
+  ## 3. Прочие проверки
+  <Box>
+  <GuideEntityEmbed Entity="Gyroscope"/>
+  <GuideEntityEmbed Entity="GravityGeneratorMini"/>
+  </Box>
+
+  - Проверьте, закреплен ли, запитан и включен гироскоп.
+  - Проверьте, закреплен ли, запитан и включен мини-генератор гравитации.
+
+</Document>

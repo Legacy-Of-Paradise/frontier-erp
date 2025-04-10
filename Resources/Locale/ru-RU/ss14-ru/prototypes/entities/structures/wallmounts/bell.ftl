@@ -1,2 +1,2 @@
-ent-BoxingBell = боксерский гонг
+ent-BoxingBell = боксёрский гонг
     .desc = Динь-динь!

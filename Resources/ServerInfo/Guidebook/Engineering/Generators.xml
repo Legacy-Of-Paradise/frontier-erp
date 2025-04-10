@@ -1,0 +1,75 @@
+﻿<Document>
+   # Генераторы
+   Генераторы - это устройства, которые производят энергию для станции. Они различаются по размеру и выходной мощности, и каждый имеет свои уникальные особенности и требования.
+
+   Инженеры должны настраивать низкоуровневые генераторы, такие как Солнечные Батареи и АМД, в начале смены, чтобы дать достаточно времени для настройки высокоуровневых генераторов, таких как Двигатель Сингулярности, для устойчивого энергоснабжения на оставшуюся часть смены.
+
+   <Box>
+       <GuideEntityEmbed Entity="SingularityGenerator" Caption=""/>
+       <GuideEntityEmbed Entity="TeslaGenerator" Caption=""/>
+   </Box>
+   <Box>
+       ## Двигатель Сингулярности и Тесла
+   </Box>
+   <Box>
+       [color=#999999][italic]Устройства, способные производить бесконечную энергию — и обладающие разрушительным потенциалом[italic][/color]
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="AmeController" Caption=""/>
+       <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
+   </Box>
+   <Box>
+       ## Антиматериальный Двигатель
+   </Box>
+   <Box>
+       [color=#999999][italic]Генератор краткосрочной поддержки для станции[italic][/color]
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="TegCirculator" Rotation="180" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="TegCenter" Rotation="90" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="TegCirculator" Caption="" Margin="0"/>
+   </Box>
+   <Box>
+       ## Термоэлектрический Генератор (ТЭГ)
+   </Box>
+   <Box>
+       [color=#999999][italic]Продвинутый атмосферный генератор, использующий энергию газов[italic][/color]
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+       <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+       <GuideEntityEmbed Entity="SolarPanel" Caption=""/>
+   </Box>
+   <Box>
+       ## Солнечные Панели
+   </Box>
+   <Box>
+       [color=#999999][italic]Пассивный источник энергии, не требующий обслуживания[italic][/color]
+   </Box>
+
+
+   <Box>
+       <GuideEntityEmbed Entity="PortableGeneratorJrPacman" Caption="" />
+       <GuideEntityEmbed Entity="PortableGeneratorPacman" Caption="" />
+       <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="" />
+   </Box>
+   <Box>
+       ## Портативные Генераторы
+   </Box>
+   <Box>
+       [color=#999999][italic]Портативные генераторы для использования экипажем и аварийного питания[italic][/color]
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="GeneratorRTG" Caption="" />
+   </Box>
+   <Box>
+       ## Радиоизотопный Термоэлектрический Генератор
+   </Box>
+   <Box>
+       [color=#999999][italic]Пассивный источник энергии, не требующий обслуживания[italic][/color]
+   </Box>
+</Document>

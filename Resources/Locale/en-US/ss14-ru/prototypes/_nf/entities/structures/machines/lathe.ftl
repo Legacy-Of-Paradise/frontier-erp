@@ -18,3 +18,6 @@ ent-BlueprintLithograph = blueprint lithograph
     .desc = Prints blueprints.
 ent-ScrapProcessor = scrap processor
     .desc = It produces sheets and ingots using scrap.
+ent-BiogeneratorFill = biogenerator
+    .suffix = Biomass, 50
+    .desc = { ent-Biogenerator.desc }

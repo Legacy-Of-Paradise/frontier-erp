@@ -4,7 +4,7 @@ earlyleave-cryo-job-unknown = Должность неизвестна
 # {$entity} available for GENDER function purposes
 earlyleave-cryo-announcement =
     { $character } ({ $job }) { GENDER($entity) ->
-        [male] был перемещен
+        [male] был перемещён
         [female] была перемещена
         [epicene] были перемещены
        *[neuter] было перемещено

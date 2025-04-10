@@ -1,7 +1,7 @@
 ent-ElectricGuitarInstrument = электрогитара
     .desc = Почувствуйте себя рок-звездой!
 ent-BassGuitarInstrument = бас-гитара
-    .desc = Вы чувствуете себя очень крутым, держа ее в руках. Досадно, что вы одни так думаете.
+    .desc = Вы чувствуете себя очень крутым, держа её в руках. Досадно, что вы одни так думаете.
 ent-RockGuitarInstrument = рок-гитара
     .desc = Вот это топор!
 ent-AcousticGuitarInstrument = акустическая гитара

@@ -16,7 +16,7 @@ zzzz-subject-pronoun =
 zzzz-object-pronoun =
     { GENDER($ent) ->
         [male] его
-        [female] ее
+        [female] её
         [epicene] их
        *[neuter] его
     }
@@ -33,7 +33,7 @@ zzzz-dat-object =
 zzzz-possessive-pronoun =
     { GENDER($ent) ->
         [male] его
-        [female] ее
+        [female] её
         [epicene] их
        *[neuter] его
     }
@@ -41,7 +41,7 @@ zzzz-possessive-pronoun =
 zzzz-possessive-adjective =
     { GENDER($ent) ->
         [male] его
-        [female] ее
+        [female] её
         [epicene] их
        *[neuter] его
     }

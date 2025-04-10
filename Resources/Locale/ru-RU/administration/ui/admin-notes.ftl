@@ -5,7 +5,7 @@ admin-notes-show-more = Показать больше
 admin-notes-for = Заметка для: { $player }
 admin-notes-id = Id: { $id }
 admin-notes-type = Тип: { $type }
-admin-notes-severity = Серьезность: { $severity }
+admin-notes-severity = Серьёзность: { $severity }
 admin-notes-secret = Секретно
 admin-notes-notsecret = Не секретно
 admin-notes-expires = Истекает: { $expires }
@@ -60,7 +60,7 @@ admin-note-editor-expiry-checkbox = Пермаментно?
 admin-note-editor-expiry-checkbox-tooltip = Уберите флажок, что бы сделать его истекаемым
 admin-note-editor-expiry-label = Истекает в:
 admin-note-editor-expiry-label-params = Истекает: { $date } (через { $expiresIn })
-admin-note-editor-expiry-label-expired = Истек
+admin-note-editor-expiry-label-expired = Истёк
 admin-note-editor-expiry-placeholder = Укажите срок действия (yyyy-MM-dd HH:mm:ss)
 admin-note-editor-submit = Подтвердить
 # Time

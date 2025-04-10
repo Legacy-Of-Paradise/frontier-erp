@@ -1,5 +1,5 @@
 advertisement-mercenaryhumanoid-1 = Контакт!
-advertisement-mercenaryhumanoid-2 = И хуй мой танцевал чечетку!
+advertisement-mercenaryhumanoid-2 = И хуй мой танцевал чечётку!
 advertisement-mercenaryhumanoid-3 = Чики брики, пальчик выкинь.
 advertisement-mercenaryhumanoid-4 = Смотреть в оба.
 advertisement-mercenaryhumanoid-5 = На чеку, парни.
@@ -13,8 +13,8 @@ advertisement-mercenaryhumanoid-12 = Че, патроны кончились?
 advertisement-mercenaryhumanoid-13 = Ну куда ты спрятался, вылезай!
 advertisement-mercenaryhumanoid-14 = Че, припухли, туристы?
 advertisement-mercenaryhumanoid-15 = Мы Фронтир от вас вычистим, мрази!
-advertisement-mercenaryhumanoid-16 = От мерков еще никто целым не уходил.
-advertisement-mercenaryhumanoid-17 = Пошел-пошел!
+advertisement-mercenaryhumanoid-16 = От мерков ещё никто целым не уходил.
+advertisement-mercenaryhumanoid-17 = Пошёл-пошёл!
 advertisement-mercenaryhumanoid-18 = Вот падла!
 advertisement-mercenaryhumanoid-19 = Паскуда!
 advertisement-mercenaryhumanoid-20 = Прихлопнул мудака!

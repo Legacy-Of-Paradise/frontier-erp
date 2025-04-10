@@ -1,4 +1,6 @@
+using Content.Client.Administration.Managers;
 using Content.Client.Audio;
+using Content.Shared._NF.CCVar; // Frontier
 using Content.Shared._NewParadise;
 using Content.Shared.CCVar;
 using Robust.Client.Audio;
@@ -13,8 +15,9 @@ namespace Content.Client.Options.UI.Tabs;
 [GenerateTypedNameReferences]
 public sealed partial class AudioTab : Control
 {
-    [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly IAudioManager _audio = default!;
+    [Dependency] private readonly IClientAdminManager _admin = default!;
+    [Dependency] private readonly IConfigurationManager _cfg = default!;
 
     public AudioTab()
     {
@@ -42,6 +45,13 @@ public sealed partial class AudioTab : Control
             SliderVolumeAmbience,
             scale: ContentAudioSystem.AmbienceMultiplier);
 
+        // Frontier: add expedition volume slider
+        Control.AddOptionPercentSlider(
+            NFCCVars.SalvageExpeditionMusicVolume,
+            SliderVolumeExpedMusic,
+            scale: ContentAudioSystem.SalvageMultiplier);
+        // End Frontier: add expedition volume slider
+
         Control.AddOptionPercentSlider(
             CCVars.LobbyMusicVolume,
             SliderVolumeLobby,
@@ -67,8 +77,28 @@ public sealed partial class AudioTab : Control
         Control.AddOptionCheckBox(CCVars.RestartSoundsEnabled, RestartSoundsCheckBox);
         Control.AddOptionCheckBox(CCVars.EventMusicEnabled, EventMusicCheckBox);
         Control.AddOptionCheckBox(CCVars.AdminSoundsEnabled, AdminSoundsCheckBox);
+        Control.AddOptionCheckBox(CCVars.BwoinkSoundEnabled, BwoinkSoundCheckBox);
 
         Control.Initialize();
+    }
+
+    protected override void EnteredTree()
+    {
+        base.EnteredTree();
+        _admin.AdminStatusUpdated += UpdateAdminButtonsVisibility;
+        UpdateAdminButtonsVisibility();
+    }
+
+    protected override void ExitedTree()
+    {
+        base.ExitedTree();
+        _admin.AdminStatusUpdated -= UpdateAdminButtonsVisibility;
+    }
+
+
+    private void UpdateAdminButtonsVisibility()
+    {
+        BwoinkSoundCheckBox.Visible = _admin.IsActive();
     }
 
     private void OnMasterVolumeSliderChanged(float value)

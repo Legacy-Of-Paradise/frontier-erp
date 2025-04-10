@@ -1,5 +1,5 @@
 reagent-name-soju = Соджу
-reagent-desc-soju = Алкогольный напиток, получаемый путем дистилляции полированного риса.
+reagent-desc-soju = Алкогольный напиток, получаемый путём дистилляции полированного риса.
 reagent-name-orange-creamcicle = Апельсиновая крем-сосулька
 reagent-desc-orange-creamcicle = Апельсиновое сливочное совершенство
 reagent-name-silverjack = Силверджек

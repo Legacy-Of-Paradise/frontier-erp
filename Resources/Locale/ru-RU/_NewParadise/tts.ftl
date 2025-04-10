@@ -2,10 +2,8 @@ credits-window-tts-title = Функция TTS (Text-To-Speech)
 humanoid-profile-editor-voice-label = Голос:
 voice-mask-voice-change-info = Выберите голос, которому вы хотите подражать.
 voice-mask-voice-popup-success = Голос успешно изменён.
-
 humanoid-profile-editor-voice-play = ▶
 tts-rate-limited = Вы генерируете TTS слишком быстро!
-
 tts-voice-name-aidar = Айдар
 tts-voice-name-baya = Байя
 tts-voice-name-kseniya = Ксения
@@ -62,7 +60,6 @@ tts-voice-name-rexxar = Рексар
 tts-voice-name-voljin = Вол'джин
 tts-voice-name-forester = Лесник
 tts-voice-name-sidorovich = Сидорович
-
 tts-voice-name-tf-engineer = Инженер
 tts-voice-name-tf-heavy = Пулемётчик
 tts-voice-name-tf-medic = Медик

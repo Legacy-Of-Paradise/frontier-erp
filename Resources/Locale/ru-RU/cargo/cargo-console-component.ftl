@@ -21,7 +21,7 @@ cargo-console-menu-populate-orders-cargo-order-row-product-name-text = { $produc
 cargo-console-menu-cargo-order-row-approve-button = Одобрить
 cargo-console-menu-cargo-order-row-cancel-button = Отменить
 # Orders
-cargo-console-order-not-allowed = Доступ запрещен
+cargo-console-order-not-allowed = Доступ запрещён
 cargo-console-station-not-found = Нет доступной станции
 cargo-console-invalid-product = Неверный ID продукта
 cargo-console-too-many = Слишком много одобренных заказов
@@ -30,6 +30,8 @@ cargo-console-insufficient-funds = Недостаточно средств (тр
 cargo-console-unfulfilled = Нет места для выполнения заказа
 cargo-console-trade-station = Отправлено на { $destination }
 cargo-console-unlock-approved-order-broadcast = [bold]Заказ на { $productName } x{ $orderAmount }[/bold], стоимостью [bold]{ $cost }[/bold], был одобрен [bold]{ $approver }[/bold]
+# Frontier
+cargo-console-nf-no-bank-account = Аккаунт банка не найден
 cargo-console-paper-print-name = Заказ #{ $orderNumber }
 cargo-console-paper-print-text =
     Заказ #{ $orderNumber }

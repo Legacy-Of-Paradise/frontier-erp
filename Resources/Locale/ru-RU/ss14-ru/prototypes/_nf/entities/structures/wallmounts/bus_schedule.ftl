@@ -1,0 +1,12 @@
+ent-BusSchedule = Расписание автобусов
+    .desc = Расписание которое поможет тебе узнать когда прибудет твой автобус. Не пропусти!
+    .suffix = Авто
+ent-BusScheduleRoute1 = { ent-BusSchedule }
+    .suffix = Маршрут 1, Точка спавна
+    .desc = { ent-BusSchedule.desc }
+ent-BusScheduleRoute2 = { ent-BusSchedule }
+    .suffix = Маршрут 2, Торговый Экспресс
+    .desc = { ent-BusSchedule.desc }
+ent-BusScheduleRoute3 = { ent-BusSchedule }
+    .suffix = Маршрут 3, Другие точки интереса
+    .desc = { ent-BusSchedule.desc }

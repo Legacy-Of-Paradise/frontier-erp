@@ -1,7 +1,7 @@
 ent-FoodSpoiledMoldy = заплесневелые продукты
-    .desc = Возможно, он еще съедобен, просто нужно соскрести эту штуку. И эту тоже. И эту.
+    .desc = Возможно, он ещё съедобен, просто нужно соскрести эту штуку. И эту тоже. И эту.
 ent-FoodSpoiledRotten = гнилая пища
-    .desc = Возможно, он еще съедобен, просто нужно соскрести эту штуку. И эту тоже. И эту.
+    .desc = Возможно, он ещё съедобен, просто нужно соскрести эту штуку. И эту тоже. И эту.
 ent-FoodBurgerBaconRotten = гнилой бургер
     .desc = { ent-FoodBurgerBase.desc }
 ent-FoodBurgerBigBiteRotten = { ent-FoodBurgerBaconRotten }

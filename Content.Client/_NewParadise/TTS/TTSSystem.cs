@@ -47,7 +47,7 @@ public sealed class TTSSystem : EntitySystem
 
         _audioSystem.Stop(_currentlyPreviewing);
 
-        _currentlyPreviewing = _audioSystem.PlayGlobal(stream, audioParams);
+        _currentlyPreviewing = _audioSystem.PlayGlobal(stream, null, audioParams);
     }
 
     public override void Shutdown()
@@ -77,7 +77,7 @@ public sealed class TTSSystem : EntitySystem
             }
 
 
-            var audio = _audioSystem.PlayEntity(toPlay.Stream, uid, toPlay.Params);
+            var audio = _audioSystem.PlayEntity(toPlay.Stream, uid, null, toPlay.Params);
             if (!audio.HasValue)
             {
                 continue;
@@ -125,7 +125,7 @@ public sealed class TTSSystem : EntitySystem
     {
         if (!_currentlyPlaying.ContainsKey(uid))
         {
-            var audio = _audioSystem.PlayEntity(audioStream.Stream, uid, audioStream.Params);
+            var audio = _audioSystem.PlayEntity(audioStream.Stream, uid, null, audioStream.Params);
 
             if (!audio.HasValue)
             {

@@ -1,5 +1,5 @@
 ent-FrontierUplinkCoin = Блюспейс монета фронтира
-    .desc = Жетон, который выдается ДШНГ за обнаружение контрабанды. Его можно обменять при помощи устройства, подключенному к сети ДШНГ, на различные инструменты правоохранительных органов.
+    .desc = Жетон, который выдаётся ДШНГ за обнаружение контрабанды. Его можно обменять при помощи устройства, подключённому к сети ДШНГ, на различные инструменты правоохранительных органов.
     .suffix = 20 ТК
 ent-FrontierUplinkCoin1 = { ent-FrontierUplinkCoin }
     .suffix = 1 ТК
@@ -22,5 +22,5 @@ ent-BaseSecurityUplinkRadioSheriff = { ent-BaseSecurityUplinkRadio }
 ent-BaseSecurityUplinkRadioOfficer = { ent-BaseSecurityUplinkRadio }
     .suffix = Офицер 15
     .desc = { ent-BaseSecurityUplinkRadio.desc }
-ent-NfsdDeployableBarrier = развертываемый барьер ДШНГ
+ent-NfsdDeployableBarrier = развёртываемый барьер ДШНГ
     .desc = Выдвижной барьер. Проведите по экрану своей идентификационной картой, чтобы заблокировать / разблокировать его.

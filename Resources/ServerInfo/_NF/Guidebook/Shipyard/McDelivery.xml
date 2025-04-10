@@ -1,7 +1,7 @@
 <Document>
   # ТРАНСФЕР ПО ФРАНШИЗЕ MCDELIVERY
   <Box>
-  <GuideEntityEmbed Entity="hydroponicsTrayAnchored"/>
+  <GuideEntityEmbed Entity="hydroponicsTray"/>
   <GuideEntityEmbed Entity="KitchenMicrowave"/>
   <GuideEntityEmbed Entity="KitchenDeepFryer"/>
   <GuideEntityEmbed Entity="KitchenElectricGrill"/>

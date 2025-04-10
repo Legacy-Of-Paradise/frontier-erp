@@ -31,11 +31,11 @@
 
   # Быть готовым
   <Box>
-    <GuideEntityEmbed Entity="MobBloodCultistZealotMelee"/>
-    <GuideEntityEmbed Entity="MobFleshGolemExpeditions"/>
-    <GuideEntityEmbed Entity="MobArgocyteEnforcerExpeditions"/>
-    <GuideEntityEmbed Entity="MobCarpHoloExpeditions"/>
-    <GuideEntityEmbed Entity="MobRogueSiliconHunter"/>
+  <GuideEntityEmbed Entity="MobBloodCultistZealotMelee"/>
+  <GuideEntityEmbed Entity="MobFleshGolemExpeditions"/>
+  <GuideEntityEmbed Entity="MobArgocyteEnforcerExpeditions"/>
+  <GuideEntityEmbed Entity="MobCarpHolo"/>
+  <GuideEntityEmbed Entity="MobRogueSiliconHunter"/>
   </Box>
   Во время миссий на планете вы столкнетесь с опасностями, начиная от негостеприимной окружающей среды и заканчивая враждебной дикой природой и даже кровожадными культистами или безжалостными роботами. Если вы хотите выжить в миссии с добычей в руках, вы должны быть готовы к предстоящим испытаниям. Вам понадобится правильное снаряжение и знания о том, как и когда это снаряжение следует использовать. И самое главное, вам понадобится помощь ваших товарищей по команде.
 

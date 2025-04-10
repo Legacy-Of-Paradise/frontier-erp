@@ -1,7 +1,7 @@
 <Document>
   # Расы
 
-  Нанотрейзен нанимает для работы множество разумных видов.
+  NanoTrasen нанимает для работы множество разумных видов.
 
   <Box>
   <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnid"/>
@@ -25,6 +25,7 @@
   <GuideEntityEmbed Entity="MobFelinid" Caption="Felinid"/>
   <GuideEntityEmbed Entity="MobHarpy" Caption="Harpy"/>
   <GuideEntityEmbed Entity="MobOni" Caption="Oni"/>
+  <GuideEntityEmbed Entity="MobChitinid" Caption="Chitinid"/>
   </Box>
 
 </Document>

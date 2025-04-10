@@ -1,6 +1,6 @@
-ent-BulletBBDamaged = поврежденный  ПШ
+ent-BulletBBDamaged = повреждённый  ПШ
     .desc = Ты что, попал себе в глаз?
 ent-BulletRGBB = RGBB
     .desc = Не стрелять себе в глаза, геймеры.
-ent-BulletRGBBDamaged = поврежденный RGBB
+ent-BulletRGBBDamaged = повреждённый RGBB
     .desc = Что вам было непонятно в фразе "Не стрелять себе в глаза, геймеры"?

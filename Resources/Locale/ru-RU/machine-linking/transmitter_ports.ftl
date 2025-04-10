@@ -1,7 +1,7 @@
 signal-port-name-pressed = Нажато
 signal-port-description-pressed = Этот порт задействуется всякий раз, когда передатчик активируется.
 signal-port-name-on-transmitter = Вкл
-signal-port-description-on-transmitter = Этот порт задействуется всякий раз, когда передатчик включен.
+signal-port-description-on-transmitter = Этот порт задействуется всякий раз, когда передатчик включён.
 signal-port-name-off-transmitter = Выкл
 signal-port-description-off-transmitter = Этот порт задействуется всякий раз, когда передатчик выключен.
 signal-port-name-status-transmitter = Статус
@@ -39,7 +39,7 @@ signal-port-description-stabilize = Этот порт задействуется
 signal-port-name-growing = Рост
 signal-port-description-growing = Этот порт задействуется когда привязанная аномалия переходит в состояние роста.
 signal-port-name-pulse = Импульс
-signal-port-description-pulse = Этот порт задействуется когда привязанная аномалия создает импульс.
+signal-port-description-pulse = Этот порт задействуется когда привязанная аномалия создаёт импульс.
 signal-port-name-supercrit = Суперкрит
 signal-port-description-supercrit = Этот порт задействуется когда привязанная аномалия взрывается после перехода в суперкритическое состояние.
 signal-port-name-power-charging = Зарядка

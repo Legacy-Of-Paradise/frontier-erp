@@ -1,13 +1,16 @@
 # Base entries
 guide-entry-nf14 = Фронтир гайд
-guide-entry-bank = Галактический банк НаноТрайзен
+guide-entry-bank = Галактический банк NanoTrasen
 guide-entry-piloting = Пилотирование
 guide-entry-startinggear = Стартовое снаряжение
 guide-entry-hiring = Найм экипажа
 guide-entry-expeditions = Экспедиции
+guide-entry-sector-topology = Топология сектора
 guide-entry-cargo-hauling = Перевозка грузов
 guide-entry-shipyard = Верфь
 guide-entry-frontier-rules = Правила сервера
+# Engineering entries
+guide-entry-offshore-gas-mining = Добыча газа на шельфе
 # Security entries
 guide-entry-nfsd-smuggling = Контрабанда
 # Medical entries
@@ -16,13 +19,13 @@ guide-entry-medical-doc = Директор по уходу
 # Reference entries
 guide-entry-medicalrecipes = Медицинские рецепты
 # Expedition faction entries
-guide-entry-expedition-aberrant-flesh = Искривленная плоть
+guide-entry-expedition-aberrant-flesh = Искривлённая плоть
 guide-entry-expedition-argocytes = Аргоциты
 guide-entry-expedition-blood-cultists = Культ крови
 guide-entry-expedition-carps = Карпы
 guide-entry-expedition-dinosaurs = Динозавры
 guide-entry-expedition-explorers = Исследователи
-guide-entry-expedition-mercenaries = Наемники
+guide-entry-expedition-mercenaries = Наёмники
 guide-entry-expedition-gangers = Панки
 guide-entry-expedition-silicons = Взбунтовавшиеся синтетики
 guide-entry-expedition-syndicate-naval-forces = Военно-морские силы Синдиката
@@ -44,7 +47,7 @@ guide-entry-shipyard-charon = Шарон
 guide-entry-shipyard-chisel = Зубило
 guide-entry-shipyard-comet = Комета
 guide-entry-shipyard-construct = Платформа
-guide-entry-shipyard-eagle = Орел
+guide-entry-shipyard-eagle = Орёл
 guide-entry-shipyard-garden = Диона
 guide-entry-shipyard-gasbender = Газовик
 guide-entry-shipyard-gourd = Тыква
@@ -56,11 +59,12 @@ guide-entry-shipyard-investigator = Следователь
 guide-entry-shipyard-kestrel = Пустельга
 guide-entry-shipyard-kilderkin = Бочонок
 guide-entry-shipyard-lantern = Лампа
-guide-entry-shipyard-legman = Репортер
+guide-entry-shipyard-legman = Репортёр
 guide-entry-shipyard-liquidator = Ликвидатор
 guide-entry-shipyard-loader = Погрузчик
-guide-entry-shipyard-mccargo = МакКарго
+guide-entry-shipyard-mccargo = McCargo
 guide-entry-shipyard-mcdelivery = МакДеливери
+guide-entry-shipyard-nightlight = Ночник
 guide-entry-shipyard-pathfinder = Поисковик
 guide-entry-shipyard-phoenix = Феникс
 guide-entry-shipyard-pioneer = Пионер

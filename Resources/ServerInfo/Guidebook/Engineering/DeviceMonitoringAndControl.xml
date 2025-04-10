@@ -1,0 +1,39 @@
+﻿<Document>
+   # Мониторинг и Управление Устройствами
+   Учитывая общестанционный характер сети атмосферныйх устройств, важно иметь возможность контролировать и управлять устройствами из центрального места.
+
+   Используя эти системы, отдел Атмосферы может контролировать и управлять атмосферой по всей станции.
+
+   <Box>
+       <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
+       <GuideEntityEmbed Entity="AirSensor" Caption=""/>
+   </Box>
+   <Box>
+       ## Воздушные Тревоги
+   </Box>
+   <Box>
+       [color=#999999][italic]Широкозонный мониторинг и управление устройствами атмосферы[italic][/color]
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="ComputerAlert" Caption=""/>
+   </Box>
+   <Box>
+       ## Компьютер Атмосферных Тревог
+   </Box>
+   <Box>
+       [color=#999999][italic]Общестанционный мониторинг воздушных тревог[italic][/color]
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="ComputerAtmosMonitoring" Caption=""/>
+       <GuideEntityEmbed Entity="GasPipeSensor" Caption=""/>
+   </Box>
+   <Box>
+       ## Монитор Атмосферной Сети
+   </Box>
+   <Box>
+       [color=#999999][italic]Мониторинг целых трубопроводных сетей[italic][/color]
+   </Box>
+
+</Document>

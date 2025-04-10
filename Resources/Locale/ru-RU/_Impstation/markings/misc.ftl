@@ -123,7 +123,7 @@ marking-fishbowl = Аквариум
 marking-fishbowl-fishbowl1 = Рыба
 # Frontier: bubbles < Пузырьки
 marking-fishbowl-fishbowl2 = Рыба пузырьки
-marking-FadingStars = Угасающий звездный свет
+marking-FadingStars = Угасающий звёздный свет
 marking-FadingStars-fadingstars1 = Ярчяйший
 marking-FadingStars-fadingstars2 = Посредственный
 marking-FadingStars-fadingstars3 = Темнейший

@@ -1,4 +1,4 @@
-rock-dust-effect-nf-pleasant-memories-01 = Веселые воспоминания кружатся в вашей голове.
+rock-dust-effect-nf-pleasant-memories-01 = Весёлые воспоминания кружатся в вашей голове.
 rock-dust-effect-nf-pleasant-memories-02 = Радостные воспоминания наполняют ваши мысли.
 rock-dust-effect-nf-pleasant-memories-03 = Счастливые моменты наполняют ваши мысли.
 rock-dust-effect-nf-pleasant-memories-04 = Вам хочется погрузиться глубоко в свои приятные воспоминания.

@@ -1,6 +1,6 @@
 ## Entity
 
-microwave-component-interact-using-no-power = У нее нет электричества!
+microwave-component-interact-using-no-power = У неё нет электричества!
 microwave-component-interact-using-broken = Она сломана!
 microwave-component-interact-using-container-full = Контейнер заполнен
 microwave-component-interact-using-transfer-success = Перенесено { $amount } ед.
@@ -22,7 +22,7 @@ microwave-bound-user-interface-cook-time-label = ВРЕМЯ: { $time }
 microwave-menu-title = Микроволновая печь
 microwave-menu-start-button = Старт
 microwave-menu-eject-all-text = Извлечь все
-microwave-menu-eject-all-tooltip = Это испарит все жидкости, но вернет все твердое.
+microwave-menu-eject-all-tooltip = Это испарит все жидкости, но вернёт все твёрдое.
 microwave-menu-instant-button = МГНОВЕННО
 microwave-menu-footer-flavor-left = Не помещайте сюда электронные, металлические или живые объекты.
 microwave-menu-footer-flavor-right = v1.5

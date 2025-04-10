@@ -7,6 +7,4 @@ trait-ultravision-desc =
 trait-deuteranopia-name = Дейтеранопия
 trait-deuteranopia-desc =
     Будь то специальные бионические глаза, случайная мутация,
-    или будучи вульпканином, у вас красно-зеленый дальтонизм.
-trait-uncloneable-name = Неклонируемый
-trait-uncloneable-desc = Невозможно клонировать.
+    или будучи вульпканином, у вас красно-зелёный дальтонизм.

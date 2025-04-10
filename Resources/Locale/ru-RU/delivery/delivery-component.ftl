@@ -1,0 +1,10 @@
+delivery-recipient-examine = Это для { $recipient }, { $job }.
+delivery-already-opened-examine = Уже открыта.
+delivery-recipient-no-name = Без имени
+delivery-recipient-no-job = Неизвестно
+delivery-unlocked-self = Вы разблокировали { $delivery } с помощью отпечатка пальца.
+delivery-opened-self = Вы открываете { $delivery }.
+delivery-unlocked-others = { CAPITALIZE($recipient) } разблокировал { $delivery } с отпечатком { POSS-ADJ($possadj) }.
+delivery-opened-others = { CAPITALIZE($recipient) } открыл { $delivery }.
+delivery-unlock-verb = Открыть
+delivery-open-verb = Открыто

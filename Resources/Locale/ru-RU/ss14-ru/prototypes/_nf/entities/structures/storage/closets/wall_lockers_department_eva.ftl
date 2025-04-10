@@ -40,3 +40,5 @@ ent-LockerWallEVAColorEmergency = настенный шкафчик с экст�
     .desc = { ent-LockerWallColorBase.desc }
 ent-LockerWallEVAColorLvhi = настенный шкафчик с LVHI ВКД
     .desc = { ent-LockerWallColorBase.desc }
+ent-LockerWallEVAColorFsb = настенный шкафичк ФСБ ВКД
+    .desc = { ent-LockerWallColorBase.desc }

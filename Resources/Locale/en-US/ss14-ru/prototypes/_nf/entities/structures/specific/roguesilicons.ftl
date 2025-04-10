@@ -1,2 +1,2 @@
-ent-RogueAiNode = rogue ai node
-    .desc = Contains portion of rogue AI database.
+ent-RogueAiNode = rogue AI node
+    .desc = Contains a portion of a rogue AI database.

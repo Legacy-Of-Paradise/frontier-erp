@@ -52,3 +52,5 @@ ent-StorageFillEVASuitEmergency = { "" }
     .desc = Contains a standard issue emergency EVA kit.
 ent-StorageFillEVASuitLvhi = { "" }
     .desc = Contains a standard issue Langstad-Voigt Heavy Industries (LVHI) EVA kit.
+ent-StorageFillEVASuitFsb = { "" }
+    .desc = Contains a standard issue Far Star Biotech (FSB) EVA suit.

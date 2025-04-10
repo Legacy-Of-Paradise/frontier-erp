@@ -40,3 +40,5 @@ ent-LockerWallEVAColorEmergency = emergency EVA wall locker
     .desc = { ent-LockerWallColorBase.desc }
 ent-LockerWallEVAColorLvhi = LVHI EVA wall locker
     .desc = { ent-LockerWallColorBase.desc }
+ent-LockerWallEVAColorFsb = FSB EVA wall locker
+    .desc = { ent-LockerWallColorBase.desc }

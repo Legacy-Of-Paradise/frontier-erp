@@ -1,0 +1,95 @@
+﻿<Document>
+   # Сети Напряжения
+   В Space Station 14 распределение энергии разделено на три отдельные сети напряжения.
+   Эти сети - [color=green]Низковольтная[/color] сеть, [color=Yellow]Средневольтная[/color] сеть и [color=orange]Высоковольтная[/color] сеть.
+
+   Эти сети питают различные типы оборудования на станции.
+
+   <Box>
+       <GuideEntityEmbed Entity="CableHVStack"/>
+       <GuideEntityEmbed Entity="CableMVStack"/>
+       <GuideEntityEmbed Entity="CableApcStack"/>
+   </Box>
+
+   ## Низковольтная Сеть
+   [color=green]Низковольтная[/color] сеть используется для питания почти всех небольших машин на станции. Сюда входят такие вещи, как светильники, компьютеры и другие небольшие устройства.
+
+   <Box>
+       <GuideEntityEmbed Entity="PoweredSmallLight" Caption=""/>
+       <GuideEntityEmbed Entity="ComputerCargoShuttle" Caption=""/>
+       <GuideEntityEmbed Entity="ComputerComms" Caption=""/>
+       <GuideEntityEmbed Entity="Autolathe" Caption=""/>
+       <GuideEntityEmbed Entity="VendingMachineEngivend" Caption=""/>
+       <GuideEntityEmbed Entity="VendingMachineMedical" Caption=""/>
+       <GuideEntityEmbed Entity="AlwaysPoweredWallLight" Caption=""/>
+   </Box>
+
+   [color=green]Низковольтное[/color] питание обеспечивается АРС, которые представляют собой настенные устройства, преобразующие энергию из [color=Yellow]Средневольтной[/color] сети в [color=green]Низковольтное[/color].
+
+   <Box>
+       <GuideEntityEmbed Entity="APCBasic"/>
+   </Box>
+
+   [color=green]Низковольтный[/color] провод не обязательно тянуть непосредственно к каждой машине, так как он может питать несколько машин, если провод находится достаточно близко к машине.
+   Он может питать машины в радиусе 2 клеток и в пределах 3 клеток в каждом кардинальном направлении.
+
+   ## Средневольтная Сеть
+   [color=Yellow]Средневольтная[/color] сеть используется для питания АРС и другого энергоемкого оборудования, которое может принимать только [color=Yellow]Средневольтное[/color] питание.
+   Ускоритель Частиц является примером, так как он работает на [color=Yellow]Средневольтной[/color] энергии.
+
+   <Box>
+       <GuideEntityEmbed Entity="ParticleAcceleratorEndCap" Caption="" Margin="0"/>
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="ParticleAcceleratorControlBox" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="ParticleAcceleratorFuelChamber" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="CableMV" Caption="" Margin="0"/>
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="ParticleAcceleratorPowerBox" Caption="" Margin="0"/>
+   </Box>
+
+   <Box>
+       <GuideEntityEmbed Entity="ParticleAcceleratorEmitterStarboard" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="ParticleAcceleratorEmitterFore" Caption="" Margin="0"/>
+       <GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="" Margin="0"/>
+   </Box>
+
+   <Box>
+       [color=#999999][italic]Ускоритель Частиц[italic][/color]
+   </Box>
+
+   [color=Yellow]Средневольтное[/color] питание обеспечивается Подстанциями, которые представляют собой крупные машины, преобразующие энергию из [color=Orange]Высоковольтной[/color] сети в [color=Yellow]Средневольтное[/color].
+
+   Существуют также настенные варианты этих подстанций для компактных помещений, таких как шаттлы.
+   <Box HorizontalAlignment="Stretch">
+       <Box>
+           <GuideEntityEmbed Entity="SubstationBasic"/>
+       </Box>
+       <Box>
+           <GuideEntityEmbed Entity="SubstationWallBasic"/>
+       </Box>
+   </Box>
+
+   ## Высоковольтная Сеть
+   [color=Orange]Высоковольтная[/color] сеть используется для передачи больших объемов энергии по станции. Она используется для питания большинства энергообрабатывающего оборудования, такого как СМЭС и Подстанции.
+
+   Большинство мощных генераторов выдают энергию в [color=Orange]Высоковольтную[/color] сеть.
+
+   <Box>
+       <GuideEntityEmbed Entity="SMESBasic"/>
+       <GuideEntityEmbed Entity="RadiationCollector"/>
+       <GuideEntityEmbed Entity="TeslaCoil"/>
+       <GuideEntityEmbed Entity="SubstationBasic"/>
+   </Box>
+
+   ## Урон от Электрического Шока
+   Если вас ударит током от провода, несущего энергию, вы получите урон. Количество урона зависит от напряжения провода, который вас ударил.
+
+   [color=green]Низковольтные[/color] кабели нанесут меньший урон, чем [color=Yellow]Средневольтные[/color] кабели, которые нанесут меньший урон, чем [color=Orange]Высоковольтные[/color] кабели.
+
+   Находящиеся под напряжением [color=Orange]Высоковольтные[/color] и [color=Yellow]Средневольтные[/color] кабели опасны, поэтому обязательно надевайте изолирующие перчатки при работе с ними.
+
+</Document>

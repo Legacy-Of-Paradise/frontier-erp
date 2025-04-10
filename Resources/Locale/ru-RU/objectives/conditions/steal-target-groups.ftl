@@ -19,6 +19,7 @@ steal-target-groups-stamps = печати
 steal-target-groups-door-remotes = пульты от шлюзов
 steal-target-groups-encryption-keys = ключи шифрования
 steal-target-groups-technology-disks = технологические диски
+steal-target-groups-mail = почту
 steal-target-groups-id-cards = ID-карты
 steal-target-groups-lamps = ЛАМПЫ
 # Thief single item
@@ -42,7 +43,7 @@ steal-target-groups-wanted-list-cartridge = картридж Список раз
 # Thief structures
 steal-target-groups-teg = часть термоэлектрического генератора
 steal-target-groups-freezer-heater = нагреватель или охладитель
-steal-target-groups-altar-nanotrasen = алтарь Nanotrasen (любой)
+steal-target-groups-altar-nanotrasen = алтарь NanoTrasen (любой)
 steal-target-groups-nuclear-bomb = ядерная боеголовка
 steal-target-groups-fax-machine-captain = факс дальнего действия капитана
 steal-target-groups-chem-dispenser = химический раздатчик

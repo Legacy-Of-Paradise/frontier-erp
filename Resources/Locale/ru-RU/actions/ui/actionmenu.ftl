@@ -9,6 +9,6 @@ ui-actionsui-function-lock-action-slots = (Раз)блокировать пер�
 ui-actionsui-function-open-abilities-menu = Открыть меню действий
 ui-actionmenu-enabled = Включено
 ui-actionmenu-item = Предмет
-ui-actionmenu-innate = Врожденное
+ui-actionmenu-innate = Врождённое
 ui-actionmenu-instant = Мгновенное
 ui-actionmenu-targeted = Целевое

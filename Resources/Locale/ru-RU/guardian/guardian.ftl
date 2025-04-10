@@ -1,7 +1,7 @@
 ## Guardian host specific
 
 guardian-created = Вы чувствуете... Одержимость.
-guardian-already-present-invalid-creation = Вы НЕ переживете заново ту одержимость!
+guardian-already-present-invalid-creation = Вы НЕ переживёте заново ту одержимость!
 guardian-no-actions-invalid-creation = У вас нет возможности содержать в себе стража!
 guardian-activator-empty-invalid-creation = Инъектор израсходован.
 guardian-activator-empty-examine = [color=#ba1919]Инъектор израсходован.[/color].

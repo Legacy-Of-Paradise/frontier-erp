@@ -1,6 +1,6 @@
 ent-SpawnPointMailCarrier = почтально
     .desc = { ent-SpawnPointJobBase.desc }
-ent-SpawnPointPrisoner = заключенный
+ent-SpawnPointPrisoner = заключённый
     .desc = { ent-SpawnPointJobBase.desc }
 ent-SpawnPointValet = камердинер
     .desc = { ent-SpawnPointJobBase.desc }

@@ -11,7 +11,7 @@ cmd-playtime_addoverall-arg-user = <user name>
 cmd-playtime_addoverall-arg-minutes = <minutes>
 cmd-playtime_addoverall-error-args = Ожидается ровно два аргумента
 # - playtime_addrole
-cmd-playtime_addrole-desc = Добавляет указанное число минут к времени игрока на определенной роли
+cmd-playtime_addrole-desc = Добавляет указанное число минут к времени игрока на определённой роли
 cmd-playtime_addrole-help = Использование: { $command } <user name> <role> <minutes>
 cmd-playtime_addrole-succeed = Игровое время для { $username } / \'{ $role }\' увеличено на { TOSTRING($time, "dddd\\:hh\\:mm") }.
 cmd-playtime_addrole-arg-user = <user name>

@@ -43,4 +43,4 @@ dock-label-bus = Стыковка маршрутки
 dock-label-janitor = Уборочная
 dock-label-guard = СБ
 dock-label-nfsd = ДШ
-dock-label-drive-thru = МакДрайв дорожная касса
+dock-label-drive-thru = McCargo дорожная касса

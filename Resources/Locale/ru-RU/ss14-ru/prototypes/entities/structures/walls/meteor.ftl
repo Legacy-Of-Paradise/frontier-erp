@@ -1,7 +1,7 @@
 ent-MeteorRock = метеоритный камень
     .desc = Остатки метеорита.
 ent-MeteorRockCoal = { ent-MeteorRock }
-    .desc = Рудная жила, богатая углем.
+    .desc = Рудная жила, богатая углём.
     .suffix = Уголь
 ent-MeteorRockGold = { ent-MeteorRock }
     .desc = Рудная жила, богатая золотом.

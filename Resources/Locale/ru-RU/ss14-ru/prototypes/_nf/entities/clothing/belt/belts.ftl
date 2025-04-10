@@ -8,3 +8,5 @@ ent-ClothingBeltNfsd = пояс Департамента Шерифа
     .desc = Тактический штурмовой пояс.
 ent-ClothingBeltNfsdWebbing = разрузка Департамента Шерифа
     .desc = Тактическая штурмовая разгрузка.
+ent-ClothingBeltMartialBlack = чёрный пояс
+    .desc = Это самый боевой из всех поясов.

@@ -1,5 +1,5 @@
 ent-GasPipeSensor = датчик газовой трубы
-    .desc = Предоставляет информацию о состоянии газа в присоединенном трубопроводе.
+    .desc = Предоставляет информацию о состоянии газа в присоединённом трубопроводе.
 ent-GasPipeSensorDistribution = { ent-GasPipeSensor }
     .suffix = Распределение
     .desc = { ent-GasPipeSensor.desc }

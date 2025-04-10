@@ -1,5 +1,5 @@
 ent-ClothingHandsGlovesColorBlackSMG = боевые перчатки
-    .desc = Обычные черные перчатки, которые не защитят вас от жарки.
+    .desc = Обычные чёрные перчатки, которые не защитят вас от жарки.
     .suffix = ПП
 ent-ClothingHandsGlovesColorBlackAK = боевые перчатки
     .suffix = акмс

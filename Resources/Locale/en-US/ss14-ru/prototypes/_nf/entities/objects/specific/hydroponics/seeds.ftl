@@ -10,3 +10,5 @@ ent-CucumberSeeds = packet of cucumber seeds
     .desc = Can you grow water?
 ent-BeeSeeds = jar of bees
     .desc = Starter kit for a new apiarist.
+ent-EveryspiceSeeds = packet of everyspice seeds
+    .desc = Wars were fought over less.

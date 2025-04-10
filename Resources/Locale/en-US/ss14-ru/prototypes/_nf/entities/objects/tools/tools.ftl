@@ -7,3 +7,5 @@ ent-ShipyardRCDAmmo = shipyard compressed matter
     .desc = Ammo cartridge for a shipyard RCD.
 ent-MaintenanceJack = maintenance jack
     .desc = A maintenance jack for removing up floor plating.
+ent-PirateRepairKit = pirate repair kit
+    .desc = A collection of equipment needed to repair a pirate console.

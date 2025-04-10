@@ -1,5 +1,5 @@
 encryption-key-successfully-installed = Вы вставляете ключ внутрь.
-encryption-key-slots-already-full = Не хватает места для еще одного ключа.
+encryption-key-slots-already-full = Не хватает места для ещё одного ключа.
 encryption-keys-all-extracted = Вы извлекаете ключи шифрования!
 encryption-keys-no-keys = В этом устройстве нет ключей шифрования!
 encryption-keys-are-locked = Ячейка ключей шифрования заблокирована.

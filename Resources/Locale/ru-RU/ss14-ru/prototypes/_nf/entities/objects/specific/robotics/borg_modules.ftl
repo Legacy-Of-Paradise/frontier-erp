@@ -1,4 +1,6 @@
-ent-BorgModuleAdvancedMining = продвинуты модуль горного борга
+ent-BorgModuleAdvancedMining = продвинутый модуль горного борга
     .desc = { ent-BaseBorgModuleCargo.desc }
-ent-BorgModuleAdvancedParamedic = продвинуты модуль борга-парамедика
+ent-BorgModuleAdvancedParamedic = продвинутый модуль борга-парамедика
     .desc = { ent-BaseBorgModuleMedical.desc }
+ent-BorgModuleJetpack = джетпак модуль киборга
+    .desc = { ent-BaseBorgModule.desc }

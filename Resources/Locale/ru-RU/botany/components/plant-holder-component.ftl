@@ -16,11 +16,11 @@ plant-holder-component-take-sample-message = Вы извлекаете семе�
 plant-holder-component-compost-message = Вы компостируете { $usingItem } в { $owner }.
 plant-holder-component-compost-others-message = { $user } компостирует { $usingItem } в { $owner }.
 plant-holder-component-nothing-planted-message = Здесь ничего не посажено..
-plant-holder-component-something-already-growing-message = Здесь растет [color=green]{ $seedName }[/color].
+plant-holder-component-something-already-growing-message = Здесь растёт [color=green]{ $seedName }[/color].
 plant-holder-component-something-already-growing-low-health-message = Растение выглядит [color=red]{ $healthState }[/color].
 plant-holder-component-plant-old-adjective = старым и увядшим
 plant-holder-component-plant-unhealthy-adjective = нездоровым
-plant-holder-component-dead-plant-matter-message = Он заполнен [color=red]мертвыми растениями[/color].
+plant-holder-component-dead-plant-matter-message = Он заполнен [color=red]мёртвыми растениями[/color].
 plant-holder-component-weed-high-level-message = Он заполнен [color=green]сорняками[/color]!
 plant-holder-component-pest-high-level-message = Он заполнен [color=gray]маленькими червячками[/color]!
 plant-holder-component-water-level-message = Вода:     [color=cyan]{ $waterLevel }[/color].
@@ -30,5 +30,5 @@ plant-holder-component-light-improper-warning = Мигает [color=yellow]пр�
 plant-holder-component-heat-improper-warning = Мигает [color=orange]предупреждение о неподходящем уровне температуры[/color].
 plant-holder-component-pressure-improper-warning = Мигает [color=lightblue]предупреждение о неподходящем атмосферном давлении[/color].
 plant-holder-component-gas-missing-warning = Мигает [color=cyan]предупреждение о неподходящем атмосферном составе[/color].
-plant-holder-component-early-sample-message = Растение еще не выросло настолько, чтобы извлечь семена.
+plant-holder-component-early-sample-message = Растение ещё не выросло настолько, чтобы извлечь семена.
 plant-holder-component-ligneous-cant-harvest-message = Растение слишком прочное, чтобы собрать его голыми руками.
