@@ -54,7 +54,7 @@
 #  description:
 #  components:
 #  - type: Sprite
-#    sprite: _LostParadise/Clothing/Tail/satchel.rsi
+#    sprite: _NewParadise/Clothing/Tail/satchel.rsi
 #
 #- type: entity
 #  parent: LPPClothingTailStorageBase
@@ -63,7 +63,7 @@
 #  description:
 #  components:
 #  - type: Sprite
-#    sprite: _LostParadise/Clothing/Tail/hydroponics.rsi
+#    sprite: _NewParadise/Clothing/Tail/hydroponics.rsi
 #
 #- type: entity
 #  parent: LPPClothingTailStorageBase
@@ -72,7 +72,7 @@
 #  description:
 #  components:
 #  - type: Sprite
-#    sprite: _LostParadise/Clothing/Tail/science.rsi
+#    sprite: _NewParadise/Clothing/Tail/science.rsi
 #
 #- type: entity
 #  parent: LPPClothingTailStorageBase
@@ -81,7 +81,7 @@
 #  description:
 #  components:
 #  - type: Sprite
-#    sprite: _LostParadise/Clothing/Tail/engineering.rsi
+#    sprite: _NewParadise/Clothing/Tail/engineering.rsi
 #
 #
 #- type: entity
@@ -91,7 +91,7 @@
 #  description:
 #  components:
 #  - type: Sprite
-#    sprite: _LostParadise/Clothing/Tail/medical.rsi
+#    sprite: _NewParadise/Clothing/Tail/medical.rsi
 #
 #
 #- type: entity
@@ -101,7 +101,7 @@
 #  description:
 #  components:
 #  - type: Sprite
-#    sprite: _LostParadise/Clothing/Tail/salvage.rsi
+#    sprite: _NewParadise/Clothing/Tail/salvage.rsi
 #
 #
 #- type: entity
@@ -111,5 +111,5 @@
 #  description:
 #  components:
 #  - type: Sprite
-#    sprite: _LostParadise/Clothing/Tail/security.rsi
+#    sprite: _NewParadise/Clothing/Tail/security.rsi
 #

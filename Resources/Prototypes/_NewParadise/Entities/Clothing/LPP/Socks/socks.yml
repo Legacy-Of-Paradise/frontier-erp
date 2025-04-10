@@ -22,7 +22,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/bee_knee.rsi
+    sprite: _NewParadise/Clothing/Socks/bee_knee.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -31,7 +31,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/bee_norm.rsi
+    sprite: _NewParadise/Clothing/Socks/bee_norm.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -40,7 +40,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/bee_thigh.rsi
+    sprite: _NewParadise/Clothing/Socks/bee_thigh.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -49,7 +49,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/commie_knee.rsi
+    sprite: _NewParadise/Clothing/Socks/commie_knee.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -58,7 +58,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/commie_thigh.rsi
+    sprite: _NewParadise/Clothing/Socks/commie_thigh.rsi
 
 #----------------Pantyhose------------------
 
@@ -69,7 +69,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/black.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -78,7 +78,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/blue.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -87,7 +87,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/brown.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -96,7 +96,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/green.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -105,7 +105,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/grey.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -114,7 +114,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -123,7 +123,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/maroon.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -132,7 +132,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/orange.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -141,7 +141,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/pantyhose.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/pantyhose.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -150,7 +150,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/red.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -159,7 +159,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/teal.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -168,7 +168,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Pantyhose/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/yellow.rsi
 
 #---------------------------------------------------
 
@@ -179,7 +179,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/rainbow_knee.rsi
+    sprite: _NewParadise/Clothing/Socks/rainbow_knee.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -188,7 +188,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/rainbow_thigh.rsi
+    sprite: _NewParadise/Clothing/Socks/rainbow_thigh.rsi
 
 
 #------------------Socks------------------------
@@ -201,7 +201,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/black.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -210,7 +210,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/blue.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -219,7 +219,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/brown.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -228,7 +228,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/green.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -237,7 +237,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/grey.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -246,7 +246,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -255,7 +255,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/maroon.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -264,7 +264,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/orange.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -273,7 +273,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/socks_knee.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/socks_knee.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -282,7 +282,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/red.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -291,7 +291,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/teal.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -300,7 +300,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksKnee/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/yellow.rsi
 
 #----------------SocksNorm----------------
 
@@ -311,7 +311,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/black.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -320,7 +320,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/blue.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -329,7 +329,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/brown.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -338,7 +338,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/green.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -347,7 +347,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/grey.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -356,7 +356,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -365,7 +365,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/maroon.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -374,7 +374,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/orange.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -383,7 +383,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/socks_norm.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/socks_norm.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -392,7 +392,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/red.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -401,7 +401,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/teal.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -410,7 +410,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksNorm/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/yellow.rsi
 
 #----------------SocksShort----------------
 
@@ -421,7 +421,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/black.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -430,7 +430,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/blue.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -439,7 +439,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/brown.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -448,7 +448,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/green.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -457,7 +457,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/grey.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -466,7 +466,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -475,7 +475,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/maroon.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -484,7 +484,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/orange.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -493,7 +493,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/socks_short.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/socks_short.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -502,7 +502,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/red.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -511,7 +511,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/teal.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -520,7 +520,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksShort/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/yellow.rsi
 
 #----------------SocksThigh----------------
 
@@ -531,7 +531,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/black.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -540,7 +540,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/blue.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -549,7 +549,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/brown.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -558,7 +558,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/green.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -567,7 +567,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/grey.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -576,7 +576,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -585,7 +585,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/maroon.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -594,7 +594,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/orange.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -603,7 +603,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/socks_thigh.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/socks_thigh.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -612,7 +612,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/red.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -621,7 +621,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/teal.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -630,7 +630,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/Socks/SocksThigh/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/yellow.rsi
 
 #---------------------------------------------------
 
@@ -641,7 +641,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/striped_knee.rsi
+    sprite: _NewParadise/Clothing/Socks/striped_knee.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -650,7 +650,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/striped_thigh.rsi
+    sprite: _NewParadise/Clothing/Socks/striped_thigh.rsi
 
 #---------------------ThinKnee----------------------
 
@@ -661,7 +661,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/black.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/black.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -670,7 +670,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/blue.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -679,7 +679,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/brown.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -688,7 +688,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/green.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/green.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -697,7 +697,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/grey.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -706,7 +706,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -715,7 +715,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/maroon.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -724,7 +724,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/orange.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -733,7 +733,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/thin_knee.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/thin_knee.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -742,7 +742,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/red.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/red.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -751,7 +751,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/teal.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -760,7 +760,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinKnee/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/yellow.rsi
 
 
 #---------------------ThinThigh----------------------
@@ -772,7 +772,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/black.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/black.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -781,7 +781,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/blue.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -790,7 +790,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/brown.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -799,7 +799,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/green.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/green.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -808,7 +808,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/grey.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -817,7 +817,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -826,7 +826,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/maroon.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -835,7 +835,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/orange.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -844,7 +844,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/thin_thigh.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/thin_thigh.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -853,7 +853,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/red.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/red.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -862,7 +862,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/teal.rsi
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -871,4 +871,4 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Socks/ThinThigh/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/yellow.rsi

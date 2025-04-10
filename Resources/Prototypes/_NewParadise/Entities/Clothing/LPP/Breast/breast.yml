@@ -24,7 +24,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/black.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -33,7 +33,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -42,7 +42,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -51,7 +51,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/green.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -60,7 +60,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -69,7 +69,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -78,7 +78,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -87,7 +87,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -96,7 +96,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/red.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -105,7 +105,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -114,7 +114,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/white.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -123,7 +123,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -132,7 +132,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Bra/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/yellow.rsi
 
 #---------------------------------------------------
 
@@ -143,7 +143,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/bra_bee-kini.rsi
+    sprite: _NewParadise/Clothing/Breast/bra_bee-kini.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -152,7 +152,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/bra_commie.rsi
+    sprite: _NewParadise/Clothing/Breast/bra_commie.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -161,7 +161,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/bra_kinky.rsi
+    sprite: _NewParadise/Clothing/Breast/bra_kinky.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -170,7 +170,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/bra_thin.rsi
+    sprite: _NewParadise/Clothing/Breast/bra_thin.rsi
 
 #-----------------------BraAlt----------------------
 
@@ -181,7 +181,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -190,7 +190,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -199,7 +199,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -208,7 +208,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -217,7 +217,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -226,7 +226,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -235,7 +235,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -244,7 +244,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -253,7 +253,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -262,7 +262,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -271,7 +271,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -280,7 +280,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/yellow.rsi
 
 #---------------------BraBinder----------------------
 
@@ -291,7 +291,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -300,7 +300,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -309,7 +309,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -318,7 +318,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -327,7 +327,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -336,7 +336,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -345,7 +345,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -354,7 +354,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -363,7 +363,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -372,7 +372,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -381,7 +381,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -390,7 +390,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinder/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/yellow.rsi
 
 #-----------------BraBinderStrapless-----------------
 
@@ -401,7 +401,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -410,7 +410,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -419,7 +419,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -428,7 +428,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -437,7 +437,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -446,7 +446,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -455,7 +455,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -464,7 +464,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -473,7 +473,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -482,7 +482,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -491,7 +491,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -500,7 +500,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraBinderStrapless/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/yellow.rsi
 
 #---------------------BraNeko----------------------
 
@@ -511,7 +511,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -520,7 +520,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -529,7 +529,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -538,7 +538,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -547,7 +547,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -556,7 +556,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -565,7 +565,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -574,7 +574,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -583,7 +583,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -592,7 +592,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -601,7 +601,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -610,7 +610,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraNeko/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/yellow.rsi
 
 #------------------BraStrapless-------------------
 
@@ -621,7 +621,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -630,7 +630,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -639,7 +639,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -648,7 +648,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -657,7 +657,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -666,7 +666,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -675,7 +675,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -684,7 +684,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -693,7 +693,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -702,7 +702,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -711,7 +711,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -720,7 +720,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStrapless/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/yellow.rsi
 
 #------------------BraStraplessAlt---------------------
 
@@ -731,7 +731,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -740,7 +740,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -749,7 +749,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -758,7 +758,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -767,7 +767,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -776,7 +776,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -785,7 +785,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -794,7 +794,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -803,7 +803,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -812,7 +812,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -821,7 +821,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -830,7 +830,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraStraplessAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/yellow.rsi
 
 #----------------------BraSwimming------------------------
 
@@ -841,7 +841,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -850,7 +850,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -859,7 +859,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -868,7 +868,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -877,7 +877,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -886,7 +886,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -895,7 +895,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -904,7 +904,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -913,7 +913,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -922,7 +922,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -931,7 +931,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -940,7 +940,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimming/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/yellow.rsi
 
 #----------------------BraSwimmingAlt------------------------
 
@@ -951,7 +951,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -960,7 +960,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -969,7 +969,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -978,7 +978,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -987,7 +987,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -996,7 +996,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1005,7 +1005,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1014,7 +1014,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1023,7 +1023,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1032,7 +1032,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1041,7 +1041,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1050,7 +1050,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/BraSwimmingAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/yellow.rsi
 
 #---------------------------------------------------
 
@@ -1061,7 +1061,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/fishnet_body.rsi
+    sprite: _NewParadise/Clothing/Breast/fishnet_body.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1070,7 +1070,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/fishnet_gloves.rsi
+    sprite: _NewParadise/Clothing/Breast/fishnet_gloves.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1079,7 +1079,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/fishnet_sleeves.rsi
+    sprite: _NewParadise/Clothing/Breast/fishnet_sleeves.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1088,7 +1088,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/halterneck_bra.rsi
+    sprite: _NewParadise/Clothing/Breast/halterneck_bra.rsi
 
 #----------------------SportsBra------------------------
 
@@ -1099,7 +1099,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/black.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1108,7 +1108,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1117,7 +1117,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1126,7 +1126,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/green.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1135,7 +1135,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1144,7 +1144,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1153,7 +1153,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1162,7 +1162,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1171,7 +1171,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/red.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1180,7 +1180,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1189,7 +1189,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/white.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1198,7 +1198,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBra/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/yellow.rsi
 
 #--------------------SportsBraAlt------------------------
 
@@ -1209,7 +1209,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/black.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1218,7 +1218,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1227,7 +1227,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1236,7 +1236,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/green.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1245,7 +1245,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1254,7 +1254,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1263,7 +1263,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1272,7 +1272,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1281,7 +1281,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/red.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1290,7 +1290,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1299,7 +1299,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1308,7 +1308,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/SportsBraAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/yellow.rsi
 
 #---------------------------------------------------
 
@@ -1319,7 +1319,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/striped_bra.rsi
+    sprite: _NewParadise/Clothing/Breast/striped_bra.rsi
 
 #--------------------Tubetop------------------------
 
@@ -1330,7 +1330,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/black.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/black.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1339,7 +1339,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/blue.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1348,7 +1348,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/brown.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1357,7 +1357,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/green.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/green.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1366,7 +1366,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/grey.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1375,7 +1375,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/lightpurple.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1384,7 +1384,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/maroon.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1393,7 +1393,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/orange.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1402,7 +1402,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/red.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/red.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1411,7 +1411,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/teal.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1420,7 +1420,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/white.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1429,7 +1429,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Breast/Tubetop/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/yellow.rsi
 
 #---------------------------------------------------
 
@@ -1440,9 +1440,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBra1.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBra1.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBra1.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBra1.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1451,9 +1451,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBra1Cut.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBra1Cut.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBra1Cut.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBra1Cut.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1462,9 +1462,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBra1Cut2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBra1Cut2.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBra1Cut2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBra1Cut2.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1473,9 +1473,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBraCut3.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBraCut3.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBraCut3.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBraCut3.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1484,9 +1484,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBraCut4.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBraCut4.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBraCut4.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBraCut4.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1495,9 +1495,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBra2.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPBodyBra2.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1506,9 +1506,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPCutOutBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPCutOutBodyBra2.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPCutOutBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPCutOutBodyBra2.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1517,9 +1517,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPSwimsuitBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPSwimsuitBodyBra2.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPSwimsuitBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPSwimsuitBodyBra2.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1528,9 +1528,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPSwimsuitplusTightsBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPSwimsuitplusTightsBodyBra2.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPSwimsuitplusTightsBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPSwimsuitplusTightsBodyBra2.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1539,9 +1539,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPTranslucentBodyBra.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPTranslucentBodyBra.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPTranslucentBodyBra.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPTranslucentBodyBra.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1550,9 +1550,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPTranslucentBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPTranslucentBodyBra2.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPTranslucentBodyBra2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPTranslucentBodyBra2.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1561,9 +1561,9 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPCutOutTop.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPCutOutTop.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPCutOutTop.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPCutOutTop.rsi
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1572,6 +1572,6 @@
   description:
   components:
   - type: Sprite
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPCutOutTop2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPCutOutTop2.rsi
   - type: Clothing
-    sprite: _LostParadise/Clothing/Underwear/bra/LPPCutOutTop2.rsi
+    sprite: _NewParadise/Clothing/Underwear/bra/LPPCutOutTop2.rsi
