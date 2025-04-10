@@ -30,6 +30,13 @@
     {
       "name": "long_ears_thin",
       "directions": 4
+    },
+    {
+      "name": "equipped-HELMET",
+      "directions": 4
+    },
+    {
+      "name": "icon"
     }
   ]
 }
