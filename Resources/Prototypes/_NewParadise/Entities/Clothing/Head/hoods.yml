@@ -13,7 +13,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -44,7 +45,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -65,7 +67,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -86,7 +89,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -107,7 +111,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -128,7 +133,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -149,7 +155,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -170,7 +177,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -191,7 +199,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -212,7 +221,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -233,7 +243,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -254,7 +265,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -275,7 +287,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -296,7 +309,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -317,7 +331,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -338,7 +353,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -359,7 +375,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -379,7 +396,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -399,7 +417,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -420,7 +439,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -441,7 +461,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -462,7 +483,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -483,7 +505,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -504,7 +527,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -525,7 +549,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -546,7 +571,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair
@@ -567,7 +593,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 50
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Tag
     tags:
     - HidesHair

@@ -24,7 +24,7 @@
       coefficients:
         Shock: 1.05 # oh no so conductive
   - type: Insulated
-    coefficient: 1.5
+    coefficients: 1.5
   - type: Tag
     tags:
     - BrassKnucklesNF

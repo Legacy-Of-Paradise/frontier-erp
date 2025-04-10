@@ -27,7 +27,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Armor
     modifiers:
       coefficients:
@@ -84,7 +85,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Armor
     modifiers:
       coefficients:
@@ -243,7 +245,8 @@
         Piercing: 0.15
         Heat: 0.35
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
@@ -274,7 +277,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Armor
     modifiers:
       coefficients:
@@ -315,7 +319,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Armor
     modifiers:
       coefficients:
@@ -356,7 +361,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Armor
     modifiers:
       coefficients:
@@ -397,7 +403,8 @@
     highPressureMultiplier: 0.08
     lowPressureMultiplier: 1000
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Armor
     modifiers:
       coefficients:
@@ -442,7 +449,8 @@
         Piercing: 0.85
         Heat: 0.85
   - type: TemperatureProtection
-    coefficient: 0.005
+    heatingCoefficient: 0.01
+    coolingCoefficient: 0.01
   - type: Foldable
     folded: true
     canFoldInsideContainer: true

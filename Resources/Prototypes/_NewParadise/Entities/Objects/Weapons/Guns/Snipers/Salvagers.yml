@@ -99,8 +99,6 @@
       types:
         Blunt: 8.5
     bluntStaminaDamageFactor: 1.25
-    swapKeys: true
-    disableHeavy: true
     animation: WeaponArcThrust
     wideAnimationRotation: 180
     soundHit:
@@ -156,8 +154,6 @@
       types:
         Blunt: 8.5
     bluntStaminaDamageFactor: 1.25
-    swapKeys: true
-    disableHeavy: true
     animation: WeaponArcThrust
     wideAnimationRotation: 180
     soundHit:
@@ -211,8 +207,6 @@
       types:
         Blunt: 8.5
     bluntStaminaDamageFactor: 1.25
-    swapKeys: true
-    disableHeavy: true
     animation: WeaponArcThrust
     wideAnimationRotation: 180
     soundHit:
@@ -264,8 +258,6 @@
       types:
         Blunt: 7.5
     bluntStaminaDamageFactor: 1.25
-    swapKeys: true
-    disableHeavy: true
     animation: WeaponArcThrust
     wideAnimationRotation: 60
     soundHit:

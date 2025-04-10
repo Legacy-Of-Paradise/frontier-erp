@@ -43,8 +43,6 @@
       types:
         Blunt: 8.0
     bluntStaminaDamageFactor: 1.25
-    swapKeys: true
-    disableHeavy: true
     wideAnimationRotation: 135
     animation: WeaponArcThrust
     soundHit:

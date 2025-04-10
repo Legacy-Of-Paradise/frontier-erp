@@ -84,11 +84,13 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.LHand" ]
       - map: [ "enum.HumanoidVisualLayers.RHand" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      - map: [ "breast" ]
+      - map: [ "underwear" ]
+      - map: [ "jumpsuit" ]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
         sprite: Objects/Misc/handcuffs.rsi
@@ -117,7 +119,7 @@
         state: "creampie_moth"
         visible: false
   - type: Inventory
-    speciesId: moth 
+    speciesId: moth
     femaleDisplacements:
       jumpsuit:
         sizeMaps:
@@ -134,7 +136,7 @@
   - type: HumanoidAppearance
     species: Moth
   - type: Inventory
-    speciesId: moth 
+    speciesId: moth
     femaleDisplacements:
       jumpsuit:
         sizeMaps:

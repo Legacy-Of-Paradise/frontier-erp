@@ -96,7 +96,6 @@
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/blue-clown.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/blue-clown.rsi
-    femaleMask: UniformTop
 
 - type: entity
   parent: ClothingUniformBase
@@ -108,7 +107,6 @@
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/green-clown.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/green-clown.rsi
-    femaleMask: UniformTop
 
 - type: entity
   parent: ClothingUniformBase
@@ -120,7 +118,6 @@
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/orange-clown.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/orange-clown.rsi
-    femaleMask: UniformTop
 
 - type: entity
   parent: ClothingUniformBase
@@ -132,7 +129,6 @@
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/purple-clown.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/purple-clown.rsi
-    femaleMask: UniformTop
 
 - type: entity
   parent: ClothingUniformBase
@@ -144,7 +140,6 @@
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/rainbow-clown.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/rainbow-clown.rsi
-    femaleMask: UniformTop
 
 - type: entity
   parent: ClothingUniformBase
@@ -156,7 +151,6 @@
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/yellow-clown.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/yellow-clown.rsi
-    femaleMask: UniformTop
 
 - type: entity
   parent: ClothingUniformBase

@@ -72,8 +72,6 @@
     damage:
       types:
         Blunt: 7.5
-    swapKeys: true
-    disableHeavy: true
     animation: WeaponArcThrust
     wideAnimationRotation: 135
     soundHit:

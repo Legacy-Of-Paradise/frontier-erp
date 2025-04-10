@@ -418,7 +418,6 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - IPCMaskWearable
   - type: Armor
     modifiers:
       coefficients:

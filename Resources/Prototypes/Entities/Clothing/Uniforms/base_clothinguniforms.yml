@@ -35,7 +35,6 @@
   components:
   - type: Clothing
     slots: [innerclothing]
-    femaleMask: UniformTop
 
 - type: entity
   abstract: true
@@ -58,4 +57,3 @@
   components:
   - type: Clothing
     slots: [innerclothing]
-    femaleMask: UniformTop

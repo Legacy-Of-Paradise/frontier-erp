@@ -73,7 +73,6 @@
     damage:
       types:
         Piercing: 14
-    heavyStaminaCost: 2
     angle: 2
   - type: Item
     size: Small

@@ -28,6 +28,5 @@
        - id: MagazineLightRifle
          amount: 2
        - id: LPPClothingEyesGlassesSunglassesPG
-       - id: ClothingHandsMercGlovesCombat
        - id: LPPClothingHeadHatTacticalHelmetWrittenOff
        - id: LPPClothingNeckChain

@@ -52,7 +52,6 @@
     sprite: _NewParadise/Objects/Weapons/Melee/e_axe-inhands.rsi
   - type: Reflect
     reflectProb: 0.5
-    minReflectProb: 0.2
     spread: 120
     reflects:
       - Energy
@@ -124,7 +123,6 @@
     sprite: _NewParadise/Objects/Weapons/Melee/e_scythe-inhands.rsi
   - type: Reflect
     reflectProb: 0.8
-    minReflectProb: 0.25
     spread: 40
     reflects:
       - Energy
@@ -218,6 +216,5 @@
   - type: Reflect
     enabled: false
     reflectProb: 0.5
-    minReflectProb: 0.2
   - type: IgnitionSource
     temperature: 700
