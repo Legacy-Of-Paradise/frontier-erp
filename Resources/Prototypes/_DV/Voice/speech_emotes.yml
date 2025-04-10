@@ -12,8 +12,8 @@
     - BorgChassis
   chatMessages: [honks.]
   chatTriggers:
-    - хонк
-    - хонкает
+    - хоньк
+    - хонькает
 
 - type: emote
   id: HarpyRing
@@ -79,7 +79,7 @@
     - BorgChassis
   chatMessages: [beeps.]
   chatTriggers:
-    - бип
+    - биип
     - буп
     - бап
     - биб
@@ -152,8 +152,8 @@
     - BorgChassis
   chatMessages: [snarls.]
   chatTriggers:
-    - рычит
-    - рык
+    - рокотает
+    - рокочет
     - рыкает
 
 - type: emote
@@ -185,8 +185,8 @@
     - BorgChassis
   chatMessages: [howls.]
   chatTriggers:
-    - лает
-    - лай
+    - вой
+    - воет
 
 - type: emote
   id: Awoo

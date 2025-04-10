@@ -132,9 +132,9 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-chitter"]
   chatTriggers:
-   - чирик
-   - чирикает
-   - чикчирик
+   - щебечет
+   - щебетает
+   - щебет
 
 - type: emote
   id: Squeak
@@ -369,8 +369,7 @@
     - Vocal
   chatMessages: ["chat-emote-msg-chime"]
   chatTriggers:
-    - звон
-    - звонит
+    - звонянькает
 
 - type: emote
   id: Buzz-Two
@@ -409,4 +408,4 @@
   chatMessages: ["chat-emote-msg-ping"]
   chatTriggers:
     - пинг
-    - звенит
+    - звяньк
