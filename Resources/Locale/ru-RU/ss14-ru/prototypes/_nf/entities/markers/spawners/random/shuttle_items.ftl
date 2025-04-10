@@ -1,6 +1,6 @@
-ent-SpawnShuttleGearSuitStorageUnitsMercenary = random suit storage unit
-    .suffix = Shuttle, Mercenary
+ent-SpawnShuttleGearSuitStorageUnitsMercenary = случайный шкаф для хранения скафандра
+    .suffix = Шаттл, Наёмник
     .desc = { ent-MarkerBase.desc }
-ent-SpawnShuttleVendomatsClothes = random vendomat
-    .suffix = Shuttle, Clothes
+ent-SpawnShuttleVendomatsClothes = случайный торговый автомат
+    .suffix = Шаттл, Одежда
     .desc = { ent-MarkerBase.desc }

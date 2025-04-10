@@ -1,3 +1,3 @@
-ent-SpawnMobCatBloodCultLowChance = blood cult cat spawner
-    .suffix = Ghost, 5% Spawn Chance
+ent-SpawnMobCatBloodCultLowChance = спавнер кота кровавого культа
+    .suffix = Призрак, Вероятность появления 5%
     .desc = { ent-MarkerBase.desc }

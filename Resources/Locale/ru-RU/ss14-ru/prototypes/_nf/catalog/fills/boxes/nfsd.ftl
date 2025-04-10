@@ -1,5 +1,5 @@
-ent-BoxBundleNfsd = короб снаряжения ДШ
-    .desc = Коробка со снаряжением ДШ.
+ent-BoxBundleNfsd = короб снаряжения ДШНГ
+    .desc = Коробка со снаряжением ДШНГ.
 ent-BoxExplosiveGrenadesNfsd = короб фугасных гранат
     .desc = Коробка с фугасными гранатами.
 ent-BoxIncendiaryGrenadesNfsd = короб зажигательных гранат

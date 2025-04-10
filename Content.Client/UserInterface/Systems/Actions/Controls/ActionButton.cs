@@ -197,7 +197,7 @@ public sealed class ActionButton : Control, IEntityControl
 
         if (_action is { Charges: not null })
         {
-            var charges = FormattedMessage.FromMarkupPermissive(Loc.GetString($"Charges: {_action.Charges.Value.ToString()}/{_action.MaxCharges.ToString()}"));
+            var charges = FormattedMessage.FromMarkupPermissive(Loc.GetString($"Зарядов: {_action.Charges.Value.ToString()}/{_action.MaxCharges.ToString()}"));
             return new ActionAlertTooltip(name, decr, charges: charges);
         }
 

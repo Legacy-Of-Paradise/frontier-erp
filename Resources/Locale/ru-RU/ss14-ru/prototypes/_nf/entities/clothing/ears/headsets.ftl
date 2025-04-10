@@ -1,6 +1,6 @@
 ent-ClothingHeadsetCommon = гарнитура
     .desc = Обновлённый модульный интерком, который крепится через голову. Берет ключи шифрования.
-ent-ClothingHeadsetNfsdBrown = гарнитура ДШ
+ent-ClothingHeadsetNfsdBrown = гарнитура ДШНГ
     .desc = { ent-ClothingHeadset.desc }
 ent-ClothingHeadsetNfsdGreen = { ent-ClothingHeadsetNfsdBrown }
     .desc = { ent-ClothingHeadsetNfsdBrown.desc }
@@ -36,5 +36,5 @@ ent-ClothingHeadsetBrigmedicCommon = { ent-ClothingHeadsetCommon }
     .desc = { ent-ClothingHeadsetCommon.desc }
 ent-ClothingHeadsetServiceCommon = { ent-ClothingHeadsetCommon }
     .desc = { ent-ClothingHeadsetCommon.desc }
-ent-ClothingHeadsetDoc = doc's headset
-    .desc = Letting the DoC know what's up. Takes encryption keys.
+ent-ClothingHeadsetDoc = гарнитура доктора
+    .desc = Сообщаю врачу, у кого какие проблемы. Имеет медицинский ключ шифрования.

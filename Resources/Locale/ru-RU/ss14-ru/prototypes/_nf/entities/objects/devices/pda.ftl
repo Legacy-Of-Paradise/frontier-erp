@@ -1,7 +1,8 @@
 ent-MusicBasePDA = { "" }
     .desc = { "" }
-ent-NFAdminPDA = { ent-MusicBasePDA }
-    .desc = { ent-MusicBasePDA.desc }
+ent-NFAdminPDA = { ent-AdminPDA }
+    .suffix = Админ
+    .desc = { ent-AdminPDA.desc }
 ent-MercenaryPDA = КПК наёмников
     .desc = Этот КПК пахнет войной.
 ent-PilotPDA = КПК пилота

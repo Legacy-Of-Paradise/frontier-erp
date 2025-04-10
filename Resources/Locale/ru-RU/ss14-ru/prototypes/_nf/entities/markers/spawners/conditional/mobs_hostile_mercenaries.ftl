@@ -1,3 +1,3 @@
-ent-SpawnMobMercenaryCaptain = mercenary boss spawner
-    .suffix = AI, Hostile
+ent-SpawnMobMercenaryCaptain = спавнер боса наёмников
+    .suffix = ИИ, Враждебный
     .desc = { ent-MarkerBase.desc }

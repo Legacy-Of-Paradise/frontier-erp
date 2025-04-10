@@ -1,5 +1,6 @@
 - type: entity
   id: StressTest
+  categories: [ HideSpawnMenu ]
   name: stress test
   suffix: DEBUG
   components:
