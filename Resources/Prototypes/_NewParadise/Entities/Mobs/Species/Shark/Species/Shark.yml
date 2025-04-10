@@ -7,9 +7,9 @@
   markingLimits: MobSharkMarkingLimits
   dollPrototype: LPPMobSharkDummy
   skinColoration: Hues
-  maleFirstNames: firstMaleTajaran
-  femaleFirstNames: firstFemaleTajaran
-  lastNames: TajaranLast
+  # maleFirstNames: firstMaleTajaran
+  # femaleFirstNames: firstFemaleTajaran
+  # lastNames: TajaranLast
 
 - type: speciesBaseSprites
   id: MobSharkSprites
