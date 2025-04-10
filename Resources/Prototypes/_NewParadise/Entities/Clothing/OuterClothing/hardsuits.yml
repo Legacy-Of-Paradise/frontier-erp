@@ -947,7 +947,6 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitCybersunElite
   - type: Reflect
-    enabled: true
     reflectProb: 0.45
 
 - type: entity
@@ -986,7 +985,6 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitCybersunCommander
   - type: Reflect
-    enabled: true
     reflectProb: 0.05
 
 - type: entity
@@ -1026,7 +1024,6 @@
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexCommander
   - type: Reflect
-    enabled: true
     reflectProb: 0.1
 
 - type: entity

@@ -101,7 +101,6 @@
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
-    fireOnDropChance: 1
   - type: UseDelayOnShoot
   - type: UseDelay
     delay: 1

@@ -48,7 +48,6 @@
     - type: Perishable
     - type: Tag
       tags:
-      - HidesTail
       - CanPilot
       - FootstepSound
       - DoorBumpOpener

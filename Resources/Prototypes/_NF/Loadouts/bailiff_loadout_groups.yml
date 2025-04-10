@@ -5,12 +5,12 @@
   - BailiffClothingUniformJumpsuitBailiff
   - BailiffClothingUniformJumpskirtBailiff
 #LPP
-  - LPPBailiffClothingUniformJumpsuitBailiff
+  - LPPClothingUniformJumpsuitBailiffSherif
   fallbacks:
   - BailiffClothingUniformJumpsuitBailiff
   - BailiffClothingUniformJumpskirtBailiff
 #LPP
-  - LPPBailiffClothingUniformJumpsuitBailiff
+  - LPPClothingUniformJumpsuitBailiffSherif
 
 - type: loadoutGroup
   id: BailiffOuterClothing
@@ -25,12 +25,12 @@
   loadouts:
   - BailiffClothingHeadHatBailiff
 #LPP
-  - LPPBailiffClothingHeadHatBailiff1
-  - LPPBailiffClothingHeadHatBailiff2
+  - LPPClothingHeadHatDeputySherif
+  - LPPClothingHeadHatCowboyDeputySherif
   fallbacks:
   - BailiffClothingHeadHatBailiff
-  - LPPBailiffClothingHeadHatBailiff1
-  - LPPBailiffClothingHeadHatBailiff2
+  - LPPClothingHeadHatDeputySherif
+  - LPPClothingHeadHatCowboyDeputySherif
 
 - type: loadoutGroup
   id: BailiffNeck

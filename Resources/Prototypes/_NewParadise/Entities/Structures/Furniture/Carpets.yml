@@ -7,6 +7,14 @@
     sprite: _NewParadise/Structures/Furniture/Carpets/black_carpet.rsi
   - type: Icon
     sprite: _NewParadise/Structures/Furniture/Carpets/black_carpet.rsi
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+        behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
 
 - type: entity
   id: LPPMonochromeCarpet
@@ -17,6 +25,14 @@
     sprite: _NewParadise/Structures/Furniture/Carpets/carpet_monochrome.rsi
   - type: Icon
     sprite: _NewParadise/Structures/Furniture/Carpets/carpet_monochrome.rsi
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+        behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
 
 - type: entity
   id: LPPBlackRedCarpet
@@ -27,4 +43,11 @@
     sprite: _NewParadise/Structures/Furniture/Carpets/carpet_blackred.rsi
   - type: Icon
     sprite: _NewParadise/Structures/Furniture/Carpets/carpet_blackred.rsi
-
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 10
+        behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]

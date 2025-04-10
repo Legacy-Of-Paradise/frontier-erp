@@ -278,16 +278,16 @@
   - sprite: Mobs/Customization/Moth/moth_wings.rsi
     state: ladybug
 
-- type: marking
-  id: MothWingsMaple
-  bodyPart: Tail
-  markingCategory: Tail
-  speciesRestriction: [Moth]
-  sprites:
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
-    state: maple_primary
-  - sprite: Mobs/Customization/Moth/moth_wings.rsi
-    state: maple_secondary
+# - type: marking
+#   id: MothWingsMaple
+#   bodyPart: Tail
+#   markingCategory: Tail
+#   speciesRestriction: [Moth]
+#   sprites:
+#   - sprite: Mobs/Customization/Moth/moth_wings.rsi
+#     state: maple_primary
+#   - sprite: Mobs/Customization/Moth/moth_wings.rsi
+#     state: maple_secondary
 
 - type: marking
   id: MothWingsMoffra

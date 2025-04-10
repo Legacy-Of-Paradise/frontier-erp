@@ -45,44 +45,44 @@
       guides:
       - Security
 
-- type: entity
-  name: CentCoin
-  parent: BaseItem
-  id: LPPCentcoin
-  suffix: 10 Coins
-  description: A coin containing a couple of grams of bluespace crystal, as well as disposable modules for teleporting objects.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
-    state: telecrystal
-  - type: Item
-    sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
-    size: Tiny
-  - type: Stack
-    count: 10
-    stackType: Telecrystal
-  - type: StaticPrice
-    price: 0
-  - type: StackPrice
-    price: 200
-  - type: Currency
-    price:
-      LPPCentcoin: 1
+# - type: entity
+#   name: CentCoin
+#   parent: BaseItem
+#   id: LPPCentcoin
+#   suffix: 10 Coins
+#   description: A coin containing a couple of grams of bluespace crystal, as well as disposable modules for teleporting objects.
+#   components:
+#   - type: Sprite
+#     sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
+#     state: telecrystal
+#   - type: Item
+#     sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
+#     size: Tiny
+#   - type: Stack
+#     count: 10
+#     stackType: Telecrystal
+#   - type: StaticPrice
+#     price: 0
+#   - type: StackPrice
+#     price: 200
+#   - type: Currency
+#     price:
+#       LPPCentcoin: 1
 
-- type: entity
-  name: CentCoin
-  parent: BaseItem
-  id: LPPCentcoin1
-  description: A coin containing a couple of grams of bluespace crystal, as well as disposable modules for teleporting objects.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
-    state: telecrystal
-  - type: Item
-    sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
-    size: Tiny
-  - type: StackPrice
-    price: 200
-  - type: Currency
-    price:
-      LPPCentcoin: 1
+# - type: entity
+#   name: CentCoin
+#   parent: BaseItem
+#   id: LPPCentcoin1
+#   description: A coin containing a couple of grams of bluespace crystal, as well as disposable modules for teleporting objects.
+#   components:
+#   - type: Sprite
+#     sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
+#     state: telecrystal
+#   - type: Item
+#     sprite: _NewParadise/Objects/Specific/Security/Centcoin.rsi
+#     size: Tiny
+#   - type: StackPrice
+#     price: 200
+#   - type: Currency
+#     price:
+#       LPPCentcoin: 1

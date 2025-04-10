@@ -94,6 +94,14 @@
     {
       "name": "flowing_s",
       "directions": 4
+    },
+    {
+      "name": "spotty_s",
+      "directions": 4
+    },
+    {
+      "name": "wise_braid_s",
+      "directions": 4
     }
   ]
 }
