@@ -14,6 +14,7 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
+    - HidesTail
   - type: StaticPrice # Frontier
     price: 30 # Frontier
     vendPrice: 1500 # Frontier
@@ -34,6 +35,7 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
+    - HidesTail
 
 #Emergency EVA
 - type: entity
