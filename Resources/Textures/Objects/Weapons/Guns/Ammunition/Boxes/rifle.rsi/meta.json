@@ -14,6 +14,9 @@
       "name": "base-big"
     },
     {
+      "name": "base-b"
+    },
+    {
       "name": "mag-1"
     },
     {
@@ -23,13 +26,13 @@
       "name": "mag-3"
     },
     {
-      "name": "mag-big-1"
+      "name": "magb-1"
     },
     {
-      "name": "mag-big-2"
+      "name": "magb-2"
     },
     {
-      "name": "mag-big-3"
+      "name": "magb-3"
     },
     {
       "name": "incendiary"
