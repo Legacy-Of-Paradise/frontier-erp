@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: LPPClothingHeadHelmetAcientSyndieEVA
   categories: [ HideSpawnMenu ]
   name: CSA-21BM Helmet
@@ -31,7 +31,7 @@
     sprintModifier: 0.95
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: LPPClothingHeadHelmetHunter
   categories: [ HideSpawnMenu ]
   name: GRT-42w Helmet

@@ -38,7 +38,7 @@
     price: 350
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: LPPClothingOuterHardsuitHelmetEliteNPZ
   name: Helmet NPZ-75e
   description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!
@@ -119,7 +119,7 @@
     price: 350
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: LPPClothingOuterHardsuitHelmetNPZ
   name: Helmet NPZ-72
   description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!
@@ -184,7 +184,7 @@
     price: 350
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: LPPClothingOuterHardsuitHelmetSpecopsNPZ
   name: Helmet NPZ-72+
   description: Flutter like a butterfly, it's a pity that you're already dead, you pathetic xenos!

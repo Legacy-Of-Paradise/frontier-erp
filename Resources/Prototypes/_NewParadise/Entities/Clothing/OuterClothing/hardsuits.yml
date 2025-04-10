@@ -1254,7 +1254,7 @@
     price: 350
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: LPPClothingHeadHelmetDetectiveHardsuit
   name: Helmet FDA-87d
   description: It is a pity that there is no hole for a smoking pipe...
@@ -1279,7 +1279,7 @@
         Heat: 0.95
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: LPPClothingHeadHelmetHardsuitReflectivepatrolsec
   name: Helmet NFD-101p
   categories: [ HideSpawnMenu ]
@@ -1371,7 +1371,7 @@
     clothingPrototype: LPPClothingHeadHelmetMikhelmJugger
 
 - type: entity
-  parent: ClothingHeadHardsuitWithLightBase
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: LPPClothingHeadHelmetMikhelmJugger
   name: Helmet GRT-43h
   description: The helmet is from a spacesuit, the display is slightly broken, but you can work...
