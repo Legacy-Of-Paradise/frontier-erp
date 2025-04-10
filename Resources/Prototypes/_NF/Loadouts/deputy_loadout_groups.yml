@@ -4,13 +4,10 @@
   loadouts:
   - DeputyClothingUniformJumpsuitDeputy
   - DeputyClothingUniformJumpskirtDeputy
-#LoP
-  - LPPClothingUniformJumpsuitDeputySherif
   fallbacks:
   - DeputyClothingUniformJumpsuitDeputy
   - DeputyClothingUniformJumpskirtDeputy
-#LoP
-  - LPPClothingUniformJumpsuitDeputySherif
+
 - type: loadoutGroup
   id: DeputyOuterClothing
   name: loadout-group-contractor-outerclothing
@@ -27,11 +24,8 @@
   name: loadout-group-contractor-head
   loadouts:
   - DeputyClothingHeadHatDeputy
-#LoP
-  - LPPClothingHeadHatCowboy
   fallbacks:
   - DeputyClothingHeadHatDeputy
-  - LPPClothingHeadHatCowboy
 
 - type: loadoutGroup
   id: DeputyNeck

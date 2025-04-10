@@ -16,18 +16,18 @@
   products:
     LPPMiruvor: 8
 
-- type: reaction
-  id: LPPCargoGargleBlaster
-  reactants:
-    Moonshine:
-      amount: 2
-    Mead:
-      amount: 1
-    Kvass:
-      amount: 1
-    JuiceLemon:
-      amount: 1
-    Gold:
-      amount: 1
-  products:
-    LPPCargoGargleBlaster: 6
+# - type: reaction
+#   id: LPPCargoGargleBlaster
+#   reactants:
+#     Moonshine:
+#       amount: 2
+#     Mead:
+#       amount: 1
+#     Kvass:
+#       amount: 1
+#     JuiceLemon:
+#       amount: 1
+#     Gold:
+#       amount: 1
+#   products:
+#     LPPCargoGargleBlaster: 6

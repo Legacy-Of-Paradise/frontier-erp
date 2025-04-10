@@ -19,10 +19,10 @@
       collection: Punch
     animation: WeaponArcFist
     mustBeEquippedToUse: true
-  - type: Armor
-    modifiers:
-      coefficients:
-        Shock: 1.05 # oh no so conductive
+  # - type: Armor
+  #   modifiers:
+  #     coefficients:
+  #       Shock: 1.05 # oh no so conductive
   - type: Insulated
     coefficients: 1.5
   - type: Tag
