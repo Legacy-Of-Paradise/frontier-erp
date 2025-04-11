@@ -1,6 +1,7 @@
 ﻿- type: entity
   name: pointing arrow
   id: PointingArrow
+  categories: [ HideSpawnMenu ]
   save: false
   components:
   - type: Tag

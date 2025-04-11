@@ -12,7 +12,7 @@ ledger-no-expenses = Отсутсвует
 ledger-balance = Баланс:
 ledger-no-balance = Н/Д
 ledger-tab-Frontier = Аванпост Новых Горизонтов
-ledger-tab-Nfsd = ДШ
+ledger-tab-Nfsd = ДШНГ
 ledger-tab-Medical = Медицинская диспетчерная
 # Fallback, if this displays, something's wrong.
 ledger-tab-Unknown = Неизвестно

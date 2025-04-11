@@ -1,12 +1,12 @@
-ent-ClothingShoesClownModWhoopie = { ent-BaseC3ContrabandNoValue }
+ent-ClothingShoesClownModWhoopie = клоунские ботинки
     .desc = Модифицированные стандартные клоунские ботинки. Черт, они такие мягкие!
     .suffix = Вупи
-ent-ClothingShoesClownModKetchup = { ent-BaseC3ContrabandNoValue }
+ent-ClothingShoesClownModKetchup = { ent-ClothingShoesClownModWhoopie }
     .desc = Модифицированные стандартные клоунские ботинки. Черт, они мокрые!
     .suffix = Кетчуп
-ent-ClothingShoesClownModMustarchup = { ent-BaseC3ContrabandNoValue }
+ent-ClothingShoesClownModMustarchup = { ent-ClothingShoesClownModWhoopie }
     .desc = Модифицированные стандартные клоунские ботинки. Чёрт, они очень мокрые!
     .suffix = Мустарчуп
-ent-ClothingShoesClownModUltimate = { ent-BaseC3ContrabandNoValue }
+ent-ClothingShoesClownModUltimate = { ent-ClothingShoesClownModWhoopie }
     .desc = Модифицированные стандартные клоунские ботинки. Чёрт, они мокрые и мягкие!
     .suffix = Ультимэйт

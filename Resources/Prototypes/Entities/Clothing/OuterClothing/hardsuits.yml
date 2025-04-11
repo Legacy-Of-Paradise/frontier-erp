@@ -447,6 +447,7 @@
     tags:
     - WhitelistChameleon
     - HighRiskItem
+    - HidesTail
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitRd
   - type: StaticPrice
@@ -576,6 +577,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+    - HidesTail
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -615,6 +617,11 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+    - HidesTail
 
 #Syndicate Commander Hardsuit
 - type: entity
@@ -881,6 +888,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
+    - HidesTail
 
 #ERT Janitor Hardsuit
 - type: entity

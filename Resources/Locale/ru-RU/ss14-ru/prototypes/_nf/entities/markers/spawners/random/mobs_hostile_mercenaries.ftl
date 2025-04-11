@@ -1,9 +1,9 @@
-ent-SpawnMobMercenaryT1 = mercenary spawner
-    .suffix = AI, Hostile, T1
+ent-SpawnMobMercenaryT1 = спавнер наёмника
+    .suffix = ИИ, Враждебный, T1
     .desc = { ent-MarkerBase.desc }
-ent-SpawnMobMercenaryT2 = mercenary spawner
-    .suffix = AI, Hostile, T2
+ent-SpawnMobMercenaryT2 = { ent-SpawnMobMercenaryT1 }
+    .suffix = ИИ, Враждебный, T2
     .desc = { ent-MarkerBase.desc }
-ent-SpawnMobMercenaryT3 = mercenary spawner
-    .suffix = AI, Hostile, T3
+ent-SpawnMobMercenaryT3 = { ent-SpawnMobMercenaryT1 }
+    .suffix = ИИ, Враждебный, T3
     .desc = { ent-MarkerBase.desc }
