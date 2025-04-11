@@ -41,16 +41,6 @@
             ]
         },
         {
-            "name": "equipped-MASK-shark",
-            "directions": 4,
-            "delays": [
-                [ 0.5, 0.5, 0.5, 0.5 ],
-                [ 0.5, 0.5, 0.5, 0.5 ],
-                [ 0.5, 0.5, 0.5, 0.5 ],
-                [ 0.5, 0.5, 0.5, 0.5 ]
-            ]
-        },
-        {
             "name": "equipped-MASK-reptilian",
             "directions": 4,
             "delays": [
