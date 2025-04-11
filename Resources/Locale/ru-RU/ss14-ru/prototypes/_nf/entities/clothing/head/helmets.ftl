@@ -1,6 +1,6 @@
-ent-ClothingHeadHelmetERTMailCarrier = ERT mail carrier helmet
-    .desc = An in-atmosphere helmet worn by mail members of the NanoTrasen Emergency Response Team. Has dark purple highlights.
-ent-ClothingHeadHelmetNfsd = шлем ДШ
+ent-ClothingHeadHelmetERTMailCarrier = шлем ОБР почтальона
+    .desc = Шлем, который носят члены отряда быстрого реагирования NanoTrasen. Имеет темно-фиолетовые блики.
+ent-ClothingHeadHelmetNfsd = шлем ДШНГ
     .desc = Шлем, выданный Департаменту Шерифа, для защиты головы.
 ent-ClothingHeadHelmetMercenaryBlack = шлем наёмника
     .desc = Боевой шлем обычно используют наёмники, он прочный, лёгкий и пахнет порохом и городской суетой.

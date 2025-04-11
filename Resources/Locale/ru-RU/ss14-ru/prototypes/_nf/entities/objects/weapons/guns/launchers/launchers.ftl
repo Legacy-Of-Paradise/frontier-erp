@@ -1,8 +1,8 @@
 ent-WeaponLauncherChinaLakeEmp = { ent-WeaponLauncherChinaLake }
-    .suffix = ЭМП
+    .suffix = ЭМИ
     .desc = { ent-WeaponLauncherChinaLake.desc }
-ent-WeaponLauncherRocketEmp = { ent-BaseC2ContrabandUnredeemable }
-    .suffix = ЭМП
+ent-WeaponLauncherRocketEmp = ракетница ЭМИ
+    .suffix = ЭМИ
     .desc = { ent-BaseC2ContrabandUnredeemable.desc }
 ent-WeaponMailLake = почта ДШНГ
     .desc = Система доставки посылок с Rap(b?)id

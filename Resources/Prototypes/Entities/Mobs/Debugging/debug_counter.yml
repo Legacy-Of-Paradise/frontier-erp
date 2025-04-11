@@ -1,6 +1,7 @@
 - type: entity
   parent: MobHuman
   id: MobDebugCounter
+  categories: [ HideSpawnMenu ]
   name: debug counter
   description: He can count
   suffix: AI, DEBUG
@@ -19,6 +20,7 @@
 - type: entity
   parent: MobHuman
   id: MobDebugRandomCounter
+  categories: [ HideSpawnMenu ]
   name: debug random counter
   description: He can randomize
   suffix: AI, DEBUG
@@ -37,6 +39,7 @@
 - type: entity
   parent: MobHuman
   id: MobDebugRandomLess
+  categories: [ HideSpawnMenu ]
   name: debug random less
   description: He can lessing
   suffix: AI, DEBUG

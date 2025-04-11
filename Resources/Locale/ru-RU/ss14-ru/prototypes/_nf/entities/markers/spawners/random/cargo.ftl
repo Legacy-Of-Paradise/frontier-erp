@@ -1,8 +1,8 @@
-ent-RandomCargoSpawner = random cargo spawner
+ent-RandomCargoSpawner = случайный спавнер снабжения
     .desc = { ent-MarkerBase.desc }
-ent-RandomCargoGenericSpawner = random cargo spawner
+ent-RandomCargoGenericSpawner = случайный спавнер снабжения
     .suffix = Generic
     .desc = { ent-MarkerBase.desc }
-ent-RandomCargoAnimalSpawner = random cargo spawner
+ent-RandomCargoAnimalSpawner = случайный спавнер снабжения
     .suffix = Animal
     .desc = { ent-MarkerBase.desc }

@@ -1,8 +1,8 @@
 ent-StructurePistolRackLockSR = { ent-StructurePistolRackLock }
-    .suffix = SR, Пустой
+    .suffix = ПФ, Пустой
     .desc = { ent-StructurePistolRackLock.desc }
 ent-StructurePistolRackLockSRWallmounted = { ent-StructurePistolRackLockWallmounted }
-    .suffix = SR, Пустой, Настенный
+    .suffix = ПФ, Пустой, Настенный
     .desc = { ent-StructurePistolRackLockWallmounted.desc }
 ent-StructurePistolRackLockSheriff = { ent-StructurePistolRackLock }
     .suffix = Шериф, Пустой

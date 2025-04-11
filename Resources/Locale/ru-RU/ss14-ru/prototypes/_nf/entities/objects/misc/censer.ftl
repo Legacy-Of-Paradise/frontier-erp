@@ -1,2 +1,2 @@
-ent-Censer = censer
-    .desc = Usually you put incense in there.
+ent-Censer = курильница
+    .desc = Обычно туда кладут благовония.

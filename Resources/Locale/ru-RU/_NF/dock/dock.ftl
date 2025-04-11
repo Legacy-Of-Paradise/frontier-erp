@@ -42,5 +42,5 @@ dock-label-trade-seven-c = Д7В
 dock-label-bus = Стыковка маршрутки
 dock-label-janitor = Уборочная
 dock-label-guard = СБ
-dock-label-nfsd = ДШ
+dock-label-nfsd = ДШНГ
 dock-label-drive-thru = McCargo дорожная касса
