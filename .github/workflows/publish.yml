@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: (github.repository == 'Legacy-Of-Paradise/frontier-erp') or (github.repository == 'Legacy-Of-Paradise/frontier-nonerp')
 
     steps:
     - name: Install dependencies
