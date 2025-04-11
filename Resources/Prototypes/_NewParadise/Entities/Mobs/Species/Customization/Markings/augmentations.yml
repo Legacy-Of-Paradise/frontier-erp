@@ -29,6 +29,7 @@
   id: LPPVisor
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Dwarf, SlimePerson ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -38,6 +39,7 @@
   id: LPPRobohead
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Dwarf, SlimePerson ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -73,7 +75,7 @@
 - type: marking
   id: LPPProsthesisLHand
   bodyPart: LArm
-  markingCategory: Hands
+  markingCategory: Arms
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -82,7 +84,7 @@
 - type: marking
   id: LPPProsthesisRHand
   bodyPart: RArm
-  markingCategory: Hands
+  markingCategory: Arms
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -91,7 +93,7 @@
 - type: marking
   id: LPPProsthesisLWrist
   bodyPart: LHand
-  markingCategory: Hands
+  markingCategory: Arms
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -100,7 +102,7 @@
 - type: marking
   id: LPPProsthesisRWrist
   bodyPart: RHand
-  markingCategory: Hands
+  markingCategory: Arms
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi

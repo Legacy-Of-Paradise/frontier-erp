@@ -2,6 +2,7 @@
   id: LPPAlldurak
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Dwarf, Goblin ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -11,6 +12,7 @@
   id: LPPAllhorn1
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -20,6 +22,7 @@
   id: LPPAllhorn2
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -29,6 +32,7 @@
   id: LPPAllhorn3
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -38,6 +42,7 @@
   id: LPPAllhorn4
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -47,6 +52,7 @@
   id: LPPAllhorn5
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -65,6 +71,7 @@
   id: LPPAlllord
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -74,6 +81,7 @@
   id: LPPAlloldpain
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -83,6 +91,7 @@
   id: LPPAlltavrhorn
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -92,6 +101,7 @@
   id: LPPAlltelehorn
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi
@@ -101,6 +111,7 @@
   id: LPPAllvampirehorn
   bodyPart: HeadTop
   markingCategory: HeadTop
+  speciesRestriction: [ Human, Oni ]
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/head.rsi

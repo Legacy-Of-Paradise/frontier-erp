@@ -2,8 +2,8 @@
   id: BullishHorns
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Human]
-  sponsorOnly: true # LPP-Sponsors
+  speciesRestriction: [Human, Oni]
+  # sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -19,8 +19,8 @@
   id: BunnyEars
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Human]
-  sponsorOnly: true # LPP-Sponsors
+  speciesRestriction: [Human, Felinid, Vulpkanin]
+  # sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -43,8 +43,8 @@
   id: FoxEars
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Human]
-  sponsorOnly: true # LPP-Sponsors
+  speciesRestriction: [Human, Felinid, Vulpkanin]
+  # sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:
@@ -60,8 +60,8 @@
   id: GoatHorns
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [Human]
-  sponsorOnly: true # LPP-Sponsors
+  speciesRestriction: [Human, Oni]
+  # sponsorOnly: true # LPP-Sponsors
   coloring:
     default:
       type:

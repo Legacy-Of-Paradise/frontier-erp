@@ -29,7 +29,7 @@
 - type: marking
   id: MakeupNailPolishRight
   bodyPart: RHand
-  markingCategory: RightHand
+  markingCategory: Arms
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Felinid, Oni, Vulpkanin] # Delta V - Felinid, Oni, Vulpkanin
   coloring:
     default:
@@ -43,7 +43,7 @@
 - type: marking
   id: MakeupNailPolishLeft
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Arms
   speciesRestriction: [Dwarf, Human, Reptilian, Arachnid, SlimePerson, Felinid, Oni, Vulpkanin] # Delta V - Felinid, Oni, Vulpkanin
   coloring:
     default:
@@ -58,8 +58,8 @@
 
 - type: marking
   id: MakeupMothLips
-  bodyPart: Face
-  markingCategory: Face
+  bodyPart: Head
+  markingCategory: Head
   speciesRestriction: [Moth]
   coloring:
     default:
@@ -72,7 +72,7 @@
 
 - type: marking
   id: MakeupMothBlush
-  bodyPart: Face
+  bodyPart: Head
   markingCategory: Overlay
   speciesRestriction: [Moth]
   coloring:
