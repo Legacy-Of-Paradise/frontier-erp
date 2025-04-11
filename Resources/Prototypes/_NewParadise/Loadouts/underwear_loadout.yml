@@ -1947,6 +1947,11 @@
     socks: LPPClothingUnderPantyhoseTeal
 
 - type: loadout
+  id: LOPClothingUnderPantyhoseYellow
+  equipment:
+    socks: LPPClothingUnderPantyhoseYellow
+
+- type: loadout
   id: LOPClothingUnderRainbowKnee
   equipment:
     socks: LPPClothingUnderRainbowKnee
