@@ -55,7 +55,7 @@
 - type: marking
   id: LPPProsthesisLLeg
   bodyPart: LLeg
-  markingCategory: LeftLeg
+  markingCategory: Legs
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -64,7 +64,7 @@
 - type: marking
   id: LPPProsthesisRLeg
   bodyPart: RLeg
-  markingCategory: RightLeg
+  markingCategory: Legs
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -73,7 +73,7 @@
 - type: marking
   id: LPPProsthesisLHand
   bodyPart: LArm
-  markingCategory: LeftHand
+  markingCategory: Hands
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -82,7 +82,7 @@
 - type: marking
   id: LPPProsthesisRHand
   bodyPart: RArm
-  markingCategory: RightHand
+  markingCategory: Hands
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -91,7 +91,7 @@
 - type: marking
   id: LPPProsthesisLWrist
   bodyPart: LHand
-  markingCategory: LeftHand
+  markingCategory: Hands
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
@@ -100,7 +100,7 @@
 - type: marking
   id: LPPProsthesisRWrist
   bodyPart: RHand
-  markingCategory: RightHand
+  markingCategory: Hands
   # sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi

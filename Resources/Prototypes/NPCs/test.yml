@@ -13,6 +13,7 @@
 
 - type: entity
   id: MobPathfindDummy
+  categories: [ HideSpawnMenu ]
   name: pathfind dummy
   suffix: NPC
   parent: MobXenoRouny

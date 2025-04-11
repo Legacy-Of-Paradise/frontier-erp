@@ -1,9 +1,9 @@
-ent-SpawnMobViscerator = viscerator unit spawner
-    .suffix = AI, Hostile
+ent-SpawnMobViscerator = внутренний юнит спавнер
+    .suffix = ИИ, Враждебный
     .desc = { ent-MarkerBase.desc }
-ent-SpawnMobRogueSiliconBoss = one star unit spawner
-    .suffix = AI, Hostile
+ent-SpawnMobRogueSiliconBoss = один звёздный юнит спавнер
+    .suffix = ИИ, Враждебный
     .desc = { ent-MarkerBase.desc }
-ent-SpawnMobRogueSiliconGuardian = guardian unit spawner
-    .suffix = AI, Hostile
+ent-SpawnMobRogueSiliconGuardian = гуадиант юнит спавнер
+    .suffix = ИИ, Враждебный
     .desc = { ent-MarkerBase.desc }

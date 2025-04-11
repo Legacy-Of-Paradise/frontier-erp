@@ -21,6 +21,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerVisible
+  categories: [ HideSpawnMenu ]
   name: ClickTestRotatingCornerVisible
   parent: ClickTestBase
   components:
@@ -31,6 +32,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerVisibleNoRot
+  categories: [ HideSpawnMenu ]
   name: ClickTestRotatingCornerVisibleNoRot
   parent: ClickTestRotatingCornerVisible
   components:
@@ -39,6 +41,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerInvisible
+  categories: [ HideSpawnMenu ]
   name: ClickTestRotatingCornerInvisible
   parent: ClickTestBase
   components:
@@ -55,6 +58,7 @@
 
 - type: entity
   id: ClickTestRotatingCornerInvisibleNoRot
+  categories: [ HideSpawnMenu ]
   name: ClickTestRotatingCornerInvisibleNoRot
   parent: ClickTestRotatingCornerInvisible
   components:
@@ -64,6 +68,7 @@
 
 - type: entity
   id: ClickTestFixedCornerVisible
+  categories: [ HideSpawnMenu ]
   name: ClickTestFixedCornerVisible
   parent: ClickTestBase
   components:
@@ -74,6 +79,7 @@
 
 - type: entity
   id: ClickTestFixedCornerInvisible
+  categories: [ HideSpawnMenu ]
   name: ClickTestFixedCornerInvisible
   parent: ClickTestBase
   components:

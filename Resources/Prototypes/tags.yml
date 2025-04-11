@@ -1402,4 +1402,7 @@
 - type: Tag
   id: WriteIgnoreStamps
 
+- type: Tag
+  id: HidesTail # Protecc the tails!
+
 # ALPHABETICAL

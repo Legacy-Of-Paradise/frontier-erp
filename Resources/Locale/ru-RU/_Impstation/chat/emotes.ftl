@@ -6,5 +6,5 @@ chat-emote-name-reptilian-hiss = Шипеть
 # Message
 chat-emote-msg-bubble = булькать.
 chat-emote-msg-pop = бубает!
-chat-emote-msg-crack = щёлкает костяшками { POSS-ADJ($entity) }.
+chat-emote-msg-crack = щёлкает костяшками.
 chat-emote-msg-reptilian-hiss = шипит.

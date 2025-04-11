@@ -1,6 +1,6 @@
-ent-ClusterGrenadeNfsd = { ent-BaseC2ContrabandUnredeemable }
+ent-ClusterGrenadeNfsd = { ent-ClusterGrenade }
     .desc = { ent-BaseC2ContrabandUnredeemable.desc }
-ent-GrenadeIncendiaryNfsd = { ent-BaseC2ContrabandUnredeemable }
+ent-GrenadeIncendiaryNfsd = { ent-GrenadeIncendiary }
     .desc = { ent-BaseC2ContrabandUnredeemable.desc }
-ent-GrenadeShrapnelNfsd = { ent-BaseC2ContrabandUnredeemable }
+ent-GrenadeShrapnelNfsd = { ent-GrenadeShrapnel }
     .desc = { ent-BaseC2ContrabandUnredeemable.desc }

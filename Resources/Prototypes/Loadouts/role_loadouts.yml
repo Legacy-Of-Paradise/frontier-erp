@@ -10,6 +10,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobHeadOfPersonnel
@@ -24,6 +28,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Silicons
 - type: roleLoadout # Frontier: enabled JobBorg
@@ -52,6 +60,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobBartender
@@ -65,6 +77,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobServiceWorker
@@ -76,6 +92,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobChef
@@ -90,6 +110,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobLibrarian
@@ -113,6 +137,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobChaplain
@@ -128,6 +156,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobJanitor
@@ -143,6 +175,10 @@
   - Trinkets
   - JanitorPlunger
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobBotanist
@@ -156,6 +192,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobClown
@@ -169,6 +209,10 @@
   - Glasses
   - SurvivalClown
   - Trinkets
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobMime
@@ -183,6 +227,10 @@
   - Glasses
   - SurvivalMime
   - Trinkets
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobMusician
@@ -196,6 +244,10 @@
   - Trinkets
   - Instruments
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Cargo
 - type: roleLoadout
@@ -212,6 +264,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobCargoTechnician
@@ -226,6 +282,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobSalvageSpecialist
@@ -238,6 +298,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Engineering
 - type: roleLoadout
@@ -253,6 +317,10 @@
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobTechnicalAssistant
@@ -263,6 +331,10 @@
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobStationEngineer
@@ -277,6 +349,10 @@
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobAtmosphericTechnician
@@ -289,6 +365,10 @@
   - SurvivalExtended
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Science
 - type: roleLoadout
@@ -306,6 +386,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobScientist
@@ -323,6 +407,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobResearchAssistant
@@ -334,6 +422,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Security
 - type: roleLoadout
@@ -350,6 +442,10 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobWarden
@@ -364,6 +460,10 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobSecurityOfficer
@@ -379,6 +479,10 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobDetective
@@ -393,6 +497,10 @@
   - Trinkets
   - SecurityStar
   - GroupSpeciesBreathToolSecurity
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobSecurityCadet
@@ -402,6 +510,10 @@
   - SurvivalSecurity
   - Trinkets
   - GroupSpeciesBreathToolSecurity
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Medical
 - type: roleLoadout
@@ -420,6 +532,10 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobMedicalDoctor
@@ -437,6 +553,10 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobMedicalIntern
@@ -448,6 +568,10 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobChemist
@@ -462,6 +586,10 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobParamedic
@@ -478,6 +606,10 @@
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Wildcards
 - type: roleLoadout
@@ -489,6 +621,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobReporter
@@ -500,6 +636,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobPsychologist
@@ -511,6 +651,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobBoxer
@@ -523,6 +667,10 @@
   - Survival
   - Trinkets
   - GroupSpeciesBreathTool
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
 # They will be used without player configuration, thus they will only ever apply what is forced by MinLimit

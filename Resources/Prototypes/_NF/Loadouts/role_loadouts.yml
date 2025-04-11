@@ -22,6 +22,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Pilot
 - type: roleLoadout
@@ -72,6 +76,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Frontier
 - type: roleLoadout
@@ -94,6 +102,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobNFJanitor
@@ -114,6 +126,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobMailCarrier
@@ -134,6 +150,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobStationTrafficController
@@ -156,6 +176,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobStationRepresentative
@@ -179,6 +203,10 @@
   - StationRepBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobSecurityGuard
@@ -201,6 +229,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobDirectorOfCare
@@ -225,6 +257,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Nfsd
 - type: roleLoadout
@@ -250,6 +286,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobDeputy
@@ -274,6 +314,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobBrigmedic
@@ -298,6 +342,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobNFDetective
@@ -322,6 +370,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobPublicAffairsLiaison
@@ -345,6 +397,10 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific # Explicitly civilian variant
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # - type: roleLoadout # Fix when this is actully used
   # id: JobPrisonGuard
@@ -393,6 +449,10 @@
   - SeniorOfficerBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobSeniorOfficer
@@ -417,6 +477,10 @@
   - SeniorOfficerBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 - type: roleLoadout
   id: JobSheriff
@@ -440,6 +504,10 @@
   - SeniorOfficerBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
 
 # Pirate
 
@@ -459,6 +527,10 @@
   - PirateBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
   canCustomizeName: true # pseudonym?
 
 - type: roleLoadout
@@ -478,6 +550,10 @@
   - PirateBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
   canCustomizeName: true # pseudonym?
 
 - type: roleLoadout
@@ -497,6 +573,10 @@
   - PirateCaptainBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
   canCustomizeName: true # pseudonym?
 
 # Prisoner
@@ -514,3 +594,7 @@
   - PrisonerSurvival
   - PrisonerPDA
   - NFSpeciesSpecific
+#LOP
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout

@@ -1,12 +1,12 @@
-ent-NFHolopadShip = { ent-HolopadLongRange }
+ent-NFHolopadShip = { ent-Holopad }
     .suffix = Корабль
     .desc = { ent-HolopadLongRange.desc }
 ent-NFHolopadShipAntag = { ent-NFHolopadShip }
     .suffix = Корабль, Антаг
     .desc = { ent-NFHolopadShip.desc }
-ent-NFHolopadPoiBase = { ent-BaseStructureDisableToolUse }
+ent-NFHolopadPoiBase = { ent-Holopad }
     .suffix = Точ. Интер.
-    .desc = { ent-BaseStructureDisableToolUse.desc }
+    .desc = { ent-Holopad.desc }
 ent-NFHolopadLaboratory = { ent-NFHolopadPoiBase }
     .suffix = Лаболатория аномалий, POI
     .desc = { ent-NFHolopadPoiBase.desc }
