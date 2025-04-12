@@ -200,6 +200,7 @@
         Heat: 0.5
   - type: GroupExamine
 
+
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorHeavy
@@ -207,22 +208,31 @@
   description: A heavily armored suit that protects against excessive damage.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/heavy.rsi
+    sprite:  _NewParadise/Clothing/OuterClothing/Armor/heavy.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/heavy.rsi
+    sprite:  _NewParadise/Clothing/OuterClothing/Armor/heavy.rsi
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.5
-        Heat: 0.7
-        Caustic: 0.75
+        Blunt: 0.45
+        Slash: 0.45
+        Piercing: 0.45
+        Heat: 0.65
+        Radiation: 0.8
+        Caustic: 0.65
   - type: GroupExamine
-  - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
+  - type: Tag
+    tags:
+      - FullBodyOuter
+  - type: ClothingSpeedModifier
+    walkModifier: 0.7
+    sprintModifier: 0.7
+  - type: HeldSpeedModifier
   - type: ExplosionResistance
     damageCoefficient: 0.7
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetHeavy
 
 - type: entity
   parent: ClothingOuterArmorHeavy
