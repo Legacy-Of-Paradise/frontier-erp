@@ -45,30 +45,6 @@
 
 - type: entity
   parent: ClothingBackpackDuffel
-  id: LPPClothingBackpackDuffelDelta
-  name: delta duffel bag
-  description:
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Duffels/iic.rsi
-  - type: Storage
-    grid:
-    - 0,0,10,3
-
-- type: entity
-  parent: ClothingBackpackDuffel
-  id: LPPClothingBackpackDuffelCommandDelta
-  name: command delta duffel bag
-  description:
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Duffels/iic-command.rsi
-  - type: Storage
-    grid:
-    - 0,0,10,3
-
-- type: entity
-  parent: ClothingBackpackDuffel
   id: LPPClothingBackpackDuffelContractor
   name: contractor duffel bag
   description:

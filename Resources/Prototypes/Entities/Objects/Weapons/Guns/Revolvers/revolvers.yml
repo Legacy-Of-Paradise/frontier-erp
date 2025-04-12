@@ -59,6 +59,8 @@
     wideAnimationRotation: 135
     soundHit:
       collection: MetalThud
+  - type: AltFireMelee # Frontier
+    attackType: Light # Frontier
 
 - type: entity
   name: Deckard

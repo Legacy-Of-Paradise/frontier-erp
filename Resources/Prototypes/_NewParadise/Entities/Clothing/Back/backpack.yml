@@ -30,15 +30,6 @@
     - id: LPPClothingOuterHardsuitBlueshield
 
 - type: entity
-  parent: ClothingBackpackERTLeader
-  id: LPPClothingBackpackIIC
-  name: IIC Backpack 'Delta'
-  description: Spacious backpack with many pockets worn by stormtroopers and officers of the interstellar Intellengence Center of Nanotrasen.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Backpacks/iic-backpack.rsi
-
-- type: entity
   parent: ClothingBackpack
   id: LPPClothingBackpackHop
   name: hop backpack
@@ -46,22 +37,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Back/Backpacks/hop.rsi
-
-- type: entity
-  id: LPPJetpackNightGuardCape
-  parent: BaseJetpack
-  name: night guard jetpack
-  suffix: Empty
-  components:
-  - type: Item
-    sprite: _NewParadise/Clothing/Back/night-guard-cape.rsi
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/night-guard-cape.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Back/night-guard-cape.rsi
-    slots:
-      - Back
-      - suitStorage
 
 - type: entity
   parent: ClothingBackpack

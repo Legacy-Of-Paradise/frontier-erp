@@ -30,21 +30,6 @@
 
 - type: entity
   parent: ClothingMaskGas
-  id: LPPClothingMaskGasIIC
-  name: Delta gasmask
-  description: Tactical gas mask for attack aircraft IICs, fireproof.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Mask/iic-gasmask.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Mask/iic-gasmask.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Heat: 0.80
-
-- type: entity
-  parent: ClothingMaskGas
   id: LPPMaskCyan
   name: Mask cyan
   components:
@@ -62,21 +47,6 @@
     sprite: _NewParadise/Clothing/Mask/mask_pink.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Mask/mask_pink.rsi
-
-- type: entity
-  parent: ClothingMaskGas
-  id: LPPClothingMaskGasOfficerIIC
-  name: Officer gas mask "Delta"
-  description: Tactical gas mask for officers of the IIC, fireproof.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Mask/iic-gasmask-officer.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Mask/iic-gasmask-officer.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Heat: 0.80
 
 - type: entity
   parent: ClothingMaskBase

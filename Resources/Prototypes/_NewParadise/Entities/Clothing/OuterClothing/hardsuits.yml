@@ -1,70 +1,5 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
-  id: LPPArmorMovement
-  name: Pilot Suit Security
-  description: For keepers of order among the stars.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/power_armor.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/power_armor.rsi
-  - type: ClothingSpeedModifier
-    walkModifier: 0.85
-    sprintModifier: 0.85
-  - type: PressureProtection
-    highPressureMultiplier: 0.3
-    lowPressureMultiplier: 10000
-  - type: TemperatureProtection
-    heatingCoefficient: 0.2
-    coolingCoefficient: 0.2
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.7
-        Slash: 0.8
-        Piercing: 0.75
-        Heat: 0.7
-        Radiation: 0.10
-  - type: ToggleableClothing
-    clothingPrototype: LPPArmorMovementHead
-
-- type: entity
-  parent: ClothingOuterHardsuitBase
-  id: LPPClothingOuterHardsuitIIC
-  name: Hardsuit IIC 'Delta'
-  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.02
-    lowPressureMultiplier: 10000
-  - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.45
-        Slash: 0.40
-        Piercing: 0.35
-        Heat: 0.1
-        Radiation: 0.1
-        Caustic: 0.1
-        Shock: 0.1
-        Cold: 0.1
-  - type: TemperatureProtection
-    heatingCoefficient: 0.2
-    coolingCoefficient: 0.2
-  - type: ExplosionResistance
-    damageCoefficient: 0.2
-  - type: ToggleableClothing
-    clothingPrototype: LPPClothingHeadHelmetHardsuitIIC
-
-- type: entity
-  parent: ClothingOuterHardsuitBase
   id: LPPClothingOuterHardsuitNightGuard
   name: Night Guard Hardsuit
   description: He usually comes at night. Usually.
@@ -330,77 +265,7 @@
     sprintModifier: 0.9
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
-  id: LPPClothingOuterHardsuitIICPyrotech
-  name: Pyrotech Hardsuit IIC 'Delta'
-  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-pyrotech.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-pyrotech.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.02
-    lowPressureMultiplier: 1000
-  - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.45
-        Slash: 0.40
-        Piercing: 0.35
-        Heat: 0.1
-        Radiation: 0.1
-        Caustic: 0.1
-        Shock: 0.1
-        Cold: 0.1
-  - type: TemperatureProtection
-    heatingCoefficient: 0.2
-    coolingCoefficient: 0.2
-  - type: ExplosionResistance
-    damageCoefficient: 0.2
-  - type: ToggleableClothing
-    clothingPrototype: LPPClothingHeadHelmetHardsuitIICPyrotech
-
-- type: entity
-  parent: ClothingOuterHardsuitBase
-  id: LPPClothingOuterHardsuitIICMedic
-  name: Medic Hardsuit IIC 'Delta'
-  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-medic.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-medic.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.02
-    lowPressureMultiplier: 1000
-  - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.45
-        Slash: 0.40
-        Piercing: 0.35
-        Heat: 0.1
-        Radiation: 0.1
-        Caustic: 0.1
-        Shock: 0.1
-        Cold: 0.1
-  - type: TemperatureProtection
-    heatingCoefficient: 0.2
-    coolingCoefficient: 0.2
-  - type: ExplosionResistance
-    damageCoefficient: 0.2
-  - type: ToggleableClothing
-    clothingPrototype: LPPClothingHeadHelmetHardsuitIICMedic
-
-- type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: LPPClothingOuterHardsuitIICCommand
   name: Commander Hardsuit IIC 'Delta'
   description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
@@ -418,56 +283,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.35
-        Slash: 0.30
-        Piercing: 0.25
-        Heat: 0.1
-        Radiation: 0.1
-        Caustic: 0.1
-        Shock: 0.1
-        Cold: 0.1
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.65
+        Heat: 0.95
+        Radiation: 0.7
   - type: TemperatureProtection
     heatingCoefficient: 0.2
     coolingCoefficient: 0.2
   - type: ExplosionResistance
-    damageCoefficient: 0.2
+    damageCoefficient: 0.8
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICCommand
-
-- type: entity
-  parent: ClothingOuterHardsuitBase
-  id: LPPClothingOuterHardsuitIICEngineer
-  name: Engineer Hardsuit IIC 'Delta'
-  description: Protective suit "Delta", used by stormtroopers and officers of the Interstellar Intellegence Center of Nanotrasen.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-engineer.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/iic-armor-engineer.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.02
-    lowPressureMultiplier: 1000
-  - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.45
-        Slash: 0.40
-        Piercing: 0.35
-        Heat: 0.1
-        Radiation: 0.1
-        Caustic: 0.1
-        Shock: 0.1
-        Cold: 0.1
-  - type: TemperatureProtection
-    heatingCoefficient: 0.2
-    coolingCoefficient: 0.2
-  - type: ExplosionResistance
-    damageCoefficient: 0.2
-  - type: ToggleableClothing
-    clothingPrototype: LPPClothingHeadHelmetHardsuitIICEngineer
 
 - type: entity
   parent: ClothingOuterHardsuitBase

@@ -107,6 +107,9 @@
     damage:
       types:
         Blunt: 2.5
+  - type: MeleeRequiresWield
+  - type: AltFireMelee # Frontier
+    attackType: Light # Frontier
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -162,6 +165,9 @@
     damage:
       types:
         Blunt: 2.5
+  - type: MeleeRequiresWield
+  - type: AltFireMelee # Frontier
+    attackType: Light # Frontier
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -215,6 +221,9 @@
     damage:
       types:
         Blunt: 2.5
+  - type: MeleeRequiresWield
+  - type: AltFireMelee # Frontier
+    attackType: Light # Frontier
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -262,3 +271,5 @@
     wideAnimationRotation: 60
     soundHit:
       collection: MetalThud
+  - type: AltFireMelee # Frontier
+    attackType: Light # Frontier

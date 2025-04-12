@@ -55,6 +55,9 @@
     damage:
       types:
         Blunt: 2.5
+  - type: MeleeRequiresWield
+  - type: AltFireMelee # Frontier
+    attackType: Light # Frontier
 
 - type: entity
   name: Bulldog

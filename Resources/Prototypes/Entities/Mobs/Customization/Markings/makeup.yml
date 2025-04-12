@@ -1,7 +1,7 @@
 - type: marking
   id: MakeupLips
-  bodyPart: Face
-  markingCategory: Face
+  bodyPart: Head
+  markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, SlimePerson, Felinid, Oni, Harpy] # Delta V - Felinid, Oni, Harpy
   coloring:
     default:
@@ -14,8 +14,8 @@
 
 - type: marking
   id: MakeupBlush
-  bodyPart: Face
-  markingCategory: Face
+  bodyPart: Head
+  markingCategory: Overlay
   speciesRestriction: [Dwarf, Human, Reptilian, SlimePerson, Felinid, Oni, Vulpkanin, Harpy] # Delta V - Felinid, Oni, Vulpkanin, Harpy
   coloring:
     default:
