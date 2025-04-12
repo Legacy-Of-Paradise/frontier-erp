@@ -25,5 +25,3 @@ ent-LPPUnderpantsMat = Автомат нижнего белья
 ent-LPPWithSoftAnimals = Автоплюшек
     .desc = Раздатчик разных мягких игрушек.
     .suffix = Разблокирован
-ent-LPPTeaVend = ЧаяМат
-    .desc = Идеален для тех, кто хочет освежиться.

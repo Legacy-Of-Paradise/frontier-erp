@@ -1,10 +1,2 @@
-ent-LPPSecurityEngineerIDCard = ID карта Полевого Инженера
-    .desc = { ent-IDCardStandard.desc }
 ent-LPPBlueShieldOfficerIDCard = ID карта Офицера "Синий Щит"
-    .desc = { ent-IDCardStandard.desc }
-ent-LPPAdjutantIDCard = ID карта Адъютанта
-    .desc = { ent-IDCardStandard.desc }
-ent-LPPExpeditorIDCard = ID карта Исследователя
-    .desc = { ent-IDCardStandard.desc }
-ent-LPPSecPilotIDCard = ID карта Пилота СБ
     .desc = { ent-IDCardStandard.desc }

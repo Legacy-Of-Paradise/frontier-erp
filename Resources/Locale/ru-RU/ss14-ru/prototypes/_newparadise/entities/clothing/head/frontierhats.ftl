@@ -1,0 +1,10 @@
+ent-LPPClothingHeadHatSherif = Кепка шерифа ДШНГ
+    .desc = ГДЕ СОГЛАСИЕ, ТАМ ПОБЕДА.
+ent-LPPClothingHeadHatDeputySherif = Кепка капрала ДШНГ
+    .desc = Попробуйте чаще ее поправлять, это придаст вам вид серьезного человека... Вроде.
+ent-LPPClothingHeadHatCowboyDeputySherif = Ковбойская кепка капрала ДШНГ
+    .desc = На Бога уповаnm.
+ent-LPPClothingHeadHatCowboy = Ковбойская шляпа ДШНГ
+    .desc = Йиппи-кай-эй, мазафака!
+ent-LPPClothingHeadHatCowboySerjSherif = Ковбойская шляпа сержанта ДШНГ
+    .desc = Ничто без Божества
