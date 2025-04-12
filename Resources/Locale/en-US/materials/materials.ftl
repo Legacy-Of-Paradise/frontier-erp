@@ -37,3 +37,4 @@ materials-raw-plasma = raw plasma
 materials-raw-uranium = raw uranium
 materials-raw-bananium = raw bananium
 materials-raw-salt = raw salt
+materials-raw-diamond = raw diamond

@@ -10,7 +10,7 @@ public sealed class NewParadiseCvars
     /// Is TTS enabled
     /// </summary>
     public static readonly CVarDef<bool> TtsEnabled =
-        CVarDef.Create("tts.enabled", true, CVar.SERVERONLY);
+        CVarDef.Create("tts.enabled", false, CVar.SERVERONLY);
 
     /// <summary>
     /// URL of the TTS server API.
