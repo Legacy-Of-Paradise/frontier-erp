@@ -24,13 +24,26 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 
 Если вы вносите изменения, пожалуйста, ознакомьтесь с разделом маркеров в [MARKERS.md](https://github.com/Legacy-Of-Paradise/frontier-erp/blob/master/MARKERS.md). Все изменения в файлах, принадлежащих нашему upstream, должны быть должным образом помечены в соответствии с указанными там правилами.
 
-## Сборка
+## Сборка проекта.
 
-1. Клонируйте этот репозиторий.
-2. Запустите `RUN_THIS.py` для инициализации подмодулей и загрузки движка.
-3. Скомпилируйте решение.
+### Зависимости
 
-[Более подробные инструкции по сборке проекта.](https://docs.spacestation14.com/en/general-development/setup.html)
+> - Git
+> - .NET SDK 9.0.x
+
+### Windows
+
+> 1. Клонируйте репо
+> 3. Запустите `Scripts/bat/buildAllDebug.bat` после каждого измения в C#.
+> 4. Запустите `Scripts/bat/runQuickAll.bat` для запуска клиента и сервера.
+> 5. Подключитесь к "localhost" в клиенте.
+
+### Linux
+
+> 1. Клонируйте репо
+> 3. Запустите `Scripts/sh/buildAllDebug.sh` после каждого изменения в C#.
+> 4. Запустите `Scripts/sh/runQuickAll.sh` для запуска клиента и сервера.
+> 5. Подключитесь к "localhost" в клиенте.
 
 ## Лицензия
 

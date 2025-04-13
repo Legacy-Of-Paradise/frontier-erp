@@ -9,7 +9,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: (github.repository == 'Legacy-Of-Paradise/frontier-erp') or (github.repository == 'Legacy-Of-Paradise/frontier-nonerp')
 
     steps:
     - name: Install dependencies
@@ -59,4 +58,4 @@ jobs:
       env:
         CHANGELOG_DIR: ${{ vars.CHANGELOG_DIR }}
         CHANGELOG_WEBHOOK: ${{ secrets.CHANGELOG_WEBHOOK }}
-        GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
