@@ -95,7 +95,11 @@ public sealed class RoleBanCommand : IConsoleCommand
         var targetUid = located.UserId;
         var targetHWid = located.LastHWId;
 
-        _bans.CreateRoleBan(targetUid, located.Username, shell.Player?.UserId, null, targetHWid, job, minutes, severity, reason, DateTimeOffset.UtcNow);
+        var banid = await _bans.CreateRoleBan(targetUid, located.Username, shell.Player?.UserId, null, targetHWid, job, minutes, severity, reason, DateTimeOffset.UtcNow);
+        Dictionary<string, int> banids = new();
+        banids.Add(job.ToString(), banid);
+        HashSet<string>? roles = new() { job };
+        _bans.WebhookUpdateRoleBans(targetUid, located.Username, shell.Player?.UserId, null, targetHWid, minutes, severity, reason, DateTimeOffset.UtcNow, banids); // BanWebhook
     }
 
     public CompletionResult GetCompletion(IConsoleShell shell, string[] args)

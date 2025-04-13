@@ -119,30 +119,20 @@ public sealed class BanPanelEui : BaseEui
         if (roles?.Count > 0)
         {
             var now = DateTimeOffset.UtcNow;
-            foreach (var role in roles)
+            Dictionary<string, int> banids = new();
+            foreach (var job in roles)
             {
-                _banManager.CreateRoleBan(targetUid, target, Player.UserId, addressRange, targetHWid, role, minutes, severity, reason, now);
+                var bid = await _banManager.CreateRoleBan(targetUid, target, Player.UserId, null, targetHWid, job, minutes, severity, reason, now);
+                banids.Add(job.ToString(), bid);
             }
+            _banManager.WebhookUpdateRoleBans(targetUid, target, Player.UserId, null, targetHWid, minutes, severity, reason, now, banids);
 
             Close();
             return;
         }
 
-        if (erase &&
-            targetUid != null)
-        {
-            try
-            {
-                if (_entities.TrySystem(out AdminSystem? adminSystem))
-                    adminSystem.Erase(targetUid.Value);
-            }
-            catch (Exception e)
-            {
-                _sawmill.Error($"Error while erasing banned player:\n{e}");
-            }
-        }
-
-        _banManager.CreateServerBan(targetUid, target, Player.UserId, addressRange, targetHWid, minutes, severity, reason);
+        var banid = await _banManager.CreateServerBan(targetUid, target, Player.UserId, addressRange, targetHWid, minutes, severity, reason);
+        _banManager.WebhookUpdateBans(targetUid, target, Player.UserId, addressRange, targetHWid, minutes, severity, reason, DateTimeOffset.UtcNow, banid); // BanWebhook
 
         Close();
     }
