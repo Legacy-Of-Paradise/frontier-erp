@@ -6,6 +6,7 @@ using Content.Shared.Roles;
 using Robust.Shared.Configuration;
 using Robust.Shared.Console;
 using Robust.Shared.Prototypes;
+using System.Linq;
 
 namespace Content.Server.Administration.Commands;
 
@@ -95,7 +96,7 @@ public sealed class DepartmentBanCommand : IConsoleCommand
         // If you are trying to remove the following variable, please don't. It's there because the note system groups role bans by time, reason and banning admin.
         // Without it the note list will get needlessly cluttered.
         var now = DateTimeOffset.UtcNow;
-        _banManager.WebhookUpdateRoleBans(targetUid, located.Username, shell.Player?.UserId, null, targetHWid, departmentProto.Roles, minutes, severity, reason, now);
+        _banManager.WebhookUpdateRoleBans(targetUid, located.Username, shell.Player?.UserId, null, targetHWid, departmentProto.Roles.Select(role => role.ToString()).ToList(), minutes, severity, reason, now);
     }
 
     public CompletionResult GetCompletion(IConsoleShell shell, string[] args)
