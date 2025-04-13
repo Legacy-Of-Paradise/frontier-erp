@@ -52,4 +52,9 @@ public interface IBanManager
     /// </summary>
     /// <param name="pSession">Player's session</param>
     public void SendRoleBans(ICommonSession pSession);
+
+    /// <summary>
+    /// Отправляет вебхук с информацией по бану.
+    /// </summary>
+    public void WebhookUpdateRoleBans(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableTypedHwid? hwid, IReadOnlyCollection<string> roles, uint? minutes, NoteSeverity severity, string reason, DateTimeOffset timeOfBan);
 }

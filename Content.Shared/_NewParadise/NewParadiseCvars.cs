@@ -38,4 +38,8 @@ public sealed class NewParadiseCvars
 
 
     #endregion
+
+    public static readonly CVarDef<string> DiscordBanWebhook =
+        CVarDef.Create("discord.ban_webhook", "", CVar.SERVERONLY);
+
 }
