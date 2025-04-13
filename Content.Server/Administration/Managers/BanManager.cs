@@ -52,6 +52,13 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
 
     private ISawmill _sawmill = default!;
 
+    private readonly HttpClient _httpClient = new();
+    private string _serverName = string.Empty;
+    private string _webhookUrl = string.Empty;
+    private WebhookData? _webhookData;
+    private string _webhookName = "Банлог";
+    private string _webhookAvatarUrl = "https://i.imgflip.com/6h0bjx.png";
+
     public const string SawmillId = "admin.bans";
     public const string JobPrefix = "Job:";
 

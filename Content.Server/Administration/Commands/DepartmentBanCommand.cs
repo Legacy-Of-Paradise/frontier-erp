@@ -6,6 +6,7 @@ using Content.Shared.Roles;
 using Robust.Shared.Configuration;
 using Robust.Shared.Console;
 using Robust.Shared.Prototypes;
+using System.Linq;
 
 namespace Content.Server.Administration.Commands;
 

@@ -81,7 +81,7 @@ public sealed class RoleBanCommand : IConsoleCommand
 
         if (!_proto.HasIndex<JobPrototype>(job))
         {
-            shell.WriteError(Loc.GetString("cmd-roleban-job-parse",("job", job)));
+            shell.WriteError(Loc.GetString("cmd-roleban-job-parse", ("job", job)));
             return;
         }
 
