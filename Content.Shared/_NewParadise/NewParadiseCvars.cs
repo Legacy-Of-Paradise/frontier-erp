@@ -28,7 +28,7 @@ public sealed class NewParadiseCvars
     /// TTS Volume
     /// </summary>
     public static readonly CVarDef<float> TtsVolume =
-        CVarDef.Create("tts.volume", 0f, CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("tts.volume", 100f, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// TTS Cache
