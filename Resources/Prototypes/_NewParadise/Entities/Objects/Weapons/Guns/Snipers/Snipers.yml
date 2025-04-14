@@ -82,20 +82,23 @@
 
 - type: entity
   name: Goliath
-  parent: LPPBaseWeaponSniper
+  parent: [LPPBaseWeaponSniper, BaseGunWieldable]
   id: LPPWeaponGoliath
   description: Specialised "tool" for breaching . Uses .60 anti-materiel ammo.
   components:
   - type: Item
     size: Ginormous
   - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.95
+    walkModifier: 0.9
+    sprintModifier: 0.9
   - type: Sprite
     sprite: _NewParadise/Objects/Weapons/Guns/Snipers/Goliath.rsi
     state: base
   - type: Clothing
     sprite: _NewParadise/Objects/Weapons/Guns/Snipers/Goliath.rsi
+    slots:
+    - Back
+    - suitStorage
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -113,3 +116,4 @@
   - type: EyeCursorOffset # Frontier
     maxOffset: 5 # Frontier
     pvsIncrease: 0.75 # Frontier
+  - type: CursorOffsetRequiresWield

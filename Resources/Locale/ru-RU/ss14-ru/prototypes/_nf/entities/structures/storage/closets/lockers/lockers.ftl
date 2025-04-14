@@ -1,6 +1,6 @@
 ent-NFLockerBaseSecure = { ent-LockerBaseSecure }
     .desc = { ent-LockerBaseSecure.desc }
-ent-LockerMailCarrier = Шкаф почтальёна
+ent-LockerMailCarrier = Шкаф почтальона
     .desc = { ent-NFLockerBaseSecure.desc }
 ent-LockerMercenary = Шкаф наёмника
     .desc = { ent-NFLockerBaseSecure.desc }
