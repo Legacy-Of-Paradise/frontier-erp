@@ -292,7 +292,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         if (banid != 0)
         {
             _chat.SendAdminAlert(Loc.GetString("cmd-roleban-existing", ("target", targetUsername ?? "null"), ("role", role)));
-            return 0;
+            return banid;
         }
 
         var length = expires == null ? Loc.GetString("cmd-roleban-inf") : Loc.GetString("cmd-roleban-until", ("expires", expires));
