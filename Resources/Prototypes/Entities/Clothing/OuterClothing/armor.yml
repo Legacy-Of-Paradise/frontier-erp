@@ -200,7 +200,6 @@
         Heat: 0.5
   - type: GroupExamine
 
-
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorHeavy
@@ -222,9 +221,6 @@
         Caustic: 0.65
   - type: GroupExamine
     slots: WITHOUT_POCKET
-  - type: Tag
-    tags:
-      - FullBodyOuter
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.7
