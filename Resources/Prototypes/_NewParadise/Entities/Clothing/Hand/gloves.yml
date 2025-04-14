@@ -54,24 +54,6 @@
   - type: Insulated
 
 - type: entity
-  parent: ClothingHandsGlovesBoxingBlue
-  id: LPPClothingHandsGlovesNightGuard
-  name: night guard battle gloves
-  components:
-  - type: Sprite
-    sprite: Clothing/Hands/Gloves/combat.rsi
-    state: icon
-  - type: Clothing
-    sprite: Clothing/Hands/Gloves/combat.rsi
-  - type: StaminaDamageOnHit
-    damage: 50
-  - type: MeleeWeapon
-    attackRate: 1.5
-    damage:
-      types:
-        Blunt: 5
-
-- type: entity
   parent: ClothingHandsBase
   id: LPPClothingHandsClownPomni
   name: Pomni's?

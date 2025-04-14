@@ -1,5 +1,3 @@
-ent-LPPClothingOuterHardsuitNightGuard = Night Guard Hardsuit
-    .desc = He usually comes at night. Usually.
 ent-LPPClothingOuterHardsuitSWAT = Tactical hardsuit FPA-56 - "Rhino"
     .desc = A special protective kit that protects against the dangerous effects of a low-pressure environment. It has an innovative additional layer of armor used by security personnel.
 ent-LPPHardsuitAssaultParamedic = Assault paramedic suit

@@ -1,5 +1,3 @@
-ent-LPPClothingOuterHardsuitNightGuard = Скафандр НайтГарда
-    .desc = Обычно он приходит по ночам. Обычно.
 ent-LPPClothingOuterHardsuitSWAT = Тактический cкафандр FPA-56 - "Rhino"
     .desc = Специальный защитный комплект, защищающий от опасного воздействия окружающей среды с низким давлением. Он имеет инновационный дополнительный слой брони, используемый сотрудниками службы безопасности.
 ent-LPPHardsuitAssaultParamedic = Скафандр ZhP-26lp - "Shinkei"
@@ -48,7 +46,7 @@ ent-LPPClothingOuterHardsuitCybersunCommander = Боевой скафандр CB
     .desc = Венец разработки скафандров Cybersun, относительно новая модель, попавшая в руки командиров штурмовых подразделений уже показала себя как достойный
 ent-LPPClothingOuterHardsuitGorlexCommander = Боевой скафандр GRX-114p - "Predator"
     .desc = Улучшенная версия классических моделей скафандров оперативников. На вид довольно грозная, а по некоторым слухам, командиры перекрашивают скафандры краской на основе крови их убитых врагов.
-ent-LPPClothingOuterDetectiveHardsuit = Бронированный скафандр FDA-87d - "Ватсон"
+ent-LPPClothingOuterDetectiveHardsuit = Бронированный скафандр FDA-87d - "Watson"
     .desc = Легкий костюм, который помогает детективам NanoTrasen проводить расследования даже в космосе!
 ent-LPPClothingHeadHelmetDetectiveHardsuit = Шлем FDA-87d
     .desc = Жаль, что нет отверстия для курительной трубки...

@@ -231,8 +231,6 @@
   - type: HeldSpeedModifier
   - type: ExplosionResistance
     damageCoefficient: 0.7
-  - type: ToggleableClothing
-    clothingPrototype: LPPClothingHeadHelmetHeavy
 
 - type: entity
   parent: ClothingOuterArmorHeavy

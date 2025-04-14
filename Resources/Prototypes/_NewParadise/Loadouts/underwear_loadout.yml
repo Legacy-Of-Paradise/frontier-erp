@@ -14,16 +14,6 @@
     underwear: LPPHOSPanties
 
 - type: loadout
-  id: LOPHOSPanties
-  equipment:
-    underwear: LPPHOSPanties
-
-- type: loadout
-  id: LOPHOSPanties
-  equipment:
-    underwear: LPPHOSPanties
-
-- type: loadout
   id: LOPCEPanties
   equipment:
     underwear: LPPCEPanties
@@ -37,11 +27,6 @@
   id: LOPHOPPanties
   equipment:
     underwear: LPPHOPPanties
-
-- type: loadout
-  id: LOPCapPanties
-  equipment:
-    underwear: LPPCapPanties
 
 - type: loadout
   id: LOPBeeShorts
@@ -144,11 +129,6 @@
     underwear: LPPBoxerLightpurple
 
 - type: loadout
-  id: LOPCapPanties
-  equipment:
-    underwear: LPPCMOPanties
-
-- type: loadout
   id: LOPBoxerMaroon
   equipment:
     underwear: LPPBoxerMaroon
@@ -229,11 +209,6 @@
     underwear: LPPBriefsMaroon
 
 - type: loadout
-  id: LOPCapPanties
-  equipment:
-    underwear: LPPCMOPanties
-
-- type: loadout
   id: LOPBriefsOrange
   equipment:
     underwear: LPPBriefsOrange
@@ -247,11 +222,6 @@
   id: LOPBriefsTeal
   equipment:
     underwear: LPPCEPanties
-
-- type: loadout
-  id: LOPBriefsTeal
-  equipment:
-    underwear: LPPBriefsTeal
 
 - type: loadout
   id: LOPBriefsYellow
@@ -507,11 +477,6 @@
   id: LOPPantiesNekoTeal
   equipment:
     underwear: LPPPantiesNekoTeal
-
-- type: loadout
-  id: LOPCapPanties
-  equipment:
-    underwear: LPPCMOPanties
 
 - type: loadout
   id: LOPPantiesNekoYellow
@@ -1313,11 +1278,6 @@
     breast: LPPBraStraplessAltGreen
 
 - type: loadout
-  id: LOPBraStraplessAltGreen
-  equipment:
-    breast: LPPBraStraplessAltGreen
-
-- type: loadout
   id: LOPBraStraplessAltGrey
   equipment:
     breast: LPPBraStraplessAltGrey
@@ -1426,11 +1386,6 @@
   id: LOPBraSwimmingAltBlue
   equipment:
     breast: LPPBraSwimmingAltBlue
-
-- type: loadout
-  id: LOPCutOutTop2
-  equipment:
-    breast: LPPCutOutTop2
 
 - type: loadout
   id: LOPBraSwimmingAltBrown
@@ -2012,11 +1967,6 @@
     socks: LPPClothingUnderSocksKneeRed
 
 - type: loadout
-  id: LOPClothingUnderSocksPink
-  equipment:
-    socks: LPPClothingUnderSocksPink
-
-- type: loadout
   id: LOPClothingUnderSocksKneeTeal
   equipment:
     socks: LPPClothingUnderSocksKneeTeal
@@ -2025,11 +1975,6 @@
   id: LOPClothingUnderSocksKneeYellow
   equipment:
     socks: LPPClothingUnderSocksKneeYellow
-
-- type: loadout
-  id: LOPClothingUnderSocksPink
-  equipment:
-    socks: LPPClothingUnderSocksPink
 
 - type: loadout
   id: LOPClothingUnderSocksNormBlack

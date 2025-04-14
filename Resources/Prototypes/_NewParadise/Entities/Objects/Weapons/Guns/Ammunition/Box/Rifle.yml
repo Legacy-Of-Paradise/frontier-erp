@@ -150,6 +150,7 @@
       tags:
         - CartridgeHunting
   - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/light_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]

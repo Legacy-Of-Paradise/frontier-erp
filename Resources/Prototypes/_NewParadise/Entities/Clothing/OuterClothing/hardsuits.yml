@@ -1,34 +1,4 @@
 - type: entity
-  parent: ClothingOuterHardsuitBase
-  id: LPPClothingOuterHardsuitNightGuard
-  name: Night Guard Hardsuit
-  description: He usually comes at night. Usually.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/night-guard.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/night-guard.rsi
-  - type: PressureProtection
-    highPressureMultiplier: 0.02
-    lowPressureMultiplier: 1000
-  - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.30
-        Slash: 0.40
-        Piercing: 0.20
-        Heat: 0.25
-        Radiation: 0.05
-        Caustic: 0.3
-  - type: ExplosionResistance
-    damageCoefficient: 0.2
-  - type: ToggleableClothing
-    clothingPrototype: LPPClothingHeadHelmetHardsuitNightGuard
-
-- type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable]
   id: LPPClothingOuterHardsuitSWAT
   name: Tactical hardsuit FPA-56 - "Rhino"

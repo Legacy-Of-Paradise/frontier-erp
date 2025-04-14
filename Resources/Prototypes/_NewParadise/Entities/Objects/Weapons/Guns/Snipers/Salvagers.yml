@@ -51,6 +51,9 @@
     - back
     - suitStorage
   - type: Execution
+  - type: EyeCursorOffset # Frontier
+    maxOffset: 1.5 # Frontier
+    pvsIncrease: 0.15 # Frontier
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -110,6 +113,9 @@
   - type: MeleeRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: EyeCursorOffset # Frontier
+    maxOffset: 4 # Frontier
+    pvsIncrease: 0.5 # Frontier
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -168,6 +174,9 @@
   - type: MeleeRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: EyeCursorOffset # Frontier
+    maxOffset: 1.5 # Frontier
+    pvsIncrease: 0.15 # Frontier
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
