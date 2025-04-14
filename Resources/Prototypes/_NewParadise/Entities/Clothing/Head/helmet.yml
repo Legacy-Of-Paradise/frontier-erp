@@ -291,4 +291,6 @@
     slots:
     - Hair
     - Snout
+    - HeadTop
+    - HeadSide
     hideOnToggle: true
