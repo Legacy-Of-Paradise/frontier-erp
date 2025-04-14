@@ -1,4 +1,9 @@
 - type: loadout
+  id: LOPCapPanties
+  equipment:
+    underwear: LPPCapPanties
+
+- type: loadout
   id: LOPCMOPanties
   equipment:
     underwear: LPPCMOPanties
