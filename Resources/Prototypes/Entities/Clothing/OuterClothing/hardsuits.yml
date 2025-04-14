@@ -132,6 +132,7 @@
     - Hardsuit
     - WhitelistChameleon
     - HardsuitSpatio
+    - HidesTail
 
 #Salvage Hardsuit
 - type: entity
