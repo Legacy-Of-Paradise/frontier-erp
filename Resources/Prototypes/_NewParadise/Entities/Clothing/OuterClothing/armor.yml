@@ -86,7 +86,7 @@
     toggleable-clothing: !type:ContainerSlot
     showEnts: False
     occludes: True
-    ent: null
+    ents: []
 
 - type: entity
   parent: ClothingOuterEVASuitBase
@@ -118,7 +118,7 @@
     toggleable-clothing: !type:ContainerSlot
     showEnts: False
     occludes: True
-    ent: null
+    ents: []
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, ClothingOuterEVASuitBase]
@@ -152,4 +152,4 @@
     toggleable-clothing: !type:ContainerSlot
     showEnts: False
     occludes: True
-    ent: null
+    ents: []
