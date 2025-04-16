@@ -233,11 +233,7 @@
   - type: EyeProtection
     protectionTime: 5
   - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
+    slots: []
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]

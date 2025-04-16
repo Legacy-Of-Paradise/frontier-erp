@@ -179,11 +179,7 @@
   - type: Item
     heldPrefix: open
   - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
+    slots: []
 
 - type: entity
   parent: ClothingHeadHardsuitBase
@@ -226,11 +222,7 @@
   - type: Item
     heldPrefix: open
   - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
+    slots: []
 
 - type: entity
   parent: ClothingHeadHelmetBasic
@@ -290,9 +282,5 @@
   - type: Item
     heldPrefix: open
   - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
+    slots: []
 
