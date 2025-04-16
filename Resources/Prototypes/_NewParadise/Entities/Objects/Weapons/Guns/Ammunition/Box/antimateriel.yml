@@ -12,9 +12,6 @@
     - state: mag-1
     #   map: ["enum.GunVisualLayers.Mag"]
     # - state: rubber
-  - type: MagazineVisuals
-    magState: mag
-    steps: 4
 
 - type: entity
   parent: BaseMagazineBoxAntiMateriel
@@ -30,6 +27,3 @@
     - state: mag-1
     #   map: ["enum.GunVisualLayers.Mag"]
     # - state: piercing
-  - type: MagazineVisuals
-    magState: mag
-    steps: 4
