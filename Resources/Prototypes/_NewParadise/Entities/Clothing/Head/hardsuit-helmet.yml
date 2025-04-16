@@ -232,12 +232,6 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
-  - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]

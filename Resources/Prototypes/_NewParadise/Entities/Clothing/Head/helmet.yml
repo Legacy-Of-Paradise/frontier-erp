@@ -139,7 +139,7 @@
     sprite: _NewParadise/Clothing/Head/Helmets/NPZ/NPZassault.rsi
 
 - type: entity
-  parent: ClothingHeadBase
+  parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetSwatAlternative
   categories: [ HideSpawnMenu ]
   name: Lightened SWAT armor helmet
@@ -178,16 +178,9 @@
   - type: BreathMask
   - type: Item
     heldPrefix: open
-  - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
-    hideOnToggle: true
 
 - type: entity
-  parent: ClothingHeadBase
+  parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetSwatEpistemic
   categories: [ HideSpawnMenu ]
   name: Epistemic SWAT armor helmet
@@ -226,13 +219,6 @@
   - type: BreathMask
   - type: Item
     heldPrefix: open
-  - type: HideLayerClothing
-    slots:
-    - Hair
-    - Snout
-    - HeadTop
-    - HeadSide
-    hideOnToggle: true
 
 - type: entity
   parent: ClothingHeadHelmetBasic
@@ -252,7 +238,7 @@
         Piercing: 0.95
 
 - type: entity
-  parent: ClothingHeadBase
+  parent: ClothingHeadHardsuitBase
   id: LPPClothingHeadHelmetSwat
   categories: [ HideSpawnMenu ]
   name: SWAT armor helmet
