@@ -1,6 +1,6 @@
 using System.Linq;
 using System.Text.RegularExpressions;
-using Content.Shared._NewParadise.TTS;
+using Content.Shared._NewParadise.TTS; //LOP edit
 using Content.Shared._NF.Bank;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
@@ -31,9 +31,9 @@ namespace Content.Shared.Preferences
         private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
 
         public const int MaxNameLength = 32;
-        
+
         public const int MaxLoadoutNameLength = 32;
-        
+
         public const int MaxDescLength = 512;
 
         public const int DefaultBalance = 30000;
@@ -575,7 +575,7 @@ namespace Content.Shared.Preferences
 
             if (configManager.GetCVar(CCVars.RestrictedNames))
             {
-                name = Regex.Replace(name, @"[^А-Яа-яёЁ0-9' -]", string.Empty);
+                name = Regex.Replace(name, @"[^А-Яа-яёЁ0-9' -]", string.Empty); //LOP edit
                 /*
                  * 0041-005A  Basic Latin: Uppercase Latin Alphabet
                  * 0061-007A  Basic Latin: Lowercase Latin Alphabet

@@ -1,6 +1,6 @@
 ﻿using System.IO;
-using Content.Shared._NewParadise;
-using Content.Shared._NewParadise.TTS;
+using Content.Shared._NewParadise; //LOP edit
+using Content.Shared._NewParadise.TTS; //LOP edit
 using Robust.Client.Audio;
 using Robust.Shared.Audio;
 using Robust.Shared.Audio.Components;

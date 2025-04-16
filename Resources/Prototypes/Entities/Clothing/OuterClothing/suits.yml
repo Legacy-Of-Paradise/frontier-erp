@@ -25,7 +25,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - HidesTail
+    - HidesTail #LOP edit
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
 
@@ -71,9 +71,11 @@
   - type: GroupExamine
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
+  #LOP edit start
   - type: Tag
     tags:
     - HidesTail
+  #LOP edit end
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
@@ -106,9 +108,11 @@
   - type: GroupExamine
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
+  #LOP edit start
   - type: Tag
     tags:
     - HidesTail
+  #LOP edit end
 
 - type: entity
   parent: [ClothingOuterBaseLarge, GeigerCounterClothing, AllowSuitStorageClothing]
@@ -134,9 +138,11 @@
       toggleable-clothing: !type:ContainerSlot {}
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
+  #LOP edit start
   - type: Tag
     tags:
     - HidesTail
+  #LOP edit end
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseToggleClothing, BaseC3Contraband, ContrabandClothing] # Frontier: BaseMajorContraband<BaseC3Contraband, added ContrabandClothing as parent

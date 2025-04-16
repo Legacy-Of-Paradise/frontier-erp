@@ -63,9 +63,11 @@
     damage:
       types:
         Blunt: 2.5
+  #LOP edit start
   - type: MeleeRequiresWield
-  - type: AltFireMelee # Frontier
-    attackType: Light # Frontier
+  - type: AltFireMelee
+    attackType: Light
+  #LOP edit end
 
 - type: entity
   name: AKMS

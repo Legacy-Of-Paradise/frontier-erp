@@ -114,7 +114,7 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<ServerApi>().Initialize();
                 IoCManager.Resolve<MiniAuthManager>();
 
-                //New paradise edit start
+                //LOP edit start
                 IoCManager.Resolve<TTSManager>().Initialize();
                 // New paradise edit end
 

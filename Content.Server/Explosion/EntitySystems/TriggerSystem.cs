@@ -98,7 +98,7 @@ namespace Content.Server.Explosion.EntitySystems
             InitializeOnUse();
             InitializeSignal();
             InitializeTimedCollide();
-            InitializeVoice();
+            InitializeVoice(); //LOP edit
             InitializeMobstate();
             InitializeBeingGibbed(); // Frontier
 

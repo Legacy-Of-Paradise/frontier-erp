@@ -219,10 +219,16 @@
         Heat: 0.65
         Radiation: 0.8
         Caustic: 0.65
+  - type: GroupExamine
+  #LOP edit start
+  - type: Tag
+    tags:
+      - FullBodyOuter
   - type: ClothingSpeedModifier
     walkModifier: 0.7
     sprintModifier: 0.7
   - type: HeldSpeedModifier
+  #LOP edit end
   - type: ExplosionResistance
     damageCoefficient: 0.7
 

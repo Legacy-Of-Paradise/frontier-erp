@@ -81,9 +81,9 @@ namespace Content.Server.IoC
             IoCManager.Register<CVarControlManager>();
             IoCManager.Register<MiniAuthManager>(); //Frontier
 
-            //New paradise edit start
+            //LOP edit start
             IoCManager.Register<TTSManager>();
-            //New paradise edit end
+            //LOP edit end
         }
     }
 }

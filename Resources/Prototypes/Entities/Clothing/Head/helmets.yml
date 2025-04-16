@@ -58,6 +58,7 @@
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/swat.rsi
+    #LOP edit start
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
@@ -65,15 +66,19 @@
     - state: icon-open
       map: ["foldedLayer"]
       visible: true
+    #LOP edit end
   - type: Clothing
     sprite: Clothing/Head/Helmets/swat.rsi
+    #LOP edit start
     equippedPrefix: open
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000
+    #LOP edit end
   - type: Armor
     modifiers:
       coefficients:
+    #LOP edit start
         Blunt: 0.8
         Slash: 0.8
         Piercing: 0.8
@@ -82,8 +87,10 @@
         Caustic: 0.9
   - type: Item
     heldPrefix: open
+    #LOP edit end
   - type: ExplosionResistance
     damageCoefficient: 0.75
+  #LOP edit start
   - type: Foldable
     folded: true
     canFoldInsideContainer: true
@@ -92,10 +99,11 @@
   - type: FoldableClothing
     foldedEquippedPrefix: open
     foldedHeldPrefix: open
+  #LOP edit end
 
 #Syndicate SWAT Helmet
 - type: entity
-  parent: [BaseC3SyndicateContraband, ClothingHeadBase, ContrabandClothing] # Frontier: added ContrabandClothing, BaseC3SyndicateContraband as parent
+  parent: [BaseC3SyndicateContraband, ClothingHeadBase, ContrabandClothing] #LOP edit
   id: ClothingHeadHelmetSwatSyndicate
   name: SWAT helmet
   suffix: Syndicate
@@ -105,6 +113,7 @@
     sprite: Clothing/Head/Helmets/swat_syndicate.rsi
   - type: Clothing
     sprite: Clothing/Head/Helmets/swat_syndicate.rsi
+  #LOP edit start
   - type: Armor
     modifiers:
       coefficients:
@@ -116,6 +125,7 @@
         Caustic: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.75
+  #LOP edit end
 
 #Light Riot Helmet
 - type: entity

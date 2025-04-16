@@ -1,6 +1,6 @@
 - type: entity
   id: PathfindPoint
-  categories: [ HideSpawnMenu ]
+  categories: [ HideSpawnMenu ] #LOP edit
   parent: MarkerBase
   name: pathfind point
   components:

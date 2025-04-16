@@ -1,6 +1,6 @@
 ﻿using System.Linq;
-using Content.Client._NewParadise.TTS;
-using Content.Shared._NewParadise.TTS;
+using Content.Client._NewParadise.TTS; //LOP edit
+using Content.Shared._NewParadise.TTS; //LOP edit
 using Content.Shared.Preferences;
 using Robust.Shared.Random;
 

@@ -1,6 +1,6 @@
 - type: entity
   id: StressTest
-  categories: [ HideSpawnMenu ]
+  categories: [ HideSpawnMenu ] #LOP edit
   name: stress test
   suffix: DEBUG
   components:

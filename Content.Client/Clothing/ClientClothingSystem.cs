@@ -47,9 +47,11 @@ public sealed class ClientClothingSystem : ClothingSystem
         {"pocket1", "POCKET1"},
         {"pocket2", "POCKET2"},
         {"suitstorage", "SUITSTORAGE"},
+        //LOP edit start
         {"socks", "SOCKS"},
         {"underwear", "UNDERWEAR"},
         {"breast", "BREAST"},
+        //LOP edit end
     };
 
     [Dependency] private readonly IResourceCache _cache = default!;

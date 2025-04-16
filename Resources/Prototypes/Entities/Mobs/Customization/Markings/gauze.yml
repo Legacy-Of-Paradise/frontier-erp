@@ -222,6 +222,7 @@
   - sprite: Mobs/Customization/gauze.rsi
     state: gauze_boxerwrap_l
 
+#LOP edit start
 # - type: marking
 #   id: GauzeHead
 #   bodyPart: Head
@@ -235,6 +236,7 @@
 #   sprites:
 #   - sprite: Mobs/Customization/gauze.rsi
 #     state: gauze_head
+#LOP edit end
 
 # Lizard Specific Markings
 - type: marking

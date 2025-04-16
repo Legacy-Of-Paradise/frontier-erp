@@ -131,7 +131,7 @@
       dependsOn: jumpsuit
       displayName: Wallet
     # End Frontier: wallet slot
-    #LOP underwear
+    #LOP edit start
     - name: breast #LPP slot breast
       slotTexture: breast
       slotFlags: BREAST
@@ -162,4 +162,4 @@
       # whitelist:
       #   tags:
       #     - socks
-    #LOP underwearend
+    #LOP edit end

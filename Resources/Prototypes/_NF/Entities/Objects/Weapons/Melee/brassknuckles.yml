@@ -19,12 +19,14 @@
       collection: Punch
     animation: WeaponArcFist
     mustBeEquippedToUse: true
+  #LOP edit start
   # - type: Armor
   #   modifiers:
   #     coefficients:
   #       Shock: 1.05 # oh no so conductive
   # - type: Insulated
   #   coefficients: 1.5
+  #LOP edit end
   - type: Tag
     tags:
     - BrassKnucklesNF

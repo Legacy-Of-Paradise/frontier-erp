@@ -1,0 +1,125 @@
+﻿- type: marking
+  id: LOPVulpBellyFade
+  bodyPart: Rhand
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: altpointsfadebelly
+
+- type: marking
+  id: LOPVulpBellyCrest
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: bellycrest
+
+- type: marking
+  id: LOPVulpBellyFoxbelly
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: foxbelly
+
+- type: marking
+  id: LOPVulpBellyFullbelly
+  bodyPart: Chest
+  markingCategory: Chest
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: fullbelly
+
+- type: marking
+  id: LOPVulpBellyPointsfade
+  bodyPart: Rhand
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: pointsfade
+
+- type: marking
+  id: LOPVulpBellyPointsfadealt
+  bodyPart: Rhand
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: pointsfadebelly
+
+- type: marking
+  id: LOPVulpBellySharppoints
+  bodyPart: Rhand
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: sharppoints
+
+- type: marking
+  id: LOPVulpHeadMuzzle
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
+    state: muzzle
+
+- type: marking
+  id: LOPVulpHeadMuzzleear
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
+    state: muzzle_ear
+
+- type: marking
+  id: LOPVulpHeadPointsfade
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
+    state: points_fade
+
+- type: marking
+  id: LOPVulpHeadPointssharp
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
+    state: points_sharp
+
+- type: marking
+  id: LOPVulpHeadSkullsponsor
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
+    state: skull_sponsor
+
+- type: marking
+  id: LOPVulpHeadtigerface
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
+    state: tiger_face
+
+- type: marking
+  id: LOPVulpHeadTigerhead
+  bodyPart: Head
+  markingCategory: Head
+  speciesRestriction: [Vulpkanin]
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
+    state: tiger_head
