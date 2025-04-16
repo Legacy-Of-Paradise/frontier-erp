@@ -1,0 +1,10 @@
+ent-LPPClothingOuterVestPG = PG west
+    .desc = A synthetic armor vest. This one has added webbing and ballistic plates. For all PG army needs.
+ent-LPPClothingOuterVestPGWrittenOff = A decommissioned PG bulletproof vest
+    .desc = A decommissioned PG bulletproof vest that protects well from bullets. It is also equipped with small pockets in which magazines are often carried.
+ent-LPPClothingOuterVestUrbanPG = urban PG west
+    .desc = A synthetic armor vest. This one has added webbing and ballistic plates. For all PG army needs.
+ent-LPPClothingOuterVestSalvager = Salvager west
+    .desc = A synthetic armor vest. This one has added webbing and ballistic plates.
+ent-LPPClothingOuterVestDeputySherif = NFSD armor vest
+    .desc = A high-quality bulletproof vest with a breast badge showing who the real law is here.

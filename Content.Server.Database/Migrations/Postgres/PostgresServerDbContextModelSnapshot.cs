@@ -906,10 +906,12 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("species");
 
+                    // LOP edit start
                     b.Property<string>("VoiceId")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("voice_id");
+                    // LOP edit end
 
                     b.HasKey("Id")
                         .HasName("PK_profile");

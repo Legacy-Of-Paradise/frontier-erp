@@ -27,6 +27,11 @@ public enum SlotFlags
     FEET = 1 << 14,
     SUITSTORAGE = 1 << 15,
     WALLET = 1 << 13, // Frontier: using an unused slot, redefine to a new bit if/when it's used (goodbye ushort)
+    // LOP edit start
+    SOCKS = 1 << 16,
+    UNDERWEAR = 1 << 17,
+    BREAST = 1 << 18,
+    // LOP edit end
     All = ~NONE,
 
     WITHOUT_POCKET = All & ~POCKET

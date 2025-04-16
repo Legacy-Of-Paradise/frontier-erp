@@ -1,0 +1,89 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterVestPG
+  name: PG west
+  description: A synthetic armor vest. This one has added webbing and ballistic plates. For all PG army needs.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/pg-vest.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/pg-vest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.3
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterVestPGWrittenOff
+  name: A decommissioned PG bulletproof vest
+  description: A decommissioned PG bulletproof vest that protects well from bullets. It is also equipped with small pockets in which magazines are often carried.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/pg-vest.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/pg-vest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.75
+        Slash: 0.75
+        Piercing: 0.6
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterVestUrbanPG
+  name: urban PG west
+  description: A synthetic armor vest. This one has added webbing and ballistic plates. For all PG army needs.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/pg-urban-vest.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Armor/pg-urban-vest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.3
+        Heat: 0.9
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: LPPClothingOuterVestSalvager
+  name: Salvager west
+  description: A synthetic armor vest. This one has added webbing and ballistic plates.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Vests/salvagerwebvest.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Vests/salvagerwebvest.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65
+        Slash: 0.65
+        Piercing: 0.75
+  - type: ExplosionResistance
+    damageCoefficient: 0.9
+
+- type: entity
+  parent: ClothingOuterArmorBasic
+  id: LPPClothingOuterVestDeputySherif
+  name: NFSD armor vest
+  description: A high-quality bulletproof vest with a breast badge showing who the real law is here.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Vests/sherifvest.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Vests/sherifvest.rsi

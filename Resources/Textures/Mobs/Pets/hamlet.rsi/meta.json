@@ -1,7 +1,7 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Created by brainfood# 7460, hamlet resprite by RamZ (discord), inhands made by Vermidia",
+  "copyright": "Created by brainfood# 7460, hamlet resprite by RamZ (discord)",
   "size": {
     "x": 32,
     "y": 32
@@ -56,12 +56,12 @@
       "name": "splat-0"
     },
     {
-      "name": "inhand-left",
-      "directions": 4
+        "name": "inhand-right",
+        "directions": 4
     },
     {
-      "name": "inhand-right",
-      "directions": 4
+        "name": "inhand-left",
+        "directions": 4
     }
   ]
 }

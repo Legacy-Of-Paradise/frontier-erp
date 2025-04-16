@@ -8,9 +8,6 @@
   },
   "states": [
     {
-      "name": "icon"
-    },
-    {
       "name": "purple_snake",
       "directions": 4,
       "delays": [
@@ -35,8 +32,9 @@
     },
     {
           "name": "dead_small_purple_snake"
-      }
-
-
+    },
+    {
+          "name": "icon"
+    }
   ]
 }

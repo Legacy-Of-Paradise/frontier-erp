@@ -137,7 +137,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - HidesTail
+    - HidesTail # LOP edit
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
   - type: DamageOnInteractProtection
@@ -168,9 +168,11 @@
   - type: HeldSpeedModifier
   - type: Item
     size: Huge
+  # LOP edit start
   - type: Tag
     tags:
     - HidesTail
+  # LOP edit end
   - type: ProtectedFromStepTriggers
     slots: WITHOUT_POCKET
   - type: DamageOnInteractProtection

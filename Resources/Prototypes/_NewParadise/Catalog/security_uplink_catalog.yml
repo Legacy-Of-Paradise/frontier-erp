@@ -1,0 +1,451 @@
+- type: listing
+  id: LPPUplinkSecurityArg
+  name: lpp-uplink-security-arg-name
+  description: lpp-uplink-security-arg-desc
+  productEntity: LPPWeaponRifleARG
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Rifles/arg-rifle.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 3
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityLemington
+  name: lpp-uplink-security-lemington-name
+  description: lpp-uplink-security-lemington-desc
+  productEntity: LPPWeaponShotgunLemington
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Shotguns/lemington.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 4
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityPravoved
+  name: lpp-uplink-security-pravoved-name
+  description: lpp-uplink-security-pravoved-desc
+  productEntity: LPPWeaponSniperLeverPravoved
+  cost:
+    FrontierUplinkCoin: 3
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: LPPUplinkSecurityPanther
+  name: lpp-uplink-security-panther-name
+  description: lpp-uplink-security-panther-desc
+  productEntity: LPPWeaponRevolverPanther
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/panther.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 4
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityDominator
+  name: lpp-uplink-security-dominator-name
+  description: lpp-uplink-security-dominator-desc
+  productEntity: LPPWeaponLaserGun
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Battery/dominator.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 6
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityPF20
+  name: lpp-uplink-security-pf20-name
+  description: lpp-uplink-security-pf20-desc
+  productEntity: LPPWeaponPistolPF20
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Pistols/PF20.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 3
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: LPPUplinkSecurityJudge
+  name: lpp-uplink-security-judge-name
+  description: lpp-uplink-security-judge-desc
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Pistols/PF20.rsi, state: icon }
+  productEntity: LPPWeaponRevolverJudgeLethal
+  cost:
+    FrontierUplinkCoin: 3
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityM90
+  name: lpp-uplink-security-m90-name
+  description: lpp-uplink-security-m90-desc
+  productEntity: LPPWeaponSubMachineGunM90
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/SMGs/m90.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 6
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityM14
+  name: lpp-uplink-security-m14-name
+  description: lpp-uplink-security-m14-desc
+  productEntity: LPPWeaponRifleM14
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Rifles/m14w.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 3
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: LPPUplinkSecurityM1A
+  name: lpp-uplink-security-m1a-name
+  description: lpp-uplink-security-m1a-desc
+  productEntity: LPPWeaponRifleM1A
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Rifles/m1a.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 4
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: LPPUplinkSecurityHospistol
+  name: lpp-uplink-security-hospistol-name
+  description: lpp-uplink-security-hospistol-desc
+  productEntity: LPPWeaponHoSlaserPistol
+  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Battery/hos-laser.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 13
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityEnergyshotgun
+  name: lpp-uplink-security-energyshotgun-name
+  description: lpp-uplink-security-energyshotgun-desc
+  productEntity: WeaponEnergyShotgun
+  cost:
+    FrontierUplinkCoin: 18
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityKammerer
+  name: lpp-uplink-security-kammerer-name
+  description: lpp-uplink-security-kammerer-desc
+  productEntity: WeaponShotgunKammerer
+  cost:
+    FrontierUplinkCoin: 2
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: LPPUplinkSecurityTypewriter
+  name: lpp-uplink-security-typewriter-name
+  description: lpp-uplink-security-typewriter-desc
+  productEntity: WeaponSubMachineGunTypewriter
+  cost:
+    FrontierUplinkCoin: 6
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityHardsuitReflective
+  name: uplink-security-hardsuitreflect-name
+  description: uplink-security-hardsuitreflect-desc
+  productEntity: LPPClothingOuterHardsuitReflectivepatrolsec
+  cost:
+    FrontierUplinkCoin: 10
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityHardsuitSWAT
+  name: uplink-security-hardsuitswat-name
+  description: uplink-security-hardsuitswat-desc
+  productEntity: LPPClothingOuterHardsuitSWAT
+  cost:
+    FrontierUplinkCoin: 12
+  categories:
+    - UplinkSecurityHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: LPPUplinkSecurityGoliath
+  name: uplink-security-goliath-name
+  description: uplink-security-goliath-desc
+  productEntity: LPPWeaponGoliath
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBoxAntiMaterielCocnterePiercing
+  name: uplink-security-antimaterielcp-name
+  description: uplink-security-antimaterielcp-desc
+  productEntity: LPPMagazineBoxAntiMaterielCocnterePiercing
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBoxAntiMateriel
+  name: uplink-security-antimateriel-name
+  description: uplink-security-antimateriel-desc
+  productEntity: MagazineBoxAntiMateriel
+  cost:
+    FrontierUplinkCoin: 2
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBoxAntiMaterielNonLethal
+  name: uplink-security-antimaterielnl-name
+  description: uplink-security-antimaterielnl-desc
+  productEntity: LPPMagazineBoxAntiMaterielNonLethal
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBox20Pistol
+  name: uplink-security-box20-name
+  description: uplink-security-box20-desc
+  productEntity: LPPBox20Pistol
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBox20PistolRubber
+  name: uplink-security-box20rubber-name
+  description: uplink-security-box20rubber-desc
+  productEntity: LPPBox20PistolRubber
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecuritykDuffelNFSDUpgraded
+  name:  uplink-security-duffelupgraded-name
+  description: uplink-security-duffelupgraded-desc
+  productEntity: LPPClothingBackpackDuffelNFSDUpgraded
+  cost:
+    FrontierUplinkCoin: 2
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecuritykDuffelMaximumWebbing
+  name:  uplink-security-maximumwebbing-name
+  description: uplink-security-maximumwebbing-desc
+  productEntity: LPPClothingBeltMaximumWebbing
+  cost:
+    FrontierUplinkCoin: 2
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBoxMagazinePistolSubMachineGun
+  name: uplink-security-boxmagazinesubmachinegun-name
+  description: uplink-security-boxmagazinesubmachinegun-desc
+  productEntity: BoxMagazinePistolSubMachineGun
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBoxMagazinePistolSubMachineGunRubber
+  name: uplink-security-boxmagazinesubmachinegunrubber-name
+  description: uplink-security-boxmagazinesubmachinegunrubber-desc
+  productEntity: BoxMagazinePistolSubMachineGunRubber
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink

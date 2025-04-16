@@ -5,8 +5,10 @@
   description: Just add capitalism!
   abstract: true
   components:
+  # LOP edit start
   - type: TTS
     voicePrototypeId: Glados
+  # LOP edit end
   - type: ActionGrant
     actions:
     - ActionVendingThrow

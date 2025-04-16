@@ -22,6 +22,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 # Pilot
 - type: roleLoadout
@@ -72,6 +77,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 # Frontier
 - type: roleLoadout
@@ -94,6 +104,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobNFJanitor
@@ -114,6 +129,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobMailCarrier
@@ -134,6 +154,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit start
 
 - type: roleLoadout
   id: JobStationTrafficController
@@ -156,6 +181,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobStationRepresentative
@@ -179,6 +209,11 @@
   - StationRepBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobSecurityGuard
@@ -201,6 +236,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobDirectorOfCare
@@ -225,6 +265,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 # Nfsd
 - type: roleLoadout
@@ -250,6 +295,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobDeputy
@@ -274,6 +324,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobBrigmedic
@@ -298,6 +353,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobNFDetective
@@ -322,6 +382,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobPublicAffairsLiaison
@@ -345,6 +410,11 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific # Explicitly civilian variant
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 # - type: roleLoadout # Fix when this is actully used
   # id: JobPrisonGuard
@@ -393,6 +463,11 @@
   - SeniorOfficerBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobSeniorOfficer
@@ -417,6 +492,11 @@
   - SeniorOfficerBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 - type: roleLoadout
   id: JobSheriff
@@ -440,6 +520,11 @@
   - SeniorOfficerBackpackItems
   - ContractorHandItems
   - NfsdSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
 
 # Pirate
 
@@ -459,6 +544,11 @@
   - PirateBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
   canCustomizeName: true # pseudonym?
 
 - type: roleLoadout
@@ -478,6 +568,11 @@
   - PirateBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
   canCustomizeName: true # pseudonym?
 
 - type: roleLoadout
@@ -497,6 +592,11 @@
   - PirateCaptainBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end
   canCustomizeName: true # pseudonym?
 
 # Prisoner
@@ -514,3 +614,8 @@
   - PrisonerSurvival
   - PrisonerPDA
   - NFSpeciesSpecific
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  # LOP edit end

@@ -1,11 +1,11 @@
-using Content.Shared._NewParadise.TTS;
+using Content.Shared._NewParadise.TTS; // LOP edit
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Preferences;
 using Content.Shared.Verbs;
 using Robust.Shared.GameObjects.Components.Localization;
-using Robust.Shared.Prototypes;
+using Robust.Shared.Prototypes; // LOP edit
 
 namespace Content.Server.Humanoid;
 

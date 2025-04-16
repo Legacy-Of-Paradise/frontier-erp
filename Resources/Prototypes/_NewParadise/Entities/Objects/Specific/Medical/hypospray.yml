@@ -1,0 +1,25 @@
+- type: entity
+  parent: BaseItem
+  id: LPPHypospray
+  name: Hypospray 0.5
+  description: A stripped-down version of a sterile injector for the rapid administration of drugs to patients. It's too stripped down, but it's clearly better than syringes. DO NOT GIVE IT TO INTERNS.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Specific/Medical/hyposprayzero.rsi
+    state: hypo
+  - type: Item
+    sprite: _NewParadise/Objects/Specific/Medical/hyposprayzero.rsi
+  - type: SolutionContainerManager
+    solutions:
+      hypospray:
+        maxVol: 5
+  - type: RefillableSolution
+    solution: hypospray
+  - type: ExaminableSolution
+    solution: hypospray
+  - type: Hypospray
+    onlyAffectsMobs: false
+  - type: UseDelay
+    delay: 2
+  - type: StaticPrice
+    price: 750

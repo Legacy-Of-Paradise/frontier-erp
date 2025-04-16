@@ -1,0 +1,58 @@
+- type: entity
+  name: Peppermint Gingerbread
+  parent: FoodSnackBase
+  id: LPPFoodGingerBread
+  description: Delicious peppermint gingerbread, which has medical properties, is a favorite treat of one sweet lady, as well as ancient Russes. The best thing about a snack with kvass.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - cold
+  - type: Sprite
+    sprite: _NewParadise/Objects/Consumable/gingerbread.rsi
+    state: gingerbread
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+        - ReagentId: Vitamin
+          Quantity: 5
+      # medicine:     №здесь можно указывать только другие вещества а не эффекты
+      #   effects:
+      #   - !type:HealthChange
+      #     damage:
+      #       groups:
+      #         Piercing: -2
+
+- type: entity
+  name: Gingewbwead
+  parent: FoodSnackBase
+  id: LPPFoodGingevBvead
+  description: The prototype of the most OwOpular gingerbread in the entire galaxy. Behind the development is an unknown lover of gingerbread and a mastodon for the production of gingerbread products in the galaxy, one whose name cannot be pronounced aloud (otherwise they will be banned). The composition contains lichyesin, a medicine that treats brainroting and radiation effects.
+  components:
+  - type: FlavorProfile
+    flavors:
+      - sweet
+      - cold
+  - type: Sprite
+    sprite: _NewParadise/Objects/Consumable/gingerbread.rsi
+    state: gingevbvead
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 228
+        - ReagentId: Vitamin
+          Quantity: 1337
+      # medicine:
+      #   effects:
+      #   - !type:HealthChange
+      #     damage:
+      #       groups:
+      #         Radiaton: -20
+      #         Cell: -20

@@ -858,10 +858,12 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("species");
 
+                    // LOP edit start
                     b.Property<string>("VoiceId")
                         .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("voice_id");
+                    // LOP edit end
 
                     b.HasKey("Id")
                         .HasName("PK_profile");

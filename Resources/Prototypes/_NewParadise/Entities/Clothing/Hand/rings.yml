@@ -1,0 +1,59 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: LPPClothingHandsRingBlood
+  name: blood ring
+  description: Good ring.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Misc/RingBlood.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Misc/RingBlood.rsi
+  - type: Item
+    size: Tiny
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  parent: ClothingHandsBase
+  id: LPPClothingHandsRingEmerald
+  name: emerald ring
+  description: Good ring.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Misc/RingEmerald.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Misc/RingEmerald.rsi
+  - type: Item
+    size: Tiny
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  parent: ClothingHandsBase
+  id: LPPClothingHandsRingPlazma
+  name: plazma ring
+  description: Good ring.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Misc/RingPlazma.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Misc/RingPlazma.rsi
+  - type: Item
+    size: Tiny
+  - type: StaticPrice
+    price: 1000
+
+- type: entity
+  parent: ClothingHandsBase
+  id: LPPClothingHandsRingTurk
+  name: turk ring
+  description: Good ring.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Misc/RingTurk.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Misc/RingTurk.rsi
+  - type: Item
+    size: Tiny
+  - type: StaticPrice
+    price: 1000

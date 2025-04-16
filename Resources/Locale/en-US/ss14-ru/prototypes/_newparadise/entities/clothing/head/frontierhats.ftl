@@ -1,0 +1,10 @@
+ent-LPPClothingHeadHatSherif = NFSD Sheriff cap
+    .desc = UBI CONCORDIA IBI VICTORIA.
+ent-LPPClothingHeadHatDeputySherif = NFSD Deputy sheriff cap
+    .desc = Try to correct her more often, it will give you the appearance of a serious person... Probably.
+ent-LPPClothingHeadHatCowboyDeputySherif = NFSD Deputy sheriff cowboy cap
+    .desc = In God We Trust.
+ent-LPPClothingHeadHatCowboy = NFSD cowboy hat
+    .desc = Yippee ki-yay, mazafaka!
+ent-LPPClothingHeadHatCowboySerjSherif = NFSD sergeant cowboy hat
+    .desc = Nothing without the Deity

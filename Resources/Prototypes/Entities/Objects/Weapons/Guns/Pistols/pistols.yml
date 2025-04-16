@@ -67,6 +67,19 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
+  - type: MeleeWeapon
+    attackRate: 1.2
+    damage:
+      types:
+        Blunt: 7.5
+    animation: WeaponArcThrust
+    wideAnimationRotation: 135
+    soundHit:
+      collection: MetalThud
+  # LOP edit start
+  - type: AltFireMelee
+    attackType: Light
+  # LOP edit end
 
 - type: entity
   name: viper

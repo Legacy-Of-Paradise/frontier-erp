@@ -1,0 +1,25 @@
+- type: entity
+  id: LPPChemistryBottleStimulant
+  name: Bottle of stimulants
+  parent: BaseChemistryBottleFilled
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink: # This solution name and target volume is hard-coded in ChemMasterComponent
+        maxVol: 30
+        reagents:
+        - ReagentId: Stimulants
+          Quantity: 30
+
+- type: entity
+  id: LPPSyringeAmbuzolPlus
+  name: Syringe with ambuzol plus
+  parent: PrefilledSyringe
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      injector: # This solution name and target volume is hard-coded in ChemMasterComponent
+        maxVol: 15
+        reagents:
+        - ReagentId: AmbuzolPlus
+          Quantity: 15

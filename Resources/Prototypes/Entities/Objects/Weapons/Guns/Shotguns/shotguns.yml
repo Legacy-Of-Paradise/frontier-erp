@@ -42,6 +42,24 @@
         ents: []
   - type: StaticPrice
     price: 500
+  - type: MeleeWeapon
+    attackRate: 1.4
+    damage:
+      types:
+        Blunt: 10
+    animation: WeaponArcThrust
+    wideAnimationRotation: 180
+    soundHit:
+      collection: MetalThud
+  - type: IncreaseDamageOnWield
+    damage:
+      types:
+        Blunt: 2.5
+  # LOP edit start
+  - type: MeleeRequiresWield
+  - type: AltFireMelee
+    attackType: Light
+  # LOP edit end
 
 - type: entity
   name: Bulldog

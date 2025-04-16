@@ -1,0 +1,232 @@
+
+- type: entity
+  name: Colt Peacemaker
+  parent: [BaseWeaponRevolver, BaseC2Contraband]
+  id: LPPWeaponRevolverColtpeacemaker
+  description: Legendary revolver from wild west. Uses .45 magnum bullets
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/colt-45.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/colt-45.rsi
+  - type: RevolverAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+
+- type: entity
+  name: peacemakerbase
+  parent: BaseItem
+  id: LPPAVBase
+  description: The weapon carried by Detective Artemon Vealis uses a .357 magnum caliber and is engraved with his initials A.V.
+  abstract: true
+  components:
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Small
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/colt-artemon.rsi
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 3
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+  - type: ContainerContainer
+    containers:
+      revolver-ammo: !type:Container
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeMagnum
+        - SpeedLoaderMagnum
+    proto: CartridgeMagnum
+    capacity: 8
+    chambers: [ True, True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null, null ]
+    soundEject:
+      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
+  - type: StaticPrice
+    price: 1500
+
+- type: entity
+  name: peacemaker
+  parent: [LPPAVBase, BaseC2Contraband]
+  id: LPPWeaponRevolverPeacemaker
+  description: The weapon carried by Detective Artemon Vealis uses a .357 magnum caliber and is engraved with his initials A.V.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/colt-artemon.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/colt-artemon.rsi
+  - type: RevolverAmmoProvider
+    capacity: 8
+    chambers: [ True, True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null, null ]
+
+- type: entity
+  name: Colt Special
+  parent: [BaseWeaponRevolver, BaseC2Contraband]
+  id: LPPWeaponRevolverColtspecial
+  description: Uses .45 magnum bullets
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/colt-spcl.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/colt-spcl.rsi
+  - type: RevolverAmmoProvider
+    capacity: 7
+    chambers: [ True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null ]
+
+- type: entity
+  name: collection inspector
+  parent: BaseWeaponRevolver
+  id: LPPWeaponRevolverInspectorCollection
+  description: Basically, this is given for special merits before the law, order, and professionalism. Uses .45 magnum cartridges.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/inspector-collection.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/inspector-collection.rsi
+  - type: RevolverAmmoProvider
+    capacity: 6
+    chambers: [ True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null ]
+
+- type: entity
+  name: Judge
+  parent: [BaseWeaponRevolver, BaseC2Contraband]
+  id: LPPWeaponRevolverJudgeLethal
+  suffix: Lethal
+  description: There is only one sentence with this revolver - death, the recoil of this weapon is so lethal that a person can hardly stand on his feet. Uses .60 anti-materiel rounds.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/judge.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/judge.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Item
+    size: Large
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeAntiMateriel
+    proto: CartridgeAntiMateriel
+    capacity: 3
+    chambers: [ True, True, True ]
+    ammoSlots: [ null, null, null ]
+
+- type: entity
+  name: Judge
+  parent: [LPPWeaponRevolverJudgeLethal, BaseC2Contraband]
+  id: LPPWeaponRevolverJudge
+  suffix: NonLethal
+  description: There is only one sentence with this revolver - death, the recoil of this weapon is so lethal that a person can hardly stand on his feet. Uses .60 anti-materiel rounds.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/judge.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/judge.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: RevolverAmmoProvider
+    proto: LPPCartridgeAntiMaterielNonLethal
+
+- type: entity
+  name: LPPPantherBase
+  parent: [BaseItem, BaseC2Contraband]
+  id: LPPPantherBase
+  description: A fast revolver for quick decision making. Uses .45 magnum cartridges.
+  abstract: true
+  components:
+  - type: Sprite
+    state: icon
+  - type: Item
+    size: Small
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/panther.rsi
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 3
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
+  - type: ContainerContainer
+    containers:
+      revolver-ammo: !type:Container
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeMagnum
+        - SpeedLoaderMagnum
+    proto: CartridgeMagnum
+    capacity: 7
+    chambers: [ True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null ]
+    soundEject:
+      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
+  - type: StaticPrice
+    price: 1000
+
+
+- type: entity
+  name: panther
+  parent: LPPPantherBase
+  id: LPPWeaponRevolverPanther
+  description: A fast revolver for quick decision making. Uses .45 magnum cartridges.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/panther.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/panther.rsi
+  - type: RevolverAmmoProvider
+    capacity: 7
+    chambers: [ True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null ]
+
+- type: entity
+  name: Revolver OC-38
+  parent: [BaseWeaponRevolver, BaseC3SyndicateContraband]
+  id: LPPWeaponRevolverOC-38
+  description: Uses .45 magnum bullets
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/oc-38.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/oc-38.rsi
+  - type: RevolverAmmoProvider
+    capacity: 7
+    chambers: [ True, True, True, True, True, True, True ]
+    ammoSlots: [ null, null, null, null, null, null, null ]
+    soundEject:
+      path: /Audio/Weapons/Guns/MagOut/revolver_magout.ogg
+    soundInsert:
+      path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 2.0
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
+      params:
+        volume: -14

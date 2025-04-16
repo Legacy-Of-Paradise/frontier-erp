@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPAdjuBlackSkirt
+  name: Black Adjutant's skirt
+  description: The black version of the adjutant's skirt is something between a schoolboy and internal affairs agents.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/LPPAdjuBlackSkirt.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/LPPAdjuBlackSkirt.rsi

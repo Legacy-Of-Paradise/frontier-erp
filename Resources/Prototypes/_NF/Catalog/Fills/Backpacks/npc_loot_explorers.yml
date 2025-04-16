@@ -30,6 +30,10 @@
     # Weapons
     - id: Pickaxe
       prob: 0.4
+    # LOP edit start
+    - id: LPPweaponSchwarzlose
+      prob: 0.1
+    # LOP edit end
     # Items
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.9
@@ -59,6 +63,10 @@
     # Weapons
     - id: WeaponProtoKineticAccelerator
       prob: 0.4
+    # LOP edit start
+    - id: LPPweaponSchwarzlose
+      prob: 0.1
+    # LOP edit end
     # Items
     - id: SpawnDungeonLootClutterEngi
       prob: 0.9
@@ -90,9 +98,17 @@
     # Weapons
     - id: WeaponCrusherGlaive
       prob: 0.4
+    # LOP edit start
+    - id: LPPweaponSchwarzlose
+      prob: 0.4
+    # LOP edit end
     # Armor
     - id: ClothingOuterHardsuitSpatio
       prob: 0.3
+    # LOP edit start
+    - id: LPPClothingOuterHardsuitMiningPlus
+      prob: 0.2
+    # LOP edit end
     # Items
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.9
@@ -129,9 +145,19 @@
     # Weapons
     - id: WeaponProtoKineticAccelerator
       prob: 0.4
+    # LOP edit start
+    - id: LPPweaponSchwarzlose
+      prob: 0.4
+    - id: LPPweaponShasspo
+      prob: 0.2
+    # LOP edit end
     # Armor
     - id: ClothingOuterHardsuitSpatio
       prob: 0.3
+    # LOP edit start
+    - id: LPPClothingOuterHardsuitMiningPlus
+      prob: 0.2
+    # LOP edit end
     # Items
     - id: SpawnDungeonLootClutterEngi
       prob: 0.9
@@ -170,9 +196,19 @@
     # Weapons
     - id: MiningDrill
       prob: 0.4
+    # LOP edit start
+    - id: LPPweaponSchwarzlose
+      prob: 0.6
+    - id: LPPweaponManlicher
+      # LOP edit end
+      prob: 0.2
     # Armor
     - id: ClothingOuterHardsuitSalvage
       prob: 0.3
+    # LOP edit start
+    - id: LPPClothingOuterHardsuitUpgradedMining
+      prob: 0.2
+    # LOP edit end
     # Items
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.9
@@ -217,9 +253,19 @@
     - id: WeaponProtoKineticAccelerator
       prob: 0.4
       amount: 2
+    # LOP edit start
+    - id: LPPweaponSchwarzlose
+      prob: 0.6
+    - id: LPPweaponPibodi
+      prob: 0.2
+    # LOP edit end
     # Armor
     - id: ClothingOuterHardsuitLuxury
+      prob: 0.35
+    # LOP edit start
+    - id: LPPClothingOuterHardsuitSpatioUpgraded
       prob: 0.2
+    # LOP edit end
     # Items
     - id: SpawnDungeonLootClutterEngi
       prob: 0.9
@@ -269,9 +315,25 @@
     - id: NFBlueprintEnergyPickaxe
       prob: 0.3
       amount: 1
+    # LOP edit start
+    - id: LPPWeaponSyndieGlaive
+      prob: 0.3
+    - id: LPPweaponShasspo
+      prob: 0.7
+    - id: LPPweaponManlicher
+      prob: 0.5
+    - id: LPPweaponPibodi
+      prob: 0.5
+    - id: LPPweaponLebel
+      prob: 0.3
+    # LOP edit end
     # Armor
     - id: ClothingOuterHardsuitMaximPrototype
       prob: 0.1
+    # LOP edit start
+    - id: LPPClothingOuterHardsuitMiningJuggernaut
+      prob: 0.1
+    # LOP edit end
     # Items
     - id: SpawnDungeonLootClutterEngi
       prob: 0.9

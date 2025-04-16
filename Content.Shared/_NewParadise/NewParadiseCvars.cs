@@ -10,7 +10,7 @@ public sealed class NewParadiseCvars
     /// Is TTS enabled
     /// </summary>
     public static readonly CVarDef<bool> TtsEnabled =
-        CVarDef.Create("tts.enabled", true, CVar.SERVERONLY);
+        CVarDef.Create("tts.enabled", false, CVar.SERVERONLY);
 
     /// <summary>
     /// URL of the TTS server API.
@@ -28,7 +28,7 @@ public sealed class NewParadiseCvars
     /// TTS Volume
     /// </summary>
     public static readonly CVarDef<float> TtsVolume =
-        CVarDef.Create("tts.volume", 0f, CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("tts.volume", 100f, CVar.CLIENTONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// TTS Cache

@@ -1,5 +1,5 @@
 <Document>
-  # ТРАНСФЕР ПО ФРАНШИЗЕ MCDELIVERY
+  # ТРАНСФЕР ФРАНШИЗЫ MCDELIVERY
   <Box>
   <GuideEntityEmbed Entity="hydroponicsTray"/>
   <GuideEntityEmbed Entity="KitchenMicrowave"/>

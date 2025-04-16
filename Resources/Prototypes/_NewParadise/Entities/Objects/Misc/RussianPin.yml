@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingNeckPinBase
+  id: LPPClothingNeckRussianPin
+  name: Pin Russia
+  description: esli patriot
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Misc/Russian.rsi
+    layers:
+    - state: rus
+  - type: Clothing
+    sprite: _NewParadise/Objects/Misc/Russian.rsi
+    clothingVisuals:
+      neck:
+      - state: rus-equipped
