@@ -178,6 +178,10 @@
   - type: BreathMask
   - type: Item
     heldPrefix: open
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
 
 - type: entity
   parent: ClothingHeadHardsuitBase
@@ -219,6 +223,10 @@
   - type: BreathMask
   - type: Item
     heldPrefix: open
+  - type: HideLayerClothing
+    slots:
+    - Hair
+    - Snout
 
 - type: entity
   parent: ClothingHeadHelmetBasic
@@ -281,6 +289,4 @@
     slots:
     - Hair
     - Snout
-    - HeadTop
-    - HeadSide
-    hideOnToggle: true
+

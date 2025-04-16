@@ -236,8 +236,6 @@
     slots:
     - Hair
     - Snout
-    - HeadTop
-    - HeadSide
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
