@@ -83,10 +83,8 @@
     sprintModifier: 1
   - type: ContainerContainer
     containers:
-    toggleable-clothing: !type:ContainerSlot
-    showEnts: False
-    occludes: True
-    ent: null
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: ClothingOuterEVASuitBase
@@ -115,10 +113,8 @@
     sprintModifier: 1
   - type: ContainerContainer
     containers:
-    toggleable-clothing: !type:ContainerSlot
-    showEnts: False
-    occludes: True
-    ent: null
+      storagebase: !type:Container
+        ents: []
 
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, ClothingOuterEVASuitBase]
@@ -149,7 +145,5 @@
     clothingPrototype: LPPClothingHeadHelmetSwat
   - type: ContainerContainer
     containers:
-    toggleable-clothing: !type:ContainerSlot
-    showEnts: False
-    occludes: True
-    ent: null
+      storagebase: !type:Container
+        ents: []
