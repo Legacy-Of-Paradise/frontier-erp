@@ -1,6 +1,6 @@
 using System.IO;
 using System.Linq;
-using Content.Shared._NewParadise.TTS; //LOP edit
+using Content.Shared._NewParadise.TTS; // LOP edit
 using Content.Shared.CCVar;
 using Content.Shared.Decals;
 using Content.Shared.Examine;
@@ -41,12 +41,14 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     [ValidatePrototypeId<SpeciesPrototype>]
     public const string DefaultSpecies = "Human";
 
+    // LOP edit start
     public static readonly Dictionary<Sex, ProtoId<TTSVoicePrototype>> DefaultSexVoice = new()
     {
         { Sex.Male, "Nord" },
         { Sex.Female, "Amina" },
         { Sex.Unsexed, "Alyx" },
     };
+    // LOP edit end
 
     public override void Initialize()
     {
@@ -357,7 +359,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         SetSpecies(uid, profile.Species, false, humanoid);
         SetSex(uid, profile.Sex, false, humanoid);
-        SetTTSVoice(uid, profile.VoiceId);
+        SetTTSVoice(uid, profile.VoiceId); // LOP edit
         humanoid.EyeColor = profile.Appearance.EyeColor;
 
         SetSkinColor(uid, profile.Appearance.SkinColor, false);
@@ -508,6 +510,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         return Loc.GetString("humanoid-appearance-component-unknown-species");
     }
 
+    // LOP edit start
     public void SetTTSVoice(
         EntityUid uid,
         ProtoId<TTSVoicePrototype> voiceId,
@@ -529,6 +532,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
             Dirty(uid, humanoid);
         }
     }
+    // LOP edit end
 
     public string GetAgeRepresentation(string species, int age)
     {

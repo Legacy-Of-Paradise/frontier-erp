@@ -278,7 +278,7 @@
   - sprite: Mobs/Customization/Moth/moth_wings.rsi
     state: ladybug
 
-#LOP edit start
+# LOP edit start
 # - type: marking
 #   id: MothWingsMaple
 #   bodyPart: Tail
@@ -289,7 +289,7 @@
 #     state: maple_primary
 #   - sprite: Mobs/Customization/Moth/moth_wings.rsi
 #     state: maple_secondary
-#LOP edit end
+# LOP edit end
 
 - type: marking
   id: MothWingsMoffra

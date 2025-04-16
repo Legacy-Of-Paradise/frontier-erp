@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: BaseItem
-  categories: [ HideSpawnMenu ] #LOP edit
+  categories: [ HideSpawnMenu ] # LOP edit
   id: DebugItemShapeWeird
   name: weirdly shaped item
   description: What is it...?

@@ -448,7 +448,7 @@
     tags:
     - WhitelistChameleon
     - HighRiskItem
-    - HidesTail #LOP edit
+    - HidesTail # LOP edit
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitRd
   - type: StaticPrice
@@ -578,7 +578,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - HidesTail #LOP edit
+    - HidesTail # LOP edit
 
 #Syndicate Elite Hardsuit
 - type: entity
@@ -618,13 +618,13 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieElite
-  #LOP edit start
+  # LOP edit start
   - type: Tag
     tags:
     - Hardsuit
     - WhitelistChameleon
     - HidesTail
-  #LOP edit end
+  # LOP edit end
 
 #Syndicate Commander Hardsuit
 - type: entity
@@ -891,7 +891,7 @@
     tags:
     - Hardsuit
     - WhitelistChameleon
-    - HidesTail #LOP edit
+    - HidesTail # LOP edit
 
 #ERT Janitor Hardsuit
 - type: entity

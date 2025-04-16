@@ -9,7 +9,7 @@
   id: BaseMobSpecies
   abstract: true
   components:
-  - type: TTS # new paradise edit
+  - type: TTS # LOP edit
   - type: Sprite
     layers:
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
@@ -20,14 +20,14 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      #LOP edit start
+      # LOP edit start
     - map: [ "breast" ]
     - map: [ "underwear" ]
     - map: [ "enum.HumanoidVisualLayers.LFoot" ]
     - map: [ "enum.HumanoidVisualLayers.RFoot" ]
     - map: [ "socks" ]
     - map: [ "jumpsuit" ]
-      #LOP edit end
+      # LOP edit end
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
     - map: [ "gloves" ]

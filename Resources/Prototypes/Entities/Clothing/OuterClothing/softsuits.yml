@@ -14,7 +14,7 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
-    - HidesTail #LOP edit
+    - HidesTail # LOP edit
   - type: StaticPrice # Frontier
     price: 30 # Frontier
     vendPrice: 1500 # Frontier
@@ -35,7 +35,7 @@
     - SuitEVA
     - MonkeyWearable
     - WhitelistChameleon
-    - HidesTail #LOP edit
+    - HidesTail # LOP edit
 
 #Emergency EVA
 - type: entity

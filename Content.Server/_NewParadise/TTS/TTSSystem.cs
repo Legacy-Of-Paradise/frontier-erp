@@ -5,8 +5,8 @@ using Content.Server.Chat.Systems;
 using Content.Server.Light.Components;
 using Content.Server.Station.Components;
 using Content.Server.Station.Systems;
-using Content.Shared._NewParadise; //LOP edit
-using Content.Shared._NewParadise.TTS; //LOP edit
+using Content.Shared._NewParadise;
+using Content.Shared._NewParadise.TTS;
 using Content.Shared.GameTicking;
 using Robust.Server.Player;
 using Robust.Shared.Configuration;
@@ -23,7 +23,7 @@ public sealed partial class TTSSystem : EntitySystem
 {
     [Dependency] private readonly IConfigurationManager _cfg = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-    [Dependency] private readonly TTSManager _ttsManager = default!; //LOP edit
+    [Dependency] private readonly TTSManager _ttsManager = default!; // LOP edit
     [Dependency] private readonly SharedTransformSystem _xforms = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly IServerNetManager _netMgr = default!;

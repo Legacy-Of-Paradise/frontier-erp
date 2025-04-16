@@ -97,11 +97,12 @@
   name: loadout-group-contractor-face
   loadouts:
   - NfsdClothingMaskGasNfsd
-#LPP
+  # LOP edit start
   - LPPNfsdClothingMaskBalaclava
   fallbacks:
   - NfsdClothingMaskGasNfsd
   - LPPNfsdClothingMaskBalaclava
+  # LOP edit end
 
 - type: loadoutGroup
   id: NfsdGlasses

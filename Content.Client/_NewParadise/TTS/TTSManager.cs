@@ -1,4 +1,4 @@
-﻿using Content.Shared._NewParadise.TTS; //LOP edit
+﻿using Content.Shared._NewParadise.TTS;
 using Robust.Shared.Network;
 
 namespace Content.Client._NewParadise.TTS;

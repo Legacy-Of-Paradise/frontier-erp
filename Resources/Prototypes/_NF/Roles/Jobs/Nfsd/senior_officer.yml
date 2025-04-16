@@ -39,7 +39,7 @@
 - type: startingGear
   id: SeniorOfficerGear
   equipment:
-    pocket1: LPPWeaponRevolverColtpeacemaker #WeaponPistolMk58Nonlethal
+    pocket1: LPPWeaponRevolverColtpeacemaker # LOP edit: WeaponPistolMk58<LPPWeaponRevolverColtpeacemaker
   storage:
     back:
     - Flash

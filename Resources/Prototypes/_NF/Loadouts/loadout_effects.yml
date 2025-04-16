@@ -16,6 +16,7 @@
     - Vox
     inverted: true
 
+# LOP edit start
 - type: loadoutEffectGroup
   id: PantsCapableNF
   effects:
@@ -34,6 +35,7 @@
     - Felinid
     - Vulpkanin
     - Rodentia
+# LOP edit end
 
 - type: loadoutEffectGroup
   id: ShoesCapableNF

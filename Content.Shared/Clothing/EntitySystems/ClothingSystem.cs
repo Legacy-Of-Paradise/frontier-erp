@@ -9,7 +9,7 @@ using Content.Shared.Item;
 using Content.Shared.Strip.Components;
 using Robust.Shared.Containers;
 using Robust.Shared.GameStates;
-using Content.Shared.Tag; //LOP edit
+using Content.Shared.Tag; // LOP edit
 
 namespace Content.Shared.Clothing.EntitySystems;
 
@@ -20,12 +20,12 @@ public abstract class ClothingSystem : EntitySystem
     [Dependency] private readonly SharedHumanoidAppearanceSystem _humanoidSystem = default!;
     [Dependency] private readonly InventorySystem _invSystem = default!;
     [Dependency] private readonly SharedHandsSystem _handsSystem = default!;
-    //LOP edit start
+    // LOP edit start
     [Dependency] private readonly TagSystem _tagSystem = default!;
 
     [ValidatePrototypeId<TagPrototype>]
     private const string TailTag = "HidesTail";
-    //LOP edit end
+    // LOP edit end
 
     public override void Initialize()
     {
@@ -137,12 +137,12 @@ public abstract class ClothingSystem : EntitySystem
         component.InSlot = args.Slot;
         CheckEquipmentForLayerHide(args.Equipment, args.Equipee);
 
-        //LOP edit start
+        // LOP edit start
         if (_tagSystem.HasTag(args.Equipment, TailTag))
         {
             _humanoidSystem.SetLayerVisibility(args.Equipee, HumanoidVisualLayers.Tail, false);
         }
-        //LOP edit end
+        // LOP edit end
 
         if ((component.Slots & args.SlotFlags) != SlotFlags.NONE)
         {
@@ -168,12 +168,12 @@ public abstract class ClothingSystem : EntitySystem
         component.InSlot = null;
         CheckEquipmentForLayerHide(args.Equipment, args.Equipee);
 
-        //LOP edit start
+        // LOP edit start
         if (_tagSystem.HasTag(args.Equipment, TailTag))
         {
             _humanoidSystem.SetLayerVisibility(args.Equipee, HumanoidVisualLayers.Tail, true);
         }
-        //LOP edit end
+        // LOP edit end
     }
 
     private void OnGetState(EntityUid uid, ClothingComponent component, ref ComponentGetState args)

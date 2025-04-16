@@ -102,9 +102,10 @@
     # Weapons
     - id: WeaponPistolMk58Expedition
       prob: 0.9
-#LPP
+    # LOP edit start
     - id: WeaponPistolPollock
       prob: 0.5
+    # LOP edit end
     # Armor
     - id: ClothingOuterVestWebMercenary
       prob: 0.4

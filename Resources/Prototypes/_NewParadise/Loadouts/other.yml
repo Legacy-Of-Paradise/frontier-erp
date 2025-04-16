@@ -1,0 +1,15 @@
+﻿- type: loadout
+  id: LPPNfsdClothingMaskBalaclava
+  storage:
+    back:
+    - LPPClothingBalaclavawide
+
+- type: loadout
+  id: LPPNfsdOuterClothing
+  equipment:
+    outerClothing: LPPClothingOuterVestDeputySherif
+
+- type: loadout
+  id: LPPNfsdOuterClothingDeputy
+  equipment:
+    outerClothing: LPPClothingOuterCoatDeputySherif

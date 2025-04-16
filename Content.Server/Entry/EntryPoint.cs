@@ -1,4 +1,4 @@
-using Content.Server._NewParadise.TTS;
+using Content.Server._NewParadise.TTS; // LOP edit
 using Content.Server._NF.Auth;
 using Content.Server.Acz;
 using Content.Server.Administration;
@@ -114,9 +114,9 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<ServerApi>().Initialize();
                 IoCManager.Resolve<MiniAuthManager>();
 
-                //LOP edit start
+                // LOP edit start
                 IoCManager.Resolve<TTSManager>().Initialize();
-                // New paradise edit end
+                // LOP edit end
 
                 _voteManager.Initialize();
                 _updateManager.Initialize();

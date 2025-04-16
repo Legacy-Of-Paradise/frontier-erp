@@ -131,8 +131,8 @@
       dependsOn: jumpsuit
       displayName: Wallet
     # End Frontier: wallet slot
-    #LOP edit start
-    - name: breast #LPP slot breast
+    # LOP edit start
+    - name: breast # LOP edit: slot breast
       slotTexture: breast
       slotFlags: BREAST
       stripTime: 6
@@ -142,7 +142,7 @@
       # whitelist:
       #   tags:
       #     - breast
-    - name: underwear #LPP slot underwear
+    - name: underwear # LOP edit: slot underwear
       slotTexture: underwear
       slotFlags: UNDERWEAR
       stripTime: 6
@@ -152,7 +152,7 @@
       # whitelist:
       #   tags:
       #     - underwear
-    - name: socks #LPP slot socks
+    - name: socks # LOP edit: slot socks
       slotTexture: socks
       slotFlags: SOCKS
       stripTime: 6
@@ -162,4 +162,4 @@
       # whitelist:
       #   tags:
       #     - socks
-    #LOP edit end
+    # LOP edit end

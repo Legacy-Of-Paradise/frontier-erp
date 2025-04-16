@@ -20,11 +20,11 @@
     angleIncrease: 6
     angleDecay: 24
     fireRate: 5
-    burstFireRate: 8
+    burstFireRate: 8 # LOP edit
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
-    - Burst
+    - Burst # LOP edit
   - type: ChamberMagazineAmmoProvider
   - type: ItemSlots
     slots:

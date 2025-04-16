@@ -76,10 +76,10 @@
     wideAnimationRotation: 135
     soundHit:
       collection: MetalThud
-  #LOP edit start
+  # LOP edit start
   - type: AltFireMelee
     attackType: Light
-  #LOP edit end
+  # LOP edit end
 
 - type: entity
   name: viper

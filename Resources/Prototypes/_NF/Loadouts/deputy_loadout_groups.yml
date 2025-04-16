@@ -13,12 +13,12 @@
   name: loadout-group-contractor-outerclothing
   loadouts:
   - NfsdOuterClothing
-  #LOP edit start
+  # LOP edit start
   - LPPNfsdOuterClothingDeputy
   fallbacks:
   - NfsdOuterClothing
   - LPPNfsdOuterClothingDeputy
-  #LOP edit end
+  # LOP edit end
 
 - type: loadoutGroup
   id: DeputyHead

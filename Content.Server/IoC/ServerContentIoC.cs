@@ -1,4 +1,4 @@
-using Content.Server._NewParadise.TTS;
+using Content.Server._NewParadise.TTS; // LOP edit
 using Content.Server._NF.Auth;
 using Content.Server.Administration;
 using Content.Server.Administration.Logs;
@@ -81,9 +81,9 @@ namespace Content.Server.IoC
             IoCManager.Register<CVarControlManager>();
             IoCManager.Register<MiniAuthManager>(); //Frontier
 
-            //LOP edit start
+            // LOP edit start
             IoCManager.Register<TTSManager>();
-            //LOP edit end
+            // LOP edit end
         }
     }
 }

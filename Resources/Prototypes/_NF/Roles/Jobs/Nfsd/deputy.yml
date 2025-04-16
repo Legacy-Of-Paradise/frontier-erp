@@ -31,7 +31,7 @@
 - type: startingGear
   id: DeputyGear
   equipment:
-    pocket1: LPPWeaponPistolninemile #WeaponPistolMk58Nonlethal
+    pocket1: LPPWeaponPistolninemile # LOP edit: WeaponPistolMk58<LPPWeaponPistolninemile
   storage:
     back:
     - Flash

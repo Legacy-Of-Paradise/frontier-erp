@@ -55,11 +55,11 @@
     damage:
       types:
         Blunt: 2.5
-  #LOP edit start
+  # LOP edit start
   - type: MeleeRequiresWield
   - type: AltFireMelee
     attackType: Light
-  #LOP edit end
+  # LOP edit end
 
 - type: entity
   name: Bulldog
