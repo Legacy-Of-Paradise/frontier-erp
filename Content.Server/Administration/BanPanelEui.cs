@@ -49,7 +49,7 @@ public sealed class BanPanelEui : BaseEui
         switch (msg)
         {
             case BanPanelEuiStateMsg.CreateBanRequest r:
-                BanPlayer(r.Player, r.IpAddress, r.UseLastIp, r.Hwid, r.UseLastHwid, r.Minutes, r.Severity, r.Reason, r.Roles);
+                BanPlayer(r.Player, r.IpAddress, r.UseLastIp, r.Hwid, r.UseLastHwid, r.Minutes, r.Severity, r.Reason, r.Roles); // LOP edit
                 break;
             case BanPanelEuiStateMsg.GetPlayerInfoRequest r:
                 ChangePlayer(r.PlayerUsername);
@@ -57,8 +57,10 @@ public sealed class BanPanelEui : BaseEui
         }
     }
 
+        // LOP edit start
     private async void BanPlayer(string? target, string? ipAddressString, bool useLastIp, ImmutableTypedHwid? hwid,
         bool useLastHwid, uint minutes, NoteSeverity severity, string reason, IReadOnlyCollection<string>? roles)
+        // LOP edit end
     {
         if (!_admins.HasAdminFlag(Player, AdminFlags.Ban))
         {
@@ -87,9 +89,9 @@ public sealed class BanPanelEui : BaseEui
             }
 
             if (hidInt == 0)
-                hidInt = (uint)(ipAddress.AddressFamily == AddressFamily.InterNetworkV6 ? Ipv6_CIDR : Ipv4_CIDR);
+                hidInt = (uint)(ipAddress.AddressFamily == AddressFamily.InterNetworkV6 ? Ipv6_CIDR : Ipv4_CIDR); // LOP edit
 
-            addressRange = (ipAddress, (int)hidInt);
+            addressRange = (ipAddress, (int)hidInt); // LOP edit
         }
 
         var targetUid = target is not null ? PlayerId : null;
@@ -120,6 +122,7 @@ public sealed class BanPanelEui : BaseEui
         if (roles?.Count > 0)
         {
             var now = DateTimeOffset.UtcNow;
+            // LOP edit start
             Dictionary<string, int> banids = new();
             foreach (var job in roles)
             {
@@ -127,13 +130,16 @@ public sealed class BanPanelEui : BaseEui
                 banids.Add(job.ToString(), bid);
             }
             _banManager.WebhookUpdateRoleBans(targetUid, target, Player.UserId, null, targetHWid, minutes, severity, reason, now, banids);
+            // LOP edit end
 
             Close();
             return;
         }
 
+        // LOP edit start
         var banid = await _banManager.CreateServerBan(targetUid, target, Player.UserId, addressRange, targetHWid, minutes, severity, reason);
-        _banManager.WebhookUpdateBans(targetUid, target, Player.UserId, addressRange, targetHWid, minutes, severity, reason, DateTimeOffset.UtcNow, banid); // BanWebhook
+        _banManager.WebhookUpdateBans(targetUid, target, Player.UserId, addressRange, targetHWid, minutes, severity, reason, DateTimeOffset.UtcNow, banid);
+        // LOP edit end
 
         Close();
     }

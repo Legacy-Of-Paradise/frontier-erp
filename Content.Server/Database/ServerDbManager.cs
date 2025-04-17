@@ -96,7 +96,7 @@ namespace Content.Server.Database
             ImmutableArray<ImmutableArray<byte>>? modernHWIds,
             bool includeUnbanned=true);
 
-        Task<ServerBanDef> AddServerBanAsync(ServerBanDef serverBan);
+        Task<ServerBanDef> AddServerBanAsync(ServerBanDef serverBan); // LOP edit
         Task AddServerUnbanAsync(ServerUnbanDef serverBan);
 
         public Task EditServerBan(
@@ -536,7 +536,7 @@ namespace Content.Server.Database
             return RunDbCommand(() => _db.GetServerBansAsync(address, userId, hwId, modernHWIds, includeUnbanned));
         }
 
-        public Task<ServerBanDef> AddServerBanAsync(ServerBanDef serverBan)
+        public Task<ServerBanDef> AddServerBanAsync(ServerBanDef serverBan) // LOP edit
         {
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.AddServerBanAsync(serverBan));

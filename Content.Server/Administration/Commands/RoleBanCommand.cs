@@ -81,7 +81,7 @@ public sealed class RoleBanCommand : IConsoleCommand
 
         if (!_proto.HasIndex<JobPrototype>(job))
         {
-            shell.WriteError(Loc.GetString("cmd-roleban-job-parse", ("job", job)));
+            shell.WriteError(Loc.GetString("cmd-roleban-job-parse", ("job", job))); // LOP edit
             return;
         }
 
@@ -95,11 +95,13 @@ public sealed class RoleBanCommand : IConsoleCommand
         var targetUid = located.UserId;
         var targetHWid = located.LastHWId;
 
+        // LOP edit start
         var banid = await _bans.CreateRoleBan(targetUid, located.Username, shell.Player?.UserId, null, targetHWid, job, minutes, severity, reason, DateTimeOffset.UtcNow);
         Dictionary<string, int> banids = new();
         banids.Add(job.ToString(), banid);
         HashSet<string>? roles = new() { job };
-        _bans.WebhookUpdateRoleBans(targetUid, located.Username, shell.Player?.UserId, null, targetHWid, minutes, severity, reason, DateTimeOffset.UtcNow, banids); // BanWebhook
+        _bans.WebhookUpdateRoleBans(targetUid, located.Username, shell.Player?.UserId, null, targetHWid, minutes, severity, reason, DateTimeOffset.UtcNow, banids);
+        // LOP edit end
     }
 
     public CompletionResult GetCompletion(IConsoleShell shell, string[] args)

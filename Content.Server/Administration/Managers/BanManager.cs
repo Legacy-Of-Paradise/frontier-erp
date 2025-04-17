@@ -21,6 +21,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
+// LOP edit start
 using Robust.Shared.IoC;
 using Content.Shared._NewParadise;
 using System.Net.Http;
@@ -31,6 +32,7 @@ using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
 using Robust.Shared;
+// LOP edit end
 
 namespace Content.Server.Administration.Managers;
 
@@ -52,12 +54,14 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
 
     private ISawmill _sawmill = default!;
 
+    // LOP edit start
     private readonly HttpClient _httpClient = new();
     private string _serverName = string.Empty;
     private string _webhookUrl = string.Empty;
     private WebhookData? _webhookData;
-    private string _webhookName = "Банлог";
+    private string _webhookName = "Legacy of Paradise | BANLOG";
     private string _webhookAvatarUrl = "https://i.imgflip.com/6h0bjx.png";
+    // LOP edit end
 
     public const string SawmillId = "admin.bans";
     public const string JobPrefix = "Job:";
@@ -80,7 +84,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         _userDbData.AddOnLoadPlayer(CachePlayerData);
         _userDbData.AddOnPlayerDisconnect(ClearPlayerData);
 
-        _webhookUrl = _cfg.GetCVar(NewParadiseCvars.DiscordBanWebhook);
+        _webhookUrl = _cfg.GetCVar(NewParadiseCvars.DiscordBanWebhook); // LOP edit
     }
 
     private async Task CachePlayerData(ICommonSession player, CancellationToken cancel)
@@ -110,7 +114,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         _cachedBanExemptions.Remove(player);
     }
 
-    private async Task<int> AddRoleBan(ServerRoleBanDef banDef)
+    private async Task<int> AddRoleBan(ServerRoleBanDef banDef) // LOP edit
     {
         banDef = await _db.AddServerRoleBanAsync(banDef);
 
@@ -121,7 +125,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
             cachedBans.Add(banDef);
         }
 
-        return banDef.Id ?? 0;
+        return banDef.Id ?? 0; // LOP edit
     }
 
     public HashSet<string>? GetRoleBans(NetUserId playerUserId)
@@ -157,7 +161,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
     }
 
     #region Server Bans
-    public async Task<int> CreateServerBan(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableTypedHwid? hwid, uint? minutes, NoteSeverity severity, string reason)
+    public async Task<int> CreateServerBan(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableTypedHwid? hwid, uint? minutes, NoteSeverity severity, string reason) // LOP edit
     {
         DateTimeOffset? expires = null;
         if (minutes > 0)
@@ -183,7 +187,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
             banningAdmin,
             null);
 
-        banDef = await _db.AddServerBanAsync(banDef);
+        banDef = await _db.AddServerBanAsync(banDef); // LOP edit
         if (_cfg.GetCVar(CCVars.ServerBanResetLastReadRules) && target != null)
             await _db.SetLastReadRules(target.Value, null); // Reset their last read rules. They probably need a refresher!
         var adminName = banningAdmin == null
@@ -212,7 +216,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         _chat.SendAdminAlert(logMessage);
 
         KickMatchingConnectedPlayers(banDef, "newly placed ban");
-        return banDef?.Id ?? 0;
+        return banDef?.Id ?? 0; // LOP edit
     }
 
     private void KickMatchingConnectedPlayers(ServerBanDef def, string source)
@@ -255,7 +259,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
     #region Job Bans
     // If you are trying to remove timeOfBan, please don't. It's there because the note system groups role bans by time, reason and banning admin.
     // Removing it will clutter the note list. Please also make sure that department bans are applied to roles with the same DateTimeOffset.
-    public async Task<int> CreateRoleBan(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableTypedHwid? hwid, string role, uint? minutes, NoteSeverity severity, string reason, DateTimeOffset timeOfBan)
+    public async Task<int> CreateRoleBan(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableTypedHwid? hwid, string role, uint? minutes, NoteSeverity severity, string reason, DateTimeOffset timeOfBan) // LOP edit
     {
         if (!_prototypeManager.TryIndex(role, out JobPrototype? _))
         {
@@ -288,11 +292,13 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
             null,
             role);
 
+        // LOP edit start
         var banid = await AddRoleBan(banDef);
         if (banid != 0)
+        // LOP edit end
         {
             _chat.SendAdminAlert(Loc.GetString("cmd-roleban-existing", ("target", targetUsername ?? "null"), ("role", role)));
-            return banid;
+            return banid; // LOP edit
         }
 
         var length = expires == null ? Loc.GetString("cmd-roleban-inf") : Loc.GetString("cmd-roleban-until", ("expires", expires));
@@ -303,7 +309,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
             SendRoleBans(session);
         }
 
-        return banid;
+        return banid; // LOP edit
     }
 
     public async Task<string> PardonRoleBan(int banId, NetUserId? unbanningAdmin, DateTimeOffset unbanTime)
@@ -373,6 +379,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         _sawmill = _logManager.GetSawmill(SawmillId);
     }
 
+    // LOP edit start
     #region Webhook
     public async void WebhookUpdateRoleBans(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableTypedHwid? hwid, uint? minutes, NoteSeverity severity, string reason, DateTimeOffset timeOfBan, Dictionary<string, int> banids)
     {
@@ -800,4 +807,5 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
 
     [UsedImplicitly]
     private sealed record DiscordUserResponse(string UserId, string Username);
+    // LOP edit end
 }

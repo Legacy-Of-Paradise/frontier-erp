@@ -276,11 +276,11 @@ namespace Content.Server.Database
                 unban.UnbanTime);
         }
 
-        public override async Task<ServerBanDef> AddServerBanAsync(ServerBanDef serverBan)
+        public override async Task<ServerBanDef> AddServerBanAsync(ServerBanDef serverBan) // LOP edit
         {
             await using var db = await GetDbImpl();
 
-            var ban = new ServerBan
+            var ban = new ServerBan // LOP edit
             {
                 Address = serverBan.Address.ToNpgsqlInet(),
                 HWId = serverBan.HWId,
@@ -293,12 +293,14 @@ namespace Content.Server.Database
                 PlaytimeAtNote = serverBan.PlaytimeAtNote,
                 PlayerUserId = serverBan.UserId?.UserId,
                 ExemptFlags = serverBan.ExemptFlags
+            // LOP edit start
             };
             db.PgDbContext.Ban.Add(ban);
+            // LOP edit end
 
             await db.PgDbContext.SaveChangesAsync();
 
-            return ConvertBan(ban) ?? default!;
+            return ConvertBan(ban) ?? default!; // LOP edit
         }
 
         public override async Task AddServerUnbanAsync(ServerUnbanDef serverUnban)
