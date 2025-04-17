@@ -90,7 +90,11 @@ public sealed class BanCommand : LocalizedCommands
         var targetUid = located.UserId;
         var targetHWid = located.LastHWId;
 
-        _bans.CreateServerBan(targetUid, target, player?.UserId, null, targetHWid, minutes, severity, reason);
+        // LOP edit start
+        var banid = await _bans.CreateServerBan(targetUid, target, player?.UserId, null, targetHWid, minutes, severity, reason);
+
+        _bans.WebhookUpdateBans(targetUid, located.Username, player?.UserId, null, targetHWid, minutes, severity, reason, DateTimeOffset.UtcNow, banid);
+        // LOP edit end
     }
 
     public override CompletionResult GetCompletion(IConsoleShell shell, string[] args)

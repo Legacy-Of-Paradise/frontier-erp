@@ -1,4 +1,4 @@
-﻿server-role-ban =
+server-role-ban =
     Временный джоб-бан на { $mins } { $mins ->
         [one] минуту
         [few] минуты
