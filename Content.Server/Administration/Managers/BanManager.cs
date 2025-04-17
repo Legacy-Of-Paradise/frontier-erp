@@ -60,7 +60,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
     private string _webhookUrl = string.Empty;
     private WebhookData? _webhookData;
     private string _webhookName = "Legacy of Paradise | BANLOG";
-    private string _webhookAvatarUrl = "https://i.imgflip.com/6h0bjx.png";
+    private string _webhookAvatarUrl = "https://cdn.discordapp.com/avatars/1347619837421289473/e3d7c8bc6d951b87ff44dab51f2e4ffa.png";
     // LOP edit end
 
     public const string SawmillId = "admin.bans";
