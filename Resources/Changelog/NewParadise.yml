@@ -1,1 +1,8 @@
 Entries:
+- author: MegaDaimond
+  changes:
+  - message: Добавлен старый контент!
+    type: Add
+  id: 1
+  time: '2025-04-17T00:38:19.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/21
