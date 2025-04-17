@@ -1,0 +1,27 @@
+﻿# Короче, думаю тут всё понятно, однако в status
+# пихайте: roadmap-goal-completed, roadmap-goal-progress, roadmap-goal-waiting
+# Order нужен, чтоб выставить в правильном порядке, так что вот, пользуйтесь
+
+- type: roadmap
+  id: "alphatest"
+  name: "Версия 0.0.1 - Открытый альфа тест!"
+  description: "Новая сборка и механики!"
+  progress: 100
+  status: roadmap-goal-completed
+  order: 0
+
+- type: roadmap
+  id: "betatest"
+  name: "Обновление 0.5 - Выход в бету!"
+  description: "Готовые основные механики, подготовка к релизу."
+  progress: 50
+  status: roadmap-goal-progress
+  order: 1
+
+- type: roadmap
+  id: "release"
+  name: "Обновление 1.0 - Выпуск релиза!"
+  description: "Полная готовность и выпуск!"
+  progress: 15
+  status: roadmap-goal-waiting
+  order: 2

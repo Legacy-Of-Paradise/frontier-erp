@@ -1,4 +1,9 @@
 ﻿using Content.Client.Changelog;
+// LOP edit start
+using Content.Client._NewParadise.Roadmap;
+using Content.Client.Changelog;
+using Content.Client.Stylesheets;
+// LOP edit end
 using Content.Client.UserInterface.Systems.EscapeMenu;
 using Content.Client.UserInterface.Systems.Guidebook;
 using Content.Shared.CCVar;
@@ -47,6 +52,16 @@ namespace Content.Client.Info
             var changelogButton = new ChangelogButton();
             changelogButton.OnPressed += args => UserInterfaceManager.GetUIController<ChangelogUIController>().ToggleWindow();
             buttons.AddChild(changelogButton);
+
+            // LOP edit start
+            var roadmapButton = new Button
+            {
+                Text = Loc.GetString("server-info-roadmap-button"),
+                StyleClasses = { StyleBase.ButtonCaution },
+            };
+            roadmapButton.OnPressed += _ => UserInterfaceManager.GetUIController<RoadmapUI>().ToggleRoadmap();
+            buttons.AddChild(roadmapButton);
+            // LOP edit end
 
             void AddInfoButton(string loc, CVarDef<string> cVar)
             {
