@@ -1,1 +1,1 @@
-station-event-vent-creatures-nf-start-announcement = Attention. A large influx of unknown life forms have been detected residing within shuttle ventilation systems. Please be rid of these creatures before it begins to affect productivity.
+station-event-vent-creatures-nf-start-announcement = Внимание. Обнаружено большое скопление неизвестных форм жизни, обитающих в вентиляционных системах шаттла. Пожалуйста, избавьтесь от этих существ до того, как это не начнет влиять на работоспособность вашего экипажа.
