@@ -41,10 +41,6 @@ def main():
     session.headers["X-GitHub-Api-Version"] = "2022-11-28"
 
     most_recent = get_most_recent_workflow(session)
-    if most_recent is None:
-        print("Не найдено предыдущих успешных запусков workflow.")
-        return
-
     last_sha = most_recent['head_commit']['id']
     print(f"Last successful publish job was {most_recent['id']}: {last_sha}")
     last_changelog = yaml.safe_load(get_last_changelog(session, last_sha))
@@ -58,12 +54,12 @@ def main():
 def get_most_recent_workflow(sess: requests.Session) -> Any:
     workflow_run = get_current_run(sess)
     past_runs = get_past_runs(sess, workflow_run)
-    for run in past_runs.get('workflow_runs', []): # Безопасный доступ к 'workflow_runs'
+    for run in past_runs['workflow_runs']:
         # First past successful run that isn't our current run.
         if run["id"] == workflow_run["id"]:
             continue
+
         return run
-    return None # Явное возвращение None, если не найдено
 
 
 def get_current_run(sess: requests.Session) -> Any:
