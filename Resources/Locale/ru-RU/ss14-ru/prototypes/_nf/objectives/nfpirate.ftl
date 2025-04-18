@@ -1,4 +1,4 @@
-﻿ent-BaseNFPirateObjective = { ent-BaseObjective }
+ent-BaseNFPirateObjective = { ent-BaseObjective }
     .desc = { ent-BaseObjective.desc }
 ent-NFPiratePlunderObjective = Ограбить сектор.
     .desc = Накопите богатство, разграбляя сектор.

@@ -1,4 +1,4 @@
-﻿ent-PartFelinidBase = { ent-BasePart }
+ent-PartFelinidBase = { ent-BasePart }
     .desc = { ent-BasePart.desc }
 ent-TorsoFelinid = торс феленида
     .desc = { ent-PartFelinidBase.desc }

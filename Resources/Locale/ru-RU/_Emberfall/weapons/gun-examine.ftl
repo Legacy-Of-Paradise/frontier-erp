@@ -1,4 +1,4 @@
-﻿gun-examinable-verb-text = Просмотреть статистику
+gun-examinable-verb-text = Просмотреть статистику
 gun-examinable-verb-message = Подробная статистика
 gun-examine = Характеристики оружия:
 gun-examine-recoil = - [color={ $color }]Отдача[/color]: [color=lightblue]{ $value }°[/color] за выстрел

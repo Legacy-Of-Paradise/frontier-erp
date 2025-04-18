@@ -1,4 +1,4 @@
-﻿ent-BaseSubfloorAnchorStorage = { "" }
+ent-BaseSubfloorAnchorStorage = { "" }
     .desc = { "" }
 ent-BaseSubfloorAnchorStorageAnchored = { ent-BaseSubfloorAnchorStorage }
     .desc = { ent-BaseSubfloorAnchorStorage.desc }

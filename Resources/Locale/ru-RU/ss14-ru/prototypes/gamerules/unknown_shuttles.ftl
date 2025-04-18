@@ -1,4 +1,4 @@
-﻿ent-BaseUnknownShuttleRule = { ent-BaseGameRule }
+ent-BaseUnknownShuttleRule = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
 ent-UnknownShuttleCargoLost = { ent-BaseUnknownShuttleRule }
     .desc = { ent-BaseUnknownShuttleRule.desc }

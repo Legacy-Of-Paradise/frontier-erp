@@ -1,4 +1,4 @@
-﻿placeholders-criminal-records-wanted-reason-1 = Съел вкусный годный салат
+placeholders-criminal-records-wanted-reason-1 = Съел вкусный годный салат
 placeholders-criminal-records-wanted-reason-2 = Съел собственные ботинки
 placeholders-criminal-records-wanted-reason-3 = За то, что был клоуном
 placeholders-criminal-records-wanted-reason-4 = За то, что был мимом

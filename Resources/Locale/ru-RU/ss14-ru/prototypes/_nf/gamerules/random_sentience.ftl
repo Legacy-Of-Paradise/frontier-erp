@@ -1,2 +1,2 @@
-﻿ent-NFRandomSentience = { ent-BaseGameRule }
+ent-NFRandomSentience = { ent-BaseGameRule }
     .desc = { ent-BaseGameRule.desc }
