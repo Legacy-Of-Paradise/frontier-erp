@@ -53,6 +53,9 @@
       "name": "icon-gas-analyzer"
     },
     {
+      "name": "icon-pka"
+    },
+    {
       "name": "icon-gps"
     },
     {
@@ -101,7 +104,16 @@
       "name": "icon-treatment"
     },
     {
+      "name": "icon-surgery"
+    },
+    {
+      "name": "icon-advanced-surgery"
+    },
+    {
       "name": "icon-syndicate"
+    },
+    {
+      "name": "icon-jetpack"
     },
     {
       "name": "janitor"

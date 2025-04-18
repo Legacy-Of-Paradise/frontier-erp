@@ -1,0 +1,35 @@
+# - type: job
+#   id: Expeditor
+#   name: job-name-expeditor
+#   description: job-description-expeditor
+#   playTimeTracker: JobExpeditor
+#   requirements:
+#     - !type:CharacterDepartmentTimeRequirement
+#       department: Epistemics
+#       min: 36000 #10 hrs
+#     - !type:CharacterPlaytimeRequirement
+#       tracker: JobSalvageSpecialist
+#       min: 36000 # 10 hrs
+#   startingGear: ExpeditorGear
+#   icon: "JobIconExpeditor"
+#   overrideConsoleVisibility: true
+#   supervisors: job-supervisors-rd
+#   access:
+#   - Research
+#   - Maintenance
+#   - Gateway
+#   - EVA
+
+# - type: startingGear
+#   id: ExpeditorGear
+#   equipment:
+#     jumpsuit: LPPClothingUniformJumpsuitExpeditor
+#     shoes: ClothingShoesBootsCombat
+#     outerClothing: LPPExpeditorCoat
+#     id: LPPExpeditorPDA
+#     ears: ClothingHeadsetScience
+#     hands: ClothingHandsGlovesCombat
+#     socks: LPPClothingUnderSocksNorm
+#     underwear: LPPBoxer
+#   underwear: LPPBriefs
+#   breast: LPPBraAltWhite

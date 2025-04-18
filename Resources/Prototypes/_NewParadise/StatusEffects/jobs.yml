@@ -1,0 +1,48 @@
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconAdjutant
+#   icon:
+#     sprite: /Textures/_NewParadise/Interface/Misc/lpp_job_icons.rsi
+#     state: Adjutant
+
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconBlueshield
+#   icon:
+#     sprite: /Textures/_NewParadise/Interface/Misc/lpp_job_icons.rsi
+#     state: Blueshield
+
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconSecPilot
+#   icon:
+#     sprite: /Textures/_NewParadise/Interface/Misc/lpp_job_icons.rsi
+#     state: SecPilot
+
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconBorgSec
+#   icon:
+#     sprite: /Textures/_NewParadise/Interface/Misc/lpp_job_icons.rsi
+#     state: BorgSec
+
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconDroneSec
+#   icon:
+#     sprite: /Textures/_NewParadise/Interface/Misc/lpp_job_icons.rsi
+#     state: DroneSec
+
+# - type: statusIcon
+#   parent: JobIcon
+#   id: JobIconExpeditor
+#   icon:
+#     sprite: /Textures/_NewParadise/Interface/Misc/lpp_job_icons.rsi
+#     state: Expeditor
+
+# - type: statusIcon
+#   parent: JobIcon
+#   id: LPPJobIconSecurityEnginer
+#   icon:
+#     sprite: /Textures/_NewParadise/Interface/Misc/lpp_job_icons.rsi
+#     state: LPPSecurityEngineer

@@ -1,0 +1,43 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitSherif
+  name: NFSD sheriff suit
+  description: A wrinkled shirt and trousers are the uniform of a worthy sheriff.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Uniforms/Frontier/sherif.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Uniforms/Frontier/sherif.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitSergant
+  name: NFSD sergeant suit
+  description: Pants, headband, turtleneck - a complete set of the most stylish officer in all of outer space.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Uniforms/Frontier/sergant.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Uniforms/Frontier/sergant.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitDeputySherif
+  name: NFSD deputy sheriff suit
+  description: Well-pressed trousers and a shirt will be a great addition to your errand boy title.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Uniforms/Frontier/deputysherif.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Uniforms/Frontier/deputysherif.rsi
+
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPClothingUniformJumpsuitBailiffSherif
+  name: NFSD bailiff sheriff suit
+  description: Well-pressed trousers and a shirt sewn with silver only give the appearance of an important person, nothing more.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Uniforms/Frontier/bailiffsherif.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Uniforms/Frontier/bailiffsherif.rsi

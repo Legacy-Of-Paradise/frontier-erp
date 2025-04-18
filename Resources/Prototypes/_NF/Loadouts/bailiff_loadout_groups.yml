@@ -18,8 +18,9 @@
 - type: loadoutGroup
   id: BailiffHead
   name: loadout-group-contractor-head
-  minLimit: 0
   loadouts:
+  - BailiffClothingHeadHatBailiff
+  fallbacks:
   - BailiffClothingHeadHatBailiff
 
 - type: loadoutGroup

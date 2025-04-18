@@ -36,10 +36,10 @@
   onlyWhitelisted: true
   points:
     Hair:
-      points: 0
+      points: 1 # LOP edit
       required: false
     FacialHair:
-      points: 0
+      points: 1 # LOP edit
       required: false
     Tail:
       points: 1

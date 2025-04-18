@@ -1,0 +1,81 @@
+# - type: entity
+#   parent: ClothingEyesBase
+#   id: LPPClothingEyesNightVisionGoggles
+#   name: ПНВ
+#   description: Теперь ты видишь во тьме! Новая разработка BL CORP.
+#   components:
+#   - type: Sprite
+#     sprite: _NewParadise/Clothing/Eyes/PNV/nightvision.rsi
+#   - type: Clothing
+#     sprite: _NewParadise/Clothing/Eyes/PNV/nightvision.rsi
+#   - type: ClothingGrantComponent
+#     component:
+#     - type: NightVision
+#
+# - type: entity
+#   parent: [ClothingEyesBase, ShowMedicalIcons]
+#   id: LPPClothingEyesMedNightVisionGoggles
+#   name: ПНВ со встроенным мед визором
+#   description: Теперь ты не только видишь во тьме, но и здоровье! Новая разработка BL CORP.
+#   components:
+#   - type: Sprite
+#     sprite: _NewParadise/Clothing/Eyes/PNV/mednightvision.rsi
+#   - type: Clothing
+#     sprite: _NewParadise/Clothing/Eyes/PNV/mednightvision.rsi
+#   - type: ClothingGrantComponent
+#     component:
+#     - type: MedNightVision
+#   - type: Tag
+#     tags:
+#     - HudMedical
+#
+# - type: entity
+#   parent: [ClothingEyesBase, LPPShowSecurityIcons]
+#   id: LPPClothingEyesSecNightVisionGoggles
+#   name: ПНВ со встроенным СБ визором
+#   description: Теперь ты не только видишь во тьме, но и айди! Новая разработка BL CORP.
+#   components:
+#   - type: Sprite
+#     sprite: _NewParadise/Clothing/Eyes/PNV/secnightvision.rsi
+#   - type: Clothing
+#     sprite: _NewParadise/Clothing/Eyes/PNV/secnightvision.rsi
+#   - type: ClothingGrantComponent
+#     component:
+#     - type: SecNightVision
+#   - type: Tag
+#     tags:
+#     - HudSecurity
+#   - type: FlashImmunity
+#
+# - type: entity
+#   parent: ClothingEyesBase
+#   id: LPPClothingEyesMesonNightVisionGoggles
+#   name: ПНВ-мезонный сканер
+#   description: Теперь ты не только видишь во тьме, но и защищаешь глаза! Новая разработка BL CORP.
+#   components:
+#   - type: Sprite
+#     sprite: _NewParadise/Clothing/Eyes/PNV/nightvision.rsi
+#   - type: Clothing
+#     sprite: _NewParadise/Clothing/Eyes/PNV/nightvision.rsi
+#   - type: ClothingGrantComponent
+#     component:
+#     - type: NightVision
+#   - type: EyeProtection
+#
+# - type: entity
+#   parent: ClothingEyesBase
+#   id: LPPClothingEyesDiagnosticNightVisionGoggles
+#   name: ПНВ со встроенным диагностирующим сканером
+#   description: Теперь ты не только видишь во тьме, но и прочность боргов! Новая разработка BL CORP.
+#   components:
+#   - type: Sprite
+#     sprite: _NewParadise/Clothing/Eyes/PNV/diagnosticnightvision.rsi
+#   - type: Clothing
+#     sprite: _NewParadise/Clothing/Eyes/PNV/diagnosticnightvision.rsi
+#   - type: ClothingGrantComponent
+#     component:
+#     - type: DiagnosticNightVision
+#   - type: ShowHealthBars
+#     damageContainers:
+#     - Inorganic
+#     - Silicon

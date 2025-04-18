@@ -1,0 +1,60 @@
+- type: entity
+  parent: Airlock
+  id: LPPAirlockSalvage
+  suffix: External
+  description: It opens, it closes, it might crush you, and there might be only space behind it. Has to be manually activated.
+  components:
+  - type: Door
+    bumpOpen: true
+    crushDamage:
+      types:
+        Blunt: 15
+    openSound:
+      path: /Audio/Machines/airlock_ext_open.ogg
+    closeSound:
+      path: /Audio/Machines/airlock_ext_close.ogg
+    denySound:
+      path: /Audio/Machines/airlock_deny.ogg
+  - type: Sprite
+    sprite: _NewParadise/Structures/Doors/Standard/survival.rsi
+  - type: PaintableAirlock
+    group: External
+
+- type: entity
+  parent: AirlockExternal
+  id: LPPAirlockSalvageGlass
+  suffix: Glass, External
+  components:
+  - type: Door
+    occludes: false
+  - type: Occluder
+    enabled: false
+  - type: Sprite
+    sprite: _NewParadise/Structures/Doors/Glass/survival.rsi
+  - type: PaintableAirlock
+    group: ExternalGlass
+
+- type: entity
+  parent: Airlock
+  id: LPPAirlockGate
+  suffix: Gate
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Structures/Doors/Standard/gate.rsi
+  - type: WiresPanelSecurity
+    securityLevel: medSecurity
+  - type: PaintableAirlock
+    department: Command
+  - type: ContainerFill
+    containers:
+      board: [ LPPDoorElectronicsGateway ]
+  - type: AccessReader
+    access: [["Gateway"]]
+
+- type: entity
+  parent: DoorElectronics
+  id: LPPDoorElectronicsGateway
+  suffix: Gateway, Locked
+  components:
+  - type: AccessReader
+    access: [["Gateway"]]

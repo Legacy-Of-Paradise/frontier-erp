@@ -41234,13 +41234,6 @@ entities:
     - type: Transform
       pos: -40.507835,17.177526
       parent: 2
-- proto: ClothingHandsMercGlovesCombat
-  entities:
-  - uid: 17650
-    components:
-    - type: Transform
-      pos: -42.631783,2.4473581
-      parent: 2
 - proto: ClothingHeadBandBlue
   entities:
   - uid: 17496

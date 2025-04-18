@@ -1401,8 +1401,8 @@
 
 - type: Tag
   id: WriteIgnoreStamps
-
+  # LOP edit start
 - type: Tag
   id: HidesTail # Protecc the tails!
-
+  # LOP edit end
 # ALPHABETICAL

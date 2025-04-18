@@ -1,66 +1,73 @@
-# Contributing to Frontier Station
+# Вклад в Frontier Station
 
-If you're considering contributing to Frontier Station, [Wizard's Den's PR guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html) are a good starting point for code quality and version tracking etiquette. Note that we do not have the same master/stable branch distinction.
+Если вы рассматриваете возможность внести свой вклад в Frontier Station, [руководство Wizard's Den по PR](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html) является хорошей отправной точкой для понимания качества кода и этикета отслеживания версий. Обратите внимание, что у нас нет такого разделения на ветки master/stable.
 
-Importantly, do not make webedits. From the text above:
-> Do not use GitHub's web editor to create PRs. PRs submitted through the web editor may be closed without review.
+Важно: **не вносите изменения через веб-редактор**. Из текста выше:
 
-"Upstream" refers to the [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14) repository that this fork was created from.
+> Не используйте веб-редактор GitHub для создания PR. PR, отправленные через веб-редактор, могут быть закрыты без рассмотрения.
 
-# Frontier-specific content
+"Upstream" относится к репозиторию [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14), от которого был создан этот форк.
 
-In general, anything you create from scratch (vs. modifying something that exists from upstream) should go in a Frontier-specific subfolder, `_NF`.
+# Специфичный для LOP контент
 
-Examples:
-- `Content.Server/_NF/Shipyard/Systems/ShipyardSystem.cs`
-- `Resources/Prototypes/_NF/Loadouts/role_loadouts.yml`
-- `Resources/Audio/_NF/Voice/Goblin/goblin-scream-03.ogg`
-- `Resources/Textures/_NF/Tips/clippy.rsi/left.png`
-- `Resources/Locale/en-US/_NF/devices/pda.ftl`
-- `Resources/ServerInfo/_NF/Guidebook/Medical/Doc.xml`
+В целом, все, что вы создаете с нуля (в отличие от изменения существующего контента из upstream), должно находиться в специфичной для Legacy Of Paradise подпапке `_NewParadise`.
 
-# Changes to upstream files
+Примеры:
 
-If you make a change to an upstream C# or YAML file, **you must add comments on or around the changed lines**.
-The comments should clarify what changed, to make conflict resolution simpler when a file is changed upstream.
-If you make changes to values, to be consistent, leave a comment in the form `Frontier: OLD<NEW`.
+- `Content.Server/_NewParadise/Shipyard/Systems/ShipyardSystem.cs`
+- `Resources/Prototypes/_NewParadise/Loadouts/role_loadouts.yml`
+- `Resources/Audio/_NewParadise/Voice/Goblin/goblin-scream-03.ogg`
+- `Resources/Textures/_NewParadise/Tips/clippy.rsi/left.png`
+- `Resources/Locale/en-US/_NewParadise/devices/pda.ftl`
+- `Resources/ServerInfo/_NewParadise/Guidebook/Medical/Doc.xml`
 
-For YAML specifically, if you add a component or add a list of contiguous fields, use block comments, but if you make limited edits to a component's fields, comment the fields individually.
+# Изменения в файлах upstream
 
-For C# files, if you are adding a lot of code, consider using a partial class when it makes sense.
+Если вы вносите изменения в C# или YAML-файл из upstream, **вы обязаны добавить комментарии на измененных строках или рядом с ними**.
 
-If cherry-picking upstream features, it is best to comment with the PR number that was cherry-picked.
+Комментарии должны пояснять, что именно было изменено, чтобы упростить разрешение конфликтов при изменении файла в upstream.
 
-As an aside, fluent (.ftl) files **do not support comments on the same line** as a locale value - leave a comment on the line above if modifying values.
+Если вы изменяете значения, для единообразия оставляйте комментарий в формате `LOP: OLD<NEW`.
 
-## Examples of comments in upstream or ported files
+Для YAML в частности: если вы добавляете компонент или список смежных полей, используйте блочные комментарии, но если вы вносите ограниченные изменения в поля компонента, комментируйте поля индивидуально.
 
-A single line comment on a changed yml field:
+Для C# файлов: если вы добавляете большой объем кода, рассмотрите возможность использования разделяемых классов (partial class), если это имеет смысл.
+
+При заимствовании (cherry-picking) функций из upstream лучше всего комментировать номером PR, который был заимствован.
+
+Кроме того, fluent (.ftl) файлы **не поддерживают комментарии на той же строке**, что и значение локализации - оставляйте комментарий на строке выше при изменении значений.
+
+## Примеры комментариев в файлах upstream или портированных файлах
+
+Однострочный комментарий к измененному полю yml:
+
 ```yml
 - type: entity
   id: TorsoHarpy
   name: "harpy torso"
-  parent: [PartHarpy, BaseTorso] # Frontier: add BaseTorso
+  parent: [PartHarpy, BaseTorso] # LOP edit: add BaseTorso
 ```
 
-A change to a value (note: `OLD<NEW`)
+Изменение значения (обратите внимание на формат `OLD<NEW`):
+
 ```yml
   - type: Gun
-    fireRate: 4 # Frontier: 3<4
+    fireRate: 4 # LOP edit: 3<4
     availableModes:
     - SemiAuto
 ```
 
-A cyborg module with an added moduleId field (inline blank comment), a commented out bucket (inline blank comment), and a DroppableBorgModule that we've added (begin/end block comment).
+Модуль киборга с добавленным полем moduleId (встроенный пустой комментарий), закомментированным ведром (встроенный пустой комментарий) и DroppableBorgModule, который мы добавили (начало/конец блочного комментария):
+
 ```yml
   - type: ItemBorgModule
-    moduleId: Gardening # Frontier
+    moduleId: Gardening # LOP edit
     items:
     - HydroponicsToolMiniHoe
     - HydroponicsToolSpade
     - HydroponicsToolClippers
-    # - Bucket # Frontier
-  # Frontier: droppable borg items
+    # - Bucket # LOP edit
+  # LOP edit start: droppable borg items
   - type: DroppableBorgModule
     moduleId: Gardening
     items:
@@ -68,61 +75,56 @@ A cyborg module with an added moduleId field (inline blank comment), a commented
       whitelist:
         tags:
         - Bucket
-  # End Frontier
+  # LOP edit end
 ```
 
-A comment on a new imported namespace:
+Комментарий к новому импортированному пространству имен:
+
 ```cs
-using Content.Client._NF.Emp.Overlays; // Frontier
+using Content.Client._NF.Emp.Overlays; // LOP edit
 ```
 
-A pair of comments enclosing a block of added code:
+Пара комментариев, заключающих блок добавленного кода:
+
 ```cs
 component.Capacity = state.Capacity;
 
 component.UIUpdateNeeded = true;
 
-// Frontier: ensure signature colour is consistent
+// LOP edit start: ensure signature colour is consistent
 if (TryComp<StampComponent>(uid, out var stamp))
 {
     stamp.StampedColor = state.Color;
 }
-// End Frontier
+// LOP edit end
 ```
 
-An edit to a Delta-V locale file, note the `OLD<NEW` format and the separate line for the comment.
-```fluent
-# Frontier: "Job Whitelists"<"Role Whitelists"
-player-panel-job-whitelists = Role Whitelists
-```
+# Картостроение
 
-# Mapping
+Для отправки кораблей ознакомьтесь с [Руководством по отправке кораблей](https://frontierstation.wiki.gg/wiki/Ship_Submission_Guidelines) на вики Frontier.
 
-For ship submissons, refer to the [Ship Submission Guidelines](https://frontierstation.wiki.gg/wiki/Ship_Submission_Guidelines) on the Frontier wiki.
+В общем:
 
-In general:
+Frontier использует специфические прототипы для точек интереса и карт кораблей (например, для хранения информации о спавне, данных о спавне станций или цен и категорий кораблей). Для кораблей они хранятся в VesselPrototype (Resources/Prototypes/_NewParadise/Shipyard) или PointOfInterestPrototype (Resources/Prototypes/_NewParadise/PointsOfInterest). При создании нового корабля или POI обратитесь к существующим прототипам.
 
-Frontier uses specific prototypes for points of interest and ship maps (e.g. to store spawn information, station spawn data, or ship price and categories).  For ships, these are stored in the VesselPrototype (Resources/Prototypes/_NF/Shipyard) or PointOfInterestPrototype (Resources/Prototypes/_NF/PointsOfInterest).  If creating a new ship or POI, refer to existing prototypes.
+Если вы вносите изменения в карту, свяжитесь с мейнтейнером карты (или, если его нет, с автором) и избегайте наличия нескольких открытых PR с изменениями одной и той же карты.
 
-If you are making changes to a map, check with the map's maintainer (or if none, its author), and avoid having multiple open features with changes to the same map.
+Конфликты с картами делают PR взаимоисключающими, поэтому либо ваша работа, либо работа мейнтейнера будет потеряна. Общайтесь, чтобы избежать этого!
 
-Conflicts with maps make PRs mutually exclusive so either your work on the maintainer's work will be lost, communicate to avoid this!
+# Перед отправкой
 
-# Before you submit
+Дважды проверьте свой diff на GitHub перед отправкой: поищите непреднамеренные коммиты или изменения и удалите случайные пробелы или изменения окончания строк.
 
-Double-check your diff on GitHub before submitting: look for unintended commits or changes and remove accidental whitespace or line-ending changes.
+# Журналы изменений (Changelogs)
 
-Additionally, for PRs that've been open for a long time, if you see `RobustToolbox` in the changed files, you have to revert it. Use `git checkout upstream/master RobustToolbox` (replacing `upstream` with the name of your new-frontiers-14/frontier-station-14 remote)
+В настоящее время все журналы изменений попадают в журнал изменений LOP. Префикс `ADMIN:` в данный момент ничего не делает.
 
-# Changelogs
+# Дополнительные ресурсы
 
-Currently, all changelogs go to the Frontier changelog. The ADMIN: prefix does nothing at the moment.
+Если вы новичок в разработке в SS14 в целом, ознакомьтесь с [документацией SS14](https://docs.spacestation14.io/) или обратитесь за помощью в `#dev-help` на [Discord](https://discord.gg/tpuAT7d3zm/)!
 
-# Additional resources
+## Контент, сгенерированный ИИ
 
-If you are new to contributing to SS14 in general, have a look at the [SS14 docs](https://docs.spacestation14.io/) or ask for help in `#dev-help` on [Discord](https://discord.gg/tpuAT7d3zm/)!
+Код, спрайты и любой другой контент, сгенерированный ИИ, не разрешается отправлять в репозиторий.
 
-## AI-Generated Content
-Code, sprites and any other AI-generated content is not allowed to be submitted to the repository.
-
-Trying to PR AI-generated content may result in you being banned from contributing.
+Попытка отправить PR с контентом, сгенерированным ИИ, может привести к блокировке вашей возможности вносить вклад.

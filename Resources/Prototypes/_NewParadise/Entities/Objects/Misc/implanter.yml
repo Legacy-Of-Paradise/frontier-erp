@@ -1,0 +1,27 @@
+- type: entity
+  parent: BaseSubdermalImplant
+  id: LPPLoaltyImplant
+  name: loalty implant
+  description: Do your enemies your friends!
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+
+
+- type: entity
+  id: LPPLoaltyImplanter
+  name: loalty implanter
+  description: Do your enemies your friends!
+  parent: BaseImplantOnlyImplanter
+  components:
+    - type: Implanter
+      implant: LPPLoaltyImplant
+
+- type: entity
+  id: LPPCrateLoaltyImplants
+  parent: CrateGenericSteel
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPLoaltyImplanter
+        amount: 3

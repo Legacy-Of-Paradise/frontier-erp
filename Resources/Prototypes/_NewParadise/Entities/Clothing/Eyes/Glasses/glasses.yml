@@ -1,0 +1,122 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPHypnogogglesPink
+  name: Hypnogoggles pink
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/hypnogoggles_pink.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/hypnogoggles_pink.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPHypnogogglesTeal
+  name: Hypnogoggles teal
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/hypnogoggles_teal.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/hypnogoggles_teal.rsi
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingKblindfoldTeal
+  name: Kblindfold teal
+  description: The bind leading the blind.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/kblindfold_teal.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/kblindfold_teal.rsi
+  - type: Blindfold
+  - type: Construction
+    graph: Blindfold
+    node: blindfold
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingKblindfoldPink
+  name: Kblindfold pink
+  description: The bind leading the blind.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/kblindfold_pink.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/kblindfold_pink.rsi
+  - type: Blindfold
+  - type: Construction
+    graph: Blindfold
+    node: blindfold
+  - type: FlashImmunity
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingEyesGlassesSunglassesPG
+  name: PG black protection glasses
+  description: Useful for special operations.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/Glasses/pg-black-glasses.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/Glasses/pg-black-glasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: ClothingEyesBase
+  id: LPPClothingEyesGlassesNVG
+  name: PG nightvision goggles
+  description: Useful for special operations.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/nvg.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/nvg.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: [ClothingEyesBase, LPPShowSecurityIcons]
+  id: LPPClothingEyesGlassesAviatorNPZ
+  name: NPZ aviators
+  description: Only for the most coolest guys in this sector.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/Glasses/NPZaviators.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/Glasses/NPZaviators.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+    protectionTime: 5
+
+- type: entity
+  parent: [ClothingEyesBase, ShowSecurityIcons]
+  id: LPPClothingEyesGlassesContractor
+  name: Contractor glasses
+  description: Glasses, that provides protection from flashes and secure wearers eyes from wielding.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Eyes/Glasses/inteqglasses.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Eyes/Glasses/inteqglasses.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: ShowHealthBars
+    damageContainers:
+    - Inorganic
+    - Silicon
+    - Biological
+  - type: ShowHealthIcons
+    damageContainers:
+    - Biological
+  - type: ShowSyndicateIcons
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.95
+        Slash: 0.95
+        Piercing: 0.95
+        Heat: 0.95

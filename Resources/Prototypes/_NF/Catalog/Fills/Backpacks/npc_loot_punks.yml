@@ -289,5 +289,9 @@
       prob: 0.7
     - id: SpawnDungeonLootVaultGuns
       prob: 0.4
+    # LOP edit start
+    - id: LPPWeaponRifleMakeshiftAK
+      prob: 0.4
+    # LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg

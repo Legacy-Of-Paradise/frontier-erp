@@ -1,0 +1,2453 @@
+- type: loadout
+  id: LOPCapPanties
+  equipment:
+    underwear: LPPCapPanties
+
+- type: loadout
+  id: LOPCMOPanties
+  equipment:
+    underwear: LPPCMOPanties
+
+- type: loadout
+  id: LOPRDPanties
+  equipment:
+    underwear: LPPRDPanties
+
+- type: loadout
+  id: LOPHOSPanties
+  equipment:
+    underwear: LPPHOSPanties
+
+- type: loadout
+  id: LOPCEPanties
+  equipment:
+    underwear: LPPCEPanties
+
+- type: loadout
+  id: LOPQMPanties
+  equipment:
+    underwear: LPPQMPanties
+
+- type: loadout
+  id: LOPHOPPanties
+  equipment:
+    underwear: LPPHOPPanties
+
+- type: loadout
+  id: LOPBeeShorts
+  equipment:
+    underwear: LPPBeeShorts
+
+- type: loadout
+  id: LOPBoxerBriefsBlack
+  equipment:
+    underwear: LPPBoxerBriefsBlack
+
+- type: loadout
+  id: LOPBoxerBriefsBlue
+  equipment:
+    underwear: LPPBoxerBriefsBlue
+
+- type: loadout
+  id: LOPBoxerBriefs
+  equipment:
+    underwear: LPPBoxerBriefs
+
+- type: loadout
+  id: LOPBoxerBriefsBrown
+  equipment:
+    underwear: LPPBoxerBriefsBrown
+
+- type: loadout
+  id: LOPBoxerBriefsGreen
+  equipment:
+    underwear: LPPBoxerBriefsGreen
+
+- type: loadout
+  id: LOPBoxerBriefsGrey
+  equipment:
+    underwear: LPPBoxerBriefsGrey
+
+- type: loadout
+  id: LOPBoxerBriefsLightpurple
+  equipment:
+    underwear: LPPBoxerBriefsLightpurple
+
+- type: loadout
+  id: LOPBoxerBriefsMaroon
+  equipment:
+    underwear: LPPBoxerBriefsMaroon
+
+- type: loadout
+  id: LOPBoxerBriefsOrange
+  equipment:
+    underwear: LPPBoxerBriefsOrange
+
+- type: loadout
+  id: LOPBoxerBriefsRed
+  equipment:
+    underwear: LPPBoxerBriefsRed
+
+- type: loadout
+  id: LOPBoxerBriefsTeal
+  equipment:
+    underwear: LPPBoxerBriefsTeal
+
+- type: loadout
+  id: LOPBoxerBriefsYellow
+  equipment:
+    underwear: LPPBoxerBriefsYellow
+
+- type: loadout
+  id: LOPBoxerBlack
+  equipment:
+    underwear: LPPBoxerBlack
+
+- type: loadout
+  id: LOPBoxerBlue
+  equipment:
+    underwear: LPPBoxerBlue
+
+- type: loadout
+  id: LOPBoxer
+  equipment:
+    underwear: LPPBoxer
+
+- type: loadout
+  id: LOPBoxerBrown
+  equipment:
+    underwear: LPPBoxerBrown
+
+- type: loadout
+  id: LOPBoxerGreen
+  equipment:
+    underwear: LPPBoxerGreen
+
+- type: loadout
+  id: LOPBoxerGrey
+  equipment:
+    underwear: LPPBoxerGrey
+
+- type: loadout
+  id: LOPBoxerLightpurple
+  equipment:
+    underwear: LPPBoxerLightpurple
+
+- type: loadout
+  id: LOPBoxerMaroon
+  equipment:
+    underwear: LPPBoxerMaroon
+
+- type: loadout
+  id: LOPBoxerOrange
+  equipment:
+    underwear: LPPBoxerOrange
+
+- type: loadout
+  id: LOPBoxerRed
+  equipment:
+    underwear: LPPBoxerRed
+
+- type: loadout
+  id: LOPBoxerTeal
+  equipment:
+    underwear: LPPBoxerTeal
+
+- type: loadout
+  id: LOPBoxerYellow
+  equipment:
+    underwear: LPPBoxerYellow
+
+- type: loadout
+  id: LOPBoxersCommie
+  equipment:
+    underwear: LPPBoxersCommie
+
+- type: loadout
+  id: LOPBoxersHeart
+  equipment:
+    underwear: LPPBoxersHeart
+
+- type: loadout
+  id: LOPBoxersStriped
+  equipment:
+    underwear: LPPBoxersStriped
+
+- type: loadout
+  id: LOPBriefsBlack
+  equipment:
+    underwear: LPPBriefsBlack
+
+- type: loadout
+  id: LOPBriefsBlue
+  equipment:
+    underwear: LPPBriefsBlue
+
+- type: loadout
+  id: LOPBriefs
+  equipment:
+    underwear: LPPBriefs
+
+- type: loadout
+  id: LOPBriefsBrown
+  equipment:
+    underwear: LPPBriefsBrown
+
+- type: loadout
+  id: LOPBriefsGreen
+  equipment:
+    underwear: LPPBriefsGreen
+
+- type: loadout
+  id: LOPBriefsGrey
+  equipment:
+    underwear: LPPBriefsGrey
+
+- type: loadout
+  id: LOPBriefsLightpurple
+  equipment:
+    underwear: LPPBriefsLightpurple
+
+- type: loadout
+  id: LOPBriefsMaroon
+  equipment:
+    underwear: LPPBriefsMaroon
+
+- type: loadout
+  id: LOPBriefsOrange
+  equipment:
+    underwear: LPPBriefsOrange
+
+- type: loadout
+  id: LOPBriefsRed
+  equipment:
+    underwear: LPPBriefsRed
+
+- type: loadout
+  id: LOPBriefsTeal
+  equipment:
+    underwear: LPPCEPanties
+
+- type: loadout
+  id: LOPBriefsYellow
+  equipment:
+    underwear: LPPBriefsYellow
+
+- type: loadout
+  id: LOPJockstrapBlack
+  equipment:
+    underwear: LPPJockstrapBlack
+
+- type: loadout
+  id: LOPJockstrapBlue
+  equipment:
+    underwear: LPPJockstrapBlue
+
+- type: loadout
+  id: LOPJockstrap
+  equipment:
+    underwear: LPPJockstrap
+
+- type: loadout
+  id: LOPJockstrapBrown
+  equipment:
+    underwear: LPPJockstrapBrown
+
+- type: loadout
+  id: LOPJockstrapGreen
+  equipment:
+    underwear: LPPJockstrapGreen
+
+- type: loadout
+  id: LOPJockstrapGrey
+  equipment:
+    underwear: LPPJockstrapGrey
+
+- type: loadout
+  id: LOPJockstrapLightpurple
+  equipment:
+    underwear: LPPJockstrapLightpurple
+
+- type: loadout
+  id: LOPJockstrapMaroon
+  equipment:
+    underwear: LPPJockstrapMaroon
+
+- type: loadout
+  id: LOPJockstrapOrange
+  equipment:
+    underwear: LPPJockstrapOrange
+
+- type: loadout
+  id: LOPJockstrapRed
+  equipment:
+    underwear: LPPJockstrapRed
+
+- type: loadout
+  id: LOPJockstrapTeal
+  equipment:
+    underwear: LPPJockstrapTeal
+
+- type: loadout
+  id: LOPJockstrapYellow
+  equipment:
+    underwear: LPPJockstrapYellow
+
+- type: loadout
+  id: LOPMankiniBlack
+  equipment:
+    underwear: LPPMankiniBlack
+
+- type: loadout
+  id: LOPMankiniBlue
+  equipment:
+    underwear: LPPMankiniBlue
+
+- type: loadout
+  id: LOPMankini
+  equipment:
+    underwear: LPPMankini
+
+- type: loadout
+  id: LOPMankiniBrown
+  equipment:
+    underwear: LPPMankiniBrown
+
+- type: loadout
+  id: LOPMankiniGreen
+  equipment:
+    underwear: LPPMankiniGreen
+
+- type: loadout
+  id: LOPMankiniGrey
+  equipment:
+    underwear: LPPMankiniGrey
+
+- type: loadout
+  id: LOPMankiniLightpurple
+  equipment:
+    underwear: LPPMankiniLightpurple
+
+- type: loadout
+  id: LOPMankiniMaroon
+  equipment:
+    underwear: LPPMankiniMaroon
+
+- type: loadout
+  id: LOPMankiniOrange
+  equipment:
+    underwear: LPPMankiniOrange
+
+- type: loadout
+  id: LOPMankiniRed
+  equipment:
+    underwear: LPPMankiniRed
+
+- type: loadout
+  id: LOPMankiniTeal
+  equipment:
+    underwear: LPPMankiniTeal
+
+- type: loadout
+  id: LOPMankiniYellow
+  equipment:
+    underwear: LPPMankiniYellow
+
+- type: loadout
+  id: LOPPantiesBeeKini
+  equipment:
+    underwear: LPPPantiesBeeKini
+
+- type: loadout
+  id: LOPPantiesCommie
+  equipment:
+    underwear: LPPPantiesCommie
+
+- type: loadout
+  id: LOPPantiesKinky
+  equipment:
+    underwear: LPPPantiesKinky
+
+- type: loadout
+  id: LOPPantiesAltBlack
+  equipment:
+    underwear: LPPPantiesAltBlack
+
+- type: loadout
+  id: LOPPantiesAltBlue
+  equipment:
+    underwear: LPPPantiesAltBlue
+
+- type: loadout
+  id: LOPPantiesAlt
+  equipment:
+    underwear: LPPPantiesAlt
+
+- type: loadout
+  id: LOPPantiesAltBrown
+  equipment:
+    underwear: LPPPantiesAltBrown
+
+- type: loadout
+  id: LOPPantiesAltGreen
+  equipment:
+    underwear: LPPPantiesAltGreen
+
+- type: loadout
+  id: LOPPantiesAltGrey
+  equipment:
+    underwear: LPPPantiesAltGrey
+
+- type: loadout
+  id: LOPPantiesAltLightpurple
+  equipment:
+    underwear: LPPPantiesAltLightpurple
+
+- type: loadout
+  id: LOPPantiesAltMaroon
+  equipment:
+    underwear: LPPPantiesAltMaroon
+
+- type: loadout
+  id: LOPPantiesAltOrange
+  equipment:
+    underwear: LPPPantiesAltOrange
+
+- type: loadout
+  id: LOPPantiesAltRed
+  equipment:
+    underwear: LPPPantiesAltRed
+
+- type: loadout
+  id: LOPPantiesAltTeal
+  equipment:
+    underwear: LPPPantiesAltTeal
+
+- type: loadout
+  id: LOPPantiesAltYellow
+  equipment:
+    underwear: LPPPantiesAltYellow
+
+- type: loadout
+  id: LOPPantiesNekoBlack
+  equipment:
+    underwear: LPPPantiesNekoBlack
+
+- type: loadout
+  id: LOPPantiesNekoBlue
+  equipment:
+    underwear: LPPPantiesNekoBlue
+
+- type: loadout
+  id: LOPPantiesNeko
+  equipment:
+    underwear: LPPPantiesNeko
+
+- type: loadout
+  id: LOPPantiesNekoBrown
+  equipment:
+    underwear: LPPPantiesNekoBrown
+
+- type: loadout
+  id: LOPPantiesNekoGreen
+  equipment:
+    underwear: LPPPantiesNekoGreen
+
+- type: loadout
+  id: LOPPantiesNekoGrey
+  equipment:
+    underwear: LPPPantiesNekoGrey
+
+- type: loadout
+  id: LOPPantiesNekoLightpurple
+  equipment:
+    underwear: LPPPantiesNekoLightpurple
+
+- type: loadout
+  id: LOPPantiesNekoMaroon
+  equipment:
+    underwear: LPPPantiesNekoMaroon
+
+- type: loadout
+  id: LOPPantiesNekoOrange
+  equipment:
+    underwear: LPPPantiesNekoOrange
+
+- type: loadout
+  id: LOPPantiesNekoRed
+  equipment:
+    underwear: LPPPantiesNekoRed
+
+- type: loadout
+  id: LOPPantiesNekoTeal
+  equipment:
+    underwear: LPPPantiesNekoTeal
+
+- type: loadout
+  id: LOPPantiesNekoYellow
+  equipment:
+    underwear: LPPPantiesNekoYellow
+
+- type: loadout
+  id: LOPPantiesThinBlack
+  equipment:
+    underwear: LPPPantiesThinBlack
+
+- type: loadout
+  id: LOPPantiesThinBlue
+  equipment:
+    underwear: LPPPantiesThinBlue
+
+- type: loadout
+  id: LOPPantiesThin
+  equipment:
+    underwear: LPPPantiesThin
+
+- type: loadout
+  id: LOPPantiesThinBrown
+  equipment:
+    underwear: LPPPantiesThinBrown
+
+- type: loadout
+  id: LOPPantiesThinGreen
+  equipment:
+    underwear: LPPPantiesThinGreen
+
+- type: loadout
+  id: LOPPantiesThinGrey
+  equipment:
+    underwear: LPPPantiesThinGrey
+
+- type: loadout
+  id: LOPPantiesThinLightpurple
+  equipment:
+    underwear: LPPPantiesThinLightpurple
+
+- type: loadout
+  id: LOPPantiesThinMaroon
+  equipment:
+    underwear: LPPPantiesThinMaroon
+
+- type: loadout
+  id: LOPPantiesThinOrange
+  equipment:
+    underwear: LPPPantiesThinOrange
+
+- type: loadout
+  id: LOPPantiesThinRed
+  equipment:
+    underwear: LPPPantiesThinRed
+
+- type: loadout
+  id: LOPPantiesThinTeal
+  equipment:
+    underwear: LPPPantiesThinTeal
+
+- type: loadout
+  id: LOPPantiesThinYellow
+  equipment:
+    underwear: LPPPantiesThinYellow
+
+- type: loadout
+  id: LOPStripedPanties
+  equipment:
+    underwear: LPPStripedPanties
+
+- type: loadout
+  id: LOPThongBlack
+  equipment:
+    underwear: LPPThongBlack
+
+- type: loadout
+  id: LOPThongBlue
+  equipment:
+    underwear: LPPThongBlue
+
+- type: loadout
+  id: LOPThong
+  equipment:
+    underwear: LPPThong
+
+- type: loadout
+  id: LOPThongBrown
+  equipment:
+    underwear: LPPThongBrown
+
+- type: loadout
+  id: LOPThongGreen
+  equipment:
+    underwear: LPPThongGreen
+
+- type: loadout
+  id: LOPThongGrey
+  equipment:
+    underwear: LPPThongGrey
+
+- type: loadout
+  id: LOPThongLightpurple
+  equipment:
+    underwear: LPPThongLightpurple
+
+- type: loadout
+  id: LOPThongMaroon
+  equipment:
+    underwear: LPPThongMaroon
+
+- type: loadout
+  id: LOPThongOrange
+  equipment:
+    underwear: LPPThongOrange
+
+- type: loadout
+  id: LOPThongRed
+  equipment:
+    underwear: LPPThongRed
+
+- type: loadout
+  id: LOPThongTeal
+  equipment:
+    underwear: LPPThongTeal
+
+- type: loadout
+  id: LOPThongYellow
+  equipment:
+    underwear: LPPThongYellow
+
+- type: loadout
+  id: LOPThongBabydollBlack
+  equipment:
+    underwear: LPPThongBabydollBlack
+
+- type: loadout
+  id: LOPThongBabydollBlue
+  equipment:
+    underwear: LPPThongBabydollBlue
+
+- type: loadout
+  id: LOPThongBabydoll
+  equipment:
+    underwear: LPPThongBabydoll
+
+- type: loadout
+  id: LOPThongBabydollBrown
+  equipment:
+    underwear: LPPThongBabydollBrown
+
+- type: loadout
+  id: LOPThongBabydollGreen
+  equipment:
+    underwear: LPPThongBabydollGreen
+
+- type: loadout
+  id: LOPThongBabydollGrey
+  equipment:
+    underwear: LPPThongBabydollGrey
+
+- type: loadout
+  id: LOPThongBabydollLightpurple
+  equipment:
+    underwear: LPPThongBabydollLightpurple
+
+- type: loadout
+  id: LOPThongBabydollMaroon
+  equipment:
+    underwear: LPPThongBabydollMaroon
+
+- type: loadout
+  id: LOPThongBabydollOrange
+  equipment:
+    underwear: LPPThongBabydollOrange
+
+- type: loadout
+  id: LOPThongBabydollRed
+  equipment:
+    underwear: LPPThongBabydollRed
+
+- type: loadout
+  id: LOPThongBabydollTeal
+  equipment:
+    underwear: LPPThongBabydollTeal
+
+- type: loadout
+  id: LOPThongBabydollYellow
+  equipment:
+    underwear: LPPThongBabydollYellow
+
+- type: loadoutGroup
+  id: LOPunderwearloadout
+  name: loadout-group-underwear
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - LOPCapPanties
+  - LOPCEPanties
+  - LOPCMOPanties
+  - LOPHOPPanties
+  - LOPBeeShorts
+  - LOPBoxerBriefsBlack
+  - LOPBoxerBriefsBlue
+  - LOPBoxerBriefs
+  - LOPBoxerBriefsBrown
+  - LOPBoxerBriefsGreen
+  - LOPBoxerBriefsGrey
+  - LOPBoxerBriefsLightpurple
+  - LOPBoxerBriefsMaroon
+  - LOPBoxerBriefsOrange
+  - LOPBoxerBriefsRed
+  - LOPBoxerBriefsTeal
+  - LOPBoxerBriefsYellow
+  - LOPBoxerBlack
+  - LOPBoxerBlue
+  - LOPBoxer
+  - LOPBoxerBrown
+  - LOPBoxerGreen
+  - LOPBoxerGrey
+  - LOPBoxerLightpurple
+  - LOPBoxerMaroon
+  - LOPBoxerOrange
+  - LOPBoxerRed
+  - LOPBoxerTeal
+  - LOPBoxerYellow
+  - LOPBoxersCommie
+  - LOPBoxersHeart
+  - LOPBoxersStriped
+  - LOPBriefsBlack
+  - LOPBriefsBlue
+  - LOPBriefs
+  - LOPBriefsBrown
+  - LOPBriefsGreen
+  - LOPBriefsGrey
+  - LOPBriefsLightpurple
+  - LOPBriefsMaroon
+  - LOPBriefsOrange
+  - LOPBriefsRed
+  - LOPBriefsTeal
+  - LOPBriefsYellow
+  - LOPJockstrapBlack
+  - LOPJockstrapBlue
+  - LOPJockstrap
+  - LOPJockstrapBrown
+  - LOPJockstrapGreen
+  - LOPJockstrapGrey
+  - LOPJockstrapLightpurple
+  - LOPJockstrapMaroon
+  - LOPJockstrapOrange
+  - LOPJockstrapRed
+  - LOPJockstrapTeal
+  - LOPJockstrapYellow
+  - LOPMankiniBlack
+  - LOPMankiniBlue
+  - LOPMankini
+  - LOPMankiniBrown
+  - LOPMankiniGreen
+  - LOPMankiniGrey
+  - LOPMankiniLightpurple
+  - LOPMankiniMaroon
+  - LOPMankiniOrange
+  - LOPMankiniRed
+  - LOPMankiniTeal
+  - LOPMankiniYellow
+  - LOPPantiesBeeKini
+  - LOPPantiesCommie
+  - LOPPantiesKinky
+  - LOPPantiesAltBlack
+  - LOPPantiesAltBlue
+  - LOPPantiesAlt
+  - LOPPantiesAltBrown
+  - LOPPantiesAltGreen
+  - LOPPantiesAltGrey
+  - LOPPantiesAltLightpurple
+  - LOPPantiesAltMaroon
+  - LOPPantiesAltOrange
+  - LOPPantiesAltRed
+  - LOPPantiesAltTeal
+  - LOPPantiesAltYellow
+  - LOPPantiesNekoBlack
+  - LOPPantiesNekoBlue
+  - LOPPantiesNeko
+  - LOPPantiesNekoBrown
+  - LOPPantiesNekoGreen
+  - LOPPantiesNekoGrey
+  - LOPPantiesNekoLightpurple
+  - LOPPantiesNekoMaroon
+  - LOPPantiesNekoOrange
+  - LOPPantiesNekoRed
+  - LOPPantiesNekoTeal
+  - LOPPantiesNekoYellow
+  - LOPPantiesThinBlack
+  - LOPPantiesThinBlue
+  - LOPPantiesThin
+  - LOPPantiesThinBrown
+  - LOPPantiesThinGreen
+  - LOPPantiesThinGrey
+  - LOPPantiesThinLightpurple
+  - LOPPantiesThinMaroon
+  - LOPPantiesThinOrange
+  - LOPPantiesThinRed
+  - LOPPantiesThinTeal
+  - LOPPantiesThinYellow
+  - LOPStripedPanties
+  - LOPThongBlack
+  - LOPThongBlue
+  - LOPThong
+  - LOPThongBrown
+  - LOPThongGreen
+  - LOPThongGrey
+  - LOPThongLightpurple
+  - LOPThongMaroon
+  - LOPThongOrange
+  - LOPThongRed
+  - LOPThongTeal
+  - LOPThongYellow
+  - LOPThongBabydollBlack
+  - LOPThongBabydollBlue
+  - LOPThongBabydoll
+  - LOPThongBabydollBrown
+  - LOPThongBabydollGreen
+  - LOPThongBabydollGrey
+  - LOPThongBabydollLightpurple
+  - LOPThongBabydollMaroon
+  - LOPThongBabydollRed
+  - LOPThongBabydollOrange
+  - LOPThongBabydollTeal
+  - LOPThongBabydollYellow
+
+- type: loadout
+  id: LOPBodyBra
+  equipment:
+    breast: LPPBodyBra
+
+- type: loadout
+  id: LOPBodyBraCut
+  equipment:
+    breast: LPPBodyBraCut
+
+- type: loadout
+  id: LOPLBodyBraCut2
+  equipment:
+    breast: LPPLBodyBraCut2
+
+- type: loadout
+  id: LOPBodyBraCut3
+  equipment:
+    breast: LPPBodyBraCut3
+
+- type: loadout
+  id: LOPBodyBraCut4
+  equipment:
+    breast: LPPBodyBraCut4
+
+- type: loadout
+  id: LOPBodyBra2
+  equipment:
+    breast: LPPBodyBra2
+
+- type: loadout
+  id: LOPCutOutBodyBra2
+  equipment:
+    breast: LPPCutOutBodyBra2
+
+- type: loadout
+  id: LOPSwimsuitBodyBra2
+  equipment:
+    breast: LPPSwimsuitBodyBra2
+
+- type: loadout
+  id: LOPSwimsuitplusTightsBodyBra2
+  equipment:
+    breast: LPPSwimsuitplusTightsBodyBra2
+
+- type: loadout
+  id: LOPTranslucentBodyBra
+  equipment:
+    breast: LPPTranslucentBodyBra
+
+- type: loadout
+  id: LOPTranslucentBodyBra2
+  equipment:
+    breast: LPPTranslucentBodyBra2
+
+- type: loadout
+  id: LOPCutOutTop
+  equipment:
+    breast: LPPCutOutTop
+
+- type: loadout
+  id: LOPCutOutTop2
+  equipment:
+    breast: LPPCutOutTop2
+
+- type: loadout
+  id: LOPBraBlack
+  equipment:
+    breast: LPPBraBlack
+
+- type: loadout
+  id: LOPBraBlue
+  equipment:
+    breast: LPPBraBlue
+
+- type: loadout
+  id: LOPBraBrown
+  equipment:
+    breast: LPPBraBrown
+
+- type: loadout
+  id: LOPBraGreen
+  equipment:
+    breast: LPPBraGreen
+
+- type: loadout
+  id: LOPBraGrey
+  equipment:
+    breast: LPPBraGrey
+
+- type: loadout
+  id: LOPBraLightpurple
+  equipment:
+    breast: LPPBraLightpurple
+
+- type: loadout
+  id: LOPBraMaroon
+  equipment:
+    breast: LPPBraMaroon
+
+- type: loadout
+  id: LOPBraOrange
+  equipment:
+    breast: LPPBraOrange
+
+- type: loadout
+  id: LOPBraRed
+  equipment:
+    breast: LPPBraRed
+
+- type: loadout
+  id: LOPBraTeal
+  equipment:
+    breast: LPPBraTeal
+
+- type: loadout
+  id: LOPBraWhite
+  equipment:
+    breast: LPPBraWhite
+
+- type: loadout
+  id: LOPBraAlt
+  equipment:
+    breast: LPPBraAlt
+
+- type: loadout
+  id: LOPBraYellow
+  equipment:
+    breast: LPPBraYellow
+
+- type: loadout
+  id: LOPBraBeeKini
+  equipment:
+    breast: LPPBraBeeKini
+
+- type: loadout
+  id: LOPBraCommie
+  equipment:
+    breast: LPPBraCommie
+
+- type: loadout
+  id: LOPBraKinky
+  equipment:
+    breast: LPPBraKinky
+
+- type: loadout
+  id: LOPBraThin
+  equipment:
+    breast: LPPBraThin
+
+- type: loadout
+  id: LOPBraAltBlack
+  equipment:
+    breast: LPPBraAltBlack
+
+- type: loadout
+  id: LOPBraAltBlue
+  equipment:
+    breast: LPPBraAltBlue
+
+- type: loadout
+  id: LOPBraAltBrown
+  equipment:
+    breast: LPPBraAltBrown
+
+- type: loadout
+  id: LOPBraAltGreen
+  equipment:
+    breast: LPPBraAltGreen
+
+- type: loadout
+  id: LOPBraAltGrey
+  equipment:
+    breast: LPPBraAltGrey
+
+- type: loadout
+  id: LOPBraAltLightpurple
+  equipment:
+    breast: LPPBraAltLightpurple
+
+- type: loadout
+  id: LOPBraAltMaroon
+  equipment:
+    breast: LPPBraAltMaroon
+
+- type: loadout
+  id: LOPBraAltOrange
+  equipment:
+    breast: LPPBraAltOrange
+
+- type: loadout
+  id: LOPBraAltRed
+  equipment:
+    breast: LPPBraAltRed
+
+- type: loadout
+  id: LOPBraAltTeal
+  equipment:
+    breast: LPPBraAltTeal
+
+- type: loadout
+  id: LOPBraAltWhite
+  equipment:
+    breast: LPPBraAltWhite
+
+- type: loadout
+  id: LOPBraAltYellow
+  equipment:
+    breast: LPPBraAltYellow
+
+- type: loadout
+  id: LOPBraBinderBlack
+  equipment:
+    breast: LPPBraBinderBlack
+
+- type: loadout
+  id: LOPBraBinderBlue
+  equipment:
+    breast: LPPBraBinderBlue
+
+- type: loadout
+  id: LOPBraBinderBrown
+  equipment:
+    breast: LPPBraBinderBrown
+
+- type: loadout
+  id: LOPBraBinderGreen
+  equipment:
+    breast: LPPBraBinderGreen
+
+- type: loadout
+  id: LOPBraBinderGrey
+  equipment:
+    breast: LPPBraBinderGrey
+
+- type: loadout
+  id: LOPBraBinderLightpurple
+  equipment:
+    breast: LPPBraBinderLightpurple
+
+- type: loadout
+  id: LOPBraBinderMaroon
+  equipment:
+    breast: LPPBraBinderMaroon
+
+- type: loadout
+  id: LOPBraBinderOrange
+  equipment:
+    breast: LPPBraBinderOrange
+
+- type: loadout
+  id: LOPBraBinderRed
+  equipment:
+    breast: LPPBraBinderRed
+
+- type: loadout
+  id: LOPBraBinderTeal
+  equipment:
+    breast: LPPBraBinderTeal
+
+- type: loadout
+  id: LOPBraBinderWhite
+  equipment:
+    breast: LPPBraBinderWhite
+
+- type: loadout
+  id: LOPBraBinderYellow
+  equipment:
+    breast: LPPBraBinderYellow
+
+- type: loadout
+  id: LOPBraBinderStraplessBlack
+  equipment:
+    breast: LPPBraBinderStraplessBlack
+
+- type: loadout
+  id: LOPBraBinderStraplessBlue
+  equipment:
+    breast: LPPBraBinderStraplessBlue
+
+- type: loadout
+  id: LOPBraBinderStraplessBrown
+  equipment:
+    breast: LPPBraBinderStraplessBrown
+
+- type: loadout
+  id: LOPBraBinderStraplessGreen
+  equipment:
+    breast: LPPBraBinderStraplessGreen
+
+- type: loadout
+  id: LOPBraBinderStraplessGrey
+  equipment:
+    breast: LPPBraBinderStraplessGrey
+
+- type: loadout
+  id: LOPBraBinderStraplessLightpurple
+  equipment:
+    breast: LPPBraBinderStraplessLightpurple
+
+- type: loadout
+  id: LOPBraBinderStraplessMaroon
+  equipment:
+    breast: LPPBraBinderStraplessMaroon
+
+- type: loadout
+  id: LOPBraBinderStraplessOrange
+  equipment:
+    breast: LPPBraBinderStraplessOrange
+
+- type: loadout
+  id: LOPBraBinderStraplessRed
+  equipment:
+    breast: LPPBraBinderStraplessRed
+
+- type: loadout
+  id: LOPBraBinderStraplessTeal
+  equipment:
+    breast: LPPBraBinderStraplessTeal
+
+- type: loadout
+  id: LOPBraBinderStraplessWhite
+  equipment:
+    breast: LPPBraBinderStraplessWhite
+
+- type: loadout
+  id: LOPBraBinderStraplessYellow
+  equipment:
+    breast: LPPBraBinderStraplessYellow
+
+- type: loadout
+  id: LOPBraNekoBlack
+  equipment:
+    breast: LPPBraNekoBlack
+
+- type: loadout
+  id: LOPBraNekoBlue
+  equipment:
+    breast: LPPBraNekoBlue
+
+- type: loadout
+  id: LOPBraNekoBrown
+  equipment:
+    breast: LPPBraNekoBrown
+
+- type: loadout
+  id: LOPBraNekoGreen
+  equipment:
+    breast: LPPBraNekoGreen
+
+- type: loadout
+  id: LOPBraNekoGrey
+  equipment:
+    breast: LPPBraNekoGrey
+
+- type: loadout
+  id: LOPBraNekoLightpurple
+  equipment:
+    breast: LPPBraNekoLightpurple
+
+- type: loadout
+  id: LOPBraNekoMaroon
+  equipment:
+    breast: LPPBraNekoMaroon
+
+- type: loadout
+  id: LOPBraNekoOrange
+  equipment:
+    breast: LPPBraNekoOrange
+
+- type: loadout
+  id: LOPBraNekoRed
+  equipment:
+    breast: LPPBraNekoRed
+
+- type: loadout
+  id: LOPBraNekoTeal
+  equipment:
+    breast: LPPBraNekoTeal
+
+- type: loadout
+  id: LOPBraNekoWhite
+  equipment:
+    breast: LPPBraNekoWhite
+
+- type: loadout
+  id: LOPBraNekoYellow
+  equipment:
+    breast: LPPBraNekoYellow
+
+- type: loadout
+  id: LOPBraStraplessBlack
+  equipment:
+    breast: LPPBraStraplessBlack
+
+- type: loadout
+  id: LOPBraStraplessBlue
+  equipment:
+    breast: LPPBraStraplessBlue
+
+- type: loadout
+  id: LOPBraStraplessBrown
+  equipment:
+    breast: LPPBraStraplessBrown
+
+- type: loadout
+  id: LOPBraStraplessGreen
+  equipment:
+    breast: LPPBraStraplessGreen
+
+- type: loadout
+  id: LOPBraStraplessGrey
+  equipment:
+    breast: LPPBraStraplessGrey
+
+- type: loadout
+  id: LOPBraStraplessLightpurple
+  equipment:
+    breast: LPPBraStraplessLightpurple
+
+- type: loadout
+  id: LOPBraStraplessMaroon
+  equipment:
+    breast: LPPBraStraplessMaroon
+
+- type: loadout
+  id: LOPBraStraplessOrange
+  equipment:
+    breast: LPPBraStraplessOrange
+
+- type: loadout
+  id: LOPBraStraplessRed
+  equipment:
+    breast: LPPBraStraplessRed
+
+- type: loadout
+  id: LOPBraStraplessTeal
+  equipment:
+    breast: LPPBraStraplessTeal
+
+- type: loadout
+  id: LOPBraStraplessWhite
+  equipment:
+    breast: LPPBraStraplessWhite
+
+- type: loadout
+  id: LOPBraStraplessYellow
+  equipment:
+    breast: LPPBraStraplessYellow
+
+- type: loadout
+  id: LOPBraStraplessAltBlack
+  equipment:
+    breast: LPPBraStraplessAltBlack
+
+- type: loadout
+  id: LOPBraStraplessAltBlue
+  equipment:
+    breast: LPPBraStraplessAltBlue
+
+- type: loadout
+  id: LOPBraStraplessAltBrown
+  equipment:
+    breast: LPPBraStraplessAltBrown
+
+- type: loadout
+  id: LOPBraStraplessAltGreen
+  equipment:
+    breast: LPPBraStraplessAltGreen
+
+- type: loadout
+  id: LOPBraStraplessAltGrey
+  equipment:
+    breast: LPPBraStraplessAltGrey
+
+- type: loadout
+  id: LOPBraStraplessAltLightpurple
+  equipment:
+    breast: LPPBraStraplessAltLightpurple
+
+- type: loadout
+  id: LOPBraStraplessAltMaroon
+  equipment:
+    breast: LPPBraStraplessAltMaroon
+
+- type: loadout
+  id: LOPBraStraplessAltOrange
+  equipment:
+    breast: LPPBraStraplessAltOrange
+
+- type: loadout
+  id: LOPBraStraplessAltRed
+  equipment:
+    breast: LPPBraStraplessAltRed
+
+- type: loadout
+  id: LOPBraStraplessAltTeal
+  equipment:
+    breast: LPPBraStraplessAltTeal
+
+- type: loadout
+  id: LOPBraStraplessAltWhite
+  equipment:
+    breast: LPPBraStraplessAltWhite
+
+- type: loadout
+  id: LOPBraStraplessAltYellow
+  equipment:
+    breast: LPPBraStraplessAltYellow
+
+- type: loadout
+  id: LOPBraSwimmingBlack
+  equipment:
+    breast: LPPBraSwimmingBlack
+
+- type: loadout
+  id: LOPBraSwimmingBlue
+  equipment:
+    breast: LPPBraSwimmingBlue
+
+- type: loadout
+  id: LOPBraSwimmingBrown
+  equipment:
+    breast: LPPBraSwimmingBrown
+
+- type: loadout
+  id: LOPBraSwimmingGreen
+  equipment:
+    breast: LPPBraSwimmingGreen
+
+- type: loadout
+  id: LOPBraSwimmingGrey
+  equipment:
+    breast: LPPBraSwimmingGrey
+
+- type: loadout
+  id: LOPBraSwimmingLightpurple
+  equipment:
+    breast: LPPBraSwimmingLightpurple
+
+- type: loadout
+  id: LOPBraSwimmingMaroon
+  equipment:
+    breast: LPPBraSwimmingMaroon
+
+- type: loadout
+  id: LOPBraSwimmingWhite
+  equipment:
+    breast: LPPBraSwimmingWhite
+
+- type: loadout
+  id: LOPBraSwimmingOrange
+  equipment:
+    breast: LPPBraSwimmingOrange
+
+- type: loadout
+  id: LOPBraSwimmingRed
+  equipment:
+    breast: LPPBraSwimmingRed
+
+- type: loadout
+  id: LOPBraSwimmingTeal
+  equipment:
+    breast: LPPBraSwimmingTeal
+
+- type: loadout
+  id: LOPBraSwimmingYellow
+  equipment:
+    breast: LPPBraSwimmingYellow
+
+- type: loadout
+  id: LOPBraSwimmingAltBlack
+  equipment:
+    breast: LPPBraSwimmingAltBlack
+
+- type: loadout
+  id: LOPBraSwimmingAltBlue
+  equipment:
+    breast: LPPBraSwimmingAltBlue
+
+- type: loadout
+  id: LOPBraSwimmingAltBrown
+  equipment:
+    breast: LPPBraSwimmingAltBrown
+
+- type: loadout
+  id: LOPBraSwimmingAltGreen
+  equipment:
+    breast: LPPBraSwimmingAltGreen
+
+- type: loadout
+  id: LOPBraSwimmingAltGrey
+  equipment:
+    breast: LPPBraSwimmingAltGrey
+
+- type: loadout
+  id: LOPBraSwimmingAltLightpurple
+  equipment:
+    breast: LPPBraSwimmingAltLightpurple
+
+- type: loadout
+  id: LOPBraSwimmingAltMaroon
+  equipment:
+    breast: LPPBraSwimmingAltMaroon
+
+- type: loadout
+  id: LOPBraSwimmingAltOrange
+  equipment:
+    breast: LPPBraSwimmingAltOrange
+
+- type: loadout
+  id: LOPBraSwimmingAltRed
+  equipment:
+    breast: LPPBraSwimmingAltRed
+
+- type: loadout
+  id: LOPBraSwimmingAltTeal
+  equipment:
+    breast: LPPBraSwimmingAltTeal
+
+- type: loadout
+  id: LOPBraSwimmingAltWhite
+  equipment:
+    breast: LPPBraSwimmingAltWhite
+
+- type: loadout
+  id: LOPBraSwimmingAltYellow
+  equipment:
+    breast: LPPBraSwimmingAltYellow
+
+- type: loadout
+  id: LOPFishnetBody
+  equipment:
+    breast: LPPFishnetBody
+
+- type: loadout
+  id: LOPFishnetGloves
+  equipment:
+    breast: LPPFishnetGloves
+
+- type: loadout
+  id: LOPFishnetSleeves
+  equipment:
+    breast: LPPFishnetSleeves
+
+- type: loadout
+  id: LOPBraHalterneck
+  equipment:
+    breast: LPPBraHalterneck
+
+- type: loadout
+  id: LOPSportsBraBlack
+  equipment:
+    breast: LPPSportsBraBlack
+
+- type: loadout
+  id: LOPSportsBraBlue
+  equipment:
+    breast: LPPSportsBraBlue
+
+- type: loadout
+  id: LOPSportsBraBrown
+  equipment:
+    breast: LPPSportsBraBrown
+
+- type: loadout
+  id: LOPSportsBraGreen
+  equipment:
+    breast: LPPSportsBraGreen
+
+- type: loadout
+  id: LOPSportsBraGrey
+  equipment:
+    breast: LPPSportsBraGrey
+
+- type: loadout
+  id: LOPSportsBraLightpurple
+  equipment:
+    breast: LPPSportsBraLightpurple
+
+- type: loadout
+  id: LOPSportsBraMaroon
+  equipment:
+    breast: LPPSportsBraMaroon
+
+- type: loadout
+  id: LOPSportsBraOrange
+  equipment:
+    breast: LPPSportsBraOrange
+
+- type: loadout
+  id: LOPSportsBraRed
+  equipment:
+    breast: LPPSportsBraRed
+
+- type: loadout
+  id: LOPSportsBraTeal
+  equipment:
+    breast: LPPSportsBraTeal
+
+- type: loadout
+  id: LOPSportsBraWhite
+  equipment:
+    breast: LPPSportsBraWhite
+
+- type: loadout
+  id: LOPSportsBraYellow
+  equipment:
+    breast: LPPSportsBraYellow
+
+- type: loadout
+  id: LOPSportsBraAltBlack
+  equipment:
+    breast: LPPSportsBraAltBlack
+
+- type: loadout
+  id: LOPSportsBraAltBlue
+  equipment:
+    breast: LPPSportsBraAltBlue
+
+- type: loadout
+  id: LOPSportsBraAltBrown
+  equipment:
+    breast: LPPSportsBraAltBrown
+
+- type: loadout
+  id: LOPSportsBraAltGreen
+  equipment:
+    breast: LPPSportsBraAltGreen
+
+- type: loadout
+  id: LOPSportsBraAltGrey
+  equipment:
+    breast: LPPSportsBraAltGrey
+
+- type: loadout
+  id: LOPSportsBraAltLightpurple
+  equipment:
+    breast: LPPSportsBraAltLightpurple
+
+- type: loadout
+  id: LOPSportsBraAltMaroon
+  equipment:
+    breast: LPPSportsBraAltMaroon
+
+- type: loadout
+  id: LOPSportsBraAltOrange
+  equipment:
+    breast: LPPSportsBraAltOrange
+
+- type: loadout
+  id: LOPSportsBraAltRed
+  equipment:
+    breast: LPPSportsBraAltRed
+
+- type: loadout
+  id: LOPSportsBraAltTeal
+  equipment:
+    breast: LPPSportsBraAltTeal
+
+- type: loadout
+  id: LOPSportsBraAltWhite
+  equipment:
+    breast: LPPSportsBraAltWhite
+
+- type: loadout
+  id: LOPSportsBraAltYellow
+  equipment:
+    breast: LPPSportsBraAltYellow
+
+- type: loadout
+  id: LOPStripedBra
+  equipment:
+    breast: LPPStripedBra
+
+- type: loadout
+  id: LOPTubetopBlack
+  equipment:
+    breast: LPPTubetopBlack
+
+- type: loadout
+  id: LOPTubetopBlue
+  equipment:
+    breast: LPPTubetopBlue
+
+- type: loadout
+  id: LOPTubetopBrown
+  equipment:
+    breast: LPPTubetopBrown
+
+- type: loadout
+  id: LOPTubetopGreen
+  equipment:
+    breast: LPPTubetopGreen
+
+- type: loadout
+  id: LOPTubetopGrey
+  equipment:
+    breast: LPPTubetopGrey
+
+- type: loadout
+  id: LOPTubetopLightpurple
+  equipment:
+    breast: LPPTubetopLightpurple
+
+- type: loadout
+  id: LOPTubetopMaroon
+  equipment:
+    breast: LPPTubetopMaroon
+
+- type: loadout
+  id: LOPTubetopOrange
+  equipment:
+    breast: LPPTubetopOrange
+
+- type: loadout
+  id: LOPTubetopRed
+  equipment:
+    breast: LPPTubetopRed
+
+- type: loadout
+  id: LOPTubetopTeal
+  equipment:
+    breast: LPPTubetopTeal
+
+- type: loadout
+  id: LOPTubetopWhite
+  equipment:
+    breast: LPPTubetopWhite
+
+- type: loadout
+  id: LOPTubetopYellow
+  equipment:
+    breast: LPPTubetopYellow
+
+- type: loadoutGroup
+  id: LOPbraloadout
+  name: loadout-group-bra
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - LOPBraBlack
+  - LOPBraBlue
+  - LOPBraBrown
+  - LOPBraGreen
+  - LOPBraGrey
+  - LOPBraLightpurple
+  - LOPBraMaroon
+  - LOPBraOrange
+  - LOPBraRed
+  - LOPBraTeal
+  - LOPBraWhite
+  - LOPBraAlt
+  - LOPBraYellow
+  - LOPBraBeeKini
+  - LOPBraCommie
+  - LOPBraKinky
+  - LOPBraThin
+  - LOPBraAltBlack
+  - LOPBraAltBlue
+  - LOPBraAltBrown
+  - LOPBraAltGreen
+  - LOPBraAltGrey
+  - LOPBraAltLightpurple
+  - LOPBraAltMaroon
+  - LOPBraAltOrange
+  - LOPBraAltRed
+  - LOPBraAltTeal
+  - LOPBraAltWhite
+  - LOPBraAltYellow
+  - LOPBraBinderBlack
+  - LOPBraBinderBlue
+  - LOPBraBinderBrown
+  - LOPBraBinderGreen
+  - LOPBraBinderGrey
+  - LOPBraBinderLightpurple
+  - LOPBraBinderMaroon
+  - LOPBraBinderOrange
+  - LOPBraBinderRed
+  - LOPBraBinderTeal
+  - LOPBraBinderWhite
+  - LOPBraBinderYellow
+  - LOPBraBinderStraplessBlack
+  - LOPBraBinderStraplessBlue
+  - LOPBraBinderStraplessBrown
+  - LOPBraBinderStraplessGreen
+  - LOPBraBinderStraplessGrey
+  - LOPBraBinderStraplessLightpurple
+  - LOPBraBinderStraplessMaroon
+  - LOPBraBinderStraplessOrange
+  - LOPBraBinderStraplessRed
+  - LOPBraBinderStraplessTeal
+  - LOPBraBinderStraplessWhite
+  - LOPBraBinderStraplessYellow
+  - LOPBraNekoBlack
+  - LOPBraNekoBlue
+  - LOPBraNekoBrown
+  - LOPBraNekoGreen
+  - LOPBraNekoGrey
+  - LOPBraNekoLightpurple
+  - LOPBraNekoMaroon
+  - LOPBraNekoOrange
+  - LOPBraNekoRed
+  - LOPBraNekoTeal
+  - LOPBraNekoWhite
+  - LOPBraNekoYellow
+  - LOPBraStraplessBlack
+  - LOPBraStraplessBlue
+  - LOPBraStraplessBrown
+  - LOPBraStraplessGreen
+  - LOPBraStraplessGrey
+  - LOPBraStraplessLightpurple
+  - LOPBraStraplessMaroon
+  - LOPBraStraplessOrange
+  - LOPBraStraplessRed
+  - LOPBraStraplessTeal
+  - LOPBraStraplessWhite
+  - LOPBraStraplessYellow
+  - LOPBraStraplessAltBlack
+  - LOPBraStraplessAltBlue
+  - LOPBraStraplessAltBrown
+  - LOPBraStraplessAltGreen
+  - LOPBraStraplessAltGrey
+  - LOPBraStraplessAltLightpurple
+  - LOPBraStraplessAltMaroon
+  - LOPBraStraplessAltOrange
+  - LOPBraStraplessAltRed
+  - LOPBraStraplessAltTeal
+  - LOPBraStraplessAltWhite
+  - LOPBraStraplessAltYellow
+  - LOPBraSwimmingBlack
+  - LOPBraSwimmingBlue
+  - LOPBraSwimmingBrown
+  - LOPBraSwimmingGreen
+  - LOPBraSwimmingGrey
+  - LOPBraSwimmingLightpurple
+  - LOPBraSwimmingMaroon
+  - LOPBraSwimmingOrange
+  - LOPBraSwimmingRed
+  - LOPBraSwimmingTeal
+  - LOPBraSwimmingWhite
+  - LOPBraSwimmingYellow
+  - LOPBraSwimmingAltBlack
+  - LOPBraSwimmingAltBlue
+  - LOPBraSwimmingAltBrown
+  - LOPBraSwimmingAltGreen
+  - LOPBraSwimmingAltGrey
+  - LOPBraSwimmingAltLightpurple
+  - LOPBraSwimmingAltMaroon
+  - LOPBraSwimmingAltOrange
+  - LOPBraSwimmingAltRed
+  - LOPBraSwimmingAltTeal
+  - LOPBraSwimmingAltWhite
+  - LOPBraSwimmingAltYellow
+  - LOPFishnetBody
+  - LOPFishnetGloves
+  - LOPFishnetSleeves
+  - LOPBraHalterneck
+  - LOPSportsBraBlack
+  - LOPSportsBraBlue
+  - LOPSportsBraBrown
+  - LOPSportsBraGreen
+  - LOPSportsBraGrey
+  - LOPSportsBraLightpurple
+  - LOPSportsBraMaroon
+  - LOPSportsBraOrange
+  - LOPSportsBraRed
+  - LOPSportsBraTeal
+  - LOPSportsBraWhite
+  - LOPSportsBraYellow
+  - LOPSportsBraAltBlack
+  - LOPSportsBraAltBlue
+  - LOPSportsBraAltBrown
+  - LOPSportsBraAltGreen
+  - LOPSportsBraAltGrey
+  - LOPSportsBraAltLightpurple
+  - LOPSportsBraAltMaroon
+  - LOPSportsBraAltOrange
+  - LOPSportsBraAltRed
+  - LOPSportsBraAltTeal
+  - LOPSportsBraAltWhite
+  - LOPSportsBraAltYellow
+  - LOPStripedBra
+  - LOPTubetopBlack
+  - LOPTubetopBlue
+  - LOPTubetopBrown
+  - LOPTubetopGreen
+  - LOPTubetopGrey
+  - LOPTubetopLightpurple
+  - LOPTubetopMaroon
+  - LOPTubetopOrange
+  - LOPTubetopRed
+  - LOPTubetopTeal
+  - LOPTubetopWhite
+  - LOPTubetopYellow
+  - LOPBodyBra
+  - LOPBodyBraCut
+  - LOPLBodyBraCut2
+  - LOPBodyBraCut3
+  - LOPBodyBraCut4
+  - LOPBodyBra2
+  - LOPCutOutBodyBra2
+  - LOPSwimsuitBodyBra2
+  - LOPSwimsuitplusTightsBodyBra2
+  - LOPTranslucentBodyBra
+  - LOPTranslucentBodyBra2
+  - LOPCutOutTop
+  - LOPCutOutTop2
+
+- type: loadout
+  id: LOPClothingUnderSocksPink
+  equipment:
+    socks: LPPClothingUnderSocksPink
+
+- type: loadout
+  id: LOPClothingUnderBeeKnee
+  equipment:
+    socks: LPPClothingUnderBeeKnee
+
+- type: loadout
+  id: LOPClothingUnderBeeNorm
+  equipment:
+    socks: LPPClothingUnderBeeNorm
+
+- type: loadout
+  id: LOPClothingUnderBeeThigh
+  equipment:
+    socks: LPPClothingUnderBeeThigh
+
+- type: loadout
+  id: LOPClothingUnderCommieKnee
+  equipment:
+    socks: LPPClothingUnderCommieKnee
+
+- type: loadout
+  id: LOPClothingUnderCommieThigh
+  equipment:
+    socks: LPPClothingUnderCommieThigh
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseBlack
+  equipment:
+    socks: LPPClothingUnderPantyhoseBlack
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseBlue
+  equipment:
+    socks: LPPClothingUnderPantyhoseBlue
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseBrown
+  equipment:
+    socks: LPPClothingUnderPantyhoseBrown
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseGreen
+  equipment:
+    socks: LPPClothingUnderPantyhoseGreen
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseGrey
+  equipment:
+    socks: LPPClothingUnderPantyhoseGrey
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseLightpurple
+  equipment:
+    socks: LPPClothingUnderPantyhoseLightpurple
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseMaroon
+  equipment:
+    socks: LPPClothingUnderPantyhoseMaroon
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseOrange
+  equipment:
+    socks: LPPClothingUnderPantyhoseOrange
+
+- type: loadout
+  id: LOPClothingUnderPantyhose
+  equipment:
+    socks: LPPClothingUnderPantyhose
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseRed
+  equipment:
+    socks: LPPClothingUnderPantyhoseRed
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseTeal
+  equipment:
+    socks: LPPClothingUnderPantyhoseTeal
+
+- type: loadout
+  id: LOPClothingUnderPantyhoseYellow
+  equipment:
+    socks: LPPClothingUnderPantyhoseYellow
+
+- type: loadout
+  id: LOPClothingUnderRainbowKnee
+  equipment:
+    socks: LPPClothingUnderRainbowKnee
+
+- type: loadout
+  id: LOPClothingUnderRainbowThigh
+  equipment:
+    socks: LPPClothingUnderRainbowThigh
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeBlack
+  equipment:
+    socks: LPPClothingUnderSocksKneeBlack
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeBlue
+  equipment:
+    socks: LPPClothingUnderSocksKneeBlue
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeBrown
+  equipment:
+    socks: LPPClothingUnderSocksKneeBrown
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeGreen
+  equipment:
+    socks: LPPClothingUnderSocksKneeGreen
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeGrey
+  equipment:
+    socks: LPPClothingUnderSocksKneeGrey
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeLightpurple
+  equipment:
+    socks: LPPClothingUnderSocksKneeLightpurple
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeMaroon
+  equipment:
+    socks: LPPClothingUnderSocksKneeMaroon
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeOrange
+  equipment:
+    socks: LPPClothingUnderSocksKneeOrange
+
+- type: loadout
+  id: LOPClothingUnderSocksKnee
+  equipment:
+    socks: LPPClothingUnderSocksKnee
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeRed
+  equipment:
+    socks: LPPClothingUnderSocksKneeRed
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeTeal
+  equipment:
+    socks: LPPClothingUnderSocksKneeTeal
+
+- type: loadout
+  id: LOPClothingUnderSocksKneeYellow
+  equipment:
+    socks: LPPClothingUnderSocksKneeYellow
+
+- type: loadout
+  id: LOPClothingUnderSocksNormBlack
+  equipment:
+    socks: LPPClothingUnderSocksNormBlack
+
+- type: loadout
+  id: LOPClothingUnderSocksNormBlue
+  equipment:
+    socks: LPPClothingUnderSocksNormBlue
+
+- type: loadout
+  id: LOPClothingUnderSocksNormBrown
+  equipment:
+    socks: LPPClothingUnderSocksNormBrown
+
+- type: loadout
+  id: LOPClothingUnderSocksNormGreen
+  equipment:
+    socks: LPPClothingUnderSocksNormGreen
+
+- type: loadout
+  id: LOPClothingUnderSocksNormGrey
+  equipment:
+    socks: LPPClothingUnderSocksNormGrey
+
+- type: loadout
+  id: LOPClothingUnderSocksNormLightpurple
+  equipment:
+    socks: LPPClothingUnderSocksNormLightpurple
+
+- type: loadout
+  id: LOPClothingUnderSocksNormMaroon
+  equipment:
+    socks: LPPClothingUnderSocksNormMaroon
+
+- type: loadout
+  id: LOPClothingUnderSocksNormOrange
+  equipment:
+    socks: LPPClothingUnderSocksNormOrange
+
+- type: loadout
+  id: LOPClothingUnderSocksNorm
+  equipment:
+    socks: LPPClothingUnderSocksNorm
+
+- type: loadout
+  id: LOPClothingUnderSocksNormRed
+  equipment:
+    socks: LPPClothingUnderSocksNormRed
+
+- type: loadout
+  id: LOPClothingUnderSocksNormTeal
+  equipment:
+    socks: LPPClothingUnderSocksNormTeal
+
+- type: loadout
+  id: LOPClothingUnderSocksNormYellow
+  equipment:
+    socks: LPPClothingUnderSocksNormYellow
+
+- type: loadout
+  id: LOPClothingUnderSocksShortBlack
+  equipment:
+    socks: LPPClothingUnderSocksShortBlack
+
+- type: loadout
+  id: LOPClothingUnderSocksShortBlue
+  equipment:
+    socks: LPPClothingUnderSocksShortBlue
+
+- type: loadout
+  id: LOPClothingUnderSocksShortBrown
+  equipment:
+    socks: LPPClothingUnderSocksShortBrown
+
+- type: loadout
+  id: LOPClothingUnderSocksShortGreen
+  equipment:
+    socks: LPPClothingUnderSocksShortGreen
+
+- type: loadout
+  id: LOPClothingUnderSocksShortGrey
+  equipment:
+    socks: LPPClothingUnderSocksShortGrey
+
+- type: loadout
+  id: LOPClothingUnderSocksShortLightpurple
+  equipment:
+    socks: LPPClothingUnderSocksShortLightpurple
+
+- type: loadout
+  id: LOPClothingUnderSocksShortMaroon
+  equipment:
+    socks: LPPClothingUnderSocksShortMaroon
+
+- type: loadout
+  id: LOPClothingUnderSocksShortOrange
+  equipment:
+    socks: LPPClothingUnderSocksShortOrange
+
+- type: loadout
+  id: LOPClothingUnderSocksShort
+  equipment:
+    socks: LPPClothingUnderSocksShort
+
+- type: loadout
+  id: LOPClothingUnderSocksShortRed
+  equipment:
+    socks: LPPClothingUnderSocksShortRed
+
+- type: loadout
+  id: LOPClothingUnderSocksShortTeal
+  equipment:
+    socks: LPPClothingUnderSocksShortTeal
+
+- type: loadout
+  id: LOPClothingUnderSocksShortYellow
+  equipment:
+    socks: LPPClothingUnderSocksShortYellow
+
+- type: loadout
+  id: LOPClothingUnderSocksThighBlack
+  equipment:
+    socks: LPPClothingUnderSocksThighBlack
+
+- type: loadout
+  id: LOPClothingUnderSocksThighBlue
+  equipment:
+    socks: LPPClothingUnderSocksThighBlue
+
+- type: loadout
+  id: LOPClothingUnderSocksThighBrown
+  equipment:
+    socks: LPPClothingUnderSocksThighBrown
+
+- type: loadout
+  id: LOPClothingUnderSocksThighGreen
+  equipment:
+    socks: LPPClothingUnderSocksThighGreen
+
+- type: loadout
+  id: LOPClothingUnderSocksThighGrey
+  equipment:
+    socks: LPPClothingUnderSocksThighGrey
+
+- type: loadout
+  id: LOPClothingUnderSocksThighLightpurple
+  equipment:
+    socks: LPPClothingUnderSocksThighLightpurple
+
+- type: loadout
+  id: LOPClothingUnderSocksThighMaroon
+  equipment:
+    socks: LPPClothingUnderSocksThighMaroon
+
+- type: loadout
+  id: LOPClothingUnderSocksThighOrange
+  equipment:
+    socks: LPPClothingUnderSocksThighOrange
+
+- type: loadout
+  id: LOPClothingUnderSocksThigh
+  equipment:
+    socks: LPPClothingUnderSocksThigh
+
+- type: loadout
+  id: LOPClothingUnderSocksThighRed
+  equipment:
+    socks: LPPClothingUnderSocksThighRed
+
+- type: loadout
+  id: LOPClothingUnderSocksThighTeal
+  equipment:
+    socks: LPPClothingUnderSocksThighTeal
+
+- type: loadout
+  id: LOPClothingUnderSocksThighYellow
+  equipment:
+    socks: LPPClothingUnderSocksThighYellow
+
+- type: loadout
+  id: LOPClothingUnderStripedKnee
+  equipment:
+    socks: LPPClothingUnderStripedKnee
+
+- type: loadout
+  id: LOPClothingUnderStripedThigh
+  equipment:
+    socks: LPPClothingUnderStripedThigh
+
+- type: loadout
+  id: LOPClothingUnderThinKneeBlack
+  equipment:
+    socks: LPPClothingUnderThinKneeBlack
+
+- type: loadout
+  id: LOPClothingUnderThinKneeBlue
+  equipment:
+    socks: LPPClothingUnderThinKneeBlue
+
+- type: loadout
+  id: LOPClothingUnderThinKneeBrown
+  equipment:
+    socks: LPPClothingUnderThinKneeBrown
+
+- type: loadout
+  id: LOPClothingUnderThinKneeGreen
+  equipment:
+    socks: LPPClothingUnderThinKneeGreen
+
+- type: loadout
+  id: LOPClothingUnderThinKneeGrey
+  equipment:
+    socks: LPPClothingUnderThinKneeGrey
+
+- type: loadout
+  id: LOPClothingUnderThinKneeLightpurple
+  equipment:
+    socks: LPPClothingUnderThinKneeLightpurple
+
+- type: loadout
+  id: LOPClothingUnderThinKneeMaroon
+  equipment:
+    socks: LPPClothingUnderThinKneeMaroon
+
+- type: loadout
+  id: LOPClothingUnderThinKneeOrange
+  equipment:
+    socks: LPPClothingUnderThinKneeOrange
+
+- type: loadout
+  id: LOPClothingUnderThinKnee
+  equipment:
+    socks: LPPClothingUnderThinKnee
+
+- type: loadout
+  id: LOPClothingUnderThinKneeRed
+  equipment:
+    socks: LPPClothingUnderThinKneeRed
+
+- type: loadout
+  id: LOPClothingUnderThinKneeTeal
+  equipment:
+    socks: LPPClothingUnderThinKneeTeal
+
+- type: loadout
+  id: LOPClothingUnderThinKneeYellow
+  equipment:
+    socks: LPPClothingUnderThinKneeYellow
+
+- type: loadout
+  id: LOPClothingUnderThinThighBlack
+  equipment:
+    socks: LPPClothingUnderThinThighBlack
+
+- type: loadout
+  id: LOPClothingUnderThinThighBlue
+  equipment:
+    socks: LPPClothingUnderThinThighBlue
+
+- type: loadout
+  id: LOPClothingUnderThinThighBrown
+  equipment:
+    socks: LPPClothingUnderThinThighBrown
+
+- type: loadout
+  id: LOPClothingUnderThinThighGreen
+  equipment:
+    socks: LPPClothingUnderThinThighGreen
+
+- type: loadout
+  id: LOPClothingUnderThinThighGrey
+  equipment:
+    socks: LPPClothingUnderThinThighGrey
+
+- type: loadout
+  id: LOPClothingUnderThinThighLightpurple
+  equipment:
+    socks: LPPClothingUnderThinThighLightpurple
+
+- type: loadout
+  id: LOPClothingUnderThinThighMaroon
+  equipment:
+    socks: LPPClothingUnderThinThighMaroon
+
+- type: loadout
+  id: LOPClothingUnderThinThighOrange
+  equipment:
+    socks: LPPClothingUnderThinThighOrange
+
+- type: loadout
+  id: LOPClothingUnderThinThigh
+  equipment:
+    socks: LPPClothingUnderThinThigh
+
+- type: loadout
+  id: LOPClothingUnderThinThighRed
+  equipment:
+    socks: LPPClothingUnderThinThighRed
+
+- type: loadout
+  id: LOPClothingUnderThinThighTeal
+  equipment:
+    socks: LPPClothingUnderThinThighTeal
+
+- type: loadout
+  id: LOPClothingUnderThinThighYellow
+  equipment:
+    socks: LPPClothingUnderThinThighYellow
+
+- type: loadout
+  id: LOPClothingUnderSocksDartBee
+  equipment:
+    socks: LPPClothingUnderSocksDartBee
+
+- type: loadout
+  id: LOPClothingUnderSocksDark
+  equipment:
+    socks: LPPClothingUnderSocksDark
+
+- type: loadout
+  id: LOPClothingUnderSocksDarkBlue
+  equipment:
+    socks: LPPClothingUnderSocksDarkBlue
+
+- type: loadout
+  id: LOPClothingUnderSocksDarkGrid
+  equipment:
+    socks: LPPClothingUnderSocksDarkGrid
+
+- type: loadout
+  id: LOPClothingUnderSocksDarkLace
+  equipment:
+    socks: LPPClothingUnderSocksDarkLace
+
+- type: loadout
+  id: LOPClothingUnderSocksDarkRedLace
+  equipment:
+    socks: LPPClothingUnderSocksDarkRedLace
+
+- type: loadout
+  id: LOPClothingUnderSocksDarkRedLine
+  equipment:
+    socks: LPPClothingUnderSocksDarkRedLine
+
+- type: loadout
+  id: LOPClothingUnderSocksDarkWhiteLace
+  equipment:
+    socks: LPPClothingUnderSocksDarkWhiteLace
+
+- type: loadout
+  id: LOPClothingUnderSocksBlue
+  equipment:
+    socks: LPPClothingUnderSocksBlue
+
+- type: loadout
+  id: LOPClothingUnderSocksMime
+  equipment:
+    socks: LPPClothingUnderSocksMime
+
+- type: loadoutGroup
+  id: LOPsocksloadout
+  name: loadout-group-socks
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - LOPClothingUnderBeeKnee
+  - LOPClothingUnderBeeNorm
+  - LOPClothingUnderBeeThigh
+  - LOPClothingUnderCommieKnee
+  - LOPClothingUnderCommieThigh
+  - LOPClothingUnderPantyhoseBlack
+  - LOPClothingUnderPantyhoseBlue
+  - LOPClothingUnderPantyhoseBrown
+  - LOPClothingUnderPantyhoseGreen
+  - LOPClothingUnderPantyhoseGrey
+  - LOPClothingUnderPantyhoseLightpurple
+  - LOPClothingUnderPantyhoseMaroon
+  - LOPClothingUnderPantyhoseOrange
+  - LOPClothingUnderPantyhose
+  - LOPClothingUnderPantyhoseRed
+  - LOPClothingUnderPantyhoseTeal
+  - LOPClothingUnderPantyhoseYellow
+  - LOPClothingUnderRainbowKnee
+  - LOPClothingUnderRainbowThigh
+  - LOPClothingUnderSocksKneeBlack
+  - LOPClothingUnderSocksKneeBlue
+  - LOPClothingUnderSocksKneeBrown
+  - LOPClothingUnderSocksKneeGreen
+  - LOPClothingUnderSocksKneeGrey
+  - LOPClothingUnderSocksKneeLightpurple
+  - LOPClothingUnderSocksKneeMaroon
+  - LOPClothingUnderSocksKneeOrange
+  - LOPClothingUnderSocksKnee
+  - LOPClothingUnderSocksKneeRed
+  - LOPClothingUnderSocksKneeTeal
+  - LOPClothingUnderSocksKneeYellow
+  - LOPClothingUnderSocksNormBlack
+  - LOPClothingUnderSocksNormBlue
+  - LOPClothingUnderSocksNormBrown
+  - LOPClothingUnderSocksNormGreen
+  - LOPClothingUnderSocksNormGrey
+  - LOPClothingUnderSocksNormLightpurple
+  - LOPClothingUnderSocksNormMaroon
+  - LOPClothingUnderSocksNormOrange
+  - LOPClothingUnderSocksNorm
+  - LOPClothingUnderSocksNormRed
+  - LOPClothingUnderSocksNormTeal
+  - LOPClothingUnderSocksNormYellow
+  - LOPClothingUnderSocksShortBlack
+  - LOPClothingUnderSocksShortBlue
+  - LOPClothingUnderSocksShortBrown
+  - LOPClothingUnderSocksShortGreen
+  - LOPClothingUnderSocksShortGrey
+  - LOPClothingUnderSocksShortLightpurple
+  - LOPClothingUnderSocksShortMaroon
+  - LOPClothingUnderSocksShortOrange
+  - LOPClothingUnderSocksShort
+  - LOPClothingUnderSocksShortRed
+  - LOPClothingUnderSocksShortTeal
+  - LOPClothingUnderSocksShortYellow
+  - LOPClothingUnderSocksThighBlack
+  - LOPClothingUnderSocksThighBlue
+  - LOPClothingUnderSocksThighBrown
+  - LOPClothingUnderSocksThighGreen
+  - LOPClothingUnderSocksThighGrey
+  - LOPClothingUnderSocksThighLightpurple
+  - LOPClothingUnderSocksThighMaroon
+  - LOPClothingUnderSocksThighOrange
+  - LOPClothingUnderSocksThigh
+  - LOPClothingUnderSocksThighRed
+  - LOPClothingUnderSocksThighTeal
+  - LOPClothingUnderSocksThighYellow
+  - LOPClothingUnderStripedKnee
+  - LOPClothingUnderStripedThigh
+  - LOPClothingUnderThinKneeBlack
+  - LOPClothingUnderThinKneeBlue
+  - LOPClothingUnderThinKneeBrown
+  - LOPClothingUnderThinKneeGreen
+  - LOPClothingUnderThinKneeGrey
+  - LOPClothingUnderThinKneeLightpurple
+  - LOPClothingUnderThinKneeMaroon
+  - LOPClothingUnderThinKneeOrange
+  - LOPClothingUnderThinKnee
+  - LOPClothingUnderThinKneeRed
+  - LOPClothingUnderThinKneeTeal
+  - LOPClothingUnderThinKneeYellow
+  - LOPClothingUnderThinThighBlack
+  - LOPClothingUnderThinThighBlue
+  - LOPClothingUnderThinThighBrown
+  - LOPClothingUnderThinThighGreen
+  - LOPClothingUnderThinThighGrey
+  - LOPClothingUnderThinThighLightpurple
+  - LOPClothingUnderThinThighMaroon
+  - LOPClothingUnderThinThighOrange
+  - LOPClothingUnderThinThigh
+  - LOPClothingUnderThinThighRed
+  - LOPClothingUnderThinThighTeal
+  - LOPClothingUnderThinThighYellow
+  - LOPClothingUnderSocksDartBee
+  - LOPClothingUnderSocksDark
+  - LOPClothingUnderSocksDarkBlue
+  - LOPClothingUnderSocksDarkGrid
+  - LOPClothingUnderSocksDarkLace
+  - LOPClothingUnderSocksDarkRedLace
+  - LOPClothingUnderSocksDarkRedLine
+  - LOPClothingUnderSocksDarkWhiteLace
+  - LOPClothingUnderSocksBlue
+  - LOPClothingUnderSocksMime
+  - LOPClothingUnderSocksPink

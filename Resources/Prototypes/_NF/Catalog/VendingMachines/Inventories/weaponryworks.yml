@@ -2,10 +2,10 @@
   id: WeaponryWorksVendInventory
   startingInventory:
     SurvivalKnife: 1
-    WeaponBrassKnuckles: 1 
-    WeaponLaserPistolNF: 1 
-    WeaponRifleGestio: 1 
-    WeaponRifleNovaliteC1: 1 
+    WeaponBrassKnuckles: 1
+    WeaponLaserPistolNF: 1
+    WeaponRifleGestio: 1
+    WeaponRifleNovaliteC1: 1
     WeaponShotgunDoubleBarreled: 1
     WeaponRevolverArgenti: 1
     WeaponPistolUniversal: 1
@@ -25,6 +25,13 @@
     MagazineNovaliteC1Empty: 1
     MagazineLightRifleLowCapacityEmpty: 1
     MagazinePistolEmpty: 1
+#LPP
+    LPPWeaponPistolM1911: 1
+    LPPWeaponMarsRifle: 2
+    LPPWeaponM1Garand: 2
+    LPPMagazineRifleGarand: 2
+    LPPMagazineRifleMars: 2
+    LPPMagazineBoxHunting: 1
   emaggedInventory:
     WeaponPistolViper: 1
 
@@ -55,5 +62,12 @@
     MagazineNovaliteC1Empty: 4294967295
     MagazineLightRifleLowCapacityEmpty: 4294967295
     MagazinePistolEmpty: 4294967295
+#LPP
+    LPPWeaponPistolM1911: 4294967295
+    LPPWeaponMarsRifle: 4294967295
+    LPPWeaponM1Garand: 4294967295
+    LPPMagazineRifleGarand: 4294967295
+    LPPMagazineRifleMars: 4294967295
+    LPPMagazineBoxHunting: 4294967295
   emaggedInventory:
     WeaponPistolViper: 1

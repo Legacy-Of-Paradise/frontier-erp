@@ -1,0 +1,16 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckScarfPG
+  name: pg scarf
+  description: pg scarf
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Neck/Scarfs/pg-scarf.rsi
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHatHoodPGShemag
+    slot: head
+  - type: ContainerContainer
+    containers:
+      toggleable-clothing: !type:ContainerSlot {}
+      storagebase: !type:Container
+        ents: []

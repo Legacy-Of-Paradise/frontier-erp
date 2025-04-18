@@ -96,7 +96,7 @@ namespace Content.Server.Database
             ImmutableArray<ImmutableArray<byte>>? modernHWIds,
             bool includeUnbanned=true);
 
-        Task AddServerBanAsync(ServerBanDef serverBan);
+        Task<ServerBanDef> AddServerBanAsync(ServerBanDef serverBan); // LOP edit
         Task AddServerUnbanAsync(ServerUnbanDef serverBan);
 
         public Task EditServerBan(
@@ -536,7 +536,7 @@ namespace Content.Server.Database
             return RunDbCommand(() => _db.GetServerBansAsync(address, userId, hwId, modernHWIds, includeUnbanned));
         }
 
-        public Task AddServerBanAsync(ServerBanDef serverBan)
+        public Task<ServerBanDef> AddServerBanAsync(ServerBanDef serverBan) // LOP edit
         {
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.AddServerBanAsync(serverBan));
@@ -1027,7 +1027,7 @@ namespace Content.Server.Database
             DbWriteOpsMetric.Inc();
             return RunDbCommand(() => _db.RemoveJobWhitelist(player, job));
         }
-        
+
         // Frontier: ghost role DB ops
         public Task AddGhostRoleWhitelist(Guid player, ProtoId<GhostRolePrototype> ghostRole)
         {

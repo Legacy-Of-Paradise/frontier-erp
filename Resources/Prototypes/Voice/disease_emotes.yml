@@ -17,15 +17,8 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-cough"]
   chatTriggers:
-    - cough
-    - coughs
-    - coughed 
-    - cough.
-    - coughs.
-    - coughed.
-    - cough!
-    - coughs!
-    - coughed!
+    - кашляет
+    - кашель
 
 - type: emote
   id: CatMeow
@@ -64,8 +57,7 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-yawn"]
   chatTriggers:
-    - yawn
-    - yawns
+    - зевает
 
 - type: emote
   id: Snore

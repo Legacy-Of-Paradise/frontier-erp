@@ -1,0 +1,17 @@
+﻿Entries:
+- author: MegaDaimond
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0441\u0442\u0430\u0440\
+      \u044B\u0439 \u043A\u043E\u043D\u0442\u0435\u043D\u0442!"
+    type: Add
+  id: 1
+  time: '2025-04-17T00:38:19.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/21
+- author: Evgencheg
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u0430\u043B\u044C\u0444\
+      \u0430\u0442\u0435\u0441\u0442!"
+    type: Add
+  id: 2
+  time: '2025-04-17T22:12:44.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/40

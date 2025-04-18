@@ -14,7 +14,7 @@
 - type: entity
   id: DebugConsumer
   name: consumer
-  categories: [ HideSpawnMenu ]
+  categories: [ HideSpawnMenu ] # LOP edit
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -60,7 +60,7 @@
 - type: entity
   id: DebugBatteryStorage
   name: battery storage
-  categories: [ HideSpawnMenu ]
+  categories: [ HideSpawnMenu ] # LOP edit
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -94,7 +94,7 @@
 - type: entity
   id: DebugBatteryDischarger
   name: battery discharger
-  categories: [ HideSpawnMenu ]
+  categories: [ HideSpawnMenu ] # LOP edit
   suffix: DEBUG
   placement:
     mode: SnapgridCenter
@@ -156,7 +156,7 @@
 
 - type: entity
   id: DebugPowerReceiver
-  categories: [ HideSpawnMenu ]
+  categories: [ HideSpawnMenu ] # LOP edit
   name: power receiver
   suffix: DEBUG
   placement:

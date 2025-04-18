@@ -7,19 +7,25 @@
   fallbacks:
   - DeputyClothingUniformJumpsuitDeputy
   - DeputyClothingUniformJumpskirtDeputy
-  
+
 - type: loadoutGroup
   id: DeputyOuterClothing
   name: loadout-group-contractor-outerclothing
-  minLimit: 0
   loadouts:
   - NfsdOuterClothing
+  # LOP edit start
+  - LPPNfsdOuterClothingDeputy
+  fallbacks:
+  - NfsdOuterClothing
+  - LPPNfsdOuterClothingDeputy
+  # LOP edit end
 
 - type: loadoutGroup
   id: DeputyHead
   name: loadout-group-contractor-head
-  minLimit: 0
   loadouts:
+  - DeputyClothingHeadHatDeputy
+  fallbacks:
   - DeputyClothingHeadHatDeputy
 
 - type: loadoutGroup

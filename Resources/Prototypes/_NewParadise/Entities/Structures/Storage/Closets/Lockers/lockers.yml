@@ -1,0 +1,12 @@
+- type: entity
+  id: LPPLockerBlueShield
+  name: blue shield locker
+  parent: LockerBaseSecure
+  components:
+  - type: Appearance
+  - type: AccessReader
+    access: [["Captain"]]
+  - type: EntityStorageVisuals
+    stateBaseClosed: hop
+    stateDoorOpen: hop_open
+    stateDoorClosed: representative_door

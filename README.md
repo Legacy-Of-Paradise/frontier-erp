@@ -45,6 +45,10 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 > 4. Запустите `Scripts/sh/runQuickAll.sh` для запуска клиента и сервера.
 > 5. Подключитесь к "localhost" в клиенте.
 
+### Основные решения проблем
+
+Попробуйте удалить папку bin и внутренности RobustToolBox.
+
 ## Лицензия
 
 Контент, добавленный в этот репозиторий после коммита `2fca06eaba205ae6fe3aceb8ae2a0594f0effee0`, лицензируется в соответствии с GNU Affero General Public License версии 3.0, если не указано иное. См. `LICENSE-AGPLv3.txt`.
@@ -64,8 +68,8 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 
 Содержимое в этих подкаталогах происходит из соответствующих форков и может содержать изменения. Эти изменения обозначаются комментариями вокруг измененных строк.
 
-| Subdirectory | Fork Name | Fork Repository | License |
-|--------------|-----------|-----------------|---------|
+| Директория | Название | Ссылка | Лицензия |
+|------------|----------|--------|----------|
 | `_NF` | Frontier Station | https://github.com/new-frontiers-14/frontier-station-14 | AGPL 3.0 |
 | `_CD` | Cosmatic Drift | https://github.com/cosmatic-drift-14/cosmatic-drift | MIT |
 | `_Corvax` | Corvax | https://github.com/space-syndicate/space-station-14 | MIT |
@@ -81,8 +85,8 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 
 Ниже перечислены дополнительные репозитории, из которых мы перенесли функции без подкаталогов.
 
-| Fork Name | Fork Repository | License |
-|-----------|-----------------|---------|
+| Название | Ссылка | Лицензия |
+|----------|--------|----------|
 | Sector Umbra | https://github.com/Sector-Umbra/Sector-Umbra | MIT |
 | Space Station 14 | https://github.com/space-wizards/space-station-14 | MIT |
 | White Dream | https://github.com/WWhiteDreamProject/wwdpublic | AGPL 3.0 |

@@ -1,0 +1,12 @@
+ent-LPPClothingOuterCoatPajamsSharkPink = Розовая акулья пижама
+    .desc = Бэйби шарк, ду ду ду ду ду ду...
+ent-LPPHelmetPajamsSharkPink = Капюшон пижамы в виде акулы
+    .desc = Милота :3
+ent-LPPClothingOuterCoatPajamsSharkBlue = Синяя акулья пижама
+    .desc = Бэйби шарк, ду ду ду ду ду ду...
+ent-LPPHelmetPajamsSharkBlue = Капюшон пижамы в виде акулы
+    .desc = Милота :3
+ent-LPPClothingOuterCoatPajamsSharkGray = Серая акулья пижама
+    .desc = Бэйби шарк, ду ду ду ду ду ду...
+ent-LPPHelmetPajamsSharkGray = Капюшон пижамы в виде акулы
+    .desc = Милота :3

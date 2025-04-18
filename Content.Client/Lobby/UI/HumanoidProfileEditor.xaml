@@ -79,7 +79,7 @@
                                     <Control HorizontalExpand="True"/>
                                     <OptionButton Name="PronounsButton" HorizontalAlignment="Right" />
                                 </BoxContainer>
-                                <!-- Voice -->
+                                <!-- Voice New Paradise Edit -->
                                 <BoxContainer>
                                     <BoxContainer Orientation="Horizontal">
                                         <Label Text="{Loc 'humanoid-profile-editor-voice-label'}" />

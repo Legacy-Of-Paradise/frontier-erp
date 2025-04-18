@@ -1,0 +1,14 @@
+- type: listing
+  id: LPPUplinkLaserKomissar
+  name:  uplink-pirate-laserkomissar-name
+  description: uplink-pirate-laserkomissar-desc
+  productEntity: LPPLaserKomissar
+  cost:
+    Doubloon: 6
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink

@@ -21,6 +21,7 @@
       - id: DrinkDetFlask
       - id: BoxEvidenceMarkers
       - id: HandLabeler
+      - id: LPPClothingOuterDetectiveHardsuit # LOP edit
   - type: AccessReader
     access: [["Detective"]]
 

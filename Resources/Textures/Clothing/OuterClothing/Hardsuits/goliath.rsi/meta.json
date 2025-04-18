@@ -2,7 +2,8 @@
 {
   "version": 1,
   "license": "CC-BY-SA-3.0",
-  "copyright": "Base made by superfreak9111 on discord for Space Station 14, recoloured by momochitters",
+  "copyright": "All sprites created by https://github.com/Pronana / princesscheeseballs (Discord)",
+
   "size": {
     "x": 32,
     "y": 32
@@ -11,8 +12,8 @@
     {
       "name": "icon"
     },
-	{
-      "name": "equipped-NECK",
+    {
+      "name": "equipped-OUTERCLOTHING",
       "directions": 4
     },
     {

@@ -1,1 +1,1 @@
-﻿changelog-tab-title-NewParadise = LOP Updates
+﻿changelog-tab-title-NewParadise = Обновления LOP

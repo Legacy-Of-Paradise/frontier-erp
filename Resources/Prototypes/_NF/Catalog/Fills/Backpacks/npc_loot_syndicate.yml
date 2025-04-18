@@ -306,6 +306,10 @@
   - type: SpawnItemsOnUse
     items:
       - id: WeaponRifleAk
+      # LOP edit start
+        prob: 0.15
+      - id: LPPWeaponRifleMakeshiftAK
+      # LOP edit end
       - id: MagazineLightRifle
       - id: MagazineLightRifle
       - id: ClothingShoesBootsMagSyndie

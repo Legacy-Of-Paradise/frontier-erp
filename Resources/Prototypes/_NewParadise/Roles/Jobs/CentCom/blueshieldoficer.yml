@@ -1,0 +1,70 @@
+# - type: job
+#   id: LPPBlueShieldOfficer
+#   name: job-name-blueshieldofficer
+#   description: job-description-blueshieldofficer
+#   playTimeTracker: JobBlueShieldOfficer
+#   requirements:
+#     - !type:CharacterHeightRequirement
+#       min: 160
+#     - !type:CharacterAgeRequirement
+#       min: 25
+#       max: 80
+#     - !type:CharacterDepartmentTimeRequirement
+#       department: Command
+#       min: 108000
+#     - !type:CharacterDepartmentTimeRequirement
+#       department: Security
+#       min: 108000
+#     - !type:CharacterDepartmentTimeRequirement
+#       department: Medical
+#       min: 72000
+#   startingGear: LPPBlueShieldOfficerGear
+#   icon: "JobIconBlueshield"
+#   supervisors: job-supervisors-centcom
+#   canBeAntag: false
+#   accessGroups:
+#   - AllAccess
+#   special:
+#   - !type:AddImplantSpecial
+#     implants: [ TrackingImplant, MindShieldImplant ]
+
+# - type: playTimeTracker
+#   id: JobBlueShieldOfficer
+
+# - type: startingGear
+#   id: LPPBlueShieldOfficerGear
+#   equipment:
+#     jumpsuit: LPPClothingUniformJumpsuitBlueshield
+#     head: LPPClothingHeadHatBeretBlueshield
+#     back: LPPClothingBackpackBlueshield
+#     shoes: ClothingShoesBootsCombatFilled
+#     eyes: LPPBlueHudGlasses
+#     gloves: ClothingHandsGlovesCombat
+#     outerClothing: LPPClothingOuterArmorBlueshield
+#     neck: LPPClothingNeckCloakBlueshield
+#     id: LPPBlueShieldOfficerPDA
+#     ears: ClothingHeadsetAltCommand
+#     pocket1: LPPBlueshieldlaser
+#     pocket2: HandheldCrewMonitor
+#     belt: ClothingBeltSecurityFilled
+#     socks: LPPClothingUnderSocksNorm
+#     underwear: LPPBoxer
+#   underwear: LPPBriefs
+#   breast: LPPBraAltWhite
+#   satchel: LPPClothingBackpackSatchelBlueshield
+#   duffelbag: LPPClothingBackpackDuffelBlueshield
+#   storage:
+#     back:
+#     - Flash
+
+# - type: entity
+#   id: LPPSpawnBlueShieldOfficer
+#   parent: SpawnPointJobBase
+#   name: BlueShieldOfficer
+#   components:
+#     - type: SpawnPoint
+#       job_id: LPPBlueShieldOfficer
+#     - type: Sprite
+#       layers:
+#         - state: green
+#         - state: ertleader

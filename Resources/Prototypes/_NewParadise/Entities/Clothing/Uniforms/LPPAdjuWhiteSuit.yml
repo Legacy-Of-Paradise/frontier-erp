@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: LPPAdjuWhiteSuit
+  name: White Adjutant's suit
+  description: The white version of the adjutant's costume is something between a schoolboy and an office plankton.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/LPPAdjuWhiteSuit.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/LPPAdjuWhiteSuit.rsi

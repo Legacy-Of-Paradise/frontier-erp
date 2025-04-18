@@ -1,0 +1,54 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatSherif
+  name: NFSD Sheriff cap
+  description: UBI CONCORDIA IBI VICTORIA.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/hatsherif.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/hatsherif.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatDeputySherif
+  name: NFSD Deputy sheriff cap
+  description: Try to correct her more often, it will give you the appearance of a serious person... Probably.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/deputyhat.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/deputyhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCowboyDeputySherif
+  name: NFSD Deputy sheriff cowboy cap
+  description: In God We Trust.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/deputysherifhat.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/deputysherifhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCowboy
+  name: NFSD cowboy hat
+  description: Yippee ki-yay, mazafaka!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/cowboyhat.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/cowboyhat.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: LPPClothingHeadHatCowboySerjSherif
+  name: NFSD sergeant cowboy hat
+  description: "Nothing without the Deity"
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/serjsherifhat.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/serjsherifhat.rsi

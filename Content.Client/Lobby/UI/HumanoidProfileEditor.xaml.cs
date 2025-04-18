@@ -9,7 +9,7 @@ using Content.Client.Players.PlayTimeTracking;
 using Content.Client.Sprite;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.Guidebook;
-using Content.Shared._NewParadise.TTS;
+using Content.Shared._NewParadise.TTS; // LOP edit
 using Content.Shared.CCVar;
 using Content.Shared.Clothing;
 using Content.Shared.GameTicking;
@@ -202,7 +202,7 @@ namespace Content.Client.Lobby.UI
 
             #region Voice
 
-            InitializeVoice();
+            InitializeVoice(); // LOP edit
 
             #endregion
 
@@ -776,7 +776,7 @@ namespace Content.Client.Lobby.UI
             UpdateHairPickers();
             UpdateCMarkingsHair();
             UpdateCMarkingsFacialHair();
-            UpdateTTSVoicesControls();
+            UpdateTTSVoicesControls(); // LOP edit
 
             RefreshAntags();
             RefreshJobs();
@@ -1206,7 +1206,7 @@ namespace Content.Client.Lobby.UI
             }
 
             UpdateGenderControls();
-            UpdateTTSVoicesControls();
+            UpdateTTSVoicesControls(); // LOP edit
             Markings.SetSex(newSex);
             ReloadPreview();
         }
@@ -1651,7 +1651,7 @@ namespace Content.Client.Lobby.UI
             }
         }
 
-        //New paradise start
+        // LOP edit start
         private void SetVoice(ProtoId<TTSVoicePrototype> newVoice)
         {
             if (Profile == null)
@@ -1663,7 +1663,7 @@ namespace Content.Client.Lobby.UI
 
             SetDirty();
         }
-        //New paradise end
+        // LOP edit end
 
         private void StartExport()
         {

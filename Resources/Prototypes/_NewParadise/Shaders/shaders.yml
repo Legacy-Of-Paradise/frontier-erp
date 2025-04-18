@@ -1,0 +1,9 @@
+# - type: shader
+#   id: ColorTint
+#   kind: source
+#   path: "/Textures/_NewParadise/Shaders/color_tint.swsl"
+
+- type: shader
+  id: SeeingStatic
+  kind: source
+  path: "/Textures/_NewParadise/Shaders/seeing_static.swsl"
