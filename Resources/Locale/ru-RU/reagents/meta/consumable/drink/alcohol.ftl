@@ -214,3 +214,5 @@ reagent-name-whiskey-sour = виски сауэр
 reagent-desc-whiskey-sour = Какой секретный ингредиент? Яйца. Это яйца.
 reagent-name-zombiecocktail = Зомби
 reagent-desc-zombiecocktail = Он проникает в вашу голову. В голову.
+reagent-name-bacchus-blessing = благословение бахуса
+reagent-desc-bacchus-blessing = Вы не думали, что жидкость может быть настолько отвратительной. Вы уверены в этом...?
