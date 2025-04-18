@@ -11,6 +11,8 @@ trait-streetpunk-accent-name = Панковский акцент
 trait-streetpunk-accent-desc = Ты родился в огромном мегаполисе и никогда не ходил в школу. И это видно, чум.
 trait-clumsy-name = Неуклюжий
 trait-clumsy-desc = Ты очень неуклюжий! Некоторые действия, например стрельба, сложнее.
+trait-unclonable-name = Неклонируемый
+trait-unclonable-desc = Будь то из-за административной ошибки или аномальной генетики, ваши гены не секвенированы NT, и вы не можете быть клонированы.
 # These traits are bound to be replaced with a slider, but they live here for now.
 trait-tall-name = Высокий
 trait-short-name = Низкий
