@@ -1,10 +1,10 @@
 meta:
   format: 7
   category: Map
-  engineVersion: 248.0.2
+  engineVersion: 250.0.0
   forkId: ""
   forkVersion: ""
-  time: 04/18/2025 20:02:33
+  time: 04/18/2025 20:09:24
   entityCount: 6107
 maps:
 - 5691
@@ -3904,7 +3904,7 @@ entities:
             0: 47887
           -9,3:
             0: 34831
-            3: 8704
+            2: 8704
           -8,4:
             0: 2187
             1: 768
@@ -4044,13 +4044,13 @@ entities:
             0: 63675
           -10,3:
             0: 13071
-            2: 34816
+            3: 34816
           -10,4:
             0: 3
-            2: 8
+            3: 8
             1: 3840
           -9,4:
-            3: 2
+            2: 2
             0: 8
             1: 3840
           -16,0:
@@ -4358,8 +4358,8 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
-          - 0
           - 6666.982
+          - 0
           - 0
           - 0
           - 0
@@ -4373,8 +4373,8 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
-          - 6666.982
           - 0
+          - 6666.982
           - 0
           - 0
           - 0
@@ -4814,7 +4814,7 @@ entities:
       pos: -8.5,15.5
       parent: 2173
     - type: Door
-      secondsUntilStateChange: -146.53886
+      secondsUntilStateChange: -169.00545
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -5719,8 +5719,6 @@ entities:
       pos: -11.5,27.5
       parent: 2173
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 6008
 - proto: AltarSpawner
@@ -19945,8 +19943,6 @@ entities:
       pos: -6.5,26.5
       parent: 2173
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 6008
   - uid: 1388
@@ -19956,8 +19952,6 @@ entities:
       pos: -9.5,25.5
       parent: 2173
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 6008
   - uid: 2245
@@ -20472,8 +20466,6 @@ entities:
       pos: -13.5,28.5
       parent: 2173
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 6008
   - uid: 5946
