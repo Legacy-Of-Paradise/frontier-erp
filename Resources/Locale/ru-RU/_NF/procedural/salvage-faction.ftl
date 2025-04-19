@@ -8,5 +8,5 @@ nf-salvage-faction-argocytes = Аргоциты
 nf-salvage-faction-dinosaurs = Динозавры
 nf-salvage-faction-mercenaries = Наёмники
 nf-salvage-faction-explorers = Исследователи
-nf-salvage-faction-silicons = Силоконы
+nf-salvage-faction-silicons = Силиконы
 nf-salvage-faction-punks = Бандиты

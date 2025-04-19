@@ -7,7 +7,7 @@
   category: Large
   group: Security
   access: Bailiff
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/wasp.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/wasp.yml
   guidebookPage: Null
   class:
   - Capital
@@ -19,7 +19,7 @@
 - type: gameMap
   id: Wasp
   mapName: 'NSF Wasp'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/wasp.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/wasp.yml
   minPlayers: 0
   stations:
     Wasp:

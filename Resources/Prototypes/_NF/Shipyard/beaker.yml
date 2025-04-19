@@ -2,11 +2,11 @@
   id: Beaker
   parent: BaseVessel
   name: SBI Beaker
-  description: "A fully functional Chemistry Lab. Perfect for the prospecting chemist or high school chemistry teachers. Yeah, Science!"
+  description: "Полнофункциональная химическая лаборатория в космосе! Идеально подходит для химиков-исследователей или учителей химии в старших классах. Слава науке!"
   price: 65000
   category: Small
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/beaker.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/beaker.yml
   guidebookPage: Null
   class:
   - Chemistry

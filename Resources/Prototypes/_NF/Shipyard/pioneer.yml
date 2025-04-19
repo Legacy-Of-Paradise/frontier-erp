@@ -12,11 +12,11 @@
   id: Pioneer
   parent: BaseVessel
   name: LVHI Pioneer
-  description: A cargo container outfitted to be space-capable and equipped for salvaging and mining either on its own or as part of a fleet. Manufactured by Langstad-Voigt Heavy Industries.
+  description: Летающий грузовой ящик, оборудованный для работы в космосе и позволяющий проводить спасательные и горнодобывающие работы как самостоятельно, так и в составе целого флота! Произведено Лангстад-Фойгт Хэви Индастриз.
   price: 11250 # ~9781$ on mapinit + 15% markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/pioneer.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/pioneer.yml
   guidebookPage: ShipyardPioneer
   class:
   - Salvage
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Pioneer
   mapName: 'Pioneer'
-  mapPath: /Maps/_NF/Shuttles/pioneer.yml
+  mapPath: /Maps/_NewParadise/Shuttles/pioneer.yml
   minPlayers: 0
   stations:
     Pioneer:

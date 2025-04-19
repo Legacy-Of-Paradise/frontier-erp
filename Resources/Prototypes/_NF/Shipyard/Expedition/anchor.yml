@@ -16,7 +16,7 @@
   price: 140000 # $108432 after appraisal +30ish% (~32000)
   category: Large
   group: Expedition
-  shuttlePath: /Maps/_NF/Shuttles/Expedition/anchor.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/anchor.yml
   guidebookPage: Null
   class:
   - Expedition
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Anchor
   mapName: 'KC Anchor'
-  mapPath: /Maps/_NF/Shuttles/Expedition/anchor.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Expedition/anchor.yml
   minPlayers: 0
   stations:
     Anchor:

@@ -35,7 +35,7 @@
         - type: PreventPilot
         - type: ForceAnchor # Added post-FTL, so anchoring is fine.
         paths:
-        - /Maps/_NF/Bluespace/cache.yml
+        - /Maps/_NewParadise/Bluespace/cache.yml
     rewardAccounts:
       Nfsd: 1.0
 
@@ -75,7 +75,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NF/Bluespace/vault.yml
+        - /Maps/_NewParadise/Bluespace/vault.yml
     rewardAccounts:
       Nfsd: 1.0
 
@@ -116,7 +116,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NF/Bluespace/vaultsmall.yml
+        - /Maps/_NewParadise/Bluespace/vaultsmall.yml
     rewardAccounts:
       Nfsd: 1.0
 
@@ -155,7 +155,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NF/Bluespace/syndieftlintercept.yml
+        - /Maps/_NewParadise/Bluespace/syndieftlintercept.yml
 
 - type: entity
   id: BluespaceWizardFederationScout
@@ -192,7 +192,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NF/Bluespace/wizardprobealt.yml
+        - /Maps/_NewParadise/Bluespace/wizardprobealt.yml
 
 - type: entity
   id: BluespaceBloodMoon
@@ -229,7 +229,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NF/Bluespace/bloodmoon.yml
+        - /Maps/_NewParadise/Bluespace/bloodmoon.yml
 
 - type: entity
   id: BluespaceCave
@@ -264,7 +264,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NF/Bluespace/cave.yml
+        - /Maps/_NewParadise/Bluespace/cave.yml
 
 - type: entity
   id: NFBluespaceBrokenMcDelivery
@@ -298,4 +298,4 @@
           preventArtifactTriggers: true
         - type: PreventPilot
         paths:
-        - /Maps/_NF/Bluespace/mcevent.yml
+        - /Maps/_NewParadise/Bluespace/mcevent.yml

@@ -6,7 +6,7 @@
   price: 166138
   category: Large
   group: Scrap
-  shuttlePath: /Maps/_NF/Shuttles/Scrap/bison.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/bison.yml
   guidebookPage: Null
   class:
   - Scrapyard
@@ -18,9 +18,9 @@
 - type: gameMap
   id: Bison
   mapName: 'NT Bison'
-  mapPath: /Maps/_NF/Shuttles/Scrap/bison.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Scrap/bison.yml
   minPlayers: 0
-  stations: 
+  stations:
     Bison:
       stationProto: StandardFrontierVessel
       components:

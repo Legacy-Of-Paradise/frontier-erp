@@ -12,11 +12,11 @@
   id: PTS
   parent: BaseVessel
   name: NC Personal Transport
-  description: A small transport shuttle with space for 4 passengers. Comes with the latest audio entertainment technology.
+  description: Небольшой транспортный шаттл с местом для 4 пассажиров. Оснащен новейшими аудиоразвлекательными технологиями.
   price: 17500 # $16634 after appraisal + ~5% markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/pts.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/pts.yml
   guidebookPage: Null
   class:
   - Civilian

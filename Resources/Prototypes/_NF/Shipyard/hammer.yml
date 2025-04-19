@@ -12,11 +12,11 @@
   id: Hammer
   parent: BaseVessel
   name: SBB Hammer
-  description: A mobile engineering platform for deep-space repairs, upgrades and remodelling.
+  description: Мобильная инженерная платформа в глубоком космосе. Ремонт, апгрейд, модернизация!
   price: 44000 # Appraises at 38257, ~15% markup
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/hammer.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/hammer.yml
   guidebookPage: ShipyardHammer
   class:
   - Engineering
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Hammer
   mapName: 'SBB Hammer'
-  mapPath: /Maps/_NF/Shuttles/hammer.yml
+  mapPath: /Maps/_NewParadise/Shuttles/hammer.yml
   minPlayers: 0
   stations:
     Hammer:

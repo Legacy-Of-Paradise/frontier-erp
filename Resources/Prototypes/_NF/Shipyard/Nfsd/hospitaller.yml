@@ -7,7 +7,7 @@
   category: Small
   group: Security
   access: Security
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/hospitaller.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/hospitaller.yml
   guidebookPage: Null
   class:
   - Medical
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Hospitaller
   mapName: 'NSF Hospitaller'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/hospitaller.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/hospitaller.yml
   minPlayers: 0
   stations:
     Hospitaller:

@@ -1,6 +1,6 @@
 deaddrop-shuttle-name = Сброс припасов Синдиката
 deaddrop-search-text = Искать ближе
-deaddrop-hint-pretext = Десантная капсула Синдиката будет отправлена ​​по следующим координатам:
+deaddrop-hint-pretext = Десантная капсула Синдиката будет отправлена по следующим координатам:
 deaddrop-hint-posttext = Наши внутренние агенты заплатят любому, кто захочет переправить эти товары на территорию NanoTrasen.
 deaddrop-hint-next-drop = Ожидайте следующего падения здесь { $time }.
 deaddrop-hint-name = аккуратно сложенная бумага
@@ -14,4 +14,4 @@ deaddrop-faxed-hint-name = Подозрительный факс
 deaddrop-faxed-hint-content =
     Не так много времени.
     Синдикат нуждается в помощи.
-deaddrop-faxed-hint-signature = Синдикат локистикс
+deaddrop-faxed-hint-signature = Синдикат логистикс

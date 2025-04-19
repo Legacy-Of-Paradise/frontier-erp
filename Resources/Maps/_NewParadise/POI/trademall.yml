@@ -6922,7 +6922,7 @@ entities:
   - uid: 3953
     components:
     - type: MetaData
-      name: ЛКП штерн
+      name: ЛКП штерна
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -1.5,-9.5

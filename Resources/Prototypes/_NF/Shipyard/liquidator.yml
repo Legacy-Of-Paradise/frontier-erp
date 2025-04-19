@@ -12,11 +12,11 @@
   id: Liquidator
   parent: BaseVessel
   name: LVHI Liquidator
-  description: A small shipbreaker/salvage vessel equipped with everything a small crew need for extended work shift in deep space. Manufactured by Langstad-Voigt Heavy Industries.
+  description: Небольшое судно для утилизации кораблей, или их спасения, оборудованный всем необходимым для долгой работы небольшого экипажа. Произведено Лангстад-Фойгт Хэви Индастриз.
   price: 27500 # ~25000$ on mapinit + 10% markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/liquidator.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/liquidator.yml
   guidebookPage: ShipyardLiquidator
   class:
   - Salvage
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Liquidator
   mapName: 'Liquidator'
-  mapPath: /Maps/_NF/Shuttles/liquidator.yml
+  mapPath: /Maps/_NewParadise/Shuttles/liquidator.yml
   minPlayers: 0
   stations:
     Liquidator:

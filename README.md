@@ -1,6 +1,4 @@
-# Legacy Of Paradise
-
-<p align="center"> <img alt="Frontier Station 14" width="880" height="300" src="https://github.com/new-frontiers-14/frontier-station-14/blob/30cdc70d8fcbf52f949337150bf42338ececbd80/Resources/Textures/Logo/logo.png?raw=true" /></p>
+<p align="center"> <img alt="Frontier Station 14" width="653" height="256" src="https://github.com/Legacy-Of-Paradise/frontier-erp/blob/master/Resources/Textures/_NewParadise/Logo/logo.png?raw=true" /></p>
 
 Frontier Station 14 — это форк [Space Station 14](https://github.com/space-wizards/space-station-14), работающий на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
@@ -90,3 +88,5 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 | Sector Umbra | https://github.com/Sector-Umbra/Sector-Umbra | MIT |
 | Space Station 14 | https://github.com/space-wizards/space-station-14 | MIT |
 | White Dream | https://github.com/WWhiteDreamProject/wwdpublic | AGPL 3.0 |
+
+![Alt](https://repobeats.axiom.co/api/embed/f3b7ade55d5c177fcfbfc914d75d97bef17c175b.svg "Repobeats analytics image")

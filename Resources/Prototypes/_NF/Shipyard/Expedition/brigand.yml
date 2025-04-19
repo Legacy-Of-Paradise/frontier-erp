@@ -16,7 +16,7 @@
   price: 55500 # ~42645$ on mapinit + ~12800$ from 30% markup
   category: Medium
   group: Expedition
-  shuttlePath: /Maps/_NF/Shuttles/Expedition/brigand.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/brigand.yml
   guidebookPage: ShipyardBrigand
   class:
   - Expedition
@@ -26,9 +26,9 @@
 - type: gameMap
   id: Brigand
   mapName: 'Brigand'
-  mapPath: /Maps/_NF/Shuttles/Expedition/brigand.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Expedition/brigand.yml
   minPlayers: 0
-  stations: 
+  stations:
     Brigand:
       stationProto: StandardFrontierExpeditionVessel
       components:

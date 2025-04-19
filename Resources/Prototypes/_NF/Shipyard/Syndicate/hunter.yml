@@ -6,7 +6,7 @@
   price: 50000
   category: Small
   group: Syndicate
-  shuttlePath: /Maps/_NF/Shuttles/Syndicate/hunter.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Syndicate/hunter.yml
   guidebookPage: Null
   class:
   - Syndicate
@@ -16,7 +16,7 @@
 - type: gameMap
   id: Hunter
   mapName: 'Hunter'
-  mapPath: /Maps/_NF/Shuttles/Syndicate/hunter.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Syndicate/hunter.yml
   minPlayers: 0
   stations:
     Hunter:
