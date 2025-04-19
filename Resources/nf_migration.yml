@@ -295,3 +295,6 @@ ClothingNeckCloakBi: null
 ClothingNeckCloakAro: null
 ClothingNeckCloakAce: null
 ClothingNeckCloakTrans: null
+
+# 2025-03-28 Vehicle
+SpawnVehicleHoverbikeNF: NFSpawnVehicleHoverbike

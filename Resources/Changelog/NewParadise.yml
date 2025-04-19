@@ -42,3 +42,11 @@
   id: 5
   time: '2025-04-18T20:55:39.0000000+00:00'
   url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/44
+- author: Evgencheg
+  changes:
+  - message: "\u041F\u0440\u043E\u0432\u0435\u0434\u0451\u043D \u0430\u043F\u0441\u0442\
+      \u0440\u0438\u043C!"
+    type: Tweak
+  id: 6
+  time: '2025-04-19T19:07:16.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/43
