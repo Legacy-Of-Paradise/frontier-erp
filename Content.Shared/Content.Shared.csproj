@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="JetBrains.Annotations" PrivateAssets="All" />
   </ItemGroup>
+  <Import Project="../Content.Shared/_PrivateShared/LOP_GlobalDefines.props" Condition="Exists('../Content.Shared/_PrivateShared/LOP_GlobalDefines.props')" />
   <ItemGroup>
     <ProjectReference Include="..\Content.Shared.Database\Content.Shared.Database.csproj" />
     <ProjectReference Include="..\RobustToolbox\Lidgren.Network\Lidgren.Network.csproj">

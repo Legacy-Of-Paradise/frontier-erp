@@ -47,6 +47,10 @@ namespace Content.Server.Database
         public DbSet<BanTemplate> BanTemplate { get; set; } = null!;
         public DbSet<IPIntelCache> IPIntelCache { get; set; } = null!;
 
+#if LOP_Sponsors
+        public DbSet<Sponsor> Sponsors { get; set; } = null!;
+#endif
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Preference>()
@@ -83,6 +87,11 @@ namespace Content.Server.Database
                 .HasForeignKey(e => e.ProfileLoadoutGroupId)
                 .IsRequired();
 
+#if LOP_Sponsors
+            modelBuilder.Entity<Sponsor>()
+                .HasIndex(p => p.UserId)
+                .IsUnique();
+#endif
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);
 
@@ -1335,4 +1344,19 @@ namespace Content.Server.Database
         /// </summary>
         public float Score { get; set; }
     }
+
+#if LOP_Sponsors
+    [Table("sponsors")]
+    public class Sponsor
+    {
+        [Required, Key] public Guid UserId { get; set; }
+        public int Tier { get; set; }
+        public string OOCColor { get; set; } = "#00FF00";
+        public bool HavePriorityJoin { get; set; }
+        public string AllowedMarkings { get; set; } = null!;
+        public int ExtraSlots { get; set; }
+        //public DateTime ExpireDate {get;set;}
+        public bool AllowJob { get; set; } = false;
+    }
+#endif
 }
