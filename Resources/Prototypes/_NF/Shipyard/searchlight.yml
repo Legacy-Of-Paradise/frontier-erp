@@ -12,11 +12,11 @@
   id: Searchlight
   parent: BaseVessel
   name: LVHI Searchlight
-  description: Небольшое судно, оборудованное для поиска и эвакуации раненых военнослужащих ДШНГ. Произведено Лангстад-Фойгт Хэви Индастриз.
+  description: "Небольшое судно, оборудованное для поиска и эвакуации раненых военнослужащих ДШНГ. Произведено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
   price: 30000 # ~25988$ on mapinit + 15% markup
   category: Small
   group: Medical
-  shuttlePath: /Maps/_NewParadise/Shuttles/searchlight.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/searchlight.yml # LOP edit
   guidebookPage: ShipyardSearchlight
   class:
   - Medical
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Searchlight
   mapName: 'Searchlight'
-  mapPath: /Maps/_NewParadise/Shuttles/searchlight.yml
+  mapPath: /Maps/_NewParadise/Shuttles/searchlight.yml # LOP edit
   minPlayers: 0
   stations:
     Searchlight:

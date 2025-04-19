@@ -15,7 +15,7 @@
   minimumDistance: 1500
   maximumDistance: 2500
   spawnGroup: MarketStation
-  gridPath: /Maps/_NewParadise/POI/trade.yml
+  gridPath: /Maps/_NewParadise/POI/trade.yml # LOP edit
   addComponents:
   - type: IFF
     color: "#37C837"
@@ -38,7 +38,7 @@
 - type: gameMap
   id: Trade
   mapName: 'Торговый аванпост'
-  mapPath: /Maps/_NewParadise/POI/trade.yml
+  mapPath: /Maps/_NewParadise/POI/trade.yml # LOP edit
   minPlayers: 0
   stations:
     Trade:

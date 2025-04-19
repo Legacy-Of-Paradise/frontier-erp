@@ -12,11 +12,11 @@
   id: Piecrust
   parent: BaseVessel
   name: NC Piecrust
-  description: Ферма-пекарня: и коровы, и караваи!
+  description: "Ферма-пекарня: и коровы, и караваи!" #LOP Edit
   price: 35000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/piecrust.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/piecrust.yml # LOP edit
   guidebookPage: Null
   class:
   - Kitchen
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Piecrust
   mapName: 'NT Piecrust'
-  mapPath: /Maps/_NewParadise/Shuttles/piecrust.yml
+  mapPath: /Maps/_NewParadise/Shuttles/piecrust.yml # LOP edit
   minPlayers: 0
   stations:
     Piecrust:

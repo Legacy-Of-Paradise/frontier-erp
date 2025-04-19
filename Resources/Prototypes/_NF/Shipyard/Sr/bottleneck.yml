@@ -12,12 +12,12 @@
   id: Bottleneck
   parent: BaseVessel
   name: NT Bottleneck
-  description: A personal transport and mobile office for the station representative.
+  description: "Личный транспорт и мобильный офис для представителя станции." #LOP Edit
   price: 18000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Sr
   access: HeadOfPersonnel
-  shuttlePath: /Maps/_NewParadise/Shuttles/Sr/bottleneck.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Sr/bottleneck.yml # LOP edit
   guidebookPage: Null
   class:
   - Civilian
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Bottleneck
   mapName: 'NT Bottleneck'
-  mapPath: /Maps/_NewParadise/Shuttles/Sr/bottleneck.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Sr/bottleneck.yml # LOP edit
   minPlayers: 0
   stations:
     Bottleneck:

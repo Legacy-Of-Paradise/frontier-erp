@@ -15,7 +15,7 @@
   minimumDistance: 3250
   maximumDistance: 5600
   spawnGroup: Scrapyard
-  gridPath: /Maps/_NewParadise/POI/grifty.yml
+  gridPath: /Maps/_NewParadise/POI/grifty.yml # LOP edit
   addComponents:
   - type: StationTransit
     routes:
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Grifty
   mapName: "Бензин и жратва от Грифти"
-  mapPath: /Maps/_NewParadise/POI/grifty.yml
+  mapPath: /Maps/_NewParadise/POI/grifty.yml # LOP edit
   minPlayers: 0
   stations:
     Grifty:

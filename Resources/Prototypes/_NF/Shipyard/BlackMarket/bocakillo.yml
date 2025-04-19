@@ -12,11 +12,11 @@
   id: Bocakillo
   parent: BaseVesselAntag
   name: Bocakillo
-  description: A tiny plastitanium vessel suited to a crew of 2 to 3 pirates. Has two broadside cannons and a rear-facing disposals launcher. Runs on plasma.
+  description: "Крошечное судно, рассчитанное на экипаж из 2-3 пиратов. Имеет две бортовые пушки и расположенную сзади пусковую установку для уничтожения. Работает на плазме." #LOP Edit
   price: 35000 #Cheap
   category: Small
   group: BlackMarket
-  shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/bocakillo.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/bocakillo.yml # LOP edit
   guidebookPage: Null
   class:
   - Pirate
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Bocakillo
   mapName: 'Bocakillo'
-  mapPath: /Maps/_NewParadise/Shuttles/BlackMarket/bocakillo.yml
+  mapPath: /Maps/_NewParadise/Shuttles/BlackMarket/bocakillo.yml # LOP edit
   minPlayers: 0
   stations:
     Bocakillo:

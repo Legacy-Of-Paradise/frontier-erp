@@ -14,7 +14,7 @@
   name: "Казино сумасшедшего Кейси"
   minimumDistance: 3250
   maximumDistance: 5600
-  gridPath: /Maps/_NewParadise/POI/caseyscasino.yml
+  gridPath: /Maps/_NewParadise/POI/caseyscasino.yml # LOP edit
   addComponents:
   - type: StationTransit
     routes:
@@ -23,7 +23,7 @@
 - type: gameMap
   id: CaseysCasino
   mapName: "Казино сумасшедшего Кейси"
-  mapPath: /Maps/_NewParadise/POI/caseyscasino.yml
+  mapPath: /Maps/_NewParadise/POI/caseyscasino.yml # LOP edit
   minPlayers: 0
   stations:
     CaseysCasino:

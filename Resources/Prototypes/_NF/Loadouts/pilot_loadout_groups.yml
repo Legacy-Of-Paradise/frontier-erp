@@ -4,6 +4,7 @@
   loadouts:
   - PilotClothingUniformJumpsuitPilot
   - PilotClothingUniformJumpsuitMilitaryPilot
+  # LOP edit
   subgroups:
   - ContractorJumpsuit
   fallbacks:

@@ -6,6 +6,6 @@
 
 - type: loadout
   id: MercenaryClothingEyesGlassesSunglasses
-  price: 400
+  price: 400 # LOP edit
   equipment:
     eyes: ClothingEyesGlassesSunglasses

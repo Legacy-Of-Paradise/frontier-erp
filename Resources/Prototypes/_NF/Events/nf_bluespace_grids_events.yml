@@ -35,7 +35,7 @@
         - type: PreventPilot
         - type: ForceAnchor # Added post-FTL, so anchoring is fine.
         paths:
-        - /Maps/_NewParadise/Bluespace/cache.yml
+        - /Maps/_NewParadise/Bluespace/cache.yml # LOP edit
     rewardAccounts:
       Nfsd: 1.0
 
@@ -75,7 +75,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NewParadise/Bluespace/vault.yml
+        - /Maps/_NewParadise/Bluespace/vault.yml # LOP edit
     rewardAccounts:
       Nfsd: 1.0
 
@@ -116,7 +116,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NewParadise/Bluespace/vaultsmall.yml
+        - /Maps/_NewParadise/Bluespace/vaultsmall.yml # LOP edit
     rewardAccounts:
       Nfsd: 1.0
 
@@ -155,7 +155,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NewParadise/Bluespace/syndieftlintercept.yml
+        - /Maps/_NewParadise/Bluespace/syndieftlintercept.yml # LOP edit
 
 - type: entity
   id: BluespaceWizardFederationScout
@@ -192,7 +192,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NewParadise/Bluespace/wizardprobealt.yml
+        - /Maps/_NewParadise/Bluespace/wizardprobealt.yml # LOP edit
 
 - type: entity
   id: BluespaceBloodMoon
@@ -229,7 +229,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NewParadise/Bluespace/bloodmoon.yml
+        - /Maps/_NewParadise/Bluespace/bloodmoon.yml # LOP edit
 
 - type: entity
   id: BluespaceCave
@@ -264,7 +264,7 @@
         - type: PreventPilot
         - type: ForceAnchor
         paths:
-        - /Maps/_NewParadise/Bluespace/cave.yml
+        - /Maps/_NewParadise/Bluespace/cave.yml # LOP edit
 
 - type: entity
   id: NFBluespaceBrokenMcDelivery
@@ -298,4 +298,4 @@
           preventArtifactTriggers: true
         - type: PreventPilot
         paths:
-        - /Maps/_NewParadise/Bluespace/mcevent.yml
+        - /Maps/_NewParadise/Bluespace/mcevent.yml # LOP edit

@@ -13,13 +13,13 @@
   id: Watchdog
   parent: BaseVessel
   name: SBI Watchdog
-  description: "A refurbished and repainted older model of the NSF Templar for use for Mercenaries and 'repurposed' for the Station Guard, mind the gap."
+  description: "Обновленная и перекрашенная старая модель "Тамплиера" NSF, предназначенная для использования наемниками и "перепрофилированная" для станционной охраны, обратите внимание на пробел." #LOP Edit
   price: 20000
   category: Small
   group: Sr
   access: Brig # Oddball, matches guard ID, specific enough to exclude cadets
   mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
-  shuttlePath: /Maps/_NewParadise/Shuttles/Sr/watchdog.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Sr/watchdog.yml # LOP edit
   guidebookPage: Null
   class:
   - Civilian
@@ -29,7 +29,7 @@
 - type: gameMap
   id: Watchdog
   mapName: 'SBI Watchdog'
-  mapPath: /Maps/_NewParadise/Shuttles/Sr/watchdog.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Sr/watchdog.yml # LOP edit
   minPlayers: 0
   stations:
     Watchdog:

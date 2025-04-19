@@ -12,11 +12,11 @@
   id: Lyrae
   parent: BaseVessel
   name: SBB Lyrae
-  description: Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии.
+  description: "Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии." #LOP Edit
   price: 60000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/lyrae.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/lyrae.yml # LOP edit
   guidebookPage: Null
   class:
   - Science
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Lyrae
   mapName: 'SBB Lyrae'
-  mapPath: /Maps/_NF/Shuttles/lyrae.yml
+  mapPath: /Maps/_NewParadise/Shuttles/lyrae.yml # LOP edit
   minPlayers: 0
   stations:
     Lyrae:

@@ -12,11 +12,11 @@
 - type: pointOfInterest
   id: McHobo
   parent: BasePOI
-  name: Derelict McCargo
+  name: Заброшенный McCargo
   minimumDistance: 3250
   maximumDistance: 5600
   spawnGroup: Scrapyard
-  gridPath: /Maps/_NewParadise/POI/mchobo.yml
+  gridPath: /Maps/_NewParadise/POI/mchobo.yml # LOP edit
   addComponents:
   - type: StationTransit
     routes:
@@ -25,7 +25,7 @@
 - type: gameMap
   id: McHobo
   mapName: "Заброшенный McCargo"
-  mapPath: /Maps/_NewParadise/POI/mchobo.yml
+  mapPath: /Maps/_NewParadise/POI/mchobo.yml # LOP edit
   minPlayers: 0
   stations:
     McHobo:

@@ -25,7 +25,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Трафик менеджер Аванпоста"
+    name: "Трафик менеджер Аванпоста" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -34,7 +34,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Представитель фронтира"
+    name: "Представитель фронтира" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -43,7 +43,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Охрана Аванпоста"
+    name: "Охрана Аванпоста" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -52,7 +52,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Ресепшен Аванпоста"
+    name: "Ресепшен Аванпоста" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineCaptain]
@@ -61,7 +61,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Администрация Аванпоста"
+    name: "Администрация Аванпоста" # LOP edit
 
 # POI
 - type: entity
@@ -71,7 +71,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Всецерковь"
+    name: "Всецерковь" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineSyndie, FaxMachineShipAntag]
@@ -80,7 +80,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Точка прослушивания: Браво"
+    name: "Точка прослушивания: Браво" # LOP edit
   - type: ApcPowerReceiver
     powerDisabled: true #starts off
 
@@ -91,7 +91,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Домик"
+    name: "Домик" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -100,7 +100,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Северный полюс"
+    name: "Северный полюс" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -109,7 +109,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Отдых Тиннии"
+    name: "Отдых Тиннии" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -118,7 +118,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Торговый Аванпост"
+    name: "Торговый Аванпост" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -127,7 +127,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Торговый аванпост Трафик Менеджера"
+    name: "Торговый аванпост Трафик Менеджера" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -136,7 +136,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Торговый Док Трафик Менеджера"
+    name: "Торговый Док Трафик Менеджера" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -145,7 +145,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Торговый Док ДШНГ"
+    name: "Торговый Док ДШНГ" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -154,7 +154,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Лаборатория"
+    name: "Лаборатория" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -163,7 +163,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Арена"
+    name: "Арена" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -172,7 +172,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Казино"
+    name: "Казино" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -181,7 +181,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Здание суда"
+    name: "Здание суда" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineShipAntag]
@@ -190,7 +190,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Пиратская Бухта"
+    name: "Пиратская Бухта" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -199,7 +199,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "ДШНГ"
+    name: "ДШНГ" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -208,7 +208,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "ДШНГ Юрист"
+    name: "ДШНГ Юрист" # LOP edit
 
 - type: entity
   parent: FaxMachineBase
@@ -217,7 +217,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Багама Мама"
+    name: "Багама Мама" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -226,7 +226,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Электростанция Эдисон"
+    name: "Электростанция Эдисон" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -235,7 +235,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Медицинский диспетчер"
+    name: "Медицинский диспетчер" # LOP edit
 
 # Events
 - type: entity
@@ -245,7 +245,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Неизвестно"
+    name: "Неизвестно" # LOP edit
   - type: ApcPowerReceiver
     powerDisabled: false #starts off
 

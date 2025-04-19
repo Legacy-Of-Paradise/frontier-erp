@@ -12,11 +12,11 @@
   id: Loader
   parent: BaseVessel
   name: NC Loader
-  description: Компактное грузовое судно. Вози пока возится!
+  description: "Компактное грузовое судно. Вози пока возится!" #LOP Edit
   price: 22000
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/loader.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/loader.yml # LOP edit
   guidebookPage: ShipyardLoader
   class:
   - Cargo
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Loader
   mapName: 'NC Loader'
-  mapPath: /Maps/_NewParadise/Shuttles/loader.yml
+  mapPath: /Maps/_NewParadise/Shuttles/loader.yml # LOP edit
   minPlayers: 0
   stations:
     Loader:

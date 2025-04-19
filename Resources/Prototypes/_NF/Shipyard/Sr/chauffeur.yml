@@ -13,12 +13,12 @@
   id: Chauffeur
   parent: BaseVessel
   name: NC Chauffeur
-  description: A small transport shuttle with space for 4 passengers. Comes with the latest audio entertainment technology.
+  description: "Небольшой транспортный шаттл, рассчитанный на 4 пассажиров. Оснащен новейшими аудио-развлекательными технологиями." #LOP Edit
   price: 17500 # $14325 after appraisal + ~$1200 (~5% markup) - TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Sr
   access: Service
-  shuttlePath: /Maps/_NewParadise/Shuttles/pts.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/pts.yml # LOP edit
   guidebookPage: Null
   class:
   - Civilian
@@ -28,7 +28,7 @@
 - type: gameMap
   id: Chauffeur
   mapName: 'NC Chauffeur'
-  mapPath: /Maps/_NewParadise/Shuttles/Sr/chauffeur.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Sr/chauffeur.yml # LOP edit
   minPlayers: 0
   stations:
     Chauffeur:

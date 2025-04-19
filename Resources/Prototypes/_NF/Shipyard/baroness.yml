@@ -12,11 +12,11 @@
   id: Baroness
   parent: BaseVessel
   name: SBB Baroness
-  description: A small luxury cruiser for one or two people, with a lounge, a private bedroom, and a hell of a cockpit view.
+  description: Небольшое судно класса люкс для одного или двух человек с гостиной, отдельной спальней и потрясающим видом из кабины. # LOP edit
   price: 27000 # ~23,500 on purchase, ~15% markup
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/baroness.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/baroness.yml # LOP edit
   guidebookPage: ShipyardBaroness
   class:
   - Civilian
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Baroness
   mapName: 'SBB Baroness'
-  mapPath: /Maps/_NF/Shuttles/baroness.yml
+  mapPath: /Maps/_NewParadise/Shuttles/baroness.yml # LOP edit
   minPlayers: 0
   stations:
     Baroness:

@@ -12,11 +12,11 @@
   id: Apothecary
   parent: BaseVessel
   name: FSB Apothecary
-  description: Маленький корабль оснащённый медицинскими и химическими приборами. Выпущен корпорацией Фар Стар Биотех для оказания медицинской помощи в Новых Горизонтах.
+  description: "Маленький корабль оснащённый медицинскими и химическими приборами. Выпущен корпорацией Фар Стар Биотех для оказания медицинской помощи в Новых Горизонтах." #LOP Edit
   price: 36500 # Appraises at ~34k, 7% margin; TODO: fix this value, gettings to pass - Whatstone
   category: Small
   group: Medical
-  shuttlePath: /Maps/_NewParadise/Shuttles/apothecary.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/apothecary.yml # LOP edit
   guidebookPage: ShipyardApothecary
   class:
   - Medical
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Apothecary
   mapName: 'FSB Apothecary'
-  mapPath: /Maps/_NewParadise/Shuttles/apothecary.yml
+  mapPath: /Maps/_NewParadise/Shuttles/apothecary.yml # LOP edit
   minPlayers: 0
   stations:
     Apothecary:

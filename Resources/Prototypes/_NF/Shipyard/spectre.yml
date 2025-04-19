@@ -12,11 +12,11 @@
   id: Spectre
   parent: BaseVessel
   name: NR Spectre
-  description: Большое, привлекательное, но достаточно устаревшее судно, полностью сделанное под исследования. Способно генерировать аномалии.
+  description: "Большое, привлекательное, но достаточно устаревшее судно, полностью сделанное под исследования. Способно генерировать аномалии." #LOP Edit
   price: 185000 # Anomaly spawner
   category: Large
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/spectre.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/spectre.yml # LOP edit
   guidebookPage: Null
   class:
   - Science
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Spectre
   mapName: 'NR Spectre'
-  mapPath: /Maps/_NewParadise/Shuttles/spectre.yml
+  mapPath: /Maps/_NewParadise/Shuttles/spectre.yml # LOP edit
   minPlayers: 0
   stations:
     Spectre:

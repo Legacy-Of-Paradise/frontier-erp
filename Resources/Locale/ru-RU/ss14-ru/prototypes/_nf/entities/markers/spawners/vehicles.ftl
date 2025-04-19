@@ -1,2 +1,10 @@
-ent-SpawnVehicleHoverbikeNF = спавнер гравицикла
+ent-SpawnVehicleSecway = спавнер сегвея
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVehicleJanicart = спавнер тележки уборщика
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVehicleATV = спавнер квадроцикла
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVehicleMotobike = спавнер скелетного мотоцикла
+    .desc = { ent-MarkerBase.desc }
+ent-NFSpawnVehicleHoverbike = спавнер ховербайка
     .desc = { ent-MarkerBase.desc }

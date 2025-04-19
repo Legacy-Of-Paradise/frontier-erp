@@ -1,11 +1,11 @@
 - type: vessel
   id: Vitalis
   name: CTC Vitalis
-  description: Medium Medical Support Vessel for the Medical Personal, Designed for Cryogenic Deployment.
+  description: Среднее судно для медицинского персонала, предназначенное для использования в криогенных условиях. # LOP edit
   price: 75000 #Appraisal is 53480
   category: Medium
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/vitalis.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/vitalis.yml # LOP edit
   guidebookPage: ShipyardVitalis
   class:
   - Medical
@@ -15,7 +15,7 @@
 - type: gameMap
   id: Vitalis
   mapName: 'CTC Vitalis'
-  mapPath: /Maps/_NF/Shuttles/vitalis.yml
+  mapPath: /Maps/_NewParadise/Shuttles/vitalis.yml # LOP edit
   minPlayers: 0
   stations:
     Vitalis:

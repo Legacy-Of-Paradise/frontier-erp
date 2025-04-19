@@ -14,5 +14,5 @@ public sealed partial class SharedTTSComponent : Component
     /// Prototype of used voice for TTS.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite), DataField, AutoNetworkedField]
-    public ProtoId<TTSVoicePrototype> VoicePrototypeId { get; set; } = "Nord";
+    public ProtoId<TTSVoicePrototype> VoicePrototypeId { get; set; } = "nord";
 }

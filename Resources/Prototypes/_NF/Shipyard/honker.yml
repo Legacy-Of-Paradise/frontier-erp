@@ -12,11 +12,11 @@
   id: Honker
   parent: BaseVessel
   name: NT Honker
-  description: ХОНК ХОНК ХОНК ХОНК ХОНК ХОНК
+  description: "ХОНК ХОНК ХОНК ХОНК ХОНК ХОНК" #LOP Edit
   price: 22500
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/honker.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/honker.yml # LOP edit
   guidebookPage: ShipyardHonker
   class:
   - Civilian
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Honker
   mapName: 'NT Honker'
-  mapPath: /Maps/_NewParadise/Shuttles/honker.yml
+  mapPath: /Maps/_NewParadise/Shuttles/honker.yml # LOP edit
   minPlayers: 0
   stations:
     Honker:

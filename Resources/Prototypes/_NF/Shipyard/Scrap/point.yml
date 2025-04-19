@@ -2,11 +2,11 @@
   id: Point
   parent: BaseVessel
   name: SV Point
-  description: Two wrecks welded together that are somehow capable of research.
+  description: "Два сваренных вместе обломка, которые каким-то образом можно исследовать." #LOP edit
   price: 16100
   category: Small
   group: Scrap
-  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/point.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/point.yml # LOP edit
   guidebookPage: Null
   class:
   - Scrapyard
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Point
   mapName: 'SV Point'
-  mapPath: /Maps/_NewParadise/Shuttles/Scrap/point.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Scrap/point.yml # LOP edit
   minPlayers: 0
   stations:
     Point:

@@ -16,7 +16,7 @@
   maximumDistance: 4850
   spawnGroup: Christmas
   spawnChance: 0
-  gridPath: /Maps/_NewParadise/POI/northpole.yml
+  gridPath: /Maps/_NewParadise/POI/northpole.yml # LOP edit
   hideWarp: true
   addComponents:
   - type: IFF

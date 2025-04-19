@@ -12,11 +12,11 @@
   id: Hammer
   parent: BaseVessel
   name: SBB Hammer
-  description: Мобильная инженерная платформа в глубоком космосе. Ремонт, апгрейд, модернизация!
+  description: "Мобильная инженерная платформа в глубоком космосе. Ремонт, апгрейд, модернизация! #LOP Edit
   price: 44000 # Appraises at 38257, ~15% markup
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/hammer.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/hammer.yml # LOP edit
   guidebookPage: ShipyardHammer
   class:
   - Engineering
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Hammer
   mapName: 'SBB Hammer'
-  mapPath: /Maps/_NewParadise/Shuttles/hammer.yml
+  mapPath: /Maps/_NewParadise/Shuttles/hammer.yml # LOP edit
   minPlayers: 0
   stations:
     Hammer:

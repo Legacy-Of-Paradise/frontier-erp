@@ -12,11 +12,11 @@
   id: Phoenix
   parent: BaseVessel
   name: NR Phoenix
-  description: Исследователь и спасатель, собранный для исследования дальнего космоса.
+  description: "Исследователь и спасатель, собранный для исследования дальнего космоса." #LOP Edit
   price: 64000 # TODO - fix this value, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/phoenix.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/phoenix.yml # LOP edit
   guidebookPage: ShipyardPhoenix
   class:
   - Science
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Phoenix
   mapName: 'NR Phoenix'
-  mapPath: /Maps/_NewParadise/Shuttles/phoenix.yml
+  mapPath: /Maps/_NewParadise/Shuttles/phoenix.yml # LOP edit
   minPlayers: 0
   stations:
     Phoenix:

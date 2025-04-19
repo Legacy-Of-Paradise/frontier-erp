@@ -12,11 +12,11 @@
   id: Gourd
   parent: BaseVessel
   name: SLI Gourd
-  description: The Gourd is a Science/Expedition vessel with a dedicated blast chamber.
+  description: "Тыква - это научно-экспедиционное судно со специальной взрывной камерой." #LOP edit
   price: 150000 # ~115000$ on mapinit + ~34000$ from 30% markup
   category: Large
   group: Expedition
-  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/gourd.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/gourd.yml # LOP edit
   guidebookPage: ShipyardGourd
   class:
   - Expedition
@@ -28,7 +28,7 @@
 - type: gameMap
   id: Gourd
   mapName: 'SLI Gourd'
-  mapPath: /Maps/_NewParadise/Shuttles/Expedition/gourd.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Expedition/gourd.yml # LOP edit
   minPlayers: 0
   stations:
     Gourd:

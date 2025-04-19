@@ -2,11 +2,11 @@
   id: Hunter
   parent: BaseVesselAntag
   name: Hunter
-  description: A small armored Syndicate assault shuttle, perfect for devious operations!
+  description: "Небольшой бронированный штурмовой шаттл Синдиката, идеально подходящий для хитроумных операций!" #LOP Edit
   price: 50000
   category: Small
   group: Syndicate
-  shuttlePath: /Maps/_NewParadise/Shuttles/Syndicate/hunter.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Syndicate/hunter.yml # LOP edit
   guidebookPage: Null
   class:
   - Syndicate
@@ -16,7 +16,7 @@
 - type: gameMap
   id: Hunter
   mapName: 'Hunter'
-  mapPath: /Maps/_NewParadise/Shuttles/Syndicate/hunter.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Syndicate/hunter.yml # LOP edit
   minPlayers: 0
   stations:
     Hunter:

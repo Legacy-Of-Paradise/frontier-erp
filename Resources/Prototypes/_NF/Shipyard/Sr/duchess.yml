@@ -12,12 +12,12 @@
   id: Duchess
   parent: BaseVessel
   name: NT Duchess
-  description: A mobile office and personal transport for the Station Representative, based on the SBB Bodkin.
+  description: Мобильный офис и личный транспорт для представителя станции на базе SBB Bodkin. # LOP edit
   price: 24500 #Appraises at ~22000. Markup of ~9%.
   category: Small
   group: Sr
   access: HeadOfPersonnel
-  shuttlePath: /Maps/_NF/Shuttles/Sr/duchess.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Sr/duchess.yml # LOP edit
   guidebookPage: Null
   class:
   - Civilian
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Duchess
   mapName: 'NT Duchess'
-  mapPath: /Maps/_NF/Shuttles/Sr/duchess.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Sr/duchess.yml # LOP edit
   minPlayers: 0
   stations:
     Duchess:

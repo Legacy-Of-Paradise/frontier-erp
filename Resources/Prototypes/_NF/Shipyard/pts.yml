@@ -12,11 +12,11 @@
   id: PTS
   parent: BaseVessel
   name: NC Personal Transport
-  description: Небольшой транспортный шаттл с местом для 4 пассажиров. Оснащен новейшими аудиоразвлекательными технологиями.
+  description: "Небольшой транспортный шаттл с местом для 4 пассажиров. Оснащен новейшими аудиоразвлекательными технологиями." #LOP Edit
   price: 17500 # $16634 after appraisal + ~5% markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/pts.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/pts.yml # LOP edit
   guidebookPage: Null
   class:
   - Civilian
@@ -26,7 +26,7 @@
 - type: gameMap
   id: PTS
   mapName: 'NC Personal Transport'
-  mapPath: /Maps/_NF/Shuttles/pts.yml
+  mapPath: /Maps/_NewParadise/Shuttles/pts.yml # LOP edit
   minPlayers: 0
   stations:
     PTS:

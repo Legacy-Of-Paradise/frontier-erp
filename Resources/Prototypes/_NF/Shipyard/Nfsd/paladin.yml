@@ -2,13 +2,13 @@
   id: Paladin
   parent: BaseVessel
   name: NSF Paladin
-  description: A small security assault craft designed for space combat equipped with an EXP-2100g mounted grenade launcher.
+  description: "Небольшой десантно-штурмовой корабль повышенной безопасности, предназначенный для ведения боевых действий в космосе, оснащенный установленным гранатометом EXP-2100g." #LOP edit
   price: 34220
   category: Small
   group: Security
   access: Security
   mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
-  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/paladin.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/paladin.yml # LOP edit
   guidebookPage: Null
   class:
   - Fighter
@@ -18,7 +18,7 @@
 - type: gameMap
   id: Paladin
   mapName: 'NSF Paladin'
-  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/paladin.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/paladin.yml # LOP edit
   minPlayers: 0
   stations:
     Paladin:

@@ -12,11 +12,11 @@
   id: Stasis
   parent: BaseVessel
   name: FSB Stasis
-  description: Среднее медицинское судно, предоставляющее криогенные и вспомогательные медицинские услуги при травмах в ходе операций в глубоком космосе. Разработано, и создано и компанией Фар Стар Биотех для оказания помощи везде, где она необходима.
+  description: "Среднее медицинское судно, предоставляющее криогенные и вспомогательные медицинские услуги при травмах в ходе операций в глубоком космосе. Разработано, и создано и компанией Фар Стар Биотех для оказания помощи везде, где она необходима." #LOP Edit
   price: 56000 # Appraises at ~52660, margin of ~6% TODO: fix this value, getting tests to pass - Whatstone
   category: Medium
   group: Medical
-  shuttlePath: /Maps/_NewParadise/Shuttles/stasis.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/stasis.yml # LOP edit
   guidebookPage: ShipyardStasis
   class:
   - Medical
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Stasis
   mapName: 'FSB Stasis'
-  mapPath: /Maps/_NewParadise/Shuttles/stasis.yml
+  mapPath: /Maps/_NewParadise/Shuttles/stasis.yml # LOP edit
   minPlayers: 0
   stations:
     Stasis:

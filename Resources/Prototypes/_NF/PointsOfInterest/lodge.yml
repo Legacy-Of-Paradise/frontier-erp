@@ -15,7 +15,7 @@
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: Required
-  gridPath: /Maps/_NewParadise/POI/lodge.yml
+  gridPath: /Maps/_NewParadise/POI/lodge.yml # LOP edit
   addComponents:
   - type: IFF
     color: "#3737F8"
@@ -25,8 +25,8 @@
 
 - type: gameMap
   id: Lodge
-  mapName: 'Expeditionary Lodge'
-  mapPath: /Maps/_NF/POI/lodge.yml
+  mapName: 'Экспедиционный Аванпост'
+  mapPath: /Maps/_NewParadise/POI/lodge.yml # LOP edit
   minPlayers: 0
   stations:
     Lodge:

@@ -2,13 +2,13 @@
   id: Cleric
   parent: BaseVessel
   name: NSF Cleric
-  description: Micro support vessel used for emergency rescues and first aid.
+  description: "Мелкое вспомогательное судно, используемое для экстренного спасения и оказания первой помощи." #LOP edit
   price: 11800 #Appraisal is 10500
   category: Micro
   group: Custom
   access: Security
   mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
-  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/cleric.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/cleric.yml # LOP edit
   guidebookPage: Null
   class:
   - Medical
@@ -18,7 +18,7 @@
 - type: gameMap
   id: Cleric
   mapName: 'NSF Cleric'
-  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/cleric.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/cleric.yml # LOP edit
   minPlayers: 0
   stations:
     Cleric:

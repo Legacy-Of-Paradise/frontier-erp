@@ -2,11 +2,11 @@
   id: Construct
   parent: BaseVessel
   name: NT Construct
-  description: Технически это всё ещё космическое судно. Без ливреев.
+  description: "Технически это всё ещё космическое судно. Без ливреев." #LOP Edit
   price: 10500
   category: Micro
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/construct.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/construct.yml # LOP edit
   guidebookPage: ShipyardConstruct
   class:
   - Engineering
@@ -16,7 +16,7 @@
 - type: gameMap
   id: Construct
   mapName: 'NT Construct'
-  mapPath: /Maps/_NewParadise/Shuttles/construct.yml
+  mapPath: /Maps/_NewParadise/Shuttles/construct.yml # LOP edit
   minPlayers: 0
   stations:
     Construct:

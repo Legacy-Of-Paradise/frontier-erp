@@ -2,12 +2,12 @@
   id: Hospitaller
   parent: BaseVessel
   name: NSF Hospitaller
-  description: A small security medical craft designed for emergency response and search and rescue operations.
+  description: "Небольшое медицинское судно повышенной безопасности, предназначенное для реагирования на чрезвычайные ситуации и поисково-спасательных операций." #LOP edit
   price: 28220
   category: Small
   group: Security
   access: Security
-  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/hospitaller.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/hospitaller.yml # LOP edit
   guidebookPage: Null
   class:
   - Medical
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Hospitaller
   mapName: 'NSF Hospitaller'
-  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/hospitaller.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/hospitaller.yml # LOP edit
   minPlayers: 0
   stations:
     Hospitaller:

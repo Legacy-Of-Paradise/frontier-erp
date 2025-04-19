@@ -12,11 +12,11 @@
   id: Nugget
   parent: BaseVessel
   name: SV Nugget
-  description: A flying hunk of wood and metal disguised as a kitchen shuttle. Not FDA approved.
+  description: "Летающий кусок дерева и металла, замаскированный под кухонный челнок. Не одобрен FDA." #LOP edit
   price: 15950 # +1450 from 10% Markup
   category: Small
   group: Scrap
-  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/nugget.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/nugget.yml # LOP edit
   guidebookPage: Null
   class:
   - Scrapyard
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Nugget
   mapName: 'SV Nugget'
-  mapPath: /Maps/_NewParadise/Shuttles/Scrap/nugget.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Scrap/nugget.yml # LOP edit
   minPlayers: 0
   stations:
     Nugget:

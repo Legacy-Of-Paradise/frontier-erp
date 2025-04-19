@@ -12,11 +12,11 @@
   id: Bocadillo
   parent: BaseVessel
   name: NC Bocadillo
-  description: маленький фуд-трак, идеальный для шефа одиночки.
+  description: "маленький фуд-трак, идеальный для шефа одиночки." #LOP Edit
   price: 25000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/bocadillo.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/bocadillo.yml # LOP edit
   guidebookPage: ShipyardBocadillo
   class:
   - Kitchen
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Bocadillo
   mapName: 'Bocadillo'
-  mapPath: /Maps/_NewParadise/Shuttles/bocadillo.yml
+  mapPath: /Maps/_NewParadise/Shuttles/bocadillo.yml # LOP edit
   minPlayers: 0
   stations:
     Bocadillo:

@@ -2,11 +2,11 @@
   id: Beaker
   parent: BaseVessel
   name: SBI Beaker
-  description: "Полнофункциональная химическая лаборатория в космосе! Идеально подходит для химиков-исследователей или учителей химии в старших классах. Слава науке!"
+  description: "Полнофункциональная химическая лаборатория в космосе! Идеально подходит для химиков-исследователей или учителей химии в старших классах. Слава науке!" #LOP Edit
   price: 65000
   category: Small
   group: Medical
-  shuttlePath: /Maps/_NewParadise/Shuttles/beaker.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/beaker.yml # LOP edit
   guidebookPage: Null
   class:
   - Chemistry
@@ -16,7 +16,7 @@
 - type: gameMap
   id: Beaker
   mapName: 'SBI Beaker'
-  mapPath: /Maps/_NF/Shuttles/beaker.yml
+  mapPath: /Maps/_NewParadise/Shuttles/beaker.yml # LOP edit
   minPlayers: 0
   stations:
     Beaker:

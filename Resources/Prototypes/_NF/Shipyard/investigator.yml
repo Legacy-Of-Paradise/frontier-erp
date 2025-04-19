@@ -12,11 +12,11 @@
   id: Investigator
   parent: BaseVessel
   name: NR Investigator
-  description: Средний исследовательский шаттл, предназначенный для ксеноархеологических исследований.
+  description: "Средний исследовательский шаттл, предназначенный для ксеноархеологических исследований." #LOP Edit
   price: 42100 # ~36540$ on mapinit + ~5480$ from 15% markup
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/investigator.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/investigator.yml # LOP edit
   guidebookPage: ShipyardInvestigator
   class:
   - Science
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Investigator
   mapName: 'NR Investigator'
-  mapPath: /Maps/_NewParadise/Shuttles/investigator.yml
+  mapPath: /Maps/_NewParadise/Shuttles/investigator.yml # LOP edit
   minPlayers: 0
   stations:
     Investigator:

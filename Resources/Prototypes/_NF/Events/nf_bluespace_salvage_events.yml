@@ -31,20 +31,20 @@
           preventArtifactTriggers: true
         - type: PreventPilot
         paths:
-        - /Maps/_NF/Shuttles/Scrap/bison.yml
-#        - /Maps/_NF/Shuttles/Scrap/canister.yml # Too small
-        - /Maps/_NF/Shuttles/Scrap/disciple.yml
-        - /Maps/_NF/Shuttles/Scrap/nugget.yml
-        - /Maps/_NF/Shuttles/Scrap/orange.yml
-        - /Maps/_NF/Shuttles/Scrap/point.yml
-        - /Maps/_NF/Shuttles/Scrap/tide.yml
-        - /Maps/_NF/Shuttles/Scrap/scrap-investigator.yml # Please replace all this maps ones we finish some automated system
-        - /Maps/_NF/Shuttles/Scrap/scrap-hauler.yml
-        - /Maps/_NF/Shuttles/Scrap/scrap-crescent.yml
-        - /Maps/_NF/Shuttles/Scrap/scrap-barge.yml
-        - /Maps/_NF/Shuttles/Scrap/scrap-courserx.yml
-        - /Maps/_NF/Shuttles/Scrap/scrap-comet.yml
-        - /Maps/_NF/Shuttles/Scrap/scrap-sprinter.yml
+        - /Maps/_NewParadise/Shuttles/Scrap/bison.yml # LOP edit
+#        - /Maps/_NewParadise/Shuttles/Scrap/canister.yml # LOP edit # Too small
+        - /Maps/_NewParadise/Shuttles/Scrap/disciple.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/nugget.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/orange.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/point.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/tide.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/scrap-investigator.yml # LOP edit # Please replace all this maps ones we finish some automated system
+        - /Maps/_NewParadise/Shuttles/Scrap/scrap-hauler.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/scrap-crescent.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/scrap-barge.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/scrap-courserx.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/scrap-comet.yml # LOP edit
+        - /Maps/_NewParadise/Shuttles/Scrap/scrap-sprinter.yml # LOP edit
   - type: ActiveRadio
     channels:
     - Engineering

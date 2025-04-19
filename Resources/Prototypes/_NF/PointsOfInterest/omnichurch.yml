@@ -14,7 +14,7 @@
   name: "Маяк Всецеркови"
   minimumDistance: 2200
   maximumDistance: 4900
-  gridPath: /Maps/_NewParadise/POI/beacon.yml
+  gridPath: /Maps/_NewParadise/POI/beacon.yml # LOP edit
   addComponents:
   - type: StationTransit
     routes:

@@ -12,11 +12,11 @@
   id: Liquidator
   parent: BaseVessel
   name: LVHI Liquidator
-  description: Небольшое судно для утилизации кораблей, или их спасения, оборудованный всем необходимым для долгой работы небольшого экипажа. Произведено Лангстад-Фойгт Хэви Индастриз.
+  description: "Небольшое судно для утилизации кораблей, или их спасения, оборудованный всем необходимым для долгой работы небольшого экипажа. Произведено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
   price: 27500 # ~25000$ on mapinit + 10% markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/liquidator.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/liquidator.yml # LOP edit
   guidebookPage: ShipyardLiquidator
   class:
   - Salvage
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Liquidator
   mapName: 'Liquidator'
-  mapPath: /Maps/_NewParadise/Shuttles/liquidator.yml
+  mapPath: /Maps/_NewParadise/Shuttles/liquidator.yml # LOP edit
   minPlayers: 0
   stations:
     Liquidator:

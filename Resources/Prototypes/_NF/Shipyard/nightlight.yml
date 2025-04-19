@@ -12,11 +12,11 @@
   id: Nightlight
   parent: BaseVessel
   name: FSB Nightlight
-  description: Корпорация Фар Стах Биотех рада представитьсамый передовой на сегодняшний день испытательный стенд для изучения влияния биорегенеративных питательных веществ на физиологию гуманоидов! Бон Апле Титс!
+  description: "Корпорация Фар Стах Биотех рада представитьсамый передовой на сегодняшний день испытательный стенд для изучения влияния биорегенеративных питательных веществ на физиологию гуманоидов! Бон Апле Титс!" #LOP Edit
   price: 45000 # Botany bay
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/nightlight.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/nightlight.yml # LOP edit
   guidebookPage: ShipyardNightlight
   class:
   - Kitchen
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Nightlight
   mapName: 'FSB Nightlight'
-  mapPath: /Maps/_NewParadise/Shuttles/nightlight.yml
+  mapPath: /Maps/_NewParadise/Shuttles/nightlight.yml # LOP edit
   minPlayers: 0
   stations:
     Nightlight:

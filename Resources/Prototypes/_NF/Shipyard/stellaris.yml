@@ -2,11 +2,11 @@
   id: Stellaris
   parent: BaseVessel
   name: NT Stellaris
-  description: Мобильный театр для космических представлений!
+  description: "Мобильный театр для космических представлений!" #LOP Edit
   price: 48000 # Appraises for 45469, margin of 7% - TODO: fix this value, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/stellaris.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/stellaris.yml # LOP edit
   guidebookPage: Null
   class:
   - Civilian
@@ -16,7 +16,7 @@
 - type: gameMap
   id: Stellaris
   mapName: 'NT Stellaris'
-  mapPath: /Maps/_NewParadise/Shuttles/stellaris.yml
+  mapPath: /Maps/_NewParadise/Shuttles/stellaris.yml # LOP edit
   minPlayers: 0
   stations:
     Stellaris:

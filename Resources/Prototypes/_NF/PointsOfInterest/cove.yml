@@ -16,7 +16,7 @@
   maximumDistance: 15000
   spawnGamePreset: [ NFPirate ]
   spawnGroup: Required
-  gridPath: /Maps/_NewParadise/POI/cove.yml
+  gridPath: /Maps/_NewParadise/POI/cove.yml # LOP edit
   hideWarp: true
   addComponents:
   - type: IFF
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Cove
   mapName: 'Пиратская бухта'
-  mapPath: /Maps/_NF/POI/cove.yml
+  mapPath: /Maps/_NewParadise/POI/cove.yml # LOP edit
   minPlayers: 0
   stations:
     Cove:

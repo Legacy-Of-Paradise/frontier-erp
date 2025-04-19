@@ -15,7 +15,7 @@
   minimumDistance: 4000
   maximumDistance: 6000
   spawnGroup: SyndicateFOB
-  gridPath: /Maps/_NewParadise/POI/lpbravo.yml
+  gridPath: /Maps/_NewParadise/POI/lpbravo.yml # LOP edit
   hideWarp: true
   addComponents:
   - type: IFF
@@ -30,7 +30,7 @@
 - type: gameMap
   id: LPBravo
   mapName: 'Точка прослушивания Браво'
-  mapPath: /Maps/_NewParadise/POI/lpbravo.yml
+  mapPath: /Maps/_NewParadise/POI/lpbravo.yml # LOP edit
   minPlayers: 0
   stations:
     LPBravo:
@@ -38,7 +38,7 @@
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Listening Point Bravo'
+          mapNameTemplate: 'Точка прослушивания Браво'
         - type: StationJobs
           availableJobs: {}
         - type: StationDeadDropHintExempt

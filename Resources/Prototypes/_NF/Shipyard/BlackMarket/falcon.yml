@@ -7,11 +7,11 @@
   id: Falcon
   parent: BaseVesselAntag
   name: Falcon
-  description: Rebuilt mining vessel made into a pirate ship with hangar bay to store vehicles, fits between 3-4 crew.
+  description: "Перестроенное шахтерское судно, превращенное в пиратский корабль с ангаром для хранения техники, вмещает 3-4 члена экипажа." #LOP edit
   price: 70000 #Selling price is 22520
   category: Medium
   group: BlackMarket
-  shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/falcon.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/falcon.yml # LOP edit
   guidebookPage: Null
   class:
   - Pirate
@@ -21,7 +21,7 @@
 - type: gameMap
   id: Falcon
   mapName: 'Falcon'
-  mapPath: /Maps/_NewParadise/Shuttles/BlackMarket/falcon.yml
+  mapPath: /Maps/_NewParadise/Shuttles/BlackMarket/falcon.yml # LOP edit
   minPlayers: 0
   stations:
     Falcon:

@@ -12,12 +12,12 @@
   id: Broadhead
   parent: BaseVessel
   name: NSF Broadhead
-  description: A medium size detective ship with facilities for autopsies, interrogations and detailed investigations.
+  description: "Детективный корабль среднего размера с оборудованием для вскрытия трупов, допросов и детальных расследований." #LOP edit
   price: 60000 # TODO: fix these values, getting tests to pass - Whatstone
   category: Medium
   group: Security
   access: Detective
-  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/broadhead.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/broadhead.yml # LOP edit
   guidebookPage: Null
   class:
   - Detective
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Broadhead
   mapName: 'NSF Broadhead'
-  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/broadhead.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/broadhead.yml # LOP edit
   minPlayers: 0
   stations:
     Broadhead:

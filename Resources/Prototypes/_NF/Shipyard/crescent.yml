@@ -12,11 +12,11 @@
   id: Crescent
   parent: BaseVessel
   name: KC Crescent
-  description: Crescent, названный из-за своей внешней формы, — это судно, предназначенное для обслуживания, оказания медицинской помощи и проведения научных исследований.
+  description: "Crescent, названный из-за своей внешней формы, — это судно, предназначенное для обслуживания, оказания медицинской помощи и проведения научных исследований." #LOP Edit
   price: 350020 # It do be like this.
   category: Large
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/crescent.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/crescent.yml # LOP edit
   guidebookPage: Null
   class:
   - Science
@@ -28,7 +28,7 @@
 - type: gameMap
   id: Crescent
   mapName: 'KC Crescent'
-  mapPath: /Maps/_NewParadise/Shuttles/crescent.yml
+  mapPath: /Maps/_NewParadise/Shuttles/crescent.yml # LOP edit
   minPlayers: 0
   stations:
     Crescent:

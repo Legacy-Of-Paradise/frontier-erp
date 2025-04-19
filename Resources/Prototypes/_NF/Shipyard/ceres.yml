@@ -12,11 +12,11 @@
   id: Ceres
   parent: BaseVessel
   name: SBB Ceres
-  description: Корабль среднего размера, с просторным рестораном высшего класса, оснащенный ботаникой, и местами для ВИП-клиентов.
+  description: "Корабль среднего размера, с просторным рестораном высшего класса, оснащенный ботаникой, и местами для ВИП-клиентов." #LOP Edit
   price: 60000 # ~5% markup - TODO: fix this value, just getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NewParadise/Shuttles/ceres.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/ceres.yml # LOP edit
   guidebookPage: ShipyardCeres
   class:
   - Kitchen
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Ceres
   mapName: 'SBB Ceres'
-  mapPath: /Maps/_NF/Shuttles/ceres.yml
+  mapPath: /Maps/_NewParadise/Shuttles/ceres.yml # LOP edit
   minPlayers: 0
   stations:
     Ceres:

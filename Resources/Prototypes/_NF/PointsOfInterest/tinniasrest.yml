@@ -15,7 +15,7 @@
   minimumDistance: 1200
   maximumDistance: 2900
   spawnGroup: RestStop
-  gridPath: /Maps/_NewParadise/POI/tinnia.yml
+  gridPath: /Maps/_NewParadise/POI/tinnia.yml # LOP edit
   addComponents:
   - type: StationTransit
     routes:
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Tinnia
   mapName: "Отдых Тиннии"
-  mapPath: /Maps/_NewParadise/POI/tinnia.yml
+  mapPath: /Maps/_NewParadise/POI/tinnia.yml # LOP edit
   minPlayers: 0
   stations:
     Tinnia:

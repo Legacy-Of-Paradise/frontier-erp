@@ -12,11 +12,11 @@
   id: Spirit
   parent: BaseVessel
   name: FSB Spirit
-  description: Маленький медицинский поисково-спасательный шаттл, такой же шустрый, как и тесный. Эксплуатационные расходы гарантированно* на 5% ниже, чем у конкурирующих моделей!
+  description: "Маленький медицинский поисково-спасательный шаттл, такой же шустрый, как и тесный. Эксплуатационные расходы гарантированно* на 5% ниже, чем у конкурирующих моделей!" #LOP Edit
   price: 18500
   category: Small
   group: Medical
-  shuttlePath: /Maps/_NewParadise/Shuttles/spirit.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/spirit.yml # LOP edit
   guidebookPage: ShipyardSpirit
   class:
   - Medical
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Spirit
   mapName: 'FSB Spirit'
-  mapPath: /Maps/_NewParadise/Shuttles/spirit.yml
+  mapPath: /Maps/_NewParadise/Shuttles/spirit.yml # LOP edit
   minPlayers: 0
   stations:
     Spirit:

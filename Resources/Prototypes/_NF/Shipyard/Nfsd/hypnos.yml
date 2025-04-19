@@ -12,12 +12,12 @@
   id: Hypnos
   parent: BaseVessel
   name: NSF Hypnos
-  description: A light medium ship with a recommended crew of 2 to 3 officers, the Hypnos is a dedicated interdiction vessel outfitted with a powerful EMP device for tackling escaping vessels.
+  description: "Легкое судно среднего класса с рекомендуемым экипажем из 2-3 офицеров, "Гипноз" - специализированное судно для перехвата, оснащенное мощным электромагнитным устройством для борьбы с убегающими судами." #LOP edit
   price: 34500
   category: Medium
   group: Security
   access: Sergeant
-  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/hypnos.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/hypnos.yml # LOP edit
   class:
   - Pursuit
   engine:
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Hypnos
   mapName: 'NSF Hypnos'
-  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/hypnos.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/hypnos.yml # LOP edit
   minPlayers: 0
   stations:
     Hypnos:

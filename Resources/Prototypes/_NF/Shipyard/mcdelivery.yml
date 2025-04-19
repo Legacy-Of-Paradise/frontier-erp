@@ -9,11 +9,11 @@
   id: McDelivery
   parent: BaseVessel
   name: DC McDelivery
-  description: Быстрый корабль быстрого питания. Доставляет еду McCargo людям.
+  description: "Быстрый корабль быстрого питания. Доставляет еду McCargo людям." #LOP Edit
   price: 10000
   category: Micro
   group: Custom
-  shuttlePath: /Maps/_NewParadise/Shuttles/mcdelivery.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/mcdelivery.yml # LOP edit
   guidebookPage: ShipyardMcDelivery
   class:
   - Civilian
@@ -23,7 +23,7 @@
 - type: gameMap
   id: McDelivery
   mapName: 'DC McDelivery'
-  mapPath: /Maps/_NewParadise/Shuttles/mcdelivery.yml
+  mapPath: /Maps/_NewParadise/Shuttles/mcdelivery.yml # LOP edit
   minPlayers: 0
   stations:
     McDelivery:

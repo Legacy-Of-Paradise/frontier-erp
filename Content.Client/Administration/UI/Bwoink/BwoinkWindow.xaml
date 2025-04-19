@@ -5,6 +5,6 @@
             MaxSize="1050 500"
             HeaderClass="windowHeaderAlert"
             TitleClass="windowTitleAlert"
-            Title="{Loc 'bwoink-user-title'}" >
+            Title="{Loc 'bwoink-user-title'}" > <!-- LOP edit -->
     <cc:BwoinkControl Name="Bwoink" Access="Public"/>
 </DefaultWindow>
