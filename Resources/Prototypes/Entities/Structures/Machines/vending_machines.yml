@@ -7,7 +7,7 @@
   components:
   # LOP edit start
   - type: TTS
-    voicePrototypeId: Glados
+    voicePrototypeId: glados
   # LOP edit end
   - type: ActionGrant
     actions:
