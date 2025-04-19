@@ -1,0 +1,12 @@
+ent-WeaponTurretL85Autocannon = L85 57mm autocannon
+    .desc = A old, but not outdated 57mm autocannon. Links up to a central GCS, and is not automated like PD turrets.
+ent-WeaponTurretAK570 = AK570 90mm heavy autocannon
+    .desc = A dual barrel, heavy autocannon. Links up to a central GCS, and is not automated like PD turrets.
+ent-WeaponTurretType35 = MARAUDER-type plasma weapon
+    .desc = Launches magnetically contained balls of plasma at targets. Links up to a central gunnery control system.
+ent-WeaponTurretCharon = M381 CHARON mass driver
+    .desc = A heavy linear accelerator, capable of devastating targets with kinetic energy.
+ent-WeaponTurretVanyk = ASM-302 pod
+    .desc = A basic guided missile pod.
+ent-BallisticArtillery = { "" }
+    .desc = { "" }

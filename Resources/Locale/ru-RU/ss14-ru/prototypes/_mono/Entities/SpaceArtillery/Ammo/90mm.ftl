@@ -1,0 +1,10 @@
+ent-90mmBulletBase = shell
+    .desc = { ent-BaseBulletTrigger.desc }
+ent-90mmBulletArmorPiercing = { ent-90mmBulletExplosiveBase }
+    .desc = { ent-90mmBulletExplosiveBase.desc }
+ent-90mmShellBase = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
+ent-90mmShellArmorPiercing = 90мм снаряд из обедненного урана
+    .desc = Артиллерийский снаряд с наконечником из обедненного урана.
+ent-90mmBulletExplosiveBase = { ent-90mmBulletBase }
+    .desc = { ent-90mmBulletBase.desc }
