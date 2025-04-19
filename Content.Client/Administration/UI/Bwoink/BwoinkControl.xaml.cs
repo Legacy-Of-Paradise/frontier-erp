@@ -50,6 +50,11 @@ namespace Content.Client.Administration.UI.Bwoink
 
             AdminOnly.OnToggled += args => PlaySound.Disabled = args.Pressed;
 
+            this.MinWidth = 800;
+            ChannelSelector.HorizontalAlignment = HAlignment.Left;
+            ChannelSelector.SetWidth = 240;
+            ChatBox.HorizontalAlignment = HAlignment.Left;
+
             ChannelSelector.OnSelectionChanged += sel =>
             {
                 _currentPlayer = sel;
