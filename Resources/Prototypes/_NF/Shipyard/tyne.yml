@@ -12,11 +12,11 @@
   id: Tyne
   parent: BaseVessel
   name: SBB Tyne
-  description: A small, agile lifeboat with an exterior deck and survivor cabin for search and rescue operations.
+  description: Небольшое спасательное судно с внешней палубой и каютами для спасательных операций.
   price: 23000 #~5% markup as it's a med ship. Appraises at ~22474.
   category: Small
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/tyne.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/tyne.yml
   class:
   - Medical
   engine:

@@ -33,10 +33,12 @@
     - map: [ "gloves" ]
     - map: [ "shoes" ]
     - map: [ "ears" ]
+    # LOP edit start
     - map: [ "eyes" ]
-    - map: [ "belt" ]
     - map: [ "id" ]
     - map: [ "outerClothing" ]
+    - map: [ "belt" ]
+    # LOP edit end
     - map: [ "back" ]
     - map: [ "neck" ]
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
@@ -312,12 +314,14 @@
     - map: [ "enum.HumanoidVisualLayers.LArm" ]
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+      # LOP edit start
     - map: [ "breast" ]
     - map: [ "underwear" ]
     - map: [ "enum.HumanoidVisualLayers.LFoot" ]
     - map: [ "enum.HumanoidVisualLayers.RFoot" ]
     - map: [ "socks" ]
     - map: [ "jumpsuit" ]
+      # LOP edit end
     - map: ["enum.HumanoidVisualLayers.LHand"]
     - map: ["enum.HumanoidVisualLayers.RHand"]
     - map: ["enum.HumanoidVisualLayers.Handcuffs"]
@@ -329,7 +333,6 @@
     - map: [ "shoes" ]
     - map: [ "ears" ]
     - map: [ "eyes" ]
-    - map: [ "belt" ]
     - map: [ "id" ]
     - map: [ "outerClothing" ]
     - map: [ "back" ]

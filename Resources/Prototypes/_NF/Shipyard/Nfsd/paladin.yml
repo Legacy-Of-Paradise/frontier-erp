@@ -8,7 +8,7 @@
   group: Security
   access: Security
   mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/paladin.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/paladin.yml
   guidebookPage: Null
   class:
   - Fighter
@@ -18,7 +18,7 @@
 - type: gameMap
   id: Paladin
   mapName: 'NSF Paladin'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/paladin.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/paladin.yml
   minPlayers: 0
   stations:
     Paladin:

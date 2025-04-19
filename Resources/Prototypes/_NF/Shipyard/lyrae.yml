@@ -12,7 +12,7 @@
   id: Lyrae
   parent: BaseVessel
   name: SBB Lyrae
-  description: A medium size science vessel with laboratories for both anomalous and xenoarchaeology research. 
+  description: Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии.
   price: 60000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard

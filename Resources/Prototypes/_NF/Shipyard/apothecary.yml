@@ -12,11 +12,11 @@
   id: Apothecary
   parent: BaseVessel
   name: FSB Apothecary
-  description: A small medical and chemistry support vessel. Deployed by the Far Star Biotech company to provide aid and medical services to the Frontier.
+  description: Маленький корабль оснащённый медицинскими и химическими приборами. Выпущен корпорацией Фар Стар Биотех для оказания медицинской помощи в Новых Горизонтах.
   price: 36500 # Appraises at ~34k, 7% margin; TODO: fix this value, gettings to pass - Whatstone
   category: Small
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/apothecary.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/apothecary.yml
   guidebookPage: ShipyardApothecary
   class:
   - Medical
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Apothecary
   mapName: 'FSB Apothecary'
-  mapPath: /Maps/_NF/Shuttles/apothecary.yml
+  mapPath: /Maps/_NewParadise/Shuttles/apothecary.yml
   minPlayers: 0
   stations:
     Apothecary:

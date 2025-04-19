@@ -8,11 +8,11 @@
   id: Eagle
   parent: BaseVessel
   name: NM Eagle
-  description: "A modern, medium-sized engineering & medical vessel. Focused on responding to shuttle distress, the Eagle comes equipped to restore most crew and shuttles to good health."
+  description: Современное инженерное и медицинское судно среднего размера. Приспособленный к оказанию экстренной помощи судам и экипажам. Eagle - лучший помощник повреждённому судну и полуживому владельцу!
   price: 60000
   category: Medium
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/eagle.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/eagle.yml
   guidebookPage: ShipyardEagle
   class:
   - Medical

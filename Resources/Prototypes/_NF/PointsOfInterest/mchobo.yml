@@ -16,7 +16,7 @@
   minimumDistance: 3250
   maximumDistance: 5600
   spawnGroup: Scrapyard
-  gridPath: /Maps/_NF/POI/mchobo.yml
+  gridPath: /Maps/_NewParadise/POI/mchobo.yml
   addComponents:
   - type: StationTransit
     routes:
@@ -25,7 +25,7 @@
 - type: gameMap
   id: McHobo
   mapName: "Заброшенный McCargo"
-  mapPath: /Maps/_NF/POI/mchobo.yml
+  mapPath: /Maps/_NewParadise/POI/mchobo.yml
   minPlayers: 0
   stations:
     McHobo:

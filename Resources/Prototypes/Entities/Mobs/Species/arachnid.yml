@@ -94,10 +94,12 @@
       - map: [ "gloves" ]
       - map: [ "shoes" ]
       - map: [ "ears" ]
+      # LOP edit start
       - map: [ "eyes" ]
-      - map: [ "belt" ]
       - map: [ "id" ]
       - map: [ "outerClothing" ]
+      - map: [ "belt" ]
+      # LOP edit end
       - map: [ "enum.HumanoidVisualLayers.Tail" ] # Mentioned in moth code: This needs renaming lol.
       - map: [ "back" ]
       - map: [ "neck" ]

@@ -16,7 +16,7 @@
   price: 15000 # Appraises at 12179, ~25% margin - TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Scrap
-  shuttlePath: /Maps/_NF/Shuttles/Scrap/disciple.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/disciple.yml
   guidebookPage: Null
   class:
   - Scrapyard
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Disciple
   mapName: 'NSV Disciple'
-  mapPath: /Maps/_NF/Shuttles/Scrap/disciple.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Scrap/disciple.yml
   minPlayers: 0
   stations:
     Disciple:

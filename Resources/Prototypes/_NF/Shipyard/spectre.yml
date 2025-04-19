@@ -3,7 +3,7 @@
 # Discord: wolfhauler
 
 # Maintainer Info
-# GitHub: ThatOneGoblin25 
+# GitHub: ThatOneGoblin25
 # Discord: thedaarkgoblin
 
 # Shuttle Notes:
@@ -12,11 +12,11 @@
   id: Spectre
   parent: BaseVessel
   name: NR Spectre
-  description: A large, attractive but dated vessel with a pure focus on research and development. It is capable of generating anomalies.
+  description: Большое, привлекательное, но достаточно устаревшее судно, полностью сделанное под исследования. Способно генерировать аномалии.
   price: 185000 # Anomaly spawner
   category: Large
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/spectre.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/spectre.yml
   guidebookPage: Null
   class:
   - Science
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Spectre
   mapName: 'NR Spectre'
-  mapPath: /Maps/_NF/Shuttles/spectre.yml
+  mapPath: /Maps/_NewParadise/Shuttles/spectre.yml
   minPlayers: 0
   stations:
     Spectre:

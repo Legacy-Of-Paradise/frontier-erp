@@ -12,11 +12,11 @@
   id: Akupara
   parent: BaseVessel
   name: UW Akupara
-  description: A medium full-feature botanical research biodome equipped to help a botanist fully interact with their plants in almost any way conceivable.
+  description: Средний полнофункциональный биодом для ботанических исследований, оснащенный всем необходимым для того, чтобы помочь полноценно взаимодействовать с растениями практически любым возможным способом.
   price: 52000
   category: Medium
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/akupara.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/akupara.yml
   guidebookPage: ShipyardAkupara
   class:
   - Botany
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Akupara
   mapName: 'Akupara'
-  mapPath: /Maps/_NF/Shuttles/akupara.yml
+  mapPath: /Maps/_NewParadise/Shuttles/akupara.yml
   minPlayers: 0
   stations:
     Akupara:

@@ -12,11 +12,11 @@
   id: Searchlight
   parent: BaseVessel
   name: LVHI Searchlight
-  description: A small vessel outfitted for the search and recovery of wounded NT personnel. Manufactured by Langstad-Voigt Heavy Industries.
+  description: Небольшое судно, оборудованное для поиска и эвакуации раненых военнослужащих ДШНГ. Произведено Лангстад-Фойгт Хэви Индастриз.
   price: 30000 # ~25988$ on mapinit + 15% markup
   category: Small
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/searchlight.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/searchlight.yml
   guidebookPage: ShipyardSearchlight
   class:
   - Medical
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Searchlight
   mapName: 'Searchlight'
-  mapPath: /Maps/_NF/Shuttles/searchlight.yml
+  mapPath: /Maps/_NewParadise/Shuttles/searchlight.yml
   minPlayers: 0
   stations:
     Searchlight:

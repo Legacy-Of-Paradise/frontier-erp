@@ -15,7 +15,7 @@
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/lodge.yml
+  gridPath: /Maps/_NewParadise/POI/lodge.yml
   addComponents:
   - type: IFF
     color: "#3737F8"

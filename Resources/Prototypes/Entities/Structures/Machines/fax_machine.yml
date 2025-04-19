@@ -82,7 +82,7 @@
         map: [ "base" ]
         color: "#bfe3ff"
   - type: FaxMachine
-    name: "Central Command"
+    name: "Центральное Командование"
     notifyAdmins: true
 
 - type: entity

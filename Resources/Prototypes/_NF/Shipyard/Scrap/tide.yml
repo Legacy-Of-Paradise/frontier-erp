@@ -6,7 +6,7 @@
   price: 9700
   category: Small
   group: Scrap
-  shuttlePath: /Maps/_NF/Shuttles/Scrap/tide.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/tide.yml
   guidebookPage: ShipyardTide
   class:
   - Scrapyard
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Tide
   mapName: 'SV Tide'
-  mapPath: /Maps/_NF/Shuttles/Scrap/tide.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Scrap/tide.yml
   minPlayers: 0
   stations:
     Tide:

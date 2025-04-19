@@ -11,12 +11,12 @@
 - type: vessel
   id: Alleycat
   parent: BaseVesselBus
-  shuttlePath: /Maps/_NF/Shuttles/Bus/alleycat.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Bus/alleycat.yml
 
 - type: gameMap
   id: Alleycat
   mapName: 'Alleycat'
-  mapPath: /Maps/_NF/Shuttles/Bus/alleycat.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Bus/alleycat.yml
   minPlayers: 0
   stations:
     Alleycat:

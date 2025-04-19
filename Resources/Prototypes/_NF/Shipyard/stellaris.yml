@@ -2,11 +2,11 @@
   id: Stellaris
   parent: BaseVessel
   name: NT Stellaris
-  description: A mobile theatre perfect for putting on any show.
+  description: Мобильный театр для космических представлений!
   price: 48000 # Appraises for 45469, margin of 7% - TODO: fix this value, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/stellaris.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/stellaris.yml
   guidebookPage: Null
   class:
   - Civilian
@@ -16,7 +16,7 @@
 - type: gameMap
   id: Stellaris
   mapName: 'NT Stellaris'
-  mapPath: /Maps/_NF/Shuttles/stellaris.yml
+  mapPath: /Maps/_NewParadise/Shuttles/stellaris.yml
   minPlayers: 0
   stations:
     Stellaris:

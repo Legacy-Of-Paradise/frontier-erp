@@ -16,7 +16,7 @@
   price: 35000 #Cheap
   category: Small
   group: BlackMarket
-  shuttlePath: /Maps/_NF/Shuttles/BlackMarket/bocakillo.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/bocakillo.yml
   guidebookPage: Null
   class:
   - Pirate
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Bocakillo
   mapName: 'Bocakillo'
-  mapPath: /Maps/_NF/Shuttles/BlackMarket/bocakillo.yml
+  mapPath: /Maps/_NewParadise/Shuttles/BlackMarket/bocakillo.yml
   minPlayers: 0
   stations:
     Bocakillo:

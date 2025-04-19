@@ -8,7 +8,7 @@
   group: Custom
   access: Security
   mapchecker_group_override: Security  # Treat this as a security vessel for mapchecker purposes
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/rogue.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/rogue.yml
   guidebookPage: Null
   class:
   - Fighter
@@ -18,7 +18,7 @@
 - type: gameMap
   id: Rogue
   mapName: 'NSF Rogue'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/rogue.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/rogue.yml
   minPlayers: 0
   stations:
     Rogue:

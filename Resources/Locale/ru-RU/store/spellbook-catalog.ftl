@@ -43,7 +43,7 @@ spellbook-hammer-mjollnir-name = Мьёлльнир
 spellbook-hammer-mjollnir-description = В ваших руках мощь THUNDER. Отправляйте врагов в полет с помощью мощного взмаха или броска прямо в них!
 spellbook-hammer-singularity-name = Молот сингулярности
 spellbook-hammer-singularity-description = Вы когда-нибудь задумывались, каково это - быть сингулярностью? Размахивайте этим молотком, чтобы нарисовать своё окружение, даже если вы промахнётесь!
-spellbook-staff-animation-name = Персонал анимации
+spellbook-staff-animation-name = Посох оживления
 spellbook-staff-animation-description = Оживите неодушевлённые предметы!
 spellbook-wand-locker-description = Стреляйте в своих врагов проклятыми шкафчиками и запирайте их!
 

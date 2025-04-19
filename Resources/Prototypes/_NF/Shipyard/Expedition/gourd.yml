@@ -16,7 +16,7 @@
   price: 150000 # ~115000$ on mapinit + ~34000$ from 30% markup
   category: Large
   group: Expedition
-  shuttlePath: /Maps/_NF/Shuttles/Expedition/gourd.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/gourd.yml
   guidebookPage: ShipyardGourd
   class:
   - Expedition
@@ -28,7 +28,7 @@
 - type: gameMap
   id: Gourd
   mapName: 'SLI Gourd'
-  mapPath: /Maps/_NF/Shuttles/Expedition/gourd.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Expedition/gourd.yml
   minPlayers: 0
   stations:
     Gourd:

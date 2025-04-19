@@ -6,6 +6,6 @@
 
 - type: loadout
   id: MercenaryClothingEyesGlassesSunglasses
-  price: 0
+  price: 400
   equipment:
     eyes: ClothingEyesGlassesSunglasses

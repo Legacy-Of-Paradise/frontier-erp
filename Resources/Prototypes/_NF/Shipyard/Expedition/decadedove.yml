@@ -7,7 +7,7 @@
 # Discord: ???
 
 # Shuttle Notes:
-# 
+#
 - type: vessel
   id: DecadeDove
   parent: BaseVessel
@@ -16,7 +16,7 @@
   price: 78500 # ~60100$ on mapinit + ~18000$ from 30% markup
   category: Medium
   group: Expedition
-  shuttlePath: /Maps/_NF/Shuttles/Expedition/decadedove.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/decadedove.yml
   guidebookPage: Null
   class:
   - Expedition
@@ -26,7 +26,7 @@
 - type: gameMap
   id: DecadeDove
   mapName: 'DYS Dove'
-  mapPath: /Maps/_NF/Shuttles/Expedition/decadedove.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Expedition/decadedove.yml
   minPlayers: 0
   stations:
     DecadeDove:

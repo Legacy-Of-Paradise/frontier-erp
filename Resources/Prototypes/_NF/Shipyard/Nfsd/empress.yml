@@ -7,7 +7,7 @@
   category: Large
   group: Security
   access: Bailiff
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/empress.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/empress.yml
   guidebookPage: Null
   class:
   - Capital
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Empress
   mapName: 'NSF Empress'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/empress.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/empress.yml
   minPlayers: 0
   stations:
     Empress:

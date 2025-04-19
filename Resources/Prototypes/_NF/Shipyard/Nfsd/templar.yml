@@ -7,7 +7,7 @@
   category: Small
   group: Security
   access: Security
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/templar.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/templar.yml
   guidebookPage: Null
   class:
   - Pursuit
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Templar
   mapName: 'NSF Templar'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/templar.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/templar.yml
   minPlayers: 0
   stations:
     Templar:

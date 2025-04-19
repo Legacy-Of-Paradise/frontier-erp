@@ -64,13 +64,15 @@
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
-      - map: [ "id" ]
+      # LOP edit start
       - map: [ "gloves" ]
       - map: [ "shoes" ]
       - map: [ "ears" ]
-      - map: [ "outerClothing" ]
       - map: [ "eyes" ]
+      - map: [ "id" ]
+      - map: [ "outerClothing" ]
       - map: [ "belt" ]
+      # LOP edit end
       - map: [ "back" ]
       - map: [ "neck" ]
       - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
