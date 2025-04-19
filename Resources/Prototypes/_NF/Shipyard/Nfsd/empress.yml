@@ -2,7 +2,7 @@
   id: Empress
   parent: BaseVessel
   name: NSF Empress
-  description:"Большое патрульное судно, способное нести до 4 небольших быстроходных ударных кораблей. Флагманское судно ДШНГ." #LOP Edit
+  description: "Большое патрульное судно, способное нести до 4 небольших быстроходных ударных кораблей. Флагманское судно ДШНГ." #LOP Edit
   price: 170000 #Appraisal value is 150000
   category: Large
   group: Security

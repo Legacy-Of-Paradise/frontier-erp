@@ -1,5 +1,5 @@
 cburn-catalog-weapon-mk58-name = Mk58
-cburn-catalog-weapon-mk58-desc = Стандартный пистолет используемый на вооружении НаноТрейзен. Использует калибр .35 авто.
+cburn-catalog-weapon-mk58-desc = Стандартный пистолет используемый на вооружении NanoTrasen. Использует калибр .35 авто.
 cburn-catalog-weapon-lecter-name = Лектер
 cburn-catalog-weapon-lecter-desc = Штурмовая винтовка с убойной огневой мощью, способная лишить врага жизни за считанные секунды. Использует калибр .20 винтовочные.
 cburn-catalog-weapon-kammerer-name = Каммерер
@@ -9,7 +9,7 @@ cburn-catalog-weapon-enforcer-desc = Тактический дробовик, и
 cburn-catalog-weapon-bulldog-name = Бульдог
 cburn-catalog-weapon-bulldog-desc = Штурмовой дробовик, который используют силы биологической зачистки для самоообороны и нейтралзиации угрозы. Использует калибр .50 дробь
 cburn-catalog-weapon-pulsecarbine-name = Импульсный карабин
-cburn-catalog-weapon-pulsecarbine-desc = Высокотехнологическая разработка НаноТрейзен, часто используется командирами спасательных и эвакуационних отрядов НаноТрейзен.
+cburn-catalog-weapon-pulsecarbine-desc = Высокотехнологическая разработка NanoTrasen, часто используется командирами спасательных и эвакуационних отрядов NanoTrasen.
 cburn-catalog-armor-firesuit-name = Химическая защита
 cburn-catalog-armor-firesuit-desc = Содержит 2 набора химической защиты предназначенной для агресивных химических сред, включая пожаров. Набор содержит костюм, шлем, газоанализатор и огнетушитель.
 cburn-catalog-armor-radiation-suit-name = Радиационная защита

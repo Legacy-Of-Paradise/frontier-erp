@@ -638,7 +638,7 @@ construction-graph-desc-ClosetSteel = Высокий стальной ящик. 
 construction-graph-name-ClosetSteelSecure = защищённый шкаф
 construction-graph-desc-ClosetSteelSecure = Высокий стальной ящик. Может быть заблокирован.
 construction-graph-name-ClosetWall = настенный шкаф
-construction-graph-desc-ClosetWall = Стандартное хранилище НаноТрейзен, теперь на стенах.
+construction-graph-desc-ClosetWall = Стандартное хранилище NanoTrasen, теперь на стенах.
 #toys
 
 construction-graph-name-PlushieGhostRevenant = плюшевый ревенант
@@ -721,8 +721,8 @@ construction-graph-name-mothplushie = плюшевый ниан
 construction-graph-desc-mothplushie = Милый и пушистый плюшевый ниан. Развлекайтесь, бз!
 construction-graph-name-muzzle = намордник
 construction-graph-desc-muzzle = Чтобы прекратить этот ужасный шум.
-construction-graph-name-AltarNanotrasen = алтарь НаноТрейзен
-construction-graph-desc-AltarNanotrasen = Алтарь верхушки НаноТрейзен.
+construction-graph-name-AltarNanotrasen = алтарь NanoTrasen
+construction-graph-desc-AltarNanotrasen = Алтарь верхушки NanoTrasen.
 construction-graph-name-AltarConvertOrange = оранжевый алтарь
 construction-graph-desc-AltarConvertOrange = Алтарь богов.
 construction-graph-name-PaperWall = бумажная стена
