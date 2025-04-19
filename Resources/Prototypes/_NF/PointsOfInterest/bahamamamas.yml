@@ -16,7 +16,7 @@
   maximumDistance: 2900
   spawnGamePreset: [ NFAdventure, NFPirate ]
   spawnGroup: RestStop
-  gridPath: /Maps/_NF/POI/bahama.yml
+  gridPath: /Maps/_NewParadise/POI/bahama.yml
   addComponents:
   - type: StationTransit
     routes:
@@ -28,7 +28,7 @@
 - type: gameMap
   id: Bahama
   mapName: "Мама-Багама"
-  mapPath: /Maps/_NF/POI/bahama.yml
+  mapPath: /Maps/_NewParadise/POI/bahama.yml
   minPlayers: 0
   stations:
     Bahama:

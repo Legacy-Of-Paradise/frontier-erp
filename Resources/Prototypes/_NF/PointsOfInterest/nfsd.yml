@@ -15,7 +15,7 @@
   minimumDistance: 750
   maximumDistance: 1000
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/nfsd.yml
+  gridPath: /Maps/_NewParadise/POI/nfsd.yml
   addComponents:
   - type: IFF
     color: "#ae7d57"

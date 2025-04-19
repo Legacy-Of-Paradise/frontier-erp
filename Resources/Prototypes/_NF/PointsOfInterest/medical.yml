@@ -15,7 +15,7 @@
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/medical.yml
+  gridPath: /Maps/_NewParadise/POI/medical.yml
   addComponents:
   - type: IFF
     color: "#00b7eb"
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Medical
   mapName: 'Служба Реанимации'
-  mapPath: /Maps/_NF/POI/medical.yml
+  mapPath: /Maps/_NewParadise/POI/medical.yml
   minPlayers: 0
   stations:
     Medical:

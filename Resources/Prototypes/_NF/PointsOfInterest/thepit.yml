@@ -15,7 +15,7 @@
   minimumDistance: 2200
   maximumDistance: 4200
   spawnGroup: Arena
-  gridPath: /Maps/_NF/POI/arena.yml
+  gridPath: /Maps/_NewParadise/POI/arena.yml
   addComponents:
   - type: StationTransit
     routes:
@@ -27,7 +27,7 @@
 - type: gameMap
   id: ThePit
   mapName: "Яма"
-  mapPath: /Maps/_NF/POI/arena.yml
+  mapPath: /Maps/_NewParadise/POI/arena.yml
   minPlayers: 0
   stations:
     ThePit:

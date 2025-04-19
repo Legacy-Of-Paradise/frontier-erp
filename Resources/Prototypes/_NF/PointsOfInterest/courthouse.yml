@@ -15,7 +15,7 @@
   minimumDistance: 1150
   maximumDistance: 2050
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/courthouse.yml
+  gridPath: /Maps/_NewParadise/POI/courthouse.yml
   addComponents:
   - type: IFF
     color: "#ae7d57"
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Courthouse
   mapName: "Здание суда"
-  mapPath: /Maps/_NF/POI/courthouse.yml
+  mapPath: /Maps/_NewParadise/POI/courthouse.yml
   minPlayers: 0
   stations:
     Courthouse:
