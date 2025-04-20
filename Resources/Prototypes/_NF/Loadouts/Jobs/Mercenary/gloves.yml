@@ -1,18 +1,18 @@
 #T0
 - type: loadout
   id: MercenaryClothingHandsGlovesMercFingerless
-  price: 0
+  price: 300
   equipment:
     gloves: ClothingHandsGlovesMercFingerless
 
 - type: loadout
   id: MercenaryClothingHandsMercenaryGlovesCombat
-  price: 0
+  price: 2000
   equipment:
     gloves: ClothingHandsMercenaryGlovesCombat
 
 - type: loadout
   id: MercenaryClothingHandsGlovesCombat
-  price: 0
+  price: 2000
   equipment:
     gloves: ClothingHandsGlovesCombat

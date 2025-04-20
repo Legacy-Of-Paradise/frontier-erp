@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: AnomalousGeode
   parent: BasePOI
-  name: 'Геологическая лаблоатория'
+  name: 'Геологическая лаборатория'
   minimumDistance: 2100
   maximumDistance: 3800
   spawnGroup: ScienceLab
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: AnomalousGeode
-  mapName: 'Геологическая лаблоатория'
+  mapName: 'Геологическая лаборатория'
   mapPath: /Maps/_NewParadise/POI/anomalouslab.yml # LOP edit
   minPlayers: 0
   stations:
@@ -31,7 +31,7 @@
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Геологическая лаблоатория'
+          mapNameTemplate: 'Геологическая лаборатория'
         - type: StationJobs
           availableJobs: {}
         - type: StationDeadDropHintExempt

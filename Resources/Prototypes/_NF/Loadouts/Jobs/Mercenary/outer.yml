@@ -30,7 +30,7 @@
 
 - type: loadout # Punkish (Randomized visuals)
   id: MercenaryClothingOuterArmorPunkRandomized
-  name: punk webvest (random)
+  name: бронежилет панка (случайный)
   price: 600
   equipment:
     outerClothing: ClothingOuterArmorPunkRandomized
