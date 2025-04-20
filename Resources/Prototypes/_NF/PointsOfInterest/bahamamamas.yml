@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Bahama
   parent: BasePOI
-  name: "Багама-Мама"
+  name: "Багама-Мама" # LOP edit
   minimumDistance: 1200
   maximumDistance: 2900
   spawnGamePreset: [ NFAdventure, NFPirate ]
@@ -27,7 +27,7 @@
 
 - type: gameMap
   id: Bahama
-  mapName: "Багама-Мама"
+  mapName: "Багама-Мама" # LOP edit
   mapPath: /Maps/_NewParadise/POI/bahama.yml # LOP edit
   minPlayers: 0
   stations:
@@ -35,4 +35,4 @@
       stationProto: DeadDropFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Багама-Мама"
+          mapNameTemplate: "Багама-Мама" # LOP edit

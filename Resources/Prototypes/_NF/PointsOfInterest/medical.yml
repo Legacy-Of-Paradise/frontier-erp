@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Medical
   parent: BasePOI
-  name: 'Служба Реанимации'
+  name: 'Служба Реанимации' # LOP edit
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: Required
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Medical
-  mapName: 'Служба Реанимации'
+  mapName: 'Служба Реанимации' # LOP edit
   mapPath: /Maps/_NewParadise/POI/medical.yml # LOP edit
   minPlayers: 0
   stations:
@@ -33,7 +33,7 @@
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Служба Реанимации'
+          mapNameTemplate: 'Служба Реанимации' # LOP edit
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Markers/jobs.rsi/medic.png
           stationSubtext: 'frontier-lobby-medical-subtext'

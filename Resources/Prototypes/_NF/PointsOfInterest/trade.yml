@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Trade
   parent: BasePOI
-  name: Торговый аванпост
+  name: Торговый аванпост # LOP edit
   minimumDistance: 1500
   maximumDistance: 2500
   spawnGroup: MarketStation
@@ -37,7 +37,7 @@
 
 - type: gameMap
   id: Trade
-  mapName: 'Торговый аванпост'
+  mapName: 'Торговый аванпост' # LOP edit
   mapPath: /Maps/_NewParadise/POI/trade.yml # LOP edit
   minPlayers: 0
   stations:
@@ -45,7 +45,7 @@
       stationProto: MarketFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Торговый аванпост'
+          mapNameTemplate: 'Торговый аванпост' # LOP edit
         - type: StationDeadDrop
           maxDeadDrops: 3 # Many here, it's huge.
         - type: TradeCrateDestination

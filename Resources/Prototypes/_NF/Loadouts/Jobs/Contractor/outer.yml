@@ -58,7 +58,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterHoodieBlack
 
@@ -67,7 +67,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatJensen
 
@@ -76,7 +76,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatGentle
 
@@ -85,7 +85,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterJacketChef
 
@@ -94,7 +94,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterHoodieChaplain
 
@@ -103,7 +103,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterNunRobe
 
@@ -112,7 +112,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatLab
 
@@ -121,7 +121,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatLabGene
 
@@ -130,7 +130,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatLabChem
 
@@ -140,7 +140,7 @@
   # effects:
   # - !type:GroupLoadoutEffect
     # proto: ContractorT1
-  # price: 800
+  # price: 500 # LOP edit
   # equipment:
     # outerClothing: ClothingOuterCoatLabRnd
 
@@ -149,7 +149,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatRobo
 
@@ -158,7 +158,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatLabViro
 
@@ -167,7 +167,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterBioScientist
 
@@ -176,7 +176,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterCoat
 
@@ -185,7 +185,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterCoatLong
 
@@ -194,7 +194,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterAtmos
 
@@ -203,7 +203,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterHydro
 
@@ -212,7 +212,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterBar
 
@@ -221,7 +221,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterChef
 
@@ -230,7 +230,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterCap
 
@@ -239,7 +239,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterMusician
 
@@ -248,7 +248,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterCargo
 
@@ -257,7 +257,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterMiner
 
@@ -266,7 +266,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterEngi
 
@@ -275,7 +275,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterMed
 
@@ -284,7 +284,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterChem
 
@@ -293,7 +293,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatParamedicWB
 
@@ -302,7 +302,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterPara
 
@@ -311,7 +311,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterGen
 
@@ -320,7 +320,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterSci
 
@@ -329,7 +329,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterRobo
 
@@ -338,7 +338,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  price: 800
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterViro
 
@@ -348,7 +348,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterClown
 
@@ -357,7 +357,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterMime
 
@@ -366,7 +366,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterQM
 
@@ -375,7 +375,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterRD
 
@@ -384,7 +384,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterCMO
 
@@ -393,7 +393,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterCE
 
@@ -402,7 +402,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatLabCmo
 
@@ -411,7 +411,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatLabSeniorPhysician
 
@@ -420,7 +420,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatRD
 
@@ -429,7 +429,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatLabSeniorResearcher
 
@@ -438,7 +438,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterFlannelRed
 
@@ -447,7 +447,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterFlannelBlue
 
@@ -456,7 +456,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterFlannelGreen
 
@@ -465,7 +465,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatHyenhSweater
 
@@ -474,7 +474,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatDetectiveLoadout
 
@@ -483,7 +483,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatTrench
 
@@ -492,7 +492,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterDameDane
 
@@ -501,7 +501,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterWinterCoatPlaid
 
@@ -510,7 +510,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatBomber
 
@@ -519,7 +519,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterPlagueSuit
 
@@ -528,7 +528,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatBishop
 
@@ -537,7 +537,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatWitchHunter
 
@@ -546,7 +546,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatCardinal
 
@@ -556,7 +556,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatBomberPunkRed
 
@@ -565,7 +565,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatJacketLeather
 
@@ -574,7 +574,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatJacketBiker
 
@@ -583,7 +583,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatJacketJamrock
 
@@ -592,7 +592,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatBomberAerostatic
 
@@ -601,7 +601,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatJacketLettermanBlue
 
@@ -610,7 +610,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatJacketLettermanBrown
 
@@ -619,7 +619,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatJacketLettermanRed
 
@@ -628,7 +628,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatJacketLettermanMagenta
 
@@ -637,7 +637,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatBomberPinkSleeves
 
@@ -647,7 +647,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatBomberRandomized
 
@@ -656,7 +656,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoat
 
@@ -665,7 +665,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoatBlue
 
@@ -674,7 +674,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoatGreen
 
@@ -683,7 +683,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoatMagenta
 
@@ -692,7 +692,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatAcidRaincoatYellow
 
@@ -703,7 +703,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 1200
+  price: 500 # LOP edit
   equipment:
     outerClothing: WetFloorSign
 
@@ -712,7 +712,7 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 6000
+  price: 5000 # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatExpensive
 
@@ -721,6 +721,6 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3
-  price: 8000
+  price: 5000  # LOP edit
   equipment:
     outerClothing: ClothingOuterCoatSpaceAsshole

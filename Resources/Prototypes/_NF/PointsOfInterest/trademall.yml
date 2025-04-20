@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: TradeMall
   parent: BasePOI
-  name: Торговый центр
+  name: Торговый центр # LOP edit
   minimumDistance: 1500
   maximumDistance: 2500
   spawnGroup: MarketStation
@@ -37,7 +37,7 @@
 
 - type: gameMap
   id: TradeMall
-  mapName: 'Торговый центр'
+  mapName: 'Торговый центр' # LOP edit
   mapPath: /Maps/_NewParadise/POI/trademall.yml # LOP edit
   minPlayers: 0
   stations:
@@ -45,7 +45,7 @@
       stationProto: MarketFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Торговый центр'
+          mapNameTemplate: 'Торговый центр' # LOP edit
         - type: StationDeadDrop
           maxDeadDrops: 2 # A few, its not as big as the original trade outpost
         - type: TradeCrateDestination

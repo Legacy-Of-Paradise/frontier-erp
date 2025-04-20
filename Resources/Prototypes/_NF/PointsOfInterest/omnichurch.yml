@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Omnichurch
   parent: BasePOI
-  name: "Маяк Всецеркови"
+  name: "Маяк Всецеркви" # LOP edit
   minimumDistance: 2200
   maximumDistance: 4900
   gridPath: /Maps/_NewParadise/POI/beacon.yml # LOP edit

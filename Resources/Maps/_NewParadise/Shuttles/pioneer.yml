@@ -1,6 +1,17 @@
 meta:
-  format: 6
-  postmapinit: false
+  format: 7
+  category: Grid
+  engineVersion: 250.0.0
+  forkId: ""
+  forkVersion: ""
+  time: 04/20/2025 10:07:26
+  entityCount: 110
+maps: []
+grids:
+- 1
+orphans:
+- 1
+nullspace: []
 tilemap:
   0: Space
   30: FloorDark
@@ -178,7 +189,8 @@ entities:
             0: 29488
             1: 4
           -1,0:
-            0: 2184
+            2: 8
+            0: 2176
             1: 16384
           -1,-1:
             0: 34944
@@ -208,6 +220,21 @@ entities:
           moles:
           - 0
           - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -680,6 +707,35 @@ entities:
     - type: Transform
       pos: -0.5,0.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 91
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerWallEVAColorSalvageFilled
   entities:
   - uid: 10
@@ -688,6 +744,15 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 2.5,2.5
       parent: 1
+- proto: MiningDrill
+  entities:
+  - uid: 91
+    components:
+    - type: Transform
+      parent: 78
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: NitrogenCanister
   entities:
   - uid: 58
@@ -723,10 +788,6 @@ entities:
     - type: Transform
       pos: -0.5,-1.5
       parent: 1
-    - type: FuelGenerator
-      on: False
-    - type: Physics
-      bodyType: Static
 - proto: Poweredlight
   entities:
   - uid: 110
@@ -983,7 +1044,7 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 2.5,-2.5
       parent: 1
-- proto: WarpPointShip
+- proto: WarpPoint
   entities:
   - uid: 85
     components:
