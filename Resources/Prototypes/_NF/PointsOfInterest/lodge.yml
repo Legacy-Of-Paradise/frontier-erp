@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Lodge
   parent: BasePOI
-  name: 'Берлога Экспедиторов'
+  name: 'Берлога Экспедиторов' # LOP edit
   minimumDistance: 1650
   maximumDistance: 3400
   spawnGroup: Required
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Lodge
-  mapName: 'Берлога Экспедиторов'
+  mapName: 'Берлога Экспедиторов' # LOP edit
   mapPath: /Maps/_NewParadise/POI/lodge.yml # LOP edit
   minPlayers: 0
   stations:
@@ -33,7 +33,7 @@
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Берлога Экспедиторов'
+          mapNameTemplate: 'Берлога Экспедиторов' # LOP edit
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Markers/jobs.rsi/mercenary.png
           stationSubtext: 'frontier-lobby-exped-subtext'

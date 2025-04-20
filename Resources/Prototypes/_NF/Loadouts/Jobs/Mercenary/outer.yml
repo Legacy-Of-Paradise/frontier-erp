@@ -30,7 +30,7 @@
 
 - type: loadout # Punkish (Randomized visuals)
   id: MercenaryClothingOuterArmorPunkRandomized
-  name: бронежилет панка (случайный)
+  name: бронежилет панка (случайный) # LOP edit
   price: 600
   equipment:
     outerClothing: ClothingOuterArmorPunkRandomized

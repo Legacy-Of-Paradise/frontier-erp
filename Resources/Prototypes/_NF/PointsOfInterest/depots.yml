@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: CargoDepot
   parent: BasePOI
-  name: Склад Грузоперевозок
+  name: Склад Грузоперевозок # LOP edit
   minimumDistance: 4000
   maximumDistance: 5000
   spawnGroup: CargoDepot
@@ -35,7 +35,7 @@
 - type: pointOfInterest
   id: CargoDepotAlt
   parent: BasePOI
-  name: Склад Грузоперевозок
+  name: Склад Грузоперевозок # LOP edit
   minimumDistance: 4000
   maximumDistance: 5000
   spawnGroup: CargoDepot
@@ -44,7 +44,7 @@
 
 - type: gameMap
   id: CargoDepot
-  mapName: 'Склад Грузоперевозок' # Has a letter appended in PointOfInterestSystem
+  mapName: 'Склад Грузоперевозок' # LOP edit # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_NewParadise/POI/cargodepotalt.yml # LOP edit
   minPlayers: 0
   stations:
@@ -52,13 +52,13 @@
       stationProto: StandardFrontierOutpost
       components: &cargoStationComponents
         - type: StationNameSetup
-          mapNameTemplate: 'Склад Грузоперевозок' # Has a letter appended in PointOfInterestSystem
+          mapNameTemplate: 'Склад Грузоперевозок' # LOP edit # Has a letter appended in PointOfInterestSystem
         - type: TradeCrateDestination
           destinationProto: CargoA # Redefined in PointOfInterestSystem
 
 - type: gameMap
   id: CargoDepotAlt
-  mapName: 'Склад Грузоперевозок' # Has a letter appended in PointOfInterestSystem
+  mapName: 'Склад Грузоперевозок' # LOP edit # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_NewParadise/POI/cargodepotalt.yml # LOP edit
   minPlayers: 0
   stations:

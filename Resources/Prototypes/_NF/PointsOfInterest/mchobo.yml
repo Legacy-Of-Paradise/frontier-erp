@@ -12,7 +12,7 @@
 - type: pointOfInterest
   id: McHobo
   parent: BasePOI
-  name: Заброшенный McCargo
+  name: Заброшенный McCargo # LOP edit
   minimumDistance: 3250
   maximumDistance: 5600
   spawnGroup: Scrapyard
@@ -24,7 +24,7 @@
 
 - type: gameMap
   id: McHobo
-  mapName: "Заброшенный McCargo"
+  mapName: "Заброшенный McCargo" # LOP edit
   mapPath: /Maps/_NewParadise/POI/mchobo.yml # LOP edit
   minPlayers: 0
   stations:
@@ -32,5 +32,5 @@
       stationProto: DeadDropRecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Заброшенный McCargo"
+          mapNameTemplate: "Заброшенный McCargo" # LOP edit
         - type: BindToStationVariationPassExemption

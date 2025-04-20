@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: LPBravo
   parent: BasePOI
-  name: 'Точка прослушивания Браво'
+  name: 'Точка прослушивания Браво' # LOP edit
   minimumDistance: 4000
   maximumDistance: 6000
   spawnGroup: SyndicateFOB
@@ -29,7 +29,7 @@
 
 - type: gameMap
   id: LPBravo
-  mapName: 'Точка прослушивания Браво'
+  mapName: 'Точка прослушивания Браво' # LOP edit
   mapPath: /Maps/_NewParadise/POI/lpbravo.yml # LOP edit
   minPlayers: 0
   stations:
@@ -38,7 +38,7 @@
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Точка прослушивания Браво'
+          mapNameTemplate: 'Точка прослушивания Браво' # LOP edit
         - type: StationJobs
           availableJobs: {}
         - type: StationDeadDropHintExempt

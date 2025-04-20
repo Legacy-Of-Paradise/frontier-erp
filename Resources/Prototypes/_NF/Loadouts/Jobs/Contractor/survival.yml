@@ -1,7 +1,7 @@
 #T0
 - type: loadout
   id: ContractorBoxSurvivalNFOxygen
-  name: аварийный запас кислорода
+  name: аварийный запас кислорода # LOP edit
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: OxygenBreatherNF
@@ -11,7 +11,7 @@
 
 - type: loadout
   id: ContractorBoxSurvivalNFNitrogen
-  name: аварийный запас азота
+  name: аварийный запас азота # LOP edit
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: NitrogenBreatherNF
@@ -22,7 +22,7 @@
 #T1
 - type: loadout
   id: ContractorBoxSurvivalNFOxygenExtended
-  name: расширенный аварийный запас кислорода
+  name: расширенный аварийный запас кислорода # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -36,7 +36,7 @@
 
 - type: loadout
   id: ContractorBoxSurvivalNFNitrogenExtended
-  name: расширенный аварийный запас азота
+  name: расширенный аварийный запас азота # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1

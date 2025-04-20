@@ -1,6 +1,6 @@
 #T0
 - type: loadout
   id: PilotClothingHandsGlovesPilot
-  price: 300
+  price: 300 # LOP edit
   equipment:
     gloves: ClothingHandsGlovesPilot

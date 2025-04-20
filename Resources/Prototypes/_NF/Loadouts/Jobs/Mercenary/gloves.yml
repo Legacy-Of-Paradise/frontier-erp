@@ -1,18 +1,18 @@
 #T0
 - type: loadout
   id: MercenaryClothingHandsGlovesMercFingerless
-  price: 300
+  price: 300 # LOP edit
   equipment:
     gloves: ClothingHandsGlovesMercFingerless
 
 - type: loadout
   id: MercenaryClothingHandsMercenaryGlovesCombat
-  price: 2000
+  price: 2000 # LOP edit
   equipment:
     gloves: ClothingHandsMercenaryGlovesCombat
 
 - type: loadout
   id: MercenaryClothingHandsGlovesCombat
-  price: 2000
+  price: 2000 # LOP edit
   equipment:
     gloves: ClothingHandsGlovesCombat
