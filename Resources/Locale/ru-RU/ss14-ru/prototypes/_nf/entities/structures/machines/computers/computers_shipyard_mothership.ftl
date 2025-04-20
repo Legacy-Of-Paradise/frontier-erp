@@ -1,7 +1,7 @@
 ent-BaseMothershipComputer = { ent-BaseStructureDisableToolUse }
     .desc = Используется на материнских кораблях для покупки и продажи кораблей, не возвращаясь на станцию.
     .suffix = Материнский корабль
-ent-SellOnlyMothershipComputer = консоль верфи продажы
+ent-SellOnlyMothershipComputer = консоль верфи продажи
     .desc = { ent-BaseMothershipComputer.desc }
 ent-EmpressMothershipComputer = консоль верфи "empress"
     .desc = { ent-BaseMothershipComputer.desc }

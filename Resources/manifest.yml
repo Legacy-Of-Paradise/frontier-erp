@@ -1,5 +1,5 @@
-defaultWindowTitle: Frontier Station
-windowIconSet: /Textures/_NewParadise/Logo/icon
-splashLogo: /Textures/_NewParadise/Logo/logo.png
+defaultWindowTitle: Legacy Of Paradise # LOP edit
+windowIconSet: /Textures/_NewParadise/Logo/icon # LOP edit
+splashLogo: /Textures/_NewParadise/Logo/logo.png # LOP edit
 
 # PJB PLEASE
