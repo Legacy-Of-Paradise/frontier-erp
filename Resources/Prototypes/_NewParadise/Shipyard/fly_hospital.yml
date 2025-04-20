@@ -1,0 +1,32 @@
+- type: vessel
+  id: fly_hospital
+  parent: BaseVessel
+  name: NSF Fly Hospital
+  description: "Летающий полевой госпиталь для департамента шерифа." #LOP Edit
+  price: 41000 # It do be like this.
+  category: Medium
+  group: Security
+  access: Security
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/fly_hospital.yml # LOP edit
+  guidebookPage: Null
+  class:
+  - Medical
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: fly_hospital
+  mapName: 'NSF Fly Hospital'
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/fly_hospital.yml # LOP edit
+  minPlayers: 0
+  stations:
+    fly_hospital:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Fly Hospital {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs: {}
