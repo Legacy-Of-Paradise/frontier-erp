@@ -1,6 +1,17 @@
 meta:
-  format: 6
-  postmapinit: false
+  format: 7
+  category: Grid
+  engineVersion: 250.0.0
+  forkId: ""
+  forkVersion: ""
+  time: 04/20/2025 10:13:48
+  entityCount: 353
+maps: []
+grids:
+- 1
+orphans:
+- 1
+nullspace: []
 tilemap:
   0: Space
   30: FloorDark
@@ -319,48 +330,65 @@ entities:
           0,0:
             0: 48059
           0,-1:
-            0: 64313
+            0: 62265
+            1: 2048
           -1,0:
             0: 47583
           0,1:
-            1: 2032
+            2: 2032
           -1,1:
-            1: 3776
+            2: 3776
             0: 3
           1,0:
             0: 14199
-            1: 32768
+            2: 32768
           1,1:
-            1: 52
+            2: 52
           1,-1:
             0: 30467
-            1: 8
+            2: 8
           -2,0:
-            0: 52238
+            0: 51214
+            1: 1024
           -2,-1:
             0: 60928
-            1: 4
+            2: 4
           -2,1:
-            1: 32
+            2: 32
             0: 12
           -1,-1:
             0: 65531
           0,-2:
             0: 12544
-            1: 2048
+            2: 2048
           -1,-2:
             0: 34816
-            1: 768
+            2: 768
           1,-2:
-            1: 17152
+            2: 17152
           -2,-2:
-            1: 32768
+            2: 32768
         uniqueMixes:
         - volume: 2500
           temperature: 293.15
           moles:
           - 21.824879
           - 82.10312
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -1837,6 +1865,35 @@ entities:
     - type: Transform
       pos: -5.5,2.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 352
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerSalvageSpecialistFilled
   entities:
   - uid: 211
@@ -1844,6 +1901,35 @@ entities:
     - type: Transform
       pos: 3.5,-1.5
       parent: 1
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 353
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerWallMaterialsFuelPlasmaFilled2
   entities:
   - uid: 66
@@ -1859,6 +1945,22 @@ entities:
     - type: Transform
       pos: 6.5,2.5
       parent: 1
+- proto: MiningDrill
+  entities:
+  - uid: 352
+    components:
+    - type: Transform
+      parent: 146
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 353
+    components:
+    - type: Transform
+      parent: 211
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: NFHolopadShip
   entities:
   - uid: 350
@@ -1963,14 +2065,6 @@ entities:
     - type: Transform
       pos: -2.5,0.5
       parent: 1
-- proto: PoweredlightUltraviolet
-  entities:
-  - uid: 169
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,-3.5
-      parent: 1
 - proto: PoweredlightSodium
   entities:
   - uid: 204
@@ -1978,6 +2072,14 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 2.5,5.5
+      parent: 1
+- proto: PoweredlightUltraviolet
+  entities:
+  - uid: 169
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 5.5,-3.5
       parent: 1
 - proto: PoweredSmallLight
   entities:
