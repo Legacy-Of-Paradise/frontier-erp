@@ -2,12 +2,12 @@
   id: fly_hospital
   parent: BaseVessel
   name: NSF Fly Hospital
-  description: "Летающий полевой госпиталь для департамента шерифа." #LOP Edit
+  description: "Летающий полевой госпиталь для департамента шерифа."
   price: 41000 # It do be like this.
   category: Medium
   group: Security
   access: Security
-  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/fly_hospital.yml # LOP edit
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/fly_hospital.yml
   guidebookPage: Null
   class:
   - Medical
@@ -17,7 +17,7 @@
 - type: gameMap
   id: fly_hospital
   mapName: 'NSF Fly Hospital'
-  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/fly_hospital.yml # LOP edit
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/fly_hospital.yml
   minPlayers: 0
   stations:
     fly_hospital:
