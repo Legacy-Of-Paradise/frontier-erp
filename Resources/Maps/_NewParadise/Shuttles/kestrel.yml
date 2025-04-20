@@ -1,6 +1,17 @@
 meta:
-  format: 6
-  postmapinit: false
+  format: 7
+  category: Grid
+  engineVersion: 250.0.0
+  forkId: ""
+  forkVersion: ""
+  time: 04/20/2025 10:05:26
+  entityCount: 539
+maps: []
+grids:
+- 3
+orphans:
+- 3
+nullspace: []
 tilemap:
   0: Space
   12: FloorBar
@@ -497,16 +508,20 @@ entities:
           0,-5:
             1: 65280
           -1,-4:
-            0: 44919
+            0: 44915
+            2: 4
           0,-3:
-            0: 65359
+            0: 65349
+            3: 2
+            2: 8
           -1,-3:
             0: 20198
             1: 4096
           0,-2:
             0: 64187
           1,-4:
-            0: 49116
+            0: 49112
+            3: 4
           1,-3:
             0: 65517
           1,-2:
@@ -562,6 +577,36 @@ entities:
           moles:
           - 0
           - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
+          - 21.6852
+          - 81.57766
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.14996
+          moles:
+          - 20.078888
+          - 75.53487
           - 0
           - 0
           - 0
@@ -2827,14 +2872,25 @@ entities:
     - type: Transform
       pos: 3.5,-11.5
       parent: 3
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 484
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
     - type: EntityStorage
       air:
         volume: 200
         immutable: False
         temperature: 293.1496
         moles:
-        - 1.7459903
-        - 6.568249
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -2850,14 +2906,25 @@ entities:
     - type: Transform
       pos: -1.5,-15.5
       parent: 3
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 528
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
     - type: EntityStorage
       air:
         volume: 200
         immutable: False
         temperature: 293.1496
         moles:
-        - 1.7459903
-        - 6.568249
+        - 1.8856695
+        - 7.0937095
         - 0
         - 0
         - 0
@@ -2873,11 +2940,69 @@ entities:
     - type: Transform
       pos: 6.5,-15.5
       parent: 3
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 538
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
   - uid: 269
     components:
     - type: Transform
       pos: 1.5,-11.5
       parent: 3
+    - type: EntityStorage
+      air:
+        volume: 200
+        immutable: False
+        temperature: 293.14923
+        moles:
+        - 1.7459903
+        - 6.568249
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+        - 0
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 539
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
 - proto: LockerWallMaterialsFuelUraniumFilled
   entities:
   - uid: 482
@@ -2885,6 +3010,36 @@ entities:
     - type: Transform
       pos: -2.5,-8.5
       parent: 3
+- proto: MiningDrill
+  entities:
+  - uid: 484
+    components:
+    - type: Transform
+      parent: 1
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 528
+    components:
+    - type: Transform
+      parent: 177
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 538
+    components:
+    - type: Transform
+      parent: 179
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 539
+    components:
+    - type: Transform
+      parent: 269
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: NFHolopadShip
   entities:
   - uid: 261
