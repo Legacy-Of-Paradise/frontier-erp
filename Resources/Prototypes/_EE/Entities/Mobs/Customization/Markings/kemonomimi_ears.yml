@@ -3,7 +3,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human, Oni]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LOP edit
   coloring:
     default:
       type:
@@ -20,7 +20,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human, Felinid, Vulpkanin]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LOP edit
   coloring:
     default:
       type:
@@ -44,7 +44,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human, Felinid, Vulpkanin]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LOP edit
   coloring:
     default:
       type:
@@ -61,7 +61,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Human, Oni]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LOP edit
   coloring:
     default:
       type:

@@ -5,6 +5,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: basic_outer
@@ -15,6 +16,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: curled_outer
@@ -26,6 +28,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: droopy_outer
@@ -37,6 +40,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: basic_outer
@@ -48,6 +52,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: stubby_outer
@@ -59,6 +64,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: tall_outer
@@ -72,6 +78,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: torn_outer
@@ -83,6 +90,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_ears.rsi
     state: wide_outer
@@ -96,6 +104,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
@@ -109,6 +118,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
@@ -124,6 +134,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip
@@ -139,6 +150,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid, Human] # LOP edit
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: Nyanotrasen/Mobs/Customization/felinid_tails.rsi
     state: basic_tail_tip

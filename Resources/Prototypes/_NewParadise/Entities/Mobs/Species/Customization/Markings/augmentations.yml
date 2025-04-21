@@ -2,7 +2,7 @@
   id: LPPTattooAgent
   bodyPart: Head
   markingCategory: Head
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: agent
@@ -11,7 +11,7 @@
   id: LPPTattooTear
   bodyPart: Head
   markingCategory: Head
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: tear
@@ -20,7 +20,7 @@
   id: LPPJaw
   bodyPart: Head
   markingCategory: Head
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: jaw
@@ -30,7 +30,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Human, Dwarf, SlimePerson ]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: visor
@@ -40,7 +40,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [ Human, Dwarf, SlimePerson ]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: robohead
@@ -49,7 +49,7 @@
   id: LPPIronheart
   bodyPart: Chest
   markingCategory: Chest
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: ironheart
@@ -58,7 +58,7 @@
   id: LPPProsthesisLLeg
   bodyPart: LLeg
   markingCategory: Legs
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: lleg
@@ -67,7 +67,7 @@
   id: LPPProsthesisRLeg
   bodyPart: RLeg
   markingCategory: Legs
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: rleg
@@ -76,7 +76,7 @@
   id: LPPProsthesisLHand
   bodyPart: LArm
   markingCategory: Arms
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: lhand
@@ -85,7 +85,7 @@
   id: LPPProsthesisRHand
   bodyPart: RArm
   markingCategory: Arms
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: rhand
@@ -94,7 +94,7 @@
   id: LPPProsthesisLWrist
   bodyPart: LHand
   markingCategory: Arms
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: lwrist
@@ -103,7 +103,7 @@
   id: LPPProsthesisRWrist
   bodyPart: RHand
   markingCategory: Arms
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/augmentations/augmentations.rsi
       state: rwrist

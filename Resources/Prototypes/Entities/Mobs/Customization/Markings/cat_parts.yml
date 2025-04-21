@@ -3,6 +3,7 @@
   bodyPart: Special
   markingCategory: Special
   speciesRestriction: [] # Frontier: Human<empty list
+  sponsorOnly: true # LOP edit
   coloring:
     default:
       type:
@@ -26,6 +27,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: []
+  sponsorOnly: true # LOP edit
   coloring:
     default:
       type:
