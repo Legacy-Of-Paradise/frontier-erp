@@ -2,7 +2,6 @@ marking-NFHumanHairChub = Чуб
 marking-NFHumanHairStreak = Полосы
 marking-NFHumanHairHalfshavedEmo = Полувыбритый Эно
 marking-NFHumanHairHalfshavedTrim = Полубритый (подстриженный)
-marking-NFHumanHairJensen = Jensen
 marking-NFHumanHairJensen = Дженсен
 marking-NFHumanHairLeftSide = Полубритый (длинный, левый)
 marking-NFHumanHairLeftSideTrim = Полубритый (подстриженный, левый)
