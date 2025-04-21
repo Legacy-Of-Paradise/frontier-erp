@@ -1,4 +1,4 @@
-﻿ent-BaseKey = { ent-BaseItem }
+ent-BaseKey = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-VehicleKeySecway = ключи от сегвея
     .desc = Ключ к будущему.
