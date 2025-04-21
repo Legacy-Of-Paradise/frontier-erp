@@ -1,4 +1,5 @@
 - type: vessel
+  parent: BaseVessel
   id: Vitalis
   name: CTC Vitalis
   description: Среднее судно для медицинского персонала, предназначенное для использования в криогенных условиях. # LOP edit
