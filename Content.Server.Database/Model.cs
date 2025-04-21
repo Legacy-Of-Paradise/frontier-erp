@@ -47,9 +47,7 @@ namespace Content.Server.Database
         public DbSet<BanTemplate> BanTemplate { get; set; } = null!;
         public DbSet<IPIntelCache> IPIntelCache { get; set; } = null!;
 
-#if LOP_Sponsors
         public DbSet<Sponsor> Sponsors { get; set; } = null!;
-#endif
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -1345,9 +1343,9 @@ namespace Content.Server.Database
         public float Score { get; set; }
     }
 
-#if LOP_Sponsors
+    // LOP edit start: sponsor system
     [Table("sponsors")]
-    public class Sponsor
+    public sealed class Sponsor
     {
         [Required, Key] public Guid UserId { get; set; }
         public int Tier { get; set; }
@@ -1358,5 +1356,5 @@ namespace Content.Server.Database
         //public DateTime ExpireDate {get;set;}
         public bool AllowJob { get; set; } = false;
     }
-#endif
+    // LOP edit end: sponsor system
 }

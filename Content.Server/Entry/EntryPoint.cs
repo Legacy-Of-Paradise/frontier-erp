@@ -35,6 +35,10 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+#if LOP_Sponsors
+using Content.Server._NewParadise.Sponsors;
+using Content.Server._NC.Discord;
+#endif
 
 namespace Content.Server.Entry
 {
@@ -116,6 +120,10 @@ namespace Content.Server.Entry
 
                 // LOP edit start
                 IoCManager.Resolve<TTSManager>().Initialize();
+#if LOP_Sponsors
+                IoCManager.Resolve<SponsorsManager>().Initialize();
+                IoCManager.Resolve<DiscordAuthManager>().Initialize();
+#endif
                 // LOP edit end
 
                 _voteManager.Initialize();

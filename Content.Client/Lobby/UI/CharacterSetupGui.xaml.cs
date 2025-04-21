@@ -90,6 +90,15 @@ namespace Content.Client.Lobby.UI
 
             foreach (var (slot, character) in _preferencesManager.Preferences!.Characters)
             {
+                // LOP edit start
+                if (character is null) continue;
+
+#if LOP_Sponsors
+                if (numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots)
+                    break;
+#endif
+                // LOP edit end
+
                 numberOfFullSlots++;
                 var characterPickerButton = new CharacterPickerButton(_entManager,
                     _protomanager,

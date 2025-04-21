@@ -38,6 +38,9 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 using Content.Client._NF.Emp.Overlays; // Frontier
+#if LOP_Sponsors
+using Content.Client._NewParadise.Sponsors;
+#endif
 
 namespace Content.Client.Entry
 {
@@ -74,7 +77,13 @@ namespace Content.Client.Entry
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly DebugMonitorManager _debugMonitorManager = default!;
         [Dependency] private readonly TitleWindowManager _titleWindowManager = default!;
-        [Dependency] private readonly TTSManager _ttsManager = default!; // LOP edit
+
+        //LOP edit start
+        [Dependency] private readonly TTSManager _ttsManager = default!;
+#if LOP_Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
+        // LOP edit end
 
 
         public override void Init()
@@ -143,6 +152,9 @@ namespace Content.Client.Entry
 
             // LOP edit start
             _ttsManager.Initialize();
+#if LOP_Sponsors
+            _sponsorsManager.Initialize();
+#endif
             // LOP edit end
 
             //AUTOSCALING default Setup!

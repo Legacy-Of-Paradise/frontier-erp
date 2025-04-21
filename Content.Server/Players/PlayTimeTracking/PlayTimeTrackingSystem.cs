@@ -1,4 +1,5 @@
 using System.Linq;
+using Content.Server._NewParadise.Sponsors;
 using Content.Server.Administration;
 using Content.Server.Administration.Managers;
 using Content.Server.Afk;
@@ -22,6 +23,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LOP_Sponsors
+using Content.Server._NewParadise.Sponsors;
+#endif
 
 namespace Content.Server.Players.PlayTimeTracking;
 
@@ -201,7 +205,14 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             playTimes = new Dictionary<string, TimeSpan>();
         }
 
-        return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter);
+        // LOP edit start: sponsor system
+        var sponsors = IoCManager.Resolve<SponsorsManager>();
+        var tier = 0;
+        if (sponsors.TryGetInfo(player.UserId, out var sinfo))
+            tier = sinfo.Tier;
+
+        return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?)_preferencesManager.GetPreferences(player.UserId).SelectedCharacter, tier);
+        // LOP edit end
     }
 
     public HashSet<ProtoId<JobPrototype>> GetDisallowedJobs(ICommonSession player)

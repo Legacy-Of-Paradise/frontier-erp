@@ -179,7 +179,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
         return new(color.RByte, color.GByte, color.BByte);
     }
 
-    public static HumanoidCharacterAppearance EnsureValid(HumanoidCharacterAppearance appearance, string species, Sex sex)
+    public static HumanoidCharacterAppearance EnsureValid(HumanoidCharacterAppearance appearance, string species, Sex sex, List<string> sponsorPrototypes)
     {
         var hairStyleId = appearance.HairStyleId;
         var facialHairStyleId = appearance.FacialHairStyleId;
@@ -201,6 +201,22 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             facialHairStyleId = HairStyles.DefaultFacialHairStyle;
         }
 
+        // LOP edit start: sponsor system
+#if LOP_Sponsors
+        if (proto.TryIndex(hairStyleId, out MarkingPrototype? hairProto) &&
+            hairProto.SponsorOnly && !sponsorPrototypes.Contains(hairStyleId))
+        {
+            hairStyleId = HairStyles.DefaultHairStyle;
+        }
+
+        if (proto.TryIndex(facialHairStyleId, out MarkingPrototype? facialHairProto) &&
+            facialHairProto.SponsorOnly && !sponsorPrototypes.Contains(facialHairStyleId))
+        {
+            facialHairStyleId = HairStyles.DefaultFacialHairStyle;
+        }
+#endif
+        // LOP edit end: sponsor system
+
         var markingSet = new MarkingSet();
         var skinColor = appearance.SkinColor;
         if (proto.TryIndex(species, out SpeciesPrototype? speciesProto))
@@ -215,6 +231,9 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
 
             markingSet.EnsureSpecies(species, skinColor, markingManager);
             markingSet.EnsureSexes(sex, markingManager);
+#if LOP_Sponsors  // LOP edit: sponsor system
+            markingSet.FilterSponsor(sponsorPrototypes, markingManager);
+#endif
         }
 
         return new HumanoidCharacterAppearance(

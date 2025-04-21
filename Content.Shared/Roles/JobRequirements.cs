@@ -14,7 +14,11 @@ public static class JobRequirements
         [NotNullWhen(false)] out FormattedMessage? reason,
         IEntityManager entManager,
         IPrototypeManager protoManager,
-        HumanoidCharacterProfile? profile)
+        HumanoidCharacterProfile? profile
+#if LOP_Sponsors
+        , int tier = 0
+#endif
+        )
     {
         var sys = entManager.System<SharedRoleSystem>();
         var requirements = sys.GetJobRequirement(job);
@@ -27,7 +31,7 @@ public static class JobRequirements
         bool success = true;
         foreach (var requirement in requirements)
         {
-            if (!requirement.Check(entManager, protoManager, profile, playTimes, out reason))
+            if (!requirement.Check(entManager, protoManager, profile, playTimes, out reason, tier)) // LOP edit: sponsor system
             {
                 success = false;
                 break;
@@ -43,7 +47,7 @@ public static class JobRequirements
             foreach (var requirement in requirementSet)
             {
                 // Frontier: do not accumulate reasons for alternate job requirements.
-                if (!requirement.Check(entManager, protoManager, profile, playTimes, out _))
+                if (!requirement.Check(entManager, protoManager, profile, playTimes, out _, tier)) // LOP edit: sponsor system
                 {
                     success = false;
                     break;
@@ -78,5 +82,9 @@ public abstract partial class JobRequirement
         IPrototypeManager protoManager,
         HumanoidCharacterProfile? profile,
         IReadOnlyDictionary<string, TimeSpan> playTimes,
-        [NotNullWhen(false)] out FormattedMessage? reason);
+        [NotNullWhen(false)] out FormattedMessage? reason
+#if LOP_Sponsors
+        , int tier = 0
+#endif
+        );
 }

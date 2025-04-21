@@ -1917,6 +1917,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
         }
 
+        // LOP edit start: sponsor system
 #if LOP_Sponsors
         #region Sponsors
         public async Task<Sponsor?> GetSponsorInfo(NetUserId userId)
@@ -1932,5 +1933,6 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
         }
         #endregion
 #endif
+        // LOP edit end: sponsor system
     }
 }

@@ -4,6 +4,9 @@ using Robust.Client;
 using Robust.Client.Player;
 using Robust.Shared.Network;
 using Robust.Shared.Utility;
+#if LOP_Sponsors
+using Content.Client._NewParadise.Sponsors;
+#endif
 
 namespace Content.Client.Lobby
 {
@@ -17,6 +20,9 @@ namespace Content.Client.Lobby
         [Dependency] private readonly IClientNetManager _netManager = default!;
         [Dependency] private readonly IBaseClient _baseClient = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
+#if LOP_Sponsors
+        [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
         public event Action? OnServerDataLoaded;
 
@@ -60,7 +66,16 @@ namespace Content.Client.Lobby
         public void UpdateCharacter(ICharacterProfile profile, int slot)
         {
             var collection = IoCManager.Instance!;
-            profile.EnsureValid(_playerManager.LocalSession!, collection);
+
+            //LOP edit start
+            var allowedMarkings = new List<string>();
+#if LOP_Sponsors
+            if (_sponsorsManager.TryGetInfo(out var sponsor))
+                allowedMarkings = sponsor.AllowedMarkings.ToList();
+#endif
+            profile.EnsureValid(_playerManager.LocalSession!, collection, allowedMarkings);
+            //LOP edit end
+
             var characters = new Dictionary<int, ICharacterProfile>(Preferences.Characters) {[slot] = profile};
             Preferences = new PlayerPreferences(characters, Preferences.SelectedCharacterIndex, Preferences.AdminOOCColor);
             var msg = new MsgUpdateCharacter
