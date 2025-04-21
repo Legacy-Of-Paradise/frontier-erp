@@ -98,7 +98,7 @@
     maxFillLevels: 2
     fillBaseName: packet-trans-
   - type: StaticPrice # Frontier
-    price: 200.0 # Frontier
+    price: 200.0 # LOP edit
 
 - type: entity
   parent: BaseFoodCondimentPacket
@@ -367,7 +367,7 @@
     materialComposition:
       Glass: 50
   - type: StaticPrice # Frontier
-    price: 200.0 # Frontier
+    price: 200.0 # LOP edit
 
 - type: entity
   parent: BaseFoodCondimentBottle

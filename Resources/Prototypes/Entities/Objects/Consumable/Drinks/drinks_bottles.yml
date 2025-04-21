@@ -86,7 +86,7 @@
     materialComposition:
       Glass: 100
   - type: StaticPrice
-    price: 100.0
+    price: 100.0 # LOP edit
 
 - type: entity
   id: DrinkBottleVisualsOpenable
