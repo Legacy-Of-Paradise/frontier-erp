@@ -14,4 +14,4 @@ terracotta_diagonal = терракотовая диагональные покр
 terracotta_herringbone = терракотовая покрытие ёлочкой
 terracotta_small = терракотовая маленькая покрытие
 wood-large = большой деревянный пол
-tiles-blak-shuttle-floor = черный пол шаттла
+tiles-blak-shuttle-floor = чёрный пол шаттла

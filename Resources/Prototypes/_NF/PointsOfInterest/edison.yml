@@ -11,11 +11,11 @@
 - type: pointOfInterest
   id: Edison
   parent: BasePOI
-  name: 'Электростанция Эдисона'
+  name: 'Электростанция Эдисона' # LOP edit
   minimumDistance: 2650
   maximumDistance: 5400
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/edison.yml
+  gridPath: /Maps/_NewParadise/POI/edison.yml # LOP edit
   addComponents:
   - type: IFF
     color: "#3737F8"
@@ -28,15 +28,15 @@
 
 - type: gameMap
   id: Edison
-  mapName: 'Электростанция Эдисона'
-  mapPath: /Maps/_NF/POI/edison.yml
+  mapName: 'Электростанция Эдисона' # LOP edit
+  mapPath: /Maps/_NewParadise/POI/edison.yml # LOP edit
   minPlayers: 0
   stations:
     Edison:
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Электростанция Эдисона'
+          mapNameTemplate: 'Электростанция Эдисона' # LOP edit
         # - type: StationJobs
           # availableJobs:
             # Pilot: [ 0, 0 ]

@@ -2,11 +2,11 @@
   id: Tide
   parent: BaseVessel
   name: SV Tide
-  description: A cheaply made mass-produced shuttle made from salvaged wrecks. For the seasoned assistant.
+  description: "Дешевый серийный шаттл, изготовленный из обломков затонувших кораблей. Для опытного помощника." #LOP edit
   price: 9700
   category: Small
   group: Scrap
-  shuttlePath: /Maps/_NF/Shuttles/Scrap/tide.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/tide.yml # LOP edit
   guidebookPage: ShipyardTide
   class:
   - Scrapyard
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Tide
   mapName: 'SV Tide'
-  mapPath: /Maps/_NF/Shuttles/Scrap/tide.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Scrap/tide.yml # LOP edit
   minPlayers: 0
   stations:
     Tide:

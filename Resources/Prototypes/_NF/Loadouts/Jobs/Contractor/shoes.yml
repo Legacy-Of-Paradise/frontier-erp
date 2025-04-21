@@ -376,7 +376,7 @@
 
 - type: loadout
   id: ContractorClothingShoesBootsPunkRandomized
-  name: punk boots (random)
+  name: ботинки панка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -616,7 +616,7 @@
   price: 7500
   equipment:
     shoes: ClothingShoesClownLarge
-    
+
 - type: loadout
   id: ContractorClothingShoesBling
   effects:

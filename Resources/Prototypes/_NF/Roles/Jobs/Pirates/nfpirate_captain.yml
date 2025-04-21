@@ -3,12 +3,7 @@
   name: job-name-nf-pirate-captain
   description: job-description-nf-pirate-captain
   playTimeTracker: JobPirateCaptain
-  requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 172800 # 48 hours
-    - !type:RoleTimeRequirement
-      role: JobSeniorOfficer
-      time: 10800 # 3 hours
+  # LOP edit
   whitelisted: true
   startingGear: NFPirateCaptainGear
   alwaysUseSpawner: true

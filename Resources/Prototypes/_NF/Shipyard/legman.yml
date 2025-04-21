@@ -12,11 +12,11 @@
   id: Legman
   parent: BaseVessel
   name: LVHI Legman
-  description: A small maneuverable shuttle with low operational costs for reporters who want to be first on a scene. Manufactured by Langstad-Voigt Heavy Industries.
+  description: "Небольшой маневренный шаттл с низкими эксплуатационными расходами для репортеров, которые хотят первыми оказаться на месте происшествия. Произведено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
   price: 13000 # 12135$ on mapinit + 5% markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/legman.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/legman.yml # LOP edit
   guidebookPage: ShipyardLegman
   class:
   - Civilian
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Legman
   mapName: 'Legman'
-  mapPath: /Maps/_NF/Shuttles/legman.yml
+  mapPath: /Maps/_NewParadise/Shuttles/legman.yml # LOP edit
   minPlayers: 0
   stations:
     Legman:

@@ -1,5 +1,5 @@
-ent-LPPClothingBeltPGWebbing = Разгрузка ПГ
-    .desc = Разгрузка Предейтор Гросперокс для всех потребностей фронта.
+ent-LPPClothingBeltPGWebbing = РПС ПГ
+    .desc = РПС Предейтор Гросперокс для всех потребностей фронта.
 ent-LPPClothingBeltFlamingo = Надувной фламинго
     .desc = Хаппи хаппи хаппи. ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ ХАППИ.
 ent-LPPClothingBeltNPZWebbing = РПС НПЗ

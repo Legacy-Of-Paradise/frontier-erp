@@ -2,12 +2,12 @@
   id: Wasp
   parent: BaseVessel
   name: NSF Wasp
-  description: A large expedition oriented ship for holding prisoners and making them work planetside.
+  description: "Большой экспедиционный корабль, предназначенный для содержания заключенных и принуждения их к работе на планете." #LOP edit
   price: 135000
   category: Large
   group: Security
   access: Bailiff
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/wasp.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/wasp.yml # LOP edit
   guidebookPage: Null
   class:
   - Capital
@@ -19,7 +19,7 @@
 - type: gameMap
   id: Wasp
   mapName: 'NSF Wasp'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/wasp.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/wasp.yml # LOP edit
   minPlayers: 0
   stations:
     Wasp:

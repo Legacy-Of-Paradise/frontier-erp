@@ -11,11 +11,11 @@
 - type: pointOfInterest
   id: Tinnia
   parent: BasePOI
-  name: "Отдых Тиннии"
+  name: "Отдых Тиннии" # LOP edit
   minimumDistance: 1200
   maximumDistance: 2900
   spawnGroup: RestStop
-  gridPath: /Maps/_NF/POI/tinnia.yml
+  gridPath: /Maps/_NewParadise/POI/tinnia.yml # LOP edit
   addComponents:
   - type: StationTransit
     routes:
@@ -26,12 +26,12 @@
 
 - type: gameMap
   id: Tinnia
-  mapName: "Отдых Тиннии"
-  mapPath: /Maps/_NF/POI/tinnia.yml
+  mapName: "Отдых Тиннии" # LOP edit
+  mapPath: /Maps/_NewParadise/POI/tinnia.yml # LOP edit
   minPlayers: 0
   stations:
     Tinnia:
       stationProto: DeadDropFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Отдых Тиннии"
+          mapNameTemplate: "Отдых Тиннии" # LOP edit

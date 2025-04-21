@@ -7,16 +7,16 @@
 # Discord: ???
 
 # Shuttle Notes:
-# 
+#
 - type: vessel
   id: Dragonfly
   parent: BaseVessel
   name: DYS Dragonfly
-  description: Highly modular salvaging vessel welded together from smaller re-purposed hulls.
+  description: "Модульное спасательное судно, сваренное из небольших переоборудованных корпусов." #LOP edit
   price: 81000 # ~62075$ on mapinit + ~18650$ from 30% markup
   category: Medium
   group: Expedition
-  shuttlePath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/dragonfly.yml # LOP edit
   guidebookPage: Null
   class:
   - Expedition
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Dragonfly
   mapName: 'DYS Dragonfly'
-  mapPath: /Maps/_NF/Shuttles/Expedition/dragonfly.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Expedition/dragonfly.yml # LOP edit
   minPlayers: 0
   stations:
     Dragonfly:

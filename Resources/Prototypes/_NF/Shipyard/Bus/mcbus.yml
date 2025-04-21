@@ -11,12 +11,12 @@
 - type: vessel
   id: McBus
   parent: BaseVesselBus
-  shuttlePath: /Maps/_NF/Shuttles/Bus/mcbus.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Bus/mcbus.yml # LOP edit
 
 - type: gameMap
   id: McBus
   mapName: 'McBus'
-  mapPath: /Maps/_NF/Shuttles/Bus/mcbus.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Bus/mcbus.yml # LOP edit
   minPlayers: 0
   stations:
     McBus:

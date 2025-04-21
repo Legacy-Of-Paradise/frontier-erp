@@ -1,6 +1,14 @@
 ent-BorgModuleAdvancedMining = advanced mining cyborg module
     .desc = { ent-BaseBorgModuleCargo.desc }
-ent-BorgModuleAdvancedParamedic = advanced paramedic cyborg module
+ent-BorgModuleAdvancedParamedic = chemical recovery cyborg module
     .desc = { ent-BaseBorgModuleMedical.desc }
-ent-BorgModuleJetpack = jetpack cyborg module
+ent-BorgModuleJetpack = Frontier cyborg module
     .desc = { ent-BaseBorgModule.desc }
+ent-BorgModuleRCDShipyard = shipyard RCD cyborg module
+    .desc = { ent-BaseBorgModuleEngineering.desc }
+ent-BorgModuleNFService = lounge cyborg module
+    .desc = { ent-BaseBorgModuleService.desc }
+ent-BorgModuleBureaucracy = bureaucracy cyborg module
+    .desc = { ent-BaseBorgModuleService.desc }
+ent-BorgModuleChef = chef cyborg module
+    .desc = { ent-BaseBorgModuleService.desc }

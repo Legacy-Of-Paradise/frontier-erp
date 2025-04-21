@@ -1,7 +1,7 @@
 - type: gameMap
   id: Frontier
-  mapName: 'Аванпост'
-  mapPath: /Maps/_NewParadise/Outpost/frontier.yml
+  mapName: 'Аванпост' # LOP edit
+  mapPath: /Maps/_NewParadise/Outpost/frontier.yml # LOP edit
   minPlayers: 0
   maxPlayers: 100
   randomRotation: false
@@ -11,7 +11,7 @@
       stationProto: StandardFrontierStation
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Аванпост'
+          mapNameTemplate: 'Аванпост' # LOP edit
 #          nameGenerator:
 #            !type:NanotrasenNameGenerator
 #            prefixCreator: '14'
@@ -32,6 +32,7 @@
             Valet: [ 1, 1 ]
             NFJanitor: [ 1, 1 ]
             MailCarrier: [ 1, 1 ]
+            Chef: [ 1, 1 ] # LOP edit
           tags:
           - HeadOfPersonnel
           - HeadOfSecurity

@@ -1,6 +1,6 @@
 ent-NFClothingBackpackDuffelJanitor = вещмешок уборщика
     .desc = В этого здоровяка поместится столько чистящих средств!
-ent-NFClothingBackpackDuffelChaplain = вещмешок капеллана
+ent-NFClothingBackpackDuffelChaplain = вещмешок священника
     .desc = Не забудьте потушить кадило, прежде чем положить его внутрь.
 ent-ClothingBackpackDuffelMercenary = вещмешок наёмника
     .desc = Этот вещмешок побывал во многих опасных местах, надёжный боевой вещмешок.

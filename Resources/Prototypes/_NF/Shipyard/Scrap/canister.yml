@@ -6,11 +6,11 @@
   id: Canister
   parent: BaseVessel
   name: UAC Canister
-  description: Whatever you're bringing, it won't fit. Seats two. Gravity included.
+  description: "Что бы вы ни взяли с собой, это не поместится. Два места. Включая гравитацию." #LOP edit
   price: 8000
   category: Micro
   group: Scrap
-  shuttlePath: /Maps/_NF/Shuttles/Scrap/canister.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/canister.yml # LOP edit
   guidebookPage: Null
   class:
   - Scrapyard
@@ -21,7 +21,7 @@
 - type: gameMap
   id: Canister
   mapName: 'UAC Canister'
-  mapPath: /Maps/_NF/Shuttles/Scrap/canister.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Scrap/canister.yml # LOP edit
   minPlayers: 0
   stations:
     Canister:

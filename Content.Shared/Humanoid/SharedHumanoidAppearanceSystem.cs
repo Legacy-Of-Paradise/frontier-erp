@@ -46,9 +46,9 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     // LOP edit start
     public static readonly Dictionary<Sex, ProtoId<TTSVoicePrototype>> DefaultSexVoice = new()
     {
-        { Sex.Male, "Nord" },
-        { Sex.Female, "Amina" },
-        { Sex.Unsexed, "Alyx" },
+        { Sex.Male, "nord" },
+        { Sex.Female, "amina" },
+        { Sex.Unsexed, "alyx" },
     };
     // LOP edit end
 

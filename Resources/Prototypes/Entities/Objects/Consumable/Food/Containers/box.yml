@@ -274,7 +274,11 @@
       prob: 0.10
       orGroup: Pizza
     - id: KnifePlastic
-  
+  # LOP edit start
+  - type: StaticPrice
+    vendPrice: 200.0
+  # LOP edit end
+
 - type: entity
   name: pizza box
   parent: FoodBoxPizzaFilled

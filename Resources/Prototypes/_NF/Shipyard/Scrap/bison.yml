@@ -2,11 +2,11 @@
   id: Bison
   parent: BaseVessel
   name: NT Bison
-  description: A heavy duty ship breaker with a durable hull and a substantial amount of living space, built for long journeys with self-sufficiency.
+  description: "Тяжелый судоремонтный завод с прочным корпусом и значительным жилым пространством, построенный для длительных путешествий на условиях самообеспечения." #LOP edit
   price: 166138
   category: Large
   group: Scrap
-  shuttlePath: /Maps/_NF/Shuttles/Scrap/bison.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Scrap/bison.yml # LOP edit
   guidebookPage: Null
   class:
   - Scrapyard
@@ -18,9 +18,9 @@
 - type: gameMap
   id: Bison
   mapName: 'NT Bison'
-  mapPath: /Maps/_NF/Shuttles/Scrap/bison.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Scrap/bison.yml # LOP edit
   minPlayers: 0
-  stations: 
+  stations:
     Bison:
       stationProto: StandardFrontierVessel
       components:
