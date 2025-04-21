@@ -27,7 +27,7 @@
 
 - type: loadout
   id: MercenaryClothingShoesMagMercenary
-  name: mercenary magboots (empty)
+  name: магнитные ботинки наёмника (пустой) # LOP edit
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF
@@ -37,7 +37,7 @@
 
 - type: loadout
   id: MercenaryClothingShoesMagSecurity
-  name: security magboots (empty)
+  name: магнитные ботинки СБ (пустой) # LOP edit
   hideEffects:
   - !type:GroupLoadoutEffect
     proto: ShoesCapableNF
