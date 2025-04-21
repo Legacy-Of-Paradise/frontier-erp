@@ -1,8 +1,5 @@
 ent-LPPClothingBackpackSatchelHop = hop satchel
     .desc = Convenient to throw off rifle magazines.
-ent-LPPClothingSatchelSmuggler = Smuggling Satchel
-    .desc = A makeshift satchel, slim enough to fit under floor tiles.
-    .suffix = Smuggler
 ent-LPPClothingSatchelSecurityEngineer = hop duffel bag
     .desc = Twice as many handcuffs!
 ent-LPPClothingBackpackSatchelBlueshield = blueshield satchel

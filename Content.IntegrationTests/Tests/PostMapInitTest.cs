@@ -217,7 +217,6 @@ namespace Content.IntegrationTests.Tests
             // End Frontier
 
             var deps = server.ResolveDependency<IEntitySystemManager>().DependencyCollection;
-            // Upstream#35933 - migration fix
             var ev = new BeforeEntityReadEvent();
             server.EntMan.EventBus.RaiseEvent(EventSource.Local, ev);
 
@@ -291,7 +290,6 @@ namespace Content.IntegrationTests.Tests
                 DeserializationOptions.Default,
                 renamedPrototypes,
                 deletedPrototypes);
-            // End Upstream#35933 - migration fix
 
             if (!reader.TryProcessData())
             {
@@ -468,9 +466,9 @@ namespace Content.IntegrationTests.Tests
                 // Frontier: FIXME - hacky test fix
                 .Where(x =>
                     x.ID == PoolManager.TestMap || // Frontier: check test map
-                    (x.MapPath.ToString().StartsWith("/Maps/_NF") && // Frontier: check frontier maps only
-                    !x.MapPath.ToString().StartsWith("/Maps/_NF/Shuttles") && // Frontier: skip shuttles (not loaded as maps)
-                    !x.MapPath.ToString().StartsWith("/Maps/_NF/POI")) // Frontier: skip POIs (not loaded as maps)
+                    (x.MapPath.ToString().StartsWith("/Maps/_NewParadise") && // Frontier: check frontier maps only
+                    !x.MapPath.ToString().StartsWith("/Maps/_NewParadise/Shuttles") && // Frontier: skip shuttles (not loaded as maps)
+                    !x.MapPath.ToString().StartsWith("/Maps/_NewParadise/POI")) // Frontier: skip POIs (not loaded as maps)
                     )
                 // End Frontier
                 .Select(x => x.ID)

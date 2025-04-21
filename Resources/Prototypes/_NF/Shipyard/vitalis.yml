@@ -1,0 +1,35 @@
+- type: vessel
+  parent: BaseVessel
+  id: Vitalis
+  name: CTC Vitalis
+  description: Среднее судно для медицинского персонала, предназначенное для использования в криогенных условиях. # LOP edit
+  price: 75000 #Appraisal is 53480
+  category: Medium
+  group: Medical
+  shuttlePath: /Maps/_NewParadise/Shuttles/vitalis.yml # LOP edit
+  guidebookPage: ShipyardVitalis
+  class:
+  - Medical
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Vitalis
+  mapName: 'CTC Vitalis'
+  mapPath: /Maps/_NewParadise/Shuttles/vitalis.yml # LOP edit
+  minPlayers: 0
+  stations:
+    Vitalis:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Vitalis {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
+

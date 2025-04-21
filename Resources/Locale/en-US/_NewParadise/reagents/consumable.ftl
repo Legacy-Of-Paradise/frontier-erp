@@ -1,4 +1,4 @@
-﻿reagent-name-camomile-tea = ромашковый чай
+reagent-name-camomile-tea = ромашковый чай
 reagent-desc-camomile-tea = Чай с добавлением ромашек, отлично успакаивает.
 reagent-name-mint-tea = мятный чай
 reagent-desc-mint-tea = Чай с мятой, слава богу не кошачьей..

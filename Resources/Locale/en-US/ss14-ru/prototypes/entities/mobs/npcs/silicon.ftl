@@ -1,9 +1,5 @@
 ent-MobSiliconBase = { "" }
     .desc = { "" }
-ent-MobSiliconBaseVehicle = { ent-MobSiliconBase }
-    .desc = { ent-MobSiliconBase.desc }
-ent-MobTaxiBot = taxibot
-    .desc = Give a ride?
 ent-MobFireBot = firebot
     .desc = A little fire extinguishing bot. He looks rather anxious.
 ent-MobHonkBot = honkbot

@@ -71,7 +71,7 @@
 
 - type: loadout
   id: ContractorClothingEyesPunkGoggles
-  name: punk goggles (random)
+  name: очки панка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -81,7 +81,7 @@
 
 - type: loadout
   id: ContractorClothingEyesPunkInfoShades
-  name: punk infoshades (random)
+  name: инфо-граммы панка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1

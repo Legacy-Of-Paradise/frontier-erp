@@ -1,13 +1,11 @@
 ent-LPPHardsuitHelmetAssaultParamedic = Шлем ZhP-26lp
     .desc = { ent-ClothingHeadHardsuitWithLightBase.desc }
-ent-LPPClothingHeadHelmetHardsuitIIC = Шлем скафандра ИРЦ
-    .desc = Шлем, обеспечивающий защиту от жары и давления.
 ent-LPPClothingHeadHelmetHardsuitSWAT = Защитный шлем спецназа
     .desc = Бронированный шлем скафандра для обеспечения безопасности.
 ent-LPPClothingHeadHelmetMikhelm = Обесцвеченный шлем скафандра
     .desc = Шлем от скафандра, дисплей слегка побит, но работать можно...
 ent-LPPClothingHeadHelmetHardsuitSecurityPilot = Шлем FPA-94
-    .desc = Стиль, мощь, эстетичность вот что подчеркивает этот шлем.
+    .desc = Стиль, мощь, эстетичность вот что подчёркивает этот шлем.
 ent-LPPHardsuitHelmetSuppressor = Шлем улучшенной силовой брони
     .desc = { ent-ClothingHeadHardsuitBase.desc }
 ent-LPPClothingOuterHardsuitBlueshieldHelm = Шлем скафандра офицера "Синий Щит"

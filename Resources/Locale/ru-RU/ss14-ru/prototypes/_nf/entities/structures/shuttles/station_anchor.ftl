@@ -1,4 +1,5 @@
-ent-MiniStationAnchor = мини генератор гравитации
+ent-MiniStationAnchor = мини якорь станции
+    .suffix = Вкл
     .desc = { ent-StationAnchor.desc }
 ent-MiniStationAnchorOff = { ent-MiniStationAnchor }
     .suffix = Выкл

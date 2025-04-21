@@ -1,2 +1,2 @@
-ent-MailBag = mail bag
+ent-NFMailBag = mail bag
     .desc = Here's the mail, it never fails...

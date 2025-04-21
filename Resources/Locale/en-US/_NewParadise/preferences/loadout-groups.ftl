@@ -1,5 +1,5 @@
 # Underwear
 
-loadout-group-bra = bra
-loadout-group-socks = socks
-loadout-group-underwear = underwear
+loadout-group-bra = бюсгалтеры
+loadout-group-socks = носки
+loadout-group-underwear = трусы

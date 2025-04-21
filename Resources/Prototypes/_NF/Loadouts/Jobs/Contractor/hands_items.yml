@@ -1,7 +1,7 @@
 #T1
 - type: loadout
   id: ContractorBriefcaseBrownFilled
-  name: brown briefcase (empty)
+  name: коричневый чемодан (пустой) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -11,7 +11,7 @@
 
 - type: loadout
   id: ContractorToolboxEmergency
-  name: emergency toolbox (empty)
+  name: аварийный ящик для инструментов (пустой) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -21,7 +21,7 @@
 
 - type: loadout
   id: ContractorToolboxMechanical
-  name: mechanical toolbox (empty)
+  name: технический ящик для инструментов (пустой) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -96,7 +96,7 @@
 
 - type: loadout
   id: ContractorEmotionalPetCarrier
-  name: emotional support pet
+  name: животное эмоциональной поддержки # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT3

@@ -12,11 +12,11 @@
   id: Lantern
   parent: BaseVessel
   name: LVHI Lantern
-  description: The Lantern is a medium-sized chapel-vessel equipped with everything chaplain might need in their never ending battle for salvation of NT personnel souls. Manufactured by Langstad-Voigt Heavy Industries.
+  description: "Lantern — это часовня-корабль среднего размера, оборудованная всем, что может понадобиться священнику в его нескончаемой битве за спасение душ личного состава Новой Церкви. Произведено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
   price: 37500 # ~33707$ on mapinit + 10% markup
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/lantern.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/lantern.yml # LOP edit
   guidebookPage: ShipyardLantern
   class:
   - Civilian
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Lantern
   mapName: 'Lantern'
-  mapPath: /Maps/_NF/Shuttles/lantern.yml
+  mapPath: /Maps/_NewParadise/Shuttles/lantern.yml # LOP edit
   minPlayers: 0
   stations:
     Lantern:

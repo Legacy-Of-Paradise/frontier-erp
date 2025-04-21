@@ -1,6 +1,6 @@
-ent-KitchenElectricRange = электрическая микровановка
+ent-KitchenElectricRange = электрическая микроволновка
     .desc = Функциональный ассортимент с широким спектром функций.
-ent-SyndicateKitchenElectricRange = donk co. электрическая микровановка
+ent-SyndicateKitchenElectricRange = donk co. электрическая микроволновка
     .desc = { ent-KitchenElectricRange.desc }
 ent-KitchenAssembler = ЕдаМат
     .desc = Собирает и готовит блюда, одобренные NT. Вы не представляете, что там делается.

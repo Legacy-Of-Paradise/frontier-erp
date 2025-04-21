@@ -1,8 +1,6 @@
-ent-NFBackpackHiddenStash = { "" }
-    .desc = { "" }
-ent-NFClothingBackpack = { ent-ClothingBackpack }
-    .desc = { ent-ClothingBackpack.desc }
-ent-NFClothingDuffel = { ent-ClothingBackpackDuffel }
-    .desc = { ent-ClothingBackpackDuffel.desc }
+ent-NFClothingBackpack = { ent-BaseSubfloorAnchorStorage }
+    .desc = { ent-BaseSubfloorAnchorStorage.desc }
+ent-NFClothingDuffel = { ent-BaseSubfloorAnchorStorage }
+    .desc = { ent-BaseSubfloorAnchorStorage.desc }
 ent-NFClothingMessenger = { ent-NFClothingBackpack }
     .desc = { ent-NFClothingBackpack.desc }

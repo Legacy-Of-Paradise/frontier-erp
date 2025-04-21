@@ -1,4 +1,4 @@
-﻿book-terminal-window-book-label = Действие:
+book-terminal-window-book-label = Действие:
 book-terminal-window-clear-button = Очистить
 book-terminal-window-eject-button = Извлечь
 book-terminal-window-upload-button = Загрузить

@@ -1,6 +1,6 @@
 ent-LPPBedsheetBase = Базовое одеяло
     .desc = Удивительно мягкое льняное одеяло.
-ent-LPPBedsheetBlack = Черное одеяло
+ent-LPPBedsheetBlack = Чёрное одеяло
     .desc = { ent-LPPBedsheetBase.desc }
 ent-LPPBedsheetBlue = Синее одеяло
     .desc = { ent-LPPBedsheetBase.desc }
@@ -54,5 +54,5 @@ ent-LPPBedsheetWhite = Белое одеяло
     .desc = { ent-LPPBedsheetBase.desc }
 ent-LPPBedsheetWiz = Магическое одеяло
     .desc = { ent-LPPBedsheetBase.desc }
-ent-LPPBedsheetYellow = Желтое одеяло
+ent-LPPBedsheetYellow = Жёлтое одеяло
     .desc = { ent-LPPBedsheetBase.desc }

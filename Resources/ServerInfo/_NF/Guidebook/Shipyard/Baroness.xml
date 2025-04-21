@@ -1,0 +1,21 @@
+<Document>
+  # BARONESS-Шаттл класса "Отдых"
+  <Box>
+    <GuideEntityEmbed Entity="ChairPilotSeat"/>
+    <GuideEntityEmbed Entity="DrinkBeerBottleFull" Caption="tasty drink"/>
+    <GuideEntityEmbed Entity="Jukebox"/>
+  </Box>
+  [color=#a4885c]Размер судна:[/color] Средний
+
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 1-3
+
+  [color=#a4885c]Тип генератора энергии:[/color] Уран
+
+  [color=#a4885c]Экспедиции:[/color] Нет
+
+  [color=#a4885c]Консоль идентификации:[/color] Нет
+
+  "Небольшой роскошный корабль для одного или двух человек, с гостиной, отдельной спальней и потрясающим видом из кабины пилота."
+
+  [italic]Представлено вам компанией BlueBird Starship Design & Construction.[/italic]
+</Document>

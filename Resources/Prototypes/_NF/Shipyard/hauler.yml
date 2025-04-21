@@ -2,11 +2,11 @@
   id: Hauler
   parent: BaseVessel
   name: NC Hauler
-  description: A medium sized vessel specializing in long-haul salvage, mining, and cargo operations.
+  description: "Судно среднего размера, специализирующееся на шахтерстве, грузовых операциях и спасательных операциях в дальнем космосе." #LOP Edit
   price: 77000
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/hauler.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/hauler.yml # LOP edit
   guidebookPage: ShipyardHauler
   class:
   - Cargo
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Hauler
   mapName: 'NC Hauler'
-  mapPath: /Maps/_NF/Shuttles/hauler.yml
+  mapPath: /Maps/_NewParadise/Shuttles/hauler.yml # LOP edit
   minPlayers: 0
   stations:
     Hauler:

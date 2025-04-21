@@ -11,11 +11,11 @@
 - type: pointOfInterest
   id: Grifty
   parent: BasePOI
-  name: "Бензин и жратва от Грифти"
+  name: "Бензин и жратва от Грифти" # LOP edit
   minimumDistance: 3250
   maximumDistance: 5600
   spawnGroup: Scrapyard
-  gridPath: /Maps/_NF/POI/grifty.yml
+  gridPath: /Maps/_NewParadise/POI/grifty.yml # LOP edit
   addComponents:
   - type: StationTransit
     routes:
@@ -26,13 +26,13 @@
 
 - type: gameMap
   id: Grifty
-  mapName: "Бензин и жратва от Грифти"
-  mapPath: /Maps/_NF/POI/grifty.yml
+  mapName: "Бензин и жратва от Грифти" # LOP edit
+  mapPath: /Maps/_NewParadise/POI/grifty.yml # LOP edit
   minPlayers: 0
   stations:
     Grifty:
       stationProto: DeadDropRecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Бензин и жратва от Грифти"
+          mapNameTemplate: "Бензин и жратва от Грифти" # LOP edit
         - type: BindToStationVariationPassExemption

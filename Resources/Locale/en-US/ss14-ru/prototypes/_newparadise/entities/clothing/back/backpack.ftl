@@ -1,5 +1,3 @@
-ent-LPPClothingSatchelSmugglerAbstract = Smuggling Satchel
-    .desc = Smuggling Satchel Abstract
 ent-LPPClothingBackpackBlueshieldFilled = { ent-LPPClothingBackpackBlueshield }
     .desc = { ent-LPPClothingBackpackBlueshield.desc }
 ent-LPPClothingBackpackHop = hop backpack

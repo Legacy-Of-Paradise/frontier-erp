@@ -1,4 +1,4 @@
-﻿reagent-name-LPPAphrodisiac = Афродизиак
+reagent-name-LPPAphrodisiac = Афродизиак
 reagent-desc-LPPAphrodisiac = Концентрированный препарат прямиком из Ада, повышающий либидо любого, кто его примет.
 reagent-physdesc-LPPAphrodisiac = ароматное и возбуждающиее
 reagent-name-LPPAphrodisiacReduced = Разбавленный афродизиак

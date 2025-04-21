@@ -1,7 +1,5 @@
 ent-LPPHardsuitHelmetAssaultParamedic = Assault paramedic helmet
     .desc = { ent-ClothingHeadHardsuitBase.desc }
-ent-LPPClothingHeadHelmetHardsuitIIC = IIC exosuit helmet
-    .desc = A pressure resistant and fireproof hood worn by special cleanup units.
 ent-LPPClothingHeadHelmetHardsuitSWAT = SWAT hardsuit helmet
     .desc = Armored hardsuit helmet for security needs.
 ent-LPPClothingHeadHelmetMikhelm = The discolored helmet of the spacesuit

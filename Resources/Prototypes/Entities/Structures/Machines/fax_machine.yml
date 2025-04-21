@@ -82,7 +82,7 @@
         map: [ "base" ]
         color: "#bfe3ff"
   - type: FaxMachine
-    name: "Central Command"
+    name: "Центральное Командование" # LOP edit
     notifyAdmins: true
 
 - type: entity
@@ -110,7 +110,7 @@
   suffix: NukeCodes
   components:
     - type: FaxMachine
-      name: "Captain's Office"
+      name: "Офис капитана" # LOP edit
       receiveNukeCodes: true
     - type: StealTarget
       stealGroup: FaxMachineCaptain

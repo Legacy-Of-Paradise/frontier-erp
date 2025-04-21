@@ -1,3 +1,6 @@
+ent-EmagPass = disposable cryptographic sequencer
+    .desc = A disposable card made by the Syndicate to hack devices. Works three times.
+    .suffix = Limited, 3 Uses
 ent-DemagUnlimited = cryptographic resequencer
     .desc = The all-in-one unhacking solution. The last bastion of order. The iconic DEMAG.
     .suffix = Unlimited

@@ -84,10 +84,12 @@
     - map: [ "gloves" ]
     - map: [ "shoes" ]
     - map: [ "ears" ]
+    # LOP edit start
     - map: [ "eyes" ]
-    - map: [ "belt" ]
     - map: [ "id" ]
     - map: [ "outerClothing" ]
+    - map: [ "belt" ]
+    # LOP edit end
     - map: [ "back" ]
     - map: [ "neck" ]
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
@@ -147,6 +149,17 @@
           32:
             sprite: Mobs/Species/Vox/displacement.rsi
             state: shoes
+  - type: Hands
+    leftHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: hand_l
+    rightHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: hand_r
 
 - type: entity
   parent: BaseSpeciesDummy
@@ -195,3 +208,14 @@
           32:
             sprite: Mobs/Species/Vox/displacement.rsi
             state: shoes
+  - type: Hands
+    leftHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: hand_l
+    rightHandDisplacement:
+      sizeMaps:
+        32:
+          sprite: Mobs/Species/Vox/displacement.rsi
+          state: hand_r

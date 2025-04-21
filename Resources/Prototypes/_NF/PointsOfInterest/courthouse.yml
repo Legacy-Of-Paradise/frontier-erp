@@ -11,11 +11,11 @@
 - type: pointOfInterest
   id: Courthouse
   parent: BasePOI
-  name: "Здание суда"
+  name: "Здание суда" # LOP edit
   minimumDistance: 1150
   maximumDistance: 2050
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/courthouse.yml
+  gridPath: /Maps/_NewParadise/POI/courthouse.yml # LOP edit
   addComponents:
   - type: IFF
     color: "#ae7d57"
@@ -25,13 +25,13 @@
 
 - type: gameMap
   id: Courthouse
-  mapName: "Здание суда"
-  mapPath: /Maps/_NF/POI/courthouse.yml
+  mapName: "Здание суда" # LOP edit
+  mapPath: /Maps/_NewParadise/POI/courthouse.yml # LOP edit
   minPlayers: 0
   stations:
     Courthouse:
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Здание суда"
+          mapNameTemplate: "Здание суда" # LOP edit
         - type: StationDeadDropHintExempt

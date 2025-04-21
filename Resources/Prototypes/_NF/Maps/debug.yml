@@ -1,7 +1,7 @@
 - type: gameMap
   id: NFDev
   mapName: NFDev
-  mapPath: /Maps/_NF/Test/dev_map.yml
+  mapPath: /Maps/_NewParadise/Test/dev_map.yml # LOP edit
   minPlayers: 0
   stations:
     NFDev:
@@ -29,9 +29,9 @@
             Deputy: [ -1, -1]
             Cadet: [ -1, -1]
             PublicAffairsLiaison: [ -1, -1]
-            PirateCaptain: [ -1, -1]
-            PirateFirstMate: [ -1, -1]
-            Pirate: [ -1, -1]
+            NFPirateCaptain: [ -1, -1]
+            NFPirateFirstMate: [ -1, -1]
+            NFPirate: [ -1, -1]
             Prisoner: [ -1, -1]
         - type: StationDeadDrop
           maxDeadDrops: 20 # Testing

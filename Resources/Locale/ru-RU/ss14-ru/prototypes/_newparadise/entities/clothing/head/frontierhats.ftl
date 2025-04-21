@@ -1,7 +1,7 @@
 ent-LPPClothingHeadHatSherif = Кепка шерифа ДШНГ
     .desc = ГДЕ СОГЛАСИЕ, ТАМ ПОБЕДА.
 ent-LPPClothingHeadHatDeputySherif = Кепка капрала ДШНГ
-    .desc = Попробуйте чаще ее поправлять, это придаст вам вид серьезного человека... Вроде.
+    .desc = Попробуйте чаще её поправлять, это придаст вам вид серьёзного человека... Вроде.
 ent-LPPClothingHeadHatCowboyDeputySherif = Ковбойская кепка капрала ДШНГ
     .desc = На Бога уповаnm.
 ent-LPPClothingHeadHatCowboy = Ковбойская шляпа ДШНГ

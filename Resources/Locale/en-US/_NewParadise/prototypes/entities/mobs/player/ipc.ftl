@@ -1,1 +1,1 @@
-﻿ipc-board-name = системный блок КПБ
+ipc-board-name = системный блок КПБ

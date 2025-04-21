@@ -1,9 +1,9 @@
-﻿reagent-name-fluffyapple = яблочный фруппи
+reagent-name-fluffyapple = яблочный фруппи
 reagent-desc-space-fluffyapple = Яблочный микс самых свежайших яблок со всей галактики. Вызывает привыкание.
 reagent-desc-physical-fluffyapple = едкое, словно незастывший гудрон
 flavor-complex-applefluffy = как яблочный ацидолакт
 reagent-name-fluffyenergy = фруппи enegry
-reagent-desc-space-fluffyenergy = Самый запрещенный напиток на территории галактики. Вызывает привыкание.
+reagent-desc-space-fluffyenergy = Самый запрещённый напиток на территории галактики. Вызывает привыкание.
 reagent-desc-physical-fluffyenergy = шипучее, словно кислота
 flavor-complex-energyfluffy = как термоядерное топливо
 reagent-name-fluffyhonk = хонк фруппи

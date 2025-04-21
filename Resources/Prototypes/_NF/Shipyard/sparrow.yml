@@ -12,11 +12,11 @@
   id: Sparrow
   parent: BaseVessel
   name: NR Sparrow
-  description: A small research and engineering vessel.
+  description: "Небольшое научно-исследовательское и инженерное судно." #LOP Edit
   price: 41000 # TODO: review ship values - Whatstone
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/sparrow.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/sparrow.yml # LOP edit
   guidebookPage: ShipyardSparrow
   class:
   - Science
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Sparrow
   mapName: 'NR Sparrow'
-  mapPath: /Maps/_NF/Shuttles/sparrow.yml
+  mapPath: /Maps/_NewParadise/Shuttles/sparrow.yml # LOP edit
   minPlayers: 0
   stations:
     Sparrow:

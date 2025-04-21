@@ -11,11 +11,11 @@
 - type: pointOfInterest
   id: ThePit
   parent: BasePOI
-  name: "Яма"
+  name: "Яма" # LOP edit
   minimumDistance: 2200
   maximumDistance: 4200
   spawnGroup: Arena
-  gridPath: /Maps/_NF/POI/arena.yml
+  gridPath: /Maps/_NewParadise/POI/arena.yml # LOP edit
   addComponents:
   - type: StationTransit
     routes:
@@ -26,12 +26,12 @@
 
 - type: gameMap
   id: ThePit
-  mapName: "Яма"
-  mapPath: /Maps/_NF/POI/arena.yml
+  mapName: "Яма" # LOP edit
+  mapPath: /Maps/_NewParadise/POI/arena.yml # LOP edit
   minPlayers: 0
   stations:
     ThePit:
       stationProto: DeadDropFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Яма"
+          mapNameTemplate: "Яма" # LOP edit

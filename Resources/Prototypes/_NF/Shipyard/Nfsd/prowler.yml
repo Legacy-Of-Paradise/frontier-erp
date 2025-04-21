@@ -2,12 +2,12 @@
   id: Prowler
   parent: BaseVessel
   name: NSF Prowler
-  description: A medium-sized patrol craft, the Prowler class is a dedicated deep space pursuit vessel with an advanced sensor suite. 
-  price: 42000 #Appraises on purchase at ~35000. 20% markup applied due to the presence of the radar. 
+  description: "Патрульный корабль среднего размера класса Prowler - это специализированное судно для поиска в глубоком космосе с передовым набором датчиков." #LOP edit
+  price: 42000 #Appraises on purchase at ~35000. 20% markup applied due to the presence of the radar.
   category: Medium
   group: Security
   access: Sergeant
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/prowler.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/prowler.yml # LOP edit
   guidebookPage: Null
   class:
   - Patrol
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Prowler
   mapName: 'NSF Prowler'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/prowler.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/prowler.yml # LOP edit
   minPlayers: 0
   stations:
     Prowler:

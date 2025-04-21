@@ -1,5 +1,5 @@
-﻿reagent-name-ecotropin = экотропин
-reagent-desc-ecotropin = Странное вещество схожее с углем, почти самое бесполезное, но нужно для создания других веществ.
+reagent-name-ecotropin = экотропин
+reagent-desc-ecotropin = Странное вещество схожее с углём, почти самое бесполезное, но нужно для создания других веществ.
 reagent-physical-desc-ecotropin = порошковидное
 reagent-name-formaldehyde = формальдегид
 reagent-desc-formaldehyde = Наносит 2 урона интоксикацией, и 1 урон кислотой в цикл.
@@ -65,5 +65,5 @@ reagent-name-adrenaline = адреналин
 reagent-desc-adrenaline = Вещество повыщающие скорость.
 reagent-physical-desc-adrenaline = энергичное
 reagent-name-advstim = продвинутый стимулятор
-reagent-desc-advstim = Вещество восстанавливающие ожоги и травмы, при этом дает регенерацию стамины и скорость.
+reagent-desc-advstim = Вещество восстанавливающие ожоги и травмы, при этом даёт регенерацию стамины и скорость.
 reagent-physical-desc-advstim = экстремальное

@@ -1,3 +1,5 @@
+ent-BulletBB = BB
+    .desc = Don't shoot your eye out.
 ent-BulletBBDamaged = damaged BB
     .desc = Did you shoot your eye out?
 ent-BulletRGBB = RGBB

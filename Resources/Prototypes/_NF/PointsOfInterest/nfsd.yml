@@ -11,11 +11,11 @@
 - type: pointOfInterest
   id: Nfsd
   parent: BasePOI
-  name: 'Департамент Шерифа'
+  name: 'Департамент Шерифа' # LOP edit
   minimumDistance: 750
   maximumDistance: 1000
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/nfsd.yml
+  gridPath: /Maps/_NewParadise/POI/nfsd.yml # LOP edit
   addComponents:
   - type: IFF
     color: "#ae7d57"
@@ -27,15 +27,15 @@
 
 - type: gameMap
   id: Nfsd
-  mapName: 'NFSD Outpost'
-  mapPath: /Maps/_NF/POI/nfsd.yml
+  mapName: 'Департамент Шерифа' # LOP edit
+  mapPath: /Maps/_NewParadise/POI/nfsd.yml # LOP edit
   minPlayers: 0
   stations:
     Nfsd:
       stationProto: SecurityFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Департамент Шерифа'
+          mapNameTemplate: 'Департамент Шерифа' # LOP edit
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Structures/Decoration/banner.rsi/nfsd-banner.png
           stationSubtext: 'frontier-lobby-nfsd-subtext'

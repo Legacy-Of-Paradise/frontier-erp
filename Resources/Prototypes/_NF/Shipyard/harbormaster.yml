@@ -7,16 +7,16 @@
 # Discord: erhardsteinhauer
 
 # Shuttle Notes:
-# 
+#
 - type: vessel
   id: Harbormaster
   parent: BaseVessel
   name: LVHI Harbormaster
-  description: A small tugboat. Manufactured by Langstad-Voigt Heavy Industries.
+  description: "Небольшой буксир. Производено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
   price: 31500 # ~27196$ on mapinit + 15% markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/harbormaster.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/harbormaster.yml # LOP edit
   guidebookPage: ShipyardHarbormaster
   class:
   - Civilian
@@ -26,9 +26,9 @@
 - type: gameMap
   id: Harbormaster
   mapName: 'Harbormaster'
-  mapPath: /Maps/_NF/Shuttles/harbormaster.yml
+  mapPath: /Maps/_NewParadise/Shuttles/harbormaster.yml # LOP edit
   minPlayers: 0
-  stations: 
+  stations:
     Harbormaster:
       stationProto: StandardFrontierVessel
       components:

@@ -12,12 +12,12 @@
   id: MailPod
   parent: BaseVessel
   name: NC Mail Pod
-  description: A cramped yet reliable shuttle for delivering packages.
+  description: "Компактный, но надежный шаттл для доставки посылок." #LOP Edit
   price: 15000
   category: Micro
   group: Sr
   access: Mail
-  shuttlePath: /Maps/_NF/Shuttles/Sr/mailpod.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Sr/mailpod.yml # LOP edit
   guidebookPage: Null
   class:
   - Cargo
@@ -27,7 +27,7 @@
 - type: gameMap
   id: MailPod
   mapName: 'NC Mail Pod'
-  mapPath: /Maps/_NF/Shuttles/Sr/mailpod.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Sr/mailpod.yml # LOP edit
   minPlayers: 0
   stations:
     MailPod:

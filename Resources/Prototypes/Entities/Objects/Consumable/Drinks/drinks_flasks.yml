@@ -37,7 +37,8 @@
   - type: TrashOnSolutionEmpty
     solution: drink
   - type: StaticPrice
-    price: 20 # Frontier: 12.5<20
+    price: 20
+    vendPrice: 100.0 # LOP edit
 
 - type: entity
   parent: FlaskBase

@@ -1,6 +1,14 @@
-ent-BorgModuleAdvancedMining = продвинутый модуль горного борга
+ent-BorgModuleAdvancedMining = продвинутый модуль горного киборга
     .desc = { ent-BaseBorgModuleCargo.desc }
-ent-BorgModuleAdvancedParamedic = продвинутый модуль борга-парамедика
+ent-BorgModuleAdvancedParamedic = продвинутый модуль киборга парамедика
     .desc = { ent-BaseBorgModuleMedical.desc }
 ent-BorgModuleJetpack = джетпак модуль киборга
     .desc = { ent-BaseBorgModule.desc }
+ent-BorgModuleRCDShipyard = модуль киборга корабельного РСУ
+    .desc = { ent-BaseBorgModuleEngineering.desc }
+ent-BorgModuleNFService = развлекательный модуль киборга
+    .desc = { ent-BaseBorgModuleService.desc }
+ent-BorgModuleBureaucracy = модуль киборга бюрократа
+    .desc = { ent-BaseBorgModuleService.desc }
+ent-BorgModuleChef = модуль киборга шефа
+    .desc = { ent-BaseBorgModuleService.desc }

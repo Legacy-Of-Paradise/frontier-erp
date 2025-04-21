@@ -12,11 +12,11 @@
   id: Menace
   parent: BaseVesselAntag
   name: Menace
-  description: 'Mail is no longer an option: you either receive it or you die.'
+  description: "Получить почту это теперь не выбор. Получи или сдохни!" #LOP edit
   price: 21000
   category: Small
   group: BlackMarket
-  shuttlePath: /Maps/_NF/Shuttles/BlackMarket/menace.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/menace.yml # LOP edit
   guidebookPage: Null
   class:
   - Pirate
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Menace
   mapName: 'Menace'
-  mapPath: /Maps/_NF/Shuttles/BlackMarket/menace.yml
+  mapPath: /Maps/_NewParadise/Shuttles/BlackMarket/menace.yml # LOP edit
   minPlayers: 0
   stations:
     Menace:
@@ -38,4 +38,5 @@
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
         - type: StationJobs
-          availableJobs: {}
+          availableJobs:
+            NFPirate: [ 0, 0 ]

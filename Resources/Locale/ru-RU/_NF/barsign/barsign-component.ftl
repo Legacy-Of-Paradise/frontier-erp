@@ -20,7 +20,7 @@ barsign-prototype-description-the-rune = Напитки, меняющие реа
 
 ## Whiskey Echoes
 
-barsign-prototype-name-whiskey-echoes = Шепот Виски
+barsign-prototype-name-whiskey-echoes = Шёпот Виски
 barsign-prototype-description-whiskey-echoes = Эх, парень! Присядь и выпей! Независимо от твоей принадлежности, здешний девиз: "Смерть трезвости!"
 
 ## Wyvern Shipyards

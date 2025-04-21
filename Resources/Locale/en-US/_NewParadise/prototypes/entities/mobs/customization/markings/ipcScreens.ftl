@@ -1,4 +1,4 @@
-﻿marking-LPPIPCFaceBlueS = Синий
+marking-LPPIPCFaceBlueS = Синий
 marking-LPPIPCFaceConsoleS = Консоль
 marking-LPPIPCFaceGogglesS = Защитник
 marking-LPPIPCFaceEightS = Восмёрка

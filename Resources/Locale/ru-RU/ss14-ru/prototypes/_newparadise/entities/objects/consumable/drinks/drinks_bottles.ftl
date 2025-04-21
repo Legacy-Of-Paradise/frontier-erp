@@ -12,5 +12,5 @@ ent-LPPDrinkFlowerTeaBottleFull = бутылка цветочного чая
     .desc = Бутылка цветочного чая с тонкими, деликатными нотками цветов.
 ent-LPPDrinkTeaBottleFull = бутылка чая
     .desc = Бутылка обычного чая, ничего особенного.
-ent-LPPDrinkGreenTeaBottleFull = бутылка зеленого чая
-    .desc = Бутылка зеленого чая, тоже ничего особенного.
+ent-LPPDrinkGreenTeaBottleFull = бутылка зелёного чая
+    .desc = Бутылка зелёного чая, тоже ничего особенного.

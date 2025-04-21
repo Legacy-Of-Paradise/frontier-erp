@@ -2,11 +2,11 @@
   id: Schooner
   parent: BaseVesselAntag
   name: Schooner
-  description: A small wooden ship with 2 central cargo bays.
+  description: "Небольшое деревянное судно с 2 центральными грузовыми отсеками" #LOP edit
   price: 60000
   category: Medium
   group: BlackMarket
-  shuttlePath: /Maps/_NF/Shuttles/BlackMarket/schooner.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/schooner.yml # LOP edit
   guidebookPage: Null
   class:
   - Pirate
@@ -16,7 +16,7 @@
 - type: gameMap
   id: Schooner
   mapName: 'Schooner'
-  mapPath: /Maps/_NF/Shuttles/BlackMarket/schooner.yml
+  mapPath: /Maps/_NewParadise/Shuttles/BlackMarket/schooner.yml # LOP edit
   minPlayers: 0
   stations:
     Schooner:
@@ -29,4 +29,4 @@
             prefixCreator: '14'
         - type: StationJobs
           availableJobs:
-            Pirate: [ 0, 0 ]
+            NFPirate: [ 0, 0 ]

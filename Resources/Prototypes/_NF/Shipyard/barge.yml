@@ -7,16 +7,16 @@
 # Discord: ???
 
 # Shuttle Notes:
-# 
+#
 - type: vessel
   id: Barge
   parent: BaseVessel
   name: NC Barge
-  description: A medium shipping vessel repurposed into a salvage bar.
+  description: "Средний корабль, оснащённый утилизатором отходов и полноценным баром." #LOP Edit
   price: 49000 # Appraises for 42901, margin of ~10% - TODO: fix these values, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/barge.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/barge.yml # LOP edit
   guidebookPage: ShipyardBarge
   class:
   - Cargo
@@ -28,7 +28,7 @@
 - type: gameMap
   id: Barge
   mapName: 'NC Barge'
-  mapPath: /Maps/_NF/Shuttles/barge.yml
+  mapPath: /Maps/_NewParadise/Shuttles/barge.yml # LOP edit
   minPlayers: 0
   stations:
     Barge:

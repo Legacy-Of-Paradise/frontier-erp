@@ -1,2 +1,10 @@
-ent-SpawnVehicleHoverbikeNF = hoverbike spawner
+ent-SpawnVehicleSecway = Secway Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVehicleJanicart = Janicart Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVehicleATV = ATV Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnVehicleMotobike = Skeleton Motorcycle Spawner
+    .desc = { ent-MarkerBase.desc }
+ent-NFSpawnVehicleHoverbike = hoverbike spawner
     .desc = { ent-MarkerBase.desc }

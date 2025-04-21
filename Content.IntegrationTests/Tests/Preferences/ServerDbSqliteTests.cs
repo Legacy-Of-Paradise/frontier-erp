@@ -54,7 +54,7 @@ namespace Content.IntegrationTests.Tests.Preferences
                     Color.Beige,
                     new ())
             }.WithBankBalance(27000) // Frontier edit
-            .WithTtsVoice("Nord"); // LOP edit
+            .WithTtsVoice("nord"); // LOP edit
         }
 
         private static ServerDbSqlite GetDb(RobustIntegrationTest.ServerIntegrationInstance server)

@@ -7,16 +7,16 @@
 # Discord: ???
 
 # Shuttle Notes:
-# 
+#
 - type: vessel
   id: Bazaar
   parent: BaseVessel
   name: SLI Bazaar
-  description: The Bazaar is a personal service vessel designed to provide a platform for merchants to sell their goods, it features two locking cargo docks, a spacious cargo hold, and a mercenary post for shop security.
+  description: "Базар — это судно предназначенное для создания самого настоящей торговой зоны. Оно оснащено тремя складами, портами для торговли и постом наемников для охраны!" #LOP Edit
   price: 80000 # TODO: fix this number, just getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/bazaar.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/bazaar.yml # LOP edit
   guidebookPage: ShipyardBazaar
   class:
   - Cargo
@@ -27,9 +27,9 @@
 - type: gameMap
   id: Bazaar
   mapName: 'SLI Bazaar'
-  mapPath: /Maps/_NF/Shuttles/bazaar.yml
+  mapPath: /Maps/_NewParadise/Shuttles/bazaar.yml # LOP edit
   minPlayers: 0
-  stations: 
+  stations:
     Bazaar:
       stationProto: StandardFrontierVessel
       components:

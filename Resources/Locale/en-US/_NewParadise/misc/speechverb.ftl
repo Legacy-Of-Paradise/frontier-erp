@@ -1,1 +1,1 @@
-﻿chat-speech-verb-name-tajaran = Таяран
+chat-speech-verb-name-tajaran = Таяран
