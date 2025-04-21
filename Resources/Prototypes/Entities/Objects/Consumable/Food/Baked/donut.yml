@@ -1,7 +1,7 @@
 # Base
 
 - type: entity
-  parent: [VendPriceFoodBase100, FoodInjectableBase] #  Frontier - VendPriceFoodBase100
+  parent: FoodInjectableBase #  Frontier - VendPriceFoodBase100
   id: FoodDonutBase
   abstract: true
   description: Goes great with robust coffee.
@@ -23,7 +23,7 @@
     sprite: Objects/Consumable/Food/Baked/donut.rsi
     size: Tiny
   - type: StaticPrice
-    price: 14
+    price: 200.0
 # Tastes like donut.
 
 # The sprinkles are now an overlay, so you can put them on any donut! If we really

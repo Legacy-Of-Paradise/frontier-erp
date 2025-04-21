@@ -339,12 +339,12 @@
     - map: [ "belt" ]
     # LOP edit end
     - map: [ "back" ]
+    - map: [ "enum.HumanoidVisualLayers.Tail" ] # LOP edit
     - map: [ "neck" ]
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
     - map: [ "enum.HumanoidVisualLayers.Hair" ]
     - map: [ "enum.HumanoidVisualLayers.HeadSide" ]
     - map: [ "enum.HumanoidVisualLayers.HeadTop" ]
-    - map: [ "enum.HumanoidVisualLayers.Tail" ]
     - map: [ "mask" ]
     - map: [ "head" ]
     - map: [ "pocket1" ]

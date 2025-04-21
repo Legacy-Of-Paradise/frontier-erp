@@ -43,7 +43,7 @@
     tags:
     - DrinkCup
   - type: StaticPrice # Frontier
-    price: 4.5 # Frontier
+    price: 100.0 # Frontier
 
 - type: entity
   parent: DrinkBaseCup
@@ -54,7 +54,7 @@
   - type: Sprite
     sprite: Objects/Consumable/Drinks/golden_cup.rsi
   - type: StaticPrice
-    price: 125
+    price: 100.0
 
 - type: entity
   parent: DrinkBaseCup

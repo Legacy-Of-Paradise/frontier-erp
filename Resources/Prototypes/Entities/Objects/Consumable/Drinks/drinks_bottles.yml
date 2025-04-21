@@ -86,7 +86,7 @@
     materialComposition:
       Glass: 100
   - type: StaticPrice
-    price: 16
+    price: 100.0
 
 - type: entity
   id: DrinkBottleVisualsOpenable

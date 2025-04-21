@@ -68,7 +68,7 @@
     - DrinkCan
   - type: DnaSubstanceTrace
   - type: StaticPrice # Frontier
-    price: 5.5 # Frontier
+    price: 100.0 # Frontier
 
 - type: entity
   parent: DrinkCanBaseFull

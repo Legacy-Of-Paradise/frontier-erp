@@ -274,7 +274,9 @@
       prob: 0.10
       orGroup: Pizza
     - id: KnifePlastic
-  
+  - type: StaticPrice
+    price: 200.0
+
 - type: entity
   name: pizza box
   parent: FoodBoxPizzaFilled
