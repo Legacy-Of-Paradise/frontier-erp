@@ -1,5 +1,3 @@
-ent-LPParbitermask = Трофейная маска
-    .desc = Трофейная маска одного из известных охотников. От неё так и веет отчаянием
 ent-LPPclownPomni = Маска шута
     .desc = Прилегающая к лицу маска заставляет вас ощущать, будто вам хочется вырвать себе глаза...
 ent-LPPMaskCyan = Голубая маска
@@ -38,9 +36,6 @@ ent-LPPClothingMaskPG = Балаклава ПГ
     .desc = Балаклава, которой пользуются солдаты ПГ. Огненепроницаемая!
 ent-LPPClothingBlackMaskPG = Чёрная балаклава ПГ
     .desc = Балаклава, которой пользуются солдаты ПГ. Огненепроницаемая!
-ent-LPPClothingMaskBlindSpot = Слепая зона
-    .desc = Держите столовое серебро подальше от своих глаз. Особенно вилки.
-    .suffix = Личные вещи, Shalopaichik
 ent-LPPClothingMaskKinkyMuzzle = БДСМ маска
     .desc = Мпфх!
 ent-LPPClothingBalaclavawide = Балаклава с широким вырезом для глаз

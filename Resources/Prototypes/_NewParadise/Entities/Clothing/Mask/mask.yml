@@ -1,23 +1,4 @@
 - type: entity
-  parent: ClothingMaskPullableBase
-  id: LPParbitermask
-  name: A trophy mask of Black Silence.
-  description: The trophy mask of the famous hunter. Radiates despair.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/WTF/Arbiterhel.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/WTF/Arbiterhel.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.95
-        Slash: 0.95
-        Piercing: 0.95
-        Heat: 0.95
-  - type: BreathMask
-
-- type: entity
   parent: ClothingMaskGas
   id: LPPclownPomni
   name: Clown Pomni
@@ -274,22 +255,6 @@
 #     modifiers:
 #       coefficients:
 #         Heat: 0.80
-
-- type: entity
-  parent: ClothingMaskBase
-  id: LPPClothingMaskBlindSpot
-  name: The blind spot
-  description: Keep the silverware away from your eyes. Especially forks.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Mask/blindspot.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Mask/blindspot.rsi
-  - type: BreathMask
-  - type: IdentityBlocker
-  - type: Tag
-    tags:
-    - HidesNose
 
 - type: entity
   parent: ClothingMaskBase

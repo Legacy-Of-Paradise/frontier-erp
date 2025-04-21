@@ -1,9 +1,3 @@
-ent-LPParbitercloak = Arbiter cloak
-    .desc = An expensive raincoat of an unknown company with a fur collar. Soft fur and silk of the highest quality. Gold is visible between the threads. Luxury.
-ent-LPPPBLCORPcloak = BL CORP cloak
-    .desc = A cloak made of very durable materials for special forces.
-ent-LPPKirasCloakn = Kiras cloakn
-    .desc = beautiful kapeshon u Kirava.
 ent-LPPClothingNeckCloakBlueshield = blueshield's cloak
     .desc = They can hide those who really need protection.
 ent-LPPBestMedic = best medic
