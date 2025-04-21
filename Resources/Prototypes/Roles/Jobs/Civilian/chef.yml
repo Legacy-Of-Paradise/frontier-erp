@@ -3,7 +3,7 @@
   name: job-name-chef
   description: job-description-chef
   playTimeTracker: JobChef
-  setPreference: false # Frontier
+  setPreference: true # LOP edit
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10800
