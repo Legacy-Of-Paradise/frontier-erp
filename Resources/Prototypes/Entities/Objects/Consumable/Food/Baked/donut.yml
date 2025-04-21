@@ -23,7 +23,8 @@
     sprite: Objects/Consumable/Food/Baked/donut.rsi
     size: Tiny
   - type: StaticPrice
-    price: 200.0 # LOP edit
+    price: 14
+    vendPrice: 200.0 # LOP edit
 # Tastes like donut.
 
 # The sprinkles are now an overlay, so you can put them on any donut! If we really

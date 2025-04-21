@@ -2,7 +2,7 @@
 # Base
 
 - type: entity
-  parent: VendPriceFoodBase200 # LOP edit
+  parent: FoodBase # LOP edit
   id: FoodSnackBase
   abstract: true
   components:
@@ -24,7 +24,8 @@
     heldPrefix: packet
     size: Tiny
   - type: StaticPrice
-    price: 200.0 # LOP edit
+    price: 1
+    vendPrice: 200.0 # LOP edit
 # Snacks
 
 # "Snacks" means food in a packet. Down the line this stuff can have multiple
@@ -119,7 +120,8 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
   - type: StaticPrice
-    price: 50.0 # LOP edit
+    price: 21
+    vendPrice: 50.0 # LOP edit
 
 - type: entity
   name: chocolate bar
@@ -434,7 +436,8 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
   - type: StaticPrice
-    price: 200.0 # LOP edit
+    price: 50
+    vendPrice: 200.0 # LOP edit
 
 - type: entity
   id: FoodSnackNutribrickOpen

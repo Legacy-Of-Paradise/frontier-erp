@@ -43,7 +43,8 @@
     tags:
     - DrinkCup
   - type: StaticPrice # Frontier
-    price: 100.0 # LOP edit
+    price: 4.5 # Frontier
+    vendPrice: 100.0 # LOP edit
 
 - type: entity
   parent: DrinkBaseCup
@@ -54,7 +55,7 @@
   - type: Sprite
     sprite: Objects/Consumable/Drinks/golden_cup.rsi
   - type: StaticPrice
-    price: 100.0 # LOP edit
+    price: 125
 
 - type: entity
   parent: DrinkBaseCup

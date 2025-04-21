@@ -276,7 +276,7 @@
     - id: KnifePlastic
   # LOP edit start
   - type: StaticPrice
-    price: 200.0
+    vendPrice: 200.0
   # LOP edit end
 
 - type: entity

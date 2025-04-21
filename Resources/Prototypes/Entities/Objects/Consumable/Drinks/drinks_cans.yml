@@ -68,7 +68,8 @@
     - DrinkCan
   - type: DnaSubstanceTrace
   - type: StaticPrice # Frontier
-    price: 100.0 # LOP edit
+    price: 5.5
+    vendPrice: 100.0 # LOP edit
 
 - type: entity
   parent: DrinkCanBaseFull

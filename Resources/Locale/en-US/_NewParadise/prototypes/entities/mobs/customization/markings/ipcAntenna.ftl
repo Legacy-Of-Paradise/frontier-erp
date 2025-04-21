@@ -1,5 +1,5 @@
 marking-LPPRobotAntennaTv = TV
-marking-LPPIPCAntennaTesla = Тесла
+marking-LPPIPCAntennaTesla = Тёсла
 marking-LPPIPCAntennaLightb = Свет (alt)
 marking-LPPIPCAntennaLight = Свет
 marking-LPPIPCAntennaCyberHead = Кибер
