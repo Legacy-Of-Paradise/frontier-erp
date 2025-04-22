@@ -46,6 +46,8 @@
     steps: 16
     zeroVisible: false
   - type: Appearance
+  - type: StaticPrice #LOP edit
+    price: 125
 
 - type: entity
   parent: MagazineNovaliteC1Empty

@@ -108,6 +108,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: StaticPrice
+    price: 1250
 
 - type: entity
   parent: WeaponRifleGestio
@@ -186,6 +188,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: StaticPrice
+    price: 1250
 
 - type: entity
   parent: WeaponRifleNovaliteC1
@@ -275,3 +279,5 @@
     pvsIncrease: 0.15
   - type: AltFireMelee
     attackType: Light
+  - type: StaticPrice #LOP edit
+    price: 800
