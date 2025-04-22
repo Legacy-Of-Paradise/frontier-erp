@@ -194,7 +194,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
-    mod: 16 # Frontier
+    mod: 16 # LOP edit 12<16
 
 - type: entity
   parent: VendingMachine
