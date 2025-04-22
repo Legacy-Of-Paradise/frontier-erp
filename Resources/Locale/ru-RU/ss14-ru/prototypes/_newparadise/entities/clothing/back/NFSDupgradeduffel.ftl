@@ -1,2 +1,2 @@
-ent-LPPClothingBackpackDuffelNFSDUpgraded = Улучшенная вещевая сумка ДШНГ
+ent-LPPClothingBackpackDuffelNFSDUpgraded = улучшенная вещевая сумка ДШНГ
     .desc = Большая вещевая сумка ДШНГ, теперь вы можете унести всю контрабанду со всего Фронтира за один раз! (Вероятно)

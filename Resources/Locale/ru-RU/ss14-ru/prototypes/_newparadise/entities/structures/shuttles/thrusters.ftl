@@ -1,4 +1,4 @@
-ent-LPPThruster2x2 = Двигатель 2x2
+ent-LPPThruster2x2 = двигатель 2x2
     .desc = { ent-BaseThruster.desc }
-ent-LPPThruster3x3 = Двигатель 3x3
+ent-LPPThruster3x3 = двигатель 3x3
     .desc = { ent-BaseThruster.desc }

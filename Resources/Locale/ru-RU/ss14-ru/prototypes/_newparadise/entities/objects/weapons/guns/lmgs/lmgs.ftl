@@ -1,4 +1,4 @@
-ent-LPPWeaponLightMachinegunLewis = Пулемёт Льюиса
+ent-LPPWeaponLightMachinegunLewis = пулемёт Льюиса
     .desc = Довольно традиционный ручной пулемёт с красивой лакированной деревянной пистолетной рукояткой. Использует винтовочные патроны .30.
 ent-LPPWeaponLightMachinegunStoner25 = Armalite "Stoner-25"
     .desc = Классическая AR... Но это булпап... И пулемёт... Бога нет и мы его убили. Использует безгильзовые патроны .25.

@@ -1,4 +1,4 @@
-ent-LPPClothingNeckMantlePG = Мантия ПГ
+ent-LPPClothingNeckMantlePG = мантия ПГ
     .desc = Мантия, которую носят лишь лучшие из лучших.
-ent-LPPClothingNeckMantleAV = Наплечная мантия Веалиса
+ent-LPPClothingNeckMantleAV = наплечная мантия Веалиса
     .desc = Чёрная мантия. Абсолютно не мантия ГСБ. Прекратите их путать.

@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: DYS Dove
   description: "Универсальное легкое грузовое судно, пригодное для экспедиций." #LOP edit
-  price: 98500 # ~60100$ on mapinit + ~18000$ from 30% markup # LOP edit повышаем цены!!!
+  price: 78500 # ~60100$ on mapinit + ~18000$ from 30% markup
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/decadedove.yml # LOP edit

@@ -1,12 +1,12 @@
-ent-LPPFleshlightGreen = Зелёный мастурбатор
+ent-LPPFleshlightGreen = зелёный мастурбатор
     .desc = Мастурбатор, который удовлетворит вас, если вы одиноки.
-ent-LPPFleshlightPink = Розовый мастурбатор
+ent-LPPFleshlightPink = розовый мастурбатор
     .desc = Мастурбатор, который удовлетворит вас, если вы одиноки.
-ent-LPPFleshlightRed = Красный мастурбатор
+ent-LPPFleshlightRed = красный мастурбатор
     .desc = Мастурбатор, который удовлетворит вас, если вы одиноки.
-ent-LPPFleshlightTeal = Бирюзовый мастурбатор
+ent-LPPFleshlightTeal = бирюзовый мастурбатор
     .desc = Мастурбатор, который удовлетворит вас, если вы одиноки.
-ent-LPPFleshlightYellow = Жёлтый мастурбатор
+ent-LPPFleshlightYellow = жёлтый мастурбатор
     .desc = Мастурбатор, который удовлетворит вас, если вы одиноки.
 ent-LPPPillowPinkRound = розовая подушка
     .desc = Розовая круглая подушка с дыркой по центру. Зачем же она?..

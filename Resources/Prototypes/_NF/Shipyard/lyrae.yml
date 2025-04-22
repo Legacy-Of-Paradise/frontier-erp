@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SBB Lyrae
   description: "Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии." #LOP Edit
-  price: 100000 # TODO: fix this value, getting tests to pass - Whatstone # LOP edit повышаем цены!!!
+  price: 60000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/lyrae.yml # LOP edit
