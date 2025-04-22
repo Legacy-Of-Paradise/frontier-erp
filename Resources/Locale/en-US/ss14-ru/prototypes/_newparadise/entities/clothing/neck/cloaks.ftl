@@ -1,5 +1,3 @@
-ent-LPPClothingNeckCloakBlueshield = blueshield's cloak
-    .desc = They can hide those who really need protection.
 ent-LPPBestMedic = best medic
     .desc = { ent-ClothingNeckBase.desc }
 ent-LPPBestMedicGif = best medic+

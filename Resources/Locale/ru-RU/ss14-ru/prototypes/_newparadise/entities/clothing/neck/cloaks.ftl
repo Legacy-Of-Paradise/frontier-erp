@@ -1,5 +1,3 @@
-ent-LPPClothingNeckCloakBlueshield = Плащ офицера "Синий Щит"
-    .desc = Им можно прикрыть тех, кто действительно нуждается в защите. "P.S: представители рабочего класса станции не входят в их число".
 ent-LPPBestMedic = Медик+
     .desc = { ent-ClothingNeckBase.desc }
 ent-LPPBestMedicGif = Лучший медик+

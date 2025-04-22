@@ -1,10 +1,6 @@
 ent-LPPClothingBackpackDuffelHop = hop duffel bag
     .desc = Twice as many handcuffs!
-ent-LPPClothingBackpackDuffelBlueshieldFilled = { ent-LPPClothingBackpackDuffelBlueshield }
-    .desc = { ent-LPPClothingBackpackDuffelBlueshield.desc }
 ent-LPPClothingBackpackDuffelSecurityEngineer = hop duffel bag
-    .desc = Twice as many handcuffs!
-ent-LPPClothingBackpackDuffelBlueshield = blueshield duffel bag
     .desc = Twice as many handcuffs!
 ent-LPPClothingBackpackDuffelExpeditor = expeditor duffel bag
     .desc = Twice as many handcuffs!

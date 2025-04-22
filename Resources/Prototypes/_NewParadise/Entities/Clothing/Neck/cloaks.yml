@@ -1,14 +1,5 @@
 - type: entity
   parent: ClothingNeckBase
-  id: LPPClothingNeckCloakBlueshield
-  name: blueshield's cloak
-  description: They can hide those who really need protection.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Neck/Cloaks/blueshield_neck.rsi
-
-- type: entity
-  parent: ClothingNeckBase
   id: LPPBestMedic
   name: best medic
   description:

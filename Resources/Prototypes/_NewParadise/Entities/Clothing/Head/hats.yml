@@ -55,17 +55,6 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: LPPClothingHeadHatBeretBlueshield
-  name: blueshield's beret
-  description: Dark blue beret with the emblem of the commander's rank. For officers who think more about other people's safety than their own.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Head/Hats/blueshield_beret.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Head/Hats/blueshield_beret.rsi
-
-- type: entity
-  parent: ClothingHeadBase
   id: LPPClothingHeadHatBeretNPZ
   name: NPZ Beret
   description: Remember what you're fighting for. (For humanity, in case you've forgotten)

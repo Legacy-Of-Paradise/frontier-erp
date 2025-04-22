@@ -1,13 +1,4 @@
 - type: entity
-  parent: LPPClothingBackpackBlueshield
-  id: LPPClothingBackpackBlueshieldFilled
-  components:
-  - type: StorageFill
-    contents:
-    - id: Flash
-    - id: LPPClothingOuterHardsuitBlueshield
-
-- type: entity
   parent: ClothingBackpack
   id: LPPClothingBackpackHop
   name: hop backpack
@@ -42,15 +33,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Back/Backpacks/securityEngineer.rsi
-
-- type: entity
-  parent: ClothingBackpack
-  id: LPPClothingBackpackBlueshield
-  name: blueshield backpack
-  description: They say it's bulletproof.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Backpacks/blueshield.rsi
 
 - type: entity
   parent: ClothingBackpack

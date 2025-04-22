@@ -18,27 +18,9 @@
 
 - type: entity
   parent: ClothingBackpackSatchel
-  id: LPPClothingBackpackSatchelBlueshield
-  name: blueshield satchel
-  description: Convenient to throw off rifle magazines.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Satchels/blueshield.rsi
-
-- type: entity
-  parent: ClothingBackpackSatchel
   id: LPPClothingBackpackSatchelExpeditor
   name: expeditor satchel
   description: Convenient to throw off rifle magazines.
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Back/Satchels/expeditor.rsi
-
-# - type: entity
-#   parent: LPPClothingBackpackSatchelBlueshield
-#   id: LPPClothingBackpackSatchelBlueshieldFilled
-#   components:
-#   - type: StorageFill
-#     contents:
-#     - id: Flash
-#     - id: LPPClothingOuterHardsuitBlueshield
