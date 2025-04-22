@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KC Pathfinder
   description: "Когда-то это был разведывательный корабль, служивший в составе экспедиционных сил морской пехоты NanoTrasen, а теперь выведенный из эксплуатации экспедиционный корабль может стать вашим!" #LOP edit
-  price: 82920 # LOP edit повышаем цены!!!
+  price: 52920
   category: Small
   group: Expedition
   shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/pathfinder.yml # LOP edit

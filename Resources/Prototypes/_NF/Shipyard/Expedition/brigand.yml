@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Brigand
   description: "Гражданское судно, что ранее было военным легким фрегатом времен ранней экспансии человечества к звездам, предшествовавшей технологии сверхсветовых полетов. Произведено Лангстад-Фойгт Хэви Индастриз " #LOP edit
-  price: 95500 # ~42645$ on mapinit + ~12800$ from 30% markup # LOP edit повышаем цены!!!
+  price: 55500 # ~42645$ on mapinit + ~12800$ from 30% markup
   category: Medium
   group: Expedition
   shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/brigand.yml # LOP edit
