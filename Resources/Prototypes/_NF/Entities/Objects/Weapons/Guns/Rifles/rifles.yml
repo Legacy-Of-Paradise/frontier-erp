@@ -281,5 +281,7 @@
     pvsIncrease: 0.15
   - type: AltFireMelee
     attackType: Light
-  - type: StaticPrice #LOP edit
+  # LOP edit start
+  - type: StaticPrice
     price: 800
+  # LOP edit end
