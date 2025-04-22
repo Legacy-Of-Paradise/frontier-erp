@@ -1,4 +1,4 @@
-ent-LPPClothingUniformJumpsuitBlueshield = Костюм офицера "Синий Щит"
+ent-LPPClothingUniformJumpsuitBlueshield = костюм офицера "Синий Щит"
     .desc = Это костюм человека высокого ранга.
-ent-LPPClothingUniformSkirtleneckBlueshield = Водолазка офицера "Синий Щит"
+ent-LPPClothingUniformSkirtleneckBlueshield = водолазка офицера "Синий Щит"
     .desc = Это костюм человека высокого ранга.

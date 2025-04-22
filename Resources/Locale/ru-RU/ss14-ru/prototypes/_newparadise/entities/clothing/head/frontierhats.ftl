@@ -1,10 +1,10 @@
-ent-LPPClothingHeadHatSherif = Кепка шерифа ДШНГ
+ent-LPPClothingHeadHatSherif = кепка шерифа ДШНГ
     .desc = ГДЕ СОГЛАСИЕ, ТАМ ПОБЕДА.
-ent-LPPClothingHeadHatDeputySherif = Кепка капрала ДШНГ
+ent-LPPClothingHeadHatDeputySherif = кепка капрала ДШНГ
     .desc = Попробуйте чаще её поправлять, это придаст вам вид серьёзного человека... Вроде.
-ent-LPPClothingHeadHatCowboyDeputySherif = Ковбойская шляпа капрала ДШНГ
+ent-LPPClothingHeadHatCowboyDeputySherif = ковбойская шляпа капрала ДШНГ
     .desc = На Бога уповаnm.
-ent-LPPClothingHeadHatCowboy = Ковбойская шляпа ДШНГ
+ent-LPPClothingHeadHatCowboy = ковбойская шляпа ДШНГ
     .desc = Йиппи-кай-эй, мазафака!
-ent-LPPClothingHeadHatCowboySerjSherif = Ковбойская шляпа сержанта ДШНГ
+ent-LPPClothingHeadHatCowboySerjSherif = ковбойская шляпа сержанта ДШНГ
     .desc = Ничто без Божества

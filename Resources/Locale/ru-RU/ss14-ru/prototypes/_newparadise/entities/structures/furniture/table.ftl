@@ -1,4 +1,4 @@
-ent-LPPFancyTableBlackred = Чёрно-алый стол
+ent-LPPFancyTableBlackred = чёрно-алый стол
     .desc = Дорого и со вкусом.
-ent-LPPFancyTableMnochrome = Чёрно-белый стол
+ent-LPPFancyTableMnochrome = чёрно-белый стол
     .desc = Дорого и со вкусом.
