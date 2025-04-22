@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NC Kestrel
   description: "Судно, которое раньше использовалась в качестве местного грузового судна, было переоборудована для использования в горнодобывающих и спасательных операциях." #LOP Edit
-  price: 77700 # ~45370$ on mapinit + ~6805$ from 15% markup # LOP edit повышаем цены!!!
+  price: 52200 # ~45370$ on mapinit + ~6805$ from 15% markup
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/kestrel.yml # LOP edit

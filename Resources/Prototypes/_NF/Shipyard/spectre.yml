@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NR Spectre
   description: "Большое, привлекательное, но достаточно устаревшее судно, полностью сделанное под исследования. Способно генерировать аномалии." #LOP Edit
-  price: 225000 # Anomaly spawner # LOP edit повышаем цены!!!
+  price: 185000 # Anomaly spawner
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/spectre.yml # LOP edit

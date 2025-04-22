@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SLI Bazaar
   description: "Базар — это судно предназначенное для создания самого настоящей торговой зоны. Оно оснащено тремя складами, портами для торговли и постом наемников для охраны!" #LOP Edit
-  price: 100000 # TODO: fix this number, just getting tests to pass - Whatstone # LOP edit повышаем цены!!!
+  price: 80000 # TODO: fix this number, just getting tests to pass - Whatstone
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/bazaar.yml # LOP edit

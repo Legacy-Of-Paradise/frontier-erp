@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: UAC Ambition
   description: "Рассекреченная платформа по добыче и распределению газа, захваченная в результате враждебного поглощения конгломерата Atmosian. Для законченного мятежника." #LOP Edit
-  price: 220000 # ~$133300 on mapinit + 36700$ from ~20% markup # LOP edit повышаем цены!!!
+  price: 160000 # ~$133300 on mapinit + 36700$ from ~20% markup
   category: Large
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/ambition.yml # LOP edit

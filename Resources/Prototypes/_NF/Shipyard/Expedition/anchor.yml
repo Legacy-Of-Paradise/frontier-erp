@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KC Anchor
   description: "Большой роскошный корабль, способный совершать дальние путешествия по всему сектору. Cпособен к экспедициям!" #LOP edit
-  price: 240000 # $108432 after appraisal +30ish% (~32000) # LOP edit повышаем цены!!!
+  price: 140000 # $108432 after appraisal +30ish% (~32000)
   category: Large
   group: Expedition
   shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/anchor.yml # LOP edit
