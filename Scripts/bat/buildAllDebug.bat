@@ -2,6 +2,6 @@
 cd ../../
 
 call git submodule update --init --recursive
-call dotnet msbuild -p:Configuration=Debug -verbosity:minimal -consoleloggerparameters:Summary -p:NoWarn=CS0618
+call dotnet build --no-incremental -c Debug -v minimal -consoleloggerparameters:Summary /nowarn:CS0618,CS1998,CS0414,CS0672,CS0105,CS0612
 
 pause

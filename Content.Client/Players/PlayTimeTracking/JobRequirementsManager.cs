@@ -13,6 +13,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LOP_Sponsors
+using  Content.Client._NewParadise.Sponsors;
+#endif
 
 namespace Content.Client.Players.PlayTimeTracking;
 
@@ -148,10 +151,22 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         if (requirements == null || !_cfg.GetCVar(CCVars.GameRoleTimers))
             return true;
 
+        //LOP edit start
+#if LOP_Sponsors
+        int sponsorTier = 0;
+        if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorinfo))
+            sponsorTier = sponsorinfo.Tier;
+#endif
+        //LOP edit end
+
         var reasons = new List<string>();
         foreach (var requirement in requirements)
         {
-            if (requirement.Check(_entManager, _prototypes, profile, _roles, out var jobReason))
+            if (requirement.Check(_entManager, _prototypes, profile, _roles, out var jobReason
+#if LOP_Sponsors
+            , sponsorTier
+#endif
+            ))
                 continue;
 
             reasons.Add(jobReason.ToMarkup());

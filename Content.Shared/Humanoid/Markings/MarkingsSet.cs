@@ -234,6 +234,7 @@ public sealed partial class MarkingSet
     }
 
     //LOP edit start
+#if LOP_Sponsors
     public void FilterSponsor(List<string> sponsorMarkings, MarkingManager? markingManager = null, IPrototypeManager? prototypeManager = null)
     {
         IoCManager.Resolve(ref markingManager);
@@ -261,6 +262,7 @@ public sealed partial class MarkingSet
             Remove(marking.category, marking.id);
         }
     }
+#endif
     //LOP edit end
 
     /// <summary>

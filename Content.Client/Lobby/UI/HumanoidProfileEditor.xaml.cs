@@ -35,6 +35,9 @@ using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
+#if LOP_Sponsors
+using Content.Client._NewParadise.Sponsors;
+#endif
 
 namespace Content.Client.Lobby.UI
 {
@@ -1603,7 +1606,16 @@ namespace Content.Client.Lobby.UI
 
             try
             {
-                var profile = _entManager.System<HumanoidAppearanceSystem>().FromStream(file, _playerManager.LocalSession!);
+#if LOP_Sponsors
+                int sponsorTier = 0;
+                if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
+                    sponsorTier = sponsorInfo.Tier;
+#endif
+                var profile = _entManager.System<HumanoidAppearanceSystem>().FromStream(file, _playerManager.LocalSession!
+#if LOP_Sponsors
+                , sponsorTier
+#endif
+                );
                 var oldProfile = Profile;
                 profile = profile.WithBankBalance(oldProfile.BankBalance); // Frontier: no free money (enforce import, don't care about import)
                 SetProfile(profile, CharacterSlot);
