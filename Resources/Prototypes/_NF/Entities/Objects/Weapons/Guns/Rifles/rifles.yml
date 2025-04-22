@@ -108,8 +108,10 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  # LOP edit start
   - type: StaticPrice
     price: 1250
+  # LOP edit end
 
 - type: entity
   parent: WeaponRifleGestio
