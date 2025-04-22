@@ -495,8 +495,10 @@
     radius: 1.5
     energy: 1.6
     color: "#3c5eb5"
-  - type: MarketModifier # Frontier
-    mod: 10 # Frontier
+  # LOP edit start
+  - type: MarketModifier
+    mod: 10
+  # LOP edit end
 
 - type: entity
   parent: VendingMachineCola
