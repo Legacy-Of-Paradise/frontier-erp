@@ -222,19 +222,19 @@
     soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: Jittering
   # Ghost role stuff
-  - type: GhostRole
-    allowMovement: true
-    name: ghost-role-information-punk-boss-dungeon-name
-    description: ghost-role-information-punk-boss-dungeon-description
-    rules: ghost-role-information-dungeon-boss-rules
-    raffle:
-      settings: default
-    mindRoles:
-    - MindRoleGhostRoleTeamAntagonist
-  - type: GhostTakeoverAvailable
-  - type: ActionGun
-    action: ActionThrowPartyNade
-    gunProto: PartyNadeGun
+  # - type: GhostRole
+  #   allowMovement: true
+  #   name: ghost-role-information-punk-boss-dungeon-name
+  #   description: ghost-role-information-punk-boss-dungeon-description
+  #   rules: ghost-role-information-dungeon-boss-rules
+  #   raffle:
+  #     settings: default
+  #   mindRoles:
+  #   - MindRoleGhostRoleTeamAntagonist
+  # - type: GhostTakeoverAvailable
+  # - type: ActionGun
+  #   action: ActionThrowPartyNade
+  #   gunProto: PartyNadeGun
 
 - type: entity
   id: PartyNadeGun

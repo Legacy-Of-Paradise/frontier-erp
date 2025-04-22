@@ -578,19 +578,19 @@
         variation: 0.250
         volume: -10
   # Ghost role stuff
-  - type: GhostRole
-    allowMovement: true
-    name: ghost-role-information-explorer-captain-dungeon-name
-    description: ghost-role-information-explorer-captain-dungeon-description
-    rules: ghost-role-information-dungeon-boss-rules
-    raffle:
-      settings: default
-    mindRoles:
-    - MindRoleGhostRoleTeamAntagonist
-  - type: GhostTakeoverAvailable
-  - type: ActionGun
-    action: ActionSeismicCharge
-    gunProto: SeismicChargeGun
+  # - type: GhostRole
+  #   allowMovement: true
+  #   name: ghost-role-information-explorer-captain-dungeon-name
+  #   description: ghost-role-information-explorer-captain-dungeon-description
+  #   rules: ghost-role-information-dungeon-boss-rules
+  #   raffle:
+  #     settings: default
+  #   mindRoles:
+  #   - MindRoleGhostRoleTeamAntagonist
+  # - type: GhostTakeoverAvailable
+  # - type: ActionGun
+  #   action: ActionSeismicCharge
+  #   gunProto: SeismicChargeGun
 
 - type: entity
   id: SeismicChargeGun
