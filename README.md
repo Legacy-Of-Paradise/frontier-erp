@@ -1,10 +1,10 @@
-<p align="center"> <img alt="Frontier Station 14" width="653" height="256" src="https://github.com/Legacy-Of-Paradise/frontier-erp/blob/master/Resources/Textures/_NewParadise/Logo/logo.png?raw=true" /></p>
+<p align="center"> <img alt="Legacy of Paradise" width="653" height="256" src="https://github.com/Legacy-Of-Paradise/frontier-erp/blob/master/Resources/Textures/_NewParadise/Logo/logo.png?raw=true" /></p>
 
-Frontier Station 14 — это форк [Space Station 14](https://github.com/space-wizards/space-station-14), работающий на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
+Legacy of Paradise — это форк [Space Station 14](https://github.com/space-wizards/space-station-14), работающий на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
 Это основной репозиторий Legacy Of Paradise Frontier.
 
-Если вы хотите запустить сервер или создавать контент для FS14, то вам нужен именно этот репозиторий. В нём содержится как RobustToolbox, так и набор ресурсов для разработки новых контент-паков.
+Если вы хотите запустить сервер или создавать контент для LOP, то вам нужен именно этот репозиторий. В нём содержится как RobustToolbox, так и набор ресурсов для разработки новых контент-паков.
 
 ## Ссылки
 
@@ -12,7 +12,7 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 
 ## Документация/Вики
 
-В нашей [вики](https://wiki.legacyofparadise.space/) есть документация по контенту FS14.
+В нашей [вики](https://wiki.legacyofparadise.space/) есть документация по контенту LOP.
 
 ## Внесение вклада
 
