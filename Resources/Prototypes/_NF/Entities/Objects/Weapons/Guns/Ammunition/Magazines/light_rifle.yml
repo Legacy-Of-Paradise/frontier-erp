@@ -36,8 +36,10 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-  - type: StaticPrice #LOP edit
+  # LOP edit start
+  - type: StaticPrice
     price: 125
+  # LOP edit end
 
 - type: entity
   id: MagazineLightRifleLowCapacity
