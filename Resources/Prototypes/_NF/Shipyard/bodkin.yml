@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: SBB Bodkin
   description: "Младший брат Бродхеда, оснащённый гораздо более совершенным оборудованием для добычи и переработки руд." #LOP Edit
-  price: 69000 #Grid appraises at 35000. Slapped on a ~10% markup. # LOP edit повышаем цены!!!
+  price: 39000 #Grid appraises at 35000. Slapped on a ~10% markup.
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/bodkin.yml # LOP edit

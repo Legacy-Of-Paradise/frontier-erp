@@ -14,7 +14,7 @@
   name: EIS Charon
   description: "Первоначально Charon создавался как передвижной транспорт для тяжелой техники для терраформирования. С тех пор как он устарел и появился на вторичном рынке, он стал любимым транспортным средством для модернизации благодаря широким возможностям, предоставляемым его открытым отсеком для оборудования. Разработан Endurance Industrial Shipyards." #LOP edit
   # Sell value @ exped shipyard 70408, 15% markup and a little rounding gives us...
-  price: 121000 # LOP edit повышаем цены!!!
+  price: 81000
   # 24x33 tiles
   # 627 total tiles
   # In light of the mid-range tile count and relatively narrow width I feel like Medium is more appropriate than Large even though it is technically one tile too long for the class.

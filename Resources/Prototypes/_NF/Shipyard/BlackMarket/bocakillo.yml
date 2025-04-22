@@ -13,7 +13,7 @@
   parent: BaseVesselAntag
   name: Bocakillo
   description: "Крошечное судно, рассчитанное на экипаж из 2-3 пиратов. Имеет две бортовые пушки и расположенную сзади пусковую установку для уничтожения. Работает на плазме." #LOP Edit
-  price: 65000 #Cheap # LOP edit повышаем цены!!!
+  price: 35000 #Cheap
   category: Small
   group: BlackMarket
   shuttlePath: /Maps/_NewParadise/Shuttles/BlackMarket/bocakillo.yml # LOP edit
