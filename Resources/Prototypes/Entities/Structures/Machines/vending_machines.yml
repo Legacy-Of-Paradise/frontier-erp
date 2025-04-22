@@ -848,8 +848,10 @@
     radius: 1.5
     energy: 1.6
     color: "#6148c7"
-  - type: MarketModifier # LOP edit
-    mod: 10 # LOP edit
+  # LOP edit start
+  - type: MarketModifier
+    mod: 10
+  # LOP edit end
 
 - type: entity
   parent: VendingMachine
