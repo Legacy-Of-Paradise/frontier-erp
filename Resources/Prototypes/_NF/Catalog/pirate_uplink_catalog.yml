@@ -177,7 +177,7 @@
   productEntity: WeaponLauncherPirateCannon
   icon: { sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi, state: icon }
   cost:
-    Doubloon: 6
+    Doubloon: 25 # LOP edit 6<25
   categories:
     - UplinkPirateWeapons
   conditions:

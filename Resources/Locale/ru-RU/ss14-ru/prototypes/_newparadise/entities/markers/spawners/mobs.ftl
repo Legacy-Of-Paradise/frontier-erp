@@ -1,2 +1,2 @@
-ent-LPPSpawnMobPossumPoppy = Спавнер Поппи
+ent-LPPSpawnMobPossumPoppy = спавнер Поппи
     .desc = { ent-MarkerBase.desc }

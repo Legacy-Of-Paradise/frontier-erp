@@ -240,7 +240,7 @@
 
 #Captain's Hardsuit
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
+  parent: [ ClothingHeadHardsuitBase ] # LOP edit
   id: ClothingHeadHelmetHardsuitCap
   name: captain's hardsuit helmet
   description: Special hardsuit helmet, made for the captain of the station.
@@ -693,7 +693,7 @@
 
 #Deathsquad Hardsuit
 - type: entity
-  parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase ]
+  parent: [ BaseCentcommContraband, ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ] # LOP edit
   id: ClothingHeadHelmetHardsuitDeathsquad
   name: deathsquad hardsuit helmet
   description: A robust helmet for special operations.

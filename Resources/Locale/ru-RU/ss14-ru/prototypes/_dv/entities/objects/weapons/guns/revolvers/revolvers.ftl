@@ -1,6 +1,6 @@
-ent-WeaponRevolverFitz = Фитц Специальный
+ent-WeaponRevolverFitz = фитц Специальный
     .desc = Компактный и скрытный короткоствольный револьвер для самообороны. Использует патроны .45.
-ent-WeaponRevolverFaith = Вера
+ent-WeaponRevolverFaith = вера
     .desc = Доставляет благословения в форме пули. Использует патроны .45.
-ent-WeaponRevolverLucky = Счастливчик 37
+ent-WeaponRevolverLucky = счастливчик 37
     .desc = Удача всегда побеждает мастерство, ласка. Использует патроны .45.

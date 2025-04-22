@@ -51,6 +51,7 @@
     - back
     - suitStorage
   - type: Execution
+  - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset # Frontier
     maxOffset: 1.5 # Frontier
     pvsIncrease: 0.15 # Frontier
@@ -116,6 +117,7 @@
   - type: MeleeRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset # Frontier
     maxOffset: 4 # Frontier
     pvsIncrease: 0.5 # Frontier
@@ -177,6 +179,7 @@
   - type: MeleeRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset # Frontier
     maxOffset: 1.5 # Frontier
     pvsIncrease: 0.15 # Frontier

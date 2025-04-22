@@ -1,10 +1,10 @@
-ent-LPPClothingHeadHatCapRed = Красная кепка
+ent-LPPClothingHeadHatCapRed = красная кепка
     .desc = Отлично сочетается с спортивным костюмом!
-ent-LPPClothingHeadHatCapGreen = Зелёная кепка
+ent-LPPClothingHeadHatCapGreen = зелёная кепка
     .desc = Отлично сочетается с спортивным костюмом!
-ent-LPPClothingHeadHatCapBlue = Синяя кепка
+ent-LPPClothingHeadHatCapBlue = синяя кепка
     .desc = Отлично сочетается с спортивным костюмом!
-ent-LPPClothingHeadHatCapBlack = Чёрная кепка
+ent-LPPClothingHeadHatCapBlack = чёрная кепка
     .desc = Отлично сочетается с спортивным костюмом!
-ent-LPPADJUCap = Фуражка адъютанта
+ent-LPPADJUCap = фуражка адъютанта
     .desc = Данную фуражку носят вполне уставшие от рутин работ с бюрократией

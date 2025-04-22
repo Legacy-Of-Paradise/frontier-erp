@@ -46,7 +46,7 @@
   description: lpp-uplink-security-pravoved-desc
   productEntity: LPPWeaponSniperLeverPravoved
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 2
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -62,7 +62,7 @@
   productEntity: LPPWeaponRevolverPanther
   icon: { sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/panther.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 4
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -162,7 +162,7 @@
   productEntity: LPPWeaponRifleM14
   icon: { sprite: _NewParadise/Objects/Weapons/Guns/Rifles/m14w.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 2
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -178,7 +178,7 @@
   productEntity: LPPWeaponRifleM1A
   icon: { sprite: _NewParadise/Objects/Weapons/Guns/Rifles/m1a.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 4
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -436,12 +436,12 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityBoxMagazinePistolSubMachineGunRubber
-  name: uplink-security-boxmagazinesubmachinegunrubber-name
-  description: uplink-security-boxmagazinesubmachinegunrubber-desc
-  productEntity: BoxMagazinePistolSubMachineGunRubber
+  id: UplinkSecurityGrenadeFrag
+  name: uplink-security-GrenadeFrag-name
+  description: uplink-security-GrenadeFrag-desc
+  productEntity: GrenadeFrag
   cost:
-    FrontierUplinkCoin: 1
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityAmmo
   conditions:
@@ -449,3 +449,23 @@
       whitelist:
         tags:
           - SecurityUplink
+
+- type: listing
+  id: LPPUplinkSecurityWeaponLauncherNfsdLake
+  name: lpp-uplink-security-launchernfsdake-name
+  description: lpp-uplink-security-launchernfsdake-desc
+  productEntity: WeaponLauncherNfsdLake
+  cost:
+    FrontierUplinkCoin: 2
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
