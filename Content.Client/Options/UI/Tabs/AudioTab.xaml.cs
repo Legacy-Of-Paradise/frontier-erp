@@ -72,7 +72,7 @@ public sealed partial class AudioTab : Control
         Control.AddOptionPercentSlider(
             NewParadiseCvars.TtsVolume,
             SliderVolumeTts,
-            scale: 5f);
+            scale: 200f);
         // LOP edit end
 
         Control.AddOptionCheckBox(CCVars.LobbyMusicEnabled, LobbyMusicCheckBox);
