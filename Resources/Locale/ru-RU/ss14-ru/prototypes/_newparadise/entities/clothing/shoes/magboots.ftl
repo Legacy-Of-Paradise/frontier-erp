@@ -1,10 +1,10 @@
-ent-LPPClothingShoesPowerBoots = Силовые ботинки
+ent-LPPClothingShoesPowerBoots = силовые ботинки
     .desc = Часть силовой брони.
-ent-LPPClothingShoesBootsMagParamed = Магнитные ботинки парамеда
+ent-LPPClothingShoesBootsMagParamed = магнитные ботинки парамеда
     .desc = Более удобная версия сделанная специально для парамедиков.
-ent-LPPClothingShoesBootsMagAtmos = Магнитные ботинки атмоса
+ent-LPPClothingShoesBootsMagAtmos = магнитные ботинки атмоса
     .desc = Лучше чем обычные, чтобы было легче работать с газами.
-ent-LPPClothingShoesBootsMagNPZ = Магнитные ботинки НПЗ
+ent-LPPClothingShoesBootsMagNPZ = магнитные ботинки НПЗ
     .desc = Стандартизированные магнитные ботинки от военно-исследовательских сил Независимого Правительства Земли.
-ent-LPPClothingShoesBootsMagHunter = Магнитные ботинки охотника на карпов
+ent-LPPClothingShoesBootsMagHunter = магнитные ботинки охотника на карпов
     .desc = Коммерческие магнитные ботинки дли тех, кто предпочитает охотиться в невесомости либо при слабой гравитации.

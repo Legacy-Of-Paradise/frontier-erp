@@ -1,4 +1,4 @@
-ent-LPPWeaponShotgunLemington = Лемингтон
+ent-LPPWeaponShotgunLemington = лемингтон
     .desc = See you soon.. Space cowboy... Использует .50 ружейные.
 ent-LPPWeaponShotgunTBS2S = TBS-2s "Boomstick"
     .desc = Помповый дробовик, что имеет две трубки для хранения боеприпасов. Использует .50 ружейные.

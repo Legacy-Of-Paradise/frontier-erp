@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NC Hauler
   description: "Судно среднего размера, специализирующееся на шахтерстве, грузовых операциях и спасательных операциях в дальнем космосе." #LOP Edit
-  price: 97000 # LOP edit повышаем цены!!!
+  price: 77000
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/hauler.yml # LOP edit

@@ -1,8 +1,8 @@
-ent-LPPClothingBackpackSatchelHop = Сумка Главы Персонала
+ent-LPPClothingBackpackSatchelHop = сумка Главы Персонала
     .desc = Сотканная из дорогих тканей сумка.
-ent-LPPClothingSatchelSecurityEngineer = Сумка полевого инженера
+ent-LPPClothingSatchelSecurityEngineer = сумка полевого инженера
     .desc = Свет инженерного отдела продолжает борьбу... Все ещё не заляпан кровью...
-ent-LPPClothingBackpackSatchelBlueshield = Сумка офицера "Синий Щит"
+ent-LPPClothingBackpackSatchelBlueshield = сумка офицера "Синий Щит"
     .desc = Удобно сбрасывать винтовочные магазины.
-ent-LPPClothingBackpackSatchelExpeditor = Сумка исследователя
+ent-LPPClothingBackpackSatchelExpeditor = сумка исследователя
     .desc = Сделана из прочных материалов на случай, если королева ксено захочет узнать вас поближе. На вкус.

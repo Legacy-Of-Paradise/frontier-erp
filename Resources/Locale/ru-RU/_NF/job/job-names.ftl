@@ -19,7 +19,7 @@ job-name-stc = диспетчер трафика
 job-name-sr = представитель Фронтира
 job-name-pal = бюр-агент ДШНГ
 job-name-doc = главврач
-job-name-valet = валет
+job-name-valet = стюард
 # Job titles
 job-title-ert-mail-carrier = ОБР почтальон
 # Role timers - Расставь их по алфавиту, или я тебя зарежу.

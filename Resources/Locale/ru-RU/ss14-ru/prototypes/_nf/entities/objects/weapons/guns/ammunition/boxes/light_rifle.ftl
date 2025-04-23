@@ -1,5 +1,5 @@
-ent-MagazineBoxLightRifleRubber = коробка с боеприпасами (.30 винтовочный резина)
+ent-MagazineBoxLightRifleRubber = коробка патронов (.30 винтовочный резина)
     .desc = { ent-BaseMagazineBoxLightRifle.desc }
-ent-MagazineBoxLightRifleRubberBig = коробка с боеприпасами (.30 винтовочный резина)
+ent-MagazineBoxLightRifleRubberBig = коробка патронов (.30 винтовочный резина)
     .suffix = Большая
     .desc = { ent-MagazineBoxLightRifleBig.desc }

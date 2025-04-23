@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: KL Bulker
   description: "Средний шахтёрский корабль, спроектированный для миссий в глубоком космосе." #LOP Edit
-  price: 67500 #41245$ before the +15% (6190$) # LOP edit повышаем цены!!!
+  price: 47500 #41245$ before the +15% (6190$)
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/bulker.yml # LOP edit
