@@ -254,8 +254,7 @@
         # LOP edit end
   - type: ClothingSpeedModifier
     walkModifier: 0.75
-    sprintModifier: 0.75
-#LOP edit end
+    sprintModifier: 0.75 #LOP edit 0.65<0.75
   - type: FactionClothing
     faction: NanoTrasen
 
