@@ -441,7 +441,7 @@
   description: uplink-security-GrenadeFrag-desc
   productEntity: GrenadeFrag
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 4
   categories:
     - UplinkSecurityAmmo
   conditions:
@@ -449,6 +449,11 @@
       whitelist:
         tags:
           - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
 
 - type: listing
   id: LPPUplinkSecurityWeaponLauncherNfsdLake
@@ -464,8 +469,73 @@
       whitelist:
         tags:
           - SecurityUplink
+
+- type: listing
+  id: LPPUplinkSecuritriflelemas
+  name: lpp-uplink-security-lemas-name
+  description: lpp-uplink-security-lemas-desc
+  productEntity: LPPWeaponRifleLemas
+  cost:
+    FrontierUplinkCoin: 10
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
     - !type:BuyerJobCondition
       whitelist:
         - Bailiff
         - SeniorOfficer
         - Sheriff
+
+- type: listing
+  id: LPPUplinkSecuritriflelM4A1
+  name: lpp-uplink-security-m4a1-name
+  description: lpp-uplink-security-m4a1-desc
+  productEntity: LPPM4A1
+  cost:
+    FrontierUplinkCoin: 10
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: UplinkSecurityBoxMagazineRifleM4A1Lethal
+  name: uplink-security-magazinem4a1lethal-name
+  description: uplink-security-magazinem4a1lethal-desc
+  productEntity: LPPBoxMagazineRifleM4A1Lethal
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: UplinkSecurityBoxMagazineRifleM4A1Rubber
+  name: uplink-security-magazinem4a1rubber-name
+  description: uplink-security-magazinem4a1runner-desc
+  productEntity: LPPBoxMagazineRifleM4A1Rubber
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
