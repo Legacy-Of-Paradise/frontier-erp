@@ -383,6 +383,7 @@
         Slash: 12
         Structural: 30
   # Ghost role stuff
+  # LOP edit start
   # - type: GhostRole
   #   allowMovement: true
   #   name: ghost-role-information-aberrant-flesh-horror-dungeon-name
@@ -396,6 +397,7 @@
   # - type: ActionGun
   #   action: ActionBoneSpike
   #   gunProto: BoneSpikeGun
+  # LOP edit end
 
 - type: entity
   id: BoneSpikeGun
