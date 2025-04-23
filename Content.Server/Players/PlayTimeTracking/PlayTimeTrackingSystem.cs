@@ -206,11 +206,12 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         }
 
         // LOP edit start: sponsor system
-        var sponsors = IoCManager.Resolve<SponsorsManager>();
         var tier = 0;
+#if LOP_Sponsors
+        var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(player.UserId, out var sinfo))
             tier = sinfo.Tier;
-
+#endif
         return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?)_preferencesManager.GetPreferences(player.UserId).SelectedCharacter, tier);
         // LOP edit end
     }
@@ -227,9 +228,18 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             playTimes = new Dictionary<string, TimeSpan>();
         }
 
+        //LOP edit start: sponsor system
+        int tier = 0;
+#if LOP_Sponsors
+        var sponsors = IoCManager.Resolve<SponsorsManager>();
+        if (sponsors.TryGetInfo(player.UserId, out var sinfo))
+            tier = sinfo.Tier;
+#endif
+        //LOP edit end
+
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
         {
-            if (JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter))
+            if (JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter, tier)) //LOP edit
                 roles.Add(job.ID);
         }
 
@@ -251,10 +261,18 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         var isWhitelisted = player.ContentData()?.Whitelisted ?? false; // DeltaV - Whitelist requirement
 
+        // LOP edit start
+        int tier = 0;
+#if LOP_Sponsors
+        var sponsors = IoCManager.Resolve<SponsorsManager>();
+        if (sponsors.TryGetInfo(userId, out var sinfo))
+            tier = sinfo.Tier;
+#endif
+        //LOP edit end
         for (var i = 0; i < jobs.Count; i++)
         {
             if (_prototypes.TryIndex(jobs[i], out var job)
-                && JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(userId).SelectedCharacter))
+                && JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(userId).SelectedCharacter, tier))   //LOP edit
             {
                 continue;
             }

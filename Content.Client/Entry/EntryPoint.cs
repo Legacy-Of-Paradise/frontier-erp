@@ -40,6 +40,7 @@ using Robust.Shared.Timing;
 using Content.Client._NF.Emp.Overlays; // Frontier
 #if LOP_Sponsors
 using Content.Client._NewParadise.Sponsors;
+using Content.Client._NC.DiscordAuth;
 #endif
 
 namespace Content.Client.Entry
@@ -82,6 +83,7 @@ namespace Content.Client.Entry
         [Dependency] private readonly TTSManager _ttsManager = default!;
 #if LOP_Sponsors
         [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+        [Dependency] private readonly DiscordAuthManager _discordAuthManager = default!;
 #endif
         // LOP edit end
 
@@ -154,6 +156,7 @@ namespace Content.Client.Entry
             _ttsManager.Initialize();
 #if LOP_Sponsors
             _sponsorsManager.Initialize();
+            _discordAuthManager.Initialize();
 #endif
             // LOP edit end
 

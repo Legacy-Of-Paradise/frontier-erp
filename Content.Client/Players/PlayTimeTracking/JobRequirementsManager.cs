@@ -111,6 +111,14 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         if (player == null)
             return true;
 
+#if LOP_Sponsors
+        if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorinfo) && sponsorinfo.Tier < job.SponsorTier)
+        {
+            reason = FormattedMessage.FromMarkupPermissive($"Недостаточный уровень подписки. Требуется {job.SponsorTier}-й уровень");
+            return false;
+        }
+#endif
+
         return CheckRoleRequirements(job, profile, out reason);
     }
 

@@ -20,6 +20,14 @@ public static class JobRequirements
 #endif
         )
     {
+#if LOP_Sponsors
+        if (tier < job.SponsorTier)
+        {
+            reason = FormattedMessage.FromMarkupPermissive($"Недостаточный уровень подписки. Требуется {job.SponsorTier}-й уровень");
+            return false;
+        }
+#endif
+
         var sys = entManager.System<SharedRoleSystem>();
         var requirements = sys.GetJobRequirement(job);
         reason = null;
