@@ -1489,7 +1489,7 @@
     energy: 1.6
     color: "#d4ab33"
   - type: MarketModifier # Frontier
-    mod: 10 # Frontier
+    mod: 10 # LOP edit 5<10
 
 # wallmounted machines
 
