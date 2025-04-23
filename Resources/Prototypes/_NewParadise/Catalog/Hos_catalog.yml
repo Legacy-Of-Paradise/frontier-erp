@@ -50,16 +50,6 @@
 #   - LPPhosweapon
 
 # - type: listing
-#   id: LPPHosCatalogWeaponGoldMK58
-#   name: lpp-hos-catalog-weapon-goldmk58-name
-#   description: lpp-hos-catalog-weapon-goldmk58-desc
-#   productEntity: LPPWeaponPistolGoldMk58
-#   cost:
-#     LPPCentcoin: 1
-#   categories:
-#   - LPPhosweapon
-
-# - type: listing
 #   id: LPPHosCatalogWeaponFitz
 #   name: lpp-hos-catalog-weapon-fitz-name
 #   description: lpp-hos-catalog-weapon-fitz-desc

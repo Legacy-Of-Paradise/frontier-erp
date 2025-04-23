@@ -177,15 +177,6 @@
 #     Steel: 300
 
 # - type: latheRecipe
-#   id: LPPWeaponGoliathSniper
-#   result: LPPWeaponGoliath
-#   completetime: 15
-#   materials:
-#     Plastic: 2000
-#     Steel: 10000
-#     Glass: 2500
-
-# - type: latheRecipe
 #   id: LPPMagazinePistolPF20Lethal
 #   result: LPPMagazinePistolPF20lethal
 #   category: Ammo

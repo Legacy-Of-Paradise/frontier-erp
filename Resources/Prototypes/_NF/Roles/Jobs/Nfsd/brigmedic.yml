@@ -33,7 +33,7 @@
 - type: startingGear
   id: BrigmedicGear
   equipment:
-    pocket1: LPPWeaponPistolM1911 # LOP edit: WeaponPistolMk58<LPPWeaponPistolM1911
+    pocket1: WeaponPistolMk58
   storage:
     back:
     - EncryptionKeyMedical

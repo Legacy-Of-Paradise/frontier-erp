@@ -135,27 +135,6 @@
         - Sheriff
 
 - type: listing
-  id: LPPUplinkSecurityM90
-  name: lpp-uplink-security-m90-name
-  description: lpp-uplink-security-m90-desc
-  productEntity: LPPWeaponSubMachineGunM90
-  icon: { sprite: _NewParadise/Objects/Weapons/Guns/SMGs/m90.rsi, state: icon }
-  cost:
-    FrontierUplinkCoin: 6
-  categories:
-    - UplinkSecurityWeapons
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - SeniorOfficer
-        - Sheriff
-
-- type: listing
   id: LPPUplinkSecurityM14
   name: lpp-uplink-security-m14-name
   description: lpp-uplink-security-m14-desc
@@ -186,26 +165,6 @@
       whitelist:
         tags:
           - SecurityUplink
-
-- type: listing
-  id: LPPUplinkSecurityHospistol
-  name: lpp-uplink-security-hospistol-name
-  description: lpp-uplink-security-hospistol-desc
-  productEntity: LPPWeaponHoSlaserPistol
-  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Battery/hos-laser.rsi, state: icon }
-  cost:
-    FrontierUplinkCoin: 13
-  categories:
-    - UplinkSecurityWeapons
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Bailiff
-        - Sheriff
 
 - type: listing
   id: LPPUplinkSecurityEnergyshotgun
@@ -299,21 +258,6 @@
         - Bailiff
         - SeniorOfficer
         - Sheriff
-
-- type: listing
-  id: LPPUplinkSecurityGoliath
-  name: uplink-security-goliath-name
-  description: uplink-security-goliath-desc
-  productEntity: LPPWeaponGoliath
-  cost:
-    FrontierUplinkCoin: 1
-  categories:
-    - UplinkSecurityWeapons
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
 
 - type: listing
   id: UplinkSecurityBoxAntiMaterielCocnterePiercing

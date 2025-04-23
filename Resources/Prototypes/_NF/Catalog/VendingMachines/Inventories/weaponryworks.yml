@@ -26,7 +26,7 @@
     MagazineLightRifleLowCapacityEmpty: 1
     MagazinePistolEmpty: 1
 #LPP
-    LPPWeaponPistolM1911: 1
+    WeaponPistolMk58: 1 # LOP edit Snap back to reality
     LPPWeaponMarsRifle: 2
     LPPWeaponM1Garand: 2
     LPPMagazineRifleGarand: 2
@@ -63,7 +63,7 @@
     MagazineLightRifleLowCapacityEmpty: 4294967295
     MagazinePistolEmpty: 4294967295
 #LPP
-    LPPWeaponPistolM1911: 4294967295
+    WeaponPistolMk58: 4294967295 # LOP edit Snap back to reality
     LPPWeaponMarsRifle: 4294967295
     LPPWeaponM1Garand: 4294967295
     LPPMagazineRifleGarand: 4294967295
