@@ -222,6 +222,7 @@
     soundGunshot: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: Jittering
   # Ghost role stuff
+  # LOP edit start
   # - type: GhostRole
   #   allowMovement: true
   #   name: ghost-role-information-punk-boss-dungeon-name
@@ -235,6 +236,7 @@
   # - type: ActionGun
   #   action: ActionThrowPartyNade
   #   gunProto: PartyNadeGun
+  # LOP edit end
 
 - type: entity
   id: PartyNadeGun

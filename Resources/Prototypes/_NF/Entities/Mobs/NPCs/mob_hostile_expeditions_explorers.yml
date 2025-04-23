@@ -578,6 +578,7 @@
         variation: 0.250
         volume: -10
   # Ghost role stuff
+  # LOP edit start
   # - type: GhostRole
   #   allowMovement: true
   #   name: ghost-role-information-explorer-captain-dungeon-name
@@ -591,6 +592,7 @@
   # - type: ActionGun
   #   action: ActionSeismicCharge
   #   gunProto: SeismicChargeGun
+  # LOP edit end
 
 - type: entity
   id: SeismicChargeGun
