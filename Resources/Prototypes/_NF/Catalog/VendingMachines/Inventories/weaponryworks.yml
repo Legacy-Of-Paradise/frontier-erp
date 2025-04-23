@@ -67,7 +67,7 @@
     MagazineNovaliteC1Empty: 4294967295
     MagazineLightRifleLowCapacityEmpty: 4294967295
     MagazinePistolEmpty: 4294967295
-#LPP
+# LOP edit start
     LPPWeaponPistolM1911: 4294967295
     LPPWeaponMarsRifle: 4294967295
     LPPWeaponM1Garand: 4294967295
@@ -79,5 +79,6 @@
     MagazineRifleEmpty: 4294967295
     LPPWeaponShotgunPredsedatel: 4294967295
     LPPMagazineShotgunPredsedatelEmpty: 4294967295
+# LOP edit end
   emaggedInventory:
     WeaponPistolViper: 1
