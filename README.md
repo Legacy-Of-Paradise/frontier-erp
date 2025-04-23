@@ -1,12 +1,10 @@
-# Legacy Of Paradise
+<p align="center"> <img alt="Legacy of Paradise" width="653" height="256" src="https://github.com/Legacy-Of-Paradise/frontier-erp/blob/master/Resources/Textures/_NewParadise/Logo/logo.png?raw=true" /></p>
 
-<p align="center"> <img alt="Frontier Station 14" width="880" height="300" src="https://github.com/new-frontiers-14/frontier-station-14/blob/30cdc70d8fcbf52f949337150bf42338ececbd80/Resources/Textures/Logo/logo.png?raw=true" /></p>
-
-Frontier Station 14 — это форк [Space Station 14](https://github.com/space-wizards/space-station-14), работающий на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
+Legacy of Paradise — это форк [Space Station 14](https://github.com/space-wizards/space-station-14), работающий на движке [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), написанном на C#.
 
 Это основной репозиторий Legacy Of Paradise Frontier.
 
-Если вы хотите запустить сервер или создавать контент для FS14, то вам нужен именно этот репозиторий. В нём содержится как RobustToolbox, так и набор ресурсов для разработки новых контент-паков.
+Если вы хотите запустить сервер или создавать контент для LOP, то вам нужен именно этот репозиторий. В нём содержится как RobustToolbox, так и набор ресурсов для разработки новых контент-паков.
 
 ## Ссылки
 
@@ -14,7 +12,7 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 
 ## Документация/Вики
 
-В нашей [вики](https://wiki.legacyofparadise.space/) есть документация по контенту FS14.
+В нашей [вики](https://wiki.legacyofparadise.space/) есть документация по контенту LOP.
 
 ## Внесение вклада
 
@@ -87,6 +85,7 @@ Frontier Station 14 — это форк [Space Station 14](https://github.com/sp
 
 | Название | Ссылка | Лицензия |
 |----------|--------|----------|
-| Sector Umbra | https://github.com/Sector-Umbra/Sector-Umbra | MIT |
 | Space Station 14 | https://github.com/space-wizards/space-station-14 | MIT |
 | White Dream | https://github.com/WWhiteDreamProject/wwdpublic | AGPL 3.0 |
+
+![Alt](https://repobeats.axiom.co/api/embed/f3b7ade55d5c177fcfbfc914d75d97bef17c175b.svg "Repobeats analytics image")

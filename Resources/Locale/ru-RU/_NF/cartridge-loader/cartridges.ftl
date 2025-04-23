@@ -3,20 +3,20 @@ appraisal-program-name = Оценщик плюс
 appraisal-label-name = Предмет
 appraisal-label-price = Оценочная цена
 # Ledger cartridge
-ledger-program-name = СпэсоПоток "лайт"
+ledger-program-name = КредитоПоток "лайт"
 ledger-header = Секторальный гроссбух
 ledger-total-income = Общий доход
-ledger-no-income = Отсутсвует
+ledger-no-income = Отсутствует
 ledger-total-expenses = Общие расходы
-ledger-no-expenses = Отсутсвует
+ledger-no-expenses = Отсутствует
 ledger-balance = Баланс:
 ledger-no-balance = Н/Д
 ledger-tab-Frontier = Аванпост
 ledger-tab-Nfsd = ДШНГ
-ledger-tab-Medical = Служба Реанимации служба
+ledger-tab-Medical = Служба Реанимации
 # Fallback, if this displays, something's wrong.
 ledger-tab-Unknown = Неизвестно
-ledger-entry-type-TickingIncome = Субсуидии НТ
+ledger-entry-type-TickingIncome = Субсидии НТ
 ledger-entry-type-VendorTax = Торговый налог
 ledger-entry-type-CargoTax = Карго налог
 ledger-entry-type-MailDelivered = Оплата почты

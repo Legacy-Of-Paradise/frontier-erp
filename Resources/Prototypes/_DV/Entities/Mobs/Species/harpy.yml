@@ -47,6 +47,7 @@
       - map: [ "underwear" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      - map: [ "socks" ]
       - map: [ "jumpsuit" ]
         # LOP edit end
       - map: ["enum.HumanoidVisualLayers.LHand"]
@@ -56,13 +57,15 @@
         sprite: Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
-      - map: [ "id" ]
       - map: [ "gloves" ]
       - map: [ "shoes" ]
       - map: [ "ears" ]
-      - map: [ "outerClothing" ]
+    # LOP edit start
       - map: [ "eyes" ]
+      - map: [ "id" ]
+      - map: [ "outerClothing" ]
       - map: [ "belt" ]
+      # LOP edit end
       - map: [ "back" ]
       - map: [ "neck" ]
       - map: [ "enum.HumanoidVisualLayers.FacialHair" ]
@@ -175,20 +178,25 @@
       - map: [ "enum.HumanoidVisualLayers.LArm" ]
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
+      # LOP edit start
       - map: [ "breast" ]
       - map: [ "underwear" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
+      - map: [ "socks" ]
       - map: [ "jumpsuit" ]
+      # LOP edit end
       - map: ["enum.HumanoidVisualLayers.LHand"]
       - map: ["enum.HumanoidVisualLayers.RHand"]
       - map: [ "id" ]
       - map: [ "gloves" ]
       - map: [ "shoes" ]
       - map: [ "ears" ]
-      - map: [ "outerClothing" ]
+      # LOP edit start
       - map: [ "eyes" ]
+      - map: [ "outerClothing" ]
       - map: [ "belt" ]
+      # LOP edit end
       - map: [ "neck" ]
       - map: [ "back" ]
       - map: [ "enum.HumanoidVisualLayers.FacialHair" ]

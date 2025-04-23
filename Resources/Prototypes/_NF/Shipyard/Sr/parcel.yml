@@ -12,12 +12,12 @@
   id: Parcel
   parent: BaseVessel
   name: NC Parcel
-  description: A reliable shuttle for delivering mail and packages.
+  description: "Надежный шаттл для доставки почты и посылок." #LOP Edit
   price: 18000
   category: Small
   group: Sr
   access: Mail
-  shuttlePath: /Maps/_NF/Shuttles/Sr/parcel.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Sr/parcel.yml # LOP edit
   guidebookPage: Null
   class:
   - Cargo
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Parcel
   mapName: 'NC Parcel'
-  mapPath: /Maps/_NF/Shuttles/Sr/parcel.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Sr/parcel.yml # LOP edit
   minPlayers: 0
   stations:
     Parcel:

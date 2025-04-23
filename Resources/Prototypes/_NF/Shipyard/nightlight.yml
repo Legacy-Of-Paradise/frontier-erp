@@ -12,11 +12,11 @@
   id: Nightlight
   parent: BaseVessel
   name: FSB Nightlight
-  description: The Far Star Biotech company is please to present the most forward facing testbed for the effects of bioregenerative nutrient on humanoid physiology to date! Bone Apple Teeth!
+  description: "Корпорация Фар Стах Биотех рада представитьсамый передовой на сегодняшний день испытательный стенд для изучения влияния биорегенеративных питательных веществ на физиологию гуманоидов! Бон Апле Титс!" #LOP Edit
   price: 45000 # Botany bay
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/nightlight.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/nightlight.yml # LOP edit
   guidebookPage: ShipyardNightlight
   class:
   - Kitchen
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Nightlight
   mapName: 'FSB Nightlight'
-  mapPath: /Maps/_NF/Shuttles/nightlight.yml
+  mapPath: /Maps/_NewParadise/Shuttles/nightlight.yml # LOP edit
   minPlayers: 0
   stations:
     Nightlight:

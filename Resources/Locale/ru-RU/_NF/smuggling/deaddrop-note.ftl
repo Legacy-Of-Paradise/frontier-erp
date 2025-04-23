@@ -1,15 +1,15 @@
 dead-drop-hint-note =
-    Не так много времени.
+    У нас не так много времени.
     Синдикат нуждается в помощи.
     Известные дроп поды:
     
     { $drops }
     
-    Проверьте это, чтобы протянуть руку помощи.
+    Проверьте их, чтобы протянуть руку помощи.
     Ради лучшего завтра.
 dead-drop-time-known = следующий дроп под через { $time }
 dead-drop-time-unknown = Следующий дроп под будет, когда это будет возможно
-dead-drop-hint-line = - { CAPITALIZE(INDEFINITE($object)) } { $object } в { $poi } ({ $time })
+dead-drop-hint-line = - { $object } в "{ $poi }"" ({ $time })
 dead-drop-hint-generic = объект
 dead-drop-hint-poster = постер
 dead-drop-hint-table = стол

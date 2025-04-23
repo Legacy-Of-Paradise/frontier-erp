@@ -3,7 +3,7 @@
   id: BaseVessel
   abstract: true
   name: AAA Bikeshed
-  description: Questionably spaceworthy.
+  description: "Сомнительные затраты ради вместительности" #LOP Edit
   price: 50000
   category: Medium
   group: Shipyard

@@ -1,7 +1,7 @@
 # Base
 
 - type: entity
-  parent: [VendPriceFoodBase100, FoodInjectableBase] #  Frontier - VendPriceFoodBase100
+  parent: FoodInjectableBase # LOP edit
   id: FoodDonutBase
   abstract: true
   description: Goes great with robust coffee.
@@ -24,6 +24,7 @@
     size: Tiny
   - type: StaticPrice
     price: 14
+    vendPrice: 200.0 # LOP edit
 # Tastes like donut.
 
 # The sprinkles are now an overlay, so you can put them on any donut! If we really

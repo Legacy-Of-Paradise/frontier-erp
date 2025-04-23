@@ -12,11 +12,11 @@
   id: Bookworm
   parent: BaseVessel
   name: SBB Bookworm
-  description: A cozy medium-size library for travellers who wish to relax with a book or perhaps a board game.
+  description: "Уютный корабль среднего размера, с библиотекой для путешественников, что хотят отдохнуть с книжкой в руках, или же играя в настолки." #LOP Edit
   price: 31500 # ~29476 after purchase + ~5% markup
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/bookworm.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/bookworm.yml # LOP edit
   guidebookPage: ShipyardBookworm
   class:
   - Civilian
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Bookworm
   mapName: 'SBB Bookworm'
-  mapPath: /Maps/_NF/Shuttles/bookworm.yml
+  mapPath: /Maps/_NewParadise/Shuttles/bookworm.yml # LOP edit
   minPlayers: 0
   stations:
     Bookworm:

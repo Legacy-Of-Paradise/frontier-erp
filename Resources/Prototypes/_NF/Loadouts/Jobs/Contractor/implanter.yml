@@ -1,7 +1,7 @@
 #T0
 - type: loadout
   id: ContractorMedicalTrackingImplanter
-  name: medical tracking implanter
+  name: имплантер трекера для медиков # LOP edit
   storage:
     back:
     - MedicalTrackingImplanter
@@ -9,7 +9,7 @@
 #T1
 - type: loadout
   id: ContractorLightImplanter
-  name: light implanter
+  name: Имплантер света # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -20,7 +20,7 @@
 
 - type: loadout
   id: ContractorBikeHornImplanter
-  name: bike horn implanter
+  name: Имплантер велосипедного клаксона # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -31,7 +31,7 @@
 
 - type: loadout
   id: ContractorSadTromboneImplanter
-  name: sad trombone implanter
+  name: имплантер грусного трамбона # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -43,8 +43,8 @@
 #T2
 - type: loadout
   id: ContractorMimePowersImplanter
-  name: mime vow implanter
-  description: For the budding mime. Take your vow today.
+  name: имплантер "клятва мима" # LOP edit
+  description: Для начинающего мима. Принеси свою клятву сегодня. # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
@@ -55,8 +55,8 @@
 
 - type: loadout
   id: ContractorBibleUserImplanter
-  name: faith implanter
-  description: For the budding chaplain. Perform miracles, proselytize, and grow your flock.
+  name: имплантер "веры" # LOP edit
+  description: Для начинающего священника. Творите чудеса, обращайте в свою веру и увеличивайте свою паству. # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2

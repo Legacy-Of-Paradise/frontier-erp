@@ -1,2 +1,2 @@
-tool-quality-axing-name = Топоры?
-tool-quality-axing-tool-name = Топор
+tool-quality-axing-name = Вскрывание
+tool-quality-axing-tool-name = Пожарный топор

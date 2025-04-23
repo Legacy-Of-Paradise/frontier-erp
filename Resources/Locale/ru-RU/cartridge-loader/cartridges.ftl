@@ -21,7 +21,7 @@ log-probe-printout-device = Отсканированное устройство:
 log-probe-printout-header = Последние логи:
 log-probe-printout-entry = #{ $number } / { $time } / { $accessor }
 astro-nav-program-name = АстроНав
-med-tek-program-name = МёдТёк
+med-tek-program-name = МедТек
 # Wanted list cartridge
 wanted-list-program-name = Список разыскиваемых
 nano-task-ui-heading-high-priority-tasks =
@@ -55,7 +55,7 @@ nano-task-ui-new-task = Новая задача
 nano-task-ui-description-label = Описание:
 nano-task-ui-description-placeholder = Получить что-то важное
 nano-task-ui-requester-label = Заявитель:
-nano-task-ui-requester-placeholder = Джон Нанотрасен
+nano-task-ui-requester-placeholder = Джон NanoTrasen
 nano-task-ui-item-title = Редактировать задачу
 nano-task-printed-description = Описание: { $description }
 nano-task-printed-requester = Заявитель: { $requester }

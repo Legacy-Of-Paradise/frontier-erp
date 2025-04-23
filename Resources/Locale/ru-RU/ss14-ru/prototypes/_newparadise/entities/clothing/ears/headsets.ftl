@@ -1,2 +1,2 @@
-ent-LPPClothingHeadsetSecurityEngineer = Гарнитура полевого инженера
+ent-LPPClothingHeadsetSecurityEngineer = гарнитура полевого инженера
     .desc = Это используется элитными силами безопасности.

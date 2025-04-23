@@ -12,11 +12,11 @@
   id: Pathfinder
   parent: BaseVessel
   name: KC Pathfinder
-  description: Once a scout ship serving with the Nanotrasen Marine Expeditionary Forces, this now decommissioned expedition capable ship can be yours!
+  description: "Когда-то это был разведывательный корабль, служивший в составе экспедиционных сил морской пехоты NanoTrasen, а теперь выведенный из эксплуатации экспедиционный корабль может стать вашим!" #LOP edit
   price: 52920
   category: Small
   group: Expedition
-  shuttlePath: /Maps/_NF/Shuttles/Expedition/pathfinder.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/pathfinder.yml # LOP edit
   guidebookPage: ShipyardPathfinder
   class:
   - Expedition
@@ -26,9 +26,9 @@
 - type: gameMap
   id: Pathfinder
   mapName: 'KC Pathfinder'
-  mapPath: /Maps/_NF/Shuttles/Expedition/pathfinder.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Expedition/pathfinder.yml # LOP edit
   minPlayers: 0
-  stations: 
+  stations:
     Pathfinder:
       stationProto: StandardFrontierExpeditionVessel
       components:

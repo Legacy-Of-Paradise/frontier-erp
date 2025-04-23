@@ -2,7 +2,7 @@
 # Base
 
 - type: entity
-  parent: [VendPriceFoodBase200, FoodBase] #  Frontier - VendPriceFoodBase100
+  parent: FoodBase # LOP edit
   id: FoodSnackBase
   abstract: true
   components:
@@ -25,6 +25,7 @@
     size: Tiny
   - type: StaticPrice
     price: 1
+    vendPrice: 200.0 # LOP edit
 # Snacks
 
 # "Snacks" means food in a packet. Down the line this stuff can have multiple
@@ -120,6 +121,7 @@
       path: /Audio/Effects/unwrap.ogg
   - type: StaticPrice
     price: 21
+    vendPrice: 50.0 # LOP edit
 
 - type: entity
   name: chocolate bar
@@ -291,7 +293,7 @@
     - FoodPacketSyndiTrash
 
 - type: entity
-  parent: [VendPriceFoodBase200, FoodSnackBase] # Frontier - VendPriceFoodBase200
+  parent: FoodSnackBase # LOP edit
   id: DrinkRamen
   name: cup ramen
   description: A cheap food with a taste that reminds you of your school years.
@@ -435,6 +437,7 @@
       path: /Audio/Effects/unwrap.ogg
   - type: StaticPrice
     price: 50
+    vendPrice: 200.0 # LOP edit
 
 - type: entity
   id: FoodSnackNutribrickOpen
@@ -483,7 +486,7 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
   - type: StaticPrice
-    price: 21
+    price: 200.0 # LOP edit
 
 
 - type: entity

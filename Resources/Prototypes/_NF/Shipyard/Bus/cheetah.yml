@@ -12,12 +12,12 @@
 - type: vessel
   id: Cheetah
   parent: BaseVesselBus
-  shuttlePath: /Maps/_NF/Shuttles/Bus/cheetah.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Bus/cheetah.yml # LOP edit
 
 - type: gameMap
   id: Cheetah
   mapName: 'Cheetah'
-  mapPath: /Maps/_NF/Shuttles/Bus/cheetah.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Bus/cheetah.yml # LOP edit
   minPlayers: 0
   stations:
     Cheetah:

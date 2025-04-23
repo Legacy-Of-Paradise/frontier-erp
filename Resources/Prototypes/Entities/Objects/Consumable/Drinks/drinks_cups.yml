@@ -44,6 +44,7 @@
     - DrinkCup
   - type: StaticPrice # Frontier
     price: 4.5 # Frontier
+    vendPrice: 100.0 # LOP edit
 
 - type: entity
   parent: DrinkBaseCup

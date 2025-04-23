@@ -3,9 +3,7 @@
   name: job-name-doc
   description: job-description-doc
   playTimeTracker: JobDirectorOfCare
-  requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 72000 # 20 hrs
+  # LOP edit
   whitelisted: true
   startingGear: DocGear
   alwaysUseSpawner: true

@@ -12,11 +12,11 @@
   id: Prospector
   parent: BaseVessel
   name: NC Prospector
-  description: A small mining vessel designed to assist salvage operations.
+  description: "Малое шахтерское судно, сконструированное для спасательных операций." #LOP Edit
   price: 24500
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/prospector.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/prospector.yml # LOP edit
   guidebookPage: ShipyardProspector
   class:
   - Salvage
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Prospector
   mapName: 'NC Prospector'
-  mapPath: /Maps/_NF/Shuttles/prospector.yml
+  mapPath: /Maps/_NewParadise/Shuttles/prospector.yml # LOP edit
   minPlayers: 0
   stations:
     Prospector:

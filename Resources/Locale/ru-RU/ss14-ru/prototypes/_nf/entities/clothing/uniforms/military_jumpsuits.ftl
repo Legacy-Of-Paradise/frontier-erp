@@ -1,8 +1,8 @@
 ent-ClothingUniformJumpsuitMilitaryColorGrey = серый комбинезон
     .desc = Элегантный серый комбинезон, который напомнит вам о старых добрых временах.
     .suffix = Военный
-ent-ClothingUniformJumpsuitMilitaryColorBlack = чёрный комбинезон
-    .desc = Стандартный чёрный комбинезон без обозначения званий
+ent-ClothingUniformJumpsuitMilitaryColorBlack = бежевый комбинезон
+    .desc = Стандартный бежевый комбинезон без обозначения званий
     .suffix = Военный
 ent-ClothingUniformJumpsuitMilitaryColorBlue = синий комбинезон
     .desc = Стандартный синий комбинезон без обозначения званий

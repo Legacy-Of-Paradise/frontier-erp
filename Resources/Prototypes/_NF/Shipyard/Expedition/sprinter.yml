@@ -12,11 +12,11 @@
   id: Sprinter
   parent: BaseVessel
   name: KC Sprinter
-  description: A light freighter often picked by bounty hunters due to its quick acceleration, expedition capable.
+  description: "Легкое грузовое судно, которое часто выбирают охотники за головами из-за его быстрого ускорения и способности к экспедициям." #LOP edit
   price: 56800 # ~$43700 on mapinit plus ~30% markup
   category: Medium
   group: Expedition
-  shuttlePath: /Maps/_NF/Shuttles/Expedition/sprinter.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Expedition/sprinter.yml # LOP edit
   guidebookPage: Null
   class:
   - Expedition
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Sprinter
   mapName: 'KC Sprinter'
-  mapPath: /Maps/_NF/Shuttles/Expedition/sprinter.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Expedition/sprinter.yml # LOP edit
   minPlayers: 0
   stations:
     Sprinter:

@@ -1,4 +1,4 @@
-ent-MagazineBoxPistolRubber = коробка с боеприпасами (.35 авто резина)
+ent-MagazineBoxPistolRubber = коробка патронов (.35 авто резина)
     .desc = { ent-BaseMagazineBoxPistol.desc }
-ent-MagazineBoxPistolEmp = коробка с боеприпасами (.35 авто эми)
+ent-MagazineBoxPistolEmp = коробка патронов (.35 авто эми)
     .desc = { ent-BaseMagazineBoxPistol.desc }

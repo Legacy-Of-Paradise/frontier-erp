@@ -8,3 +8,5 @@ ent-CrateFunHoverbikeNFPirate = hoverbike crate
 ent-CrateFunPartyNF = party crate
     .desc = A corporate-approved party crate. Includes party favors, beverages, and instructions.
     .suffix = Frontier
+ent-NFCrateFunSyndicateSegway = Syndicate segway crate
+    .desc = A crate containing a two-wheeler that will help you escape from the security officers. Or not.

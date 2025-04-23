@@ -7,16 +7,16 @@
 # Discord: ???
 
 # Shuttle Notes:
-# 
+#
 - type: vessel
   id: Placebo
   parent: BaseVessel
   name: NC Placebo
-  description: A small psychology vessel. Named after the famous Placebo effect.
+  description: "Маленький психологическиое судно. Названо в честь знаменитого эффекта плацебо." #LOP Edit
   price: 20000
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/placebo.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/placebo.yml # LOP edit
   guidebookPage: ShipyardPlacebo
   class:
   - Medical
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Placebo
   mapName: 'NC Placebo'
-  mapPath: /Maps/_NF/Shuttles/placebo.yml
+  mapPath: /Maps/_NewParadise/Shuttles/placebo.yml # LOP edit
   minPlayers: 0
   stations:
     Placebo:

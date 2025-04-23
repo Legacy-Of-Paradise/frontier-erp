@@ -1,2 +1,2 @@
-ent-LPPNTBriefcaseBrown = Коричневый чемодан НТ
+ent-LPPNTBriefcaseBrown = коричневый чемодан НТ
     .desc = Ручной чемодан

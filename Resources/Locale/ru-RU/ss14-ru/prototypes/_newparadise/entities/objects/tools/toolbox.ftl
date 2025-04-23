@@ -1,3 +1,3 @@
-ent-LPPToolboxElectricalTurretNT = Мобильная турель
+ent-LPPToolboxElectricalTurretNT = мобильная турель
     .desc = Мобильная турель, которая повсеместно применяется военными инженерами
-    .suffix = НаноТрейзен, Турель
+    .suffix = NanoTrasen, Турель

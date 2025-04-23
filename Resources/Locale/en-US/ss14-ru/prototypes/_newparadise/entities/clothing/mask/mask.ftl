@@ -1,5 +1,3 @@
-ent-LPParbitermask = A trophy mask of Black Silence.
-    .desc = The trophy mask of the famous hunter. Radiates despair.
 ent-LPPclownPomni = Clown Pomni
     .desc = It's a Pomni?
 ent-LPPMaskCyan = Mask cyan
@@ -38,8 +36,6 @@ ent-LPPClothingMaskPG = PG balaclava
     .desc = Balaclava utilized by PG Soldiers. It's flameproof!
 ent-LPPClothingBlackMaskPG = black PG balaclava
     .desc = Black Balaclava utilized by elite PG Soldiers. It's flameproof!
-ent-LPPClothingMaskBlindSpot = The blind spot
-    .desc = Keep the silverware away from your eyes. Especially forks.
 ent-LPPClothingMaskKinkyMuzzle = BDSM mask
     .desc = Mphf!
 ent-LPPClothingBalaclavawide = Balaclava with a wide cutout for the eyes

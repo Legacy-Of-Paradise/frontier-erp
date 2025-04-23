@@ -99,6 +99,7 @@
     fillBaseName: packet-trans-
   - type: StaticPrice # Frontier
     price: 5 # Frontier
+    vendPrice: 200.0 # LOP edit
 
 - type: entity
   parent: BaseFoodCondimentPacket
@@ -368,6 +369,7 @@
       Glass: 50
   - type: StaticPrice # Frontier
     price: 13.5 # Frontier
+    vendPrice: 200.0 # LOP edit
 
 - type: entity
   parent: BaseFoodCondimentBottle

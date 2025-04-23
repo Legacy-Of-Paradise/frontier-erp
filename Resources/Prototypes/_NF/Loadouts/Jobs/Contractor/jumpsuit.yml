@@ -745,7 +745,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtBlackElegantDress
-  name: black elegant dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -755,7 +754,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtRedElegantDress
-  name: red elegant dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -765,7 +763,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtGreenElegantDress
-  name: green elegant dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -775,7 +772,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtBlueElegantDress
-  name: blue elegant dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -785,7 +781,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtPurpleElegantDress
-  name: purple elegant dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -795,7 +790,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtCyanStripedDress
-  name: cyan striped dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -805,7 +799,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtRedStripedDress
-  name: red striped dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -815,7 +808,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtGreenStripedDress
-  name: green striped dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -825,7 +817,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtPinkStripedDress
-  name: pink striped dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -835,7 +826,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtOrangeStripedDress
-  name: orange striped dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -845,7 +835,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtPurpleTurtleneckDress
-  name: purple turtleneck dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -855,7 +844,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtRedTurtleneckDress
-  name: red turtleneck dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -865,7 +853,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtGreenTurtleneckDress
-  name: green turtleneck dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -875,7 +862,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtBlueTurtleneckDress
-  name: blue turtleneck dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -885,7 +871,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtYellowTurtleneckDress
-  name: yellow turtleneck dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -895,7 +880,6 @@
 
 - type: loadout
   id: ContractorClothingUniformJumpskirtYellowOldDress
-  name: yellow old dress
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -906,7 +890,7 @@
 # Punk stuff
 - type: loadout
   id: ContractorClothingUniformRandomPunkCroptop
-  name: punk croptop jumpsuit (random)
+  name: комбинезон с укороченным топом панка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -916,7 +900,7 @@
 
 - type: loadout
   id: ContractorClothingUniformRandomPunkTanktop
-  name: punk tanktop jumpsuit (random)
+  name: комбинезон майка панка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -926,7 +910,7 @@
 
 - type: loadout
   id: ContractorClothingUniformRandomArmlessNoSkirt
-  name: sleeveless jumpsuit (random)
+  name: комбинезон без рукавов (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -936,7 +920,7 @@
 
 - type: loadout
   id: ContractorClothingUniformRandomPunkCroptopShorts
-  name: punk croptop with shorts (random)
+  name: укороченный топ с шортами панка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -946,7 +930,7 @@
 
 - type: loadout
   id: ContractorClothingUniformRandomPunkTanktopShorts
-  name: punk tanktop with shorts (random)
+  name: майка с шортами панка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -955,8 +939,28 @@
     jumpsuit: ClothingUniformRandomPunkTanktopShorts
 
 - type: loadout
+  id: ContractorClothingUniformRandomPunkPantsOnly
+  name: штаны панка (случайный) # LOP edit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 500
+  equipment:
+    jumpsuit: ClothingUniformRandomPunkPantsOnly
+
+- type: loadout
+  id: ContractorClothingUniformRandomPunkShortsOnly
+  name: шорты панка (случайный) # LOP edit
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 500
+  equipment:
+    jumpsuit: ClothingUniformRandomPunkShortsOnly
+
+- type: loadout
   id: ContractorClothingUniformRandomArmless
-  name: colorful sleeveless top and pants (random)
+  name: цветной топ без рукавов и штаны (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -966,7 +970,7 @@
 
 - type: loadout
   id: ContractorClothingUniformRandomStandard
-  name: colorful top and pants (random)
+  name: цветной топ и штаны (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -976,20 +980,17 @@
 
 - type: loadout
   id: ContractorClothingUniformRandomShorts
-  name: colorful pants (random)
+  name: цветные штаны (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: NotFemaleNF
   price: 500
   equipment:
     jumpsuit: ClothingUniformRandomShorts
 
 - type: loadout
   id: ContractorClothingUniformRandomShirt
-  name: colorful patterned top and pants (random)
+  name: цветной топ и штаны (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -999,7 +1000,7 @@
 
 - type: loadout
   id: ContractorClothingSkirtUniformRandomArmless
-  name: colorful sleeveless top and skirt (random)
+  name: цветной топ и юбка без рукавов (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -1009,7 +1010,7 @@
 
 - type: loadout
   id: ContractorClothingSkirtUniformRandomStandard
-  name: colorful top and skirt (random)
+  name: цветной топ и юбка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -1019,7 +1020,7 @@
 
 - type: loadout
   id: ContractorClothingSkirtUniformRandomBra
-  name: colorful bra and skirt (random)
+  name: цветное бра и юбка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -1029,20 +1030,17 @@
 
 - type: loadout
   id: ContractorClothingSkirtUniformRandomShorts
-  name: colorful skirt (random)
+  name: цветная юбка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: NotFemaleNF
   price: 500
   equipment:
     jumpsuit: ClothingSkirtUniformRandomShorts
 
 - type: loadout
   id: ContractorClothingSkirtUniformRandomShirt
-  name: colorful patterned top and skirt (random)
+  name: цветная топ и юбка (случайный) # LOP edit
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT1
@@ -1317,9 +1315,6 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: NotFemaleNF
   price: 1000
   equipment:
     jumpsuit: ClothingUniformJumpsuitGladiator
@@ -1356,9 +1351,6 @@
   effects:
   - !type:GroupLoadoutEffect
     proto: ContractorT2
-  hideEffects:
-  - !type:GroupLoadoutEffect
-    proto: NotFemaleNF
   price: 1000
   equipment:
     jumpsuit: UniformShortsRed

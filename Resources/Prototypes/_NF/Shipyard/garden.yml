@@ -7,16 +7,16 @@
 # Discord: erhardsteinhauer
 
 # Shuttle Notes:
-# 
+#
 - type: vessel
   id: Garden
   parent: BaseVessel
   name: HS Garden
-  description: A small botany vessel dedicated to horiticultural experimentation.
+  description: "Маленькое судно, больше похожее на летающий полисадник, самое то для эксперементов над растениями!" #LOP Edit
   price: 30000
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/garden.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/garden.yml # LOP edit
   guidebookPage: ShipyardGarden
   class:
   - Botany
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Garden
   mapName: 'HS Garden'
-  mapPath: /Maps/_NF/Shuttles/garden.yml
+  mapPath: /Maps/_NewParadise/Shuttles/garden.yml # LOP edit
   minPlayers: 0
   stations:
     Garden:

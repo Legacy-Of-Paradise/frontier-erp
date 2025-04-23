@@ -2,12 +2,12 @@
   id: Empress
   parent: BaseVessel
   name: NSF Empress
-  description: A large patrol vessel capable of carrying up to 4 smaller faster attack ships. The flagship vessel of the NFSD.
+  description: "Большое патрульное судно, способное нести до 4 небольших быстроходных ударных кораблей. Флагманское судно ДШНГ." #LOP Edit
   price: 170000 #Appraisal value is 150000
   category: Large
   group: Security
   access: Bailiff
-  shuttlePath: /Maps/_NF/Shuttles/Nfsd/empress.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/Nfsd/empress.yml # LOP edit
   guidebookPage: Null
   class:
   - Capital
@@ -17,7 +17,7 @@
 - type: gameMap
   id: Empress
   mapName: 'NSF Empress'
-  mapPath: /Maps/_NF/Shuttles/Nfsd/empress.yml
+  mapPath: /Maps/_NewParadise/Shuttles/Nfsd/empress.yml # LOP edit
   minPlayers: 0
   stations:
     Empress:

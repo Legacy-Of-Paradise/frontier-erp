@@ -36,7 +36,7 @@
     attackRate: 1.5
     damage:
       types:
-        Piercing: 5.5
+        Piercing: 9.5
     angle: 2
   - type: Appearance
   - type: Wieldable
@@ -51,9 +51,13 @@
     - back
     - suitStorage
   - type: Execution
+  - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset # Frontier
     maxOffset: 1.5 # Frontier
     pvsIncrease: 0.15 # Frontier
+  - type: MeleeRequiresWield
+  - type: AltFireMelee # Frontier
+    attackType: Light # Frontier
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -113,6 +117,7 @@
   - type: MeleeRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset # Frontier
     maxOffset: 4 # Frontier
     pvsIncrease: 0.5 # Frontier
@@ -174,6 +179,7 @@
   - type: MeleeRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset # Frontier
     maxOffset: 1.5 # Frontier
     pvsIncrease: 0.15 # Frontier

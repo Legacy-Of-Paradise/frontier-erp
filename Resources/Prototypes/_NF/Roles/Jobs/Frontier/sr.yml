@@ -3,12 +3,7 @@
   name: job-name-sr
   description: job-description-sr
   playTimeTracker: JobHeadOfPersonnel
-  requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 72000 # 20 hrs
-    - !type:RoleTimeRequirement
-      role: JobSecurityGuard
-      time: 10800 # 3 hrs as security guard
+  # LOP edit
   whitelisted: true
   startingGear: SrGear
   alwaysUseSpawner: true

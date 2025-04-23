@@ -12,3 +12,33 @@
       whitelist:
         tags:
           - PirateUplink
+
+- type: listing
+  id: LPPUplinkWeaponRifleMakeshiftAK
+  name:  uplink-pirate-weaponriflemakeshiftak-name
+  description: uplink-pirate-weaponriflemakeshiftak-desc
+  productEntity: LPPWeaponRifleMakeshiftAK
+  cost:
+    Doubloon: 8
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkBoxMagazineLightRifle
+  name:  uplink-pirate-boxmagazinelightrifle-name
+  description: uplink-pirate-boxmagazinelightrifle-desc
+  productEntity: BoxMagazineLightRifle
+  cost:
+    Doubloon: 2
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink

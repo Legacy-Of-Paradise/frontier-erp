@@ -11,12 +11,12 @@
 - type: pointOfInterest
   id: Cove
   parent: BasePOI
-  name: Пиратская бухта
+  name: Пиратская бухта # LOP edit
   minimumDistance: 10000
   maximumDistance: 15000
   spawnGamePreset: [ NFPirate ]
   spawnGroup: Required
-  gridPath: /Maps/_NF/POI/cove.yml
+  gridPath: /Maps/_NewParadise/POI/cove.yml # LOP edit
   hideWarp: true
   addComponents:
   - type: IFF
@@ -26,15 +26,15 @@
 
 - type: gameMap
   id: Cove
-  mapName: 'Пиратская бухта'
-  mapPath: /Maps/_NF/POI/cove.yml
+  mapName: 'Пиратская бухта' # LOP edit
+  mapPath: /Maps/_NewParadise/POI/cove.yml # LOP edit
   minPlayers: 0
   stations:
     Cove:
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Пиратская бухта'
+          mapNameTemplate: 'Пиратская бухта' # LOP edit
         - type: ExtraStationInformation
           iconPath: /Textures/_NF/Interface/Pirate/piratelogo.png
           stationSubtext: 'frontier-lobby-pirate-subtext'
