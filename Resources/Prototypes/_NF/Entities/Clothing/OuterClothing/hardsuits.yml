@@ -244,13 +244,14 @@
   - type: Armor
     modifiers:
       coefficients:
-#LOP edit start
+        #LOP edit start
         Blunt: 0.35
         Slash: 0.35
         Piercing: 0.35
         Heat: 0.35
         Radiation: 0.35
         Caustic: 0.35
+        # LOP edit end
   - type: ClothingSpeedModifier
     walkModifier: 0.75
     sprintModifier: 0.75
