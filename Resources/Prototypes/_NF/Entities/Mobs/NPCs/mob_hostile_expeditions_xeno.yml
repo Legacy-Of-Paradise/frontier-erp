@@ -24,6 +24,7 @@
   components:
   - type: ReplacementAccent
     accent: xeno
+  # LOP edit start
   # - type: GhostRole
   #   prob: 1
   #   allowMovement: true
@@ -37,6 +38,7 @@
   #   raffle:
   #     settings: default
   # - type: GhostTakeoverAvailable
+  # LOP edit end
 
 - type: entity
   parent: [NFMobRestrictions, NFMobSimpleHostileBase, MobXenoRavager]
