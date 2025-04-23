@@ -27,6 +27,16 @@ public sealed class TTSSystem : EntitySystem
     // Same as Server.ChatSystem.VoiceRange
     private const float VoiceRange = 10;
 
+    /// <summary>
+    /// Reducing the volume of the TTS when whispering. Will be converted to logarithm.
+    /// </summary>
+    private const float WhisperFade = 4f;
+
+    /// <summary>
+    /// The volume at which the TTS sound will not be heard.
+    /// </summary>
+    private const float MinimalVolume = -10f;
+
     private Entity<AudioComponent>? _currentlyPreviewing;
 
     public override void Initialize()
@@ -94,7 +104,20 @@ public sealed class TTSSystem : EntitySystem
 
     private void OnPlayTTS(PlayTTSEvent ev)
     {
-        PlayTTS(GetEntity(ev.Uid), ev.Data, ev.BoostVolume ? _volume + 5 : _volume);
+        var volume = AdjustVolume(ev.IsWisper);
+        PlayTTS(GetEntity(ev.Uid), ev.Data, ev.BoostVolume ? volume + 5 : volume);
+    }
+
+    private float AdjustVolume(bool isWhisper)
+    {
+        var volume = MinimalVolume + AudioSystem.GainToVolume(_volume);
+
+        if (isWhisper)
+        {
+            volume -= AudioSystem.GainToVolume(WhisperFade);
+        }
+
+        return volume;
     }
 
     public void PlayTTS(EntityUid uid, byte[] data, float volume)
