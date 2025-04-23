@@ -25,7 +25,7 @@
     MagazineNovaliteC1Empty: 1
     MagazineLightRifleLowCapacityEmpty: 1
     MagazineRifleEmpty: 1 # LOP edit MagazinePistolEmpty<MagazineRifleEmpty
-#LPP
+    # LOP edit start
     LPPWeaponPistolM1911: 1
     LPPWeaponMarsRifle: 2
     LPPWeaponM1Garand: 2
@@ -37,6 +37,7 @@
     MagazineRifle: 2
     LPPWeaponShotgunPredsedatel: 1
     LPPMagazineShotgunPredsedatelEmpty: 2
+    # LOP edit end
   emaggedInventory:
     WeaponPistolViper: 1
 
