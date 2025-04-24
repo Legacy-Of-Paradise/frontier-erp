@@ -39,7 +39,11 @@ public static class JobRequirements
         bool success = true;
         foreach (var requirement in requirements)
         {
-            if (!requirement.Check(entManager, protoManager, profile, playTimes, out reason, tier)) // LOP edit: sponsor system
+            if (!requirement.Check(entManager, protoManager, profile, playTimes, out reason
+#if LOP_Sponsors
+                ,tier
+#endif
+                ))
             {
                 success = false;
                 break;
@@ -55,7 +59,11 @@ public static class JobRequirements
             foreach (var requirement in requirementSet)
             {
                 // Frontier: do not accumulate reasons for alternate job requirements.
-                if (!requirement.Check(entManager, protoManager, profile, playTimes, out _, tier)) // LOP edit: sponsor system
+                if (!requirement.Check(entManager, protoManager, profile, playTimes, out _
+#if LOP_Sponsors
+                ,tier
+#endif
+                ))
                 {
                     success = false;
                     break;

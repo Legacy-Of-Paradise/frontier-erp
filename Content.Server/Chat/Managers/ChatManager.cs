@@ -47,7 +47,10 @@ internal sealed partial class ChatManager : IChatManager
     [Dependency] private readonly INetConfigurationManager _netConfigManager = default!;
     [Dependency] private readonly IEntityManager _entityManager = default!;
     [Dependency] private readonly PlayerRateLimitManager _rateLimitManager = default!;
+
+#if LOP_Sponsors
     [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
     /// <summary>
     /// The maximum length a player-sent message can be sent
