@@ -10,7 +10,7 @@ public sealed partial class MarketModifierComponent : Component
     /// <summary>
     /// The amount to multiply an item's price by
     /// </summary>
-    [DataField(required: true)]
+    [DataField("Mod")] /// LoP edit
     public float Mod { get; set; } = 1.0f;
 
     /// <summary>
@@ -19,4 +19,12 @@ public sealed partial class MarketModifierComponent : Component
     /// </summary>
     [DataField]
     public bool Buy { get; set; } = true;
+
+    /// LoP edit: Start
+
+    [DataField("MinMod")]
+    public float MinMod { get; set; } = 1.0f;
+
+    [DataField("MaxMod")]
+    public float MaxMod { get; set; } = 1.0f;
 }

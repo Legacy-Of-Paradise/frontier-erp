@@ -30,8 +30,7 @@
   - type: Fixtures
     fixtures:
       fix1:
-        shape:
-          !type:PhysShapeAabb
+        shape: !type:PhysShapeAabb
           bounds: "-0.25,-0.45,0.25,0.45"
         mask:
         - MachineMask
@@ -40,15 +39,13 @@
         density: 200
   - type: Destructible
     thresholds:
-    - trigger:
-        !type:DamageTrigger
+    - trigger: !type:DamageTrigger
         damage: 100
       behaviors:
       - !type:DoActsBehavior
-        acts: ["Breakage"]
-      - !type:EjectVendorItems
-    - trigger:
-        !type:DamageTrigger
+        acts: [ "Breakage" ]
+      - !type:EjectVendorItems ""
+    - trigger: !type:DamageTrigger
         damage: 200
       behaviors:
       - !type:SpawnEntitiesBehavior
@@ -111,6 +108,8 @@
   # Frontier: vending machine modifications
   - type: MarketModifier
     mod: 10
+    MinMod: 10 # LoP Edit
+    MaxMod: 10 # LoP Edit
   - type: PotentialDeadDrop
     hintText: dead-drop-hint-vendor
   - type: VendingMachine
@@ -129,8 +128,7 @@
   - type: ItemSlots
   - type: ContainerContainer
     containers:
-      cash_slot: !type:ContainerSlot
-  # End Frontier
+      cash_slot: !type:ContainerSlot "" # End Frontier
 
 - type: entity
   parent: VendingMachine
@@ -146,20 +144,19 @@
     drawdepth: SmallObjects
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
   - type: Fixtures
     fixtures:
       fix1:
-        shape:
-          !type:PhysShapeAabb
+        shape: !type:PhysShapeAabb
           bounds: "-0.3,-0.16,0.3,0.40"
         mask:
         - Impassable # Frontier
-#        - MidImpassable # Frontier - Do not add this, it will block shutters from closing on it.
+        #        - MidImpassable # Frontier - Do not add this, it will block shutters from closing on it.
         - LowImpassable # Frontier
-#        - MachineMask # Frontier
-#        layer: # Frontier
-#        - MachineLayer # Frontier
+        #        - MachineMask # Frontier
+        #        layer: # Frontier
+        #        - MachineLayer # Frontier
         density: 190
   - type: Advertise
     pack: CondimentVendAds
@@ -169,7 +166,7 @@
     noRot: false
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
+  parent: [ BaseStructureDisableAnchoring, VendingMachine ] # Frontier
   id: VendingMachineAmmo
   name: liberation station
   description: An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
@@ -187,14 +184,16 @@
     sprite: Structures/Machines/VendingMachines/ammo.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: MarketModifier # Frontier
     mod: 12 # Frontier
+    MinMod: 12 # LoP Edit
+    MaxMod: 12 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -217,14 +216,16 @@
     sprite: Structures/Machines/VendingMachines/boozeomat.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: GuideHelp
     guides:
     - Bartender
@@ -251,14 +252,14 @@
     sprite: Structures/Machines/VendingMachines/bruiseomat.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: AccessReader
-    access: [["SyndicateAgent"]]
+    access: [ [ "SyndicateAgent" ] ]
   - type: GuideHelp
     guides:
     - Bartender
@@ -281,18 +282,18 @@
     sprite: Structures/Machines/VendingMachines/cart.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1
     energy: 1.3
     color: "#ffb0b0"
   - type: AccessReader
-    access: [["HeadOfPersonnel"]]
+    access: [ [ "HeadOfPersonnel" ] ]
 
 - type: entity
   parent: VendingMachine
@@ -314,18 +315,20 @@
     sprite: Structures/Machines/VendingMachines/chefvend.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -350,12 +353,12 @@
     sprite: Structures/Machines/VendingMachines/cigs.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -377,12 +380,12 @@
     sprite: Structures/Machines/VendingMachines/clothing.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.8
     energy: 1.6
@@ -446,15 +449,15 @@
     sprite: Structures/Machines/VendingMachines/coffee.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: "screen"
-      map: ["enum.VendingMachineVisualLayers.Screen"]
+      map: [ "enum.VendingMachineVisualLayers.Screen" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.3
@@ -485,12 +488,12 @@
     sprite: Structures/Machines/VendingMachines/cola.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -505,12 +508,12 @@
     sprite: Structures/Machines/VendingMachines/cola-black.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -526,12 +529,12 @@
     sprite: Structures/Machines/VendingMachines/cola-red.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -549,12 +552,12 @@
     sprite: Structures/Machines/VendingMachines/spaceup.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -571,12 +574,12 @@
     sprite: Structures/Machines/VendingMachines/soda.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -594,12 +597,12 @@
     sprite: Structures/Machines/VendingMachines/starkist.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -628,12 +631,12 @@
     sprite: Structures/Machines/VendingMachines/shamblersjuice.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -664,12 +667,12 @@
     sprite: Structures/Machines/VendingMachines/pwrgame.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -700,12 +703,12 @@
     sprite: Structures/Machines/VendingMachines/gib.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -767,12 +770,12 @@
     sprite: Structures/Machines/VendingMachines/dinnerware.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   # - type: AccessReader # Frontier
   #   access: [["Kitchen"]] # Frontier
   - type: PointLight
@@ -781,6 +784,8 @@
     color: "#4b93ad"
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -801,12 +806,12 @@
     sprite: Structures/Machines/VendingMachines/magivend.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -834,12 +839,12 @@
     sprite: Structures/Machines/VendingMachines/discount.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - texture: Structures/Machines/VendingMachines/maintenance_panel.png
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -862,12 +867,12 @@
     sprite: Structures/Machines/VendingMachines/engivend.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -895,14 +900,16 @@
     sprite: Structures/Machines/VendingMachines/medical.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -932,14 +939,16 @@
     sprite: Structures/Machines/VendingMachines/nutri.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -966,16 +975,18 @@
     sprite: Structures/Machines/VendingMachines/sec.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: AccessReader
-    access: [["Security"]]
+    access: [ [ "Security" ] ]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1
     energy: 1.2
@@ -1007,18 +1018,20 @@
     sprite: Structures/Machines/VendingMachines/seeds.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#326e3f"
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachineSeedsUnlocked
@@ -1027,6 +1040,8 @@
   components:
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -1052,12 +1067,12 @@
     sprite: Structures/Machines/VendingMachines/snack.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1082,12 +1097,12 @@
     sprite: Structures/Machines/VendingMachines/sustenance.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1102,12 +1117,12 @@
     sprite: Structures/Machines/VendingMachines/snack-blue.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1122,12 +1137,12 @@
     sprite: Structures/Machines/VendingMachines/snack-orange.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1142,12 +1157,12 @@
     sprite: Structures/Machines/VendingMachines/snack-green.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1162,12 +1177,12 @@
     sprite: Structures/Machines/VendingMachines/snack-teal.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1197,12 +1212,12 @@
     sprite: Structures/Machines/VendingMachines/sovietsoda.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1230,14 +1245,14 @@
     sprite: Structures/Machines/VendingMachines/theater.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
     - state: "screen"
-      map: ["enum.VendingMachineVisualLayers.Screen"]
+      map: [ "enum.VendingMachineVisualLayers.Screen" ]
       shader: unshaded
   - type: PointLight
     radius: 1.5
@@ -1265,12 +1280,12 @@
     sprite: Structures/Machines/VendingMachines/vendomat.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1297,14 +1312,16 @@
     sprite: Structures/Machines/VendingMachines/robotics.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1330,12 +1347,12 @@
     sprite: Structures/Machines/VendingMachines/youtool.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1362,12 +1379,12 @@
     sprite: Structures/Machines/VendingMachines/games.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1395,12 +1412,12 @@
     sprite: Structures/Machines/VendingMachines/changs.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1422,12 +1439,12 @@
     sprite: Structures/Machines/VendingMachines/mining.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1439,6 +1456,8 @@
   #   - Salvage # Frontier: removed guidebook entry
   - type: MarketModifier # Frontier
     mod: 15 # Frontier
+    MinMod: 15 # LoP Edit
+    MaxMod: 15 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -1462,24 +1481,26 @@
     sprite: Structures/Machines/VendingMachines/donut.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#d4ab33"
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 # wallmounted machines
 
 - type: entity
   id: VendingMachineWallmount
-  parent: [BaseStructureWallmount, VendingMachine] # Frontier: add BaseStructureWallmount
+  parent: [ BaseStructureWallmount, VendingMachine ] # Frontier: add BaseStructureWallmount
   name: vending machine
   abstract: true
   placement:
@@ -1512,14 +1533,16 @@
     sprite: Structures/Machines/VendingMachines/wallmed.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - texture: Structures/Machines/VendingMachines/maintenance_panel.png
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1.3
     energy: 1.6
@@ -1551,12 +1574,12 @@
     sprite: Structures/Machines/VendingMachines/hydrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1583,12 +1606,12 @@
     sprite: Structures/Machines/VendingMachines/lawdrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -1609,18 +1632,18 @@
     sprite: Structures/Machines/VendingMachines/secdrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#d82929"
   - type: AccessReader
-    access: [["Security"]]
+    access: [ [ "Security" ] ]
 
 - type: entity
   parent: VendingMachine
@@ -1641,12 +1664,12 @@
     sprite: Structures/Machines/VendingMachines/bardrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -1663,12 +1686,12 @@
     sprite: Structures/Machines/VendingMachines/chapdrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1693,12 +1716,12 @@
     sprite: Structures/Machines/VendingMachines/cargodrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1725,12 +1748,12 @@
     sprite: Structures/Machines/VendingMachines/medidrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -1751,12 +1774,12 @@
     sprite: Structures/Machines/VendingMachines/chemdrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -1777,12 +1800,12 @@
     sprite: Structures/Machines/VendingMachines/curadrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 #  - type: AccessReader # Frontier
 #    access: [["Service"]]
 
@@ -1805,12 +1828,12 @@
     sprite: Structures/Machines/VendingMachines/atmosdrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1837,12 +1860,12 @@
     sprite: Structures/Machines/VendingMachines/engidrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1869,12 +1892,12 @@
     sprite: Structures/Machines/VendingMachines/chefdrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -1895,12 +1918,12 @@
     sprite: Structures/Machines/VendingMachines/detdrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -1921,12 +1944,12 @@
     sprite: Structures/Machines/VendingMachines/janidrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1953,15 +1976,15 @@
     sprite: Structures/Machines/VendingMachines/scidrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
+  parent: [ BaseStructureDisableAnchoring, VendingMachine ] # Frontier
   id: VendingMachineSyndieDrobe
   name: SyndieDrobe
   description: Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
@@ -1979,18 +2002,18 @@
     sprite: Structures/Machines/VendingMachines/syndiedrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#d82929"
   - type: AccessReader
-    access: [["NuclearOperative"], ["SyndicateAgent"]]
+    access: [ [ "NuclearOperative" ], [ "SyndicateAgent" ] ]
 
 - type: entity
   parent: VendingMachine
@@ -2011,12 +2034,12 @@
     sprite: Structures/Machines/VendingMachines/robodrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -2037,12 +2060,12 @@
     sprite: Structures/Machines/VendingMachines/genedrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
   parent: VendingMachine
@@ -2063,15 +2086,15 @@
     sprite: Structures/Machines/VendingMachines/virodrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
+  parent: [ BaseStructureDisableAnchoring, VendingMachine ] # Frontier
   id: VendingMachineCentDrobe
   name: CentDrobe
   description: A one-of-a-kind vending machine for all your centcomm aesthetic needs!
@@ -2085,18 +2108,18 @@
     sprite: Structures/Machines/VendingMachines/centdrobe.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#48CF48"
   - type: AccessReader
-    access: [["CentralCommand"]]
+    access: [ [ "CentralCommand" ] ]
 
 - type: entity
   parent: VendingMachine
@@ -2119,12 +2142,12 @@
     sprite: Structures/Machines/VendingMachines/happyhonk.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -2133,10 +2156,12 @@
     pack: HappyHonkAds
   - type: SpeakOnUIClosed
     pack: HappyHonkGoodbyes
-#  - type: AccessReader # Frontier
-#    access: [["Kitchen"], ["Theatre"]] # Frontier
+  #  - type: AccessReader # Frontier
+  #    access: [["Kitchen"], ["Theatre"]] # Frontier
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 # Pride Vending Machine
 
@@ -2164,12 +2189,12 @@
     sprite: Structures/Machines/VendingMachines/pride.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
       shader: unshaded
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
 
 # Gas Tank Dispenser
 
@@ -2187,6 +2212,8 @@
     state: dispenser
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -2220,11 +2247,11 @@
     sprite: Structures/Machines/VendingMachines/chemvend.rsi
     layers:
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.Base"]
+      map: [ "enum.VendingMachineVisualLayers.Base" ]
     - state: "off"
-      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
     - state: panel
-      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: GuideHelp
     guides:
     - Chemicals
@@ -2244,5 +2271,4 @@
     denyState: deny
     ejectDelay: 2
   - type: AccessReader
-    access: [["SyndicateAgent"]]
-
+    access: [ [ "SyndicateAgent" ] ]
