@@ -370,3 +370,12 @@
   id: 29
   time: '2025-04-24T17:34:08.0000000+00:00'
   url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/83
+- author: MegaDaimond
+  changes:
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0441\u043F\u0440\
+      \u0430\u0439\u0442 \u0440\u043E\u0433\u043E\u0432 \u0432\u0430\u043C\u043F\u0438\
+      \u0440\u0430"
+    type: Fix
+  id: 30
+  time: '2025-04-24T17:59:39.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/87
