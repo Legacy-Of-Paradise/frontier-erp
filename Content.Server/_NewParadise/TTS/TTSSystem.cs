@@ -15,6 +15,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
+using Content.Server.VoiceMask;
 
 namespace Content.Server._NewParadise.TTS;
 
@@ -158,6 +159,8 @@ public sealed partial class TTSSystem : EntitySystem
         var voiceEv = new TransformSpeakerVoiceEvent(uid, voiceId);
         RaiseLocalEvent(uid, voiceEv);
         voiceId = voiceEv.VoiceId;
+
+        Logger.Error($"TTS current entity '{uid.Id}' voice: {voiceId}");
 
         if (!_prototypeManager.TryIndex(voiceId, out var protoVoice))
             return;
