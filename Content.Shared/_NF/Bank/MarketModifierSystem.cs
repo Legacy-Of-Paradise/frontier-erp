@@ -1,10 +1,12 @@
 using Content.Shared.Examine;
 using Content.Shared._NF.Bank.Components;
 using Content.Shared.VendingMachines;
-using Robust.Shared.Random; /// LoP Edit
-using Robust.Shared.GameObjects; /// LoP Edit
-using Robust.Shared.IoC; /// LoP Edit
-using Robust.Shared.Random; /// LoP Edit
+// LOP edit start  
+using Robust.Shared.Random;  
+using Robust.Shared.GameObjects;  
+using Robust.Shared.IoC;  
+using Robust.Shared.Random;  
+// LOP edit end  
 
 namespace Content.Shared._NF.Bank;
 
@@ -31,21 +33,26 @@ public sealed partial class MarketModifierSystem : EntitySystem
 
         SubscribeLocalEvent<MarketModifierComponent, ExaminedEvent>(OnExamined);
 
-        /// <summary>
-        /// LoP Edit: Start
-        /// </summary>
+        // LOP edit start
 
-        SubscribeLocalEvent<MarketModifierComponent, ComponentInit>(OnComponentInit);
-    }
+        [Dependency] private readonly IRobustRandom _random = default!;  
 
-    private void OnComponentInit(EntityUid uid, MarketModifierComponent component, ComponentInit args)
-    {
-        component.Mod = _random.NextFloat(component.MinMod, component.MaxMod);
-    }
+        private const int MinUpdateMinutes = 5;  
+        private const int MaxUpdateMinutes = 10;  
+        private bool update = false;  
 
-    /// <summary>
-    /// LoP Edit: End
-    /// </summary>
+        SubscribeLocalEvent<MarketModifierComponent, ComponentInit>(OnComponentInit);  
+    }  
+
+    private void OnComponentInit(EntityUid uid, MarketModifierComponent component, ComponentInit args)  
+    {  
+        #if !DebugOpt 
+            component.Mod = _random.NextFloat(component.MinMod, component.MaxMod); 
+        #endif 
+    }  
+
+    // LOP edit end 
+
 
     // This code is licensed under AGPLv3. See AGPLv3.txt
     private void OnExamined(Entity<MarketModifierComponent> ent, ref ExaminedEvent args)
