@@ -54,3 +54,25 @@
     contents:
       - id: LPPMagazinePistolPF20Rubber
         amount: 4
+
+- type: entity
+  name: 5.56 magazine box
+  parent: BoxCardboard
+  id: LPPBoxMagazineRifleM4A1Lethal
+  description: 4 rifle mags of 5.56
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPMagazineRifleM4A1Lethal
+        amount: 4
+
+- type: entity
+  name: 5.56 (rubber) magazine box
+  parent: BoxCardboard
+  id: LPPBoxMagazineRifleM4A1Rubber
+  description: 4 rifle mags of 5.56 rubber
+  components:
+  - type: StorageFill
+    contents:
+      - id: LPPMagazineRifleM4A1Rubber
+        amount: 4

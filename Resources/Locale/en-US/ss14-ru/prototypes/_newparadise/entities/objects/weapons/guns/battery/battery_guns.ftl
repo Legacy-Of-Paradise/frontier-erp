@@ -1,9 +1,5 @@
 ent-LPPWeaponHoSlaserPistol = X-0 pulse energy pistol
     .desc = A state of the art energy pistol.
-ent-LPPWeaponLaserChrono = chrono laser gun
-    .desc = Favoured by Nanotrasen Security for being cheap and easy to use.
-ent-LPPGatewayGun = gateway gun
-    .desc = A weapon that is almost as infamous as its users.
 ent-LPPWeaponEnergyGunSoleil = Hybryd module S.O.L.E.I.L.
     .desc = The prototype of a hybrid laser "pistol", which is a device that clings to the elbow, has lethal and non-lethal firing modes.
 ent-LPPWeaponEM1Gauss = EM-1 Gauss
