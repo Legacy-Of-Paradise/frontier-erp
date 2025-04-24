@@ -7,6 +7,7 @@ server-role-ban =
 server-perma-role-ban = Перманентный джоб-бан.
 server-time-ban-string =
         > **Сервер:** ``{ $serverName }``
+
         > **Нарушитель**
         > **Логин:** ``{ $targetName }``
 
@@ -19,7 +20,9 @@ server-time-ban-string =
         > **Причина:** { $reason }
 server-ban-footer = { $server } | Раунд: #{ $round }
 server-perma-ban-string =
-    > **Нарушитель**
+        > **Сервер:** ``{ $serverName }``
+
+        > **Нарушитель**
         > **Логин:** ``{ $targetName }``
 
         > **Администратор**
