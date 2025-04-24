@@ -505,7 +505,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                     {
                         Description = Loc.GetString(
             "server-role-ban-string",
-            ("servername", serverName),
+            ("serverName", serverName),
             ("targetName", targetName),
             ("adminName", adminName),
             ("TimeNow", timeNow),
@@ -538,7 +538,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                     {
                         Description = Loc.GetString(
             "server-perma-role-ban-string",
-            ("servername", serverName),
+            ("serverName", serverName),
             ("targetName", targetName),
             ("adminName", adminName),
             ("TimeNow", timeNow),
