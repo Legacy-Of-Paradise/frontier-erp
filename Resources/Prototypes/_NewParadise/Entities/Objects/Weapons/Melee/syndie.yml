@@ -1,5 +1,5 @@
 - type: entity
-  parent: WeaponCrusher
+  parent: [WeaponCrusher, BaseC3SyndicateContraband]
   id: LPPWeaponSyndieGlaive
   name: Blood-red glaive
   description: A modified version of the glaive, improved by some sick utilizer...
