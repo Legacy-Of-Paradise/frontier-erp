@@ -5,7 +5,7 @@
     state: jar
   product: CrateEngineeringAMEShielding
   cost: 15000 # Frontier - Up the price
-  category: Engineering
+  category: cargoproduct-category-name-engineering
   group: market
 
 - type: cargoProduct

@@ -2,8 +2,8 @@ salvage-expedition-window-finish = Завершить экспедицию
 salvage-expedition-announcement-early-finish = Экспедиция завершилась раньше запланированного срока. Шаттл отправится через { $departTime } секунд.
 salvage-expedition-announcement-destruction =
     { $count ->
-        [1] уничтожте { $structure } до того как экспедиция закончится.
-       *[others] Уничтожте { $count } { $structure } до того как экспедиция закончится.
+        [1] Уничтожьте { $structure } до того как экспедиция закончится.
+       *[others] Уничтожьте { $count } { $structure } до того как экспедиция закончится.
     }
 salvage-expedition-announcement-elimination =
     { $count ->

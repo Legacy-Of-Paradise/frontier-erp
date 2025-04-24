@@ -23,7 +23,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: LPPMagazineRifleGarand
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/garandping.ogg
