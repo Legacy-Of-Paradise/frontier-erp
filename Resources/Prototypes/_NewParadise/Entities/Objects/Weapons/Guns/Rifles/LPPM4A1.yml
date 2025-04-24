@@ -23,7 +23,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: LPPMagazineRifleM4A1Lethal
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg

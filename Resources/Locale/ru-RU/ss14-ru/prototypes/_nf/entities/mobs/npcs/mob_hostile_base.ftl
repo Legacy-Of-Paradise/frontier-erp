@@ -53,3 +53,5 @@ ent-MobNonHumanHostileBase = Животное NPC
 ent-NFMobSimpleHostileBase = { ent-MobFlammable }
     .suffix = Фронтир, Враждебный
     .desc = { ent-MobFlammable.desc }
+ent-NFMobRoadkillable = { "" }
+    .desc = { "" }

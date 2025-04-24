@@ -15,7 +15,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineLightRifleMaxim
         priority: 2
         whitelist:
@@ -73,7 +72,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineCaselessRifle10x24
         priority: 2
         whitelist:
