@@ -160,8 +160,6 @@ public sealed partial class TTSSystem : EntitySystem
         RaiseLocalEvent(uid, voiceEv);
         voiceId = voiceEv.VoiceId;
 
-        Logger.Error($"TTS current entity '{uid.Id}' voice: {voiceId}");
-
         if (!_prototypeManager.TryIndex(voiceId, out var protoVoice))
             return;
 

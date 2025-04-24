@@ -63,6 +63,8 @@ public sealed partial class VoiceMaskNameChangeWindow : FancyWindow
     {
         foreach (var voice in proto.EnumeratePrototypes<TTSVoicePrototype>())
         {
+            if (!voice.RoundStart)
+                continue;
             _voices.Add((Loc.GetString(voice.Name), voice.ID));
         }
         _voices.Sort((a, b) => a.Item1.CompareTo(b.Item1));
