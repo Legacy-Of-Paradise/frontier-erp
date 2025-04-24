@@ -15,7 +15,7 @@ namespace Content.Server.Database.Migrations.Sqlite
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "9.0.1");
+            modelBuilder.HasAnnotation("ProductVersion", "8.0.0");
 
             modelBuilder.Entity("Content.Server.Database.Admin", b =>
                 {
@@ -264,7 +264,8 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("expiration_time");
 
-                    b.Property<DateTime>("LastEditedAt")
+                    b.Property<DateTime?>("LastEditedAt")
+                        .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("last_edited_at");
 
@@ -392,7 +393,8 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("expiration_time");
 
-                    b.Property<DateTime>("LastEditedAt")
+                    b.Property<DateTime?>("LastEditedAt")
+                        .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("last_edited_at");
 
@@ -856,10 +858,12 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .HasColumnType("TEXT")
                         .HasColumnName("species");
 
+                    // LOP edit start
                     b.Property<string>("VoiceId")
                         .IsRequired()
                         .HasColumnType("TEXT")
                         .HasColumnName("voice_id");
+                    // LOP edit end
 
                     b.HasKey("Id")
                         .HasName("PK_profile");
@@ -1278,48 +1282,6 @@ namespace Content.Server.Database.Migrations.Sqlite
                         .IsUnique();
 
                     b.ToTable("server_unban", (string)null);
-                });
-
-            modelBuilder.Entity("Content.Server.Database.Sponsor", b =>
-                {
-                    b.Property<Guid>("UserId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("user_id");
-
-                    b.Property<bool>("AllowJob")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("allow_job");
-
-                    b.Property<string>("AllowedMarkings")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("allowed_markings");
-
-                    b.Property<int>("ExtraSlots")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("extra_slots");
-
-                    b.Property<bool>("HavePriorityJoin")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("have_priority_join");
-
-                    b.Property<string>("OOCColor")
-                        .IsRequired()
-                        .HasColumnType("TEXT")
-                        .HasColumnName("ooccolor");
-
-                    b.Property<int>("Tier")
-                        .HasColumnType("INTEGER")
-                        .HasColumnName("tier");
-
-                    b.HasKey("UserId")
-                        .HasName("PK_sponsors");
-
-                    b.HasIndex("UserId")
-                        .IsUnique();
-
-                    b.ToTable("sponsors", (string)null);
                 });
 
             modelBuilder.Entity("Content.Server.Database.Trait", b =>
