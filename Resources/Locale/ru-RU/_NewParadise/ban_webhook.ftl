@@ -6,7 +6,7 @@ server-role-ban =
     }.
 server-perma-role-ban = Перманентный джоб-бан.
 server-time-ban-string =
-        > **СерверЖ** ``{ $servername }``
+        > **Сервер:** ``{ $serverName }``
         > **Нарушитель**
         > **Логин:** ``{ $targetName }``
 
