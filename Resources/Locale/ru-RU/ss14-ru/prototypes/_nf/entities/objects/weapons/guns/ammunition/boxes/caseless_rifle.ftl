@@ -1,9 +1,9 @@
-ent-MagazineBoxCaselessRifleBigRubber = коробка с боеприпасами (.25 безгильзовый резина)
+ent-MagazineBoxCaselessRifleBigRubber = коробка патронов (.25 безгильзовый резина)
     .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
-ent-MagazineBoxCaselessRifleRubber = коробка с боеприпасами (.25 безгильзовый резина)
+ent-MagazineBoxCaselessRifleRubber = коробка патронов (.25 безгильзовый резина)
     .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
-ent-MagazineBoxCaselessRifle10x24 = коробка с боеприпасами (.25 безгильзовый)
+ent-MagazineBoxCaselessRifle10x24 = коробка патронов (.25 безгильзовый)
     .suffix = 200
     .desc = { ent-BaseMagazineBoxCaselessRifle.desc }
-ent-MagazineBoxCaselessRifleBig = коробка с боеприпасами (.25 безгильзовый)
+ent-MagazineBoxCaselessRifleBig = коробка патронов (.25 безгильзовый)
     .desc = { ent-BaseMagazineBoxCaselessRifle.desc }

@@ -1,4 +1,4 @@
-﻿ent-BaseKey = { ent-BaseItem }
+ent-BaseKey = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-VehicleKeySecway = secway keys
     .desc = The keys to the future.

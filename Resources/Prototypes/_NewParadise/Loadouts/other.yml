@@ -13,3 +13,43 @@
   id: LPPNfsdOuterClothingDeputy
   equipment:
     outerClothing: LPPClothingOuterCoatDeputySherif
+
+- type: loadout
+  id: LPPNfsdClothingHeadHatCowboy
+  equipment:
+    head: LPPClothingHeadHatCowboy
+
+- type: loadout
+  id: LPPNfsdClothingHeadHatCowboyDeputySherif
+  equipment:
+    head: LPPClothingHeadHatCowboyDeputySherif
+
+- type: loadout
+  id: LPPNfsdClothingHeadHatDeputySherif
+  equipment:
+    head: LPPClothingHeadHatDeputySherif
+
+- type: loadout
+  id: LPPNfsdClothingUniformJumpsuitDeputySherif
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitDeputySherif
+
+- type: loadout
+  id: LPPNfsdClothingUniformJumpsuitBailiffSherif
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitBailiffSherif
+
+- type: loadout
+  id: LPPNfsdClothingUniformJumpsuitSergant
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitSergant
+
+- type: loadout
+  id: LPPNfsdClothingUniformJumpsuitSherif
+  equipment:
+    jumpsuit: LPPClothingUniformJumpsuitSherif
+
+- type: loadout
+  id: LPPNfsdClothingHeadHatSherif
+  equipment:
+    head: LPPClothingHeadHatSherif

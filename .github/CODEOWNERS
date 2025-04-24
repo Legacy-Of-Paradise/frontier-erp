@@ -1,1 +1,22 @@
+# Last match in file takes precedence.
+
+# Ping for all PRs
 * @MegaDaimond @Evgencheg
+
+# C#
+*.cs @BL02DL
+*.xaml @BL02DL
+
+# Prototypes
+*.yml @Hqlle
+
+# Map files
+/Resources/Prototypes/Maps/** @PowerKAT1
+/Resources/Prototypes/**/Maps/** @PowerKAT1
+/Resources/Maps/** @PowerKAT1
+
+# Translations
+*.ftl @PowerKAT1
+
+# Guides
+*.xml @PowerKAT1

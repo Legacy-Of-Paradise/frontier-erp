@@ -24,19 +24,21 @@
   components:
   - type: ReplacementAccent
     accent: xeno
-  - type: GhostRole
-    prob: 1
-    allowMovement: true
-    allowSpeech: true
-    makeSentient: true
-    name: ghost-role-information-xeno-name
-    description: ghost-role-information-xeno-description
-    rules: ghost-role-information-xeno-rules
-    mindRoles:
-    - MindRoleGhostRoleTeamAntagonist
-    raffle:
-      settings: default
-  - type: GhostTakeoverAvailable
+  # LOP edit start
+  # - type: GhostRole
+  #   prob: 1
+  #   allowMovement: true
+  #   allowSpeech: true
+  #   makeSentient: true
+  #   name: ghost-role-information-xeno-name
+  #   description: ghost-role-information-xeno-description
+  #   rules: ghost-role-information-xeno-rules
+  #   mindRoles:
+  #   - MindRoleGhostRoleTeamAntagonist
+  #   raffle:
+  #     settings: default
+  # - type: GhostTakeoverAvailable
+  # LOP edit end
 
 - type: entity
   parent: [NFMobRestrictions, NFMobSimpleHostileBase, MobXenoRavager]

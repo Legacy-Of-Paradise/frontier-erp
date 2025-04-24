@@ -1,2 +1,2 @@
-ent-LPPGunSafeRifleM4A1 = Сейф М4А1
+ent-LPPGunSafeRifleM4A1 = сейф М4А1
     .desc = { ent-GunSafe.desc }

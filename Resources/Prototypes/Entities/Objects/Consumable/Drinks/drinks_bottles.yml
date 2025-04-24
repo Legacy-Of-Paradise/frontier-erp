@@ -87,6 +87,7 @@
       Glass: 100
   - type: StaticPrice
     price: 16
+    vendPrice: 100.0 # LOP edit
 
 - type: entity
   id: DrinkBottleVisualsOpenable
