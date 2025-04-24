@@ -167,7 +167,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [whines.]
+  chatMessages: [скулит.]
   chatTriggers:
     - скул
     - скулит
@@ -183,7 +183,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [howls.]
+  chatMessages: [воет.]
   chatTriggers:
     - вой
     - воет
@@ -199,7 +199,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [awoos.]
+  chatMessages: [авукает.]
   chatTriggers:
     - аву
     - uwu

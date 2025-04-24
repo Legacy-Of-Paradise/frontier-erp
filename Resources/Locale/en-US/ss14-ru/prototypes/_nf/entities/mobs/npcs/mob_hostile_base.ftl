@@ -53,3 +53,5 @@ ent-MobNonHumanHostileBase = { ent-BaseMob }
 ent-NFMobSimpleHostileBase = { ent-MobFlammable }
     .suffix = Frontier, Hostile
     .desc = { ent-MobFlammable.desc }
+ent-NFMobRoadkillable = { "" }
+    .desc = { "" }

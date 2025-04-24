@@ -97,7 +97,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineShotgun
         priority: 2
         whitelist:

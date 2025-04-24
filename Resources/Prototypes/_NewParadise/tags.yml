@@ -168,3 +168,8 @@
 
 - type: Tag
   id: LPPArmband  # Нарукавная повязка
+
+# [Тэги магазинов]
+
+- type: Tag
+  id: MagazineRiflePredsedatel

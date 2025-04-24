@@ -25,7 +25,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Трафик менеджер Аванпоста" # LOP edit
+    name: "Диспетчер трафика Аванпоста" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -127,7 +127,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Торговый аванпост Трафик Менеджера" # LOP edit
+    name: "Торговый аванпост Диспетчера Трафика" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
@@ -136,7 +136,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: FaxMachine
-    name: "Торговый Док Трафик Менеджера" # LOP edit
+    name: "Торговый Док Диспетчера Трафика" # LOP edit
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
