@@ -47,7 +47,7 @@ namespace Content.Server.Database
         public DbSet<BanTemplate> BanTemplate { get; set; } = null!;
         public DbSet<IPIntelCache> IPIntelCache { get; set; } = null!;
 
-        public DbSet<Sponsor> Sponsors { get; set; } = null!;
+        public DbSet<Sponsor> Sponsors { get; set; } = null!;  //LOP edit
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -85,11 +85,10 @@ namespace Content.Server.Database
                 .HasForeignKey(e => e.ProfileLoadoutGroupId)
                 .IsRequired();
 
-#if LOP_Sponsors
             modelBuilder.Entity<Sponsor>()
                 .HasIndex(p => p.UserId)
                 .IsUnique();
-#endif
+
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);
 
