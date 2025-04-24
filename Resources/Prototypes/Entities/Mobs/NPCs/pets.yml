@@ -806,6 +806,8 @@
     attributes:
       proper: true
       gender: female
+  - type: TTS
+    voicePrototypeId: squidward
 
 - type: entity
   name: Pun Pun
