@@ -85,7 +85,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: LPPMagazineShotgunPredsedatel
         priority: 2
         whitelist:
