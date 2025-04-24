@@ -1,7 +1,7 @@
 seeds-noun-nothing = { "" }
 # Seeds
-seeds-spesos-name = Спэсо
-seeds-spesos-display-name = Спэсо дерево
+seeds-spesos-name = Кредиты
+seeds-spesos-display-name = Кредитное дерево
 seeds-pear-name = Груша
 seeds-pear-display-name = Грушевое дерево
 seeds-coffee-name = Кофе

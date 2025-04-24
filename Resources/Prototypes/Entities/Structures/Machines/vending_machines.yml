@@ -194,7 +194,7 @@
     - state: panel
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
-    mod: 12 # Frontier
+    mod: 16 # LOP edit 12<16
 
 - type: entity
   parent: VendingMachine
@@ -495,6 +495,10 @@
     radius: 1.5
     energy: 1.6
     color: "#3c5eb5"
+  # LOP edit start
+  - type: MarketModifier
+    mod: 10
+  # LOP edit end
 
 - type: entity
   parent: VendingMachineCola
@@ -581,6 +585,8 @@
     radius: 1.5
     energy: 1.6
     color: "#CBC6BE"
+  - type: MarketModifier # LOP edit
+    mod: 10 # LOP edit
 
 - type: entity
   parent: VendingMachineCola
@@ -844,6 +850,10 @@
     radius: 1.5
     energy: 1.6
     color: "#6148c7"
+  # LOP edit start
+  - type: MarketModifier
+    mod: 10
+  # LOP edit end
 
 - type: entity
   parent: VendingMachine
@@ -1062,6 +1072,10 @@
     radius: 1.5
     energy: 1.6
     color: "#c73434"
+  # LOP edit start
+  - type: MarketModifier
+    mod: 10
+  # LOP edit end
 
 - type: entity
   parent: VendingMachineSnack
@@ -1405,6 +1419,10 @@
     radius: 1.5
     energy: 1.6
     color: "#ffe599"
+  # LOP edit start
+  - type: MarketModifier
+    mod: 10
+  # LOP edit end
 
 - type: entity
   parent: VendingMachine
@@ -1473,7 +1491,7 @@
     energy: 1.6
     color: "#d4ab33"
   - type: MarketModifier # Frontier
-    mod: 5 # Frontier
+    mod: 10 # LOP edit 5<10
 
 # wallmounted machines
 

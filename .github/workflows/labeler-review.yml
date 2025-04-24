@@ -1,24 +1,16 @@
-name: "Labels: Approved"
+name: "Labels: Approve"
+
 on:
   pull_request_review:
     types: [submitted]
+
 jobs:
-  add_label:
-    # Change the repository name after you've made sure the team name is correct for your fork!
-    # Frontier: repo changed (space-wizards/space-station-14 < new-frontiers-14/frontier-station-14)
-    if: ${{ (github.repository == 'Legacy-Of-Paradise/frontier-erp') && (github.event.review.state == 'APPROVED') }}
-    permissions:
-      contents: read
-      pull-requests: write
+  remove_label:
+    if: github.event.review.state == 'approved'
     runs-on: ubuntu-latest
     steps:
-    - uses: tspascoal/get-user-teams-membership@v3
-      id: checkUserMember
+    - uses: actions-ecosystem/action-remove-labels@v1
       with:
-        username: ${{ github.actor }}
-        team: "maintainers"
-        GITHUB_TOKEN: ${{ secrets.PAT }}
-    - if: ${{ steps.checkUserMember.outputs.isTeamMember == 'true' }}
-      uses: actions-ecosystem/action-add-labels@v1
-      with:
-        labels: "Статус: Принято"
+        labels: |
+          Статус: Требуется проверка
+          Статус: Ожидание изменений

@@ -5,7 +5,7 @@ on:
 
 jobs:
   labeler:
-    if: github.actor != 'PJBot' && github.actor != 'FrontierATC' && ( github.actor != 'LOPBot' ) # Frontier
+    if: github.actor != 'PJBot' && github.actor != 'FrontierATC' && github.actor != 'LOPBot'
     permissions:
       contents: read
       pull-requests: write
