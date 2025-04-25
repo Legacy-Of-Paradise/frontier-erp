@@ -365,14 +365,12 @@ namespace Content.Server.Database
 
         #endregion
 
-        // LOP edit start: sponsor system
 #if LOP_Sponsors
         #region Sponsors
         Task<Sponsor?> GetSponsorInfo(NetUserId userId, CancellationToken cancel = default);    //_LostParadise-Sponsors
         Task<Sponsor[]?> GetSponsorList(CancellationToken cancel = default);
         #endregion
 #endif
-        // LOP edit end: sponsor system
     }
 
     /// <summary>

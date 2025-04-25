@@ -69,7 +69,7 @@ namespace Content.Server.Connection
         [Dependency] private readonly IHttpClientHolder _http = default!;
         [Dependency] private readonly IAdminManager _adminManager = default!;
         [Dependency] private readonly MiniAuthManager _authManager = default!; //Frontier
-#if LOP_Sponsors  // LOP edit: sponsor system
+#if LOP_Sponsors
         [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
 #endif
 

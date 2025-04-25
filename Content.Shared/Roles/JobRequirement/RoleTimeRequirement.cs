@@ -36,7 +36,7 @@ public sealed partial class RoleTimeRequirement : JobRequirement
     {
         reason = new FormattedMessage();
 
-#if LOP_Sponsors    // LOP edit: sponsor system
+#if LOP_Sponsors
         if (tier >= 5)
             return !Inverted;
 #endif

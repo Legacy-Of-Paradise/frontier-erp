@@ -85,9 +85,11 @@ namespace Content.Server.Database
                 .HasForeignKey(e => e.ProfileLoadoutGroupId)
                 .IsRequired();
 
+            // LOP edit start
             modelBuilder.Entity<Sponsor>()
                 .HasIndex(p => p.UserId)
                 .IsUnique();
+            // LOP edit end
 
             modelBuilder.Entity<Job>()
                 .HasIndex(j => j.ProfileId);

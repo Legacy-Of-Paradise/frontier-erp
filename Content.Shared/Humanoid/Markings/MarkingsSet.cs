@@ -233,7 +233,6 @@ public sealed partial class MarkingSet
         }
     }
 
-    //LOP edit start
 #if LOP_Sponsors
     public void FilterSponsor(List<string> sponsorMarkings, MarkingManager? markingManager = null, IPrototypeManager? prototypeManager = null)
     {
@@ -263,7 +262,6 @@ public sealed partial class MarkingSet
         }
     }
 #endif
-    //LOP edit end
 
     /// <summary>
     ///     Ensures that all markings in this set are valid.
