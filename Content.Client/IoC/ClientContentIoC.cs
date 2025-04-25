@@ -28,7 +28,7 @@ using Content.Shared.Players.RateLimiting;
 #if LOP_Sponsors
 using Content.Client._NewParadise.Sponsors;
 using Content.Client._NC.DiscordAuth;
-using Content.Client._NC.JoinQueue;
+using Content.Client._PrivateClient._NC.JoinQueue;
 #endif
 
 namespace Content.Client.IoC
