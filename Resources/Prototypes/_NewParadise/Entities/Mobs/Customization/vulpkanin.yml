@@ -1,13 +1,4 @@
 ﻿- type: marking
-  id: LOPVulpBellyFade
-  bodyPart: Rhand
-  markingCategory: Overlay
-  speciesRestriction: [Vulpkanin]
-  sprites:
-  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
-    state: altpointsfadebelly
-
-- type: marking
   id: LOPVulpBellyCrest
   bodyPart: Chest
   markingCategory: Chest
@@ -33,33 +24,6 @@
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
     state: fullbelly
-
-- type: marking
-  id: LOPVulpBellyPointsfade
-  bodyPart: Rhand
-  markingCategory: Overlay
-  speciesRestriction: [Vulpkanin]
-  sprites:
-  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
-    state: pointsfade
-
-- type: marking
-  id: LOPVulpBellyPointsfadealt
-  bodyPart: Rhand
-  markingCategory: Overlay
-  speciesRestriction: [Vulpkanin]
-  sprites:
-  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
-    state: pointsfadebelly
-
-- type: marking
-  id: LOPVulpBellySharppoints
-  bodyPart: Rhand
-  markingCategory: Overlay
-  speciesRestriction: [Vulpkanin]
-  sprites:
-  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
-    state: sharppoints
 
 - type: marking
   id: LOPVulpHeadMuzzle
