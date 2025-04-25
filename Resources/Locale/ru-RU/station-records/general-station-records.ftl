@@ -6,12 +6,12 @@ general-station-record-console-record-age = Возраст: { $age }
 general-station-record-console-record-title = Должность: { $job }
 general-station-record-console-record-species = Раса: { $species }
 general-station-record-console-record-gender =
-  Гендер: { $gender ->
-    [Male] Мужчина
-    [Female] Женщина
-   *[Epicene] Эпицен
-    [Neuter] Нейтральный
-  }
+    Гендер: { $gender ->
+        [Male] Мужчина
+        [Female] Женщина
+       *[Epicene] Эпицен
+        [Neuter] Нейтральный
+    }
 general-station-record-console-record-fingerprint = Отпечатки пальцев: { $fingerprint }
 general-station-record-console-record-dna = ДНК: { $dna }
 general-station-record-for-filter-line-placeholder = Введите текст...
