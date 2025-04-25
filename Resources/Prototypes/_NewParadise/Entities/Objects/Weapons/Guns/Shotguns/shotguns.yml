@@ -13,6 +13,9 @@
   - type: Gun
     soundGunshot:
       path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_alt.ogg
+  - type: StaticPrice
+    price: 150
+    vendPrice: 24500
 
 - type: entity
   name: TBS-2s "Boomstick"
@@ -32,6 +35,9 @@
     fireRate: 2
   - type: Wieldable
   - type: GunRequiresWield
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 29500
 
 - type: entity
   name: Remington-320B
@@ -49,6 +55,9 @@
     soundGunshot:
       path: /Audio/_NewParadise/Weapons/Guns/Gunshots/Boomstick.ogg
     fireRate: 1
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 21500
 
 - type: entity
   name: Predsedatel

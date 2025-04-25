@@ -245,18 +245,23 @@
     modifiers:
       coefficients:
         #LOP edit start
-        Blunt: 0.35
-        Slash: 0.35
-        Piercing: 0.35
-        Heat: 0.35
-        Radiation: 0.35
-        Caustic: 0.35
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
+        Heat: 0.1
+        Radiation: 0.3
+        Caustic: 0.3
         # LOP edit end
   - type: ClothingSpeedModifier
     walkModifier: 0.75
     sprintModifier: 0.75 #LOP edit 0.65<0.75
   - type: FactionClothing
     faction: NanoTrasen
+        #LOP edit start
+  - type: FootstepModifier
+    footstepSoundCollection:
+      collection: LPPHeavyHardsuitMovement
+        # LOP edit end
 
 #Security Combat Hardsuit
 - type: entity

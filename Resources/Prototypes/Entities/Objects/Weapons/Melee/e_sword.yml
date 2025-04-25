@@ -90,6 +90,11 @@
       map: [ "blade" ]
   - type: Item
     sprite: Objects/Weapons/Melee/e_sword-inhands.rsi
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 21500
+#LOP edit end
 
 - type: entity
   name: energy dagger
@@ -154,6 +159,11 @@
     energy: 1.5
     color: white
     netsync: false
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 12500
+#LOP edit end
 
 - type: entity
   name: pen
@@ -267,6 +277,11 @@
         map: [ "blade" ]
   - type: Item
     sprite: Objects/Weapons/Melee/e_cutlass.rsi
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 15000
+#LOP edit end
 
 - type: entity
   name: double-bladed energy sword

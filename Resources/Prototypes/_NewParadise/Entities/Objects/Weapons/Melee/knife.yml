@@ -93,3 +93,6 @@
   - type: SolutionTransfer
     maxTransferAmount: 3
   - type: Sharp
+  - type: StaticPrice
+    price: 150
+    vendPrice: 15000

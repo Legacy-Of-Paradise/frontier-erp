@@ -55,6 +55,9 @@
     reflectProb: 0.9
     reflects:
       - Energy
+  - type: StaticPrice
+    price: 100
+    vendPrice: 17000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing]
@@ -81,7 +84,9 @@
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
-
+  - type: StaticPrice
+    price: 50
+    vendPrice: 15000
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing]
   id: LPPlothingOuterArmorSwatEpistemic
@@ -107,6 +112,9 @@
   - type: ClothingSpeedModifier
     walkModifier: 1
     sprintModifier: 1
+  - type: StaticPrice
+    price: 35
+    vendPrice: 12000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, AllowSuitStorageClothing]
@@ -135,3 +143,6 @@
   - type: GroupExamine
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetSwat
+  - type: StaticPrice
+    price: 65
+    vendPrice: 20000

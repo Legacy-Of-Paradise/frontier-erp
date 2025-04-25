@@ -240,6 +240,9 @@
     - suitStorage
   - type: UseDelay
     delay: 1
+  - type: StaticPrice
+    price: 150
+    vendPrice: 15500
 
 - type: entity
   name: auto pistol "MARS"
@@ -282,3 +285,4 @@
         ents: []
   - type: StaticPrice
     price: 500
+    vendPrice: 10500

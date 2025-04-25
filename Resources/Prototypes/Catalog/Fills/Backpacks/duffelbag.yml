@@ -238,6 +238,8 @@
       - id: ClothingHeadHelmetRaid
       - id: ClothingMaskGasSyndicate
       - id: ClothingHandsGlovesCombat
+  - type: StaticPrice
+    vendPrice: 41000
 
 - type: entity
   parent: ClothingBackpackDuffelSyndicateBundle

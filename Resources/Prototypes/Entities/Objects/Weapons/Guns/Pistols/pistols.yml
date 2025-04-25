@@ -111,8 +111,11 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
-  - type: StaticPrice # Frontier 500<1000
-    price: 1000
+#LOP edit start
+  - type: StaticPrice
+    price: 1050
+    vendPrice: 9000
+#LOP edit end
 
 - type: entity
   name: echis
@@ -196,6 +199,11 @@
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
+#LOP edit start
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 12500
+#LOP edit end
 
 - type: entity
   name: mk 58

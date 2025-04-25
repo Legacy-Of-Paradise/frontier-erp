@@ -1,0 +1,46 @@
+- type: vendingMachineInventory
+  id: BlackmarketcontraVendingMachineInventorySuits
+  startingInventory:
+#Броня начало
+    ClothingBackpackDuffelSyndicateRaidBundle: 1
+    ClothingHeadHelmetSwatSyndicate: 2
+    ClothingOuterVestWeb: 2
+    LPPClothingHeadHelmetNPZAssault: 1
+    LPPClothingOuterArmoradvancedNPZ: 1
+    LPPClothingOuterArmorNPZ: 2
+    LPPClothingHeadHelmetNPZ: 2
+    LPPClothingOuterArmorErengySyndie: 2
+    LPPClothingMaskNPZGasmask: 2
+    LPPlothingOuterArmorSwatEpistemic: 2
+    ClothingOuterArmorHeavy: 1
+    LPPlothingOuterArmorSwatAlternative: 2
+    LPPClothingOuterArmorSwat: 1
+#Броня конец
+#Скафы начало
+    LPPClothingOuterHardsuitMiksuit: 2
+    LPPClothingOuterHardsuitHunter: 2
+    LPPClothingOuterHardsuitAcientHos: 1
+    LPPClothingOuterHardsuitCombatAlternative: 1
+    ClothingOuterHardsuitERTJanitor: 1
+    LPPClothingOuterHardsuitBlueshield: 1
+    LPPClothingOuterHardsuitPilotSecurity: 1
+    LPPClothingOuterHardsuitScienceNPZ: 3
+    LPPClothingOuterHardsuitNPZ: 1
+    LPPClothingOuterHardsuitSpecopsNPZ: 1
+    LPPClothingOuterHardsuitEliteNPZ: 1
+    ClothingOuterHardsuitSyndie: 2
+    LPPClothingOuterHardsuitAcientSyndie: 1
+    LPPClothingOuterHardsuitInteq: 1
+    LPPClothingOuterHardsuitIICCommand: 1
+    ClothingOuterHardsuitWizard: 1
+    ClothingOuterHardsuitPirateCap: 1
+    LPPClothingOuterHardsuitMiningPlus: 2
+    LPPClothingOuterHardsuitSpatioUpgraded: 2
+    LPPClothingOuterHardsuitUpgradedMining: 2
+    LPPClothingOuterHardsuitMiningJuggernaut: 1
+    LPPClothingOuterHardsuitGorlexSoldier: 1
+    LPPClothingOuterHardsuitGorlexMedic: 1
+    LPPClothingOuterHardsuitDonkTrooper: 1
+    LPPClothingOuterHardsuitDonkMedic: 1
+    LPPClothingOuterHardsuitCybersunBasic: 1
+# Скафы конец

@@ -111,3 +111,6 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: StaticPrice
+    price: 150
+    vendPrice: 105000
