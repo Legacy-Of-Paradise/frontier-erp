@@ -18,7 +18,7 @@ jobs:
       with:
         submodules: 'recursive'
     - name: Download parts
-      if: ${{ env.SECRETSLINK != '' }}
+      if: ${{ vars.SECRETSLINK != '' }}
       run: |
         git clone ${{ secrets.SECRETSFRONTIER }}
         mv Secrets/_PrivateResources/_SPrototypes Resources/Prototypes/
