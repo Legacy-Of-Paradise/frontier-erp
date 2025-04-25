@@ -93,5 +93,6 @@ namespace Content.Server.IoC
             IoCManager.Register<DiscordAuthManager>();
             IoCManager.Register<JoinQueueManager>();
 #endif
+        }
     }
 }
