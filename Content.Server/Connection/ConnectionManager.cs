@@ -49,6 +49,8 @@ namespace Content.Server.Connection
         void AddTemporaryConnectBypass(NetUserId user, TimeSpan duration);
 
         void Update();
+
+        Task<bool> HasPrivilegedJoin(NetUserId userId); //LOP edit
     }
 
     /// <summary>
@@ -255,12 +257,13 @@ namespace Content.Server.Connection
             var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
                             ticker.PlayerGameStatuses.ContainsKey(userId); // Frontier: remove status.JoinedGame check, TryGetValue<ContainsKey
 
-#if LOP_Sponsors
-            var havePriorityJoin = _sponsorsManager.TryGetInfo(userId, out var sponsor) && sponsor.HavePriorityJoin;
-            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !wasInGame && havePriorityJoin)
+            //LOP edit start
+#if LPP_Sponsors
+            var isPrivileged = await HasPrivilegedJoin(e.UserId);
+            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !isPrivileged)
 #else
-            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !wasInGame) // Frontier: allow users who joined before panic bunker was enforced to reconnect
-#endif
+            if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null)
+#endif      //LOP edit end
             {
                 var showReason = _cfg.GetCVar(CCVars.PanicBunkerShowReason);
                 var customReason = _cfg.GetCVar(CCVars.PanicBunkerCustomReason);
@@ -390,6 +393,26 @@ namespace Content.Server.Connection
             // end Frontier
             return null;
         }
+
+        //LOP edit start
+        public async Task<bool> HasPrivilegedJoin(NetUserId userId)
+        {
+            var isAdmin = await _db.GetAdminDataForAsync(userId) != null;
+            var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
+                ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
+                status == PlayerGameStatus.JoinedGame;
+
+#if LPP_Sponsors
+            var havePriorityJoin = _sponsorsManager.TryGetInfo(userId, out var sponsor) && sponsor.HavePriorityJoin;
+#endif
+
+            return isAdmin ||
+#if LPP_Sponsors
+                     havePriorityJoin ||
+#endif
+                   wasInGame;
+        }
+        //LOP edit end
 
         private bool HasTemporaryBypass(NetUserId user)
         {
