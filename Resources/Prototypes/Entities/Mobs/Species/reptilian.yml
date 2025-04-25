@@ -22,6 +22,8 @@
   - type: Body
     prototype: Reptilian
     requiredLegs: 2
+  - type: Inventory
+    speciesId: digi
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -92,6 +94,8 @@
   categories: [ HideSpawnMenu ]
   description: A dummy reptilian meant to be used in character setup.
   components:
+  - type: Inventory
+    speciesId: digi
   - type: HumanoidAppearance
     species: Reptilian
     hideLayersOnEquip:
