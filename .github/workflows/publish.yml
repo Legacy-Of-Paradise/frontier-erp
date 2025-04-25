@@ -21,11 +21,11 @@ jobs:
       if: ${{ vars.SECRETSLINK != '' }}
       run: |
         git clone ${{ secrets.SECRETSFRONTIER }}
-        mv Secrets/_PrivateResources/_SPrototypes Resources/Prototypes/
-        mv Secrets/_PrivateResources/_STextures Resources/Textures/
-        mv Secrets/_PrivateShared Content.Shared/_PrivateShared
-        mv Secrets/_PrivateServer Content.Server/_PrivateServer
-        mv Secrets/_PrivateClient Content.Client/_PrivateClient
+        mv SecretsFrontier/_PrivateResources/_SPrototypes Resources/Prototypes/
+        mv SecretsFrontier/_PrivateResources/_STextures Resources/Textures/
+        mv SecretsFrontier/_PrivateShared Content.Shared/_PrivateShared
+        mv SecretsFrontier/_PrivateServer Content.Server/_PrivateServer
+        mv SecretsFrontier/_PrivateClient Content.Client/_PrivateClient
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v4.1.0
       with:
