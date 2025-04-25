@@ -22,8 +22,6 @@
   - type: Body
     prototype: Reptilian
     requiredLegs: 2
-  - type: Inventory
-    speciesId: digi
   - type: Butcherable
     butcheringType: Spike
     spawned:
@@ -77,8 +75,36 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: Corvax/Mobs/Species/displacement.rsi # Corvax-Digitigrade
             state: jumpsuit-female
+      # Corvax-Digitigrade-Start
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    # Corvax-Displacements-End
   - type: Carriable # Frontier: Carrying system from nyanotrasen.
   - type: ShortWhitelist # Frontier
     scale: 0.8 # Frontier
@@ -94,8 +120,6 @@
   categories: [ HideSpawnMenu ]
   description: A dummy reptilian meant to be used in character setup.
   components:
-  - type: Inventory
-    speciesId: digi
   - type: HumanoidAppearance
     species: Reptilian
     hideLayersOnEquip:
@@ -108,7 +132,45 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/Human/displacement.rsi
+            sprite: Corvax/Mobs/Species/displacement.rsi # Corvax-Digitigrade
             state: jumpsuit-female
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      # Corvax-Digitigrade-Start
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      underwear:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
+      shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    # Corvax-Digitigrade-End
 
 #Weh
