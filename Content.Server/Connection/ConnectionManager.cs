@@ -258,9 +258,8 @@ namespace Content.Server.Connection
                             ticker.PlayerGameStatuses.ContainsKey(userId); // Frontier: remove status.JoinedGame check, TryGetValue<ContainsKey
 
             //LOP edit start
-            bool isPrivileged;
 #if LPP_Sponsors
-            isPrivileged = await HasPrivilegedJoin(e.UserId);
+            var isPrivileged = await HasPrivilegedJoin(e.UserId);
             if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !isPrivileged)
 #else
             if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null)

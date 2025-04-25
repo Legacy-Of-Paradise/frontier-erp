@@ -93,7 +93,5 @@ namespace Content.Server.IoC
             IoCManager.Register<DiscordAuthManager>();
             IoCManager.Register<JoinQueueManager>();
 #endif
-            // LOP edit end
-        }
     }
 }

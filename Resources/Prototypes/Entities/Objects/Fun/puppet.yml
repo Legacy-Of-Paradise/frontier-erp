@@ -39,6 +39,8 @@
     damage:
       types:
         Blunt: 2
+  - type: TTS
+    voicePrototypeId: ernielark
 
 - type: entity
   parent: MrChips
@@ -49,3 +51,5 @@
     sprite: Objects/Fun/mrdips.rsi
     layers:
     - state: icon
+  - type: TTS
+    voicePrototypeId: ernielark

@@ -379,3 +379,12 @@
   id: 30
   time: '2025-04-24T17:59:39.0000000+00:00'
   url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/87
+- author: Evgencheg
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u044B \u0433\u043E\u043B\
+      \u043E\u0441\u0430 \u0442\u0442\u0441\u0430 \u0441\u0443\u0449\u043D\u043E\u0441\
+      \u0442\u044F\u043C!"
+    type: Add
+  id: 31
+  time: '2025-04-25T09:46:24.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/89
