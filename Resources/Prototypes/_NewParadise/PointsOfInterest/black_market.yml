@@ -25,3 +25,4 @@
           mapNameTemplate: 'Чёрный рынок'
         - type: StationDeadDrop
           maxDeadDrops: 3
+
