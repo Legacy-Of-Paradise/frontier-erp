@@ -141,6 +141,7 @@ namespace Content.Server.Preferences.Managers
                 allowedMarkings = sponsor.AllowedMarkings.ToList();
                 sponsorTier = sponsor.Tier;
             }
+#endif
 
             profile.EnsureValid(session, _dependencies, allowedMarkings
 #if LOP_Sponsors
