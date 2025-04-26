@@ -34,7 +34,15 @@ namespace Content.Shared.Preferences
 
         public const int MaxLoadoutNameLength = 32;
 
-        public const int MaxDescLength = 512;
+        //LOP edit start
+        public static int DescriptionLength(int tier)
+        {
+            if (tier >= 4)
+                return 2048;
+
+            return 1024;
+        }
+        //LOP edit end
 
         public const int DefaultBalance = 30000;
 
@@ -405,7 +413,7 @@ namespace Content.Shared.Preferences
         {
             return new(this)
             {
-                _antagPreferences = new (antagPreferences),
+                _antagPreferences = new(antagPreferences),
             };
         }
 
@@ -608,9 +616,9 @@ namespace Content.Shared.Preferences
             }
 
             string flavortext;
-            if (FlavorText.Length > MaxDescLength)
+            if (FlavorText.Length > DescriptionLength(sponsorTier)) //LOP edit
             {
-                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..MaxDescLength];
+                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..DescriptionLength(sponsorTier)];    //LOP edit
             }
             else
             {

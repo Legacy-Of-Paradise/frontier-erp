@@ -402,12 +402,12 @@ namespace Content.Server.Connection
                 ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
                 status == PlayerGameStatus.JoinedGame;
 
-#if LPP_Sponsors
+#if LOP_Sponsors
             var havePriorityJoin = _sponsorsManager.TryGetInfo(userId, out var sponsor) && sponsor.HavePriorityJoin;
 #endif
 
             return isAdmin ||
-#if LPP_Sponsors
+#if LOP_Sponsors
                      havePriorityJoin ||
 #endif
                    wasInGame;
