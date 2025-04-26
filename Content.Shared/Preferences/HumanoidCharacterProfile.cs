@@ -537,7 +537,7 @@ namespace Content.Shared.Preferences
 
         public void EnsureValid(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes// LOP edit start: sponsor system
 #if LOP_Sponsors
-        , int sponsorTier = 0
+        , int sponsorTier
 #endif
         //LOP edit end
         )

@@ -207,11 +207,9 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         // LOP edit start: sponsor system
         var tier = 0;
 #if LOP_Sponsors
-        //Logger.Error("IsAllowed. Asking for Tier");
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(player.UserId, out var sinfo))
             tier = sinfo.Tier;
-        //Logger.Error($"IsAllowed. Got Tier: {tier}");
 #endif
         return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?)_preferencesManager.GetPreferences(player.UserId).SelectedCharacter
 #if LOP_Sponsors

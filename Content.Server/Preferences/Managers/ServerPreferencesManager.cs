@@ -135,23 +135,18 @@ namespace Content.Server.Preferences.Managers
             //LOP edit start
             var allowedMarkings = new List<string>();
 #if LOP_Sponsors
-            //Logger.Error("SetProfile. Asking for Tier");
             int sponsorTier = 0;
             if (_sponsors.TryGetInfo(userId, out var sponsor))
             {
                 allowedMarkings = sponsor.AllowedMarkings.ToList();
                 sponsorTier = sponsor.Tier;
-                //Logger.Error($"GOT INFO! (SetProfile): {sponsorTier}");
             }
-#endif
 
             profile.EnsureValid(session, _dependencies, allowedMarkings
-#if LOP_sponsors
+#if LOP_Sponsors
             , sponsorTier
 #endif
             );
-            //if (sponsorTier < 3)
-                //Logger.Error("sponsorTier in ServerPreferencesManager.SetProfile is low");
             //LOP edit end
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
@@ -392,16 +387,12 @@ namespace Content.Server.Preferences.Managers
                 //LOP edit start
                 var allowedMarkings = new List<string>();
 #if LOP_Sponsors
-                //Logger.Error("SanitizePreferences. Asking for Tier");
                 int sponsorTier = 0;
                 if (_sponsors.TryGetInfo(session.UserId, out var sponsor))
                 {
                     allowedMarkings = sponsor.AllowedMarkings.ToList();
                     sponsorTier = sponsor.Tier;
-                    //Logger.Error($"GOT INFO! (SanitizePreferences): {sponsorTier}");
                 }
-                //if (sponsorTier < 3)
-                    //Logger.Error("sponsorTier in ServerPreferencesManager.SanitizePreferences is low");
 #endif
                 //LOP edit end
                 return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(session, collection, allowedMarkings

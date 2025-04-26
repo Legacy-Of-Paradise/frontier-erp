@@ -53,7 +53,7 @@ namespace Content.Client.Administration.UI.Bwoink
             // LOP edit start
             this.MinWidth = 900;
             ChannelSelector.SetWidth = 250;
-            ChatBox.SetWidth = 650;
+            ChatBox.SetWidth = 700;
             ChannelSelector.HorizontalAlignment = HAlignment.Left;
             ChatBox.HorizontalAlignment = HAlignment.Left;
             SplitChat.State = SplitContainer.SplitState.Auto;
