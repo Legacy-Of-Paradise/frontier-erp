@@ -256,7 +256,7 @@ internal sealed partial class ChatManager : IChatManager
         if (_adminManager.HasAdminFlag(player, AdminFlags.NameColor))
         {
             var prefs = _preferencesManager.GetPreferences(player.UserId);
-            colorOverride = prefs.AdminOOCColor;
+            //colorOverride = prefs.AdminOOCColor;  //LOP edit
         }
         // LOP edit start
         if (_netConfigManager.GetClientCVar(player.Channel, CCVars.ShowOocPatronColor) && player.Channel.UserData.PatronTier is { } patron && PatronOocColors.TryGetValue(patron, out var patronColor))
@@ -271,20 +271,19 @@ internal sealed partial class ChatManager : IChatManager
         }
 
         var adminData = _adminManager.GetAdminData(player);
-        if (adminData != null)
+        if (adminData != null && sponsorData != null && sponsorData.Tier > 0)
+        {
+            var title = adminData.Title ?? "Admin";
+            var prefs = _preferencesManager.GetPreferences(player.UserId);
+            wrappedMessage = Loc.GetString(
+                "chat-manager-send-ooc-admin-sponsor-wrap-message", ("adminColor", prefs.AdminOOCColor), ("adminTitle", title), ("patronColor", sponsorData.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+        }
+        else if (adminData != null)
         {
             var title = adminData.Title ?? "Admin";
             var prefs = _preferencesManager.GetPreferences(player.UserId);
             wrappedMessage = Loc.GetString(
                 "chat-manager-send-ooc-admin-wrap-message", ("adminTitle", title), ("adminColor", prefs.AdminOOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
-        }
-
-        if (adminData != null && _sponsorsManager.TryGetInfo(player.UserId, out var sponsorData1) && sponsorData1.OOCColor != null)
-        {
-            var title = adminData.Title ?? "Admin";
-            var prefs = _preferencesManager.GetPreferences(player.UserId);
-            wrappedMessage = Loc.GetString(
-                "chat-manager-send-ooc-admin-sponsor-wrap-message", ("adminColor", prefs.AdminOOCColor), ("adminTitle", title), ("patronColor", sponsorData1.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
         }
 #endif
 
