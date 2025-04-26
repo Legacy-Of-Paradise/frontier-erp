@@ -1,6 +1,17 @@
 meta:
-  format: 6
-  postmapinit: false
+  format: 7
+  category: Grid
+  engineVersion: 250.0.0
+  forkId: ""
+  forkVersion: ""
+  time: 04/26/2025 13:08:03
+  entityCount: 1768
+maps: []
+grids:
+- 1
+orphans:
+- 1
+nullspace: []
 tilemap:
   0: Space
   14: FloorBar
@@ -3741,29 +3752,32 @@ entities:
     - type: Transform
       pos: -4.527932,-25.411976
       parent: 1
-- proto: Catwalk
+- proto: CargoPalletSell
   entities:
-  - uid: 563
+  - uid: 70
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
       pos: 5.5,-2.5
       parent: 1
-  - uid: 564
+  - uid: 71
     components:
     - type: Transform
-      rot: -1.5707963267948966 rad
       pos: 6.5,-2.5
       parent: 1
-  - uid: 565
+  - uid: 72
     components:
     - type: Transform
       pos: 4.5,-1.5
       parent: 1
-  - uid: 566
+  - uid: 73
     components:
     - type: Transform
       pos: 4.5,-2.5
+      parent: 1
+  - uid: 118
+    components:
+    - type: Transform
+      pos: 6.5,-2.5
       parent: 1
 - proto: Carpet
   entities:
@@ -4171,25 +4185,6 @@ entities:
     - type: Transform
       rot: -12.566370614359172 rad
       pos: 1.9059334,-24.132801
-      parent: 1
-- proto: ChairOfficeLight
-  entities:
-  - uid: 640
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -1.5,13.5
-      parent: 1
-  - uid: 641
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 2.5,13.5
-      parent: 1
-  - uid: 642
-    components:
-    - type: Transform
-      pos: -3.5,-3.5
       parent: 1
 - proto: ChairPilotSeat
   entities:
@@ -4977,6 +4972,13 @@ entities:
           occludes: True
           ents:
           - 734
+- proto: DVSmartFridge
+  entities:
+  - uid: 74
+    components:
+    - type: Transform
+      pos: 3.5,11.5
+      parent: 1
 - proto: ElectricGrillMachineCircuitboard
   entities:
   - uid: 734
@@ -7998,7 +8000,7 @@ entities:
     - type: Transform
       pos: 8.5,-18.5
       parent: 1
-- proto: hydroponicsTrayAnchored
+- proto: hydroponicsTray
   entities:
   - uid: 1175
     components:
@@ -8568,7 +8570,7 @@ entities:
       pos: -2.99358,11.696581
       parent: 1
     - type: Stamp
-      stampedName: Legacy of Paradise
+      stampedName: localhost@Gotimanga
 - proto: PinpointerUniversal
   entities:
   - uid: 1248
@@ -9261,20 +9263,6 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,5.5
       parent: 1
-- proto: PoweredlightUltraviolet
-  entities:
-  - uid: 1368
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 2.5,14.5
-      parent: 1
-  - uid: 1369
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -1.5,14.5
-      parent: 1
 - proto: PoweredlightCyan
   entities:
   - uid: 1370
@@ -9314,6 +9302,20 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-27.5
+      parent: 1
+- proto: PoweredlightUltraviolet
+  entities:
+  - uid: 1368
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,14.5
+      parent: 1
+  - uid: 1369
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,14.5
       parent: 1
 - proto: PoweredSmallLight
   entities:
@@ -9564,7 +9566,8 @@ entities:
   - uid: 1414
     components:
     - type: MetaData
-      name: кнопка блокировки
+      desc: It's a button for activating lockdown.
+      name: lockdown button
     - type: Transform
       pos: 0.48732072,-5.17708
       parent: 1
@@ -9840,7 +9843,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: комната двигателей
+      id: Engine room
   - uid: 1453
     components:
     - type: Transform
@@ -9851,7 +9854,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: выход из тюремной камеры
+      id: Cell exit
   - uid: 1454
     components:
     - type: Transform
@@ -9862,7 +9865,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: стыковочные шлюзы [левый борт]
+      id: Docking airlocks [Port]
   - uid: 1455
     components:
     - type: Transform
@@ -9872,7 +9875,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: гостиная
+      id: Living room
   - uid: 1456
     components:
     - type: Transform
@@ -9883,7 +9886,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: снабжение 1
+      id: Cargo 1
   - uid: 1457
     components:
     - type: Transform
@@ -9894,7 +9897,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: стыковочные шлюзы [правый борт]
+      id: Docking airlocks [Starboard]
   - uid: 1458
     components:
     - type: Transform
@@ -9905,7 +9908,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: мед отсек 1
+      id: Medbay 1
   - uid: 1459
     components:
     - type: Transform
@@ -9916,7 +9919,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: внешний [правый борт]
+      id: External [Starboard]
   - uid: 1460
     components:
     - type: Transform
@@ -9927,7 +9930,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: внешний [левый борт]
+      id: External [Port]
   - uid: 1461
     components:
     - type: Transform
@@ -9937,7 +9940,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: снабжение 2
+      id: Cargo 2
   - uid: 1462
     components:
     - type: Transform
@@ -9947,7 +9950,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: мед отсек 2
+      id: Medbay 2
   - uid: 1463
     components:
     - type: Transform
@@ -9958,7 +9961,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: хранилище заключенных
+      id: Prisoner storage room
   - uid: 1464
     components:
     - type: Transform
@@ -9968,7 +9971,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: тюремная камера 0 [внутренний двор]
+      id: Cell 0 [Courtyard]
   - uid: 1465
     components:
     - type: Transform
@@ -9979,7 +9982,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: тюремная камера 1
+      id: Cell 1
   - uid: 1466
     components:
     - type: Transform
@@ -9990,7 +9993,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: тюремная камера 2
+      id: Cell 2
   - uid: 1467
     components:
     - type: Transform
@@ -10001,7 +10004,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: тюремная камера 3
+      id: Cell 3
   - uid: 1468
     components:
     - type: Transform
@@ -10012,7 +10015,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSecurity
       nameSet: True
-      id: тюремная камера 4
+      id: Cell 4
 - proto: TableCarpet
   entities:
   - uid: 1469
@@ -10053,11 +10056,6 @@ entities:
       parent: 1
 - proto: TableReinforced
   entities:
-  - uid: 732
-    components:
-    - type: Transform
-      pos: 3.5,11.5
-      parent: 1
   - uid: 1186
     components:
     - type: Transform
