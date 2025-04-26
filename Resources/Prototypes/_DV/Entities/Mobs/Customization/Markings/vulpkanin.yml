@@ -567,42 +567,44 @@
 #     - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
 #       state: points_sharp
 
+# LOP edit start
 # Leg Markings
-- type: marking
-  id: VulpPointsFeet
-  markingCategory: Overlay
-  bodyPart: RFoot
-  speciesRestriction: [Vulpkanin]
-  sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
-      state: points_feet
-
-- type: marking
-  id: VulpPointsCrestLegs
-  markingCategory: Legs
-  bodyPart: LLeg
-  speciesRestriction: [Vulpkanin]
-  sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
-      state: points_crest-legs
-
-- type: marking
-  id: VulpPointsFadeLegs
-  markingCategory: Legs
-  bodyPart: LLeg
-  speciesRestriction: [Vulpkanin]
-  sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
-      state: points_fade-legs
-
-- type: marking
-  id: VulpPointsSharpLegs
-  markingCategory: Legs
-  bodyPart: LLeg
-  speciesRestriction: [Vulpkanin]
-  sprites:
-    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
-      state: points_sharp-legs
+#- type: marking
+#  id: VulpPointsFeet
+#  markingCategory: Overlay
+#  bodyPart: RFoot
+#  speciesRestriction: [Vulpkanin]
+#  sprites:
+#    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+#      state: points_feet
+#
+#- type: marking
+#  id: VulpPointsCrestLegs
+#  markingCategory: Legs
+#  bodyPart: LLeg
+#  speciesRestriction: [Vulpkanin]
+#  sprites:
+#    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+#      state: points_crest-legs
+#
+#- type: marking
+#  id: VulpPointsFadeLegs
+#  markingCategory: Legs
+#  bodyPart: LLeg
+#  speciesRestriction: [Vulpkanin]
+#  sprites:
+#    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+#      state: points_fade-legs
+#
+#- type: marking
+#  id: VulpPointsSharpLegs
+#  markingCategory: Legs
+#  bodyPart: LLeg
+#  speciesRestriction: [Vulpkanin]
+#  sprites:
+#    - sprite: _DV/Mobs/Customization/Vulpkanin/body_markings.rsi
+#      state: points_sharp-legs
+# LOP edit end
 
 # Arm Markings
 - type: marking
