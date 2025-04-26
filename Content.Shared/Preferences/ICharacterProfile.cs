@@ -18,7 +18,7 @@ namespace Content.Shared.Preferences
         /// </summary>
         void EnsureValid(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes //LOP edit: sponsor system
 #if LOP_Sponsors
-        , int sponsorTier = 0
+        , int sponsorTier
 #endif
         );
 

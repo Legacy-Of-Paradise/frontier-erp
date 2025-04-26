@@ -233,6 +233,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         //LOP edit start: sponsor system
         int tier = 0;
 #if LOP_Sponsors
+        //Logger.Error("GetDisallowedJobs. Asking for Tier");
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(player.UserId, out var sinfo))
             tier = sinfo.Tier;
@@ -270,6 +271,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         // LOP edit start
         int tier = 0;
 #if LOP_Sponsors
+        //Logger.Error("RemoveDisallowedJobs. Asking for Tier");
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(userId, out var sinfo))
             tier = sinfo.Tier;

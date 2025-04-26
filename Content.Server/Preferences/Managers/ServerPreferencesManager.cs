@@ -135,11 +135,20 @@ namespace Content.Server.Preferences.Managers
             //LOP edit start
             var allowedMarkings = new List<string>();
 #if LOP_Sponsors
+            int sponsorTier = 0;
             if (_sponsors.TryGetInfo(userId, out var sponsor))
+            {
                 allowedMarkings = sponsor.AllowedMarkings.ToList();
+                sponsorTier = sponsor.Tier;
+            }
 #endif
+
+            profile.EnsureValid(session, _dependencies, allowedMarkings
+#if LOP_Sponsors
+            , sponsorTier
+#endif
+            );
             //LOP edit end
-            profile.EnsureValid(session, _dependencies, allowedMarkings);   //LOP edit
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
             {
@@ -220,7 +229,7 @@ namespace Content.Server.Preferences.Managers
                 {
                     PrefsLoaded = true,
                     Prefs = new PlayerPreferences(
-                        new[] {new KeyValuePair<int, ICharacterProfile>(0, HumanoidCharacterProfile.Random())},
+                        new[] { new KeyValuePair<int, ICharacterProfile>(0, HumanoidCharacterProfile.Random()) },
                         0, Color.Transparent)
                 };
 

@@ -17,7 +17,6 @@ public partial class VoiceMaskSystem
 
     private void OnSpeakerVoiceTransform(EntityUid uid, SharedTTSComponent tts, TransformSpeakerVoiceEvent evt)
     {
-        evt.VoiceId = "nord";
         if (_inventorySystem.TryGetSlotEntity(uid, "mask", out var mask))
         {
             if (TryComp<VoiceMaskComponent>(mask, out var voiceMaskComponent))

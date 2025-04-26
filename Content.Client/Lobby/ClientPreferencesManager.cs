@@ -70,13 +70,21 @@ namespace Content.Client.Lobby
             //LOP edit start
             var allowedMarkings = new List<string>();
 #if LOP_Sponsors
+            int sponsorTier = 0;
             if (_sponsorsManager.TryGetInfo(out var sponsor))
+            {
                 allowedMarkings = sponsor.AllowedMarkings.ToList();
+                sponsorTier = sponsor.Tier;
+            }
 #endif
-            profile.EnsureValid(_playerManager.LocalSession!, collection, allowedMarkings);
+            profile.EnsureValid(_playerManager.LocalSession!, collection, allowedMarkings
+#if LOP_Sponsors
+            , sponsorTier
+#endif
+            );
             //LOP edit end
 
-            var characters = new Dictionary<int, ICharacterProfile>(Preferences.Characters) {[slot] = profile};
+            var characters = new Dictionary<int, ICharacterProfile>(Preferences.Characters) { [slot] = profile };
             Preferences = new PlayerPreferences(characters, Preferences.SelectedCharacterIndex, Preferences.AdminOOCColor);
             var msg = new MsgUpdateCharacter
             {

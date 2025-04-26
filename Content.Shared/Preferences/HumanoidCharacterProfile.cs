@@ -34,7 +34,15 @@ namespace Content.Shared.Preferences
 
         public const int MaxLoadoutNameLength = 32;
 
-        public const int MaxDescLength = 512;
+        //LOP edit start
+        public static int DescriptionLength(int tier)
+        {
+            if (tier >= 4)
+                return 2048;
+
+            return 1024;
+        }
+        //LOP edit end
 
         public const int DefaultBalance = 30000;
 
@@ -405,7 +413,7 @@ namespace Content.Shared.Preferences
         {
             return new(this)
             {
-                _antagPreferences = new (antagPreferences),
+                _antagPreferences = new(antagPreferences),
             };
         }
 
@@ -529,7 +537,7 @@ namespace Content.Shared.Preferences
 
         public void EnsureValid(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes// LOP edit start: sponsor system
 #if LOP_Sponsors
-        , int sponsorTier = 0
+        , int sponsorTier
 #endif
         //LOP edit end
         )
@@ -607,10 +615,17 @@ namespace Content.Shared.Preferences
                 name = GetName(Species, gender);
             }
 
+            //LOP edit start
+            var descLength = DescriptionLength(0);
+#if LOP_Sponsors
+            descLength = DescriptionLength(sponsorTier);
+#endif
+            //LOP edit end
+
             string flavortext;
-            if (FlavorText.Length > MaxDescLength)
+            if (FlavorText.Length > descLength) //LOP edit
             {
-                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..MaxDescLength];
+                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..descLength];    //LOP edit
             }
             else
             {

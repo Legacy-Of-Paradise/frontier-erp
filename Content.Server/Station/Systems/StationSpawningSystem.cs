@@ -135,9 +135,10 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
                 int tier = 0;
                 if (session != null && IoCManager.Resolve<SponsorsManager>().TryGetInfo(session.UserId, out var sponsorinfo))
                     tier = sponsorinfo.Tier;
+
 #endif
                 loadout = new RoleLoadout(jobLoadout);
-                loadout.SetDefault(profile, _actors.GetSession(entity), _prototypeManager);
+                //loadout.SetDefault(profile, _actors.GetSession(entity), _prototypeManager);
                 loadout.EnsureValid(profile!, session, _dependencyCollection
 #if LOP_Sponsors
                 , tier
