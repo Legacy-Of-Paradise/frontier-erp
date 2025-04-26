@@ -212,6 +212,8 @@
         Piercing: 0.9
         Heat: 0.8
         Radiation: 0.6
+  - type: StaticPrice
+    price: 300
     vendPrice: 3000
 
 - type: entity
