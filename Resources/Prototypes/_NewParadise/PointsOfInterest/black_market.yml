@@ -1,0 +1,22 @@
+- type: pointOfInterest
+  id: black_market
+  parent: BasePOI
+  name: 'Чёрный рынок'
+  minimumDistance: 6000
+  maximumDistance: 8000
+  spawnGroup: Required
+  gridPath: /Maps/_NewParadise/POI/black_market.yml
+  hideWarp: true
+  addComponents:
+  - type: IFF
+    color: "#b00023"
+    flags: [HideLabel]
+
+- type: gameMap
+  id: black_market
+  mapName: 'Чёрный рынок'
+  mapPath: /Maps/_NewParadise/POI/black_market.yml
+  minPlayers: 0
+  stations:
+    black_market:
+      stationProto: StandardFrontierOutpost
