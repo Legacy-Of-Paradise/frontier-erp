@@ -615,10 +615,17 @@ namespace Content.Shared.Preferences
                 name = GetName(Species, gender);
             }
 
+            //LOP edit start
+            var descLength = DescriptionLength(0);
+#if LOP_Sponsors
+            descLength = DescriptionLength(sponsorTier);
+#endif
+            //LOP edit end
+
             string flavortext;
-            if (FlavorText.Length > DescriptionLength(sponsorTier)) //LOP edit
+            if (FlavorText.Length > descLength) //LOP edit
             {
-                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..DescriptionLength(sponsorTier)];    //LOP edit
+                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..descLength];    //LOP edit
             }
             else
             {
