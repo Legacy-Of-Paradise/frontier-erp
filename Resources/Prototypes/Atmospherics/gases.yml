@@ -50,7 +50,7 @@
   gasOverlayState: tritium
   color: 13FF4B
   reagent: Tritium
-  pricePerMole: 1.95 # LOP 4<1.95
+  pricePerMole: 1.05 # LOP 4<1.05
 
 - type: gas
   id: 5
@@ -99,4 +99,4 @@
   gasMolesVisible: 0.6
   color: 3a758c
   reagent: Frezon
-  pricePerMole: 1 # LOP edit 8<1
+  pricePerMole: 2.5 # LOP edit 8<2.5
