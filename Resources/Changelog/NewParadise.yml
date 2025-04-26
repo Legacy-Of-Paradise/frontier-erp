@@ -487,3 +487,12 @@
   id: 37
   time: '2025-04-26T13:58:51.0000000+00:00'
   url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/104
+- author: Inari
+  changes:
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D\u0430 \u043E\u043A\u0440\u0430\
+      \u0441\u043A\u0430 OOC-\u0441\u043E\u043E\u0431\u0449\u0435\u043D\u0438\u0439\
+      \ \u0438 \u0410\u0425\u0435\u043B\u043F\u0430"
+    type: Tweak
+  id: 38
+  time: '2025-04-26T19:39:06.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/107
