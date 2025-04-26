@@ -689,8 +689,8 @@ namespace Content.Server.Administration.Systems
 
             //LOP edit start
             var prefs = _preferencesManager.GetPreferences(senderId);
-#if LOP_Sponsors
             string sponsorColor = "gray";
+#if LOP_Sponsors
             if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(senderId, out var sponsorInfo))
                 sponsorColor = sponsorInfo.OOCColor;
 #endif
