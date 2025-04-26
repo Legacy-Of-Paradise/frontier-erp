@@ -73,7 +73,9 @@ namespace Content.Client.Lobby
             int sponsorTier = 0;
             if (_sponsorsManager.TryGetInfo(out var sponsor))
             {
-                allowedMarkings = sponsor.AllowedMarkings.ToList();
+                var marks = Loc.GetString($"sponsor-markings-tier-{sponsorTier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                marks.Concat(sponsor.AllowedMarkings);
+                allowedMarkings = marks.ToList();
                 sponsorTier = sponsor.Tier;
             }
 #endif
