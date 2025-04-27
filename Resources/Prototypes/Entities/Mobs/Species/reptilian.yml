@@ -149,7 +149,12 @@
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
-            state: shoes
+            state:
+      outerclothing:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit-female
     displacements:
       jumpsuit:
         sizeMaps:
@@ -171,6 +176,11 @@
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: shoes
+      outerclothing:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: jumpsuit
     # Corvax-Digitigrade-End
 
 #Weh

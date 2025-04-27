@@ -19,9 +19,15 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Corvax/Mobs/Species/displacement.rsi
+            sprite: Corvax/Mobs/Species/displacement.rsi # Corvax-Digitigrade
             state: jumpsuit-female
+      # Corvax-Digitigrade-Start
       shoes:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+      socks:
         sizeMaps:
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
@@ -37,6 +43,12 @@
           32:
             sprite: Corvax/Mobs/Species/displacement.rsi
             state: shoes
+      socks:
+        sizeMaps:
+          32:
+            sprite: Corvax/Mobs/Species/displacement.rsi
+            state: shoes
+    # Corvax-Displacements-End
   - type: Thirst
   - type: Icon
     sprite: _DV/Mobs/Species/Vulpkanin/parts.rsi

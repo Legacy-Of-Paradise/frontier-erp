@@ -97,7 +97,7 @@
 #LOP edit start
   - type: StaticPrice
     price: 150
-    vendPrice: 49500
+    vendPrice: 66500
 #LOP edit end
 
 - type: entity
@@ -140,7 +140,7 @@
 #LOP edit start
   - type: StaticPrice
     price: 150
-    vendPrice: 32500
+    vendPrice: 60500
 #LOP edit end
 
 - type: entity
@@ -264,5 +264,5 @@
 #LOP edit start
   - type: StaticPrice
     price: 150
-    vendPrice: 22500
+    vendPrice: 40000
 #LOP edit end
