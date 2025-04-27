@@ -138,10 +138,10 @@ namespace Content.Server.Preferences.Managers
             int sponsorTier = 0;
             if (_sponsors.TryGetInfo(userId, out var sponsor))
             {
-                var marks = Loc.GetString($"sponsor-markings-tier-{sponsorTier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                marks.Concat(sponsor.AllowedMarkings);
-                allowedMarkings = marks.ToList();
                 sponsorTier = sponsor.Tier;
+                var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                if (sponsorTier > 3)
+                    allowedMarkings = marks.Concat(sponsor.AllowedMarkings).ToList();
             }
 #endif
 
@@ -393,7 +393,7 @@ namespace Content.Server.Preferences.Managers
                 int sponsorTier = 0;
                 if (_sponsors.TryGetInfo(session.UserId, out var sponsor))
                 {
-                    var marks = Loc.GetString($"sponsor-markings-tier-{sponsorTier}").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                    var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
                     marks.Concat(sponsor.AllowedMarkings);
                     allowedMarkings = marks.ToList();
                     sponsorTier = sponsor.Tier;
