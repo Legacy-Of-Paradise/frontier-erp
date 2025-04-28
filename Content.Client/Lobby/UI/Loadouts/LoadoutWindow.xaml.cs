@@ -11,6 +11,9 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Content.Shared._NF.Bank; // Frontier
+#if LOP_Sponsors
+using Content.Client._NewParadise.Sponsors;
+#endif
 
 namespace Content.Client.Lobby.UI.Loadouts;
 
@@ -60,6 +63,14 @@ public sealed partial class LoadoutWindow : FancyWindow
         }
         else
         {
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP_Sponsors
+            if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            //LOP edit end
+
             foreach (var group in proto.Groups)
             {
                 if (!protoManager.TryIndex(group, out var groupProto))
@@ -67,6 +78,14 @@ public sealed partial class LoadoutWindow : FancyWindow
 
                 if (groupProto.Hidden)
                     continue;
+
+                //LOP edit starts
+                if (groupProto.ID.ToString().Contains("Sponsor") && sponsorTier < 3)
+                {
+                    groupProto.Hidden = true;
+                    continue;
+                }
+                //LOP edit end
 
                 var container = new LoadoutGroupContainer(profile, loadout, protoManager.Index(group), session, collection);
                 LoadoutGroupsContainer.AddTab(container, Loc.GetString(groupProto.Name));

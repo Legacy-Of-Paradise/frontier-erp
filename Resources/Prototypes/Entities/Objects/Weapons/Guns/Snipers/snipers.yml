@@ -103,6 +103,11 @@
   - type: EyeCursorOffset
     maxOffset: 3
     pvsIncrease: 0.3
+#LOP edit start
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 42500
+#LOP edit end
 
 - type: entity
   name: musket

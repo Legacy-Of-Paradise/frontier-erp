@@ -28,10 +28,19 @@ public sealed partial class DepartmentTimeRequirement : JobRequirement
         IPrototypeManager protoManager,
         HumanoidCharacterProfile? profile,
         IReadOnlyDictionary<string, TimeSpan> playTimes,
-        [NotNullWhen(false)] out FormattedMessage? reason)
+        [NotNullWhen(false)] out FormattedMessage? reason
+#if LOP_Sponsors
+        , int tier = 0
+#endif
+        )
     {
         reason = new FormattedMessage();
         var playtime = TimeSpan.Zero;
+
+#if LOP_Sponsors    // LOP edit: sponsor system
+        if (tier >= 5)
+            return !Inverted;
+#endif
 
         // Check all jobs' departments
         var department = protoManager.Index(Department);

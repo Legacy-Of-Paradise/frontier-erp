@@ -20,6 +20,9 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 67500
 
 - type: entity
   name: m90
@@ -86,6 +89,9 @@
         whitelist:
           tags:
             - CartridgePistol
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 29500
 
 - type: entity
   name: MAC-21

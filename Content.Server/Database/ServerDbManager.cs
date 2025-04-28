@@ -364,6 +364,13 @@ namespace Content.Server.Database
         Task SendNotification(DatabaseNotification notification);
 
         #endregion
+
+#if LOP_Sponsors
+        #region Sponsors
+        Task<Sponsor?> GetSponsorInfo(NetUserId userId, CancellationToken cancel = default);    //_LostParadise-Sponsors
+        Task<Sponsor[]?> GetSponsorList(CancellationToken cancel = default);
+        #endregion
+#endif
     }
 
     /// <summary>
@@ -1139,6 +1146,20 @@ namespace Content.Server.Database
 
             return task;
         }
+
+#if LOP_Sponsors
+        public async Task<Sponsor?> GetSponsorInfo(NetUserId userId, CancellationToken cancel = default)
+        {
+            DbWriteOpsMetric.Inc();
+            return await _db.GetSponsorInfo(userId);
+        }
+
+        public async Task<Sponsor[]?> GetSponsorList(CancellationToken cancel = default)
+        {
+            DbWriteOpsMetric.Inc();
+            return await _db.GetSponsorList();
+        }
+#endif
 
         private IAsyncEnumerable<T> RunDbCommand<T>(Func<IAsyncEnumerable<T>> command)
         {

@@ -116,10 +116,10 @@
 #   description: A suit that protects against minor chemical spills.
 #   components:
 #   - type: Sprite
-#     sprite: _NewParadise/PERSONAL/Skilets/skilets_coats.rsi
+#     sprite: _NewParadise/_STextures/Skilets/skilets_coats.rsi
 #     scale: 0.55, 0.55
 #   - type: Clothing
-#     sprite: _NewParadise/PERSONAL/Skilets/skilets_coats.rsi
+#     sprite: _NewParadise/_STextures/Skilets/skilets_coats.rsi
 #   - type: Armor
 #     modifiers:
 #       coefficients:

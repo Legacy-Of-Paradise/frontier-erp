@@ -54,6 +54,9 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: StaticPrice
+    price: 150
+    vendPrice: 105000
 
 - type: entity
   name: Armalite "Stoner-25"
@@ -111,3 +114,6 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: StaticPrice
+    price: 150
+    vendPrice: 105000

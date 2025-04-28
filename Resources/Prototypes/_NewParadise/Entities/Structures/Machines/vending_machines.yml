@@ -323,3 +323,64 @@
 #  - type: Rotatable
 #    rotateWhileAnchored: false
 #    rotateWhilePulling: true
+
+- type: entity
+  parent: [BaseStructureDisableAnchoring, VendingMachine, BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag]
+  id: LPPVendingMachineBlackMarketEquipement
+  name: BlackMarketvend
+  description: Contraband across multiple sectors!
+  components:
+  - type: VendingMachine
+    pack: BlackmarketcontraVendingMachineInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Advertise
+    pack: SyndieDrobeAds
+  - type: Sprite
+    sprite: _NF/Structures/Machines/VendingMachines/contravend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: "screen"
+      map: ["enum.VendingMachineVisualLayers.Screen"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.3
+    color: "#ad2c2b"
+  - type: MarketModifier
+    mod: 70 # damn Daniel
+
+- type: entity
+  parent: LPPVendingMachineBlackMarketEquipement
+  id: LPPVendingMachineBlackMarket
+  name: BlackMarketvend
+  description: Clothing across multiple sectors!
+  components:
+  - type: VendingMachine
+    pack: BlackmarketVendingMachineInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: MarketModifier
+    mod: 30 # damn Daniel
+
+- type: entity
+  parent: LPPVendingMachineBlackMarketEquipement
+  id: LPPVendingMachineBlackMarketArmor
+  name: BlackMarketvendArmor
+  description: Clothing across multiple sectors!
+  components:
+  - type: VendingMachine
+    pack: BlackmarketcontraVendingMachineInventorySuits
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: MarketModifier
+    mod: 100 # damn Daniel

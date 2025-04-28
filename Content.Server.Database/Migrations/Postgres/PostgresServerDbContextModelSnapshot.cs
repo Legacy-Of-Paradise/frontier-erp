@@ -20,7 +20,7 @@ namespace Content.Server.Database.Migrations.Postgres
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.0")
+                .HasAnnotation("ProductVersion", "9.0.1")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -283,8 +283,7 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("expiration_time");
 
-                    b.Property<DateTime?>("LastEditedAt")
-                        .IsRequired()
+                    b.Property<DateTime>("LastEditedAt")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("last_edited_at");
 
@@ -418,8 +417,7 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("expiration_time");
 
-                    b.Property<DateTime?>("LastEditedAt")
-                        .IsRequired()
+                    b.Property<DateTime>("LastEditedAt")
                         .HasColumnType("timestamp with time zone")
                         .HasColumnName("last_edited_at");
 
@@ -906,12 +904,10 @@ namespace Content.Server.Database.Migrations.Postgres
                         .HasColumnType("text")
                         .HasColumnName("species");
 
-                    // LOP edit start
                     b.Property<string>("VoiceId")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("voice_id");
-                    // LOP edit end
 
                     b.HasKey("Id")
                         .HasName("PK_profile");
@@ -1354,6 +1350,48 @@ namespace Content.Server.Database.Migrations.Postgres
                         .IsUnique();
 
                     b.ToTable("server_unban", (string)null);
+                });
+
+            modelBuilder.Entity("Content.Server.Database.Sponsor", b =>
+                {
+                    b.Property<Guid>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("user_id");
+
+                    b.Property<bool>("AllowJob")
+                        .HasColumnType("boolean")
+                        .HasColumnName("allow_job");
+
+                    b.Property<string>("AllowedMarkings")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("allowed_markings");
+
+                    b.Property<int>("ExtraSlots")
+                        .HasColumnType("integer")
+                        .HasColumnName("extra_slots");
+
+                    b.Property<bool>("HavePriorityJoin")
+                        .HasColumnType("boolean")
+                        .HasColumnName("have_priority_join");
+
+                    b.Property<string>("OOCColor")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("ooccolor");
+
+                    b.Property<int>("Tier")
+                        .HasColumnType("integer")
+                        .HasColumnName("tier");
+
+                    b.HasKey("UserId")
+                        .HasName("PK_sponsors");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("sponsors", (string)null);
                 });
 
             modelBuilder.Entity("Content.Server.Database.Trait", b =>

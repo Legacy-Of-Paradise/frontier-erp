@@ -26,7 +26,7 @@
   productEntity: LPPWeaponShotgunLemington
   icon: { sprite: _NewParadise/Objects/Weapons/Guns/Shotguns/lemington.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 4
+    FrontierUplinkCoin: 8
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -117,10 +117,9 @@
   id: LPPUplinkSecurityJudge
   name: lpp-uplink-security-judge-name
   description: lpp-uplink-security-judge-desc
-  icon: { sprite: _NewParadise/Objects/Weapons/Guns/Pistols/PF20.rsi, state: icon }
   productEntity: LPPWeaponRevolverJudgeLethal
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 9
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -441,7 +440,7 @@
   description: uplink-security-GrenadeFrag-desc
   productEntity: GrenadeFrag
   cost:
-    FrontierUplinkCoin: 4
+    FrontierUplinkCoin: 5
   categories:
     - UplinkSecurityAmmo
   conditions:
@@ -476,7 +475,7 @@
   description: lpp-uplink-security-lemas-desc
   productEntity: LPPWeaponRifleLemas
   cost:
-    FrontierUplinkCoin: 10
+    FrontierUplinkCoin: 8
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -534,6 +533,21 @@
     FrontierUplinkCoin: 1
   categories:
     - UplinkSecurityAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+
+- type: listing
+  id: LPPUplinkSecurityMusket
+  name: lpp-uplink-security-musket-name
+  description: lpp-uplink-security-musket-desc
+  productEntity: Musket
+  cost:
+    FrontierUplinkCoin: 1
+  categories:
+    - UplinkSecurityWeapons
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

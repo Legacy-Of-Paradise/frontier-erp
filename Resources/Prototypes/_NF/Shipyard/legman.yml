@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: LVHI Legman
   description: "Небольшой маневренный шаттл с низкими эксплуатационными расходами для репортеров, которые хотят первыми оказаться на месте происшествия. Произведено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
-  price: 13000 # 12135$ on mapinit + 5% markup
+  price: 12500 # ~11835$ on mapinit + ~5% (600$) markup
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/legman.yml # LOP edit

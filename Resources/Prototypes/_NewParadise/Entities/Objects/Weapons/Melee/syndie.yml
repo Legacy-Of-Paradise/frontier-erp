@@ -62,3 +62,6 @@
   - type: Prying
     # speed: 3
     pryPowered: true
+  - type: StaticPrice
+    price: 150
+    vendPrice: 21500

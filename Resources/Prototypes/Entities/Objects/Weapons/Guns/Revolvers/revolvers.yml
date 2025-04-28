@@ -149,8 +149,11 @@
       path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
       params:
         volume: 2.25
+#LOP edit start
   - type: StaticPrice
     price: 1
+    vendPrice: 25500
+#LOP edit end
 
 - type: entity
   parent: WeaponRevolverPython

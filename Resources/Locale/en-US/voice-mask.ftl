@@ -8,3 +8,6 @@ voice-mask-name-change-set-description = Change the name others hear to somethin
 
 voice-mask-popup-success = Name set successfully.
 voice-mask-popup-failure = Name could not be set.
+
+#LOP edit
+voice-mask-name-change-speech-voice = Voice

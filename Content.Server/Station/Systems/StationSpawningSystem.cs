@@ -31,6 +31,9 @@ using Content.Server._NF.Bank; // Frontier
 using Content.Server.Preferences.Managers; // Frontier
 using System.Linq;
 using Content.Shared.NameIdentifier; // Frontier
+#if LOP_Sponsors
+using Content.Server._NewParadise.Sponsors;
+#endif
 
 namespace Content.Server.Station.Systems;
 
@@ -128,9 +131,19 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             // Set to default if not present
             if (loadout == null)
             {
+#if LOP_Sponsors
+                int tier = 0;
+                if (session != null && IoCManager.Resolve<SponsorsManager>().TryGetInfo(session.UserId, out var sponsorinfo))
+                    tier = sponsorinfo.Tier;
+
+#endif
                 loadout = new RoleLoadout(jobLoadout);
-                loadout.SetDefault(profile, _actors.GetSession(entity), _prototypeManager);
-                loadout.EnsureValid(profile!, session, _dependencyCollection); // Frontier - profile must not be null, but if it was, TryGetValue above should fail
+                //loadout.SetDefault(profile, _actors.GetSession(entity), _prototypeManager);
+                loadout.EnsureValid(profile!, session, _dependencyCollection
+#if LOP_Sponsors
+                , tier
+#endif
+                ); // Frontier - profile must not be null, but if it was, TryGetValue above should fail
             }
         }
 

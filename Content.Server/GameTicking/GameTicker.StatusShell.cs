@@ -4,7 +4,9 @@ using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Robust.Server.ServerStatus;
 using Robust.Shared.Configuration;
-
+#if DiscordAuth //LOP edit
+using Content.Server._NC.JoinQueue;
+#endif
 namespace Content.Server.GameTicking
 {
     public sealed partial class GameTicker
@@ -29,6 +31,9 @@ namespace Content.Server.GameTicking
         /// </summary>
         [Dependency] private readonly SharedGameTicker _gameTicker = default!;
 
+#if DiscordAuth //LOP edit
+        [Dependency] private readonly JoinQueueManager _joinQueue = default!;
+#endif
         private void InitializeStatusShell()
         {
             IoCManager.Resolve<IStatusHost>().OnStatusRequest += GetStatusResponse;
@@ -44,9 +49,16 @@ namespace Content.Server.GameTicking
                 jObject["name"] = _baseServer.ServerName;
                 jObject["map"] = _gameMapManager.GetSelectedMap()?.MapName;
                 jObject["round_id"] = _gameTicker.RoundId;
+
+                //LOP edit start
+                var playercount = _playerManager.PlayerCount;
+#if DiscordAuth
+                playercount = _joinQueue.ActualPlayersCount;
+#endif
+                //LOP edit end
                 jObject["players"] = _cfg.GetCVar(CCVars.AdminsCountInReportedPlayerCount)
-                    ? _playerManager.PlayerCount
-                    : _playerManager.PlayerCount - _adminManager.ActiveAdmins.Count();
+                    ? playercount   //LOP edit
+                    : playercount - _adminManager.ActiveAdmins.Count(); //LOP edit
                 jObject["soft_max_players"] = _cfg.GetCVar(CCVars.SoftMaxPlayers);
                 jObject["panic_bunker"] = _cfg.GetCVar(CCVars.PanicBunkerEnabled);
                 jObject["run_level"] = (int) _runLevel;

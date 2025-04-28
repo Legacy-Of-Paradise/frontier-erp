@@ -248,9 +248,9 @@
 #   description: Tactical gas mask for attack aircraft IICs, fireproof.
 #   components:
 #   - type: Sprite
-#     sprite: _NewParadise/PERSONAL/Skilets/skilets_mask.rsi
+#     sprite: _NewParadise/_STextures/Skilets/skilets_mask.rsi
 #   - type: Clothing
-#     sprite: _NewParadise/PERSONAL/Skilets/skilets_mask.rsi
+#     sprite: _NewParadise/_STextures/Skilets/skilets_mask.rsi
 #   - type: Armor
 #     modifiers:
 #       coefficients:

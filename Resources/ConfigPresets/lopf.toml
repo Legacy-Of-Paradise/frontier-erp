@@ -1,0 +1,54 @@
+﻿[viewport]
+maximum_width = 26
+
+[netres]
+limit = 25.0
+
+[game]
+soft_max_players = "111"
+lobbyenabled = true
+panic_bunker.min_account_age = 1440
+#panic_bunker.min_overall_hours = 0
+
+[server]
+rules_file = "LPPRuleset"
+
+[salvage]
+expedition_duration = 1200
+
+[rules]
+time = 60.0
+
+[infolinks]
+discord = "https://wiki.legacyofparadise.space/discord"
+github = "https://github.com/Legacy-Of-Paradise/frontier-station"
+wiki = "http://wiki.legacyofparadise.space/"
+patreon = "https://boosty.to/legacy-of-paradise"
+
+[vote]
+restart_required_ratio = 0.85
+same_type_timeout = 300.0
+timerrestart = 30
+map_enabled = true
+preset_enabled = true
+restart_enabled = true
+
+[hub]
+advertise = true
+tags = "18+,lang:ru,region:eu_e,rp:med"
+
+[shuttle]
+auto_call_time = 480
+arrivals = false
+arrivals_planet = false
+emergency_early_launch_allowed = true
+
+[nf14.worldgen]
+market_stations = 3
+
+[admin]
+see_own_notes = true
+
+[ahelp]
+admin_prefix = true
+admin_prefix_webhook = true

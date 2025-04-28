@@ -560,6 +560,11 @@
     - MonkeyWearable
     - Hardsuit
     - WhitelistChameleon
+#LOP edit start
+  - type: StaticPrice
+    price: 275
+    vendPrice: 52500
+#LOP edit end
 
 # Syndicate Medic Hardsuit
 - type: entity
@@ -721,6 +726,11 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitWizard
+#LOP edit start
+  - type: StaticPrice
+    price: 900
+    vendPrice: 47500
+#LOP edit end
 
 #Ling Space Suit
 - type: entity
@@ -814,8 +824,11 @@
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitPirateCap
+#LOP edit start
   - type: StaticPrice
-    price: 0
+    price: 700
+    vendPrice: 39000
+#LOP edit end
 
 #CENTCOMM / ERT HARDSUITS
 #ERT Leader Hardsuit
@@ -906,6 +919,11 @@
     sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitERTJanitor
+#LOP edit start
+  - type: StaticPrice
+    price: 1000
+    vendPrice: 67500
+#LOP edit end
 
 #Deathsquad
 - type: entity

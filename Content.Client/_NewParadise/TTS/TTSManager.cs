@@ -15,11 +15,11 @@ public sealed class TTSManager
     }
 
     // ReSharper disable once InconsistentNaming
-    public void RequestTTS(EntityUid uid, string text, string voiceId)
+    public void RequestTTS(EntityUid uid, string text, string voiceId, bool iswhiper)
     {
         var netEntity = _entityManager.GetNetEntity(uid);
 
-        var msg = new MsgRequestTTS { Text = text, Uid = netEntity, VoiceId = voiceId };
+        var msg = new MsgRequestTTS { Text = text, Uid = netEntity, VoiceId = voiceId, IsWhisper = iswhiper };
 
         _netMgr.ClientSendMessage(msg);
     }

@@ -48,3 +48,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 49500
+#LOP edit end
