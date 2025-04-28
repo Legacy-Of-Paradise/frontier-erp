@@ -121,7 +121,7 @@
   [color=#a4885c]Полет[/color]: существо парит над землей и может обходить невысокие препятствия, такие как столы, рамы машин или перила, будучи не застаненным или замедленным.
 
   <Box>
-  <GuideEntityEmbed Entity="MobDragon"/>
+  <GuideEntityEmbed Entity="NFMobDragonDungeon"/>
   </Box>
   - [bold][color=#a4885c]Здоровье:[/color][/bold] 200 (мертв)
   - [bold][color=#a4885c]Скорость передвижения:[/color][/bold] 5 м/с
@@ -134,7 +134,7 @@
   # Цели миссии
   ## Устранение
   <Box>
-  <GuideEntityEmbed Entity="MobDragon"/>
+  <GuideEntityEmbed Entity="NFMobDragonDungeon"/>
   </Box>
   Уничтожьте крупное и опасное существо - [color=#a4885c]Космический дракон[/color] в течение заданного срока, для получения денежного вознаграждение.
 
