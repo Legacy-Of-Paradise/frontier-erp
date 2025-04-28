@@ -1,5 +1,6 @@
 using Content.Shared.Speech;
 using Robust.Shared.Prototypes;
+using Content.Shared._NewParadise.TTS;  //LOP edit
 
 namespace Content.Server.VoiceMask;
 
@@ -37,4 +38,12 @@ public sealed partial class VoiceMaskComponent : Component
     /// </summary>
     [DataField]
     public EntityUid? ActionEntity;
+
+    //LOP edit start
+    /// <summary>
+    ///     The voice that will override an entities default one. If null, it will use the entities default voice.
+    /// </summary>
+    [DataField]
+    public ProtoId<TTSVoicePrototype>? VoiceID = "nord";
+    //LOP edit end
 }

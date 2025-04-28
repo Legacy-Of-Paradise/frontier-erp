@@ -72,7 +72,11 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         return dataNode;
     }
 
-    public HumanoidCharacterProfile FromStream(Stream stream, ICommonSession session)
+    public HumanoidCharacterProfile FromStream(Stream stream, ICommonSession session, List<string> sponsorProtos // LOP edit
+#if LOP_Sponsors
+        , int sponsorTier = 0
+#endif
+    )
     {
         using var reader = new StreamReader(stream, EncodingHelpers.UTF8);
         var yamlStream = new YamlStream();
@@ -87,7 +91,11 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         var profile = export.Profile;
         var collection = IoCManager.Instance;
-        profile.EnsureValid(session, collection!);
+        profile.EnsureValid(session, collection!, sponsorProtos //LOP edit: sponsor system
+#if LOP_Sponsors
+            , sponsorTier
+#endif
+        );
         return profile;
     }
 
@@ -205,7 +213,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         ref bool dirty)
     {
 #if DEBUG
-        if (source is {} s)
+        if (source is { } s)
         {
             DebugTools.AssertNotEqual(s, SlotFlags.NONE);
             // Check that only a single bit in the bitflag is set
@@ -216,7 +224,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         if (visible)
         {
-            if (source is not {} slot)
+            if (source is not { } slot)
             {
                 dirty |= ent.Comp.PermanentlyHidden.Remove(layer);
             }

@@ -2,9 +2,12 @@
 
 cryopod-examine-empty = Пусто
 cryopod-examine-occupied = Занято
+cryopod-verb-target-unknown = Неизвестный
 accept-cryo-window-accept-button = Принять
 accept-cryo-window-deny-button = Отменить
 accept-cryo-window-prompt-text-part = Войти в капсулу криосна и завершить смену?
+accept-cryo-window-prompt-stored = Ваше тело будет храниться { PLAYTIME($time) }.
+accept-cryo-window-prompt-not-stored = Ваше тело не будет сохранено, но ваш рабочий слот будет открыт заново, если вы не сделали этого сами.
 accept-cryo-window-title = Капсула криосна
 cryo-wakeup-window-title = Проснуться
 cryo-wakeup-window-accept-button = Принять

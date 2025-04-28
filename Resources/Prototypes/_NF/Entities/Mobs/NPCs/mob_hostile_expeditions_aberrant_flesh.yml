@@ -383,19 +383,21 @@
         Slash: 12
         Structural: 30
   # Ghost role stuff
-  - type: GhostRole
-    allowMovement: true
-    name: ghost-role-information-aberrant-flesh-horror-dungeon-name
-    description: ghost-role-information-aberrant-flesh-horror-dungeon-description
-    rules: ghost-role-information-dungeon-boss-rules
-    raffle:
-      settings: default
-    mindRoles:
-    - MindRoleGhostRoleTeamAntagonist
-  - type: GhostTakeoverAvailable
-  - type: ActionGun
-    action: ActionBoneSpike
-    gunProto: BoneSpikeGun
+  # LOP edit start
+  # - type: GhostRole
+  #   allowMovement: true
+  #   name: ghost-role-information-aberrant-flesh-horror-dungeon-name
+  #   description: ghost-role-information-aberrant-flesh-horror-dungeon-description
+  #   rules: ghost-role-information-dungeon-boss-rules
+  #   raffle:
+  #     settings: default
+  #   mindRoles:
+  #   - MindRoleGhostRoleTeamAntagonist
+  # - type: GhostTakeoverAvailable
+  # - type: ActionGun
+  #   action: ActionBoneSpike
+  #   gunProto: BoneSpikeGun
+  # LOP edit end
 
 - type: entity
   id: BoneSpikeGun

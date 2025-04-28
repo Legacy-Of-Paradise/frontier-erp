@@ -3,7 +3,7 @@
   startingInventory:
     SurvivalKnife: 1
     WeaponBrassKnuckles: 1
-    WeaponLaserPistolNF: 1
+    WeaponNFLaserPistol: 1
     WeaponRifleGestio: 1
     WeaponRifleNovaliteC1: 1
     WeaponShotgunDoubleBarreled: 1
@@ -24,14 +24,20 @@
     SpeedLoaderRifleHeavyEmpty: 1
     MagazineNovaliteC1Empty: 1
     MagazineLightRifleLowCapacityEmpty: 1
-    MagazinePistolEmpty: 1
-#LPP
+    MagazineRifleEmpty: 1 # LOP edit MagazinePistolEmpty<MagazineRifleEmpty
+    # LOP edit start
     LPPWeaponPistolM1911: 1
     LPPWeaponMarsRifle: 2
     LPPWeaponM1Garand: 2
     LPPMagazineRifleGarand: 2
     LPPMagazineRifleMars: 2
     LPPMagazineBoxHunting: 1
+    WeaponRifleSVS: 1
+    LPPWeaponRifleLemasciv: 1
+    MagazineRifle: 2
+    LPPWeaponShotgunPredsedatel: 1
+    LPPMagazineShotgunPredsedatelEmpty: 2
+    # LOP edit end
   emaggedInventory:
     WeaponPistolViper: 1
 
@@ -40,7 +46,7 @@
   startingInventory:
     SurvivalKnife: 4294967295
     WeaponBrassKnuckles: 4294967295
-    WeaponLaserPistolNF: 4294967295
+    WeaponNFLaserPistol: 4294967295
     WeaponRifleGestio: 4294967295
     WeaponRifleNovaliteC1: 4294967295
     WeaponShotgunDoubleBarreled: 4294967295
@@ -62,12 +68,18 @@
     MagazineNovaliteC1Empty: 4294967295
     MagazineLightRifleLowCapacityEmpty: 4294967295
     MagazinePistolEmpty: 4294967295
-#LPP
+# LOP edit start
     LPPWeaponPistolM1911: 4294967295
     LPPWeaponMarsRifle: 4294967295
     LPPWeaponM1Garand: 4294967295
     LPPMagazineRifleGarand: 4294967295
     LPPMagazineRifleMars: 4294967295
     LPPMagazineBoxHunting: 4294967295
+    WeaponRifleSVS: 4294967295
+    LPPWeaponRifleLemasciv: 4294967295
+    MagazineRifleEmpty: 4294967295
+    LPPWeaponShotgunPredsedatel: 4294967295
+    LPPMagazineShotgunPredsedatelEmpty: 4294967295
+# LOP edit end
   emaggedInventory:
     WeaponPistolViper: 1

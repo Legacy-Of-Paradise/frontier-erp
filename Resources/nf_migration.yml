@@ -286,6 +286,17 @@ ClothingNeckOmnisexualPin: null
 ClothingNeckTransPin: null
 ClothingNeckAutismPin: null
 ClothingNeckGoldAutismPin: null
+ClothingNeckScarfStripedAce: null
+ClothingNeckScarfStripedAro: null
+ClothingNeckScarfStripedBiSexual: null
+ClothingNeckScarfStripedGay: null
+ClothingNeckScarfStripedInter: null
+ClothingNeckScarfStripedLesbian: null
+ClothingNeckScarfStripedPan: null
+ClothingNeckScarfStripedNonBinary: null
+ClothingNeckScarfStripedRainbow: null
+ClothingNeckScarfStripedTrans: null
+ClothingNeckScarfStripedLesbianLong: null
 ClothingNeckCloakPan: null
 ClothingNeckCloakEnby: null
 ClothingNeckCloakGay: null
@@ -298,3 +309,11 @@ ClothingNeckCloakTrans: null
 
 # 2025-03-28 Vehicle
 SpawnVehicleHoverbikeNF: NFSpawnVehicleHoverbike
+
+# 2025-04-19 Material Magnet Boxes
+OreBox: NFMagnetBoxOre
+ConstructionBox: NFMagnetBoxConstruction
+PlantBox: NFMagnetBoxPlant
+
+# 2025-04-25 Expedition Gun Pool
+WeaponLaserPistolNF: WeaponNFLaserPistol

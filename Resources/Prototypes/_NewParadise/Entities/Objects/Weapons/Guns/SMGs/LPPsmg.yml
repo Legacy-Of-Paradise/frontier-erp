@@ -20,6 +20,9 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 67500
 
 - type: entity
   name: m90
@@ -71,7 +74,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazinePistolHighCapacity
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -87,6 +89,9 @@
         whitelist:
           tags:
             - CartridgePistol
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 29500
 
 - type: entity
   name: MAC-21
@@ -120,7 +125,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineMagnumSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg

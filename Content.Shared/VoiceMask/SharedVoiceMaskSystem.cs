@@ -13,11 +13,13 @@ public sealed class VoiceMaskBuiState : BoundUserInterfaceState
 {
     public readonly string Name;
     public readonly string? Verb;
+    public readonly string? Voice;//LOP edit
 
-    public VoiceMaskBuiState(string name, string? verb)
+    public VoiceMaskBuiState(string name, string? verb, string? voice)  //LOP edit
     {
         Name = name;
         Verb = verb;
+        Voice = voice;  //LOP edit
     }
 }
 

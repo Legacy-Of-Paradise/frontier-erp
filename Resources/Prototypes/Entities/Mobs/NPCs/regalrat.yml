@@ -125,6 +125,8 @@
     attributes:
       gender: male
   - type: Sharp
+  - type: TTS
+    voicePrototypeId: nyx_assassin_dota_2
 
 - type: entity
   id: MobRatKingBuff

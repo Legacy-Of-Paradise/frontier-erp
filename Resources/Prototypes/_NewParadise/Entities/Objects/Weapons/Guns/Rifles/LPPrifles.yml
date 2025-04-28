@@ -20,7 +20,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -114,7 +113,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -140,6 +138,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: StaticPrice
+    vendPrice: 61500
 
 - type: entity
   name: STG-144
@@ -162,7 +162,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -186,6 +185,9 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 49500
 
 - type: entity
   name: BR-12A "Ravager"
@@ -210,7 +212,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: LPPMagazineRifleM4A1Lethal
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
@@ -236,6 +237,9 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 62500
 
 - type: entity
   name: Waffle corp. MK-556 "Liberator"
@@ -260,7 +264,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: LPPMagazineRifleM4A1Lethal
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
@@ -290,6 +293,9 @@
   - type: GunWieldBonus
     minAngle: -3
     maxAngle: -12
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 51500
 
 - type: entity
   name: BCR-25r
@@ -314,7 +320,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineCaselessRifle
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
@@ -344,6 +349,9 @@
   - type: GunWieldBonus
     minAngle: -3
     maxAngle: -12
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 61500
 
 - type: entity
   name: Makeshift'o AK
@@ -377,7 +385,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -403,3 +410,119 @@
   - type: Appearance
   - type: StaticPrice
     price: 2700
+    vendPrice: 37500
+
+- type: entity
+  name: LE-MAS
+  parent: [BaseWeaponRifle, BaseC2Contraband]
+  id: LPPWeaponRifleLemas
+  description: Bullpup rifle made by FRENCH *ugh*. Fires 3 bullets in hyperburst. Uses .20 ammo.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/le-mas.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/le-mas.rsi
+  - type: Gun
+    fireRate: 3.5
+    burstFireRate: 40
+    selectedMode: SemiAuto
+    availableModes:
+      - Burst
+      - SemiAuto
+    shotsPerBurst: 3
+    burstCooldown: 1
+    soundGunshot:
+      path: /Audio/_NewParadise/Weapons/Guns/Gunshots/M4A1_Shot.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: MagazineRifle
+        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 1750
+  - type: Item
+    size: Large
+
+- type: entity
+  name: PA-DE-FAME
+  parent: [BaseWeaponRifle, BaseC1Contraband]
+  id: LPPWeaponRifleLemasciv
+  description: Unbullpup your bullpup. Civilian variant of LE-MAS rifle. It's a big bigger than the original one but it's also fires in hyperburst. Uses .20 ammo.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/le-massiv.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/le-massiv.rsi
+  - type: Gun
+    fireRate: 15
+    burstFireRate: 15
+    selectedMode: Burst
+    availableModes:
+      - Burst
+    shotsPerBurst: 2
+    burstCooldown: 1.1
+    soundGunshot:
+      path: /Audio/_NewParadise/Weapons/Guns/Gunshots/M4A1_Shot.ogg
+  - type: Item
+    size: Huge
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: MagazineRifle
+        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 1750

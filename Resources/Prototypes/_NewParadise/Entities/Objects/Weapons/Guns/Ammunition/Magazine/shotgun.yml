@@ -1,0 +1,57 @@
+- type: entity
+  id: LPPBaseMagazineShotgunPredsedatel
+  name: ammo mag (.50 shells)
+  parent: [ BaseItem, BaseC1Contraband, RecyclableItemSteelTiny ] # Frontier: BaseSecurityContraband<BaseC1Contraband, added RecyclableItemSteelTiny
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+    - MagazineRiflePredsedatel
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - ShellShotgun
+    capacity: 4
+    soundRack:
+      path: /Audio/Weapons/Guns/Cock/smg_cock.ogg
+  - type: Item
+    size: Tiny
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/shotgunsmallrsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: LPPMagazineShotgunPredsedatelEmpty
+  name: ammo mag (.50 shells any)
+  suffix: empty
+  parent: LPPBaseMagazineShotgunPredsedatel
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
+
+- type: entity
+  id: LPPMagazineShotgunPredsedatel
+  name: ammo mag (.50 pellet)
+  parent: LPPBaseMagazineShotgunPredsedatel
+  components:
+  - type: BallisticAmmoProvider
+    proto: ShellShotgun
+  - type: Sprite
+    layers:
+    - state: pellets
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

@@ -28,7 +28,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -92,7 +91,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -119,6 +117,11 @@
   - type: Appearance
   - type: PirateBountyItem # Frontier
     id: AKMS # Frontier
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 67500
+#LOP edit end
 
 - type: entity
   name: M-90gl
@@ -138,7 +141,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -163,6 +165,11 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 64500
+#LOP edit end
 
 - type: entity
   name: Lecter
@@ -193,7 +200,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg

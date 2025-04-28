@@ -12,5 +12,11 @@
             <Label Text="{Loc 'voice-mask-name-change-speech-style'}" />
             <OptionButton Name="SpeechVerbSelector" /> <!-- Populated in LoadVerbs -->
         </BoxContainer>
+        <!--LOP edit start-->
+        <BoxContainer Orientation="Horizontal" Margin="5">
+            <Label Text="{Loc 'voice-mask-name-change-speech-voice'}" />
+            <OptionButton Name="SpeechVoiceSelector" /> <!-- Populated in LoadVerbs -->
+        </BoxContainer>
+        <!--LOP edit end-->
     </BoxContainer>
 </controls:FancyWindow>

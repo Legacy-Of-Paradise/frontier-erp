@@ -12,3 +12,7 @@ ent-LPPWeaponRifleBCR25r = BCR-25r
     .desc = Small assault rifle bullpup configuration. It's constructed in the past century, uses .25 ammo.
 ent-LPPWeaponRifleMakeshiftAK = Makeshift'o AK
     .desc = Makeshift AK, made by some punks. Probably illegal.
+ent-LPPWeaponRifleLemas = LE-MAS
+    .desc = Bullpup rifle made by FRENCH *ugh*. Fires 3 bullets in hyperburst. Uses .20 ammo.
+ent-LPPWeaponRifleLemasciv = PA-DE-FAME
+    .desc = Unbullpup your bullpup. Civilian variant of LE-MAS rifle. It's a big bigger than the original one but it's also fires in hyperburst. Uses .20 ammo.

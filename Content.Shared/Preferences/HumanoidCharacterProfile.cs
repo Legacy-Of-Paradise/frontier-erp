@@ -34,7 +34,15 @@ namespace Content.Shared.Preferences
 
         public const int MaxLoadoutNameLength = 32;
 
-        public const int MaxDescLength = 512;
+        //LOP edit start
+        public static int DescriptionLength(int tier)
+        {
+            if (tier >= 4)
+                return 2048;
+
+            return 1024;
+        }
+        //LOP edit end
 
         public const int DefaultBalance = 30000;
 
@@ -405,7 +413,7 @@ namespace Content.Shared.Preferences
         {
             return new(this)
             {
-                _antagPreferences = new (antagPreferences),
+                _antagPreferences = new(antagPreferences),
             };
         }
 
@@ -527,12 +535,18 @@ namespace Content.Shared.Preferences
             return Appearance.MemberwiseEquals(other.Appearance);
         }
 
-        public void EnsureValid(ICommonSession session, IDependencyCollection collection)
+        public void EnsureValid(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes// LOP edit start: sponsor system
+#if LOP_Sponsors
+        , int sponsorTier
+#endif
+        //LOP edit end
+        )
         {
             var configManager = collection.Resolve<IConfigurationManager>();
             var prototypeManager = collection.Resolve<IPrototypeManager>();
 
-            if (!prototypeManager.TryIndex(Species, out var speciesPrototype) || speciesPrototype.RoundStart == false)
+            if (!prototypeManager.TryIndex(Species, out var speciesPrototype) || speciesPrototype.RoundStart == false
+            )//|| (speciesPrototype.SponsorOnly && !sponsorPrototypes.Contains(Species)))   //LOP edit
             {
                 Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
                 speciesPrototype = prototypeManager.Index(Species);
@@ -601,10 +615,17 @@ namespace Content.Shared.Preferences
                 name = GetName(Species, gender);
             }
 
+            //LOP edit start
+            var descLength = DescriptionLength(0);
+#if LOP_Sponsors
+            descLength = DescriptionLength(sponsorTier);
+#endif
+            //LOP edit end
+
             string flavortext;
-            if (FlavorText.Length > MaxDescLength)
+            if (FlavorText.Length > descLength) //LOP edit
             {
-                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..MaxDescLength];
+                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..descLength];    //LOP edit
             }
             else
             {
@@ -620,7 +641,7 @@ namespace Content.Shared.Preferences
             }
             // End Frontier
 
-            var appearance = HumanoidCharacterAppearance.EnsureValid(Appearance, Species, Sex);
+            var appearance = HumanoidCharacterAppearance.EnsureValid(Appearance, Species, Sex, sponsorPrototypes);
 
             var prefsUnavailableMode = PreferenceUnavailable switch
             {
@@ -701,7 +722,11 @@ namespace Content.Shared.Preferences
                     continue;
                 }
 
-                loadouts.EnsureValid(this, session, collection);
+                loadouts.EnsureValid(this, session, collection
+#if LOP_Sponsors
+                , sponsorTier
+#endif
+                );
             }
 
             foreach (var value in toRemove)
@@ -749,10 +774,18 @@ namespace Content.Shared.Preferences
             return result;
         }
 
-        public ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection)
+        public ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes// LOP edit: sponsor system
+#if LOP_Sponsors
+        , int sponsorTier = 0
+#endif
+        )
         {
             var profile = new HumanoidCharacterProfile(this);
-            profile.EnsureValid(session, collection);
+            profile.EnsureValid(session, collection, sponsorPrototypes  //LOP edit
+#if LOP_Sponsors
+            , sponsorTier
+#endif
+            );
             return profile;
         }
 

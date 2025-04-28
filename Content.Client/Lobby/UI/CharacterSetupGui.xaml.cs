@@ -11,6 +11,9 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
+#if LOP_Sponsors
+using Content.Client._NewParadise.Sponsors;
+#endif
 
 namespace Content.Client.Lobby.UI
 {
@@ -88,8 +91,24 @@ namespace Content.Client.Lobby.UI
 
             var selectedSlot = _preferencesManager.Preferences?.SelectedCharacterIndex;
 
+#if LOP_Sponsors
+            var sponsorman = IoCManager.Resolve<SponsorsManager>();
+            int sponsorslots = 0;
+            if (sponsorman.TryGetInfo(out var sponsorInfo))
+                sponsorslots = sponsorInfo.ExtraSlots;
+#endif
+
             foreach (var (slot, character) in _preferencesManager.Preferences!.Characters)
             {
+                // LOP edit start
+                if (character is null) continue;
+
+#if LOP_Sponsors
+                if (numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots + sponsorslots)
+                    break;
+#endif
+                // LOP edit end
+
                 numberOfFullSlots++;
                 var characterPickerButton = new CharacterPickerButton(_entManager,
                     _protomanager,
@@ -110,7 +129,11 @@ namespace Content.Client.Lobby.UI
                 };
             }
 
-            _createNewCharacterButton.Disabled = numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots;
+            _createNewCharacterButton.Disabled = numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots
+#if LOP_Sponsors
+            + sponsorslots
+#endif
+            ;
             Characters.AddChild(_createNewCharacterButton);
         }
     }

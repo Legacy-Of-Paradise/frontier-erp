@@ -31,6 +31,11 @@ using Content.Shared.Chat;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+#if LOP_Sponsors
+using Content.Server._NewParadise.Sponsors;
+using Content.Server._NC.Discord;
+using Content.Server._NC.JoinQueue;
+#endif
 
 namespace Content.Server.IoC
 {
@@ -83,7 +88,11 @@ namespace Content.Server.IoC
 
             // LOP edit start
             IoCManager.Register<TTSManager>();
-            // LOP edit end
+#if LOP_Sponsors
+            IoCManager.Register<SponsorsManager>();
+            IoCManager.Register<DiscordAuthManager>();
+            IoCManager.Register<JoinQueueManager>();
+#endif
         }
     }
 }

@@ -3,6 +3,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: _DV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: Felinid_fluffy_tail_full
@@ -14,6 +15,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
+  sponsorOnly: true # LOP edit
   sprites:
   - sprite: _DV/Mobs/Customization/Felinid/felinid_tails.rsi
     state: Felinid_fluffy_tail_full
@@ -23,6 +25,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
+  sponsorOnly: true # LOP edit
   sprites:
     - sprite: _DV/Mobs/Customization/Felinid/alternative_tail.rsi
       state: m_waggingtail_cat_FRONT
@@ -32,6 +35,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Felinid]
+  sponsorOnly: true # LOP edit
   sprites:
     - sprite: _DV/Mobs/Customization/Felinid/tiger_tail.rsi
       state: m_tail_tiger_primary

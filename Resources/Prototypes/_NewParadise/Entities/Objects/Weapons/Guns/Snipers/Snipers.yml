@@ -114,6 +114,6 @@
     proto: CartridgeAntiMateriel
   - type: GunRequiresWield
   - type: EyeCursorOffset # Frontier
-    maxOffset: 4.5 # Frontier
-    pvsIncrease: 0.5 # Frontier
+    maxOffset: 0 # Frontier
+    pvsIncrease: 4.5 # Frontier
   - type: CursorOffsetRequiresWield

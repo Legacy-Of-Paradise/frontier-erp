@@ -192,7 +192,7 @@ namespace Content.Client.Construction.UI
 
                 if (!string.IsNullOrEmpty(search))
                 {
-                    if (!recipe.Name.ToLowerInvariant().Contains(search.Trim().ToLowerInvariant()))
+                    if (!Loc.GetString($"construction-graph-name-{recipe.ID}").ToLowerInvariant().Contains(search.Trim().ToLowerInvariant()))  //LOP edit
                         continue;
                 }
 
@@ -214,7 +214,7 @@ namespace Content.Client.Construction.UI
                 recipes.Add(recipe);
             }
 
-            recipes.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.InvariantCulture));
+            recipes.Sort((a, b) => string.Compare(Loc.GetString($"construction-graph-name-{a.ID}"), Loc.GetString($"construction-graph-name-{b.ID}"), StringComparison.InvariantCulture));    //LOP edit
 
             var recipesList = _constructionView.Recipes;
             recipesList.Clear();
@@ -233,8 +233,8 @@ namespace Content.Client.Construction.UI
                     {
                         TextureNormal = _spriteSystem.Frame0(recipe.Icon),
                         VerticalAlignment = Control.VAlignment.Center,
-                        Name = recipe.Name,
-                        ToolTip = recipe.Name,
+                        Name = Loc.GetString($"construction-graph-name-{recipe.ID}"),      //LOP edit
+                        ToolTip = Loc.GetString($"construction-graph-desc-{recipe.ID}"),   //LOP edit
                         Scale = new Vector2(1.35f),
                         ToggleMode = true,
                     };
@@ -250,7 +250,7 @@ namespace Content.Client.Construction.UI
 
                         if (buttonToggledEventArgs.Pressed &&
                             _selected != null &&
-                            _recipeButtons.TryGetValue(_selected.Name, out var oldButton))
+                            _recipeButtons.TryGetValue(Loc.GetString($"construction-graph-name-{_selected.ID}"), out var oldButton))   //LOP edit
                         {
                             oldButton.Pressed = false;
                             SelectGridButton(oldButton, false);
@@ -260,7 +260,7 @@ namespace Content.Client.Construction.UI
                     };
 
                     recipesGrid.AddChild(itemButtonPanelContainer);
-                    _recipeButtons[recipe.Name] = itemButton;
+                    _recipeButtons[Loc.GetString($"construction-graph-name-{recipe.ID}")] = itemButton;    //LOP edit
                     var isCurrentButtonSelected = _selected == recipe;
                     itemButton.Pressed = isCurrentButtonSelected;
                     SelectGridButton(itemButton, isCurrentButtonSelected);
@@ -336,7 +336,7 @@ namespace Content.Client.Construction.UI
             _constructionView.ClearRecipeInfo();
 
             _constructionView.SetRecipeInfo(
-                prototype.Name, prototype.Description, _spriteSystem.Frame0(prototype.Icon),
+                Loc.GetString($"construction-graph-name-{prototype.ID}"), Loc.GetString($"construction-graph-desc-{prototype.ID}"), _spriteSystem.Frame0(prototype.Icon),  //LOP edit
                 prototype.Type != ConstructionType.Item,
                 !_favoritedRecipes.Contains(prototype));
 
@@ -374,10 +374,10 @@ namespace Content.Client.Construction.UI
             return new(itemList)
             {
                 Metadata = recipe,
-                Text = recipe.Name,
+                Text = Loc.GetString($"construction-graph-name-{recipe.ID}"),  //LOP edit
                 Icon = _spriteSystem.Frame0(recipe.Icon),
                 TooltipEnabled = true,
-                TooltipText = recipe.Description,
+                TooltipText = Loc.GetString($"construction-graph-desc-{recipe.ID}"),    //LOP edit
             };
         }
 

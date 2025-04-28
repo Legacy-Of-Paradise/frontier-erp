@@ -163,6 +163,11 @@ namespace Content.Shared.Roles
         [DataField]
         public bool Whitelisted;
 
+        //LOP edit start: sponsor system
+        [DataField("sponsorTier")]
+        public int SponsorTier = 0;
+        //LOP edit end
+
         /// <summary>
         /// Optional list of guides associated with this role. If the guides are opened, the first entry in this list
         /// will be used to select the currently selected guidebook.

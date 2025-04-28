@@ -82,3 +82,5 @@
   - type: Reactive
     groups:
       Acidic: [Touch]
+  - type: TTS
+    voicePrototypeId: shadow_fiend_dota_2

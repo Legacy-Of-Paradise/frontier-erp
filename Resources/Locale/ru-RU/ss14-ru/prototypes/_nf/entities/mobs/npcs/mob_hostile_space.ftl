@@ -1,0 +1,15 @@
+ent-NFMobBearSpace = { ent-MobBearSpace }
+    .suffix = Фронтир
+    .desc = { ent-NFMobRestrictions.desc }
+ent-NFMobKangarooSpace = { ent-MobKangarooSpace }
+    .suffix = Фронтир
+    .desc = { ent-NFMobRestrictions.desc }
+ent-NFMobSpiderSpace = { ent-MobSpiderSpace }
+    .suffix = Фронтир
+    .desc = { ent-NFMobRestrictions.desc }
+ent-NFMobCobraSpace = { ent-MobCobraSpace }
+    .suffix = Фронтир
+    .desc = { ent-NFMobRestrictions.desc }
+ent-NFMobTick = { ent-MobTick }
+    .suffix = Фронтир
+    .desc = { ent-NFMobRestrictions.desc }

@@ -71,3 +71,8 @@
     slots:
     - back
     - suitStorage
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 19500
+#LOP edit end
