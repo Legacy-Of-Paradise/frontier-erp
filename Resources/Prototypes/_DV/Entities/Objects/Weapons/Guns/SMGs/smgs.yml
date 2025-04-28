@@ -28,7 +28,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
@@ -49,3 +48,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 49500
+#LOP edit end

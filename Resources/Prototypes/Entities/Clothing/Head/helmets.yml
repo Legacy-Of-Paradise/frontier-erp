@@ -125,8 +125,9 @@
         Caustic: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.75
+  - type: StaticPrice
+    vendPrice: 7000
   # LOP edit end
-
 #Light Riot Helmet
 - type: entity
   parent: [ClothingHeadBase, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable

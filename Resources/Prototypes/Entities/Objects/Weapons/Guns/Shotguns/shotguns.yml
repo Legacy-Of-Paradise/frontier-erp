@@ -97,7 +97,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineShotgun
         priority: 2
         whitelist:
@@ -116,8 +115,11 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+#LOP edit start
   - type: StaticPrice
     price: 500
+    vendPrice: 57500
+#LOP edit end
 
 - type: entity
   name: double-barreled shotgun

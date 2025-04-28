@@ -115,6 +115,7 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
             _guidebook.ToggleGuidebook();
         };
 
+        // LOP edit start
         _escapeWindow.OpenDiscordButton.OnPressed += _ =>
         {
             _uri.OpenUri(_cfg.GetCVar(CCVars.InfoLinksDiscord));
@@ -124,6 +125,7 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
         {
             _uri.OpenUri(_cfg.GetCVar(CCVars.InfoLinksWebsite));
         };
+        // LOP edit end
 
         // Hide wiki button if we don't have a link for it.
         _escapeWindow.WikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";

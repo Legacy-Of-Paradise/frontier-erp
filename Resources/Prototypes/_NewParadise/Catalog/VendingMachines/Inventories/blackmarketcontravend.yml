@@ -1,0 +1,70 @@
+- type: vendingMachineInventory
+  id: BlackmarketcontraVendingMachineInventory
+  startingInventory:
+#Пушки начало
+    LPPWeaponRifleMakeshiftAK: 3
+    LPPWeaponLightMachinegunLewis: 1
+    WeaponSubMachineGunC20r: 2
+    WeaponSubMachineGunTypewriter: 3
+    LPPWeaponShotgunTBS2S: 1
+    LPPWeaponRifleHM10: 1
+    WeaponRifleAk: 2
+    LPPWeaponMarsautopistol: 4
+    WeaponSubMachineGunWt550: 3
+    WeaponRevolverPython: 2
+    WeaponPistolCobra: 4
+    LPPWeaponRevolverPeacemaker: 3
+    LPPWeaponShotgunRemington320b: 2
+    WeaponRifleJackdaw: 1
+    LPPEnergyAxe: 1
+    LPPWeaponRifleBR12ARavager: 1
+    LPPWeaponSubMachineGunIL20: 2
+    LPPWeaponRifleBCR25r: 2
+    WeaponShotgunBulldog: 1
+    LPPWeaponShotgunLemington: 2
+    LPPWeaponRifleSTG144: 2
+    LPPWeaponRevolverOC-38: 3
+    LPPWeaponRifleMK556Liberator: 1
+    WeaponSubMachineGunAtreides: 1
+    LPPWeaponNailGun: 3
+    WeaponRifleM90GrenadeLauncher: 1
+    LPPLaserKomissar: 1
+    WeaponSniperHristov: 1
+    WeaponPistolViper: 5
+    EnergySword: 1
+    EnergyDaggerLoud: 1
+    EnergyCutlass: 1
+    NFEnergyPickaxe: 1
+    FireAxeFlaming: 1
+    LPPKnifeJagdkommando: 1
+    LPPWeaponSyndieGlaive: 1
+#Пушки конец
+#Патроны начало (бесконечные)
+    MagazineLightRifleMaxim: 1
+    MagazineCaselessRifleShort: 4294967295
+    BoxMagazinePistolCaselessRifle: 4294967295
+    BoxMagazinePistolSubMachineGunTopMounted: 4294967295
+    BoxMagazinePistolHighCapacity: 4294967295
+    BoxMagazinePistolSubMachineGun: 4294967295
+    BoxMagazineRifle: 4294967295
+    BoxMagazineLightRifle: 4294967295
+    LPPBoxMagazineRifleM4A1Lethal: 4294967295
+    MagazineBoxAntiMateriel: 4294967295
+    BoxMagazineShotgun: 4294967295
+#Патроны конец
+#Гранаты начало
+    GrenadeStinger: 10
+    GrenadeShrapnel: 10
+    SmokeGrenade: 10
+#Гранаты конец
+# Снаряга начало
+    LPPClothingBackpackDuffelContractor: 1
+    ClothingBackpackDuffelSyndicate: 3
+    LPPClothingBackpackBackPackNPZ: 1
+    LPPNPZEyehud: 2
+    LPPClothingEyesGlassesContractor: 1
+    LPPClothingHandsGlovesNPZCombat: 1
+    LPPClothingShoesBootsMagNPZ: 3
+    LPPClothingBackpackHunter: 10
+    LPPClothingBeltMaximumWebbing: 3
+# Снаряга конец

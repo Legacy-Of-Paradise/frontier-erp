@@ -35,7 +35,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazinePistolSubMachineGun
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -95,6 +94,11 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 66500
+#LOP edit end
 
 - type: entity
   name: C-20r submachine gun
@@ -133,6 +137,11 @@
     steps: 6
     zeroVisible: true
   - type: Appearance
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 60500
+#LOP edit end
 
 - type: entity
   name: Drozd
@@ -232,7 +241,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazinePistolSubMachineGunTopMounted
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
@@ -253,3 +261,8 @@
     steps: 6
     zeroVisible: true
   - type: Appearance
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 40000
+#LOP edit end

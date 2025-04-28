@@ -14,7 +14,7 @@
   id: "betatest"
   name: "Обновление 0.5 - Выход в бету!"
   description: "Готовые основные механики, подготовка к релизу."
-  progress: 50
+  progress: 100
   status: roadmap-goal-progress
   order: 1
 

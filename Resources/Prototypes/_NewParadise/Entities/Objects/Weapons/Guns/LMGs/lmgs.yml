@@ -15,7 +15,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineLightRifleMaxim
         priority: 2
         whitelist:
@@ -55,6 +54,9 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: StaticPrice
+    price: 150
+    vendPrice: 105000
 
 - type: entity
   name: Armalite "Stoner-25"
@@ -73,7 +75,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineCaselessRifle10x24
         priority: 2
         whitelist:
@@ -113,3 +114,6 @@
     magState: mag
     steps: 1
     zeroVisible: true
+  - type: StaticPrice
+    price: 150
+    vendPrice: 105000

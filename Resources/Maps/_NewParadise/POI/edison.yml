@@ -1,11 +1,11 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 247.2.0
+  engineVersion: 250.0.0
   forkId: ""
   forkVersion: ""
-  time: 03/21/2025 23:45:58
-  entityCount: 4324
+  time: 04/23/2025 10:36:03
+  entityCount: 4325
 maps: []
 grids:
 - 2
@@ -2014,7 +2014,7 @@ entities:
             0: 65535
           -3,8:
             0: 13105
-            4: 34944
+            2: 34944
           -2,5:
             0: 30579
           -2,6:
@@ -2065,7 +2065,7 @@ entities:
             0: 65407
           3,8:
             0: 15
-            4: 65280
+            2: 65280
           4,4:
             0: 61183
           4,5:
@@ -2096,10 +2096,10 @@ entities:
             1: 3840
           -6,2:
             1: 15
-            2: 28672
+            3: 28672
           -6,3:
-            2: 7
-            3: 30464
+            3: 7
+            4: 30464
           -6,-1:
             0: 65280
             1: 15
@@ -2158,17 +2158,17 @@ entities:
           9,0:
             0: 3
           -4,8:
-            4: 13104
+            2: 13104
             0: 34944
           -5,8:
-            4: 52416
+            2: 52416
             0: 1
             1: 4368
           -4,9:
-            4: 51
+            2: 51
             1: 63616
           -5,9:
-            4: 204
+            2: 204
             1: 61713
           -4,10:
             1: 15
@@ -2177,13 +2177,13 @@ entities:
           -3,9:
             0: 1
             1: 62256
-            4: 136
+            2: 136
           -3,10:
             1: 15
           -2,8:
-            4: 30576
+            2: 30576
           -2,9:
-            4: 119
+            2: 119
             1: 61440
           -2,10:
             1: 15
@@ -2208,29 +2208,29 @@ entities:
           2,11:
             1: 15
           3,9:
-            4: 255
+            2: 255
             1: 61440
           3,10:
             1: 15
           4,8:
             0: 139
-            4: 13056
+            2: 13056
             1: 34816
           4,9:
-            4: 51
+            2: 51
             1: 63624
           4,10:
             1: 15
           -6,4:
-            4: 1904
+            2: 1904
           -6,5:
-            4: 119
+            2: 119
             5: 28672
           -6,6:
             5: 7
-            4: 30464
+            2: 30464
           -6,7:
-            4: 1904
+            2: 1904
           5,5:
             0: 56792
           5,6:
@@ -2328,6 +2328,21 @@ entities:
         - volume: 2500
           temperature: 293.15
           moles:
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+          - 0
+        - volume: 2500
+          temperature: 293.15
+          moles:
           - 6666.982
           - 0
           - 0
@@ -2345,21 +2360,6 @@ entities:
           moles:
           - 0
           - 6666.982
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.15
-          moles:
-          - 0
-          - 0
           - 0
           - 0
           - 0
@@ -4215,6 +4215,11 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 20.5,27.5
+      parent: 2
+  - uid: 4325
+    components:
+    - type: Transform
+      pos: 7.5,27.5
       parent: 2
 - proto: BarricadeDirectional
   entities:
@@ -13687,6 +13692,9 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -15.5,15.5
       parent: 2
+    - type: GasMixer
+      inletTwoConcentration: 0.20999998
+      inletOneConcentration: 0.79
     - type: AtmosPipeColor
       color: '#0055CCFF'
 - proto: GasOutletInjector
@@ -19066,6 +19074,18 @@ entities:
       parent: 2
     - type: AtmosPipeColor
       color: '#9955CCFF'
+  - uid: 1109
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -17.5,11.5
+      parent: 2
+  - uid: 1117
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -17.5,14.5
+      parent: 2
   - uid: 1133
     components:
     - type: Transform
@@ -19101,23 +19121,11 @@ entities:
       rot: 1.5707963267948966 rad
       pos: -17.5,12.5
       parent: 2
-  - uid: 1109
+  - uid: 1118
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -17.5,15.5
-      parent: 2
-  - uid: 1117
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -17.5,14.5
-      parent: 2
-  - uid: 1118
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: -17.5,11.5
       parent: 2
 - proto: GasRecycler
   entities:
@@ -21109,16 +21117,25 @@ entities:
     - type: Transform
       pos: 5.5,38.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 2160
     components:
     - type: Transform
       pos: 5.5,37.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
   - uid: 2161
     components:
     - type: Transform
       pos: 5.5,39.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
 - proto: InflatableDoorStack
   entities:
   - uid: 3774
@@ -21259,6 +21276,9 @@ entities:
     - type: Transform
       pos: -2.5,4.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - ChiefEngineer
     - type: EntityStorage
       air:
         volume: 200
@@ -21315,14 +21335,6 @@ entities:
     - type: Transform
       pos: 7.5,20.5
       parent: 2
-- proto: LockerWallColorWelding
-  entities:
-  - uid: 3782
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 5.5,24.5
-      parent: 2
 - proto: LockerWallEVAColorAtmosTechFilled
   entities:
   - uid: 3197
@@ -21370,6 +21382,14 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -13.5,12.5
+      parent: 2
+- proto: LockerWallMaterialsFuelPlasmaFilled
+  entities:
+  - uid: 923
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 5.5,24.5
       parent: 2
 - proto: MachineCryoSleepPod
   entities:
@@ -21660,13 +21680,6 @@ entities:
     - type: Transform
       pos: -20.5,11.5
       parent: 2
-- proto: PortableGeneratorJrPacman
-  entities:
-  - uid: 923
-    components:
-    - type: Transform
-      pos: 3.5,22.5
-      parent: 2
 - proto: PortableGeneratorJrPacmanMachineCircuitboard
   entities:
   - uid: 3849
@@ -21674,6 +21687,22 @@ entities:
     - type: Transform
       pos: 10.6626625,39.507164
       parent: 2
+- proto: PortableGeneratorPacman
+  entities:
+  - uid: 3782
+    components:
+    - type: Transform
+      anchored: True
+      pos: 3.5,22.5
+      parent: 2
+    - type: PowerSupplier
+      voltage: Medium
+    - type: PowerSwitchable
+      activeIndex: 1
+    - type: Physics
+      bodyType: Static
+    - type: Anchorable
+      currentDelay: 2
 - proto: PortableScrubber
   entities:
   - uid: 2175
@@ -21729,13 +21758,6 @@ entities:
     - type: Transform
       pos: -23.5,-2.5
       parent: 2
-- proto: PosterLegitSafetyMothPiping
-  entities:
-  - uid: 3966
-    components:
-    - type: Transform
-      pos: 2.5,-14.5
-      parent: 2
 - proto: PosterLegitSafetyMothFires
   entities:
   - uid: 3964
@@ -21743,12 +21765,19 @@ entities:
     - type: Transform
       pos: 5.5,-5.5
       parent: 2
-- proto: PosterLegitSMHardhats
+- proto: PosterLegitSafetyMothHardhat
   entities:
   - uid: 3965
     components:
     - type: Transform
       pos: -12.5,-2.5
+      parent: 2
+- proto: PosterLegitSafetyMothPiping
+  entities:
+  - uid: 3966
+    components:
+    - type: Transform
+      pos: 2.5,-14.5
       parent: 2
 - proto: PottedPlantRandom
   entities:
@@ -24809,6 +24838,9 @@ entities:
       rot: 3.141592653589793 rad
       pos: -4.5,4.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - ChiefEngineer
 - proto: SuitStorageWallmountEVAAtmosTech
   entities:
   - uid: 2588
@@ -24830,6 +24862,9 @@ entities:
     - type: Transform
       pos: 7.5,40.5
       parent: 2
+    - type: AccessReader
+      access:
+      - - Engineering
 - proto: SurveillanceCameraEngineering
   entities:
   - uid: 3904

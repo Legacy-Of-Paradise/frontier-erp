@@ -26,6 +26,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 # Pilot
@@ -52,6 +53,7 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
+  - SponsorsClothing  # LOP edit
 
 # Mercenary
 - type: roleLoadout
@@ -81,6 +83,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 # Frontier
@@ -108,6 +111,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -133,6 +137,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -158,6 +163,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit start
 
 - type: roleLoadout
@@ -185,6 +191,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -213,6 +220,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -240,6 +248,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -269,6 +278,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 # Nfsd
@@ -299,6 +309,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -328,6 +339,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -357,6 +369,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -386,6 +399,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -414,6 +428,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 # - type: roleLoadout # Fix when this is actully used
@@ -467,6 +482,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -496,6 +512,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 - type: roleLoadout
@@ -523,6 +540,7 @@
   # LOP edit start
   - LOPunderwearloadout
   - LOPsocksloadout
+  - SponsorsClothing
   - LOPbraloadout
   # LOP edit end
 
@@ -548,6 +566,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
   canCustomizeName: true # pseudonym?
 
@@ -572,6 +591,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
   canCustomizeName: true # pseudonym?
 
@@ -596,6 +616,7 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
   canCustomizeName: true # pseudonym?
 
@@ -618,4 +639,5 @@
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end

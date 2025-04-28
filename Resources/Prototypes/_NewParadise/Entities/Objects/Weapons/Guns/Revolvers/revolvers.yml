@@ -71,6 +71,9 @@
     capacity: 8
     chambers: [ True, True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null, null ]
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 31500
 
 - type: entity
   name: Colt Special
@@ -230,3 +233,6 @@
       path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
       params:
         volume: -14
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 20000

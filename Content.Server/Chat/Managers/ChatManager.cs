@@ -18,6 +18,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
+#if LOP_Sponsors
+using Content.Server._NewParadise.Sponsors;
+#endif
 
 namespace Content.Server.Chat.Managers;
 
@@ -44,6 +47,10 @@ internal sealed partial class ChatManager : IChatManager
     [Dependency] private readonly INetConfigurationManager _netConfigManager = default!;
     [Dependency] private readonly IEntityManager _entityManager = default!;
     [Dependency] private readonly PlayerRateLimitManager _rateLimitManager = default!;
+
+#if LOP_Sponsors
+    [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
+#endif
 
     /// <summary>
     /// The maximum length a player-sent message can be sent
@@ -82,10 +89,10 @@ internal sealed partial class ChatManager : IChatManager
         DispatchServerAnnouncement(Loc.GetString(val ? "chat-manager-admin-ooc-chat-enabled-message" : "chat-manager-admin-ooc-chat-disabled-message"));
     }
 
-        public void DeleteMessagesBy(NetUserId uid)
-        {
-            if (!_players.TryGetValue(uid, out var user))
-                return;
+    public void DeleteMessagesBy(NetUserId uid)
+    {
+        if (!_players.TryGetValue(uid, out var user))
+            return;
 
         var msg = new MsgDeleteChatMessagesBy { Key = user.Key, Entities = user.Entities };
         _netManager.ServerSendToAll(msg);
@@ -245,16 +252,40 @@ internal sealed partial class ChatManager : IChatManager
         }
 
         Color? colorOverride = null;
-        var wrappedMessage = Loc.GetString("chat-manager-send-ooc-wrap-message", ("playerName",player.Name), ("message", FormattedMessage.EscapeText(message)));
+        var wrappedMessage = Loc.GetString("chat-manager-send-ooc-wrap-message", ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
         if (_adminManager.HasAdminFlag(player, AdminFlags.NameColor))
         {
             var prefs = _preferencesManager.GetPreferences(player.UserId);
-            colorOverride = prefs.AdminOOCColor;
+            //colorOverride = prefs.AdminOOCColor;  //LOP edit
         }
-        if (  _netConfigManager.GetClientCVar(player.Channel, CCVars.ShowOocPatronColor) && player.Channel.UserData.PatronTier is { } patron && PatronOocColors.TryGetValue(patron, out var patronColor))
+        // LOP edit start
+        if (_netConfigManager.GetClientCVar(player.Channel, CCVars.ShowOocPatronColor) && player.Channel.UserData.PatronTier is { } patron && PatronOocColors.TryGetValue(patron, out var patronColor))
         {
-            wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", patronColor),("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+            wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", patronColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
         }
+        // LOP edit end
+#if LOP_Sponsors
+        if (_sponsorsManager.TryGetInfo(player.UserId, out var sponsorData) && sponsorData.Tier > 0)
+        {
+            wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", sponsorData.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+        }
+
+        var adminData = _adminManager.GetAdminData(player);
+        if (adminData != null && sponsorData != null && sponsorData.Tier > 0)
+        {
+            var title = adminData.Title ?? "Admin";
+            var prefs = _preferencesManager.GetPreferences(player.UserId);
+            wrappedMessage = Loc.GetString(
+                "chat-manager-send-ooc-admin-sponsor-wrap-message", ("adminColor", prefs.AdminOOCColor), ("adminTitle", title), ("patronColor", sponsorData.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+        }
+        else if (adminData != null)
+        {
+            var title = adminData.Title ?? "Admin";
+            var prefs = _preferencesManager.GetPreferences(player.UserId);
+            wrappedMessage = Loc.GetString(
+                "chat-manager-send-ooc-admin-wrap-message", ("adminTitle", title), ("adminColor", prefs.AdminOOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
+        }
+#endif
 
         //TODO: player.Name color, this will need to change the structure of the MsgChatMessage
         ChatMessageToAll(ChatChannel.OOC, message, wrappedMessage, EntityUid.Invalid, hideChat: false, recordReplay: true, colorOverride: colorOverride, author: player.UserId);

@@ -29,7 +29,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineLightRifle
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
@@ -118,7 +117,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: MagazineCaselessRifle
         insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
@@ -145,3 +143,8 @@
   - type: Appearance
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
+#LOP edit start
+  - type: StaticPrice
+    price: 150
+    vendPrice: 61000
+#LOP edit end

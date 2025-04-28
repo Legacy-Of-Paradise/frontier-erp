@@ -11,6 +11,9 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LOP_Sponsors
+using Content.Server._NewParadise.Sponsors;
+#endif
 
 namespace Content.Server.Preferences.Managers
 {
@@ -29,6 +32,10 @@ namespace Content.Server.Preferences.Managers
         [Dependency] private readonly ILogManager _log = default!;
         [Dependency] private readonly UserDbDataManager _userDb = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
+
+#if LOP_Sponsors
+        [Dependency] private readonly SponsorsManager _sponsors = default!;
+#endif
 
         // Cache player prefs on the server so we don't need as much async hell related to them.
         private readonly Dictionary<NetUserId, PlayerPrefData> _cachedPlayerPrefs =
@@ -58,7 +65,13 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (index < 0 || index >= MaxCharacterSlots)
+            if (index < 0 || index >=
+#if LOP_Sponsors
+            GetMaxUserCharacterSlots(userId)
+#else
+            MaxCharacterSlots
+#endif
+            )
             {
                 return;
             }
@@ -79,6 +92,15 @@ namespace Content.Server.Preferences.Managers
             }
         }
 
+#if LOP_Sponsors
+        private int GetMaxUserCharacterSlots(NetUserId userId)
+        {
+            var maxSlots = _cfg.GetCVar(CCVars.GameMaxCharacterSlots);
+            var extraSlots = _sponsors.TryGetInfo(userId, out var sponsor) ? sponsor.ExtraSlots : 0;
+            return maxSlots + extraSlots;
+        }
+#endif
+
         private async void HandleUpdateCharacterMessage(MsgUpdateCharacter message)
         {
             var userId = message.MsgChannel.UserId;
@@ -98,13 +120,37 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
+            if (slot < 0 || slot >=
+#if LOP_Sponsors
+            GetMaxUserCharacterSlots(userId)
+#else
+            MaxCharacterSlots
+#endif
+            )
                 return;
 
             var curPrefs = prefsData.Prefs!;
             var session = _playerManager.GetSessionById(userId);
 
-            profile.EnsureValid(session, _dependencies);
+            //LOP edit start
+            var allowedMarkings = new List<string>();
+#if LOP_Sponsors
+            int sponsorTier = 0;
+            if (_sponsors.TryGetInfo(userId, out var sponsor))
+            {
+                sponsorTier = sponsor.Tier;
+                var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                if (sponsorTier > 3)
+                    allowedMarkings = marks.Concat(sponsor.AllowedMarkings).ToList();
+            }
+#endif
+
+            profile.EnsureValid(session, _dependencies, allowedMarkings
+#if LOP_Sponsors
+            , sponsorTier
+#endif
+            );
+            //LOP edit end
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
             {
@@ -128,7 +174,13 @@ namespace Content.Server.Preferences.Managers
                 return;
             }
 
-            if (slot < 0 || slot >= MaxCharacterSlots)
+            if (slot < 0 || slot >=
+#if LOP_Sponsors
+            GetMaxUserCharacterSlots(userId)
+#else
+            MaxCharacterSlots
+#endif
+            )
             {
                 return;
             }
@@ -179,7 +231,7 @@ namespace Content.Server.Preferences.Managers
                 {
                     PrefsLoaded = true,
                     Prefs = new PlayerPreferences(
-                        new[] {new KeyValuePair<int, ICharacterProfile>(0, HumanoidCharacterProfile.Random())},
+                        new[] { new KeyValuePair<int, ICharacterProfile>(0, HumanoidCharacterProfile.Random()) },
                         0, Color.Transparent)
                 };
 
@@ -335,7 +387,24 @@ namespace Content.Server.Preferences.Managers
 
             return new PlayerPreferences(prefs.Characters.Select(p =>
             {
-                return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(session, collection));
+                //LOP edit start
+                var allowedMarkings = new List<string>();
+#if LOP_Sponsors
+                int sponsorTier = 0;
+                if (_sponsors.TryGetInfo(session.UserId, out var sponsor))
+                {
+                    var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                    marks.Concat(sponsor.AllowedMarkings);
+                    allowedMarkings = marks.ToList();
+                    sponsorTier = sponsor.Tier;
+                }
+#endif
+                //LOP edit end
+                return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(session, collection, allowedMarkings
+#if LOP_Sponsors
+                , sponsorTier
+#endif
+                ));
             }), prefs.SelectedCharacterIndex, prefs.AdminOOCColor);
         }
 

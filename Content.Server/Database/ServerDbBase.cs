@@ -1916,5 +1916,21 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
         {
 
         }
+
+#if LOP_Sponsors
+        #region Sponsors
+        public async Task<Sponsor?> GetSponsorInfo(NetUserId userId)
+        {
+            await using var db = await GetDb();
+            return await db.DbContext.Sponsors.AsNoTracking().FirstOrDefaultAsync(x => x.UserId == userId.UserId);
+        }
+
+        public async Task<Sponsor[]?> GetSponsorList()
+        {
+            await using var db = await GetDb();
+            return await db.DbContext.Sponsors.AsNoTracking().ToArrayAsync();
+        }
+        #endregion
+#endif
     }
 }

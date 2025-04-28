@@ -99,6 +99,8 @@
     - Chemicals
   - type: PirateBountyItem # Frontier
     id: HydroponicsTray # Frontier
+  - type: TTS
+    voicePrototypeId: glados
 
 - type: entity
   parent: hydroponicsTray

@@ -22,6 +22,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Content.Server._Corvax.Respawn; // Frontier
+using Content.Shared._NF.Roles.Components; // Frontier
 
 namespace Content.Server.GameTicking
 {
@@ -249,6 +250,14 @@ namespace Content.Server.GameTicking
 
             _mind.TransferTo(newMind, mob);
 
+            // Frontier: ensure jobs are tracked
+            var jobComp = EnsureComp<JobTrackingComponent>(mob);
+            jobComp.Job = jobId;
+            jobComp.SpawnStation = station;
+            jobComp.Active = true;
+            Dirty(mob, jobComp);
+            // End Frontier
+
             _roles.MindAddJobRole(newMind, silent: silent, jobPrototype:jobId);
             var jobName = _jobs.MindTryGetJobName(newMind);
             _admin.UpdatePlayerList(player);
@@ -279,7 +288,7 @@ namespace Content.Server.GameTicking
             }
 
             // who tf is perma oWo
-            if (player.UserId == new Guid("{e887eb93-f503-4b65-95b6-2f282c014192}"))
+            if (player.UserId == new Guid("{d6baedfa-4719-404d-8aae-1b09b49ed19e}"))
             {
                 EntityManager.AddComponent<OwOAccentComponent>(mob);
             }

@@ -11,9 +11,6 @@
       "name": "axolotl"
     },
     {
-      "name": "amina"
-    },
-    {
       "name": "axolotl-inhand-left",
       "directions": 4
     },
@@ -237,14 +234,6 @@
     },
     {
       "name": "pebbles-inhand-right",
-      "directions": 4
-    },
-    {
-      "name": "amina-inhand-left",
-      "directions": 4
-    },
-    {
-      "name": "amina-inhand-right",
       "directions": 4
     },
     {

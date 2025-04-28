@@ -84,7 +84,10 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         _userDbData.AddOnLoadPlayer(CachePlayerData);
         _userDbData.AddOnPlayerDisconnect(ClearPlayerData);
 
-        _webhookUrl = _cfg.GetCVar(NewParadiseCvars.DiscordBanWebhook); // LOP edit
+        // LOP edit start
+        _webhookUrl = _cfg.GetCVar(NewParadiseCvars.DiscordBanWebhook);
+        _serverName = _cfg.GetCVar(CCVars.ServerLobbyName);
+        // LOP edit end
     }
 
     private async Task CachePlayerData(ICommonSession player, CancellationToken cancel)
@@ -504,6 +507,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                     {
                         Description = Loc.GetString(
             "server-role-ban-string",
+            ("serverName", serverName), // LOP edit
             ("targetName", targetName),
             ("adminName", adminName),
             ("TimeNow", timeNow),
@@ -536,6 +540,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                     {
                         Description = Loc.GetString(
             "server-perma-role-ban-string",
+            ("serverName", serverName), // LOP edit
             ("targetName", targetName),
             ("adminName", adminName),
             ("TimeNow", timeNow),
@@ -599,6 +604,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                     {
                         Description = Loc.GetString(
             "server-time-ban-string",
+            ("serverName", serverName), // LOP edit
             ("targetName", targetName),
             ("adminName", adminName),
             ("TimeNow", timeNow),
@@ -630,6 +636,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                     {
                         Description = Loc.GetString(
             "server-perma-ban-string",
+            ("serverName", serverName), // LOP edit
             ("targetName", targetName),
             ("adminName", adminName),
             ("TimeNow", timeNow),

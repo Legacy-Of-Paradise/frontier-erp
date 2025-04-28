@@ -1,10 +1,10 @@
-ent-LPPClothingOuterVestPG = Бронежилет ПГ
+ent-LPPClothingOuterVestPG = бронежилет ПГ
     .desc = Оснащён стальной пластиной, хорошо защищающей от пуль. Также оснащён небольшими кармашками, в которых часто носят магазины.
-ent-LPPClothingOuterVestPGWrittenOff = Списанный бронежилет ПГ
+ent-LPPClothingOuterVestPGWrittenOff = списанный бронежилет ПГ
     .desc = Списанный бронежилет ПГ, хорошо защищающий от пуль. Также оснащён небольшими карманами, в которых часто носят магазины.
-ent-LPPClothingOuterVestUrbanPG = Бронежилет ПГ нейтральной расцветки
+ent-LPPClothingOuterVestUrbanPG = бронежилет ПГ нейтральной расцветки
     .desc = Оснащён стальной пластиной, хорошо защищающей от пуль. Также оснащён небольшими кармашками, в которых часто носят магазины.
-ent-LPPClothingOuterVestSalvager = Бронежилет утилизатора
+ent-LPPClothingOuterVestSalvager = бронежилет утилизатора
     .desc = Жилет с кевларовыми вставками и уплотнёного полиэтилена. Имеет дополнительные карманы для ваших находок на экспедиции.
-ent-LPPClothingOuterVestDeputySherif = Бронежилет ДШНГ
+ent-LPPClothingOuterVestDeputySherif = бронежилет ДШНГ
     .desc = Высококачественный бронежилет с нагрудным значком, показывающим, кто здесь настоящий закон.

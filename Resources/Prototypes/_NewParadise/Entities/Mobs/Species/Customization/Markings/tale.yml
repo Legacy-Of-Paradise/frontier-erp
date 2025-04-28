@@ -3,7 +3,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [ Human, SlimePerson, Oni ]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/tale.rsi
       state: succubus
@@ -13,7 +13,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2_lisichka_bolsh
@@ -23,7 +23,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2_lisichka
@@ -33,7 +33,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2_pushok
@@ -43,7 +43,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2_pyatna
@@ -53,7 +53,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/tale.rsi
       state: vulptail_s2
@@ -63,7 +63,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Human, Felinid]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/horns/tale.rsi
       state: seventail

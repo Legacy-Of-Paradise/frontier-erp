@@ -3,7 +3,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [Reptilian]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Customization/Markings/nine-tale.rsi
       state: nine

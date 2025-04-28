@@ -13,8 +13,8 @@
 # Secret
 Secrets
 _Private*
-Resources/Prototypes/_Private
-Resources/Textures/PERSONAL
+Resources/Prototypes/_SPrototypes
+Resources/Textures/_STextures
 
 # Build results
 [Dd]ebug/

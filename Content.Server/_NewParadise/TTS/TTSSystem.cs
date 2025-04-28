@@ -15,6 +15,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
+using Content.Server.VoiceMask;
 
 namespace Content.Server._NewParadise.TTS;
 
@@ -124,7 +125,7 @@ public sealed partial class TTSSystem : EntitySystem
                 }
             }
 
-            RaiseNetworkEvent(new PlayTTSEvent(GetNetEntity(entity), soundData, true), Filter.SinglePlayer(player),
+            RaiseNetworkEvent(new PlayTTSEvent(GetNetEntity(entity), soundData, true, false), Filter.SinglePlayer(player),
                 false);
         }
     }
@@ -142,7 +143,7 @@ public sealed partial class TTSSystem : EntitySystem
         var soundData = await GenerateTTS(GetEntity(ev.Uid), ev.Text, protoVoice.Speaker);
         if (soundData != null)
         {
-            RaiseNetworkEvent(new PlayTTSEvent(ev.Uid, soundData, false), Filter.SinglePlayer(session),
+            RaiseNetworkEvent(new PlayTTSEvent(ev.Uid, soundData, false, ev.IsWhisper), Filter.SinglePlayer(session),
                 false);
         }
     }
@@ -168,7 +169,7 @@ public sealed partial class TTSSystem : EntitySystem
         if (soundData is null)
             return;
 
-        var ttsEvent = new PlayTTSEvent(GetNetEntity(uid), soundData, false);
+        var ttsEvent = new PlayTTSEvent(GetNetEntity(uid), soundData, false, args.ObfuscatedMessage != null);
 
         // Say
         if (args.ObfuscatedMessage is null)
@@ -191,7 +192,7 @@ public sealed partial class TTSSystem : EntitySystem
         var obfSoundData = await GenerateTTS(uid, chosenWhisperText, protoVoice.Speaker);
         if (obfSoundData is null)
             return;
-        var obfTtsEvent = new PlayTTSEvent(GetNetEntity(uid), obfSoundData, false);
+        var obfTtsEvent = new PlayTTSEvent(GetNetEntity(uid), obfSoundData, false, args.ObfuscatedMessage != null);
         var xformQuery = GetEntityQuery<TransformComponent>();
         var sourcePos = _xforms.GetWorldPosition(xformQuery.GetComponent(uid), xformQuery);
         var receptions = Filter.Pvs(uid).Recipients;

@@ -91,3 +91,6 @@
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
+  - type: StaticPrice
+    price: 150
+    vendPrice: 5000

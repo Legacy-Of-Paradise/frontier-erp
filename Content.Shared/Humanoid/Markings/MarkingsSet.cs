@@ -233,6 +233,36 @@ public sealed partial class MarkingSet
         }
     }
 
+#if LOP_Sponsors
+    public void FilterSponsor(List<string> sponsorMarkings, MarkingManager? markingManager = null, IPrototypeManager? prototypeManager = null)
+    {
+        IoCManager.Resolve(ref markingManager);
+        IoCManager.Resolve(ref prototypeManager);
+
+        var toRemove = new List<(MarkingCategories category, string id)>();
+        foreach (var (category, list) in Markings)
+        {
+            foreach (var marking in list)
+            {
+                if (prototypeManager.TryIndex<MarkingPrototype>(marking.MarkingId, out var proto) && !proto.SponsorOnly)
+                {
+                    continue;
+                }
+
+                if (!sponsorMarkings.Contains(marking.MarkingId))
+                {
+                    toRemove.Add((category, marking.MarkingId));
+                }
+            }
+        }
+
+        foreach (var marking in toRemove)
+        {
+            Remove(marking.category, marking.id);
+        }
+    }
+#endif
+
     /// <summary>
     ///     Ensures that all markings in this set are valid.
     /// </summary>

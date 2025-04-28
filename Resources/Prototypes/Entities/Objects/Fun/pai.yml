@@ -75,6 +75,8 @@
     whitelist:
       components:
         - SecretStash
+  - type: TTS
+    voicePrototypeId: skippy
 
 - type: entity
   parent: [ PersonalAI, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband

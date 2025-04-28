@@ -1,7 +1,7 @@
 - type: tile
   id: FloorPlanetDirt
-  name: tiles-dirt-floor
-  sprite: /Textures/Tiles/Planet/dirt.rsi/dirt.png
+  name: tiles-dirt-floor-undiggable # Frontier: add undiggable
+  sprite: /Textures/Tiles/Planet/dirt/dirt.png
   variants: 4
   placementVariants:
   - 1.0
@@ -125,7 +125,6 @@
   baseTurf: FloorDirt
   itemDrop: FloorTileItemSnow # Delta V
   deconstructTools: [ Digging ] # Frontier
-  # canShovel: true # Delta V # Frontier
   isSubfloor: true
   footstepSounds:
     collection: FootstepSnow

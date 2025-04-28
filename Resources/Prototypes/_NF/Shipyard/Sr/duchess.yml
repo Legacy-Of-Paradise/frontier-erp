@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: NT Duchess
   description: Мобильный офис и личный транспорт для представителя станции на базе SBB Bodkin. # LOP edit
-  price: 24500 #Appraises at ~22000. Markup of ~9%.
+  price: 25000 #Appraises at ~22920. Markup of ~9%.
   category: Small
   group: Sr
   access: HeadOfPersonnel

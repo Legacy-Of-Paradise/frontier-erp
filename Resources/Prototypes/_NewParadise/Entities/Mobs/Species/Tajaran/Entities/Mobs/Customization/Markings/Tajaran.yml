@@ -120,7 +120,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [TajaranSpecies]
-  # sponsorOnly: true # LPP-Sponsors
+  sponsorOnly: true # LPP-Sponsors
   sprites:
     - sprite: _NewParadise/Mobs/Customization/tajaran_head.rsi
       state: patch_SPONSOR_ONLY

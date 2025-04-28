@@ -1,6 +1,6 @@
-ent-LPPBedDoubleUp = Двойная кровать
+ent-LPPBedDoubleUp = двойная кровать
     .desc = На ней можно лежать или спать пристёгнутым.
     .suffix = { "верх." }
-ent-LPPBedDoubleDown = Двойная кровать
+ent-LPPBedDoubleDown = двойная кровать
     .desc = На ней можно лежать или спать пристёгнутым.
     .suffix = { "ниж." }
