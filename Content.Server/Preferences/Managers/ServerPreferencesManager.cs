@@ -139,9 +139,11 @@ namespace Content.Server.Preferences.Managers
             if (_sponsors.TryGetInfo(userId, out var sponsor))
             {
                 sponsorTier = sponsor.Tier;
-                var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
                 if (sponsorTier > 3)
+                {
+                    var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
                     allowedMarkings = marks.Concat(sponsor.AllowedMarkings).ToList();
+                }
             }
 #endif
 

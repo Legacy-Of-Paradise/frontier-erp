@@ -1607,7 +1607,7 @@ namespace Content.Client.Lobby.UI
             try
             {
                 //LOP edit start
-                List<string> marks = default!;
+                List<string> marks = new();
 #if LOP_Sponsors
                 int sponsorTier = 0;
                 if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
