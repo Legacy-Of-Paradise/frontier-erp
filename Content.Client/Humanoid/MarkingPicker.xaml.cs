@@ -51,7 +51,7 @@ public sealed partial class MarkingPicker : Control
 
     public string IgnoreCategories
     {
-        get => string.Join(',',  _ignoreCategories);
+        get => string.Join(',', _ignoreCategories);
         set
         {
             _ignoreCategories.Clear();
@@ -130,7 +130,7 @@ public sealed partial class MarkingPicker : Control
         RobustXamlLoader.Load(this);
         IoCManager.InjectDependencies(this);
 
-        CMarkingCategoryButton.OnItemSelected +=  OnCategoryChange;
+        CMarkingCategoryButton.OnItemSelected += OnCategoryChange;
         CMarkingsUnused.OnItemSelected += item =>
             _selectedUnusedMarking = CMarkingsUnused[item.ItemIndex];
 
@@ -412,7 +412,7 @@ public sealed partial class MarkingPicker : Control
     private void OnUsedMarkingSelected(ItemList.ItemListSelectedEventArgs item)
     {
         _selectedMarking = CMarkingsUsed[item.ItemIndex];
-        var prototype = (MarkingPrototype) _selectedMarking.Metadata!;
+        var prototype = (MarkingPrototype)_selectedMarking.Metadata!;
 
         if (prototype.ForcedColoring)
         {
@@ -467,7 +467,7 @@ public sealed partial class MarkingPicker : Control
     private void ColorChanged(int colorIndex)
     {
         if (_selectedMarking is null) return;
-        var markingPrototype = (MarkingPrototype) _selectedMarking.Metadata!;
+        var markingPrototype = (MarkingPrototype)_selectedMarking.Metadata!;
         int markingIndex = _currentMarkings.FindIndexOf(_selectedMarkingCategory, markingPrototype.ID);
 
         if (markingIndex < 0) return;
@@ -490,7 +490,7 @@ public sealed partial class MarkingPicker : Control
             return;
         }
 
-        var marking = (MarkingPrototype) _selectedUnusedMarking.Metadata!;
+        var marking = (MarkingPrototype)_selectedUnusedMarking.Metadata!;
         var markingObject = marking.AsMarking();
 
         // We need add hair markings in cloned set manually because _currentMarkings doesn't have it
@@ -551,7 +551,7 @@ public sealed partial class MarkingPicker : Control
     {
         if (_selectedMarking is null) return;
 
-        var marking = (MarkingPrototype) _selectedMarking.Metadata!;
+        var marking = (MarkingPrototype)_selectedMarking.Metadata!;
 
         _currentMarkings.Remove(_selectedMarkingCategory, marking.ID);
 

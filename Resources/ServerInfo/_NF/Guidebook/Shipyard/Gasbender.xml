@@ -1,101 +1,27 @@
 <Document>
   # GASBENDER-ШАТТЛ ИНЖЕНЕРНОГО КЛАССА
   <Box>
-  <GuideEntityEmbed Entity="PowerDrill"/>
-  <GuideEntityEmbed Entity="JawsOfLife"/>
-  <GuideEntityEmbed Entity="ShipyardRCD"/>
-  <GuideEntityEmbed Entity="HolofanProjector"/>
-  </Box>
-  <Box>
-  <GuideEntityEmbed Entity="GasPressurePump"/>
-  <GuideEntityEmbed Entity="GasFilterFlipped"/>
-  <GuideEntityEmbed Entity="GasVentScrubber"/>
+  <GuideEntityEmbed Entity="NFPosterContrabandLvhiSpace" Caption=""/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="ShuttleMapGasbender" Caption=""/>
   </Box>
-    [color=#a4885c]Размер судна:[/color] Средний
+  [color=#a4885c]Размер судна:[/color] Средний
 
-	[color=#a4885c]Рекомендуемый экипаж:[/color] 3-6
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 3-6
 
-	[color=#a4885c]Тип генератора энергии:[/color] ДАМ
+  [color=#a4885c]Тип генератора энергии:[/color] ДАМ
 
-	[color=#a4885c]Экспедиции:[/color] Да
+  [color=#a4885c]Экспедиции:[/color] Да
 
-	[color=#a4885c]Консоль идентификации:[/color] Нет
+  [color=#a4885c]Консоль идентификации:[/color] Нет
 
   "Gasbender - это инженерное судно среднего размера, оснащенное для строительных проектов в дальнем космосе и сбора газа на планетах. Оснащено установкой "Аэратор" с камерой смешивания/воспламенения. Предназначен для работы в паре с Утильским судном Maloeer. Изготовлен компанией Lyngstad-Voigt Heavy Industries."
 
-    # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
-
-  ## 1. Источник питания
-
-  ## 1.1. Аккумуляторные блоки
-  <Box>
-  <GuideEntityEmbed Entity="SMESBasic"/>
-  <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="APCBasic"/>
-  </Box>
-
-  - Убедитесь, что модуль СМЭС надежно закреплен на полу.
-  - Убедитесь, что подстанция надежно закреплена на полу.
-  - Убедитесь, что главный ЛКП включен.
-  - Проверьте текущую нагрузку блока ЛКП* (Вт).
-
-  ## 1.2. Генератор ДАМ.
-  <Box>
-  <GuideEntityEmbed Entity="AmeController"/>
-  <GuideEntityEmbed Entity="AmeJar"/>
-  </Box>
-
-  - Убедитесь, что сердечник ДАМ должным образом построен.
-  - Убедитесь, что блок управления ДАМ надежно закреплен на полу.
-  - Проверьте состояние топлива в ДАМ.
-  - Проверьте объем впрыска топлива в ДАМ.
-  - Включите впрыск
-
-  ## 2. Атмосфера
-
-  ## 2.1. Распределительный контур
-  <Box>
-  <GuideEntityEmbed Entity="OxygenCanister"/>
-  <GuideEntityEmbed Entity="NitrogenCanister"/>
-  <GuideEntityEmbed Entity="GasMixer"/>
-  <GuideEntityEmbed Entity="GasPressurePump"/>
-  </Box>
-
-  - Настройте предварительную мощность насоса O2 на 101 кПа.
-  - Включите насос для подачи O2.
-  - Настройте предварительную мощность насоса N2 на 101 кПа.
-  - Включите выходной насос N2.
-  - Убедитесь, что газовый смеситель настроен на правильное соотношение компонентов (21% кислорода, 79% азота).
-  - Убедитесь, что газовый смеситель настроен на давление 101 кПа.
-  - Включите газовый смеситель.
-  - Убедитесь, что распределительный насос настроен на давление 101 кПа.
-  - Включите распределительный насос.
-
-  ## 2.2. Выпускной контур
-  <Box>
-  <GuideEntityEmbed Entity="GasPressurePump"/>
-  <GuideEntityEmbed Entity="AirAlarm"/>
-  </Box>
-
-  - Включите насос выпускного контура.
-  - Установите воздушную сигнализацию в машинном отделении на фильтрующую (широкую).
-
-  ## 3. Другие проверки
-  <Box>
-  <GuideEntityEmbed Entity="Gyroscope"/>
-  <GuideEntityEmbed Entity="GravityGeneratorMini"/>
-  <GuideEntityEmbed Entity="BlastDoor"/>
-  </Box>
-
-  - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
-  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
-  - Убедитесь, что противопожарные шлюзы работают.
-
-  ## Рекомендации опытных пилотов
-
-  * - Инженерные суда класса Gasbender оснащены пятью KRG, которые можно использовать для оценки общего энергопотребления судна. Для поддержания работоспособности корабля класса Gasbender в неизменном виде требуется мощность в 40 кВ.
+  # Tips on running LVHI Gasbender shuttles
+  - The total power load for the shuttle in standard complectation is 49 [bold]kW[/bold]. For more general info on the power grid, see the guidebook article [textlink="Power" link="Power"], and for more info about the Antimatter Engine, see the guidebook article [textlink="AME" link="AME"].
+  - The shuttle comes with necessary equipment for Offshore Gas Mining. To learn the basics, see the guidebook article [textlink="Offshore Gas Mining" link="OffshoreGasMining"].
+  - For more general info on atmospherics see the guidebook article about [textlink="Atmospherics" link="Atmospherics"].
+  - For basics of shuttle piloting see [textlink="Piloting" link="Piloting"].
 
 </Document>

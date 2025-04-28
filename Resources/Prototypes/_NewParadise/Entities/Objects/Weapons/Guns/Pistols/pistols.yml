@@ -242,7 +242,7 @@
     delay: 1
   - type: StaticPrice
     price: 150
-    vendPrice: 15500
+    vendPrice: 25500
 
 - type: entity
   name: auto pistol "MARS"
@@ -285,4 +285,4 @@
         ents: []
   - type: StaticPrice
     price: 500
-    vendPrice: 10500
+    vendPrice: 20500

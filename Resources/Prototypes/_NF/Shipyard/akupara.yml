@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: UW Akupara
   description: "Средний полнофункциональный биодом для ботанических исследований, оснащенный всем необходимым для того, чтобы помочь полноценно взаимодействовать с растениями практически любым возможным способом." #LOP Edit
-  price: 52000
+  price: 56500
   category: Medium
   group: Medical
   shuttlePath: /Maps/_NewParadise/Shuttles/akupara.yml # LOP edit

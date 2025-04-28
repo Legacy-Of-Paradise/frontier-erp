@@ -3773,3 +3773,103 @@ Entries:
       message: Contraband vendomats no longer spawn on LVHI Brigand.
   id: 5963
   time: '2025-04-25T13:19:44.0000000+00:00'
+- author: PeccNeck
+  changes:
+    - type: Add
+      message: The spray painter can now color pipes purple.
+  id: 5964
+  time: '2025-04-25T16:37:18.0000000+00:00'
+- author: Myzumi
+  changes:
+    - type: Tweak
+      message: PTech now has Mercenary and Pilot PDA's for the SR/Sheriff
+  id: 5965
+  time: '2025-04-25T16:37:26.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Tweak
+      message: Guns found on expedition are now worth more money.
+  id: 5966
+  time: '2025-04-25T16:38:21.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: Dragons and carp now share the same faction.
+  id: 5967
+  time: '2025-04-25T16:39:47.0000000+00:00'
+- author: whatston3
+  changes:
+    - type: Fix
+      message: Riders can now be pulled off of vehicles.
+  id: 5968
+  time: '2025-04-26T00:48:14.0000000+00:00'
+- author: ErhardSteinhauer
+  changes:
+    - type: Add
+      message: >-
+        Added a dumpster, a large storage container for holding trash and
+        recyclable wreck chunks. Available from cargo.
+    - type: Tweak
+      message: Boxes with magnets now have visuals showing if they're on.
+  id: 5969
+  time: '2025-04-26T21:18:08.0000000+00:00'
+- author: ErhardSteinhauer
+  changes:
+    - type: Remove
+      message: >-
+        Removed gas masks, air tanks, and flashlights from departmental EVA
+        storage.
+    - type: Add
+      message: >-
+        Added magboots to departmental EVA storage and added a double emergency
+        tank with an equally split O₂/N₂ mix.
+  id: 5970
+  time: '2025-04-26T21:26:30.0000000+00:00'
+- author: Alkheemist
+  changes:
+    - type: Fix
+      message: The appraisegrid command does not include the value of ghosts onboard.
+  id: 5971
+  time: '2025-04-27T02:25:43.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Fix
+      message: Heimdall wallmount charger and mapping refinements.
+  id: 5972
+  time: '2025-04-27T06:06:47.0000000+00:00'
+- author: Tych0theSynth
+  changes:
+    - type: Tweak
+      message: Updated the SBB Lyrae.
+  id: 5973
+  time: '2025-04-27T13:42:03.0000000+00:00'
+- author: arimah
+  changes:
+    - type: Tweak
+      message: >-
+        The Ceres has been completely reworked. It's familiar but different,
+        slightly bigger and slightly more expensive, but with more features and
+        a whole new layout. Yes, there are more docks now.
+  id: 5974
+  time: '2025-04-27T13:55:17.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated LVHI Legman.
+  id: 5975
+  time: '2025-04-27T20:42:31.0000000+00:00'
+- author: tonotom1
+  changes:
+    - type: Add
+      message: >-
+        The Akupara has received upgrades! Bed and holopad to bridge, portable
+        scrubber and new airlock at atmos, seedvend upgraded to a biogenerator.
+        Service techfab added. Smartfridge, medifab, and med assembler added.
+  id: 5976
+  time: '2025-04-27T22:09:51.0000000+00:00'
+- author: erhardsteinhauer
+  changes:
+    - type: Tweak
+      message: Updated LVHI Gasbender.
+  id: 5977
+  time: '2025-04-27T22:53:37.0000000+00:00'

@@ -70,7 +70,7 @@
     fireStacks: 0.5
   - type: StaticPrice
     price: 150
-    vendPrice: 60000
+    vendPrice: 80000
 
 - type: entity
   name: energy scythe
