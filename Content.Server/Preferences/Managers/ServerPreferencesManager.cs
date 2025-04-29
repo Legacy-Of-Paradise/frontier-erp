@@ -139,9 +139,11 @@ namespace Content.Server.Preferences.Managers
             if (_sponsors.TryGetInfo(userId, out var sponsor))
             {
                 sponsorTier = sponsor.Tier;
-                var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
                 if (sponsorTier > 3)
+                {
+                    var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
                     allowedMarkings = marks.Concat(sponsor.AllowedMarkings).ToList();
+                }
             }
 #endif
 
@@ -393,10 +395,10 @@ namespace Content.Server.Preferences.Managers
                 int sponsorTier = 0;
                 if (_sponsors.TryGetInfo(session.UserId, out var sponsor))
                 {
+                    sponsorTier = sponsor.Tier;
                     var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
                     marks.Concat(sponsor.AllowedMarkings);
                     allowedMarkings = marks.ToList();
-                    sponsorTier = sponsor.Tier;
                 }
 #endif
                 //LOP edit end
