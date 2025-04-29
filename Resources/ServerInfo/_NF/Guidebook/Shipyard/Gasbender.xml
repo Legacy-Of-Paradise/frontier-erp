@@ -18,10 +18,10 @@
 
   "Gasbender - это инженерное судно среднего размера, оснащенное для строительных проектов в дальнем космосе и сбора газа на планетах. Оснащено установкой "Аэратор" с камерой смешивания/воспламенения. Предназначен для работы в паре с Утильским судном Maloeer. Изготовлен компанией Lyngstad-Voigt Heavy Industries."
 
-  # Tips on running LVHI Gasbender shuttles
-  - The total power load for the shuttle in standard complectation is 49 [bold]kW[/bold]. For more general info on the power grid, see the guidebook article [textlink="Power" link="Power"], and for more info about the Antimatter Engine, see the guidebook article [textlink="AME" link="AME"].
-  - The shuttle comes with necessary equipment for Offshore Gas Mining. To learn the basics, see the guidebook article [textlink="Offshore Gas Mining" link="OffshoreGasMining"].
-  - For more general info on atmospherics see the guidebook article about [textlink="Atmospherics" link="Atmospherics"].
-  - For basics of shuttle piloting see [textlink="Piloting" link="Piloting"].
+  # Советы по эксплуатации шаттлов LVHI Gasbender
+  - Общая потребляемая мощность шаттла в стандартной комплектации составляет 49 [bold]кВт[/bold]. Для получения дополнительной информации об энергосети см. статью руководства [textlink=""Энергия" link="Power"], а для получения дополнительной информации об антиматериальном двигателе см. статью руководства [textlink="ДАМ" link="AME"].
+  - Шаттл поставляется с необходимым оборудованием для морской газодобычи. Чтобы узнать основы, см. статью руководства [textlink="Добыча газов" link="OffshoreGasMining"].
+  - Для получения дополнительной информации об атмосферике см. статью руководства об [textlink="Атмосфера" link="Atmospherics"].
+  - Основные сведения об управлении шаттлом см. в [textlink="Пилотирование" link="Piloting"].
 
 </Document>

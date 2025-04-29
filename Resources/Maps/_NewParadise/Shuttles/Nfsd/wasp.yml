@@ -9553,8 +9553,6 @@ entities:
   entities:
   - uid: 1414
     components:
-    - type: MetaData
-      name: кнопка блокировки
     - type: Transform
       pos: 0.48732072,-5.17708
       parent: 1

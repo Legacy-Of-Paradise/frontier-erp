@@ -25,3 +25,6 @@ ent-NFMobRainbowWyvernFire = виверна
 ent-NFMobRainbowWyvernCaustic = виверна
     .suffix = Фронтир, Взрыв
     .desc = { ent-NFMobRainbowWyvernIce.desc }
+ent-NFMobDragonDungeon = { ent-NFMobRestrictions }
+    .suffix = Дандж, Фронтир
+    .desc = { ent-NFMobRestrictions.desc }

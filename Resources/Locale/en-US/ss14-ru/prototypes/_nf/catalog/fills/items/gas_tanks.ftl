@@ -1,3 +1,9 @@
 ent-DoubleEmergencyAirTankFilled = { ent-DoubleEmergencyAirTank }
     .suffix = Filled
     .desc = { ent-DoubleEmergencyAirTank.desc }
+ent-NFTankO2N2EqualFilled = { ent-NFTankO2N2Equal }
+    .suffix = Filled
+    .desc = { ent-NFTankO2N2Equal.desc }
+ent-DoubleEmergencyTankO2N2EqualFilled = { ent-DoubleEmergencyTankO2N2Equal }
+    .suffix = Filled
+    .desc = { ent-DoubleEmergencyTankO2N2Equal.desc }

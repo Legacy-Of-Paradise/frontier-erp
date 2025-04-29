@@ -1447,8 +1447,6 @@ entities:
         - Pressed: Toggle
   - uid: 240
     components:
-    - type: MetaData
-      name: пушка 1
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 1.3038858,-1.5
@@ -1460,8 +1458,6 @@ entities:
         - Pressed: Trigger
   - uid: 241
     components:
-    - type: MetaData
-      name: пушка 2
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 1.7622192,-1.5

@@ -55,7 +55,7 @@ entities:
   - uid: 2173
     components:
     - type: MetaData
-      name: Аванпост "Фронтир"
+      name: Аванпост
     - type: Transform
       parent: 5691
     - type: MapGrid
@@ -16144,7 +16144,7 @@ entities:
       pos: -0.5,0.5
       parent: 2173
     - type: NavMapBeacon
-      text: ДОК 6a
+      text: ДОК 6а
   - uid: 5830
     components:
     - type: Transform
@@ -16179,7 +16179,7 @@ entities:
       pos: 28.5,27.5
       parent: 2173
     - type: NavMapBeacon
-      text: ДОК 6b
+      text: ДОК 6б
 - proto: DefaultStationBeaconBridge
   entities:
   - uid: 4954
@@ -19204,9 +19204,6 @@ entities:
   entities:
   - uid: 412
     components:
-    - type: MetaData
-      desc: Удобная на вид лежанка для кошки. Эта, похоже, сильно поцарапана по бокам.
-      name: кошачья кровать
     - type: Transform
       pos: 27.5,18.5
       parent: 2173
@@ -29916,9 +29913,6 @@ entities:
   entities:
   - uid: 2848
     components:
-    - type: MetaData
-      desc: Здесь хранят скелеты прошлого.
-      name: шкафчик
     - type: Transform
       pos: -36.5,28.5
       parent: 2173

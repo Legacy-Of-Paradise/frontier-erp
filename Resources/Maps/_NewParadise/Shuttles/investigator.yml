@@ -4879,8 +4879,6 @@ entities:
   entities:
   - uid: 18
     components:
-    - type: MetaData
-      name: рычаг конвеера
     - type: Transform
       pos: 3.5,0.5
       parent: 2

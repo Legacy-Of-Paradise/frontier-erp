@@ -3559,8 +3559,6 @@ entities:
   entities:
   - uid: 213
     components:
-    - type: MetaData
-      name: переключатель болтов шлюза
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 0.6868397,-5.5010557
@@ -3573,8 +3571,6 @@ entities:
         - Pressed: DoorBolt
   - uid: 314
     components:
-    - type: MetaData
-      name: переключатель защитной двери
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 0.3153828,-5.5009885
