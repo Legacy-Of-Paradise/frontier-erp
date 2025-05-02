@@ -4,9 +4,9 @@ ent-MobDragon = { ent-BaseMobDragon }
     .desc = { ent-BaseMobDragon.desc }
 ent-DragonsBreathGun = dragon's lung
     .desc = For dragon's breathing.
-ent-MobDragonDungeon = { ent-NFMobRestrictions }
+ent-MobDragonDungeon = { ent-BaseMobDragon }
     .suffix = Dungeon
-    .desc = { ent-NFMobRestrictions.desc }
+    .desc = { ent-BaseMobDragon.desc }
 ent-ActionSpawnRift = Summon Carp Rift
     .desc = Summons a carp rift that will periodically spawns carps.
 ent-ActionDevour = [color=red]Devour[/color]

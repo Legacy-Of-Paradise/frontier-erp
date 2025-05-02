@@ -1056,8 +1056,6 @@ entities:
   entities:
   - uid: 1229
     components:
-    - type: MetaData
-      name: воздушная сигнализация нио
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 30.5,27.5
@@ -1074,8 +1072,6 @@ entities:
       - 2036
   - uid: 1237
     components:
-    - type: MetaData
-      name: воздушная сигнализация инженерии
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 18.5,6.5
@@ -1088,8 +1084,6 @@ entities:
       - 2106
   - uid: 1239
     components:
-    - type: MetaData
-      name: воздушная сигнализация сервиса
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -3.5,-1.5
@@ -1108,8 +1102,6 @@ entities:
       - 2093
   - uid: 1240
     components:
-    - type: MetaData
-      name: воздушная сигнализация химии
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -23.5,10.5
@@ -1124,8 +1116,6 @@ entities:
       - 2073
   - uid: 1241
     components:
-    - type: MetaData
-      name: воздушная сигнализация крио/био
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -29.5,28.5
@@ -1150,8 +1140,6 @@ entities:
       - 2102
   - uid: 1278
     components:
-    - type: MetaData
-      name: воздушная сигнализация коридоров
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -1.5,11.5
@@ -1207,8 +1195,6 @@ entities:
       - 2099
   - uid: 2254
     components:
-    - type: MetaData
-      name: воздушная сигнализация общежития
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -3.5,11.5
@@ -1235,8 +1221,6 @@ entities:
       - 2072
   - uid: 2255
     components:
-    - type: MetaData
-      name: воздушная сигнализация другого
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -7.5,23.5

@@ -238,10 +238,13 @@ public sealed partial class MarkingPicker : Control
 #if LOP_Sponsors
                 if (_sponsorsManager.TryGetInfo(out var sponsor))
                 {
-                    string[] marks = default!;
+                    bool havemarks = false;
                     if (sponsor.Tier > 3)
-                        marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                    item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID) || sponsor.AllowedMarkings.Contains("ALL") || marks.Contains(marking.ID));
+                    {
+                        var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
+                        havemarks = marks.Contains(marking.ID);
+                    }
+                    item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID) || sponsor.AllowedMarkings.Contains("ALL") || havemarks);
                 }
 #endif
             }

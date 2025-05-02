@@ -12,7 +12,7 @@
   id: Liquidator
   parent: BaseVessel
   name: LVHI Liquidator
-  description: "Небольшое судно для утилизации кораблей, или их спасения, оборудованный всем необходимым для долгой работы небольшого экипажа. Произведено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
+  description: "Небольшое судно для утилизации кораблей, или их спасения, оборудованный всем необходимым для долгой работы небольшого экипажа. Произведено Langstad-Voigt Heavy Industries." #LOP Edit
   price: 27500 # ~25000$ on mapinit + 10% markup
   category: Small
   group: Shipyard

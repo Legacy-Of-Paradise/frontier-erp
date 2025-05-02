@@ -829,16 +829,12 @@ entities:
   entities:
   - uid: 1358
     components:
-    - type: MetaData
-      name: Воздушная сигнализация инженерии
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -19.5,-1.5
       parent: 1
   - uid: 1359
     components:
-    - type: MetaData
-      name: Воздушная сигнализация дока
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 3.5,18.5
@@ -849,8 +845,6 @@ entities:
       - 1261
   - uid: 1360
     components:
-    - type: MetaData
-      name: Воздушная сигнализация земель
     - type: Transform
       pos: -1.5,-5.5
       parent: 1
@@ -860,8 +854,6 @@ entities:
       - 1297
   - uid: 1362
     components:
-    - type: MetaData
-      name: Воздушная сигнализация ректората
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -1.5,-1.5
@@ -871,8 +863,6 @@ entities:
       - 1253
   - uid: 1363
     components:
-    - type: MetaData
-      name: Воздушная сигнализация часовни
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 2.5,-1.5
@@ -1021,46 +1011,34 @@ entities:
   entities:
   - uid: 671
     components:
-    - type: MetaData
-      name: ЛКП доков
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 3.5,22.5
       parent: 1
   - uid: 673
     components:
-    - type: MetaData
-      name: ЛКП земель
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 3.5,-13.5
       parent: 1
   - uid: 674
     components:
-    - type: MetaData
-      name: ЛКП ректората
     - type: Transform
       pos: -5.5,1.5
       parent: 1
   - uid: 676
     components:
-    - type: MetaData
-      name: ЛКП вестибюль
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -0.5,-3.5
       parent: 1
   - uid: 677
     components:
-    - type: MetaData
-      name: ЛКП инженерии
     - type: Transform
       pos: -22.5,2.5
       parent: 1
   - uid: 767
     components:
-    - type: MetaData
-      name: ЛКП часовни
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 9.5,-0.5
@@ -7271,16 +7249,11 @@ entities:
   entities:
   - uid: 1387
     components:
-    - type: MetaData
-      desc: Табличка, приветствующая посетителей аванпоста «Маяк» корпорации Всецеркви, построенного из астероида.
-      name: Добро пожаловать
     - type: Transform
       pos: 1.5,17.5
       parent: 1
   - uid: 1388
     components:
-    - type: MetaData
-      desc: Табличка, приветствующая посетителей аванпоста «Маяк» корпорации Всецеркви, построенного из астероида.
     - type: Transform
       pos: -0.5,17.5
       parent: 1

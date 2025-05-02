@@ -4,11 +4,13 @@
   path:
     path: /Audio/_NF/Jukebox/victory.ogg
 
-- type: jukebox
-  id: shibamata
-  name: Shibamata
-  path:
-    path: /Audio/_NF/Jukebox/shibamata.ogg
+# LOP edit start
+#- type: jukebox
+#  id: shibamata
+#  name: Shibamata
+#  path:
+#    path: /Audio/_NF/Jukebox/shibamata.ogg
+# LOP edit end
 
 - type: jukebox
   id: lateraligator

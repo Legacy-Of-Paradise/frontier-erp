@@ -1607,15 +1607,17 @@ namespace Content.Client.Lobby.UI
             try
             {
                 //LOP edit start
-                List<string> marks = default!;
+                List<string> marks = new();
 #if LOP_Sponsors
                 int sponsorTier = 0;
                 if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
                 {
                     sponsorTier = sponsorInfo.Tier;
-                    var sponsormarks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
                     if (sponsorTier > 3)
+                    {
+                        var sponsormarks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
                         marks = sponsormarks.Concat(sponsorInfo.AllowedMarkings).ToList();
+                    }
                 }
 #endif
                 var profile = _entManager.System<HumanoidAppearanceSystem>().FromStream(file, _playerManager.LocalSession!, marks
