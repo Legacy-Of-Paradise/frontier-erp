@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineCuddlyCritterVend
   name: CuddlyCritterVend
   description: Step into the world of wonder and warmth with Cuddly Critters Vending Machine, a haven for plushie and toy enthusiasts alike.
@@ -16,23 +16,21 @@
     sprite: _NF/Structures/Machines/VendingMachines/cuddlycritter.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
   - type: MarketModifier
     mod: 15
-    MinMod: 15 # LoP Edit
-    MaxMod: 15 # LoP Edit
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineAstroVend
   name: AstroVend
   description: Essential gear for the spaceman on the go.
@@ -49,12 +47,12 @@
     sprite: _NF/Structures/Machines/VendingMachines/astrovend.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -69,7 +67,7 @@
     pack: AstroVendPOIInventory
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineFlatpackVend
   name: FlatpackVend
   description: Essential tech for the spaceman on the go.
@@ -81,29 +79,27 @@
     normalState: normal-unshaded
     ejectState: eject-unshaded
     denyState: deny-unshaded
-  #  - type: Advertise
-  #    pack: FlatpackVendAds
+#  - type: Advertise
+#    pack: FlatpackVendAds
   - type: Sprite
     sprite: _NF/Structures/Machines/VendingMachines/flatpackvend.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
   - type: MarketModifier
     mod: 25
-    MinMod: 25 # LoP Edit
-    MaxMod: 25 # LoP Edit
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachineFlatpackVend ]
+  parent: [BaseStructureDisableAnchoring, VendingMachineFlatpackVend]
   id: VendingMachineExpeditionaryFlatpackVend
   name: Expeditionary FlatpackVend
   description: Essential tech for the spaceman on an expedition.
@@ -114,7 +110,7 @@
     sprite: _NF/Structures/Machines/VendingMachines/expeditionaryflatpackvend.rsi
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, StorePresetUplink, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, StorePresetUplink, VendingMachine]
   id: VendingMachineSyndieContraband
   name: ContraVend
   description: Wanted across multiple sectors!
@@ -133,15 +129,15 @@
     sprite: _NF/Structures/Machines/VendingMachines/contravend.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: "screen"
-      map: [ "enum.VendingMachineVisualLayers.Screen" ]
+      map: ["enum.VendingMachineVisualLayers.Screen"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.5
     energy: 1.3
@@ -156,7 +152,7 @@
     balance:
       Telecrystal: 4 # Small initial balance
   - type: AccessReader
-    access: [ [ "NuclearOperative" ], [ "SyndicateAgent" ] ]
+    access: [["NuclearOperative"], ["SyndicateAgent"]]
 
 - type: entity
   parent: VendingMachine
@@ -170,18 +166,18 @@
     brokenState: broken
     normalState: normal-unshaded
     # ejectState: eject-unshaded  No sprite, see chefvend/dinnerware/BODA/etc for expamples
-    #  - type: Advertise
-    #    pack: BountyVendAds
+#  - type: Advertise
+#    pack: BountyVendAds
   - type: Sprite
     sprite: _NF/Structures/Machines/VendingMachines/bountyvend.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -201,32 +197,32 @@
   parent: [ VendingMachine, BaseC3Contraband ]
   description: Selling clothes from another reality for cheap prices!
   components:
-  - type: VendingMachine
-    pack: ArcadiaDrobeInventory
-    dispenseOnHitChance: 0.25
-    dispenseOnHitThreshold: 2
-    offState: off
-    brokenState: broken
-    normalState: normal-unshaded
-    # ejectState: eject-unshaded  No sprite, see chefvend/dinnerware/BODA/etc for expamples
-    # denyState: deny-unshaded
-    ejectDelay: 3
-  - type: Advertise
-    pack: ArcadiaDrobeAds
-  - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/arcadiadrobe.rsi
-    layers:
-    - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
-    - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
-      shader: unshaded
-    - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-  - type: PointLight
-    radius: 1.5
-    energy: 1.6
-    color: "#ff033e"
+    - type: VendingMachine
+      pack: ArcadiaDrobeInventory
+      dispenseOnHitChance: 0.25
+      dispenseOnHitThreshold: 2
+      offState: off
+      brokenState: broken
+      normalState: normal-unshaded
+      # ejectState: eject-unshaded  No sprite, see chefvend/dinnerware/BODA/etc for expamples
+      # denyState: deny-unshaded
+      ejectDelay: 3
+    - type: Advertise
+      pack: ArcadiaDrobeAds
+    - type: Sprite
+      sprite: _NF/Structures/Machines/VendingMachines/arcadiadrobe.rsi
+      layers:
+      - state: "off"
+        map: ["enum.VendingMachineVisualLayers.Base"]
+      - state: "off"
+        map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+        shader: unshaded
+      - state: panel
+        map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - type: PointLight
+      radius: 1.5
+      energy: 1.6
+      color: "#ff033e"
 
 - type: entity
   parent: VendingMachine
@@ -234,40 +230,40 @@
   name: LessLethalVend
   description: Making violence safe since '08.
   components:
-  - type: VendingMachine
-    pack: LessLethalVendInventory
-    dispenseOnHitChance: 0.25
-    dispenseOnHitThreshold: 2
-    offState: off
-    brokenState: broken
-    normalState: normal-unshaded
-    ejectState: eject-unshaded
-    denyState: deny-unshaded
-    ejectDelay: 3
-  - type: Advertise
-    pack: LessLethalVendAds
-  - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/lesslethalvend.rsi
-    layers:
-    - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
-    - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
-      shader: unshaded
-    - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-  - type: PointLight
-    radius: 1.5
-    energy: 1.6
-    color: "#ff033e"
+    - type: VendingMachine
+      pack: LessLethalVendInventory
+      dispenseOnHitChance: 0.25
+      dispenseOnHitThreshold: 2
+      offState: off
+      brokenState: broken
+      normalState: normal-unshaded
+      ejectState: eject-unshaded
+      denyState: deny-unshaded
+      ejectDelay: 3
+    - type: Advertise
+      pack: LessLethalVendAds
+    - type: Sprite
+      sprite: _NF/Structures/Machines/VendingMachines/lesslethalvend.rsi
+      layers:
+      - state: "off"
+        map: ["enum.VendingMachineVisualLayers.Base"]
+      - state: "off"
+        map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+        shader: unshaded
+      - state: panel
+        map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - type: PointLight
+      radius: 1.5
+      energy: 1.6
+      color: "#ff033e"
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, LessLethalVendingMachine ]
+  parent: [BaseStructureDisableAnchoring, LessLethalVendingMachine]
   id: LessLethalVendingMachinePOI
   suffix: POI
   components:
-  - type: VendingMachine
-    pack: LessLethalVendPOIInventory
+    - type: VendingMachine
+      pack: LessLethalVendPOIInventory
 
 - type: entity
   parent: VendingMachine
@@ -275,35 +271,35 @@
   name: NonLethalVend
   description: Try not to aim for the eyes!
   components:
-  - type: VendingMachine
-    pack: NonLethalVendInventory
-    dispenseOnHitChance: 0.25
-    dispenseOnHitThreshold: 2
-    offState: off
-    brokenState: broken
-    normalState: normal-unshaded
-    ejectState: eject-unshaded
-    denyState: deny-unshaded
-    ejectDelay: 3
-  - type: Advertise
-    pack: LessLethalVendAds
-  - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/nonlethalvend.rsi
-    layers:
-    - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
-    - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
-      shader: unshaded
-    - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
-  - type: PointLight
-    radius: 1.5
-    energy: 1.6
-    color: "#ff033e"
+    - type: VendingMachine
+      pack: NonLethalVendInventory
+      dispenseOnHitChance: 0.25
+      dispenseOnHitThreshold: 2
+      offState: off
+      brokenState: broken
+      normalState: normal-unshaded
+      ejectState: eject-unshaded
+      denyState: deny-unshaded
+      ejectDelay: 3
+    - type: Advertise
+      pack: LessLethalVendAds
+    - type: Sprite
+      sprite: _NF/Structures/Machines/VendingMachines/nonlethalvend.rsi
+      layers:
+      - state: "off"
+        map: ["enum.VendingMachineVisualLayers.Base"]
+      - state: "off"
+        map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+        shader: unshaded
+      - state: panel
+        map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - type: PointLight
+      radius: 1.5
+      energy: 1.6
+      color: "#ff033e"
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineAutoTuneVend
   name: AutoTune
   description: Feeling BASSed? Time to TUNE into AutoVend! Take NOTES and let your audience TREBLE.
@@ -315,45 +311,44 @@
     normalState: normal-unshaded
     ejectState: eject-unshaded
     denyState: deny-unshaded
-  #  - type: Advertise
-  #    pack: AutoTuneVendAds
+#  - type: Advertise
+#    pack: AutoTuneVendAds
   - type: Sprite
     sprite: _NF/Structures/Machines/VendingMachines/autotunevend.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
-  #Interface
+#Interface
   - type: UserInterface
     interfaces:
       enum.VendingMachineUiKey.Key:
         type: VendingMachineBoundUserInterface
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
-      enum.InstrumentUiKey.Key:
-        # Added
+      enum.InstrumentUiKey.Key: # Added
         type: InstrumentBoundUserInterface # Added
-  #Music
+#Music
   - type: Instrument
     allowPercussion: true
     allowProgramChange: true
     handheld: false
-    #Ghost
-    # - type: GhostRole
+#Ghost
+  # - type: GhostRole
     # makeSentient: true
     # allowSpeech: true
-    # - type: GhostTakeoverAvailable
+  # - type: GhostTakeoverAvailable
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachinePottedPlantVend
   name: Plant-O-Matic
   description: Sometimes potted plants are the best crewmates money can get.
@@ -371,12 +366,12 @@
     sprite: _NF/Structures/Machines/VendingMachines/pottedplantvend.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.4
     energy: 1.7
@@ -385,7 +380,7 @@
     color: "#EEEEFF"
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineNfsdDrobe
   name: NFSDDrobe
   description: A vending machine for NFSD and NFSD clothing!
@@ -401,17 +396,17 @@
     sprite: _NF/Structures/Machines/VendingMachines/nfsddrobe.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
-    access: [ [ "Security" ] ]
+    access: [["Security"]]
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineYarrrDrobe
   name: YarrrDrobe
   description: A vending machine for skallywags and booty lovers!
@@ -427,15 +422,15 @@
     sprite: _NF/Structures/Machines/VendingMachines/yarrrdrobe.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: [ BaseStructureDisableAnchoring, VendingMachine ]
+  parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineNfsdTech
   name: NFSDTech
   description: A vending machine for NFSD and NFSD tech!
@@ -451,28 +446,26 @@
     sprite: _NF/Structures/Machines/VendingMachines/nfsdtech.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: AccessReader
-    access: [ [ "Security" ] ]
+    access: [["Security"]]
 
 - type: entity
-  parent: [ BaseStructureDisableScrewing, BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag, VendingMachineCart ]
+  parent: [BaseStructureDisableScrewing, BaseStructureIndestructible, BaseStructureAccessReaderImmuneToEmag, VendingMachineCart]
   id: NFVendingMachineCart
   suffix: SR
   components:
   - type: VendingMachine
     pack: NFPTechInventory
   - type: AccessReader
-    access: [ [ "HeadOfPersonnel" ] ]
+    access: [["HeadOfPersonnel"]]
   - type: MarketModifier
     mod: 5
-    MinMod: 5 # LoP Edit
-    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: NFVendingMachineCart
@@ -482,7 +475,7 @@
   - type: VendingMachine
     pack: NFPTechNfsdInventory
   - type: AccessReader
-    access: [ [ "HeadOfSecurity" ] ]
+    access: [["HeadOfSecurity"]]
 
 # Punk stuff
 - type: entity
@@ -507,13 +500,13 @@
     sprite: Structures/Machines/VendingMachines/clothing.rsi
     layers:
     - state: "broken"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - sprite: _NF/Structures/Machines/VendingMachines/vandalized.rsi
       state: clothing-vandalized-unshaded
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - sprite: _NF/Structures/Holo/graffiti/simple.rsi
       state: holograffiti01
       map: [ "graffiti" ]
@@ -539,12 +532,12 @@
     sprite: _NF/Structures/Machines/VendingMachines/bountyvend.rsi
     layers:
     - state: "broken"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "broken"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
     - sprite: _NF/Structures/Holo/graffiti/simple.rsi
       state: holograffiti01
       map: [ "graffiti" ]
@@ -556,7 +549,7 @@
     color: "#4b93ad"
 
 - type: entity
-  parent: [ BaseStructureDisableToolUse, BaseStructureIndestructible, VendingMachine ]
+  parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, VendingMachine]
   id: VendingMachineFuelVend
   name: FuelVend
   description: A vendor selling fuel for ship engines. Smells like ozone.
@@ -577,12 +570,12 @@
     sprite: _NF/Structures/Machines/VendingMachines/fuelvend.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
   id: BaseCiviMedVend
@@ -604,27 +597,25 @@
     color: "#4b93ad"
   - type: MarketModifier
     mod: 30 # damn
-    MinMod: 30 # LoP Edit
-    MaxMod: 30 # LoP Edit
   - type: Sprite
     sprite: _NF/Structures/Machines/VendingMachines/civimed.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: [ BaseCiviMedVend, BaseStructureDisableAnchoring, BaseStructureIndestructible, VendingMachine ]
+  parent: [BaseCiviMedVend, BaseStructureDisableAnchoring, BaseStructureIndestructible, VendingMachine]
   id: VendingMachineCiviMedPlus
   name: CiviMed Plus
   description: CiviMed Plus, distributing lifesaving meds harder than the rocks you break! Miners, DON'T DIE!
 
 - type: entity
-  parent: [ BaseCiviMedVend, BaseStructureDisableAnchoring, BaseStructureIndestructible, VendingMachineWallmount ]
+  parent: [BaseCiviMedVend, BaseStructureDisableAnchoring, BaseStructureIndestructible, VendingMachineWallmount]
   id: VendingMachineCiviMed
   name: CiviMed
   description: CiviMed, distributing lifesaving meds harder than the rocks you break! Miners, DON'T DIE!
@@ -652,18 +643,18 @@
     sprite: _NF/Structures/Machines/VendingMachines/valetdrobe.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.5
     energy: 1.6
     color: "#4b93ad"
   - type: AccessReader
-    access: [ [ "Service" ] ] # Mail Carrier and Janitor teaming up to loot the machine dry.
+    access: [["Service"]] # Mail Carrier and Janitor teaming up to loot the machine dry.
 
 - type: entity
   parent: VendingMachine
@@ -685,12 +676,12 @@
     sprite: _NF/Structures/Machines/VendingMachines/mailvend.rsi
     layers:
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.Base" ]
+      map: ["enum.VendingMachineVisualLayers.Base"]
     - state: "off"
-      map: [ "enum.VendingMachineVisualLayers.BaseUnshaded" ]
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
       shader: unshaded
     - state: panel
-      map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -699,7 +690,7 @@
 # POI versions of upstream machines
 
 - type: entity
-  parent: [ VendingMachineAmmo, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineAmmo, BaseStructureDisableAnchoring]
   id: VendingMachineAmmoPOI
   suffix: POI
   components:
@@ -707,7 +698,7 @@
     pack: WeaponryWorksVendPOIInventory
 
 - type: entity
-  parent: [ VendingMachineEngivend, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineEngivend, BaseStructureDisableAnchoring]
   id: VendingMachineEngivendPOI
   suffix: POI
   components:
@@ -715,7 +706,7 @@
     pack: EngiVendPOIInventory
 
 - type: entity
-  parent: [ VendingMachineVendomat, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineVendomat, BaseStructureDisableAnchoring]
   id: VendingMachineVendomatPOI
   suffix: POI
   components:
@@ -723,7 +714,7 @@
     pack: VendomatPOIInventory
 
 - type: entity
-  parent: [ VendingMachineYouTool, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineYouTool, BaseStructureDisableAnchoring]
   id: VendingMachineYouToolPOI
   suffix: POI
   components:
@@ -731,7 +722,7 @@
     pack: YouToolPOIInventory
 
 - type: entity
-  parent: [ VendingMachineSalvage, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineSalvage, BaseStructureDisableAnchoring]
   id: VendingMachineSalvagePOI
   suffix: POI
   components:
@@ -739,7 +730,7 @@
     pack: NFSalvageEquipmentPOIInventory
 
 - type: entity
-  parent: [ VendingMachineMediDrobe, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineMediDrobe, BaseStructureDisableAnchoring]
   id: VendingMachineMediDrobePOI
   suffix: POI
   components:
@@ -747,7 +738,7 @@
     pack: MediDrobeInventory
 
 - type: entity
-  parent: [ VendingMachinePottedPlantVend, BaseStructureDisableAnchoring ]
+  parent: [VendingMachinePottedPlantVend, BaseStructureDisableAnchoring]
   id: VendingMachinePottedPlantVendPOI
   suffix: POI
   components:
@@ -755,7 +746,7 @@
     pack: PottedPlantVendInventory
 
 - type: entity
-  parent: [ VendingMachineGames, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineGames, BaseStructureDisableAnchoring]
   id: VendingMachineGamesPOI
   suffix: POI
   components:
@@ -763,7 +754,7 @@
     pack: GoodCleanFunInventory
 
 - type: entity
-  parent: [ VendingMachineCigs, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineCigs, BaseStructureDisableAnchoring]
   id: VendingMachineCigsPOI
   suffix: POI
   components:
@@ -771,7 +762,7 @@
     pack: CigaretteMachineInventory
 
 - type: entity
-  parent: [ VendingMachineBooze, BaseStructureDisableAnchoring ]
+  parent: [VendingMachineBooze, BaseStructureDisableAnchoring]
   id: VendingMachineBoozePOI
   suffix: POI
   components:
@@ -781,7 +772,7 @@
 # Gas Tank Dispenser
 
 - type: entity
-  parent: [ VendingMachineTankDispenserEVA, BaseStructureDisableAnchoring ] #This one is flagged as POI
+  parent: [VendingMachineTankDispenserEVA, BaseStructureDisableAnchoring] #This one is flagged as POI
   id: VendingMachineTankDispenserEVAPOI
   suffix: POI, EVA [O2, N2]
   components:
