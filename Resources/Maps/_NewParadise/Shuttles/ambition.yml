@@ -2116,62 +2116,46 @@ entities:
   entities:
   - uid: 123
     components:
-    - type: MetaData
-      name: лкп носовой части
     - type: Transform
       pos: 10.5,26.5
       parent: 1
   - uid: 1177
     components:
-    - type: MetaData
-      name: лкп мидели корабля 2
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 3.5,7.5
       parent: 1
   - uid: 1178
     components:
-    - type: MetaData
-      name: лкп мидели корабля 1
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -2.5,7.5
       parent: 1
   - uid: 1598
     components:
-    - type: MetaData
-      name: лкп правого борта
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 10.5,-1.5
       parent: 1
   - uid: 1620
     components:
-    - type: MetaData
-      name: лкп мидели
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 3.5,-3.5
       parent: 1
   - uid: 1650
     components:
-    - type: MetaData
-      name: лкп левого борта
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -9.5,-1.5
       parent: 1
   - uid: 1726
     components:
-    - type: MetaData
-      name: лкп штерна 2
     - type: Transform
       pos: -0.5,-16.5
       parent: 1
   - uid: 2442
     components:
-    - type: MetaData
-      name: лкп штерна 1
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -0.5,-13.5
@@ -11480,8 +11464,6 @@ entities:
       color: '#990000FF'
   - uid: 950
     components:
-    - type: MetaData
-      name: аварийный клапан отходов
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -4.5,10.5
@@ -14410,15 +14392,11 @@ entities:
   entities:
   - uid: 1096
     components:
-    - type: MetaData
-      name: смэс 2
     - type: Transform
       pos: 1.5,-11.5
       parent: 1
   - uid: 1105
     components:
-    - type: MetaData
-      name: смэс 1
     - type: Transform
       pos: 1.5,-10.5
       parent: 1
@@ -14509,15 +14487,11 @@ entities:
   entities:
   - uid: 969
     components:
-    - type: MetaData
-      name: подстанция правого борта
     - type: Transform
       pos: 2.5,-7.5
       parent: 1
   - uid: 1357
     components:
-    - type: MetaData
-      name: подстанция левого борта
     - type: Transform
       pos: 1.5,-8.5
       parent: 1

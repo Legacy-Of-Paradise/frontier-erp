@@ -105,17 +105,30 @@
 - type: roleLoadout
   id: JobChef
   groups:
-  - GroupTankHarness
+  # LOP edit comment start
+#  - GroupTankHarness
   - ChefHead
-  - ChefMask
+#  - ChefMask
   - ChefJumpsuit
-  - CommonBackpack
+#  - CommonBackpack
   - ChefOuterClothing
-  - Glasses
-  - Survival
-  - Trinkets
-  - GroupSpeciesBreathTool
+#  - Glasses
+#  - Survival
+#  - Trinkets
+#  - GroupSpeciesBreathTool
+  # LOP edit comment end
   # LOP edit start
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorEars
+  - ContractorEncryptionKey
+  - ContractorBoxSurvival
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - NFSpeciesSpecific
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout

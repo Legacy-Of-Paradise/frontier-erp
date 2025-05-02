@@ -6824,8 +6824,6 @@ entities:
       parent: 1
   - uid: 489
     components:
-    - type: MetaData
-      name: ЛКП передней гостинной
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 5.5,26.5
@@ -6861,8 +6859,6 @@ entities:
       parent: 1
   - uid: 2596
     components:
-    - type: MetaData
-      name: ЛКП переднего дока
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 2.5,38.5
@@ -6875,8 +6871,6 @@ entities:
       parent: 1
   - uid: 2870
     components:
-    - type: MetaData
-      name: ЛКП почтовой комнаты
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -9.5,-3.5
@@ -6889,40 +6883,30 @@ entities:
       parent: 1
   - uid: 3126
     components:
-    - type: MetaData
-      name: ЛКП Правого борта
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 17.5,-1.5
       parent: 1
   - uid: 3407
     components:
-    - type: MetaData
-      name: ЛКП порта
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -9.5,-1.5
       parent: 1
   - uid: 3849
     components:
-    - type: MetaData
-      name: ЛКП кухни
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -6.5,10.5
       parent: 1
   - uid: 3919
     components:
-    - type: MetaData
-      name: ЛКП переда
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 3.5,20.5
       parent: 1
   - uid: 3953
     components:
-    - type: MetaData
-      name: ЛКП штерна
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -1.5,-9.5
@@ -6935,8 +6919,6 @@ entities:
       parent: 1
   - uid: 4098
     components:
-    - type: MetaData
-      name: ЛКП мостика
     - type: Transform
       pos: 13.5,-3.5
       parent: 1
@@ -6948,32 +6930,24 @@ entities:
       parent: 1
   - uid: 4341
     components:
-    - type: MetaData
-      name: ЛКП атмосферного отдела снабжения
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 40.5,8.5
       parent: 1
   - uid: 4373
     components:
-    - type: MetaData
-      name: ЛКП мед отсека
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 44.5,6.5
       parent: 1
   - uid: 4393
     components:
-    - type: MetaData
-      name: ЛКП коридора снабжения
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 40.5,-1.5
       parent: 1
   - uid: 4427
     components:
-    - type: MetaData
-      name: ЛКП туалета снабжения
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 46.5,-4.5
@@ -19617,7 +19591,7 @@ entities:
       parent: 1
     - type: NavMapBeacon
       color: '#7599D0FF'
-      text: Mail
+      text: Почта
 - proto: DefaultStationBeaconBridge
   entities:
   - uid: 5553

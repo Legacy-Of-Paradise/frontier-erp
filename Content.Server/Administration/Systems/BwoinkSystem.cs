@@ -685,36 +685,46 @@ namespace Content.Server.Administration.Systems
             var escapedText = FormattedMessage.EscapeText(message.Text);
 
             string bwoinkText;
-            string adminPrefix = "";
+            string adminPrefix = string.Empty;
 
-            //LOP edit start
-            var prefs = _preferencesManager.GetPreferences(senderId);
+            // LOP edit start
             string sponsorColor = "gray";
-#if LOP_Sponsors
-            if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(senderId, out var sponsorInfo))
-                sponsorColor = sponsorInfo.OOCColor;
-#endif
-            //LOP edit end
+            string oocColor = "gray";
 
-            //Getting an administrator position
+            if (!fromWebhook)
+            {
+                var prefs = _preferencesManager.GetPreferences(senderId);
+                if (prefs?.AdminOOCColor != null)
+                {
+                    oocColor = prefs.AdminOOCColor.ToHex();
+                }
+#if LOP_Sponsors
+    if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(senderId, out var sponsorInfo))
+    {
+        sponsorColor = sponsorInfo.OOCColor;
+    }
+#endif
+            }
+            // LOP edit end
+
             if (_config.GetCVar(CCVars.AhelpAdminPrefix) && senderAdmin is not null && senderAdmin.Title is not null)
             {
-                adminPrefix = $"[bold][color={prefs.AdminOOCColor.ToHex()}]\\[{senderAdmin.Title}\\][/color][/bold] ";
+                adminPrefix = $"[bold][color={oocColor}]\\[{senderAdmin.Title}\\][/color][/bold] "; // LOP edit
             }
 
             if (senderAdmin is not null &&
                 senderAdmin.Flags ==
                 AdminFlags.Adminhelp) // Mentor. Not full admin. That's why it's colored differently.
             {
-                bwoinkText = $"[color=purple]{adminPrefix}[/color][color={sponsorColor}]{senderName}[/color]";
+                bwoinkText = $"[color=purple]{adminPrefix}[/color][color={sponsorColor}]{senderName}[/color]"; // LOP edit
             }
             else if (fromWebhook || senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp)) // Frontier: anything sent via webhooks are from an admin.
             {
-                bwoinkText = $"{adminPrefix}[color={sponsorColor}]{senderName}[/color]";
+                bwoinkText = $"{adminPrefix}[color={sponsorColor}]{senderName}[/color]"; // LOP edit
             }
             else
             {
-                bwoinkText = $"[color={sponsorColor}]{senderName}[/color]";
+                bwoinkText = $"[color={sponsorColor}]{senderName}[/color]"; // LOP edit
             }
 
             bwoinkText = $"{(message.AdminOnly ? Loc.GetString("bwoink-message-admin-only") : !message.PlaySound ? Loc.GetString("bwoink-message-silent") : "")}{(fromWebhook ? Loc.GetString("bwoink-message-discord") : "")} {bwoinkText}: {escapedText}";

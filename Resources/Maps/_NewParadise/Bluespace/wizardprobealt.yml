@@ -2479,8 +2479,6 @@ entities:
   entities:
   - uid: 2
     components:
-    - type: MetaData
-      name: сломанная консоль опознавания
     - type: Transform
       pos: -0.5,1.5
       parent: 1
@@ -3573,8 +3571,6 @@ entities:
   entities:
   - uid: 898
     components:
-    - type: MetaData
-      name: сейф посохов
     - type: Transform
       pos: 2.5,-15.5
       parent: 1
@@ -3666,8 +3662,6 @@ entities:
   entities:
   - uid: 578
     components:
-    - type: MetaData
-      name: шкаф магов
     - type: Transform
       pos: 5.5,-11.5
       parent: 1
@@ -3705,8 +3699,6 @@ entities:
           ent: null
   - uid: 593
     components:
-    - type: MetaData
-      name: шкаф магов
     - type: Transform
       pos: 3.5,0.5
       parent: 1
@@ -3744,8 +3736,6 @@ entities:
           ent: null
   - uid: 598
     components:
-    - type: MetaData
-      name: шкаф магов
     - type: Transform
       pos: 2.5,0.5
       parent: 1
@@ -5007,8 +4997,6 @@ entities:
         - Pressed: Toggle
   - uid: 738
     components:
-    - type: MetaData
-      name: переключатель защитной двери
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 0.5,-20.5

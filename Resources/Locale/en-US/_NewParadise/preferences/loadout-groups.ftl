@@ -3,7 +3,6 @@
 loadout-group-bra = бюсгалтеры
 loadout-group-socks = носки
 loadout-group-underwear = трусы
-
 loadout-group-SponsorsClothing = Спонсорские предметы
 loadout-group-SponsorBack = Спонсорские предметы
 loadout-group-SponsorBelt = Спонсорские предметы

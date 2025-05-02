@@ -1,0 +1,10 @@
+ent-NFBaseMagnetBox = { ent-BaseStructureDynamic }
+    .desc = { ent-BaseStructureDynamic.desc }
+ent-NFMagnetBoxOre = ore box
+    .desc = A large storage container for collecting and holding unprocessed ores and fragments.
+ent-NFMagnetBoxConstruction = construction box
+    .desc = A large storage container for holding construction materials.
+ent-NFMagnetBoxPlant = plant box
+    .desc = A large storage container for holding plants and seeds.
+ent-NFMagnetBoxRubbish = dumpster
+    .desc = A large storage container for holding trash. It smells like the big city.
