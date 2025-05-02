@@ -1,5 +1,3 @@
-# LOP edit
-#
 - type: vessel
   id: AiSun
   parent: BaseVessel
