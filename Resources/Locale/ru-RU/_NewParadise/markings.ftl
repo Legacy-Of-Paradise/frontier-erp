@@ -30,7 +30,6 @@ marking-ReptilianBeard3 = Борода рептилии 3
 marking-ReptilianBeard4 = Борода рептилии 4
 marking-ReptilianBeard5 = Борода рептилии 5
 marking-ReptilianBeard6 = Борода рептилии 6
-
 marking-BunnyEars = Заячьи ушки
 marking-BunnyEars-bunnyearstone1 = Внешняя часть
 marking-BunnyEars-bunnyearstone2 = Внутренняя часть

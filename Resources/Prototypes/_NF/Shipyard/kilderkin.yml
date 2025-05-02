@@ -12,7 +12,7 @@
   id: Kilderkin
   parent: BaseVessel
   name: LVHI Kilderkin
-  description: "Просторный бар со всем необходимым для облегчения неправильного жизненного выбора: много выпивки, курения и недостаток еды. Произведено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
+  description: "Просторный бар со всем необходимым для облегчения неправильного жизненного выбора: много выпивки, курения и недостаток еды. Произведено Langstad-Voigt Heavy Industries." #LOP Edit
   price: 49500 # ~46564$ on mapinit + 5% markup + some extra
   category: Medium
   group: Shipyard

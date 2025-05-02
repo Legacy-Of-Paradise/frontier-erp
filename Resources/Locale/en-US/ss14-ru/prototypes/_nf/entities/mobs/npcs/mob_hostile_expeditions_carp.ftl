@@ -25,3 +25,6 @@ ent-NFMobRainbowWyvernFire = { ent-NFMobRainbowWyvernIce }
 ent-NFMobRainbowWyvernCaustic = { ent-NFMobRainbowWyvernIce }
     .suffix = Frontier, Caustic
     .desc = { ent-NFMobRainbowWyvernIce.desc }
+ent-NFMobDragonDungeon = { ent-NFMobRestrictions }
+    .suffix = Dungeon, Frontier
+    .desc = { ent-NFMobRestrictions.desc }

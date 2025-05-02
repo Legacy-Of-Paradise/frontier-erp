@@ -1,31 +1,31 @@
 <Document>
-  # LYRAE-CLASS SCIENCE SHUTTLE
+  # LYRAE - ШАТТЛ КЛАССА НАУЧНЫЙ
   <Box>
-  <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
-  <GuideEntityEmbed Entity="Protolathe"/>
-  <GuideEntityEmbed Entity="CircuitImprinter"/>
-  <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
+    <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
+    <GuideEntityEmbed Entity="Protolathe"/>
+    <GuideEntityEmbed Entity="CircuitImprinter"/>
+    <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
   </Box>
-  [color=#a4885c]Ship Size:[/color] Medium
+  [color=#a4885c]Размер корабля:[/color] Средний
 
-  [color=#a4885c]Recommended Crew:[/color] 2-4
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 2-4
 
-  [color=#a4885c]Power Gen Type:[/color] Bananium
+  [color=#a4885c]Тип генератора:[/color] Бананиум
 
-  [color=#a4885c]Expeditions:[/color] None
+  [color=#a4885c]Экспедиции:[/color] Нет
 
-  [color=#a4885c]IFF Console:[/color] None
+  [color=#a4885c]Консоль идентификации:[/color] Нет
 
-  "A medium size science vessel with laboratories for both anomalous and xenoarchaeology research."
+  "Научное судно среднего размера с лабораториями для исследований как аномальных явлений, так и ксеноархеологии."
 
-  [italic]Brought to you by BlueBird Starship Design & Construction.[/italic]
+  [italic]Предоставлено BlueBird Starship Design & Construction.[/italic]
 
-  # GETTING THE MOST OUT OF THE LYRAE
+  # Советы по эксплуатации LYRAE
 
-  - Customise your labs! The second lab is incomplete but is designed to be customisable for either an anomaly vessel or a second artifact analyser. 
-  - Make use of the gas transfer systems in the labs to capture any valuable gases produced by artifacts.
-  - The existing lattice and free space between the Lyrae's 'arms' are ideal space for storing artifacts or for expanding the ship itself.
-  - Consider hiring a salvager to work with you for all your artifact and material needs!
-  - The workshop has plenty of space for you to add new machines.
-  - Remember to increase the power output of the generator as you install more machines!
+  - Настройте свои лаборатории! Вторая лаборатория не завершена, но предназначена для настройки либо под аномальное судно, либо под второй анализатор артефактов.
+  - Используйте системы передачи газа в камеры для сбора любых ценных газов, производимых артефактами.
+  - Существующая решетка и свободное пространство между "руками" "Лиры" идеально подходят для хранения артефактов или для расширения самого корабля.
+  - Подумайте о найме утилизатора для работы с вами по всем вашим потребностям в артефактах и материалах!
+  - В мастерской достаточно места для добавления новых машин.
+  - Не забудьте увеличить выходную мощность генератора при установке дополнительных машин!
 </Document>

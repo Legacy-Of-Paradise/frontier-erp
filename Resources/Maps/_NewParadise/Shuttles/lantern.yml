@@ -458,8 +458,6 @@ entities:
       - 516
   - uid: 741
     components:
-    - type: MetaData
-      name: воздушная сигнализация двигателей
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -1.5,-17.5

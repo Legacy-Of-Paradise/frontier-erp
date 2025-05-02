@@ -21,7 +21,7 @@ time = 60.0
 
 [infolinks]
 discord = "https://wiki.legacyofparadise.space/discord"
-github = "https://github.com/Legacy-Of-Paradise/frontier-station"
+github = "https://github.com/Legacy-Of-Paradise/frontier-erp"
 wiki = "http://wiki.legacyofparadise.space/"
 patreon = "https://boosty.to/legacy-of-paradise"
 
@@ -29,9 +29,9 @@ patreon = "https://boosty.to/legacy-of-paradise"
 restart_required_ratio = 0.85
 same_type_timeout = 300.0
 timerrestart = 30
-map_enabled = true
-preset_enabled = true
-restart_enabled = true
+map_enabled = false
+preset_enabled = false
+restart_enabled = false
 
 [hub]
 advertise = true
@@ -49,6 +49,11 @@ market_stations = 3
 [admin]
 see_own_notes = true
 
+[interaction]
+rate_limit_announce_admins_delay = -1
+
 [ahelp]
 admin_prefix = true
+rate_limit_count = 2
+rate_limit_period = 10
 admin_prefix_webhook = true
