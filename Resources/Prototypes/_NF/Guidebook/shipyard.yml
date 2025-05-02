@@ -299,9 +299,3 @@
   id: ShipyardVitalis
   name: guide-entry-shipyard-vitalis
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Vitalis.xml"
-# LOP edit start
-- type: guideEntry
-  id: ShipyardAiSun
-  name: guide-entry-shipyard-AiSun
-  text: "/ServerInfo/_NewParadise/Guidebook/Shipyard/AiSun.xml"
-# LOP edit end

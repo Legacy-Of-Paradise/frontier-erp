@@ -453,16 +453,3 @@
     sprite: _NF/Guidebook/shuttle_maps/128x96.rsi
     state: vagabond
     scale: 1.2, 1.2
-# LOP edit start
-- type: entity
-  parent: PosterBase
-  id: ShuttleMapAiSun
-  name: "NR AiSun"
-  description: "Подробная карта шаттла AiSun"
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Guidebook/shuttle_maps/128x96.rsi
-    state: AiSun
-    scale: 1.2, 1.2
-# LOP edit end
