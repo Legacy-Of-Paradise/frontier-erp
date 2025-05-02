@@ -1,0 +1,13 @@
+hologram-return-to-shuttle = Вернуться к шаттлу.
+interview-hologram-approve = Одобрить
+interview-hologram-rescind = Отозвать одобрение
+interview-hologram-dismiss = Отклонить
+interview-hologram-dismiss-and-close = Отклонить и закрыть
+interview-hologram-dismiss-self = Отклонить себя
+interview-hologram-verb-message-need-deed = Чтобы сделать это, вам нужно ID с правом собственности на этот корабль.
+interview-hologram-message-cancelled = Вы покинули собеседование.
+interview-hologram-message-dismissed = Вы были отстранены от собеседования.
+interview-hologram-message-accepted = Вы получили работу!
+interview-hologram-pda-notification = { $applicant } прибыл на собеседование на должность { INDEFINITE($jobTitle) } { $jobTitle }.
+interview-notification-pda-header = Заявление о приеме на работу
+interview-notification-default-job = должность

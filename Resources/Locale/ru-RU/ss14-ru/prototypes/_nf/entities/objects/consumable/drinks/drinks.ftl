@@ -18,3 +18,6 @@ ent-DrinkBeesKnees = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
 ent-CondimentCup = чашка для приправ
     .desc = Непрочный стаканчик, в который можно положить приправы. Гарантия аннулируется, если в него положить другие предметы.
+ent-ChemistryBottleMysteryLiquid = { ent-BaseChemistryBottleFilled }
+    .suffix = Загадочная жидкость
+    .desc = { ent-BaseChemistryBottleFilled.desc }

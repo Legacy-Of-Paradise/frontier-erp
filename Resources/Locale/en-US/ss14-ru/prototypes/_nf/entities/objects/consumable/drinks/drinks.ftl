@@ -18,3 +18,6 @@ ent-DrinkBeesKnees = { ent-DrinkGlass }
     .desc = { ent-DrinkGlass.desc }
 ent-CondimentCup = condiment cup
     .desc = A flimsy cup that can be filled with condiments. Warranty void if filled with other things.
+ent-ChemistryBottleMysteryLiquid = { ent-BaseChemistryBottleFilled }
+    .suffix = Mystery liquid
+    .desc = { ent-BaseChemistryBottleFilled.desc }

@@ -2,7 +2,7 @@
   parent: PosterBase
   id: ShuttleMapAiSun
   name: "NR AiSun"
-  description: "Подробная карта шаттла AiSun"
+  description: "Detailed map of a AiSun"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

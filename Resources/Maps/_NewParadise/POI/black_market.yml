@@ -10637,7 +10637,7 @@ entities:
       pos: 0.5,3.5
       parent: 2
     - type: WarpPoint
-      location: Чёрный рынок
+      location: чёрный рынок
 - proto: WheatSeeds
   entities:
   - uid: 991
