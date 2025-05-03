@@ -56,34 +56,58 @@ def main():
 
 def get_most_recent_workflow(sess: requests.Session) -> Any:
     workflow_run = get_current_run(sess)
+    if not workflow_run:
+        print("Error: Could not get current workflow run information.")
+        return None
+
+    print(f"Current workflow run ID: {workflow_run['id']}")
+
     past_runs = get_past_runs(sess, workflow_run)
-    if past_runs and 'workflow_runs' in past_runs:
-        for run in past_runs['workflow_runs']:
-            # First past successful run that isn't our current run.
-            if run["id"] == workflow_run["id"]:
-                continue
-            if run.get("status") == "success":
-                return run
-    return None
+    if not past_runs or 'workflow_runs' not in past_runs:
+        print("Warning: Could not retrieve past workflow runs.")
+        return None
+
+    print(f"Number of past workflow runs found: {len(past_runs['workflow_runs'])}")
+
+    most_recent_successful_run = None
+    for run in past_runs['workflow_runs']:
+        print(f"Checking past run ID: {run['id']}, Status: {run.get('status')}")
+        if run["id"] == workflow_run["id"]:
+            print("Skipping current workflow run.")
+            continue
+        if run.get("status") == "success":
+            most_recent_successful_run = run
+            print(f"Found most recent successful run ID: {most_recent_successful_run['id']}")
+            break # Нашли первый успешный и более ранний, можно выходить
+
+    if most_recent_successful_run:
+        print(f"Most recent successful workflow run: {most_recent_successful_run['id']}")
+        return most_recent_successful_run
+    else:
+        print("Warning: No previous successful workflow run found.")
+        return None
 
 
 def get_current_run(sess: requests.Session) -> Any:
     resp = sess.get(f"{GITHUB_API_URL}/repos/{GITHUB_REPOSITORY}/actions/runs/{GITHUB_RUN}")
     resp.raise_for_status()
-    return resp.json()
+    data = resp.json()
+    print(f"get_current_run response: {data}") # Добавлено для отладки
+    return data
 
 
 def get_past_runs(sess: requests.Session, current_run: Any) -> Any:
-    """
-    Get all successful workflow runs before our current one.
-    """
     params = {
         "status": "success",
         "created": f"<={current_run['created_at']}"
     }
     resp = sess.get(f"{current_run['workflow_url']}/runs", params=params)
     resp.raise_for_status()
-    return resp.json()
+    data = resp.json()
+    print(f"get_past_runs response: {data}") # Добавлено для отладки
+    if 'workflow_runs' in data:
+        print(f"Contents of past_runs['workflow_runs']: {data['workflow_runs']}") # Добавлено для отладки
+    return data
 
 
 def get_last_changelog(sess: requests.Session, sha: str) -> str:
