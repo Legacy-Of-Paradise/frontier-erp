@@ -12,7 +12,7 @@ import requests
 import yaml
 from typing import Any, Iterable
 
-GITHUB_API_URL    = os.environ.get("GITHUB_API_URL", "https://api.github.com")
+GITHUB_API_URL     = os.environ.get("GITHUB_API_URL", "https://api.github.com")
 GITHUB_REPOSITORY = os.environ["GITHUB_REPOSITORY"]
 GITHUB_RUN        = os.environ["GITHUB_RUN_ID"]
 GITHUB_TOKEN      = os.environ["GITHUB_TOKEN"]
@@ -20,7 +20,6 @@ CHANGELOG_DIR     = os.environ["CHANGELOG_DIR"]
 CHANGELOG_WEBHOOK = os.environ["CHANGELOG_WEBHOOK"]
 
 # https://discord.com/developers/docs/resources/webhook
-DISCORD_SPLIT_LIMIT = 2000
 DISCORD_SPLIT_LIMIT = 1950  # Немного уменьшим лимит, чтобы учесть возможные накладные расходы
 
 TYPES_TO_EMOJI = {
@@ -37,18 +36,11 @@ def main():
         return
 
     session = requests.Session()
-    session.headers["Authorization"]        = f"Bearer {GITHUB_TOKEN}"
-    session.headers["Accept"]               = "Accept: application/vnd.github+json"
     session.headers["Authorization"]     = f"Bearer {GITHUB_TOKEN}"
     session.headers["Accept"]            = "Accept: application/vnd.github+json"
     session.headers["X-GitHub-Api-Version"] = "2022-11-28"
 
     most_recent = get_most_recent_workflow(session)
-    last_sha = most_recent['head_commit']['id']
-    print(f"Last successful publish job was {most_recent['id']}: {last_sha}")
-    last_changelog = yaml.safe_load(get_last_changelog(session, last_sha))
-    with open(CHANGELOG_DIR, "r") as f:
-        cur_changelog = yaml.safe_load(f)
     if most_recent and 'head_commit' in most_recent and 'id' in most_recent:
         last_sha = most_recent['head_commit']['id']
         print(f"Last successful publish job was {most_recent['id']}: {last_sha}")
@@ -56,8 +48,6 @@ def main():
         with open(CHANGELOG_DIR, "r") as f:
             cur_changelog = yaml.safe_load(f)
 
-    diff = diff_changelog(last_changelog, cur_changelog)
-    send_to_discord(diff)
         diff = diff_changelog(last_changelog, cur_changelog)
         send_to_discord(diff)
     else:
@@ -67,12 +57,6 @@ def main():
 def get_most_recent_workflow(sess: requests.Session) -> Any:
     workflow_run = get_current_run(sess)
     past_runs = get_past_runs(sess, workflow_run)
-    for run in past_runs['workflow_runs']:
-        # First past successful run that isn't our current run.
-        if run["id"] == workflow_run["id"]:
-            continue
-
-        return run
     if past_runs and 'workflow_runs' in past_runs:
         for run in past_runs['workflow_runs']:
             # First past successful run that isn't our current run.
@@ -125,7 +109,6 @@ def diff_changelog(old: dict[str, Any], cur: dict[str, Any]) -> Iterable[Changel
     if not old or not old.get("Entries"):
         return (e for e in cur.get("Entries", []))
     old_entry_ids = {e["id"] for e in old["Entries"]}
-    return (e for e in cur["Entries"] if e["id"] not in old_entry_ids)
     return (e for e in cur.get("Entries", []) if e["id"] not in old_entry_ids)
 
 
@@ -143,10 +126,8 @@ def get_discord_body(content: str):
 
 def send_discord(content: str):
     body = get_discord_body(content)
-
     print(f"Отправляю в Discord: {body}")  # Добавлено для отладки
     response = requests.post(CHANGELOG_WEBHOOK, json=body)
-    response.raise_for_status()
     try:
         response.raise_for_status()
         print("Сообщение успешно отправлено в Discord.")
@@ -161,12 +142,7 @@ def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
         return
 
     message_content = io.StringIO()
-    # We need to manually split messages to avoid discord's character limit
-    # With that being said this isn't entirely robust
-    # e.g. a sufficiently large CL breaks it, but that's a future problem
-
     for name, group in itertools.groupby(entries, lambda x: x["author"]):
-        # Need to split text to avoid discord character limit
         group_content = io.StringIO()
         group_content.write(f"## {name}:\n")
 
@@ -185,13 +161,6 @@ def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
         message_length = len(message_text)
         group_length = len(group_text)
 
-        # If adding the text would bring it over the group limit then send the message and start a new one
-        if message_length + group_length >= DISCORD_SPLIT_LIMIT:
-            print("Split changelog and sending to discord")
-            send_discord(message_text)
-
-            # Reset the message
-            message_content = io.StringIO()
         if message_length + group_length + len("\n") >= DISCORD_SPLIT_LIMIT: # Учитываем разделитель между группами
             if message_length > 0:
                 print("Разделяю и отправляю часть changelog в Discord")
@@ -201,14 +170,6 @@ def send_to_discord(entries: Iterable[ChangelogEntry]) -> None:
         else:
             message_content.write(group_text + "\n")
 
-        # Flush the group to the message
-        message_content.write(group_text)
-
-    # Clean up anything remaining
-    message_text = message_content.getvalue()
-    if len(message_text) > 0:
-        print("Sending final changelog to discord")
-        send_discord(message_text)
     # Отправляем оставшуюся часть
     final_message = message_content.getvalue()
     if len(final_message) > 0:
