@@ -111,7 +111,8 @@ def get_past_runs(sess: requests.Session, current_run: Any) -> Any:
     data = resp.json()
     print(f"get_past_runs response: {data}") # Добавлено для отладки
     if 'workflow_runs' in data:
-        print(f"Contents of past_runs['workflow_runs']: {[run.get('id'), run.get('status'), run.get('conclusion')] for run in data['workflow_runs']}") # Упрощенный вывод для статуса и conclusion
+        runs_info = [(run.get('id'), run.get('status'), run.get('conclusion')) for run in data['workflow_runs']]
+        print(f"Contents of past_runs['workflow_runs']: {runs_info}") # Исправленный вывод
     return data
 
 
