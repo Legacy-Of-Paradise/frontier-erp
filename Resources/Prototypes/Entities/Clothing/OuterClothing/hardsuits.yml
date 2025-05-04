@@ -563,7 +563,7 @@
 #LOP edit start
   - type: StaticPrice
     price: 275
-    vendPrice: 52500
+    vendPrice: 137500
 #LOP edit end
 
 # Syndicate Medic Hardsuit

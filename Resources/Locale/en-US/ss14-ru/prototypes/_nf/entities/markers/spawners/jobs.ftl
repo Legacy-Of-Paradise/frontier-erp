@@ -1,9 +1,15 @@
 ent-SpawnPointContractor = contractor
     .desc = { ent-SpawnPointPassenger.desc }
+ent-SpawnPointContractorInterview = contractor applicant
+    .desc = { ent-SpawnPointContractor.desc }
 ent-SpawnPointMercenary = mercenary
     .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointMercenaryInterview = mercenary applicant
+    .desc = { ent-SpawnPointMercenary.desc }
 ent-SpawnPointPilot = pilot
     .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointPilotInterview = pilot applicant
+    .desc = { ent-SpawnPointPilot.desc }
 ent-SpawnPointNFPirate = pirate
     .suffix = Frontier
     .desc = { ent-SpawnPointJobBase.desc }

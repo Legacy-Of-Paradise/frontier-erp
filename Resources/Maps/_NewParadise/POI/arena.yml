@@ -18404,7 +18404,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
       nameSet: True
-      id: Красный
+      id: красный
   - uid: 2473
     components:
     - type: Transform
@@ -18414,7 +18414,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraGeneral
       nameSet: True
-      id: Синий
+      id: синий
 - proto: SurveillanceCameraRouterGeneral
   entities:
   - uid: 3093
@@ -18434,7 +18434,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraEntertainment
       nameSet: True
-      id: Арена
+      id: арена
 - proto: Table
   entities:
   - uid: 178

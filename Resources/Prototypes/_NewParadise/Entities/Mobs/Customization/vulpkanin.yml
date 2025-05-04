@@ -3,6 +3,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
     state: bellycrest
@@ -12,6 +13,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
     state: foxbelly
@@ -21,6 +23,7 @@
   bodyPart: Chest
   markingCategory: Chest
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
     state: fullbelly
@@ -30,6 +33,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
     state: muzzle
@@ -39,6 +43,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
     state: muzzle_ear
@@ -48,6 +53,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
     state: points_fade
@@ -57,6 +63,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
     state: points_sharp
@@ -66,6 +73,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
     state: skull_sponsor
@@ -75,6 +83,7 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
     state: tiger_face
@@ -84,6 +93,57 @@
   bodyPart: Head
   markingCategory: Head
   speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
   sprites:
   - sprite: _NewParadise/Mobs/Customization/vulpkanin_head.rsi
     state: tiger_head
+
+- type: marking
+  id: LOPVulpBodyALtPointsFadeBelly
+  bodyPart: HeadTop
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: altpointsfadebelly
+
+- type: marking
+  id: LOPVulpBodyCrestPoints
+  bodyPart: HeadTop
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: crestpoints
+
+- type: marking
+  id: LOPVulpBodyPointsFade
+  bodyPart: HeadTop
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: pointsfade
+
+- type: marking
+  id: LOPVulpBodyPointsFadeBelly
+  bodyPart: HeadTop
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: pointsfadebelly
+
+- type: marking
+  id: LOPVulpBodySharpPoints
+  bodyPart: HeadTop
+  markingCategory: Overlay
+  speciesRestriction: [Vulpkanin]
+  sponsorOnly: true # Lost Paradise Sponsors
+  sprites:
+  - sprite: _NewParadise/Mobs/Customization/vulpkanin_body.rsi
+    state: sharppoints

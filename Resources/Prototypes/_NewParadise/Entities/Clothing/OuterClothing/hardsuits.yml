@@ -55,7 +55,7 @@
     clothingPrototype: LPPHardsuitHelmetAssaultParamedic
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC2Contraband]
   id: LPPClothingOuterHardsuitPilotSecurity
   name: pilot security hardsuit
   components:
@@ -83,7 +83,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitSecurityPilot
   - type: StaticPrice
     price: 100
-    vendPrice: 37500
+    vendPrice: 67500
 #- type: entity
 #  parent: ClothingOuterHardsuitBase
 #  id: LPPClothingOuterHardsuitSecurityEng
@@ -144,7 +144,7 @@
     clothingPrototype: LPPHardsuitHelmetSuppressor
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC2Contraband]
   id: LPPClothingOuterHardsuitMiksuit
   name: Discolored hardsuit GRT-21 "Támadó"
   description: The restored space suit of the syndicate agents, slightly modified to suit the wishes of the current owner.
@@ -177,7 +177,7 @@
     clothingPrototype: LPPClothingHeadHelmetMikhelm
   - type: StaticPrice
     price: 100
-    vendPrice: 45000
+    vendPrice: 125000
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -211,7 +211,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitChrono
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC3Contraband]
   id: LPPClothingOuterHardsuitBlueshield
   name: blueshield's hardsuit
   components:
@@ -240,7 +240,7 @@
     sprintModifier: 0.9
   - type: StaticPrice
     price: 250
-    vendPrice: 60000
+    vendPrice: 140000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -261,9 +261,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.65
-        Slash: 0.65
-        Piercing: 0.65
+        Blunt: 0.6
+        Slash: 0.6
+        Piercing: 0.55
         Heat: 0.95
         Radiation: 0.7
   - type: TemperatureProtection
@@ -275,7 +275,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitIICCommand
   - type: StaticPrice
     price: 450
-    vendPrice: 77500
+    vendPrice: 197500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -313,7 +313,7 @@
     clothingPrototype: LPPClothingHeadHelmetRND
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC3Contraband]
   id: LPPClothingOuterHardsuitScienceNPZ
   name: Hardsuit NPZ-34r - "Gelehrt"
   description: A research spacesuit designed for the work of NPZ scientists, as well as technicians in outer space and harsh planetary conditions.
@@ -368,11 +368,11 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.4
-        Slash: 0.4
+        Blunt: 0.65
+        Slash: 0.65
         Piercing: 0.4
         Caustic: 0.4
-        Heat: 0.4
+        Heat: 0.65
         Radiation: 0.1
         Shock: 0.4
         Cold: 0.4
@@ -382,14 +382,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: ClothingSpeedModifier
-    walkModifier: 1.0
-    sprintModifier: 1.0
+    walkModifier: 0.95
+    sprintModifier: 0.95
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitInteq
   - type: StaticPrice
     price: 250
-    vendPrice: 72500
+    vendPrice: 292500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -427,7 +427,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitUpgradedMining
   - type: StaticPrice
     price: 125
-    vendPrice: 37500
+    vendPrice: 77500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -465,7 +465,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitMiningPlus
   - type: StaticPrice
     price: 75
-    vendPrice: 37500
+    vendPrice: 87500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -503,7 +503,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitMiningJuggernaut
   - type: StaticPrice
     price: 125
-    vendPrice: 40000
+    vendPrice: 80000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -544,7 +544,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitDonkTrooper
   - type: StaticPrice
     price: 250
-    vendPrice: 65000
+    vendPrice: 200500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -584,7 +584,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitDonkElite
   - type: StaticPrice
     price: 500
-    vendPrice: 77500
+    vendPrice: 200250
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -604,9 +604,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.55
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.75
         Caustic: 0.4
         Heat: 0.55
         Radiation: 0.5
@@ -617,14 +617,14 @@
   - type: ExplosionResistance
     damageCoefficient: 0.2
   - type: ClothingSpeedModifier
-    walkModifier: 1.2
-    sprintModifier: 1.2
+    walkModifier: 1.1
+    sprintModifier: 1.1
   - type: HeldSpeedModifier
   - type: ToggleableClothing
     clothingPrototype: LPPClothingHeadHelmetHardsuitDonkMedic
   - type: StaticPrice
     price: 300
-    vendPrice: 67500
+    vendPrice: 197500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -745,7 +745,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitCybersunBasic
   - type: StaticPrice
     price: 250
-    vendPrice: 66500
+    vendPrice: 200000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -919,9 +919,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.75
-        Slash: 0.75
-        Piercing: 0.73
+        Blunt: 0.7
+        Slash: 0.7
+        Piercing: 0.75
         Caustic: 0.75
         Heat: 0.5
         Radiation: 0.65
@@ -939,7 +939,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexMedic
   - type: StaticPrice
     price: 250
-    vendPrice: 70000
+    vendPrice: 195000
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -979,10 +979,10 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitGorlexSoldier
   - type: StaticPrice
     price: 2500
-    vendPrice: 66500
+    vendPrice: 206500
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC2Contraband]
   id: LPPClothingOuterHardsuitAcientHos
   name: Hardsuit NT-014 - "Granite"
   description: A sturdy and very heavy hardsuit for total anigilation, it gives almost perfect protection.
@@ -1020,7 +1020,7 @@
       collection: LPPHeavyHardsuitMovement
   - type: StaticPrice
     price: 150
-    vendPrice: 42500
+    vendPrice: 112500
 
 - type: entity
   parent: ClothingOuterHardsuitBase
@@ -1058,10 +1058,10 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitSpatioUpgraded
   - type: StaticPrice
     price: 120
-    vendPrice: 37500
+    vendPrice: 87500
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC2Contraband]
   id: LPPClothingOuterHardsuitCombatAlternative
   name: Tactical hardsuit GRT|FPA-88 - "keshik MK.I"
   description: A purpose-built combat suit designed to protect its user against all manner of enemy combatants in low pressure environments.
@@ -1091,7 +1091,7 @@
     clothingPrototype: LPPClothingHeadHelmetHardsuitCombatAlternative
   - type: StaticPrice
     price: 150
-    vendPrice: 45000
+    vendPrice: 197500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC2ContrabandUnredeemable]
@@ -1212,7 +1212,7 @@
       - Energy
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC2Contraband]
   id: LPPClothingOuterHardsuitMiksuitJugger
   name: Discolored spacesuit GRT-43h - "Teknő"
   description: A restored spacesuit of old models of Cybersun juggernauts, modified to suit the wishes of the current owner.
@@ -1245,7 +1245,7 @@
     clothingPrototype: LPPClothingHeadHelmetMikhelmJugger
   - type: StaticPrice
     price: 125
-    vendPrice: 40000
+    vendPrice: 60000
 
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
@@ -1273,7 +1273,7 @@
         Heat: 0.95
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ClothingOuterHardsuitBase, BaseC2Contraband]
   id: LPPClothingOuterHardsuitHunter
   name: Hardsuit GRT-42w - "Vadász"
   description: The spacesuit of the GreyTide co. company, which recently appeared on the market of spacesuits for the needs of civilians as well as the military. Gray tones - the style!
@@ -1306,7 +1306,7 @@
     slot: head
   - type: StaticPrice
     price: 100
-    vendPrice: 39500
+    vendPrice: 59500
 
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
@@ -1344,4 +1344,4 @@
     slot: head
   - type: StaticPrice
     price: 125
-    vendPrice: 65500
+    vendPrice: 125500

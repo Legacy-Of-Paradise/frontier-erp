@@ -1,53 +1,49 @@
 ﻿- type: body
-  id: Tajaran
   name: "tajaran"
+  id: Tajaran
   root: torso
   slots:
     head:
-      part: LPPHeadTajaran
+      part: HeadTajaran
       connections:
-        - torso
+      - torso
       organs:
         brain: OrganHumanBrain
         eyes: OrganHumanEyes
     torso:
-      part: LPPTorsoTajaran
+      part: TorsoTajaran
       organs:
         heart: OrganAnimalHeart
         lungs: OrganHumanLungs
-        stomach: LPPOrganTajaranStomach
+        stomach: OrganTajaranStomach
         liver: OrganAnimalLiver
         kidneys: OrganHumanKidneys
       connections:
-        - right arm
-        - left arm
-        - right leg
-        - left leg
-        - tail
-    right arm:
-      part: LPPRightArmTajaran
+      - right_arm
+      - left_arm
+      - right_leg
+      - left_leg
+    right_arm:
+      part: RightArmTajaran
       connections:
-      - right hand
-    left arm:
-      part: LPPLeftArmTajaran
+      - right_hand
+    left_arm:
+      part: LeftArmTajaran
       connections:
-        - left hand
-    right hand:
-      part: LPPRightHandTajaran
-    left hand:
-      part: LPPLeftHandTajaran
-    right leg:
-      part: LPPRightLegTajaran
+      - left_hand
+    right_hand:
+      part: RightHandTajaran
+    left_hand:
+      part: LeftHandTajaran
+    right_leg:
+      part: RightLegTajaran
       connections:
-      - right foot
-    left leg:
-      part: LPPLeftLegTajaran
+      - right_foot
+    left_leg:
+      part: LeftLegTajaran
       connections:
-        - left foot
-    right foot:
-      part: LPPRightFootTajaran
-    left foot:
-      part: LPPLeftFootTajaran
-    tail:
-      part: LPPTailTajaran
-
+      - left_foot
+    right_foot:
+      part: RightFootTajaran
+    left_foot:
+      part: LeftFootTajaran

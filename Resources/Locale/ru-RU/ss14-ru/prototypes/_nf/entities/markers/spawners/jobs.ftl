@@ -1,9 +1,15 @@
 ent-SpawnPointContractor = авантюрист
     .desc = { ent-SpawnPointPassenger.desc }
+ent-SpawnPointContractorInterview = кандидат на авантюриста
+    .desc = { ent-SpawnPointContractor.desc }
 ent-SpawnPointMercenary = наёмник
     .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointMercenaryInterview = кандидат на наёмника
+    .desc = { ent-SpawnPointMercenary.desc }
 ent-SpawnPointPilot = пилот
     .desc = { ent-SpawnPointJobBase.desc }
+ent-SpawnPointPilotInterview = кандидат на пилота
+    .desc = { ent-SpawnPointPilot.desc }
 ent-SpawnPointNFPirate = пират
     .suffix = Фронтир
     .desc = { ent-SpawnPointJobBase.desc }

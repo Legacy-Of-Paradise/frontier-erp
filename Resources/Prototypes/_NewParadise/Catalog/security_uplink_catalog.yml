@@ -305,7 +305,7 @@
   description: uplink-security-goliath-desc
   productEntity: LPPWeaponGoliath
   cost:
-    FrontierUplinkCoin: 1
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityWeapons
   conditions:

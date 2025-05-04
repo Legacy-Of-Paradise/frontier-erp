@@ -86,7 +86,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 10
+    fireRate: 7.5 # LOP edit 10<7.5
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
   - type: MagazineVisuals
