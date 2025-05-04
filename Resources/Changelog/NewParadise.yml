@@ -700,3 +700,11 @@
   id: 47
   time: '2025-05-03T18:38:54.0000000+00:00'
   url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/126
+- author: PowerKAT
+  changes:
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D \u0430\u0442\u043C\
+      \u043E\u0441 \u043D\u0430 \u0430\u0432\u0430\u043D\u043F\u043E\u0441\u0442\u0435"
+    type: Fix
+  id: 48
+  time: '2025-05-04T12:44:47.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/127
