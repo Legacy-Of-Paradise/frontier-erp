@@ -28,6 +28,8 @@
     color: "#4b93ad"
   - type: MarketModifier
     mod: 15
+    MinMod: 15 # LoP Edit
+    MaxMod: 15 # LoP Edit
 
 - type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachine]
@@ -97,6 +99,8 @@
     color: "#4b93ad"
   - type: MarketModifier
     mod: 25
+    MinMod: 25 # LoP Edit
+    MaxMod: 25 # LoP Edit
 
 - type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachineFlatpackVend]
@@ -466,6 +470,8 @@
     access: [["HeadOfPersonnel"]]
   - type: MarketModifier
     mod: 5
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: NFVendingMachineCart

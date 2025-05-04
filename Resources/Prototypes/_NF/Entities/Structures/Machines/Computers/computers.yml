@@ -64,6 +64,8 @@
   components:
   - type: MarketModifier
     mod: 1.50
+    MinMod: 1.25 # LoP Edit
+    MaxMod: 1.75 # LoP Edit
 
 - type: entity
   parent: ComputerPalletConsoleNFMarket
@@ -72,6 +74,8 @@
   components:
   - type: MarketModifier
     mod: 1.25
+    MinMod: 1 # LoP Edit
+    MaxMod: 1.5 # LoP Edit
 
 - type: entity
   parent: ComputerPalletConsoleNFMarket
@@ -80,6 +84,8 @@
   components:
   - type: MarketModifier
     mod: 1.0
+    MinMod: 0.75 # LoP Edit
+    MaxMod: 1.25 # LoP Edit
 
 - type: entity
   parent: ComputerPalletConsoleNFMarket
@@ -88,6 +94,8 @@
   components:
   - type: MarketModifier
     mod: 0.75
+    MinMod: 0.5 # LoP Edit
+    MaxMod: 1 # LoP Edit
 
 - type: entity
   parent: ComputerPalletConsoleNFMarket
@@ -96,6 +104,8 @@
   components:
   - type: MarketModifier
     mod: 0.50
+    MinMod: 0.25 # LoP Edit
+    MaxMod: 0.75 # LoP Edit
 
 - type: entity
   name: contraband exchange computer
@@ -198,6 +208,8 @@
         type: WiresBoundUserInterface
   - type: MarketModifier
     mod: 1
+    MinMod: 0.75 # LoP Edit
+    MaxMod: 1.25 # LoP Edit
   - type: Computer
     board: Null
 
@@ -209,6 +221,8 @@
   components:
   - type: MarketModifier
     mod: 4
+    MinMod: 3 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   name: cargo market computer
@@ -218,6 +232,8 @@
   components:
   - type: MarketModifier
     mod: 6
+    MinMod: 5 # LoP Edit
+    MaxMod: 7 # LoP Edit
 
 - type: entity
   name: cargo market computer
@@ -227,6 +243,8 @@
   components:
   - type: MarketModifier
     mod: 8
+    MinMod: 7 # LoP Edit
+    MaxMod: 9 # LoP Edit
 
 - type: entity
   id: ComputerPirateBounty
@@ -444,6 +462,8 @@
   - type: MarketModifier
     buy: false
     mod: 1
+    MinMod: 0.75 # LoP Edit
+    MaxMod: 1.25 # LoP Edit
 
 - type: entity
   parent: GasSaleConsole
@@ -452,6 +472,8 @@
   components:
   - type: MarketModifier
     mod: 1.5
+    MinMod: 1.25 # LoP Edit
+    MaxMod: 1.75 # LoP Edit
 
 - type: entity
   parent: GasSaleConsole
@@ -460,6 +482,8 @@
   components:
   - type: MarketModifier
     mod: 1.25
+    MinMod: 1 # LoP Edit
+    MaxMod: 1.5 # LoP Edit
 
 - type: entity
   parent: GasSaleConsole
@@ -468,6 +492,8 @@
   components:
   - type: MarketModifier
     mod: 0.75
+    MinMod: 0.5 # LoP Edit
+    MaxMod: 1 # LoP Edit
 
 - type: entity
   parent: GasSaleConsole
@@ -476,6 +502,8 @@
   components:
   - type: MarketModifier
     mod: 0.5
+    MinMod: 0.25 # LoP Edit
+    MaxMod: 0.75 # LoP Edit
 
 # Station Traffic Controller consoles
 - type: entity

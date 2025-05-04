@@ -111,6 +111,8 @@
   # Frontier: vending machine modifications
   - type: MarketModifier
     mod: 10
+    MinMod: 10 # LoP Edit
+    MaxMod: 10 # LoP Edit
   - type: PotentialDeadDrop
     hintText: dead-drop-hint-vendor
   - type: VendingMachine
@@ -195,6 +197,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
     mod: 16 # LOP edit 12<16
+    MinMod: 16 # LoP Edit
+    MaxMod: 16 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -326,6 +330,8 @@
     color: "#4b93ad"
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -498,6 +504,8 @@
   # LOP edit start
   - type: MarketModifier
     mod: 10
+    MinMod: 10
+    MaxMod: 10
   # LOP edit end
 
 - type: entity
@@ -585,8 +593,12 @@
     radius: 1.5
     energy: 1.6
     color: "#CBC6BE"
-  - type: MarketModifier # LOP edit
-    mod: 10 # LOP edit
+  # LoP edit start
+  - type: MarketModifier
+    mod: 10
+    MinMod: 10
+    MaxMod: 10
+  # LoP edit end
 
 - type: entity
   parent: VendingMachineCola
@@ -787,6 +799,8 @@
     color: "#4b93ad"
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -853,6 +867,8 @@
   # LOP edit start
   - type: MarketModifier
     mod: 10
+    MinMod: 10
+    MaxMod: 10
   # LOP edit end
 
 - type: entity
@@ -913,6 +929,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -950,6 +968,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -986,6 +1006,8 @@
     access: [["Security"]]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1
     energy: 1.2
@@ -1029,6 +1051,8 @@
     color: "#326e3f"
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachineSeedsUnlocked
@@ -1037,6 +1061,8 @@
   components:
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -1075,6 +1101,8 @@
   # LOP edit start
   - type: MarketModifier
     mod: 10
+    MinMod: 10
+    MaxMod: 10
   # LOP edit end
 
 - type: entity
@@ -1319,6 +1347,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1.5
     energy: 1.6
@@ -1422,6 +1452,8 @@
   # LOP edit start
   - type: MarketModifier
     mod: 10
+    MinMod: 10
+    MaxMod: 10
   # LOP edit end
 
 - type: entity
@@ -1457,6 +1489,8 @@
   #   - Salvage # Frontier: removed guidebook entry
   - type: MarketModifier # Frontier
     mod: 15 # Frontier
+    MinMod: 15 # LoP Edit
+    MaxMod: 15 # LoP Edit
 
 - type: entity
   parent: VendingMachine
@@ -1492,6 +1526,8 @@
     color: "#d4ab33"
   - type: MarketModifier # Frontier
     mod: 10 # LOP edit 5<10
+    MinMod: 10 # LoP Edit
+    MaxMod: 10 # LoP Edit
 
 # wallmounted machines
 
@@ -1538,6 +1574,8 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
   - type: PointLight
     radius: 1.3
     energy: 1.6
@@ -2155,6 +2193,8 @@
 #    access: [["Kitchen"], ["Theatre"]] # Frontier
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 # Pride Vending Machine
 
@@ -2205,6 +2245,8 @@
     state: dispenser
   - type: MarketModifier # Frontier
     mod: 5 # Frontier
+    MinMod: 5 # LoP Edit
+    MaxMod: 5 # LoP Edit
 
 - type: entity
   parent: VendingMachine
