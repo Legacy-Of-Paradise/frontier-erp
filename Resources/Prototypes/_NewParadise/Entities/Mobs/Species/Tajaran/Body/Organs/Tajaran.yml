@@ -1,32 +1,10 @@
 ﻿- type: entity
-  id: LPPOrganTajaranStomach
+  id: OrganTajaranStomach
   parent: OrganAnimalStomach
   categories: [ HideSpawnMenu ]
   components:
-  # - type: Stomach
-  #   poorlyDigestibleFood:
-  #     reducedReagents:
-  #       - Nutriment
-  #       - Vitamin
-  #     whitelistTags:
-  #       - Fruit # Bread/Pizza tags aren't included according to the LostParadise's lore
-  #       - Vegetable
-  #     blacklistTags:
-  #       - Meat # Meat-based food is excluded in order not to force the carnivores to be meat-purists
-  #     factor: 0.25
-  #     replacementReagent: LPPIndigestibleFiber
+  - type: Stomach
   - type: SolutionContainerManager
     solutions:
       stomach:
-        maxVol: 50
-      food:
-        maxVol: 5
-        reagents:
-        - ReagentId: UncookedAnimalProteins
-          Quantity: 5
-  - type: Metabolizer
-    maxReagents: 3
-    metabolizerTypes: [ Animal ]
-    groups:
-      - id: Food
-      - id: Drink
+        maxVol: 50.0

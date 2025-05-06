@@ -3,6 +3,7 @@ job-name-bailiff = надзиратель
 job-name-brigmedic = санитар
 job-name-cadet-nf = курсант
 job-name-contractor = авантюрист
+job-name-contractor-interview = кандидат на авантюриста
 job-name-deputy = капрал
 job-name-nf-detective = детектив
 job-name-ertmailcarrier = ОБР почтальон
@@ -10,8 +11,10 @@ job-name-mercenary = наёмник
 job-name-mail-carrier = почтальон
 job-name-guard = охранник Тюрьмы
 job-name-pilot = пилот
+job-name-mercenary-interview = кандидат на наёмника
 job-name-nf-pirate = пират
 job-name-nf-pirate-captain = капитан пиратов
+job-name-pilot-interview = кандидат на пилота
 job-name-nf-pirate-first-mate = первый помощник капитана
 job-name-security-guard = охранник
 job-name-sheriff = шериф
@@ -22,10 +25,13 @@ job-name-doc = главврач
 job-name-valet = стюард
 # Job titles
 job-title-ert-mail-carrier = ОБР почтальон
-# Role timers - Расставь их по алфавиту, или я тебя зарежу.
+# Role timers - Make these alphabetical or I cut you
+JobContractorInterview = кандидат на авантюриста
 JobERTMailCarrier = ОБР почтальон
 JobMercenary = наёмник
+JobMercenaryInterview = кандидат на наёмника
 JobPilot = пилот
+JobPilotInterview = кандидат на пилота
 JobPirate = пират
 JobPirateCaptain = капитан пиратов
 JobPirateFirstMate = первый помощник капитана

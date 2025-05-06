@@ -106,7 +106,7 @@
 #LOP edit start
   - type: StaticPrice
     price: 1500
-    vendPrice: 42500
+    vendPrice: 72500
 #LOP edit end
 
 - type: entity
@@ -129,7 +129,7 @@
     - SemiAuto
   - type: UseDelayOnShoot
   - type: UseDelay
-    delay: 8 #it's a musket
+    delay: 1.5 #LOP edit 8<1.5
   - type: BallisticAmmoProvider
     whitelist:
       tags:

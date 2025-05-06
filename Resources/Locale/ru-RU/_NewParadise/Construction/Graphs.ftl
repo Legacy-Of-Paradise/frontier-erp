@@ -24,7 +24,6 @@ construction-graph-name-SheetRUGlass0 = армированное ураново�
 construction-graph-desc-SheetRUGlass0 = Армированный лист уранового стекла.
 construction-graph-name-SheetRUGlass1 = армированное урановое стекло
 construction-graph-desc-SheetRUGlass1 = Армированный лист уранового стекла.
-
 #structures
 
 #LPP
@@ -34,7 +33,6 @@ construction-graph-name-LPPBedDoubleUp = двойная кровать (ввер
 construction-graph-desc-LPPBedDoubleUp = На ней можно лежать или спать пристёгнутым.
 construction-graph-name-LPPBedDoubleDown = двойная кровать (низ)
 construction-graph-desc-LPPBedDoubleDown = На ней можно лежать или спать пристёгнутым.
-
 #NF
 construction-graph-name-WoodenBarrel = деревянная бочка
 construction-graph-desc-WoodenBarrel = Затхлая старая деревянная бочка.
@@ -290,7 +288,6 @@ construction-graph-name-ClothingNeckPonchoWebRecipe = паутинное пон�
 construction-graph-desc-ClothingNeckPonchoWebRecipe = Представьте, как заворачиваете свою добычу в кокон. Теперь забудьте добавить дно и сделайте его декоративным. Уютное угощение.
 construction-graph-name-ClothingNeckCloakWebRecipe = паутинный плащ
 construction-graph-desc-ClothingNeckCloakWebRecipe = Декоративное украшение, прославляющее хитрое мастерство паучьего рода. Он шелковистый! Не отпугивает нападения пауков.
-
 #Base
 construction-graph-name-ClownHardsuit = клоунский скафандр
 construction-graph-desc-ClownHardsuit = Модифицированный скафандр, подходящий для клоуна.

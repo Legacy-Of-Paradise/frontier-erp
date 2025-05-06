@@ -110,7 +110,7 @@
     whitelist:
       tags:
       - CartridgeAntiMateriel
-    capacity: 1
+    capacity: 3
     proto: CartridgeAntiMateriel
   - type: GunRequiresWield
   - type: EyeCursorOffset # Frontier

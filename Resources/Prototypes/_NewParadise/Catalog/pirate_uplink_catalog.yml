@@ -36,7 +36,7 @@
   cost:
     Doubloon: 2
   categories:
-    - UplinkPirateWeapons
+    - UplinkPirateAmmo
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

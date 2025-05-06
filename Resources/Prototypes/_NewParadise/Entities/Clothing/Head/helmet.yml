@@ -156,9 +156,9 @@
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
-      visible: false
-    - state: icon-open
       visible: true
+    - state: icon-open
+      visible: false
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swatalt.rsi
@@ -199,9 +199,9 @@
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
-      visible: false
-    - state: icon-open
       visible: true
+    - state: icon-open
+      visible: false
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swatepistemic.rsi
@@ -259,9 +259,9 @@
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
-      visible: false
-    - state: icon-open
       visible: true
+    - state: icon-open
+      visible: false
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swat.rsi

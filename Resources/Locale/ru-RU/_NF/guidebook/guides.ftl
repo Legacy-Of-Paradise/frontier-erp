@@ -4,6 +4,7 @@ guide-entry-bank = Галактический банк NanoTrasen
 guide-entry-piloting = Пилотирование
 guide-entry-startinggear = Стартовое снаряжение
 guide-entry-hiring = Найм экипажа
+guide-entry-interviews = Интервью
 guide-entry-expeditions = Экспедиции
 guide-entry-sector-topology = Топология сектора
 guide-entry-cargo-hauling = Перевозка грузов

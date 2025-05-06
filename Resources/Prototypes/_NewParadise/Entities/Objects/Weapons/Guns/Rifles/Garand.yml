@@ -14,7 +14,7 @@
   - type: Clothing
     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/garand.rsi
   - type: Gun
-    fireRate: 1
+    fireRate: 3
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
@@ -41,3 +41,6 @@
   - type: Appearance
   - type: ChamberMagazineAmmoProvider
     autoEject: true
+  - type: StaticPrice
+    vendPrice: 12500
+    price: 1500

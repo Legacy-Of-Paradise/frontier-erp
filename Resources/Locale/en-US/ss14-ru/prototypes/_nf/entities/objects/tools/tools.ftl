@@ -9,3 +9,5 @@ ent-MaintenanceJack = maintenance jack
     .desc = A maintenance jack for removing up floor plating.
 ent-PirateRepairKit = pirate repair kit
     .desc = A collection of equipment needed to repair a pirate console.
+ent-NFShovel = the people's shovel
+    .desc = An old relic from the Glorious Leader. Capable of 18 functions, including digging, chopping, cutting, picking, prying, wire cutting, shoveling.

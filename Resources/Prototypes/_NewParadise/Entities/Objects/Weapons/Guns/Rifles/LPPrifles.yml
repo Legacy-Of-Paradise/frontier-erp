@@ -139,7 +139,7 @@
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
-    vendPrice: 61500
+    vendPrice: 81500
 
 - type: entity
   name: STG-144
@@ -187,7 +187,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 1500
-    vendPrice: 49500
+    vendPrice: 69500
 
 - type: entity
   name: BR-12A "Ravager"
@@ -239,7 +239,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 1500
-    vendPrice: 62500
+    vendPrice: 82500
 
 - type: entity
   name: Waffle corp. MK-556 "Liberator"
@@ -295,7 +295,7 @@
     maxAngle: -12
   - type: StaticPrice
     price: 1500
-    vendPrice: 51500
+    vendPrice: 71500
 
 - type: entity
   name: BCR-25r
@@ -351,7 +351,7 @@
     maxAngle: -12
   - type: StaticPrice
     price: 1500
-    vendPrice: 61500
+    vendPrice: 81500
 
 - type: entity
   name: Makeshift'o AK
@@ -410,7 +410,7 @@
   - type: Appearance
   - type: StaticPrice
     price: 2700
-    vendPrice: 37500
+    vendPrice: 51500
 
 - type: entity
   name: LE-MAS
