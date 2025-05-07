@@ -305,7 +305,7 @@
   description: uplink-security-goliath-desc
   productEntity: LPPWeaponGoliath
   cost:
-    FrontierUplinkCoin: 1
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -527,7 +527,7 @@
 - type: listing
   id: UplinkSecurityBoxMagazineRifleM4A1Rubber
   name: uplink-security-magazinem4a1rubber-name
-  description: uplink-security-magazinem4a1runner-desc
+  description: uplink-security-magazinem4a1rubber-desc
   productEntity: LPPBoxMagazineRifleM4A1Rubber
   cost:
     FrontierUplinkCoin: 1

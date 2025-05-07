@@ -1,0 +1,12 @@
+ent-SpawnDungeonLootStash = случайный тайник
+    .suffix = Тайник, 100
+    .desc = { ent-MarkerBase.desc }
+ent-SpawnDungeonLootStash50 = случайный тайник
+    .suffix = Тайник, 50
+    .desc = { ent-SpawnDungeonLootStash.desc }
+ent-SpawnDungeonLootStash25 = случайный тайник
+    .suffix = Тайник, 25
+    .desc = { ent-SpawnDungeonLootStash.desc }
+ent-SpawnDungeonLootStash10 = случайный тайник
+    .suffix = Тайник, 10
+    .desc = { ent-SpawnDungeonLootStash.desc }

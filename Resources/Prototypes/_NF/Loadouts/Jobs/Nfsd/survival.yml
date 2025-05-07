@@ -4,17 +4,17 @@
   name: расширенный аварийный запас кислорода # LOP edit
   hideEffects:
   - !type:GroupLoadoutEffect
-    proto: OxygenBreatherNF
+    proto: NFOxygenBreather
   storage:
     back:
-    - BoxSurvivalNFOxygenExtended
+    - NFBoxSurvivalExtended
 
 - type: loadout
   id: NfsdBoxSurvivalNfsdNitrogen
   name: расширенный аварийный запас азота # LOP edit
   hideEffects:
   - !type:GroupLoadoutEffect
-    proto: NitrogenBreatherNF
+    proto: NFNitrogenBreather
   storage:
     back:
-    - BoxSurvivalNFNitrogenExtended
+    - NFBoxSurvivalExtendedNitrogen

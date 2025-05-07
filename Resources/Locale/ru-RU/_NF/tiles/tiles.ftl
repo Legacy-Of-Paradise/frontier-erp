@@ -1,0 +1,19 @@
+tiles-bedrock-floor = глубока-каменная порода
+tiles-gold-floor-mono = золотая однотонная плитка
+tiles-silver-floor-mono = серебряная однотонная плитка
+tiles-green-floor-mono = зеленая однотонная плитка
+tiles-light-blue-floor-mono = светло-синяя однотонная плитка
+tiles-light-green-floor-mono = светло-зеленая однотонная плитка
+tiles-light-pink-floor-mono = светло-розовая однотонная плитка
+tiles-light-yellow-floor-mono = светло-желтая однотонная плитка
+tiles-orange-floor-mono = оранжевая однотонная плитка
+tiles-light-red-floor-mono = светло-красная однотонная плитка
+tiles-red-floor-mono = красная однотонная плитка
+tiles-sus-floor = подозрительный пол
+tiles-wood-checkerboard-floor = деревянный пол в клетку
+tiles-wood-light-mosaic-floor = деревянный пол светлая мозаика
+tiles-wood-fancy-floor = изысканный деревянный пол
+tiles-wood-versailles-floor = версальский деревянный пол
+tiles-cheese-floor = сырный пол
+# Upstream renames
+tiles-dirt-floor-undiggable = земляной пол (не копается)

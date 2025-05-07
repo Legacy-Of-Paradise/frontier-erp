@@ -9633,7 +9633,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Хранилище 2
+      id: хранилище 2
   - uid: 393
     components:
     - type: Transform
@@ -9644,7 +9644,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Хранилище 1
+      id: хранилище 1
   - uid: 724
     components:
     - type: Transform
@@ -9655,7 +9655,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Холодильник
+      id: холодильник
   - uid: 726
     components:
     - type: Transform
@@ -9666,7 +9666,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Фуд-корт 1
+      id: фуд-корт 1
   - uid: 727
     components:
     - type: Transform
@@ -9677,7 +9677,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Фуд-корт 2
+      id: фуд-корт 2
   - uid: 728
     components:
     - type: Transform
@@ -9688,7 +9688,7 @@ entities:
       setupAvailableNetworks:
       - SurveillanceCameraSupply
       nameSet: True
-      id: Кухня
+      id: кухня
 - proto: SurvivalKnife
   entities:
   - uid: 1831

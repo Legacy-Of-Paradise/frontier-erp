@@ -185,24 +185,26 @@ entities:
         - maxDistance: 1000
           prob: 0.0
         # Sparse zone
-        - maxDistance: 1400
-          prob: 0.1
-        - maxDistance: 1800
-          prob: 0.2
-        - maxDistance: 2200
-          prob: 0.3
-        - maxDistance: 2600
-          prob: 0.4
-        - maxDistance: 3000
-          prob: 0.5
+        #LOP edit start
         - maxDistance: 3400
-          prob: 0.6
+          prob: 0.1
         - maxDistance: 3800
-          prob: 0.7
+          prob: 0.2
         - maxDistance: 4200
-          prob: 0.8
+          prob: 0.3
         - maxDistance: 4600
+          prob: 0.4
+        - maxDistance: 5000
+          prob: 0.5
+        - maxDistance: 5400
+          prob: 0.6
+        - maxDistance: 5800
+          prob: 0.7
+        - maxDistance: 6200
+          prob: 0.8
+        - maxDistance: 6600
           prob: 0.9
+          #LOP edit end
         # Main world
         - maxDistance: 14000
           prob: 1.0

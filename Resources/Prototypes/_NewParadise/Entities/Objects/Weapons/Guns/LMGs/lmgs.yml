@@ -56,7 +56,8 @@
     zeroVisible: true
   - type: StaticPrice
     price: 150
-    vendPrice: 105000
+    vendPrice: 155000
+  - type: GunRequiresWield
 
 - type: entity
   name: Armalite "Stoner-25"
@@ -93,7 +94,7 @@
     minAngle: -25
     maxAngle: -40
   - type: Gun
-    minAngle: 55
+    minAngle: 65
     maxAngle: 75
     angleIncrease: 10
     angleDecay: 15
@@ -117,3 +118,4 @@
   - type: StaticPrice
     price: 150
     vendPrice: 105000
+  - type: GunRequiresWield

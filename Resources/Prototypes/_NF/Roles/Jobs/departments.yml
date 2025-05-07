@@ -12,6 +12,7 @@
   - NFJanitor
   - MailCarrier # nyano
   - SecurityGuard
+  - Chef # LOP edit
 
 - type: department
   id: Antag

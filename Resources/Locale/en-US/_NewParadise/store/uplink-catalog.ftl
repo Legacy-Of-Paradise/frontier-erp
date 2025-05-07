@@ -66,3 +66,5 @@ uplink-security-magazinem4a1lethal-name = Коробка патронов 5.56х
 uplink-security-magazinem4a1lethal-desc = Коробка с 4 магазинами под 5.56
 uplink-security-magazinem4a1rubber-name = Коробка патронов 5.56х45 (резиновые)
 uplink-security-magazinem4a1rubber-desc = Коробка с 4 магазинами 5.56 (резиновые)
+lpp-uplink-security-musket-name = мушкет
+lpp-uplink-security-musket-desc = Это должно было оказаться в музее задолго до твоего рождения. Использует патроны калибра .60 крупнокалиберный.

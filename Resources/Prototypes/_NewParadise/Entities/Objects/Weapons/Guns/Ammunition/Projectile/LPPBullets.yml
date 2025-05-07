@@ -120,7 +120,7 @@
     damage:
       types:
         Piercing: 16
-        Blunt: 7
+        Blunt: 10
 
 - type: entity
   id: LPPBulletMinigunRubber

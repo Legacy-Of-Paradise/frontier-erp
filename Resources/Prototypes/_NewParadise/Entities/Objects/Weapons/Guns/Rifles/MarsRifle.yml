@@ -14,7 +14,7 @@
   - type: Clothing
     sprite: _NewParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
   - type: Gun
-    fireRate: 0.75
+    fireRate: 1
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto

@@ -5,5 +5,5 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: _NF/Guidebook/large_icons/128x96.rsi
+    sprite: _NewParadise/Guidebook/large_icons/128x96.rsi # LOP edit
     state: sector_map

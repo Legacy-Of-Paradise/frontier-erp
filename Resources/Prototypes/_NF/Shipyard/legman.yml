@@ -12,7 +12,7 @@
   id: Legman
   parent: BaseVessel
   name: LVHI Legman
-  description: "Небольшой маневренный шаттл с низкими эксплуатационными расходами для репортеров, которые хотят первыми оказаться на месте происшествия. Произведено Лангстад-Фойгт Хэви Индастриз." #LOP Edit
+  description: "Небольшой маневренный шаттл с низкими эксплуатационными расходами для репортеров, которые хотят первыми оказаться на месте происшествия. Произведено Langstad-Voigt Heavy Industries." #LOP Edit
   price: 12500 # ~11835$ on mapinit + ~5% (600$) markup
   category: Small
   group: Shipyard
@@ -39,6 +39,6 @@
             prefixCreator: '14'
         - type: StationJobs
           availableJobs:
-            Contractor: [ 0, 0 ]
-            Pilot: [ 0, 0 ]
-            Mercenary: [ 0, 0 ]
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

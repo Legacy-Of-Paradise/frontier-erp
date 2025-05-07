@@ -1,0 +1,35 @@
+- type: vessel
+  id: AiSun
+  parent: BaseVessel
+  name: NR AiSun
+  description: "Небольшое горнодобывающее судно с научным оборудованием."
+  price: 26000 # TODO: review ship values - Whatstone
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NewParadise/Shuttles/AiSun.yml
+  guidebookPage: ShipyardAiSun
+  class:
+  - Science
+  - Salvage
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: AiSun
+  mapName: 'NR AiSun'
+  mapPath: /Maps/_NewParadise/Shuttles/AiSun.yml
+  minPlayers: 0
+  stations:
+    AiSun:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'AiSun {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]
