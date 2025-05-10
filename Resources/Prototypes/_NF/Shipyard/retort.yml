@@ -12,7 +12,7 @@
   id: Retort
   parent: BaseVessel
   name: FSB Retort
-  description: A medium engineering vessel designed and deployed by the Far Star Biotech corporation to provide infrastructure support for deep space operations.
+  description: Среднее инженерное судно, разработанное и развернутое корпорацией Far Star Biotech для обеспечения инфраструктурной поддержки операций в дальнем космосе.
   price: 60000 # TODO: Get eggs at store - Dusty Lens
   category: Medium
   group: Shipyard

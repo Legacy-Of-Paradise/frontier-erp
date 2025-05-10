@@ -1,6 +1,6 @@
 - type: listing
   id: UplinkPirateHardsuit
-  name:  uplink-pirate-hardsuit-name
+  name: uplink-pirate-hardsuit-name
   description: uplink-pirate-hardsuit-desc
   productEntity: ClothingOuterHardsuitPirateEVA
   icon: { sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi, state: icon }
@@ -16,7 +16,7 @@
 
 - type: listing
   id: UplinkPirateHardsuitCaptain
-  name:  uplink-pirate-hardsuit-captain-name
+  name: uplink-pirate-hardsuit-captain-name
   description: uplink-pirate-hardsuit-captain-desc
   productEntity: ClothingOuterHardsuitPirateCap
   icon: { sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi, state: icon }
@@ -35,7 +35,7 @@
 
 - type: listing
   id: UplinkPirateHardsuitElite
-  name:  uplink-pirate-hardsuit-elite-name
+  name: uplink-pirate-hardsuit-elite-name
   description: uplink-pirate-hardsuit-elite-desc
   productEntity: ClothingOuterHardsuitPirateElite
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/pirate_elite.rsi, state: icon }
@@ -54,7 +54,7 @@
 
 - type: listing
   id: UplinkPirateCaptainCrateFilled
-  name:  uplink-pirate-crate-captain-name
+  name: uplink-pirate-crate-captain-name
   description: uplink-pirate-crate-captain-desc
   productEntity: CratePirateChestCaptain
   icon: { sprite: Structures/Storage/Crates/piratechest.rsi, state: crate_icon }
@@ -73,7 +73,7 @@
 
 - type: listing
   id: UplinkPirateCrateFilled
-  name:  uplink-pirate-crate-name
+  name: uplink-pirate-crate-name
   description: uplink-pirate-crate-desc
   productEntity: CratePirateChest
   icon: { sprite: _NF/Structures/Storage/Crates/piratechestgrey.rsi, state: crate_icon }
@@ -89,7 +89,7 @@
 
 - type: listing
   id: UplinkPirateSatchelFilled
-  name:  uplink-pirate-satchel-name
+  name: uplink-pirate-satchel-name
   description: uplink-pirate-satchel-desc
   productEntity: ClothingBackpackPirateBundle
   icon: { sprite: Clothing/Back/Satchels/leather.rsi, state: icon }
@@ -105,7 +105,7 @@
 
 - type: listing
   id: UplinkPirateMagboots
-  name:  uplink-pirate-magboots-name
+  name: uplink-pirate-magboots-name
   description: uplink-pirate-magboots-desc
   productEntity: ClothingShoesBootsMagPirate
   icon: { sprite: _NF/Clothing/Shoes/Boots/magboots-pirate.rsi, state: icon }
@@ -121,7 +121,7 @@
 
 - type: listing
   id: UplinkPirateHoverbike
-  name:  uplink-pirate-hoverbike-name
+  name: uplink-pirate-hoverbike-name
   description: uplink-pirate-hoverbike-desc
   productEntity: VehicleHoverbikePirateKey
   icon: { sprite: _NF/Objects/Vehicles/hoverbike.rsi, state: keys }
@@ -140,7 +140,7 @@
 
 - type: listing
   id: UplinkPirateBlunderbuss
-  name:  uplink-pirate-blunderbuss-name
+  name: uplink-pirate-blunderbuss-name
   description: uplink-pirate-blunderbuss-desc
   productEntity: WeaponShotgunBlunderbuss
   icon: { sprite: Objects/Weapons/Guns/Shotguns/blunderbuss.rsi, state: icon }
@@ -156,7 +156,7 @@
 
 - type: listing
   id: UplinkPirateRevolver
-  name:  uplink-pirate-revolver-name
+  name: uplink-pirate-revolver-name
   description: uplink-pirate-revolver-desc
   productEntity: WeaponRevolverPirate
   icon: { sprite: Objects/Weapons/Guns/Revolvers/pirate_revolver.rsi, state: icon }
@@ -172,7 +172,7 @@
 
 - type: listing
   id: UplinkPirateCannon
-  name:  uplink-pirate-cannon-name
+  name: uplink-pirate-cannon-name
   description: uplink-pirate-cannon-desc
   productEntity: WeaponLauncherPirateCannon
   icon: { sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi, state: icon }
@@ -188,7 +188,7 @@
 
 - type: listing
   id: UplinkFlintlock
-  name:  uplink-pirate-flintlock-name
+  name: uplink-pirate-flintlock-name
   description: uplink-pirate-flintlock-desc
   productEntity: WeaponPistolFlintlock
   icon: { sprite: Objects/Weapons/Guns/Snipers/flintlock.rsi, state: base }
@@ -207,7 +207,7 @@
 
 - type: listing
   id: UplinkEnergyCutlass
-  name:  uplink-pirate-ecutlass-name
+  name: uplink-pirate-ecutlass-name
   description: uplink-pirate-ecutlass-desc
   productEntity: EnergyCutlass
   icon: { sprite: Objects/Weapons/Melee/e_cutlass.rsi, state: e_cutlass }
@@ -226,7 +226,7 @@
 
 - type: listing
   id: UplinkPirateAnchor
-  name:  uplink-pirate-anchor-name
+  name: uplink-pirate-anchor-name
   description: uplink-pirate-anchor-desc
   productEntity: PirateBreachingAnchor
   icon: { sprite: _NF/Objects/Weapons/Melee/pirate_anchor.rsi, state: icon }
@@ -242,7 +242,7 @@
 
 - type: listing
   id: UplinkPirateRedGrenade
-  name:  uplink-pirate-redgrenade-name
+  name: uplink-pirate-redgrenade-name
   description: uplink-pirate-redgrenade-desc
   productEntity: PirateGrenadeFire
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_fire.rsi, state: icon }
@@ -258,7 +258,7 @@
 
 - type: listing
   id: UplinkPirateGreenGrenade
-  name:  uplink-pirate-greengrenade-name
+  name: uplink-pirate-greengrenade-name
   description: uplink-pirate-greengrenade-desc
   productEntity: PirateGrenadeRadiation
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_caustic.rsi, state: icon }
@@ -274,7 +274,7 @@
 
 - type: listing
   id: UplinkPirateGrayGrenade
-  name:  uplink-pirate-graygrenade-name
+  name: uplink-pirate-graygrenade-name
   description: uplink-pirate-graygrenade-desc
   productEntity: PirateGrenadeConcussion
   icon: { sprite: _NF/Objects/Weapons/Bombs/pirate_explosive.rsi, state: icon }
@@ -290,7 +290,7 @@
 
 - type: listing
   id: UplinkPirateShotgunAmmo
-  name:  uplink-pirate-shotgunammo-name
+  name: uplink-pirate-shotgunammo-name
   description: uplink-pirate-shotgunammo-desc
   productEntity: BoxLethalshot
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi, state: base }
@@ -306,7 +306,7 @@
 
 - type: listing
   id: UplinkPirateRevolverAmmo
-  name:  uplink-pirate-revolverammo-name
+  name: uplink-pirate-revolverammo-name
   description: uplink-pirate-revolverammo-desc
   productEntity: MagazineBoxMagnum
   icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/magnum.rsi, state: base }
@@ -322,7 +322,7 @@
 
 - type: listing
   id: UplinkPirateFlintlockAmmo
-  name:  uplink-pirate-flintlockammo-name
+  name: uplink-pirate-flintlockammo-name
   description: uplink-pirate-flintlockammo-desc
   productEntity: MagazineBoxAntiMateriel
   icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/anti_materiel.rsi, state: base }
@@ -338,7 +338,7 @@
 
 - type: listing
   id: UplinkPirateCannonball
-  name:  uplink-pirate-cannonball-name
+  name: uplink-pirate-cannonball-name
   description: uplink-pirate-cannonball-desc
   productEntity: CratePirateChestCannonBall
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: ball }
@@ -354,7 +354,7 @@
 
 - type: listing
   id: UplinkPirateCannonballEmp
-  name:  uplink-pirate-cannonball-emp-name
+  name: uplink-pirate-cannonball-emp-name
   description: uplink-pirate-cannonball-emp-desc
   productEntity: CratePirateChestCannonBallEmp
   icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: ball-emp }
@@ -370,7 +370,7 @@
 
 - type: listing
   id: UplinkPirateGrapeshot
-  name:  uplink-pirate-grapeshot-name
+  name: uplink-pirate-grapeshot-name
   description: uplink-pirate-grapeshot-desc
   productEntity: CratePirateChestGrapeShot
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: grapeshot }
@@ -386,7 +386,7 @@
 
 - type: listing
   id: UplinkPirateGlassshot
-  name:  uplink-pirate-glassshot-name
+  name: uplink-pirate-glassshot-name
   description: uplink-pirate-glassshot-desc
   productEntity: CratePirateChestGlassShot
   icon: { sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: glassshot }
@@ -402,7 +402,7 @@
 
 - type: listing
   id: UplinkPirateAccessConfigurator
-  name:  uplink-pirate-accessconfigurator-captain-name
+  name: uplink-pirate-accessconfigurator-captain-name
   description: uplink-pirate-accessconfigurator-captain-desc
   productEntity: AccessConfiguratorAntag
   icon: { sprite: _NF/Objects/Tools/antag_access_configurator.rsi, state: icon }

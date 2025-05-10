@@ -12,3 +12,5 @@ ent-BeeSeeds = jar of bees
     .desc = Starter kit for a new apiarist.
 ent-EveryspiceSeeds = packet of everyspice seeds
     .desc = Wars were fought over less.
+ent-MonkananaSeeds = packet of monkanana seeds
+    .desc = Why is it so hairy?

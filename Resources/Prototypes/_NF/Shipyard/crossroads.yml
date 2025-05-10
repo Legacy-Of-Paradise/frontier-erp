@@ -8,11 +8,11 @@
   id: Crossroads
   parent: BaseVessel
   name: PHI Crossroads
-  description: "A spacious and inviting service ship. The crossroads is designed to help with dock crowding, connect communities, and serve as anchors for gatherings."
+  description: Просторное и привлекательное служебное судно. Crossroads призван помочь справиться с теснотой в доках, соединить сообщества и служить якорем для собраний # LOP edit
   price: 75000 #appraises at ~69k with the appraisegrid command, marking up at ~10% for T1 Service/RP ship
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/crossroads.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/crossroads.yml # LOP edit
   guidebookPage: ShipyardCrossroads
   class:
   - Civilian
@@ -22,7 +22,7 @@
 - type: gameMap
   id: Crossroads
   mapName: 'PHI Crossroads'
-  mapPath: /Maps/_NF/Shuttles/crossroads.yml
+  mapPath: /Maps/_NewParadise/Shuttles/crossroads.yml # LOP edit
   minPlayers: 0
   stations:
     Crossroads:

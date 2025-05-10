@@ -49,3 +49,5 @@ ent-NFTobaccoPouch = tobacco pouch
     .desc = A synth-leather pouch for safe storing pipe tobacco.
 ent-NFPouchPunk = punk pouch
     .desc = { ent-NFPouchBase.desc }
+ent-NFGoblinMadeTrashPouch = trashuch
+    .desc = { ent-RecyclableItemPlasticSmall.desc }

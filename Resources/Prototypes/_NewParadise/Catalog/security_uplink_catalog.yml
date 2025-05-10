@@ -391,7 +391,7 @@
 
 - type: listing
   id: UplinkSecuritykDuffelNFSDUpgraded
-  name:  uplink-security-duffelupgraded-name
+  name: uplink-security-duffelupgraded-name
   description: uplink-security-duffelupgraded-desc
   productEntity: LPPClothingBackpackDuffelNFSDUpgraded
   cost:

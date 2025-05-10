@@ -1,6 +1,6 @@
 - type: listing
   id: LPPUplinkLaserKomissar
-  name:  uplink-pirate-laserkomissar-name
+  name: uplink-pirate-laserkomissar-name
   description: uplink-pirate-laserkomissar-desc
   productEntity: LPPLaserKomissar
   cost:
@@ -15,7 +15,7 @@
 
 - type: listing
   id: LPPUplinkWeaponRifleMakeshiftAK
-  name:  uplink-pirate-weaponriflemakeshiftak-name
+  name: uplink-pirate-weaponriflemakeshiftak-name
   description: uplink-pirate-weaponriflemakeshiftak-desc
   productEntity: LPPWeaponRifleMakeshiftAK
   cost:
@@ -30,7 +30,7 @@
 
 - type: listing
   id: LPPUplinkBoxMagazineLightRifle
-  name:  uplink-pirate-boxmagazinelightrifle-name
+  name: uplink-pirate-boxmagazinelightrifle-name
   description: uplink-pirate-boxmagazinelightrifle-desc
   productEntity: BoxMagazineLightRifle
   cost:
@@ -45,7 +45,7 @@
 
 - type: listing
   id: LPPUplinkWeaponRevolverRT46
-  name:  uplink-pirate-weaponrevolverrt46-name
+  name: uplink-pirate-weaponrevolverrt46-name
   description: uplink-pirate-weaponrevolverrt46-desc
   productEntity: LPPWeaponRevolverRT46
   cost:
@@ -60,7 +60,7 @@
 
 - type: listing
   id: LPPUplinkClothingOuterHardsuitAcientSapper
-  name:  uplink-pirate-hardsuitacientsapper-name
+  name: uplink-pirate-hardsuitacientsapper-name
   description: uplink-pirate-hardsuitacientsapper-desc
   productEntity: LPPClothingOuterHardsuitAcientSapper
   cost:

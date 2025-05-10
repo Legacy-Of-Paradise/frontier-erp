@@ -12,11 +12,11 @@
   id: Nook
   parent: BaseVessel
   name: WSE Nook
-  description: A ship designed as a mobile home, with space for user modifications. Fast and comfortable.
+  description: Корабль, спроектированный как мобильный дом, с пространством для модификаций. Быстрый и удобный. # LOP edit
   price: 22500 #base sell price is around 17000
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/nook.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/nook.yml # LOP edit
   guidebookPage: ShipyardNook
   class:
   - Civilian
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Nook
   mapName: 'WSE Nook'
-  mapPath: /Maps/_NF/Shuttles/nook.yml
+  mapPath: /Maps/_NewParadise/Shuttles/nook.yml # LOP edit
   minPlayers: 0
   stations:
     Nook:
