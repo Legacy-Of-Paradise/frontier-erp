@@ -53,7 +53,12 @@
   - ContractorBackpackItems
   - ContractorHandItems
   - NFSpeciesSpecific
-  - SponsorsClothing  # LOP edit
+  # LOP edit start
+  - LOPunderwearloadout
+  - LOPsocksloadout
+  - LOPbraloadout
+  - SponsorsClothing
+  # LOP edit end
 
 # Mercenary
 - type: roleLoadout

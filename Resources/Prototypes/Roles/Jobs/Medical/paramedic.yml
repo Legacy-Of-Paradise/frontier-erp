@@ -30,9 +30,6 @@
     id: ParamedicPDA
     ears: ClothingHeadsetMedical
     belt: ClothingBeltMedicalEMTFilled
-    shoes: BlueShoes
-    gloves: LatexGloves
-    back: MedicalDoctorBackpack
   storage:
     back:
     - EmergencyRollerBedSpawnFolded

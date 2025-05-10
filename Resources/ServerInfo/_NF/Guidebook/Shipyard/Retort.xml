@@ -1,101 +1,99 @@
 <Document>
-  # RETORT-CLASS LOGISTICS SHUTTLE
+  # RETORT-ШАТТЛ КЛАССА ПЕРЕВОЗЧИК
   <Box>
-  <GuideEntityEmbed Entity="SignEngineering" Caption="Produce"/> 
-  <GuideEntityEmbed Entity="NFPosterContrabandFsbLogo" Caption="Research"/>
-  <GuideEntityEmbed Entity="SignAtmos" Caption="Refine"/>
-  </Box>  
-  <Box>
-  <GuideEntityEmbed Entity="ShuttleMapRetort" Caption=""/>
+    <GuideEntityEmbed Entity="SignEngineering" Caption="Produce"/>
+    <GuideEntityEmbed Entity="NFPosterContrabandFsbLogo" Caption="Research"/>
+    <GuideEntityEmbed Entity="SignAtmos" Caption="Refine"/>
   </Box>
-  [color=#a4885c]Ship Size:[/color] Medium
+  <Box>
+    <GuideEntityEmbed Entity="ShuttleMapRetort" Caption=""/>
+  </Box>
+  [color=#a4885c]Размер судна:[/color] Среднее
 
-  [color=#a4885c]Recommended Crew:[/color] 2-4
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 2-4
 
-  [color=#a4885c]Power Gen Type:[/color] Bananium
+  [color=#a4885c]Тип генератора энергии:[/color] Бананиум
 
-  [color=#a4885c]Base Power Draw:[/color] 45kw
+  [color=#a4885c]Base Power Draw:[/color] 45Кв
 
-  [color=#a4885c]Expeditions:[/color] None
+  [color=#a4885c]Экспедиции:[/color] Нет
 
-  [color=#a4885c]IFF Console:[/color] None
+  [color=#a4885c]Консоль идентификации:[/color] Нет
 
-  [color=#a4885c]Available Roles:[/color] Contractor, Pilot, Mercenary
+  [color=#a4885c]Доступные роли[/color] Авантюрист, Пилот, Наёмник
 
-  # Piloting
+  # Пилотing
   <Box>
     <GuideEntityEmbed Entity="ComputerShuttle"/>
   </Box>
-  After clicking the shuttle console, you should see a radar view of the shuttle. Here are the steps for piloting the shuttle back and forth:
+  После нажатия на консоль шаттла вы увидите радарный вид шаттла. Вот шаги для пилотирования шаттла вперед и назад:
 
-  - First, disconnect any airlocks that are connected to the dock.
-  - Then, you actually get to pilot the shuttle. The controls are fairly simple, with [color=#028ed9]"W"[/color] and [color=#028ed9]"S"[/color] being forward and backward, [color=#028ed9]"A"[/color] and [color=#028ed9]"D"[/color] being left and right, and [color=#028ed9]"Q"[/color] and [color=#028ed9]"E"[/color] being rotating left and right; and [color=#028ed9]"spacebar"[/color] being the brake and moving precicely by holding the [color=#028ed9]"spacebar"[/color] while doing other inputs.
-  
-  # Hiring crew
+  - Сначала отсоедините все шлюзы, подключенные к док-станции.
+  - Затем вы сможете непосредственно пилотировать шаттл. Управление довольно простое: [color=#028ed9]"W"[/color] и [color=#028ed9]"S"[/color] - вперед и назад, [color=#028ed9]"A"[/color] и [color=#028ed9]"D"[/color] - влево и вправо, а [color=#028ed9]"Q"[/color] и [color=#028ed9]"E"[/color] - вращение влево и вправо; [color=#028ed9]"пробел"[/color] - тормоз и точное перемещение при удержании [color=#028ed9]"пробела"[/color] во время других действий.
+
+  # Набор экипажа
   <Box>
     <GuideEntityEmbed Entity="ComputerStationRecords"/>
     <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
     <GuideEntityEmbed Entity="IntercomCommon"/>
   </Box>
-  As a Captain of a Nanotrasen vessel, you have the authority to hire, fire, demote, or promote crew members at will. There are two ways you as a Captain can go about hiring crew: you can either use the [color=#a4885c]station records computer[/color] on your ship to open crew slots (jobs available vary from ship to ship) or invite through in-game communications other players to your crew.
-  
-  # PREFLIGHT CHECKLIST
-  
-  ## 1. Power supply
-  
-  ## 1.1. Battery units
+  Как капитан корабля Nanotrasen, вы имеете право по своему усмотрению нанимать, увольнять, понижать или повышать в должности членов экипажа. Есть два способа набора экипажа для капитана: вы можете либо использовать [color=#a4885c]компьютер с записями станции[/color] на своем корабле, чтобы открыть вакансии (доступные должности зависят от корабля), либо пригласить других игроков в свою команду через внутриигровые средства связи.
+
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА
+
+  ## 1. Электропитание
+
+  ## 1.1. Аккумуляторные блоки
   <Box>
-  <GuideEntityEmbed Entity="SubstationBasic"/>
-  <GuideEntityEmbed Entity="APCBasic"/>
+    <GuideEntityEmbed Entity="SubstationBasic"/>
+    <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
-  
-    - Check if the APC unit's Main Breaker is toggled on.
-    - Check the APC unit's current Load* (W).
-  
-  ## 1.2. D-K Jr. generator unit
+
+  - Проверьте, включен ли главный выключатель блока ЛКП.
+  - Проверьте текущую нагрузку* (Вт) блока ЛКП.
+
+  ## 1.2. Генераторны  П.А.К.М.А.Н.
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorDKJr"/>
     <GuideEntityEmbed Entity="FuelBananium"/>
     <GuideEntityEmbed Entity="SignRadiation"/>
   </Box>
 
-  - Check if the D-K Jr. generator unit is anchored to the floor.
-  - Check if the D-K Jr. generator unit has fuel. For extended flights make sure that you have enough fuel stockpiled to sustain prolonged power generation during flight.
-  - Check if the D-K Jr. generator unit is set to HV output.
-  - Set Target Power for 45 [bold]k[/bold]W.
-  - Start the D-K Jr. generator unit.
-  - Close radiation shielding.
+  - Проверте the Генераторны  П.А.К.М.А.Н. Прикручены к полу
+  - Проверте the Генераторны  П.А.К.М.А.Н. есть топливо. При длительных полетах убедитесь, что у вас достаточно топлива, чтобы обеспечить длительную выработку электроэнергии во время полета.
+  - Проверте the Генераторны  П.А.К.М.А.Н. is set to LV output.
+  - Установите целевую мощность на 45** [bold]кВ[/bold].
+  - Запустите the Генераторны  П.А.К.М.А.Н..
 
-  ## 2. Atmospherics
+  ## 2. Атмосфера
 
-  ## 2.1. Distribution Loop
+  ## 2.1. Распределительный контур
   <Box>
-  <GuideEntityEmbed Entity="AirCanister"/>
-  <GuideEntityEmbed Entity="GasPort"/>
-  <GuideEntityEmbed Entity="GasPressurePump"/>
+    <GuideEntityEmbed Entity="AirCanister"/>
+    <GuideEntityEmbed Entity="GasPort"/>
+    <GuideEntityEmbed Entity="GasPressurePump"/>
   </Box>
-  
-  - Check if the air canister is anchored to connector port.
-  - Check if the distribution pump is set to normal pressure (101kPa).
-  - Enable the distribution pump.
-  
-  ## 2.2. Waste Loop
+
+  - Убедитесь, что баллон с воздухом надежно закреплен на порту.
+  - Проверте гастроен ли распределительный насос на давление 101 кПа.
+  - Проверьте распределительный насос. Расположен на палубе инженерного отсека.
+
+  ## 2.2. Выпускной контур
   <Box>
-  <GuideEntityEmbed Entity="GasPressurePump"/>
-  <GuideEntityEmbed Entity="AirAlarm"/>
+    <GuideEntityEmbed Entity="GasPressurePump"/>
+    <GuideEntityEmbed Entity="AirAlarm"/>
   </Box>
-    
-  - Enable waste loop pump.
-  - Disable Auto Mode on the Air Alarm in the Engine Room.
-  - Set the Air Alarm in the Engine Room to Filtering (Wide).
-  
-  ## 3. Other checks
+
+  - Проверьте насос выпускного контура. Расположен на палубе грузового отсека.
+  - Установите воздушную сигнализацию в машинном отделении на фильтрующую (широкую).
+
+  ## 3. Другие проверки
   <Box>
-  <GuideEntityEmbed Entity="Gyroscope"/>
-  <GuideEntityEmbed Entity="GravityGeneratorMini"/>
+    <GuideEntityEmbed Entity="Gyroscope"/>
+    <GuideEntityEmbed Entity="GravityGeneratorMini"/>
   </Box>
-  
-  - Check if the gyroscope is anchored, powered, and enabled.
-  - Check if the mini gravity generator is anchored, powered, and enabled.  
+
+  - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
+  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
 
 </Document>
