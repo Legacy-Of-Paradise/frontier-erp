@@ -7,3 +7,4 @@ lathe-category-medical-nf = Медицина
 # Biogen
 lathe-category-nf-animal-cubes = Кубики животных
 lathe-category-seeds = Семена
+lathe-category-soda = Сода

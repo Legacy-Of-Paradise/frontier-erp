@@ -12,11 +12,11 @@
   id: Retort
   parent: BaseVessel
   name: FSB Retort
-  description: Среднее инженерное судно, разработанное и развернутое корпорацией Far Star Biotech для обеспечения инфраструктурной поддержки операций в дальнем космосе.
+  description: Среднее инженерное судно, разработанное и развернутое корпорацией Far Star Biotech для обеспечения инфраструктурной поддержки операций в дальнем космосе. # LOP edit
   price: 60000 # TODO: Get eggs at store - Dusty Lens
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/retort.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/retort.yml # LOP edit
   guidebookPage: ShipyardRetort
   class:
   - Atmospherics
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Retort
   mapName: 'FSB Retort'
-  mapPath: /Maps/_NF/Shuttles/retort.yml
+  mapPath: /Maps/_NewParadise/Shuttles/retort.yml # LOP edit
   minPlayers: 0
   stations:
     Retort:
