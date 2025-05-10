@@ -36,7 +36,7 @@
   ## 1.2. С.У.П.Е.Р. Генераторны  П.А.К.М.А.Н.
   <Box>
     <GuideEntityEmbed Entity="PortableGeneratorSuperPacman" Caption="Generators"/>
-    <GuideEntityEmbed Entity="SheetУран"/>
+    <GuideEntityEmbed Entity="SheetUranium"/>
     <GuideEntityEmbed Entity="SignRadiationMed"/>
   </Box>
 
