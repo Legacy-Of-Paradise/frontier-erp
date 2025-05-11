@@ -26,7 +26,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
 using Content.Server.Preferences.Managers;  //LOP edit
-#if LOP_Sponsors
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
 
@@ -698,7 +698,7 @@ namespace Content.Server.Administration.Systems
                 {
                     oocColor = prefs.AdminOOCColor.ToHex();
                 }
-#if LOP_Sponsors
+#if LOP
     if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(senderId, out var sponsorInfo))
     {
         sponsorColor = sponsorInfo.OOCColor;

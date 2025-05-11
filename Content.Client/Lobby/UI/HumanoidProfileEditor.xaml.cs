@@ -35,7 +35,7 @@ using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
-#if LOP_Sponsors
+#if LOP
 using Content.Client._NewParadise.Sponsors;
 #endif
 
@@ -1608,7 +1608,7 @@ namespace Content.Client.Lobby.UI
             {
                 //LOP edit start
                 List<string> marks = new();
-#if LOP_Sponsors
+#if LOP
                 int sponsorTier = 0;
                 if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
                 {
@@ -1621,7 +1621,7 @@ namespace Content.Client.Lobby.UI
                 }
 #endif
                 var profile = _entManager.System<HumanoidAppearanceSystem>().FromStream(file, _playerManager.LocalSession!, marks
-#if LOP_Sponsors
+#if LOP
                 , sponsorTier
 #endif
                 );

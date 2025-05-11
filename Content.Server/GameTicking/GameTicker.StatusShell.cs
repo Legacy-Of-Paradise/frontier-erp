@@ -4,7 +4,7 @@ using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Robust.Server.ServerStatus;
 using Robust.Shared.Configuration;
-#if DiscordAuth //LOP edit
+#if LOP //LOP edit
 using Content.Server._NC.JoinQueue;
 #endif
 namespace Content.Server.GameTicking
@@ -31,7 +31,7 @@ namespace Content.Server.GameTicking
         /// </summary>
         [Dependency] private readonly SharedGameTicker _gameTicker = default!;
 
-#if DiscordAuth //LOP edit
+#if LOP //LOP edit
         [Dependency] private readonly JoinQueueManager _joinQueue = default!;
 #endif
         private void InitializeStatusShell()
@@ -52,7 +52,7 @@ namespace Content.Server.GameTicking
 
                 //LOP edit start
                 var playercount = _playerManager.PlayerCount;
-#if DiscordAuth
+#if LOP
                 playercount = _joinQueue.ActualPlayersCount;
 #endif
                 //LOP edit end

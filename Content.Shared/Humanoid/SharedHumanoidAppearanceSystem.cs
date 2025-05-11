@@ -73,7 +73,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     }
 
     public HumanoidCharacterProfile FromStream(Stream stream, ICommonSession session, List<string> sponsorProtos // LOP edit
-#if LOP_Sponsors
+#if LOP
         , int sponsorTier = 0
 #endif
     )
@@ -92,7 +92,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         var profile = export.Profile;
         var collection = IoCManager.Instance;
         profile.EnsureValid(session, collection!, sponsorProtos //LOP edit: sponsor system
-#if LOP_Sponsors
+#if LOP
             , sponsorTier
 #endif
         );

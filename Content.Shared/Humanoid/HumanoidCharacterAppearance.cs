@@ -201,7 +201,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             facialHairStyleId = HairStyles.DefaultFacialHairStyle;
         }
 
-#if LOP_Sponsors
+#if LOP
         if (proto.TryIndex(hairStyleId, out MarkingPrototype? hairProto) &&
             hairProto.SponsorOnly && !sponsorPrototypes.Contains(hairStyleId))
         {
@@ -229,7 +229,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
 
             markingSet.EnsureSpecies(species, skinColor, markingManager);
             markingSet.EnsureSexes(sex, markingManager);
-#if LOP_Sponsors
+#if LOP
             markingSet.FilterSponsor(sponsorPrototypes, markingManager);
 #endif
         }

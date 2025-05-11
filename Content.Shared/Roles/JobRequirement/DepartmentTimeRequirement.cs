@@ -29,7 +29,7 @@ public sealed partial class DepartmentTimeRequirement : JobRequirement
         HumanoidCharacterProfile? profile,
         IReadOnlyDictionary<string, TimeSpan> playTimes,
         [NotNullWhen(false)] out FormattedMessage? reason
-#if LOP_Sponsors
+#if LOP
         , int tier = 0
 #endif
         )
@@ -37,7 +37,7 @@ public sealed partial class DepartmentTimeRequirement : JobRequirement
         reason = new FormattedMessage();
         var playtime = TimeSpan.Zero;
 
-#if LOP_Sponsors    // LOP edit: sponsor system
+#if LOP    // LOP edit: sponsor system
         if (tier >= 5)
             return !Inverted;
 #endif

@@ -46,7 +46,7 @@ public sealed partial class RoleLoadoutPrototype : IPrototype
             foreach (var protoid in _groups)
             {
                 var moduled = false; //проверка на существование нужного субмодуля
-#if LOP_Sponsors
+#if LOP
                 moduled = true;
 #endif
                 if (!(protoid.Contains("Sponsor") && !moduled)) //добавляем группу в том случае, если ее возможно добавить

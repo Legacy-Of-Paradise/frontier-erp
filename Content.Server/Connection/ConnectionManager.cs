@@ -20,7 +20,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Content.Server._NF.Auth; // Frontier
-#if LOP_Sponsors
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 using Content.Shared._NewParadise;
  #endif
@@ -71,7 +71,7 @@ namespace Content.Server.Connection
         [Dependency] private readonly IHttpClientHolder _http = default!;
         [Dependency] private readonly IAdminManager _adminManager = default!;
         [Dependency] private readonly MiniAuthManager _authManager = default!; //Frontier
-#if LOP_Sponsors
+#if LOP
         [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
 #endif
 
@@ -402,12 +402,12 @@ namespace Content.Server.Connection
                 ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
                 status == PlayerGameStatus.JoinedGame;
 
-#if LOP_Sponsors
+#if LOP
             var havePriorityJoin = _sponsorsManager.TryGetInfo(userId, out var sponsor) && sponsor.HavePriorityJoin;
 #endif
 
             return isAdmin ||
-#if LOP_Sponsors
+#if LOP
                      havePriorityJoin ||
 #endif
                    wasInGame;

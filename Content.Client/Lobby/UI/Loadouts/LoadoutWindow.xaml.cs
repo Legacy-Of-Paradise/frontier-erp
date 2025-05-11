@@ -11,7 +11,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Content.Shared._NF.Bank; // Frontier
-#if LOP_Sponsors
+#if LOP
 using Content.Client._NewParadise.Sponsors;
 #endif
 
@@ -65,7 +65,7 @@ public sealed partial class LoadoutWindow : FancyWindow
         {
             // LOP edit start
             int sponsorTier = 0;
-#if LOP_Sponsors
+#if LOP
             if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
                 sponsorTier = sponsorInfo.Tier;
 #endif

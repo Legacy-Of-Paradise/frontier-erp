@@ -31,7 +31,7 @@ using Content.Server._NF.Bank; // Frontier
 using Content.Server.Preferences.Managers; // Frontier
 using System.Linq;
 using Content.Shared.NameIdentifier; // Frontier
-#if LOP_Sponsors
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
 
@@ -131,7 +131,7 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             // Set to default if not present
             if (loadout == null)
             {
-#if LOP_Sponsors
+#if LOP
                 int tier = 0;
                 if (session != null && IoCManager.Resolve<SponsorsManager>().TryGetInfo(session.UserId, out var sponsorinfo))
                     tier = sponsorinfo.Tier;
@@ -140,7 +140,7 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
                 loadout = new RoleLoadout(jobLoadout);
                 //loadout.SetDefault(profile, _actors.GetSession(entity), _prototypeManager);
                 loadout.EnsureValid(profile!, session, _dependencyCollection
-#if LOP_Sponsors
+#if LOP
                 , tier
 #endif
                 ); // Frontier - profile must not be null, but if it was, TryGetValue above should fail

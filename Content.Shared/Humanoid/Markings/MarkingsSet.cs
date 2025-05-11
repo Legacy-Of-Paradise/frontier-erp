@@ -233,7 +233,7 @@ public sealed partial class MarkingSet
         }
     }
 
-#if LOP_Sponsors
+#if LOP
     public void FilterSponsor(List<string> sponsorMarkings, MarkingManager? markingManager = null, IPrototypeManager? prototypeManager = null)
     {
         IoCManager.Resolve(ref markingManager);

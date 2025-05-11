@@ -10,7 +10,7 @@ using Robust.Client.Utility;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
-#if LOP_Sponsors
+#if LOP
 using Content.Client._NewParadise.Sponsors;
 #endif
 
@@ -21,7 +21,7 @@ public sealed partial class MarkingPicker : Control
 {
     [Dependency] private readonly MarkingManager _markingManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-#if LOP_Sponsors
+#if LOP
     [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
 #endif
 
@@ -235,7 +235,7 @@ public sealed partial class MarkingPicker : Control
             if (marking.SponsorOnly)
             {
                 item.Disabled = true;
-#if LOP_Sponsors
+#if LOP
                 if (_sponsorsManager.TryGetInfo(out var sponsor))
                 {
                     bool havemarks = false;

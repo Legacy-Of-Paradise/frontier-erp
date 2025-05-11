@@ -11,7 +11,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
-#if LOP_Sponsors
+#if LOP
 using Content.Client._NewParadise.Sponsors;
 #endif
 
@@ -91,7 +91,7 @@ namespace Content.Client.Lobby.UI
 
             var selectedSlot = _preferencesManager.Preferences?.SelectedCharacterIndex;
 
-#if LOP_Sponsors
+#if LOP
             var sponsorman = IoCManager.Resolve<SponsorsManager>();
             int sponsorslots = 0;
             if (sponsorman.TryGetInfo(out var sponsorInfo))
@@ -103,7 +103,7 @@ namespace Content.Client.Lobby.UI
                 // LOP edit start
                 if (character is null) continue;
 
-#if LOP_Sponsors
+#if LOP
                 if (numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots + sponsorslots)
                     break;
 #endif
@@ -130,7 +130,7 @@ namespace Content.Client.Lobby.UI
             }
 
             _createNewCharacterButton.Disabled = numberOfFullSlots >= _preferencesManager.Settings.MaxCharacterSlots
-#if LOP_Sponsors
+#if LOP
             + sponsorslots
 #endif
             ;

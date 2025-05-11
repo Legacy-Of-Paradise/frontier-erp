@@ -22,7 +22,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
-#if LOP_Sponsors
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
 
@@ -206,13 +206,13 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         // LOP edit start: sponsor system
         var tier = 0;
-#if LOP_Sponsors
+#if LOP
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(player.UserId, out var sinfo))
             tier = sinfo.Tier;
 #endif
         return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?)_preferencesManager.GetPreferences(player.UserId).SelectedCharacter
-#if LOP_Sponsors
+#if LOP
         , tier
 #endif
         );
@@ -232,7 +232,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         //LOP edit start: sponsor system
         int tier = 0;
-#if LOP_Sponsors
+#if LOP
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(player.UserId, out var sinfo))
             tier = sinfo.Tier;
@@ -242,7 +242,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
         {
             if (JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter
-#if LOP_Sponsors
+#if LOP
             , tier
 #endif
             ))
@@ -269,7 +269,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         // LOP edit start
         int tier = 0;
-#if LOP_Sponsors
+#if LOP
         //Logger.Error("RemoveDisallowedJobs. Asking for Tier");
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(userId, out var sinfo))
@@ -280,7 +280,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         {
             if (_prototypes.TryIndex(jobs[i], out var job)
                 && JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(userId).SelectedCharacter
-#if LOP_Sponsors
+#if LOP
                 , tier
 #endif
                 ))
