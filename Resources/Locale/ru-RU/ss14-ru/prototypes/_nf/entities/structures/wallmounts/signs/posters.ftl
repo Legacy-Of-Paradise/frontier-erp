@@ -52,3 +52,5 @@ ent-NFPosterContrabandRatvarLives = Ратвар жив
     .desc = Плакат на непонятном языке с изображениями механизмов. В углу нацарапано "РАТВАР ЖИВ".
 ent-NFPosterContrabandFsbNightlight = Биотехнологический ночник "Далёкая звезда"
     .desc = Ночник "Далёкая звезда", разгоняющий тмъу всю ночь напролёт.
+ent-NFPosterContrabandFsbRetort = Far Star Biotech Retort
+    .desc = FSB Retort! Зажгите свой потенциал!

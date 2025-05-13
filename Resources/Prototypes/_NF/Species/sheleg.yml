@@ -21,8 +21,6 @@
     Hair: MobShelegHair
     FacialHair: MobShelegHair
     Snout: MobHumanoidAnyMarking
-    UndergarmentTop: MobHumanoidAnyMarking
-    UndergarmentBottom: MobHumanoidAnyMarking
     Chest: MobShelegTorso
     Eyes: MobHumanoidEyes
     HeadTop: MobHumanoidAnyMarking
@@ -54,12 +52,6 @@
       points: 0
       required: false
     HeadTop:
-      points: 1
-      required: false
-    UndergarmentTop:
-      points: 1
-      required: false
-    UndergarmentBottom:
       points: 1
       required: false
     Chest:
