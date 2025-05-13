@@ -633,11 +633,6 @@
 # Cloaks
 
 - type: latheRecipe
-  id: ClothingNeckCloakAroace
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakAroace
-
-- type: latheRecipe
   id: ClothingNeckCloakCap
   parent: NFBaseJumpsuitRecipe
   result: ClothingNeckCloakCap
@@ -646,11 +641,6 @@
   id: ClothingNeckCloakCapFormal
   parent: NFBaseJumpsuitRecipe
   result: ClothingNeckCloakCapFormal
-
-- type: latheRecipe
-  id: ClothingNeckCloakPan
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakPan
 
 - type: latheRecipe
   id: ClothingNeckCloakCe
@@ -663,11 +653,6 @@
   result: ClothingCloakCmo
 
 - type: latheRecipe
-  id: ClothingNeckCloakIntersex
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakIntersex
-
-- type: latheRecipe
   id: ClothingNeckCloakJanitor
   parent: NFBaseJumpsuitRecipe
   result: ClothingNeckCloakJanitor
@@ -678,34 +663,9 @@
   result: ClothingNeckCloakMiner
 
 - type: latheRecipe
-  id: ClothingNeckCloakGay
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakGay
-
-- type: latheRecipe
   id: ClothingNeckCloakNanotrasen
   parent: NFBaseJumpsuitRecipe
   result: ClothingNeckCloakNanotrasen
-
-- type: latheRecipe
-  id: ClothingNeckCloakAce
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakAce
-
-- type: latheRecipe
-  id: ClothingNeckCloakLesbian
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakLesbian
-
-- type: latheRecipe
-  id: ClothingNeckCloakBi
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakBi
-
-- type: latheRecipe
-  id: ClothingNeckCloakTrans
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakTrans
 
 - type: latheRecipe
   id: ClothingNeckCloakQm
@@ -726,16 +686,6 @@
   id: ClothingNeckCloakSr
   parent: NFBaseJumpsuitRecipe
   result: ClothingNeckCloakSr
-
-- type: latheRecipe
-  id: ClothingNeckCloakEnby
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakEnby
-
-- type: latheRecipe
-  id: ClothingNeckCloakAro
-  parent: NFBaseJumpsuitRecipe
-  result: ClothingNeckCloakAro
 
 # Syndicate
 
