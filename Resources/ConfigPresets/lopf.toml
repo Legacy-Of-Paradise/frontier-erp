@@ -23,7 +23,7 @@ time = 60.0
 discord = "https://wiki.legacyofparadise.space/discord"
 github = "https://github.com/Legacy-Of-Paradise/frontier-erp"
 wiki = "http://wiki.legacyofparadise.space/"
-patreon = "https://boosty.to/legacy-of-paradise"
+website = "https://boosty.to/legacy-of-paradise"
 
 [vote]
 restart_required_ratio = 0.85
