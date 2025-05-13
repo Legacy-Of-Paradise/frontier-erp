@@ -16,3 +16,5 @@ ent-LPPWeaponRifleLemas = LE-MAS
     .desc = Bullpup rifle made by FRENCH *ugh*. Fires 3 bullets in hyperburst. Uses .20 ammo.
 ent-LPPWeaponRifleLemasciv = PA-DE-FAME
     .desc = Unbullpup your bullpup. Civilian variant of LE-MAS rifle. It's a big bigger than the original one but it's also fires in hyperburst. Uses .20 ammo.
+ent-LPPWeaponRifleAek = 6P68-2
+    .desc = Second iteration of USSP experimental rifle. Famously used by USSP GRU specops . It can use .20 or .30 ammo and mags, also it has hyperburst firemode.

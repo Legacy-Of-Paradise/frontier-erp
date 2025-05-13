@@ -94,11 +94,13 @@
     whitelist:
       tags:
       - CartridgeAntiMateriel
-    capacity: 5
+#LOP edit start
+    capacity: 7
     proto: CartridgeAntiMateriel
   - type: SpeedModifiedOnWield
-    walkModifier: 0.25
-    sprintModifier: 0.25
+    walkModifier: 0.55
+    sprintModifier: 0.55
+#LOP edit end
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
     maxOffset: 3

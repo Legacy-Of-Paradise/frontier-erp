@@ -15,4 +15,4 @@ flavor-complex-tangy = острый
 flavor-complex-spices = как специи
 flavor-complex-cinnamon = как корица
 flavor-complex-antiseptic = как химическая лаванда
-flavor-complex-hairy = волосатый и резкий
+flavor-complex-hairy = волосатый и едкий

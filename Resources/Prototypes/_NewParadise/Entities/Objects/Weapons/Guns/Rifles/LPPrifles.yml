@@ -526,3 +526,64 @@
   - type: Appearance
   - type: StaticPrice
     price: 1750
+
+- type: entity
+  name: 6P68-2
+  parent: [BaseWeaponRifle, BaseC3Contraband]
+  id: LPPWeaponRifleAek
+  description: Second iteration of USSP experimental rifle. Famously used by USSP GRU specops . It can use .20 or .30 ammo and mags, also it has hyperburst firemode.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/aek.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/aek.rsi
+  - type: Gun
+    fireRate: 5.5
+    burstFireRate: 15
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+      - FullAuto
+      - Burst
+    shotsPerBurst: 2
+    burstCooldown: 0.8
+    soundGunshot:
+      path: /Audio/_NewParadise/Weapons/Guns/Gunshots/aek.ogg
+  - type: Item
+    size: Huge
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: MagazineLightRifle
+        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - MagazineRifle
+            - MagazineLightRifle
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: CartridgeLightRifle
+        priority: 1
+        whitelist:
+          tags:
+            - CartridgeLightRifle
+            - CartridgeRifle
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 1750

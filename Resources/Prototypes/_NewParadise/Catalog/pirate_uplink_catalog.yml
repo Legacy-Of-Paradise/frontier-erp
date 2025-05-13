@@ -49,7 +49,7 @@
   description: uplink-pirate-weaponrevolverrt46-desc
   productEntity: LPPWeaponRevolverRT46
   cost:
-    Doubloon: 15
+    Doubloon: 28
   categories:
     - UplinkPirateWeapons
   conditions:
@@ -67,6 +67,51 @@
     Doubloon: 30
   categories:
     - UplinkPirateHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkWeaponRifleAek
+  name: uplink-pirate-weaponrifleaek-name
+  description: uplink-pirate-weaponrifleaek-desc
+  productEntity: LPPWeaponRifleAek
+  cost:
+    Doubloon: 18
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinWeaponLightMachinegunLewis
+  name: uplink-pirate-weaponlightmachinegunlewis-name
+  description: uplink-pirate-weaponlightmachinegunlewis-desc
+  productEntity: LPPWeaponLightMachinegunLewis
+  cost:
+    Doubloon: 22
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkMagazineLightRifleMaxim
+  name:  uplink-pirate-magazinelightriflemaxim-name
+  description: uplink-pirate-magazinelightriflemaxim-desc
+  productEntity: MagazineLightRifleMaxim
+  cost:
+    Doubloon: 3
+  categories:
+    - UplinkPirateAmmo
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

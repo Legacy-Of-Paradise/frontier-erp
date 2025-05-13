@@ -120,7 +120,9 @@
     slots:
     - Belt
   - type: Item
-    size: Large
+    size: Huge
+    shape:
+    - 1,0,5,0
   - type: RevolverAmmoProvider
     whitelist:
       tags:
@@ -134,7 +136,10 @@
     delay: 1
   - type: Gun
     selectedMode: SemiAuto
-    fireRate: 0.5
+    fireRate: 0.35
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
 
 - type: entity
   name: Judge
@@ -257,18 +262,23 @@
     slots:
     - Belt
   - type: Item
-    size: Large
+    size: Huge
+    shape:
+    - 1,0,5,0
   - type: RevolverAmmoProvider
     whitelist:
       tags:
         - CartridgeAntiMateriel
     proto: CartridgeAntiMateriel
     capacity: 4
-    chambers: [ True, True, True, True ]
+    chambers: [ True, True, True, True]
     ammoSlots: [ null, null, null, null ]
   - type: UseDelayOnShoot
   - type: UseDelay
     delay: 1
   - type: Gun
     selectedMode: SemiAuto
-    fireRate: 1.0
+    fireRate: 0.25
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
