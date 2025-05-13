@@ -8,11 +8,11 @@
   id: Izakaya
   parent: BaseVessel
   name: SSS Izakaya
-  description: A medium-size, japanese-style restaurant/pub ship with a large dining area, and equally large kitchen.
+  description: Японский ресторан/паб средних размеров в стиле японского корабля с большой обеденной зоной и такой же большой кухней. # LOP edit
   price: 82000 # ~68000 appraisal price, ~20% markup
   category: Medium
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/izakaya.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/izakaya.yml # LOP edit
   guidebookPage: ShipyardIzakaya
   class:
   - Kitchen
@@ -22,7 +22,7 @@
 - type: gameMap
   id: Izakaya
   mapName: 'SSS Izakaya'
-  mapPath: /Maps/_NF/Shuttles/izakaya.yml
+  mapPath: /Maps/_NewParadise/Shuttles/izakaya.yml # LOP edit
   minPlayers: 0
   stations:
     Izakaya:

@@ -52,3 +52,5 @@ ent-NFPosterContrabandRatvarLives = Ratvar Lives
     .desc = A poster in a strange language with pictures of machinery. "RATVAR LIVES" is scrawled in the corner.
 ent-NFPosterContrabandFsbNightlight = Far Star Biotech Nightlight
     .desc = The FSB Nightlight, chasing the night away.
+ent-NFPosterContrabandFsbRetort = Far Star Biotech Retort
+    .desc = The FSB Retort! Ignite your potential!
