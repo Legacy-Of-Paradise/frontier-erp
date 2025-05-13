@@ -54,3 +54,8 @@
   - type: Tag
     tags:
       - SpreaderIgnore
+  # LOP edit start
+  - type: Construction
+    graph: AtmosDeviceFanDirectional
+    node: AtmosDeviceFanDirectional
+  # LOP edit end
