@@ -1,6 +1,6 @@
 # Вклад в Legacy of Paradise
 
-Если вы рассматриваете возможность внести свой вклад в Legacy of Paradise, [руководство Wizard's Den по PR](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html) является хорошей отправной точкой для понимания качества кода и этикета отслеживания версий. Обратите внимание, что у нас нет такого разделения на ветки master/stable.
+Если вы рассматриваете возможность внести свой вклад в Legacy of Paradise, [руководство Wizard's Den по PR](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html) является хорошей отправной точкой для понимания качества кода и этикета отслеживания версий.
 
 Важно: **не вносите изменения через веб-редактор**. Из текста выше:
 
