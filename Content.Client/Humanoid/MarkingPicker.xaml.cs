@@ -239,11 +239,8 @@ public sealed partial class MarkingPicker : Control
                 if (_sponsorsManager.TryGetInfo(out var sponsor))
                 {
                     bool havemarks = false;
-                    if (sponsor.Tier > 3)
-                    {
-                        var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                        havemarks = marks.Contains(marking.ID);
-                    }
+                    if (sponsor.Tier >= 3)
+                        havemarks = true;
                     item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID) || sponsor.AllowedMarkings.Contains("ALL") || havemarks);
                 }
 #endif

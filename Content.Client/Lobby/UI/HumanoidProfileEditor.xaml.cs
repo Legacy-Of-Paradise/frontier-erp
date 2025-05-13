@@ -1652,10 +1652,11 @@ namespace Content.Client.Lobby.UI
                 if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
                 {
                     sponsorTier = sponsorInfo.Tier;
-                    if (sponsorTier > 3)
+                    if (sponsorTier >= 3)
                     {
-                        var sponsormarks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                        marks = sponsormarks.Concat(sponsorInfo.AllowedMarkings).ToList();
+                        var sponsormarks = _markingManager.Markings.Select((a,_) => a.Value).Where(a => a.SponsorOnly == true).Select((a,_) => a.ID).ToList();
+                        sponsormarks.AddRange(sponsorInfo.AllowedMarkings.AsEnumerable());
+                        marks.AddRange(sponsormarks);
                     }
                 }
 #endif

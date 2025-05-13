@@ -699,11 +699,18 @@ namespace Content.Server.Administration.Systems
                     oocColor = prefs.AdminOOCColor.ToHex();
                 }
 #if LOP
-    if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(senderId, out var sponsorInfo))
-    {
-        sponsorColor = sponsorInfo.OOCColor;
-    }
+                if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(senderId, out var sponsorInfo))
+                {
+                    sponsorColor = sponsorInfo.OOCColor;
+                }
 #endif
+            }
+
+            if (senderAdmin is not null &&
+                senderAdmin.Flags ==
+                AdminFlags.Adminhelp) // Mentor. Not full admin. That's why it's colored differently.
+            {
+                oocColor = Color.Purple.ToString();
             }
             // LOP edit end
 
@@ -712,13 +719,14 @@ namespace Content.Server.Administration.Systems
                 adminPrefix = $"[bold][color={oocColor}]\\[{senderAdmin.Title}\\][/color][/bold] "; // LOP edit
             }
 
-            if (senderAdmin is not null &&
+            /*if (senderAdmin is not null &&
                 senderAdmin.Flags ==
                 AdminFlags.Adminhelp) // Mentor. Not full admin. That's why it's colored differently.
             {
                 bwoinkText = $"[color=purple]{adminPrefix}[/color][color={sponsorColor}]{senderName}[/color]"; // LOP edit
             }
-            else if (fromWebhook || senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp)) // Frontier: anything sent via webhooks are from an admin.
+            else */
+            if (fromWebhook || senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp)) // Frontier: anything sent via webhooks are from an admin.
             {
                 bwoinkText = $"{adminPrefix}[color={sponsorColor}]{senderName}[/color]"; // LOP edit
             }
