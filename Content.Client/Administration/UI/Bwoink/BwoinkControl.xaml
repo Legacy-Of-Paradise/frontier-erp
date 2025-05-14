@@ -3,9 +3,9 @@
     xmlns:cc="clr-namespace:Content.Client.Administration.UI.CustomControls">
     <PanelContainer StyleClasses="BackgroundDark">
         <SplitContainer Orientation="Vertical" ResizeMode="NotResizable">
-            <SplitContainer Name="SplitChat" State="Auto" Orientation="Horizontal" VerticalExpand="True">
+            <SplitContainer Orientation="Horizontal" VerticalExpand="True">
                 <cc:PlayerListControl Access="Public" Name="ChannelSelector" HorizontalExpand="True" SizeFlagsStretchRatio="2" />
-                <BoxContainer Name="ChatBox" Orientation="Vertical" HorizontalExpand="True" SizeFlagsStretchRatio="2"> <!-- LOP edit -->
+                <BoxContainer Orientation="Vertical" HorizontalExpand="True" SizeFlagsStretchRatio="2"> <!-- LOP edit -->
                     <BoxContainer Access="Public" Name="BwoinkArea" VerticalExpand="True" />
                 </BoxContainer>
             </SplitContainer>
