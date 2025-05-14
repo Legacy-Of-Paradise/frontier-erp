@@ -7,9 +7,6 @@
         - !type:DestroyEntity {}
       edges:
         - to: AtmosDeviceFanDirectional
-          completed:
-            - !type:SnapToGrid
-              southRotation: true
           steps:
             - material: Plasteel
               amount: 10

@@ -9,6 +9,7 @@ using Content.Client.Players.PlayTimeTracking;
 using Content.Client.Sprite;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.Guidebook;
+using Content.Shared._NewParadise; // LOP edit
 using Content.Shared._NewParadise.TTS; // LOP edit
 using Content.Shared.CCVar;
 using Content.Shared.Clothing;
@@ -220,6 +221,17 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Gender
+
+            // LOP edit start
+            #region Voice
+
+            if (configurationManager.GetCVar(NewParadiseCvars.TtsEnabled))
+            {
+                TTSContainer.Visible = true;
+            }
+
+            #endregion
+            // LOP edit end
 
             RefreshSpecies();
 
