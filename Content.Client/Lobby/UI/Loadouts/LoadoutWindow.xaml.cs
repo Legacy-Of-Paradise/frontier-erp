@@ -69,7 +69,7 @@ public sealed partial class LoadoutWindow : FancyWindow
             if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
                 sponsorTier = sponsorInfo.Tier;
 #endif
-            //LOP edit end
+            // LOP edit end
 
             foreach (var group in proto.Groups)
             {
@@ -79,13 +79,13 @@ public sealed partial class LoadoutWindow : FancyWindow
                 if (groupProto.Hidden)
                     continue;
 
-                //LOP edit starts
+                // LOP edit starts
                 if (groupProto.ID.ToString().Contains("Sponsor") && sponsorTier < 3)
                 {
                     groupProto.Hidden = true;
                     continue;
                 }
-                //LOP edit end
+                // LOP edit end
 
                 var container = new LoadoutGroupContainer(profile, loadout, protoManager.Index(group), session, collection);
                 LoadoutGroupsContainer.AddTab(container, Loc.GetString(groupProto.Name));

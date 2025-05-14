@@ -230,14 +230,14 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             playTimes = new Dictionary<string, TimeSpan>();
         }
 
-        //LOP edit start: sponsor system
+        // LOP edit start: sponsor system
         int tier = 0;
 #if LOP
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(player.UserId, out var sinfo))
             tier = sinfo.Tier;
 #endif
-        //LOP edit end
+        // LOP edit end
 
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
         {
@@ -275,7 +275,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
         if (sponsors.TryGetInfo(userId, out var sinfo))
             tier = sinfo.Tier;
 #endif
-        //LOP edit end
+        // LOP edit end
         for (var i = 0; i < jobs.Count; i++)
         {
             if (_prototypes.TryIndex(jobs[i], out var job)

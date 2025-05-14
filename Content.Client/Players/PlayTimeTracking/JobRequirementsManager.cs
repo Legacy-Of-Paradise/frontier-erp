@@ -159,13 +159,13 @@ public sealed partial class JobRequirementsManager : ISharedPlaytimeManager
         if (requirements == null || !_cfg.GetCVar(CCVars.GameRoleTimers))
             return true;
 
-        //LOP edit start
+        // LOP edit start
 #if LOP
         int sponsorTier = 0;
         if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorinfo))
             sponsorTier = sponsorinfo.Tier;
 #endif
-        //LOP edit end
+        // LOP edit end
 
         var reasons = new List<string>();
         foreach (var requirement in requirements)

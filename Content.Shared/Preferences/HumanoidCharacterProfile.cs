@@ -34,7 +34,7 @@ namespace Content.Shared.Preferences
 
         public const int MaxLoadoutNameLength = 32;
 
-        //LOP edit start
+        // LOP edit start
         public static int DescriptionLength(int tier)
         {
             if (tier >= 4)
@@ -42,7 +42,7 @@ namespace Content.Shared.Preferences
 
             return 1024;
         }
-        //LOP edit end
+        // LOP edit end
 
         public const int DefaultBalance = 30000;
 
@@ -539,14 +539,14 @@ namespace Content.Shared.Preferences
 #if LOP
         , int sponsorTier
 #endif
-        //LOP edit end
+        // LOP edit end
         )
         {
             var configManager = collection.Resolve<IConfigurationManager>();
             var prototypeManager = collection.Resolve<IPrototypeManager>();
 
             if (!prototypeManager.TryIndex(Species, out var speciesPrototype) || speciesPrototype.RoundStart == false
-            )//|| (speciesPrototype.SponsorOnly && !sponsorPrototypes.Contains(Species)))   //LOP edit
+            )//|| (speciesPrototype.SponsorOnly && !sponsorPrototypes.Contains(Species)))   // LOP edit
             {
                 Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
                 speciesPrototype = prototypeManager.Index(Species);
@@ -615,17 +615,17 @@ namespace Content.Shared.Preferences
                 name = GetName(Species, gender);
             }
 
-            //LOP edit start
+            // LOP edit start
             var descLength = DescriptionLength(0);
 #if LOP
             descLength = DescriptionLength(sponsorTier);
 #endif
-            //LOP edit end
+            // LOP edit end
 
             string flavortext;
-            if (FlavorText.Length > descLength) //LOP edit
+            if (FlavorText.Length > descLength) // LOP edit
             {
-                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..descLength];    //LOP edit
+                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..descLength];    // LOP edit
             }
             else
             {
@@ -781,7 +781,7 @@ namespace Content.Shared.Preferences
         )
         {
             var profile = new HumanoidCharacterProfile(this);
-            profile.EnsureValid(session, collection, sponsorPrototypes  //LOP edit
+            profile.EnsureValid(session, collection, sponsorPrototypes  // LOP edit
 #if LOP
             , sponsorTier
 #endif

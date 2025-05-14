@@ -211,7 +211,7 @@ public sealed partial class SingleMarkingPicker : BoxContainer
                 }
 #endif
             }
-            //LOP edit end
+            // LOP edit end
 
             if (_markings[Slot].MarkingId == id)
             {

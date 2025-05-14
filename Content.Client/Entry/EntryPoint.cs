@@ -80,7 +80,7 @@ namespace Content.Client.Entry
         [Dependency] private readonly DebugMonitorManager _debugMonitorManager = default!;
         [Dependency] private readonly TitleWindowManager _titleWindowManager = default!;
 
-        //LOP edit start
+        // LOP edit start
         [Dependency] private readonly TTSManager _ttsManager = default!;
 #if LOP
         [Dependency] private readonly SponsorsManager _sponsorsManager = default!;

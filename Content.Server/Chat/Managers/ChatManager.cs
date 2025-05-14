@@ -256,7 +256,7 @@ internal sealed partial class ChatManager : IChatManager
         if (_adminManager.HasAdminFlag(player, AdminFlags.NameColor))
         {
             var prefs = _preferencesManager.GetPreferences(player.UserId);
-            //colorOverride = prefs.AdminOOCColor;  //LOP edit
+            //colorOverride = prefs.AdminOOCColor;  // LOP edit
         }
         // LOP edit start
         if (_netConfigManager.GetClientCVar(player.Channel, CCVars.ShowOocPatronColor) && player.Channel.UserData.PatronTier is { } patron && PatronOocColors.TryGetValue(patron, out var patronColor))

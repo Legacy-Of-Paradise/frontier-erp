@@ -25,7 +25,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
-using Content.Server.Preferences.Managers;  //LOP edit
+using Content.Server.Preferences.Managers;  // LOP edit
 #if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
@@ -47,7 +47,7 @@ namespace Content.Server.Administration.Systems
         [Dependency] private readonly IAfkManager _afkManager = default!;
         [Dependency] private readonly IServerDbManager _dbManager = default!;
         [Dependency] private readonly PlayerRateLimitManager _rateLimit = default!;
-        [Dependency] private readonly IServerPreferencesManager _preferencesManager = default!; //LOP edit
+        [Dependency] private readonly IServerPreferencesManager _preferencesManager = default!; // LOP edit
 
         [GeneratedRegex(@"^https://(?:(?:canary|ptb)\.)?discord\.com/api/webhooks/(\d+)/((?!.*/).*)$")]
         private static partial Regex DiscordRegex();

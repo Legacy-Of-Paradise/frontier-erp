@@ -123,7 +123,7 @@ public sealed partial class RoleLoadout : IEquatable<RoleLoadout>
                 continue;
             }
 
-            //LOP edit start
+            // LOP edit start
             if (groupProto.ID.ToString().Contains("Sponsor")
 #if LOP
                 && sponsorTier < 3
@@ -133,7 +133,7 @@ public sealed partial class RoleLoadout : IEquatable<RoleLoadout>
                 groupRemove.Add(group);
                 continue;
             }
-            //LOP edit end
+            // LOP edit end
 
             var loadouts = groupLoadouts[..Math.Min(groupLoadouts.Count, groupProto.MaxLimit)];
 

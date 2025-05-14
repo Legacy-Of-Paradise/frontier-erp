@@ -18,7 +18,7 @@
         Heat: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.9
-  #LOP edit start
+  # LOP edit start
   - type: StaticPrice
     price: 125
     vendPrice: 17000

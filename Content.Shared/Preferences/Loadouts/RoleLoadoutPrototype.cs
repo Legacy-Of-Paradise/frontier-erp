@@ -34,7 +34,7 @@ public sealed partial class RoleLoadoutPrototype : IPrototype
     /// </summary>
     public List<ProtoId<LoadoutGroupPrototype>> Groups => ValidatePrototypes();
 
-    //LOP edit start
+    // LOP edit start
     [DataField("groups")]
     private List<string> _groups = new List<string>();          //эта дичь нужна для того, чтобы избегать ошибок из-за отсутствия группы спонсорских лодаутов
     private List<ProtoId<LoadoutGroupPrototype>> _sortedGroups = new(); //чтобы не выполнять преобразование каждый раз, лучше будет записать и ссылаться на него
@@ -57,7 +57,7 @@ public sealed partial class RoleLoadoutPrototype : IPrototype
         }
         return _sortedGroups;
     }
-    //LOP edit end
+    // LOP edit end
 
     /// <summary>
     /// How many points are allotted for this role loadout prototype.

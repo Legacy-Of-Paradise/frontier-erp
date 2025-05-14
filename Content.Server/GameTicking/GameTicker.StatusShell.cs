@@ -4,7 +4,7 @@ using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Robust.Server.ServerStatus;
 using Robust.Shared.Configuration;
-#if LOP //LOP edit
+#if LOP // LOP edit
 using Content.Server._NC.JoinQueue;
 #endif
 namespace Content.Server.GameTicking
@@ -31,7 +31,7 @@ namespace Content.Server.GameTicking
         /// </summary>
         [Dependency] private readonly SharedGameTicker _gameTicker = default!;
 
-#if LOP //LOP edit
+#if LOP // LOP edit
         [Dependency] private readonly JoinQueueManager _joinQueue = default!;
 #endif
         private void InitializeStatusShell()
@@ -50,15 +50,15 @@ namespace Content.Server.GameTicking
                 jObject["map"] = _gameMapManager.GetSelectedMap()?.MapName;
                 jObject["round_id"] = _gameTicker.RoundId;
 
-                //LOP edit start
+                // LOP edit start
                 var playercount = _playerManager.PlayerCount;
 #if LOP
                 playercount = _joinQueue.ActualPlayersCount;
 #endif
-                //LOP edit end
+                // LOP edit end
                 jObject["players"] = _cfg.GetCVar(CCVars.AdminsCountInReportedPlayerCount)
-                    ? playercount   //LOP edit
-                    : playercount - _adminManager.ActiveAdmins.Count(); //LOP edit
+                    ? playercount   // LOP edit
+                    : playercount - _adminManager.ActiveAdmins.Count(); // LOP edit
                 jObject["soft_max_players"] = _cfg.GetCVar(CCVars.SoftMaxPlayers);
                 jObject["panic_bunker"] = _cfg.GetCVar(CCVars.PanicBunkerEnabled);
                 jObject["run_level"] = (int) _runLevel;

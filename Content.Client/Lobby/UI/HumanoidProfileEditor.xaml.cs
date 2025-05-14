@@ -1657,7 +1657,7 @@ namespace Content.Client.Lobby.UI
 
             try
             {
-                //LOP edit start
+                // LOP edit start
                 List<string> marks = new();
 #if LOP
                 int sponsorTier = 0;
@@ -1677,7 +1677,7 @@ namespace Content.Client.Lobby.UI
                 , sponsorTier
 #endif
                 );
-                //LOP edit end
+                // LOP edit end
                 var oldProfile = Profile;
                 profile = profile.WithBankBalance(oldProfile.BankBalance); // Frontier: no free money (enforce import, don't care about import)
                 SetProfile(profile, CharacterSlot);

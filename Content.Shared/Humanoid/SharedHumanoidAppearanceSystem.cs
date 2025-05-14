@@ -91,7 +91,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         var profile = export.Profile;
         var collection = IoCManager.Instance;
-        profile.EnsureValid(session, collection!, sponsorProtos //LOP edit: sponsor system
+        profile.EnsureValid(session, collection!, sponsorProtos // LOP edit: sponsor system
 #if LOP
             , sponsorTier
 #endif

@@ -245,7 +245,7 @@ public sealed partial class MarkingPicker : Control
                 }
 #endif
             }
-            //LOP edit end
+            // LOP edit end
         }
 
         CMarkingPoints.Visible = _currentMarkings.PointsLeft(_selectedMarkingCategory) != -1;

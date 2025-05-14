@@ -50,7 +50,7 @@ namespace Content.Server.Connection
 
         void Update();
 
-        Task<bool> HasPrivilegedJoin(NetUserId userId); //LOP edit
+        Task<bool> HasPrivilegedJoin(NetUserId userId); // LOP edit
     }
 
     /// <summary>
@@ -257,13 +257,13 @@ namespace Content.Server.Connection
             var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
                             ticker.PlayerGameStatuses.ContainsKey(userId); // Frontier: remove status.JoinedGame check, TryGetValue<ContainsKey
 
-            //LOP edit start
+            // LOP edit start
 #if LPP_Sponsors
             var isPrivileged = await HasPrivilegedJoin(e.UserId);
             if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null && !isPrivileged)
 #else
             if (_cfg.GetCVar(CCVars.PanicBunkerEnabled) && adminData == null)
-#endif      //LOP edit end
+#endif      // LOP edit end
             {
                 var showReason = _cfg.GetCVar(CCVars.PanicBunkerShowReason);
                 var customReason = _cfg.GetCVar(CCVars.PanicBunkerCustomReason);
@@ -394,7 +394,7 @@ namespace Content.Server.Connection
             return null;
         }
 
-        //LOP edit start
+        // LOP edit start
         public async Task<bool> HasPrivilegedJoin(NetUserId userId)
         {
             var isAdmin = await _db.GetAdminDataForAsync(userId) != null;
@@ -412,7 +412,7 @@ namespace Content.Server.Connection
 #endif
                    wasInGame;
         }
-        //LOP edit end
+        // LOP edit end
 
         private bool HasTemporaryBypass(NetUserId user)
         {
