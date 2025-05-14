@@ -10,9 +10,10 @@
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hire # Frontier
+  access:
+  - Service
   accessGroups: # Frontier
   - GeneralAccess # Frontier
-  - Serivce
   special:
   - !type:AddComponentSpecial
     components:
