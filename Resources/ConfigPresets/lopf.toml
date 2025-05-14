@@ -25,6 +25,9 @@ github = "https://github.com/Legacy-Of-Paradise/frontier-erp"
 wiki = "http://wiki.legacyofparadise.space/"
 website = "https://boosty.to/legacy-of-paradise"
 
+[votekick]
+enabled = false
+
 [vote]
 restart_required_ratio = 0.85
 same_type_timeout = 300.0
