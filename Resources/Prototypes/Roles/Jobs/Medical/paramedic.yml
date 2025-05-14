@@ -10,6 +10,8 @@
   startingGear: ParamedicGear
   icon: "JobIconParamedic"
   supervisors: job-supervisors-hire # Frontier
+  access:
+  - Medical
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:
