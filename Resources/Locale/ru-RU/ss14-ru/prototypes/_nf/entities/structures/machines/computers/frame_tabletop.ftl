@@ -3,6 +3,7 @@ ent-BaseStructureComputerTabletop = { ent-BaseStructure }
     .desc = { ent-BaseStructure.desc }
 ent-ComputerTabletopFrame = { ent-ComputerFrame }
     .desc = { ent-ComputerFrame.desc }
+    .suffix = Настольный
 ent-ComputerTabletopBroken = { ent-ComputerBroken }
     .suffix = Настольный
     .desc = { ent-ComputerBroken.desc }
