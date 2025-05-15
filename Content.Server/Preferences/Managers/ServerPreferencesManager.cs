@@ -11,6 +11,8 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+using Content.Shared.Humanoid.Markings; //LOP edit
+using YamlDotNet.Core.Tokens;
 #if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
@@ -32,6 +34,7 @@ namespace Content.Server.Preferences.Managers
         [Dependency] private readonly ILogManager _log = default!;
         [Dependency] private readonly UserDbDataManager _userDb = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
+        [Dependency] private readonly MarkingManager _markingManager = default!;    //LOP edit
 
 #if LOP
         [Dependency] private readonly SponsorsManager _sponsors = default!;
@@ -139,10 +142,11 @@ namespace Content.Server.Preferences.Managers
             if (_sponsors.TryGetInfo(userId, out var sponsor))
             {
                 sponsorTier = sponsor.Tier;
-                if (sponsorTier > 3)
+                if (sponsorTier >= 3)
                 {
-                    var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                    allowedMarkings = marks.Concat(sponsor.AllowedMarkings).ToList();
+                    var marks = _markingManager.Markings.Select((a,_) => a.Value).Where(a => a.SponsorOnly == true).Select((a,_) => a.ID).ToList();
+                    marks.AddRange(sponsor.AllowedMarkings.AsEnumerable());
+                    allowedMarkings.AddRange(marks);
                 }
             }
 #endif
