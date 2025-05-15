@@ -12,7 +12,7 @@
   id: Skipper
   parent: BaseVessel
   name: NC Skipper
-  description: "Небольшое судно с полностью оборудованной кухней и гидропонным отсеком." #LOP Edit
+  description: "Небольшое судно с полностью оборудованной кухней и гидропонным отсеком." # LOP Edit
   price: 34000
   category: Small
   group: Shipyard

@@ -12,7 +12,7 @@
   id: Prospector
   parent: BaseVessel
   name: NC Prospector
-  description: "Малое шахтерское судно, сконструированное для спасательных операций." #LOP Edit
+  description: "Малое шахтерское судно, сконструированное для спасательных операций." # LOP Edit
   price: 24500
   category: Small
   group: Shipyard

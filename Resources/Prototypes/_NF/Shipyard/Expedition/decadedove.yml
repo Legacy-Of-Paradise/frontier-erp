@@ -12,7 +12,7 @@
   id: DecadeDove
   parent: BaseVessel
   name: DYS Dove
-  description: "Универсальное легкое грузовое судно, пригодное для экспедиций." #LOP edit
+  description: "Универсальное легкое грузовое судно, пригодное для экспедиций." # LOP edit
   price: 78500 # ~60100$ on mapinit + ~18000$ from 30% markup
   category: Medium
   group: Expedition

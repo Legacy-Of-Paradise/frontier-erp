@@ -12,7 +12,7 @@
   id: Garden
   parent: BaseVessel
   name: HS Garden
-  description: "Маленькое судно, больше похожее на летающий полисадник, самое то для эксперементов над растениями!" #LOP Edit
+  description: "Маленькое судно, больше похожее на летающий полисадник, самое то для эксперементов над растениями!" # LOP Edit
   price: 30000
   category: Small
   group: Shipyard

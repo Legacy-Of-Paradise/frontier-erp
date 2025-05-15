@@ -12,7 +12,7 @@
   id: Searchlight
   parent: BaseVessel
   name: LVHI Searchlight
-  description: "Небольшое судно, оборудованное для поиска и эвакуации раненых военнослужащих ДШНГ. Произведено Langstad-Voigt Heavy Industries." #LOP Edit
+  description: "Небольшое судно, оборудованное для поиска и эвакуации раненых военнослужащих ДШНГ. Произведено Langstad-Voigt Heavy Industries." # LOP Edit
   price: 30000 # ~25988$ on mapinit + 15% markup
   category: Small
   group: Medical

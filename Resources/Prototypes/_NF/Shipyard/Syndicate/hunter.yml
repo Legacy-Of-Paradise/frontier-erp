@@ -2,7 +2,7 @@
   id: Hunter
   parent: BaseVesselAntag
   name: Hunter
-  description: "Небольшой бронированный штурмовой шаттл Синдиката, идеально подходящий для хитроумных операций!" #LOP Edit
+  description: "Небольшой бронированный штурмовой шаттл Синдиката, идеально подходящий для хитроумных операций!" # LOP Edit
   price: 50000
   category: Small
   group: Syndicate

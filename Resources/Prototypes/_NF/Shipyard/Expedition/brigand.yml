@@ -12,7 +12,7 @@
   id: Brigand
   parent: BaseVessel
   name: LVHI Brigand
-  description: "Гражданское судно, что ранее было военным легким фрегатом времен ранней экспансии человечества к звездам, предшествовавшей технологии сверхсветовых полетов. Произведено Langstad-Voigt Heavy Industries " #LOP edit
+  description: "Гражданское судно, что ранее было военным легким фрегатом времен ранней экспансии человечества к звездам, предшествовавшей технологии сверхсветовых полетов. Произведено Langstad-Voigt Heavy Industries " # LOP edit
   price: 56200 # ~48800$ on mapinit + ~7320$ from 15% markup
   category: Medium
   group: Expedition

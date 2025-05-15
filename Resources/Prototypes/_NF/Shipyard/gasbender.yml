@@ -12,7 +12,7 @@
   id: Gasbender
   parent: BaseVessel
   name: LVHI Gasbender
-  description: "Gasbender — это инженерное судно среднего размера, оборудованное для строительства всего в дальнем космосе. Имеет атмосферную установку с камерой смешивания/воспламенения. Разработано для работы в паре с малым спасательным судном. Произведено Langstad-Voigt Heavy Industries." #LOP Edit
+  description: "Gasbender — это инженерное судно среднего размера, оборудованное для строительства всего в дальнем космосе. Имеет атмосферную установку с камерой смешивания/воспламенения. Разработано для работы в паре с малым спасательным судном. Произведено Langstad-Voigt Heavy Industries." # LOP Edit
   price: 85800 # ~$78000 on mapinit + ~$7800 from 10% markup
   category: Medium
   group: Shipyard

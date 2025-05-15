@@ -12,7 +12,7 @@
   id: Loader
   parent: BaseVessel
   name: NC Loader
-  description: "Компактное грузовое судно. Вози пока возится!" #LOP Edit
+  description: "Компактное грузовое судно. Вози пока возится!" # LOP Edit
   price: 22000
   category: Small
   group: Shipyard

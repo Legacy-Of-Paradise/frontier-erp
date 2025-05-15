@@ -4,11 +4,11 @@
   loadouts:
   - BailiffClothingUniformJumpsuitBailiff
   - BailiffClothingUniformJumpskirtBailiff
-  - LPPNfsdClothingUniformJumpsuitBailiffSherif #LOP edit
+  - LPPNfsdClothingUniformJumpsuitBailiffSherif # LOP edit
   fallbacks:
   - BailiffClothingUniformJumpsuitBailiff
   - BailiffClothingUniformJumpskirtBailiff
-  - LPPNfsdClothingUniformJumpsuitBailiffSherif #LOP edit
+  - LPPNfsdClothingUniformJumpsuitBailiffSherif # LOP edit
 
 - type: loadoutGroup
   id: BailiffOuterClothing

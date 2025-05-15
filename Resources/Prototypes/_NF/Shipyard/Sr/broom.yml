@@ -12,7 +12,7 @@
   id: Broom
   parent: BaseVessel
   name: LVHI Broom
-  description: "Тесный, но надежный шаттл для оказания услуг по уборке помещений." #LOP Edit
+  description: "Тесный, но надежный шаттл для оказания услуг по уборке помещений." # LOP Edit
   price: 13500 # ~12180$ on mapinit + 5% markup + some extra
   category: Micro
   group: Sr

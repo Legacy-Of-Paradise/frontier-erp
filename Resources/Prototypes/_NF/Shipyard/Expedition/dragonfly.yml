@@ -12,7 +12,7 @@
   id: Dragonfly
   parent: BaseVessel
   name: DYS Dragonfly
-  description: "Модульное спасательное судно, сваренное из небольших переоборудованных корпусов." #LOP edit
+  description: "Модульное спасательное судно, сваренное из небольших переоборудованных корпусов." # LOP edit
   price: 81000 # ~62075$ on mapinit + ~18650$ from 30% markup
   category: Medium
   group: Expedition

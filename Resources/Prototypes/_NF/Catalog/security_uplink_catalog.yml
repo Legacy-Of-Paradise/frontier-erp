@@ -111,7 +111,7 @@
   productEntity: ClothingOuterHardsuitNfsdExperimental
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 30 #LOP edit
+    FrontierUplinkCoin: 30 # LOP edit
   categories:
     - UplinkSecurityHardsuits
   conditions:

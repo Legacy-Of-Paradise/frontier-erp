@@ -12,7 +12,7 @@
   id: Harbormaster
   parent: BaseVessel
   name: LVHI Harbormaster
-  description: "Небольшой буксир. Производено Langstad-Voigt Heavy Industries." #LOP Edit
+  description: "Небольшой буксир. Производено Langstad-Voigt Heavy Industries." # LOP Edit
   price: 31500 # ~27196$ on mapinit + 15% markup
   category: Small
   group: Shipyard

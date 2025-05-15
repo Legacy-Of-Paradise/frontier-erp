@@ -9,7 +9,7 @@
   id: McCargo
   parent: BaseVessel
   name: DC McCargo
-  description: "Ваш собственный McCargo™! Поставляется полностью укомплектованной и готовой к производству McMeals." #LOP Edit
+  description: "Ваш собственный McCargo™! Поставляется полностью укомплектованной и готовой к производству McMeals." # LOP Edit
   price: 65000
   category: Medium
   group: Shipyard

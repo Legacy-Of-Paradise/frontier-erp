@@ -12,7 +12,7 @@
   id: Lyrae
   parent: BaseVessel
   name: SBB Lyrae
-  description: "Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии." #LOP Edit
+  description: "Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии." # LOP Edit
   price: 57500 # Appraises at ~52210. Tier 1 vessel, markup is around ~10%.
   category: Medium
   group: Shipyard

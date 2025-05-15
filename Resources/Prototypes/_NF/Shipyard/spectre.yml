@@ -12,7 +12,7 @@
   id: Spectre
   parent: BaseVessel
   name: NR Spectre
-  description: "Большое, привлекательное, но достаточно устаревшее судно, полностью сделанное под исследования. Способно генерировать аномалии." #LOP Edit
+  description: "Большое, привлекательное, но достаточно устаревшее судно, полностью сделанное под исследования. Способно генерировать аномалии." # LOP Edit
   price: 185000 # Anomaly spawner
   category: Large
   group: Shipyard

@@ -9,7 +9,7 @@
   id: McDelivery
   parent: BaseVessel
   name: DC McDelivery
-  description: "Быстрый корабль быстрого питания. Доставляет еду McCargo людям." #LOP Edit
+  description: "Быстрый корабль быстрого питания. Доставляет еду McCargo людям." # LOP Edit
   price: 10000
   category: Micro
   group: Custom

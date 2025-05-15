@@ -12,7 +12,7 @@
   id: Apothecary
   parent: BaseVessel
   name: FSB Apothecary
-  description: "Маленький корабль оснащённый медицинскими и химическими приборами. Выпущен корпорацией Far Star Biotech для оказания медицинской помощи в Новых Горизонтах." #LOP Edit
+  description: "Маленький корабль оснащённый медицинскими и химическими приборами. Выпущен корпорацией Far Star Biotech для оказания медицинской помощи в Новых Горизонтах." # LOP Edit
   price: 36000 # 15% markup for Tier 2 Med + .5 botany
   category: Small
   group: Medical

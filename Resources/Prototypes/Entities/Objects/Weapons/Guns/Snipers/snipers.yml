@@ -94,22 +94,22 @@
     whitelist:
       tags:
       - CartridgeAntiMateriel
-#LOP edit start
+# LOP edit start
     capacity: 7
     proto: CartridgeAntiMateriel
   - type: SpeedModifiedOnWield
     walkModifier: 0.55
     sprintModifier: 0.55
-#LOP edit end
+# LOP edit end
   - type: CursorOffsetRequiresWield
   - type: EyeCursorOffset
     maxOffset: 3
     pvsIncrease: 0.3
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 1500
     vendPrice: 72500
-#LOP edit end
+# LOP edit end
 
 - type: entity
   name: musket
@@ -131,7 +131,7 @@
     - SemiAuto
   - type: UseDelayOnShoot
   - type: UseDelay
-    delay: 1.5 #LOP edit 8<1.5
+    delay: 1.5 # LOP edit 8<1.5
   - type: BallisticAmmoProvider
     whitelist:
       tags:

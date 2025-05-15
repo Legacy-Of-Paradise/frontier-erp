@@ -4,11 +4,11 @@
   loadouts:
   - SheriffClothingUniformJumpsuitSheriff
   - SheriffClothingUniformJumpskirtSheriff
-  - LPPNfsdClothingUniformJumpsuitSherif #LOP edit
+  - LPPNfsdClothingUniformJumpsuitSherif # LOP edit
   fallbacks:
   - SheriffClothingUniformJumpsuitSheriff
   - SheriffClothingUniformJumpskirtSheriff
-  - LPPNfsdClothingUniformJumpsuitSherif #LOP edit
+  - LPPNfsdClothingUniformJumpsuitSherif # LOP edit
 
 - type: loadoutGroup
   id: SheriffOuterClothing
@@ -23,7 +23,7 @@
   minLimit: 0
   loadouts:
   - SheriffClothingHeadHatSheriff
-  - LPPNfsdClothingHeadHatSherif #LOP edit
+  - LPPNfsdClothingHeadHatSherif # LOP edit
 
 - type: loadoutGroup
   id: SheriffNeck
