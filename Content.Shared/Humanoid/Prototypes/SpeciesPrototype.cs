@@ -128,6 +128,11 @@ public sealed partial class SpeciesPrototype : IPrototype
     /// </summary>
     [DataField]
     public Color ForcedMarkingColor { get; private set; } = new();
+
+    // LOP edit start
+    [DataField("sponsorTier")]
+    public int SponsorTier = 0;
+    // LOP edit end
 }
 
 public enum SpeciesNaming : byte

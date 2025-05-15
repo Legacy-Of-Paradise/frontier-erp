@@ -23,6 +23,9 @@ using Robust.Server.Player;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
+#if LOP
+using Content.Server._NewParadise.Sponsors;
+#endif
 
 namespace Content.Server._NF.Roles.Systems;
 
@@ -141,7 +144,7 @@ public sealed class InterviewHologramSystem : SharedInterviewHologramSystem
             ApplyAppearanceForSession(ent, session);
         }
 
-        // Notify all relevant captains if they have their PDA that someone is applying for a job. 
+        // Notify all relevant captains if they have their PDA that someone is applying for a job.
         if (!ent.Comp.NotificationsSent)
         {
             string jobTitle;
@@ -210,7 +213,17 @@ public sealed class InterviewHologramSystem : SharedInterviewHologramSystem
         if (_prefs.GetPreferences(session.UserId).SelectedCharacter is HumanoidCharacterProfile currentProfile)
             profile = currentProfile;
         else
-            profile = HumanoidCharacterProfile.Random();
+        {   //LOP edit start
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP
+            var sponsorman = IoCManager.Resolve<SponsorsManager>();
+            if (sponsorman.TryGetInfo(session.UserId, out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            // LOP edit end
+            profile = HumanoidCharacterProfile.Random(sponsorTier: sponsorTier);
+        }   //LOP edit end
 
         // Prevent reopening the applicant's slot.
         RemComp<JobTrackingComponent>(ent);

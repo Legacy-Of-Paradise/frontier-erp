@@ -622,7 +622,16 @@ namespace Content.Client.Lobby.UI
             SpeciesButton.Clear();
             _species.Clear();
 
-            _species.AddRange(_prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(o => o.RoundStart));
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP
+            var sponsorman = IoCManager.Resolve<SponsorsManager>();
+            if (sponsorman.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            // LOP edit end
+
+            _species.AddRange(_prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(o => o.RoundStart && o.SponsorTier <= sponsorTier));  //LOP edit
             var speciesIds = _species.Select(o => o.ID).ToList();
 
             for (var i = 0; i < _species.Count; i++)
@@ -1168,20 +1177,20 @@ namespace Content.Client.Lobby.UI
                     }
                 // Frontier: Sheleg
                 case HumanoidSkinColor.ShelegToned:
-                {
-                    if (!Skin.Visible)
                     {
-                        Skin.Visible = true;
-                        RgbSkinColorContainer.Visible = false;
+                        if (!Skin.Visible)
+                        {
+                            Skin.Visible = true;
+                            RgbSkinColorContainer.Visible = false;
+                        }
+
+                        var color = SkinColor.ShelegSkinTone((int)Skin.Value);
+
+                        Markings.CurrentSkinColor = color;
+                        Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
+                        break;
                     }
-
-                    var color = SkinColor.ShelegSkinTone((int)Skin.Value);
-
-                    Markings.CurrentSkinColor = color;
-                    Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
-                    break;
-                }
-                // End Frontier
+                    // End Frontier
             }
 
             ReloadProfilePreview();
@@ -1415,17 +1424,17 @@ namespace Content.Client.Lobby.UI
                 // Frontier: Sheleg
                 case HumanoidSkinColor.ShelegToned:
                     {
-                    if (!Skin.Visible)
-                    {
-                        Skin.Visible = true;
-                        RgbSkinColorContainer.Visible = false;
+                        if (!Skin.Visible)
+                        {
+                            Skin.Visible = true;
+                            RgbSkinColorContainer.Visible = false;
+                        }
+
+                        Skin.Value = SkinColor.ShelegSkinToneFromColor(Profile.Appearance.SkinColor);
+
+                        break;
                     }
-
-                    Skin.Value = SkinColor.ShelegSkinToneFromColor(Profile.Appearance.SkinColor);
-
-                    break;
-                }
-                // End Frontier
+                    // End Frontier
             }
 
         }
@@ -1615,7 +1624,17 @@ namespace Content.Client.Lobby.UI
         private void RandomizeEverything()
         {
             var oldBank = Profile?.BankBalance ?? HumanoidCharacterProfile.DefaultBalance; // Frontier
-            Profile = HumanoidCharacterProfile.Random().WithBankBalance(oldBank); // Frontier: add WithBankBalance(oldBank)
+
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP
+            var sponsorman = IoCManager.Resolve<SponsorsManager>();
+            if (sponsorman.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            // LOP edit end
+
+            Profile = HumanoidCharacterProfile.Random(sponsorTier: sponsorTier).WithBankBalance(oldBank); // Frontier: add WithBankBalance(oldBank) //LOP edit
             SetProfile(Profile, CharacterSlot);
             SetDirty();
         }
@@ -1666,7 +1685,7 @@ namespace Content.Client.Lobby.UI
                     sponsorTier = sponsorInfo.Tier;
                     if (sponsorTier >= 3)
                     {
-                        var sponsormarks = _markingManager.Markings.Select((a,_) => a.Value).Where(a => a.SponsorOnly == true).Select((a,_) => a.ID).ToList();
+                        var sponsormarks = _markingManager.Markings.Select((a, _) => a.Value).Where(a => a.SponsorOnly == true).Select((a, _) => a.ID).ToList();
                         sponsormarks.AddRange(sponsorInfo.AllowedMarkings.AsEnumerable());
                         marks.AddRange(sponsormarks);
                     }

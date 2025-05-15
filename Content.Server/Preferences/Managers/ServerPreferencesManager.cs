@@ -228,12 +228,20 @@ namespace Content.Server.Preferences.Managers
         {
             if (!ShouldStorePrefs(session.Channel.AuthType))
             {
+
+                // LOP edit start
+                int sponsorTier = 0;
+#if LOP
+                if (_sponsors.TryGetInfo(session.UserId, out var sponsorInfo))
+                    sponsorTier = sponsorInfo.Tier;
+#endif
+                // LOP edit end
                 // Don't store data for guests.
                 var prefsData = new PlayerPrefData
                 {
                     PrefsLoaded = true,
                     Prefs = new PlayerPreferences(
-                        new[] { new KeyValuePair<int, ICharacterProfile>(0, HumanoidCharacterProfile.Random()) },
+                        new[] { new KeyValuePair<int, ICharacterProfile>(0, HumanoidCharacterProfile.Random(sponsorTier: sponsorTier)) },   //LOP edit
                         0, Color.Transparent)
                 };
 
@@ -338,10 +346,19 @@ namespace Content.Server.Preferences.Managers
 
         private async Task<PlayerPreferences> GetOrCreatePreferencesAsync(NetUserId userId, CancellationToken cancel)
         {
+
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP
+            if (_sponsors.TryGetInfo(userId, out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            // LOP edit end
+
             var prefs = await _db.GetPlayerPreferencesAsync(userId, cancel);
             if (prefs is null)
             {
-                return await _db.InitPrefsAsync(userId, HumanoidCharacterProfile.Random(), cancel);
+                return await _db.InitPrefsAsync(userId, HumanoidCharacterProfile.Random(sponsorTier: sponsorTier), cancel); //LOP edit
             }
 
             return prefs;
