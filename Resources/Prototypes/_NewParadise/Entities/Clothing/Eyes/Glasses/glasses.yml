@@ -51,48 +51,6 @@
   - type: FlashImmunity
 
 - type: entity
-  parent: ClothingEyesBase
-  id: LPPClothingEyesGlassesSunglassesPG
-  name: PG black protection glasses
-  description: Useful for special operations.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Eyes/Glasses/pg-black-glasses.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Eyes/Glasses/pg-black-glasses.rsi
-  - type: FlashImmunity
-  - type: EyeProtection
-    protectionTime: 5
-
-- type: entity
-  parent: ClothingEyesBase
-  id: LPPClothingEyesGlassesNVG
-  name: PG nightvision goggles
-  description: Useful for special operations.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Eyes/nvg.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Eyes/nvg.rsi
-  - type: FlashImmunity
-  - type: EyeProtection
-    protectionTime: 5
-
-- type: entity
-  parent: [ClothingEyesBase, LPPShowSecurityIcons]
-  id: LPPClothingEyesGlassesAviatorNPZ
-  name: NPZ aviators
-  description: Only for the most coolest guys in this sector.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Eyes/Glasses/NPZaviators.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Eyes/Glasses/NPZaviators.rsi
-  - type: FlashImmunity
-  - type: EyeProtection
-    protectionTime: 5
-
-- type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: LPPClothingEyesGlassesContractor
   name: Contractor glasses

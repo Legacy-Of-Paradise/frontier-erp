@@ -1,16 +1,5 @@
 - type: entity
   parent: ClothingUniformBase
-  id: LPPClothingUniformJumpsuitAdjutant
-  name: adjutant's jumpsuit
-  description:
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/adjutant_suite.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/adjutant_suite.rsi
-
-- type: entity
-  parent: ClothingUniformBase
   id: LPPCargotechjean
   name: Techjean
   description:
@@ -308,66 +297,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: LPPClothingUniformJumpsuitPG
-  name: PG jumpsuit
-  description: Jumpsuit for all PG army's needs
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/WTF/pg-uniform.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/WTF/pg-uniform.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPClothingUniformBlackJumpsuitPG
-  name: black PG jumpsuit
-  description: Jumpsuit for all PG elite stealth army's needs
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/WTF/pg-black-uniform.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/WTF/pg-black-uniform.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPClothingUniformSnowJumpsuitPG
-  name: snow PG jumpsuit
-  description: Jumpsuit for all PG army's needs
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/WTF/snow-pg-uniform.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/WTF/snow-pg-uniform.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPClothingUniformDesertJumpsuitPG
-  name: desert PG jumpsuit
-  description: Jumpsuit for all PG army's needs
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/WTF/desert-pg-uniform.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/WTF/desert-pg-uniform.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-
-- type: entity
-  parent: ClothingUniformBase
   id: LPPBlackFlannelJumpsuit
   name: black flannel jumpsuit
   description:
@@ -409,17 +338,6 @@
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/FluppiClothing.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/FluppiClothing.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPClothingUniformJumpsuitSecEngineer
-  name: security engineer jumpskirt
-  description: A jumpsuit made of strong material, providing robust protection.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/Sec/Engineer/securityEngineerJumpSuit.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/Sec/Engineer/securityEngineerJumpSuit.rsi
 
 - type: entity
   parent: ClothingUniformBase

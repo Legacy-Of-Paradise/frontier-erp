@@ -66,28 +66,6 @@
 
 - type: entity
   parent: ClothingShoesBootsMag
-  id: LPPClothingShoesBootsMagNPZ
-  name: NPZ magboots
-  description: Standardized magnetic boots from the military research forces of the Independent Government of Earth.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Shoes/Boots/NPZmagboots.rsi
-    state: icon
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Shoes/Boots/NPZmagboots.rsi
-  - type: ClothingSpeedModifier
-    walkModifier: 0.95
-    sprintModifier: 0.95
-  - type: NoSlip
-  - type: Tag
-    tags:
-    - WhitelistChameleon
-  - type: StaticPrice
-    price: 450
-    vendPrice: 19500
-
-- type: entity
-  parent: ClothingShoesBootsMag
   id: LPPClothingShoesBootsMagHunter
   name: magboots of carp hunter
   description: Commercial magnetic boots for those who prefer to hunt in zero gravity or in low gravity.

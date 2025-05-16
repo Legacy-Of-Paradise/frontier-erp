@@ -54,26 +54,6 @@
     sprite: _NewParadise/Clothing/Shoes/Boots/white_laceups.rsi
 
 - type: entity
-  parent: ClothingShoesBootsJack
-  id: LPPClothingShoesBootsJackSecEnginer
-  components:
-    - type: Sprite
-      sprite: _NewParadise/Clothing/Shoes/Boots/jackboots_sec_enginer.rsi
-    - type: Clothing
-      sprite: _NewParadise/Clothing/Shoes/Boots/jackboots_sec_enginer.rsi
-
-- type: entity
-  parent: ClothingShoesMilitaryBase
-  id: LPPClothingShoesBootsCombatPG
-  name: PG combat boots
-  description: boots for all the PG needs.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Shoes/Boots/pg-boots.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Shoes/Boots/pg-boots.rsi
-
-- type: entity
   parent: ClothingShoesBaseButcherable
   id: LPPUnathiWraps
   name: unathi wraps
@@ -83,14 +63,3 @@
     sprite: _NewParadise/Clothing/Shoes/Boots/unathiwraps.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Shoes/Boots/unathiwraps.rsi
-
-- type: entity
-  parent: ClothingShoesMilitaryBase
-  id: LPPClothingShoesBootsNPZ
-  name: NPZ Boots
-  description: Strong boots for any difficult terrain.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Shoes/Boots/upgjackboots.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Shoes/Boots/upgjackboots.rsi

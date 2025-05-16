@@ -45,17 +45,6 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: LPPADJUCap
-  name: Adjutant's cap
-  description: This cap is worn by those who are quite tired of the routine of working with the bureaucracy
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Head/Hats/LPPADJUCap.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Head/Hats/LPPADJUCap.rsi
-
-- type: entity
-  parent: ClothingHeadBase
   id: LPPClothingHeadHatCapRed
   name: red cap
   description: A stylish red cap.

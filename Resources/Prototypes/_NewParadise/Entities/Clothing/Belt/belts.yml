@@ -1,15 +1,4 @@
 - type: entity
-  parent: ClothingBeltStorageBase
-  id: LPPClothingBeltPGWebbing
-  name: PG webbing
-  description: Predator Grosperox Webbing for all the soldier's needs
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Belt/pg-rps.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Belt/pg-rps.rsi
-
-- type: entity
   parent: ClothingBeltBase
   id: LPPClothingBeltFlamingo
   name: inflatable flamingo
@@ -19,43 +8,6 @@
     sprite: _NewParadise/Clothing/Belt/flamingo.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Belt/flamingo.rsi
-
-- type: entity
-  parent: ClothingBeltStorageBase
-  id: LPPClothingBeltNPZWebbing
-  name: NPZ webbing
-  description: Dense durathread webbing in the colors of the NPZ troops.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Belt/NPZ.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Belt/NPZ.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9
-        Slash: 0.85
-        Heat: 0.95
-  - type: StaticPrice
-    price: 1500
-    vendPrice: 21500
-
-- type: entity
-  id: LPPClothingMilitaryWebbingSecEng
-  parent: ClothingBeltMilitaryWebbing
-  name: Security engineer webbing
-  description: Webbing with a lot of straps for security engineer.
-  suffix: Security
-  components:
-  - type: StorageFill
-    contents:
-    - id: JawsOfLife
-    - id: Wrench
-    - id: Screwdriver
-    - id: WelderIndustrial
-    - id: Multitool
-  - type: ExplosionResistance
-    damageCoefficient: 0.5
 
 - type: entity
   parent: ClothingBeltStorageBase

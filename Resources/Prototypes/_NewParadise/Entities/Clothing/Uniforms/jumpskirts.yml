@@ -1,15 +1,4 @@
 - type: entity
-  parent: ClothingUniformSkirtBase
-  id: LPPClothingUniformJumpskirtAdjutant
-  name: adjutant's jumpskirt
-  description:
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/adjutant_skirt.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/Jumpsuit/adjutant_skirt.rsi
-
-- type: entity
   parent: ClothingUniformBase
   id: LPPCargoBlackSkirt
   name: BlackSkirt
@@ -140,17 +129,6 @@
     sprite: _NewParadise/Clothing/Uniforms/Engineering_department/engineers/supply_chief_skirt.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Uniforms/Engineering_department/engineers/supply_chief_skirt.rsi
-
-- type: entity
-  parent: ClothingUniformBase
-  id: LPPClothingUniformJumpSkirtSecEngineer
-  name: security engineer jumpsuit
-  description: A jumpsuit made of strong material, providing robust protection.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/Sec/Engineer/securityEngineerJumpSkirt.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/Sec/Engineer/securityEngineerJumpSkirt.rsi
 
 - type: entity
   parent: ClothingUniformBase
