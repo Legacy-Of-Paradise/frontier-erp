@@ -1,5 +1,3 @@
-ent-LPPClothingHandsGlovesNPZCombat = боевые перчатки НПЗ
-    .desc = Боевые перчатки бойцов НПЗ, с арамидным покрытием в области костяшек, для нанесения увечий и выбивания дури из противника.
 ent-LPPClothingHandsGlovesCombatNitrile = нитрилово-боевые перчатки
     .desc = Совмещение высококачественных нитриловых перчаток с боевыми. Дорогостоющий полевой СИЗ.
 ent-LPPClothingHandsGlovesTacticalFingerless = тактические боевые перчатки без пальцев

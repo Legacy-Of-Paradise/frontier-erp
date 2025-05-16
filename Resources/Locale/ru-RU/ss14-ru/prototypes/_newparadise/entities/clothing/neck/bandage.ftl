@@ -1,7 +1,3 @@
-ent-LPPClothingNeckPGBandage = повязка ПГ
-    .desc = Повязка, по которой становятся ясны политические взгляды носящего оною.
-ent-LPPClothingNeckMantlePGGhillie = накидка джилли
-    .desc = Ниже травы, тише воды.
 ent-LPPClothingHeadHatGreenBandana = зелёная повязка на лицо
     .desc = Kept you waiting, huh?
 ent-LPPClothingHeadHatRedBandana = красная повязка на лицо

@@ -1,0 +1,44 @@
+﻿- type: entity
+  parent: BaseItem
+  id: LPPBoombox
+  name: Boombox
+  description: A revolution in musical art, a killer of musicians.
+  components:
+  - type: Appearance
+  - type: Sprite
+    sprite: _NewParadise/Objects/Fun/boombox.rsi
+    layers:
+      - state: "icon"
+        map: ["enum.JukeboxVisualLayers.Base"]
+  - type: ActivatableUI
+    key: enum.JukeboxUiKey.Key
+  - type: Item
+    size: Normal
+    shape:
+      - 0,0,2,1
+  - type: UserInterface
+    interfaces:
+      enum.JukeboxUiKey.Key:
+        type: JukeboxBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
+  - type: Jukebox
+    onState: icon
+    offState: icon
+    selectState: icon
+
+- type: entity
+  parent: LPPBoombox
+  id: LPPTapePlayer
+  name: Tape Player
+  description: A revolution in musical art, a killer of musicians.
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Objects/Fun/tapeplayer.rsi
+      layers:
+        - state: "icon"
+          map: ["enum.JukeboxVisualLayers.Base"]
+    - type: Item
+      size: Tiny
+      shape:
+        - 0,0,1,1
