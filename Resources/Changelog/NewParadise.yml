@@ -861,3 +861,19 @@
   id: 57
   time: '2025-05-14T12:42:32.0000000+00:00'
   url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/152
+- author: MirageExe
+  changes:
+  - message: "\u0418\u0437\u043C\u0435\u043D\u0435\u043D \u043F\u043E\u043B\u043D\u043E\
+      \u0441\u0442\u044C \u0414\u0428\u041D\u0413."
+    type: Tweak
+  id: 58
+  time: '2025-05-14T21:28:37.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/156
+- author: PowerKAT
+  changes:
+  - message: "\u0418\u0441\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043D\u043E\
+      \u0432\u043E\u0435 \u0414\u0428"
+    type: Fix
+  id: 59
+  time: '2025-05-16T12:44:56.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/159

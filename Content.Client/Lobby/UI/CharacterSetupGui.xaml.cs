@@ -54,9 +54,18 @@ namespace Content.Client.Lobby.UI
                 Text = Loc.GetString("character-setup-gui-create-new-character-button"),
             };
 
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP
+            var sponsorman = IoCManager.Resolve<SponsorsManager>();
+            if (sponsorman.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            // LOP edit end
+
             _createNewCharacterButton.OnPressed += args =>
             {
-                _preferencesManager.CreateCharacter(HumanoidCharacterProfile.Random());
+                _preferencesManager.CreateCharacter(HumanoidCharacterProfile.Random(sponsorTier: sponsorTier)); //LOP edit
                 ReloadCharacterPickers();
                 args.Event.Handle();
             };
