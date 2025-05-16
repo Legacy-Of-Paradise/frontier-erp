@@ -3,7 +3,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # LOP edit
+  sponsorOnly: true
   sprites:
   - sprite: _NewParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_cat_outer
@@ -15,17 +15,17 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # LOP edit
+  sponsorOnly: true
   sprites:
   - sprite: _NewParadise/Mobs/Customization/slime_cat_parts.rsi
-    state: slime_tail_cat_wag # LOP edit
+    state: slime_tail_cat_wag
 
 - type: marking
   id: SlimeCatEarsStubby
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # LOP edit
+  sponsorOnly: true
   sprites:
   - sprite: _NewParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_stubby_outer
@@ -37,7 +37,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # LOP edit
+  sponsorOnly: true
   sprites:
   - sprite: _NewParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_curled_outer
@@ -49,7 +49,7 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # LOP edit
+  sponsorOnly: true
   sprites:
   - sprite: _NewParadise/Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_torn_outer
@@ -61,7 +61,7 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # LOP edit
+  sponsorOnly: true
   sprites:
     - sprite: _NewParadise/Mobs/Customization/slime_cat_parts.rsi
       state: slime_tail_cat_wag_stripes_prime

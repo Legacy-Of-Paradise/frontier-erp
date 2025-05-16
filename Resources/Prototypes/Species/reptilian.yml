@@ -17,8 +17,8 @@
   sprites:
     Head: MobReptilianHead
     Snout: MobHumanoidAnyMarking
-    Hair: MobHumanoidAnyMarking
-    FacialHair: MobHumanoidAnyMarking
+    Hair: MobHumanoidAnyMarking # LOP edit
+    FacialHair: MobHumanoidAnyMarking # LOP edit
     Chest: MobReptilianTorso
     HeadTop: MobHumanoidAnyMarking
     HeadSide: MobHumanoidAnyMarking
