@@ -90,6 +90,13 @@
     state: letter_M
 
 - type: decal
+  id: LPPindletterN
+  tags: ["letter"]
+  sprite:
+    sprite: _NewParadise/Decals/ind-letters-mini.rsi
+    state: letter_N
+
+- type: decal
   id: LPPindletterO
   tags: ["letter"]
   sprite:

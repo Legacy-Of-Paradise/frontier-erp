@@ -1,37 +1,37 @@
 <Document>
-  # Shelegs
+  # Шелеги
 
   <Box>
     <GuideEntityEmbed Entity="MobSheleg" Caption=""/>
   </Box>
 
-  Sheleg are a race of ice like humanoid beings, with strong Nordic culture, posses blue skin and white hair.
+  Шелеги - это раса ледяных гуманоидных существ с сильной нордической культурой, обладающих синей кожей и белыми волосами.
 
-  ## Diet
-  - Normal medical chemicals has no effects, however cryo chemicals works with thier cold body temperature.
+  ## Питание
+  - Обычные медицинские препараты не оказывают эффекта, однако криогенные препараты действуют благодаря их низкой температуре тела.
 
-  ## Benefits
-  - Takes no Cold damage and 25% less Blunt, Slash and Piercing damage.
-  - Due to their big size, they can easily carry, shove and pull any other morphotypes.
-  - They are harder to shove.
-  - Being cold has no walking and running speed reductions.
-  - As long as they are alive, they slowly passively heal heat damage.
+  ## Преимущества
+  - Не получают урона от холода и на 25% меньше урона от дробящего, рубящего и колющего оружия.
+  - Благодаря своему большому размеру они могут легко переносить, толкать и тянуть любые другие морфотипы.
+  - Их труднее сдвинуть с места.
+  - Низкая температура не снижает скорость ходьбы и бега.
+  - Пока они живы, они медленно пассивно восстанавливают урон от тепла.
 
-  ## Special
-  - They have a -172 degrees celsius body temperature, they require to wear a EVA suit and always start the shift provided with one.
-  - Cryoxadone blood
-  - Inhale oxygen and exhale water vapor.
-  - Get hungry slower, but thirsty faster.
-  - Have no floor friction with no shoes.
-  - bare-hand attack for 3 Blunt and 2 Cold.
+  ## Особенности
+  - Температура их тела составляет -172 градуса Цельсия, поэтому они обязаны носить скафандр EVA и всегда начинают смену в нем.
+  - Криоксадоновая кровь.
+  - Вдыхают кислород и выдыхают водяной пар.
+  - Медленнее испытывают голод, но быстрее жажду.
+  - Не имеют трения с полом без обуви.
+  - Атака голыми руками наносит 3 ед. дробящего и 2 ед. холодового урона.
 
-  ## Drawbacks
-  - They are harder to carry and pull.
-  - They are bigger than Humans, making them easier to hit.
-  - Takes 65% more Heat and 20% more Shock damage.
-  - They take high heat damage above 0 degrees celsius body temperature.
-  - Cannot be syringed, hypo or darted due to harden skin
-  - Slow food and chemical mobilization, can only processes one chemical at a time.
-  - Violent reaction to potassium, touching it hurts, drinking it melts them.
+  ## Недостатки
+  - Их труднее нести и тянуть.
+  - Они крупнее людей, что делает их более легкой мишенью.
+  - Получают на 65% больше теплового и на 20% больше электрического урона.
+  - Получают высокий тепловой урон при температуре тела выше 0 градусов Цельсия.
+  - Нельзя вводить лекарства шприцем, подкожно или дротиком из-за твердой кожи.
+  - Медленная мобилизация пищи и химикатов, может обрабатывать только одно вещество за раз.
+  - Бурная реакция на калий: прикосновение причиняет боль, употребление внутрь расплавляет их.
 
 </Document>
