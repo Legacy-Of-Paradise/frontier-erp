@@ -1,6 +1,3 @@
-# - < DarkSide
-# Пижамы акул
-
 - type: entity
   parent: ClothingOuterWinterCoat
   id: LPPClothingOuterCoatPajamsSharkPink
@@ -111,5 +108,3 @@
   - type: Tag
     tags:
     - HidesHair
-
-# - >

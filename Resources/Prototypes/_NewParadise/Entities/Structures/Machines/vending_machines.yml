@@ -321,7 +321,7 @@
     energy: 1.3
     color: "#ad2c2b"
   - type: MarketModifier
-    mod: 70 # damn Daniel
+    mod: 70
 
 - type: entity
   parent: LPPVendingMachineBlackMarketEquipement
@@ -335,7 +335,7 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: MarketModifier
-    mod: 30 # damn Daniel
+    mod: 30
 
 - type: entity
   parent: LPPVendingMachineBlackMarketEquipement
@@ -349,4 +349,4 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: MarketModifier
-    mod: 100 # damn Daniel
+    mod: 100

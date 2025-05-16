@@ -6,7 +6,6 @@
   sprite: /Textures/_NewParadise/Tiles/kitchen/kitchen_diagonal.png
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -19,7 +18,6 @@
   sprite: /Textures/_NewParadise/Tiles/kitchen/kitchen_herringbone.png
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -32,7 +30,6 @@
   sprite: /Textures/_NewParadise/Tiles/kitchen/kitchen_small.png
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -46,7 +43,6 @@
   sprite: /Textures/_NewParadise/Tiles/kitchen/kitchen_diagonal_s.png
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -59,7 +55,6 @@
   sprite: /Textures/_NewParadise/Tiles/kitchen/kitchen_herringbone_s.png
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -72,7 +67,6 @@
   sprite: /Textures/_NewParadise/Tiles/kitchen/kitchen_small_s.png
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -97,7 +91,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -116,7 +109,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -135,7 +127,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -154,7 +145,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -176,7 +166,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -195,7 +184,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -214,7 +202,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -233,7 +220,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -256,7 +242,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -275,7 +260,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -295,7 +279,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -314,7 +297,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -333,7 +315,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -352,7 +333,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -371,7 +351,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -390,7 +369,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -409,7 +387,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -431,7 +408,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -450,7 +426,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -470,7 +445,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -489,7 +463,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -508,7 +481,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -527,7 +499,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -546,7 +517,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -565,7 +535,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -584,7 +553,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -606,7 +574,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -625,7 +592,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -645,7 +611,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -664,7 +629,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -683,7 +647,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -702,7 +665,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -721,7 +683,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -740,7 +701,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor
@@ -759,7 +719,6 @@
   - 1.0
   baseTurf: Plating
   isSubfloor: false
-  #canCrowbar: true
   deconstructTools: [ Prying ]
   footstepSounds:
     collection: FootstepFloor

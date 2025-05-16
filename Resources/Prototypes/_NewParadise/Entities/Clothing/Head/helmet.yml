@@ -162,7 +162,6 @@
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swatalt.rsi
-    # equippedPrefix: open
   - type: Armor
     modifiers:
       coefficients:
@@ -181,7 +180,6 @@
     damageCoefficient: 0.9
   - type: BreathMask
   - type: Item
-    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 
@@ -203,7 +201,6 @@
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swatepistemic.rsi
-    # equippedPrefix: open
   - type: Armor
     modifiers:
       coefficients:
@@ -222,7 +219,6 @@
     damageCoefficient: 0.9
   - type: BreathMask
   - type: Item
-    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 
@@ -261,7 +257,6 @@
       map: ["foldedLayer"]
   - type: Clothing
     sprite: _NewParadise/Clothing/Head/Helmets/swat.rsi
-    # equippedPrefix: open
   - type: Armor
     modifiers:
       coefficients:
@@ -280,7 +275,6 @@
     damageCoefficient: 0.9
   - type: BreathMask
   - type: Item
-    # heldPrefix: open
   - type: HideLayerClothing
     slots: []
 

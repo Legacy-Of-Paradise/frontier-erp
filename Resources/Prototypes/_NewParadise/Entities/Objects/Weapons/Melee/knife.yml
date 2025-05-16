@@ -10,7 +10,6 @@
     - Knife
   - type: Sprite
     sprite: _NewParadise/Clothing/OuterClothing/Armor/Chrono-knife.rsi
-    # size: 2
     state: icon
   - type: MeleeWeapon
     attackRate: 1.5

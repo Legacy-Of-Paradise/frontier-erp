@@ -25,8 +25,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Structures/Doors/Airlocks/Standard/basic.rsi
-  # - type: PaintableAirlock
-  #   department: AirlockSyn
   - type: Wires
     layoutId: AirlockService
 
@@ -37,8 +35,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Structures/Doors/Airlocks/Standard/cargo.rsi
-  # - type: PaintableAirlock
-  #   department: CargoSyn
   - type: Wires
     layoutId: AirlockCargo
 
@@ -191,8 +187,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Structures/Doors/Airlocks/Glass/basic.rsi
-  # - type: PaintableAirlock
-  #   department: AirlockSyn
   - type: Wires
     layoutId: AirlockService
 
@@ -203,8 +197,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Structures/Doors/Airlocks/Glass/cargo.rsi
-  # - type: PaintableAirlock
-  #   department: CargoSyn
   - type: Wires
     layoutId: AirlockCargo
 
@@ -215,8 +207,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Structures/Doors/Airlocks/Glass/medical.rsi
-  # - type: PaintableAirlock
-  #   department: MedicalSyn
   - type: Wires
     layoutId: AirlockMedical
 
@@ -235,8 +225,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Structures/Doors/Airlocks/Glass/science.rsi
-  # - type: PaintableAirlock
-  #   department: ScienceSyn
   - type: Wires
     layoutId: AirlockMedical
 
@@ -247,8 +235,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Structures/Doors/Airlocks/Glass/command.rsi
-  # - type: PaintableAirlock
-  #   department: CommandSyn
   - type: WiresPanelSecurity
     securityLevel: medSecurity
   - type: Wires
@@ -261,7 +247,5 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Structures/Doors/Airlocks/Glass/security.rsi
-  # - type: PaintableAirlock
-  #   department: SecuritySyn
   - type: Wires
     layoutId: AirlockSecurity

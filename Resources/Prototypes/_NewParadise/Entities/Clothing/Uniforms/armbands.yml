@@ -1,6 +1,6 @@
 - type: entity
   abstract: true
-  parent: ClothingNeckBase  # Will be implemented as attachment instead of clothing later
+  parent: ClothingNeckBase
   id: LPPArmband
   components:
   - type: Clothing

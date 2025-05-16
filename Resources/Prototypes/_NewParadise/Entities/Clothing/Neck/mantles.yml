@@ -9,17 +9,6 @@
   - type: Clothing
     sprite: _NewParadise/Clothing/Neck/Mantles/pg-mantle.rsi
 
-# - type: entity
-#   parent: ClothingNeckBase
-#   id: LPPClothingNeckMantleAidan
-#   name: aidan's mantle
-#   description: Aidan's legendary mantle. Gives respect to the backstory.
-#   components:
-#   - type: Sprite
-#     sprite: _NewParadise/Clothing/Neck/Mantles/aidan-mantle.rsi
-#   - type: Clothing
-#     sprite: _NewParadise/Clothing/Neck/Mantles/aidan-mantle.rsi
-
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckMantleAV

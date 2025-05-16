@@ -46,7 +46,6 @@
       types:
         Radiation: 10
         Structural: 30
-  # Short lifespan
   - type: TimedDespawn
     lifetime: 0.35
 
@@ -73,7 +72,6 @@
         Blunt: 25
         Structural: 50
         Piercing: 25
-  # Short lifespan
   - type: TimedDespawn
     lifetime: 1
 
@@ -200,7 +198,6 @@
         Blunt: 17.5
         Structural: 25
         Piercing: 17.5
-  # Short lifespan
   - type: TimedDespawn
     lifetime: 1
 
@@ -227,7 +224,6 @@
         Blunt: 10
         Piercing: 5
         Structural: 45
-  # Short lifespan
   - type: TimedDespawn
     lifetime: 0.5
 
@@ -264,6 +260,5 @@
       types:
         Blunt: 17.5
         Structural: 25
-  # Short lifespan
   - type: TimedDespawn
     lifetime: 0.35

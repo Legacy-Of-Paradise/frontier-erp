@@ -3,7 +3,7 @@
   parent: BaseVessel
   name: NR AiSun
   description: "Небольшое горнодобывающее судно с научным оборудованием."
-  price: 26000 # TODO: review ship values - Whatstone
+  price: 26000
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/AiSun.yml

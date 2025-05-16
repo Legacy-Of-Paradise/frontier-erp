@@ -1,5 +1,3 @@
-# - < DarkSide
-# Удостоврения личности в виде паспорта или что то такое
 - type: entity
   id: LPPPaperIdCardCentcom
   parent: BaseItem
@@ -57,4 +55,3 @@
         enum.ToggleVisuals.Layer:
           True: {state: open-id-ussp}
           False: {state: id-ussp}
-# - >

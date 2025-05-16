@@ -144,7 +144,7 @@
         Caustic: 0.85
   - type: ExplosionResistance
     damageCoefficient: 0.50
-  - type: ClothingSpeedModifier # Burdensome for running, but perfect for speedy gliding, even though running is still probably better
+  - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.8
   - type: GroupExamine

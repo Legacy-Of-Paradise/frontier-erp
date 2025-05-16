@@ -1,5 +1,4 @@
-﻿# < Made by DarkSide
-- type: entity
+﻿- type: entity
   parent: BaseStructure
   id: LPPFlagWallBase
   abstract: true
@@ -21,10 +20,9 @@
         mask:
         - TableMask
   - type: Pullable
-# < End
 
 - type: entity
-  parent: LPPFlagWallBase # < Edit DarkSide
+  parent: LPPFlagWallBase
   id: LPPFlagPoleBase
   name: flag pole
   description: Metal flagpole with a flag hanging from it.
