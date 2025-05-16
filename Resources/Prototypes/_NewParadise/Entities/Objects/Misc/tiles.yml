@@ -17,7 +17,7 @@
     count: 1
   - type: Tag
     tags:
-      - DroneUsable
+    - DroneUsable
   - type: Damageable
     damageContainer: Inorganic
   - type: Destructible
@@ -26,8 +26,8 @@
         !type:DamageTrigger
         damage: 30
       behaviors:
-        - !type:DoActsBehavior
-          acts: [ "Destruction" ]
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
     - trigger:
         !type:DamageTrigger
         damage: 20
@@ -54,8 +54,8 @@
     state: wood
   - type: FloorTile
     outputs:
-      - Plating
-      - LPPWoodLarge
+    - Plating
+    - LPPWoodLarge
 
 #------------------------------------------------------#
 #---------dark----dark----dark----dark----dark---------#
@@ -71,8 +71,8 @@
     state: dark8
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorDarkDiagonal
+    - Plating
+    - FloorDarkDiagonal
 
 - type: entity
   id: LPPFloorTileItemDarkDiagonalMini
@@ -84,8 +84,8 @@
     state: dark7
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorDarkDiagonalMini
+    - Plating
+    - FloorDarkDiagonalMini
 
 - type: entity
   id: LPPFloorTileItemDarkHerringbone
@@ -97,8 +97,8 @@
     state: dark6
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorDarkHerringbone
+    - Plating
+    - FloorDarkHerringbone
 
 - type: entity
   id: LPPFloorTileItemDarkMini
@@ -110,8 +110,8 @@
     state: dark5
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorDarkMini
+    - Plating
+    - FloorDarkMini
 
 - type: entity
   id: LPPFloorTileItemDarkMono
@@ -123,8 +123,8 @@
     state: dark4
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorDarkMono
+    - Plating
+    - FloorDarkMono
 
 - type: entity
   id: LPPFloorTileItemDarkOffset
@@ -136,8 +136,8 @@
     state: dark3
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorDarkOffset
+    - Plating
+    - FloorDarkOffset
 
 - type: entity
   id: LPPFloorTileItemDarkPavement
@@ -149,8 +149,8 @@
     state: dark2
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorDarkPavement
+    - Plating
+    - FloorDarkPavement
 
 - type: entity
   id: LPPFloorTileItemDarkPavementVertical
@@ -162,63 +162,12 @@
     state: dark1
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorDarkPavementVertical
+    - Plating
+    - FloorDarkPavementVertical
 
 #-------------------#
 #---------S---------#
 #-------------------#
-- type: entity
-  id: LPPFloorTileItemDarkS
-  parent: FloorTileItemSteel
-  name: steel dark checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/dark-s.rsi
-    state: dark
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorDarkS
-
-- type: entity
-  id: LPPFloorTileItemDarkDiagonalS
-  parent: FloorTileItemSteel
-  name: steel dark checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/dark-s.rsi
-    state: dark8
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorDarkDiagonalS
-
-- type: entity
-  id: LPPFloorTileItemDarkHerringboneS
-  parent: FloorTileItemSteel
-  name: steel dark checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/dark-s.rsi
-    state: dark6
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorDarkHerringboneS
-
-- type: entity
-  id: LPPFloorTileItemDarkDiagonalMiniS
-  parent: FloorTileItemSteel
-  name: steel dark checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/dark-s.rsi
-    state: dark7
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorDarkDiagonalMiniS
 
 - type: entity
   id: LPPFloorTileItemDarkMiniS
@@ -230,8 +179,8 @@
     state: dark5
   - type: FloorTile
     outputs:
-      - Plating
-      - LPPFloorDarkMiniS
+    - Plating
+    - LPPFloorDarkMiniS
 
 - type: entity
   id: LPPFloorTileItemDarkMonoS
@@ -243,21 +192,8 @@
     state: dark4
   - type: FloorTile
     outputs:
-      - Plating
-      - LPPFloorDarkMonoS
-
-- type: entity
-  id: LPPFloorTileItemDarkOffsetS
-  parent: FloorTileItemSteel
-  name: steel dark checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/dark-s.rsi
-    state: dark3
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorDarkOffsetS
+    - Plating
+    - LPPFloorDarkMonoS
 
 - type: entity
   id: LPPFloorTileItemDarkPavementS
@@ -269,21 +205,8 @@
     state: dark2
   - type: FloorTile
     outputs:
-      - Plating
-      - LPPFloorDarkPavementS
-
-- type: entity
-  id: LPPFloorTileItemDarkPavementVerticalS
-  parent: FloorTileItemSteel
-  name: steel dark checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/dark-s.rsi
-    state: dark1
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorDarkPavementVerticalS
+    - Plating
+    - LPPFloorDarkPavementS
 
 
 
@@ -301,8 +224,8 @@
     state: steel8
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorSteelDiagonal
+    - Plating
+    - FloorSteelDiagonal
 
 - type: entity
   id: LPPFloorTileItemSteelDiagonalMini
@@ -314,8 +237,8 @@
     state: steel7
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorSteelDiagonalMini
+    - Plating
+    - FloorSteelDiagonalMini
 
 - type: entity
   id: LPPFloorTileItemSteelHerringbone
@@ -327,8 +250,8 @@
     state: steel6
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorSteelHerringbone
+    - Plating
+    - FloorSteelHerringbone
 
 - type: entity
   id: LPPFloorTileItemSteelMini
@@ -340,8 +263,8 @@
     state: steel5
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorSteelMini
+    - Plating
+    - FloorSteelMini
 
 - type: entity
   id: LPPFloorTileItemSteelMono
@@ -353,8 +276,8 @@
     state: steel4
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorSteelMono
+    - Plating
+    - FloorSteelMono
 
 - type: entity
   id: LPPFloorTileItemSteelOffset
@@ -366,8 +289,8 @@
     state: steel3
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorSteelOffset
+    - Plating
+    - FloorSteelOffset
 
 - type: entity
   id: LPPFloorTileItemSteelPavement
@@ -379,8 +302,8 @@
     state: steel2
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorSteelPavement
+    - Plating
+    - FloorSteelPavement
 
 - type: entity
   id: LPPFloorTileItemSteelPavementVertical
@@ -392,8 +315,8 @@
     state: steel1
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorSteelPavementVertical
+    - Plating
+    - FloorSteelPavementVertical
 
 #-------------------#
 #---------S---------#
@@ -408,114 +331,8 @@
     state: steel
   - type: FloorTile
     outputs:
-      - Plating
-      - LPPFloorSteelS
-
-- type: entity
-  id: LPPFloorTileItemSteelDiagonalS
-  parent: FloorTileItemSteel
-  name: steel checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/steel-s.rsi
-    state: steel8
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorSteelDiagonalS
-
-- type: entity
-  id: LPPFloorTileItemSteelDiagonalMiniS
-  parent: FloorTileItemSteel
-  name: steel checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/steel-s.rsi
-    state: steel7
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorSteelDiagonalMiniS
-
-- type: entity
-  id: LPPFloorTileItemSteelHerringboneS
-  parent: FloorTileItemSteel
-  name: steel checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/steel-s.rsi
-    state: steel6
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorSteelHerringboneS
-
-- type: entity
-  id: LPPFloorTileItemSteelMiniS
-  parent: FloorTileItemSteel
-  name: steel checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/steel-s.rsi
-    state: steel5
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorSteelMiniS
-
-- type: entity
-  id: LPPFloorTileItemSteelMonoS
-  parent: FloorTileItemSteel
-  name: steel checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/steel-s.rsi
-    state: steel4
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorSteelMonoS
-
-- type: entity
-  id: LPPFloorTileItemSteelOffsetS
-  parent: FloorTileItemSteel
-  name: steel checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/steel-s.rsi
-    state: steel3
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorSteelOffsetS
-
-- type: entity
-  id: LPPFloorTileItemSteelPavementS
-  parent: FloorTileItemSteel
-  name: steel checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/steel-s.rsi
-    state: steel2
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorSteelPavementS
-
-- type: entity
-  id: LPPFloorTileItemSteelPavementVerticalS
-  parent: FloorTileItemSteel
-  name: steel checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/steel-s.rsi
-    state: steel1
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorSteelPavementVerticalS
-
-
+    - Plating
+    - LPPFloorSteelS
 
 #-------------------------------------------------------#
 #-------white----white----white----white----white-------#
@@ -531,8 +348,8 @@
     state: white8
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorWhiteDiagonal
+    - Plating
+    - FloorWhiteDiagonal
 
 - type: entity
   id: LPPFloorTileItemWhiteDiagonalMini
@@ -544,8 +361,8 @@
     state: white7
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorWhiteDiagonalMini
+    - Plating
+    - FloorWhiteDiagonalMini
 
 - type: entity
   id: LPPFloorTileItemWhiteHerringbone
@@ -557,8 +374,8 @@
     state: white6
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorWhiteHerringbone
+    - Plating
+    - FloorWhiteHerringbone
 
 - type: entity
   id: LPPFloorTileItemWhiteMini
@@ -570,8 +387,8 @@
     state: white5
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorWhiteMini
+    - Plating
+    - FloorWhiteMini
 
 - type: entity
   id: LPPFloorTileItemWhiteMono
@@ -583,8 +400,8 @@
     state: white4
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorWhiteMono
+    - Plating
+    - FloorWhiteMono
 
 - type: entity
   id: LPPFloorTileItemWhiteOffset
@@ -596,8 +413,8 @@
     state: white3
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorWhiteOffset
+    - Plating
+    - FloorWhiteOffset
 
 - type: entity
   id: LPPFloorTileItemWhitePavement
@@ -609,8 +426,8 @@
     state: white2
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorWhitePavement
+    - Plating
+    - FloorWhitePavement
 
 - type: entity
   id: LPPFloorTileItemPavementVertical
@@ -622,8 +439,8 @@
     state: white1
   - type: FloorTile
     outputs:
-      - Plating
-      - FloorWhitePavementVertical
+    - Plating
+    - FloorWhitePavementVertical
 
 #-------------------#
 #---------S---------#
@@ -638,109 +455,5 @@
     state: white
   - type: FloorTile
     outputs:
-      - Plating
-      - LPPFloorWhiteS
-
-- type: entity
-  id: LPPFloorTileItemWhiteDiagonalS
-  parent: FloorTileItemWhite
-  name: white checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/white-s.rsi
-    state: white8
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorWhiteDiagonalS
-
-- type: entity
-  id: LPPFloorTileItemWhiteDiagonalMiniS
-  parent: FloorTileItemWhite
-  name: white checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/white-s.rsi
-    state: white7
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorWhiteDiagonalMiniS
-
-- type: entity
-  id: LPPFloorTileItemWhiteHerringboneS
-  parent: FloorTileItemWhite
-  name: white checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/white-s.rsi
-    state: white6
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorWhiteHerringboneS
-
-- type: entity
-  id: LPPFloorTileItemWhiteMiniS
-  parent: FloorTileItemWhite
-  name: white checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/white-s.rsi
-    state: white5
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorWhiteMiniS
-
-- type: entity
-  id: LPPFloorTileItemWhiteMonoS
-  parent: FloorTileItemWhite
-  name: white checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/white-s.rsi
-    state: white4
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorWhiteMonoS
-
-- type: entity
-  id: LPPFloorTileItemWhiteOffsetS
-  parent: FloorTileItemWhite
-  name: white checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/white-s.rsi
-    state: white3
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorWhiteOffsetS
-
-- type: entity
-  id: LPPFloorTileItemWhitePavementS
-  parent: FloorTileItemWhite
-  name: white checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/white-s.rsi
-    state: white2
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorWhitePavementS
-
-- type: entity
-  id: LPPFloorTileItemWhitePavementVerticalS
-  parent: FloorTileItemWhite
-  name: white checker tile
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Tiles/white-s.rsi
-    state: white1
-  - type: FloorTile
-    outputs:
-      - Plating
-      - LPPFloorWhitePavementVerticalS
+    - Plating
+    - LPPFloorWhiteS

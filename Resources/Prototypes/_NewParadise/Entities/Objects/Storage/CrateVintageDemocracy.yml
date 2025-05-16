@@ -17,8 +17,6 @@
            collection: MetalBreak
    - type: StorageFill
      contents:
-       - id: LPPClothingBeltPGWebbing
-       - id: LPPClothingOuterVestPGWrittenOff
        - id: LPPWeaponM1Garand
        - id: LPPMagazineRifleGarand
          amount: 3
@@ -27,6 +25,4 @@
        - id: LPPWeaponRifleM14
        - id: MagazineLightRifle
          amount: 2
-       - id: LPPClothingEyesGlassesSunglassesPG
-       - id: LPPClothingHeadHatTacticalHelmetWrittenOff
        - id: LPPClothingNeckChain
