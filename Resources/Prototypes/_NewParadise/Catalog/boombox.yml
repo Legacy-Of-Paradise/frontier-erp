@@ -1,6 +1,9 @@
 ﻿- type: cargoProduct
   id: ServiceBoombox
   product: LPPBoombox
+  icon:
+    sprite: _NewParadise/Objects/Fun/boombox.rsi
+    state: icon
   cost: 2500 # Frontier: 560<2500
   category: cargoproduct-category-name-service
   group: market
@@ -8,6 +11,9 @@
 - type: cargoProduct
   id: ServiceTapePlayer
   product: LPPTapePlayer
+  icon:
+    sprite: _NewParadise/Objects/Fun/tapeplayer.rsi
+    state: icon
   cost: 4500 # Frontier: 560<2500
   category: cargoproduct-category-name-service
   group: market
