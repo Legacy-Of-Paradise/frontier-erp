@@ -1,0 +1,13 @@
+﻿- type: cargoProduct
+  id: ServiceBoombox
+  product: LPPBoombox
+  cost: 2500 # Frontier: 560<2500
+  category: cargoproduct-category-name-service
+  group: market
+
+- type: cargoProduct
+  id: ServiceTapePlayer
+  product: LPPTapePlayer
+  cost: 4500 # Frontier: 560<2500
+  category: cargoproduct-category-name-service
+  group: market
