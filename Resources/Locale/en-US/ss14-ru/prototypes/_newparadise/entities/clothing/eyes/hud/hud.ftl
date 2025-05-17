@@ -8,3 +8,5 @@ ent-LPPBlueHudGlasses = Blue sunglasses with HUD
     .desc = Useful for Security and Cargo.
 ent-LPPChemistHudGlasses = chemistry goggles
     .desc = A pair of snazzy goggles used to protect against chemical spills. Fitted with an analyzer for scanning reagents.
+ent-LPPNPZEyehud = NPZ HUD
+    .desc = The HUD of the NPZ, with built-in additional elements such as protection from bright flashes, as well as, in connection with the latest cooperation measures between the NPZ and NT, the built-in database of NanoTraisen to identify ranks and criminals at the corporation's facilities.

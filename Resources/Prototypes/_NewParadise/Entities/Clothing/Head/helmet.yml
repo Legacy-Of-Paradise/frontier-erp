@@ -18,64 +18,6 @@
 
 - type: entity
   parent: ClothingHeadBase
-  id: LPPClothingHeadHelmetPG
-  name: PG helmet
-  description: Helmet for PG needs
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Head/Helmets/pg-helmet.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Head/Helmets/pg-helmet.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.8
-        Heat: 0.8
-
-- type: entity
-  parent: ClothingHeadBase
-  id: LPPClothingHeadHatPGBeret
-  name: PG beret
-  description: It's a black beret.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Head/Hats/pg-beret.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Head/Hats/pg-beret.rsi
-
-- type: entity
-  parent: ClothingNeckBase
-  id: LPPClothingNeckPGPin
-  name: PG pin
-  description: Mortuis gloria! viventibus fortuna!
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Neck/pg-pin.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Neck/pg-pin.rsi
-
-- type: entity
-  parent: ClothingHeadHatHardhatBase
-  id: LPPClothingHeadHatTacticalHelmet
-  name: PG tactical helmet
-  description: Tactical helmet, for special operations. got a flashlight.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Head/Helmets/pg-helmet-tacticool.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Head/Helmets/pg-helmet-tacticool.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.6
-        Heat: 0.8
-
-- type: entity
-  parent: ClothingHeadBase
   id: LPPClothingHeadTSFHelmet
   name: TSF helmet
   description: Helmet for TSF needs
@@ -90,24 +32,6 @@
         Blunt: 0.5
         Slash: 0.6
         Piercing: 0.7
-        Heat: 0.8
-
-- type: entity
-  parent: ClothingHeadBase
-  id: LPPClothingHeadUrbanHelmetPG
-  name: urban PG helmet
-  description: Helmet for PG needs
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Head/Helmets/tan-helmet.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Head/Helmets/tan-helmet.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.6
-        Slash: 0.6
-        Piercing: 0.6
         Heat: 0.8
 
 - type: entity

@@ -1,0 +1,10 @@
+ent-LPPClothingUniformJumpsuitOperativeNPZ = комбинезон оперативника НПЗ
+    .desc = Брюки и свитер оперативников НПЗ, с дополнительной кевларовой подбивкой.
+ent-LPPClothingUniformJumpskirtMadienPNZ = униформа горничной НПЗ
+    .desc = Созданная из новейших тканей униформа прекрасно подходит для тактической уборки помещений, а так же идеально подойдёт для любой фигуры.
+ent-LPPClothingUniformJumpsuitOverallsNPZ = комбинезон техника НПЗ
+    .desc = Свитер и брюки на лямках, не испачкайте рубашку!
+ent-LPPClothingUniformJumpsuitRepresentativeNPZ = костюм представителя НПЗ
+    .desc = Застиранные джинсы с самой дорогой рубашкой, которую только можно найти на рынке, - вы что-то компенсируете?
+ent-LPPClothingUniformJumpsuitCamoNPZ = урбан камуфляж НПЗ
+    .desc = Нет, это не отсылка к каким-то фанатикам из Чернобыля.

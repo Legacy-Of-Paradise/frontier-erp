@@ -10,3 +10,5 @@ ent-LPPWhiteShoes = white laceup shoes
     .desc = The height of fashion, and they're pre-polished!
 ent-LPPUnathiWraps = unathi wraps
     .desc = Unathi Wraps.
+ent-LPPClothingShoesBootsNPZ = NPZ Boots
+    .desc = Strong boots for any difficult terrain.

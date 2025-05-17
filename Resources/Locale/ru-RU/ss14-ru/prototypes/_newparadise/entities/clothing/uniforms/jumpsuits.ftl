@@ -52,6 +52,7 @@ ent-LPPTurtleneckQmEngi = водолазка инженера
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPUtilEngi = водолазка инженера
     .desc = { ent-ClothingUniformBase.desc }
+    .desc = Это он в песке извазюкался или камуфляж такой?
 ent-LPPBlackFlannelJumpsuit = чёрная фланелевая рубашка
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPGreenFlannelJumpsuit = зелёная фланелевая рубашка
