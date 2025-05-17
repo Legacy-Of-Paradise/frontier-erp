@@ -55,7 +55,7 @@
     vendPrice: 3000
 
 - type: entity
-  parent: LPPClothingHeadUrbanHelmetPG
+  parent: LPPClothingHeadHelmetNPZ
   id: LPPClothingHeadHelmetNPZAssault
   name: NPZ assault helmet
   description: Robust helmet with additional armor on neck, pretty good for asaults.
