@@ -4,7 +4,7 @@
   icon:
     sprite: _NewParadise/Objects/Fun/boombox.rsi
     state: icon
-  cost: 2500 # Frontier: 560<2500
+  cost: 2500
   category: cargoproduct-category-name-service
   group: market
 
@@ -14,6 +14,6 @@
   icon:
     sprite: _NewParadise/Objects/Fun/tapeplayer.rsi
     state: icon
-  cost: 4500 # Frontier: 560<2500
+  cost: 4500
   category: cargoproduct-category-name-service
   group: market

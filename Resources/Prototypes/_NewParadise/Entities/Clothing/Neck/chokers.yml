@@ -86,9 +86,6 @@
   - type: Clothing
     sprite: _NewParadise/Clothing/Neck/chokers/spiked.rsi
 
-
-# Made DarkSide - <
-
 - type: entity
   parent: ClothingNeckBase
   id: LPPClothingNeckCollarHeart
@@ -99,6 +96,3 @@
     sprite: _NewParadise/Clothing/Neck/chokers/heart.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Neck/chokers/heart.rsi
-
-
-# - >
