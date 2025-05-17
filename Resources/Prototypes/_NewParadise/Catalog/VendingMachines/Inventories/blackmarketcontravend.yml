@@ -60,7 +60,11 @@
 # Снаряга начало
     LPPClothingBackpackDuffelContractor: 1
     ClothingBackpackDuffelSyndicate: 3
+    LPPClothingBackpackBackPackNPZ: 1
+    LPPNPZEyehud: 2
     LPPClothingEyesGlassesContractor: 1
+    LPPClothingHandsGlovesNPZCombat: 1
+    LPPClothingShoesBootsMagNPZ: 3
     LPPClothingBackpackHunter: 10
     LPPClothingBeltMaximumWebbing: 3
 # Снаряга конец

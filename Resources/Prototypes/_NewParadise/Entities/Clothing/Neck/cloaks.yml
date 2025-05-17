@@ -33,3 +33,39 @@
   components:
     - type: Sprite
       sprite: _NewParadise/Clothing/Neck/Cloaks/zulie_paramedic_gif.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakLeaderNPZ
+  name: Cloak of NPZ leader
+  description: And don't let your cloak get dirty in the blood of xenos, washing is expensive, by the way.
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/NPZ/upgneckleader.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakNPZ
+  name: Cloak NPZ
+  description: A cloak for stylish smashing in the wind while you humiliate the pathetic xenos.
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/NPZ/upgneck.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakAdmiralNPZ
+  name: Cloak of NPZ admiral
+  description: A cloak for pretentious throwing off to show everyone your medals and decorations!
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/NPZ/upgneckadmiral.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPCloakMantleNPZ
+  name: Cape NPZ
+  description: Are we in a hurry or are we acting stealthy?
+  components:
+    - type: Sprite
+      sprite: _NewParadise/Clothing/Neck/NPZ/NPZmantle.rsi

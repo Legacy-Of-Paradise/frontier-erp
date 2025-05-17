@@ -11,6 +11,26 @@
 
 - type: entity
   parent: ClothingBeltStorageBase
+  id: LPPClothingBeltNPZWebbing
+  name: NPZ webbing
+  description: Dense durathread webbing in the colors of the NPZ troops.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Belt/NPZ.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Belt/NPZ.rsi
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.85
+        Heat: 0.95
+  - type: StaticPrice
+    price: 1500
+    vendPrice: 21500
+
+- type: entity
+  parent: ClothingBeltStorageBase
   id: LPPClothingBeltMaximumWebbing
   name: Webbing "Hamster"
   description: A set of pockets, bags and other rubbish provides a lot of space for your various things that you will stuff here. It looks extremely cumbersome, however.

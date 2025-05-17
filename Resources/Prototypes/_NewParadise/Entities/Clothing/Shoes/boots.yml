@@ -63,3 +63,14 @@
     sprite: _NewParadise/Clothing/Shoes/Boots/unathiwraps.rsi
   - type: Clothing
     sprite: _NewParadise/Clothing/Shoes/Boots/unathiwraps.rsi
+
+- type: entity
+  parent: ClothingShoesMilitaryBase
+  id: LPPClothingShoesBootsNPZ
+  name: NPZ Boots
+  description: Strong boots for any difficult terrain.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Shoes/Boots/upgjackboots.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Shoes/Boots/upgjackboots.rsi

@@ -110,6 +110,17 @@
 
 - type: entity
   parent: ClothingHeadBase
+  id: LPPClothingHeadHatPGBeanie
+  name: PG beanie
+  description: It's a PG beanie.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Head/Hats/pg-beanie.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Head/Hats/pg-beanie.rsi
+
+- type: entity
+  parent: ClothingHeadBase
   id: LPPClothingHeadHatRedBeanie
   name: red beanie
   description: It's a red beanie.

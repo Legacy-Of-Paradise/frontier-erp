@@ -17,6 +17,18 @@
     sprite: _NewParadise/Clothing/Back/Backpacks/expeditor.rsi
 
 - type: entity
+  parent: ClothingBackpackERTLeader
+  id: LPPClothingBackpackBackPackNPZ
+  name: NPZ backpack
+  description: It will contain everything you need.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Back/Backpacks/upgbacpacks.rsi
+  - type: StaticPrice
+    price: 150
+    vendPrice: 11500
+
+- type: entity
   parent: ClothingBackpack
   id: LPPClothingBackpackHunter
   name: Hunter backpack

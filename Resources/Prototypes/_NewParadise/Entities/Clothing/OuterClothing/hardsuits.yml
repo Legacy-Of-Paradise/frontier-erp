@@ -221,6 +221,44 @@
     clothingPrototype: LPPClothingHeadHelmetRND
 
 - type: entity
+  parent: [ClothingOuterHardsuitBase, BaseC3Contraband]
+  id: LPPClothingOuterHardsuitScienceNPZ
+  name: Hardsuit NPZ-34r - "Gelehrt"
+  description: A research spacesuit designed for the work of NPZ scientists, as well as technicians in outer space and harsh planetary conditions.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/OuterClothing/Hardsuits/NPZsciense/body.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.1
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Caustic: 0.2
+        Heat: 0.7
+        Radiation: 0.1
+        Shock: 0.5
+        Cold: 0.5
+  - type: TemperatureProtection
+    heatingCoefficient: 0.2
+    coolingCoefficient: 0.2
+  - type: ExplosionResistance
+    damageCoefficient: 0.2
+  - type: ClothingSpeedModifier
+    walkModifier: 0.8
+    sprintModifier: 0.8
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: LPPClothingHeadHelmetScienceNPZ
+  - type: StaticPrice
+    price: 150
+    vendPrice: 7500
+
+- type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: LPPClothingOuterHardsuitInteq
   name: Hardsuit INT-05Q - "Lochern"
