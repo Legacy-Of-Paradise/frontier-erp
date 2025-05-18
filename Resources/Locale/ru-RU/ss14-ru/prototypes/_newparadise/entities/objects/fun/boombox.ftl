@@ -1,4 +1,4 @@
-ent-LPPBoombox = Boombox
-    .desc = A revolution in musical art, a killer of musicians.
-ent-LPPTapePlayer = Tape Player
-    .desc = A revolution in musical art, a killer of musicians.
+ent-LPPBoombox = бумбокс
+    .desc = Революция в музыкальном искусстве, убийца музыкантов.
+ent-LPPTapePlayer = кассетный проигрыватель
+    .desc = Революция в музыкальном искусстве, убийца музыкантов.
