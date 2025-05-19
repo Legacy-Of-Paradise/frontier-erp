@@ -12,7 +12,7 @@
   id: Sparrow
   parent: BaseVessel
   name: NR Sparrow
-  description: "Небольшое научно-исследовательское и инженерное судно." #LOP Edit
+  description: "Небольшое научно-исследовательское и инженерное судно." # LOP Edit
   price: 41000 # TODO: review ship values - Whatstone
   category: Small
   group: Shipyard

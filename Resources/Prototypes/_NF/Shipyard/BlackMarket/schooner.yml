@@ -2,7 +2,7 @@
   id: Schooner
   parent: BaseVesselAntag
   name: Schooner
-  description: "Небольшое деревянное судно с 2 центральными грузовыми отсеками" #LOP edit
+  description: "Небольшое деревянное судно с 2 центральными грузовыми отсеками" # LOP edit
   price: 60000
   category: Medium
   group: BlackMarket

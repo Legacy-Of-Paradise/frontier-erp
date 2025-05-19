@@ -1,5 +1,3 @@
-ent-LPPClothingNeckCloakBlueshield = blueshield's cloak
-    .desc = They can hide those who really need protection.
 ent-LPPBestMedic = best medic
     .desc = { ent-ClothingNeckBase.desc }
 ent-LPPBestMedicGif = best medic+
@@ -16,5 +14,3 @@ ent-LPPCloakAdmiralNPZ = Cloak of NPZ admiral
     .desc = A cloak for pretentious throwing off to show everyone your medals and decorations!
 ent-LPPCloakMantleNPZ = Cape NPZ
     .desc = Are we in a hurry or are we acting stealthy?
-ent-LPPADJUCloak = The Adjutant's Cloak
-    .desc = The blue cloak of the adjutant, breathes warmth and bureaucracy when wearing it.

@@ -639,22 +639,28 @@
 - type: roleLoadout
   id: JobParamedic
   groups:
-  - GroupTankHarness
-  - ParamedicHead
-  - MedicalMask
-  - ParamedicJumpsuit
-  - MedicalGloves
-  - MedicalBackpack
-  - ParamedicOuterClothing
-  - ParamedicShoes
-  - Glasses
-  - SurvivalMedical
-  - Trinkets
-  - GroupSpeciesBreathToolMedical
   # LOP edit start
+  - DocGloves
+  - DocBackpack
+  - ContractorOuterClothing
+  - ParamedicJumpsuit
+  - DocShoes
+  - ParamedicHead
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorBelt
+  - ContractorBoxSurvival
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorEncryptionKey
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - NFSpeciesSpecific
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 # Wildcards

@@ -1168,7 +1168,7 @@
 
 # - type: listing # Frontier
   # id: UplinkReinforcementRadioSyndicateCyborgAssault
-  # name:  uplink-reinforcement-radio-cyborg-assault-name
+  # name: uplink-reinforcement-radio-cyborg-assault-name
   # description: uplink-reinforcement-radio-cyborg-assault-desc
   # productEntity: ReinforcementRadioSyndicateCyborgAssault
   # icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-borg-assault }
@@ -1883,7 +1883,7 @@
     Telecrystal: 10 # Frontier: 6<10 (all the time in the world)
   categories:
   - UplinkWeaponry # Frontier: UplinkJob<UplinkWeaponry
-  # conditions: # Frontier: 
+  # conditions: # Frontier:
   # - !type:BuyerJobCondition
   #   whitelist:
   #   - Botanist
@@ -1991,7 +1991,7 @@
 #     Telecrystal: 2
 #   categories:
 #   - UplinkJob
-#   conditions: 
+#   conditions:
 #   - !type:BuyerJobCondition
 #     whitelist:
 #     - Clown

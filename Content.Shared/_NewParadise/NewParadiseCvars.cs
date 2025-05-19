@@ -10,19 +10,19 @@ public sealed class NewParadiseCvars
     /// Is TTS enabled
     /// </summary>
     public static readonly CVarDef<bool> TtsEnabled =
-        CVarDef.Create("tts.enabled", false, CVar.SERVERONLY);
+        CVarDef.Create("tts.enabled", false, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
 
     /// <summary>
     /// URL of the TTS server API.
     /// </summary>
     public static readonly CVarDef<string> TtsApiUrl =
-        CVarDef.Create("tts.api_url", string.Empty, CVar.SERVERONLY);
+        CVarDef.Create("tts.api_url", string.Empty, CVar.SERVERONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// Tts api key
     /// </summary>
     public static readonly CVarDef<string> TtsApiKey =
-        CVarDef.Create("tts.api_key", string.Empty, CVar.SERVERONLY);
+        CVarDef.Create("tts.api_key", string.Empty, CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
     /// <summary>
     /// TTS Volume

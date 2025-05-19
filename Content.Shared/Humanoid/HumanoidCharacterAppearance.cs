@@ -1,4 +1,4 @@
-﻿using System.Linq;
+using System.Linq;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
 using Robust.Shared.Prototypes;
@@ -99,6 +99,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             HumanoidSkinColor.Hues => speciesPrototype.DefaultSkinTone,
             HumanoidSkinColor.TintedHues => Humanoid.SkinColor.TintedHues(speciesPrototype.DefaultSkinTone),
             HumanoidSkinColor.VoxFeathers => Humanoid.SkinColor.ClosestVoxColor(speciesPrototype.DefaultSkinTone),
+            HumanoidSkinColor.ShelegToned => Humanoid.SkinColor.ShelegSkinTone(speciesPrototype.DefaultHumanSkinTone), // Frontier
             _ => Humanoid.SkinColor.ValidHumanSkinTone,
         };
 
@@ -201,7 +202,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
             facialHairStyleId = HairStyles.DefaultFacialHairStyle;
         }
 
-#if LOP_Sponsors
+#if LOP
         if (proto.TryIndex(hairStyleId, out MarkingPrototype? hairProto) &&
             hairProto.SponsorOnly && !sponsorPrototypes.Contains(hairStyleId))
         {
@@ -229,7 +230,7 @@ public sealed partial class HumanoidCharacterAppearance : ICharacterAppearance, 
 
             markingSet.EnsureSpecies(species, skinColor, markingManager);
             markingSet.EnsureSexes(sex, markingManager);
-#if LOP_Sponsors
+#if LOP
             markingSet.FilterSponsor(sponsorPrototypes, markingManager);
 #endif
         }

@@ -4,11 +4,11 @@
   loadouts:
   - DeputyClothingUniformJumpsuitDeputy
   - DeputyClothingUniformJumpskirtDeputy
-  - LPPNfsdClothingUniformJumpsuitDeputySherif #LOP edit
+  - LPPNfsdClothingUniformJumpsuitDeputySherif # LOP edit
   fallbacks:
   - DeputyClothingUniformJumpsuitDeputy
   - DeputyClothingUniformJumpskirtDeputy
-  - LPPNfsdClothingUniformJumpsuitDeputySherif #LOP edit
+  - LPPNfsdClothingUniformJumpsuitDeputySherif # LOP edit
 
 - type: loadoutGroup
   id: DeputyOuterClothing

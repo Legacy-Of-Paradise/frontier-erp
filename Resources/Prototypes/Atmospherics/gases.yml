@@ -76,7 +76,7 @@
   gasVisbilityFactor: 3.5
   color: 56941E
   reagent: Ammonia
-  pricePerMole: 0.05 #LOP edit 0.15<0.05
+  pricePerMole: 0.05 # LOP edit 0.15<0.05
 
 - type: gas
   id: 7

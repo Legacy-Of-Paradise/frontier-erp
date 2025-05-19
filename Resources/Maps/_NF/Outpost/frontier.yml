@@ -185,7 +185,7 @@ entities:
         - maxDistance: 1000
           prob: 0.0
         # Sparse zone
-        #LOP edit start
+        # LOP edit start
         - maxDistance: 3400
           prob: 0.1
         - maxDistance: 3800
@@ -204,7 +204,7 @@ entities:
           prob: 0.8
         - maxDistance: 6600
           prob: 0.9
-          #LOP edit end
+          # LOP edit end
         # Main world
         - maxDistance: 14000
           prob: 1.0

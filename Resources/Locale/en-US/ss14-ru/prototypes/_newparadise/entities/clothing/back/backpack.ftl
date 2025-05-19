@@ -1,14 +1,4 @@
-ent-LPPClothingBackpackBlueshieldFilled = { ent-LPPClothingBackpackBlueshield }
-    .desc = { ent-LPPClothingBackpackBlueshield.desc }
 ent-LPPClothingBackpackHop = hop backpack
-    .desc = They say it's bulletproof.
-ent-LPPClothingBackpackPG = PG backpack
-    .desc = Backpack for all Predator Grosperox's needs.
-ent-LPPBlackClothingBackpackPG = Black PG backpack
-    .desc = Backpack for all Predator Grosperox's needs. Nighty needs.
-ent-LPPClothingBackpackSecurityEngineer = hop duffel bag
-    .desc = Twice as many handcuffs!
-ent-LPPClothingBackpackBlueshield = blueshield backpack
     .desc = They say it's bulletproof.
 ent-LPPClothingBackpackExpeditor = expeditor backpack
     .desc = They say it's bulletproof.

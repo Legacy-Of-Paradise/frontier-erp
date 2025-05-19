@@ -1,2 +1,2 @@
 ent-WebNest = паутинное гнездо
-    .desc = ты был запаутинен.
+    .desc = { ent-WebBed.desc }

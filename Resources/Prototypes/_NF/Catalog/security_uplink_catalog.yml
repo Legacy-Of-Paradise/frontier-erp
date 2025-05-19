@@ -1,6 +1,6 @@
 - type: listing
   id: UplinkSecurityHardsuit
-  name:  uplink-security-hardsuit-name
+  name: uplink-security-hardsuit-name
   description: uplink-security-hardsuit-desc
   productEntity: ClothingOuterHardsuitNfsdBronze
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_bronze.rsi, state: icon }
@@ -16,7 +16,7 @@
 
 - type: listing
   id: UplinkSecurityHardsuitPatrol
-  name:  uplink-security-hardsuit-patrol-name
+  name: uplink-security-hardsuit-patrol-name
   description: uplink-security-hardsuit-patrol-desc
   productEntity: ClothingOuterHardsuitNfsdSilver
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_silver.rsi, state: icon }
@@ -32,7 +32,7 @@
 
 - type: listing
   id: UplinkSecurityHardsuitBrigmedic
-  name:  uplink-security-hardsuit-brigmedic-name
+  name: uplink-security-hardsuit-brigmedic-name
   description: uplink-security-hardsuit-brigmedic-desc
   productEntity: ClothingOuterHardsuitNfsdBrigmedic
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_brigmed.rsi, state: icon }
@@ -48,7 +48,7 @@
 
 - type: listing
   id: UplinkSecurityHardsuitWarden
-  name:  uplink-security-hardsuit-warden-name
+  name: uplink-security-hardsuit-warden-name
   description: uplink-security-hardsuit-warden-desc
   productEntity: ClothingOuterHardsuitNfsdGold
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_gold.rsi, state: icon }
@@ -69,7 +69,7 @@
 
 - type: listing
   id: UplinkSecurityCombatHardsuit
-  name:  uplink-security-hardsuit-combat-name
+  name: uplink-security-hardsuit-combat-name
   description: uplink-security-hardsuit-combat-desc
   productEntity: ClothingOuterHardsuitNfsdCombat
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_combat.rsi, state: icon }
@@ -85,7 +85,7 @@
 
 - type: listing
   id: UplinkSecurityCommandHardsuit
-  name:  uplink-security-hardsuit-commmand-name
+  name: uplink-security-hardsuit-commmand-name
   description: uplink-security-hardsuit-commmand-desc
   productEntity: ClothingOuterHardsuitNfsdCommand
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_command.rsi, state: icon }
@@ -106,12 +106,12 @@
 
 - type: listing
   id: UplinkSecurityHardsuitSyndieReverseEngineered
-  name:  uplink-security-hardsuit-experimental-name
+  name: uplink-security-hardsuit-experimental-name
   description: uplink-security-hardsuit-experimental-desc
   productEntity: ClothingOuterHardsuitNfsdExperimental
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 20
+    FrontierUplinkCoin: 30 # LOP edit
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -127,7 +127,7 @@
 
 - type: listing
   id: UplinkSecurityHardsuitSheriff
-  name:  uplink-security-hardsuit-sheriff-name
+  name: uplink-security-hardsuit-sheriff-name
   description: uplink-security-hardsuit-sheriff-desc
   productEntity: ClothingOuterHardsuitNfsdSheriff
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_sheriff.rsi, state: icon }
@@ -146,7 +146,7 @@
 
 - type: listing
   id: UplinkSecurityMK58
-  name:  uplink-security-mk58-name
+  name: uplink-security-mk58-name
   description: uplink-security-mk58-desc
   productEntity: WeaponPistolMk58
   icon: { sprite: Objects/Weapons/Guns/Pistols/mk58.rsi, state: icon }
@@ -162,7 +162,7 @@
 
 - type: listing
   id: UplinkSecurityDisabler
-  name:  uplink-security-disabler-name
+  name: uplink-security-disabler-name
   description: uplink-security-disabler-desc
   productEntity: WeaponDisabler
   icon: { sprite: Objects/Weapons/Guns/Battery/disabler.rsi, state: base }
@@ -178,7 +178,7 @@
 
 - type: listing
   id: UplinkSecurityStunbaton
-  name:  uplink-security-stunbaton-name
+  name: uplink-security-stunbaton-name
   description: uplink-security-stunbaton-desc
   productEntity: Stunbaton
   icon: { sprite: Objects/Weapons/Melee/stunbaton.rsi, state: stunbaton_off }
@@ -194,7 +194,7 @@
 
 - type: listing
   id: UplinkSecurityEmitter
-  name:  uplink-security-emitter-name
+  name: uplink-security-emitter-name
   description: uplink-security-emitter-desc
   productEntity: WeaponEmpEmitter
   icon: { sprite: _NF/Objects/Weapons/Guns/Projectiles/emp.rsi, state: icon }
@@ -210,7 +210,7 @@
 
 - type: listing
   id: UplinkSecurityEnforcer
-  name:  uplink-security-enforcer-name
+  name: uplink-security-enforcer-name
   description: uplink-security-enforcer-desc
   productEntity: WeaponShotgunEnforcer
   icon: { sprite: Objects/Weapons/Guns/Shotguns/enforcer.rsi, state: icon }
@@ -231,7 +231,7 @@
 
 - type: listing
   id: UplinkSecurityLecter
-  name:  uplink-security-lecter-name
+  name: uplink-security-lecter-name
   description: uplink-security-lecter-desc
   productEntity: WeaponRifleLecter
   icon: { sprite: Objects/Weapons/Guns/Rifles/lecter.rsi, state: icon }
@@ -252,7 +252,7 @@
 
 - type: listing
   id: UplinkSecurityVulcan
-  name:  uplink-security-vulcan-name
+  name: uplink-security-vulcan-name
   description: uplink-security-vulcan-desc
   productEntity: WeaponRifleVulcan
   icon: { sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi, state: icon }
@@ -273,7 +273,7 @@
 
 - type: listing
   id: UplinkSecurityLaserCarbine
-  name:  uplink-security-lasercarbine-name
+  name: uplink-security-lasercarbine-name
   description: uplink-security-lasercarbine-desc
   productEntity: WeaponLaserCarbine
   icon: { sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi, state: icon }
@@ -294,7 +294,7 @@
 
 - type: listing
   id: UplinkSecurityDisablerSMG
-  name:  uplink-security-disablersmg-name
+  name: uplink-security-disablersmg-name
   description: uplink-security-disablersmg-desc
   productEntity: WeaponDisablerSMG
   icon: { sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi, state: base }
@@ -315,7 +315,7 @@
 
 - type: listing
   id: UplinkSecurityEnergySword
-  name:  uplink-security-energysword-name
+  name: uplink-security-energysword-name
   description: uplink-security-energysword-desc
   productEntity: EnergySwordNfsd
   icon: { sprite: Objects/Weapons/Melee/e_sword.rsi, state: e_sword }
@@ -334,7 +334,7 @@
 
 - type: listing
   id: UplinkSecurityWT550
-  name:  uplink-security-wt550-name
+  name: uplink-security-wt550-name
   description: uplink-security-wt550-desc
   productEntity: WeaponSubMachineGunWt550
   icon: { sprite: Objects/Weapons/Guns/SMGs/wt550.rsi, state: icon }
@@ -354,7 +354,7 @@
 
 - type: listing
   id: UplinkSecurityEnergyGun
-  name:  uplink-security-energygun-name
+  name: uplink-security-energygun-name
   description: uplink-security-energygun-desc
   productEntity: WeaponEnergyGun
   icon: { sprite: _DV/Objects/Weapons/Guns/Battery/energygun.rsi, state: icon }
@@ -374,7 +374,7 @@
 
 - type: listing
   id: UplinkSecurityEmpRpg
-  name:  uplink-security-emprpg-name
+  name: uplink-security-emprpg-name
   description: uplink-security-emprpg-desc
   productEntity: WeaponLauncherRocketEmp
   icon: { sprite: Objects/Weapons/Guns/Launchers/rocket.rsi, state: base }
@@ -394,7 +394,7 @@
 
 - type: listing
   id: UplinkSecurityHolo
-  name:  uplink-security-holo-name
+  name: uplink-security-holo-name
   description: uplink-security-holo-desc
   productEntity: HoloprojectorNfsd
   icon: { sprite: _NF/Objects/Devices/Holoprojectors/nfsd.rsi, state: icon }
@@ -410,7 +410,7 @@
 
 - type: listing
   id: UplinkSecurityJetpack
-  name:  uplink-security-jetpack-name
+  name: uplink-security-jetpack-name
   description: uplink-security-jetpack-desc
   productEntity: JetpackNfsdFilled
   icon: { sprite: _NF/Objects/Tanks/Jetpacks/nfsd.rsi, state: icon }
@@ -426,7 +426,7 @@
 
 - type: listing
   id: UplinkSecurityMagboots
-  name:  uplink-security-magboots-name
+  name: uplink-security-magboots-name
   description: uplink-security-magboots-desc
   productEntity: ClothingShoesBootsMagNfsdFilled
   icon: { sprite: _NF/Clothing/Shoes/Boots/magboots-nfsd.rsi, state: icon }
@@ -442,7 +442,7 @@
 
 - type: listing
   id: UplinkNfsdTechfab
-  name:  uplink-security-techfab-name
+  name: uplink-security-techfab-name
   description: uplink-security-techfab-desc
   productEntity: NfsdTechFabCircuitboard
   icon: { sprite: _NF/Objects/Misc/module.rsi, state: nfsd }
@@ -461,7 +461,7 @@
 
 - type: listing
   id: UplinkSecurityKey
-  name:  uplink-security-key-name
+  name: uplink-security-key-name
   description: uplink-security-key-desc
   productEntity: BoxEncryptionKeyNfsd
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -480,7 +480,7 @@
 
 - type: listing
   id: UplinkSecurityEmpRocket
-  name:  uplink-security-emprocket-name
+  name: uplink-security-emprocket-name
   description: uplink-security-emprocket-desc
   productEntity: CartridgeRocketEmp
   icon: { sprite: _NF/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: rpg-emp }
@@ -499,7 +499,7 @@
 
 - type: listing
   id: UplinkSecurityThrusterKit
-  name:  uplink-security-thrusterkit-name
+  name: uplink-security-thrusterkit-name
   description: uplink-security-thrusterkit-desc
   productEntity: BoxT3SuperCapacitor
   icon: { sprite: Objects/Storage/boxes.rsi, state: box}
@@ -520,7 +520,7 @@
 
 - type: listing
   id: UplinkSecurityPistolMagazine
-  name:  uplink-security-magazinepistol-name
+  name: uplink-security-magazinepistol-name
   description: uplink-security-magazinepistol-desc
   productEntity: BoxMagazinePistol
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -536,7 +536,7 @@
 
 - type: listing
   id: UplinkSecurity20RifleMagazine
-  name:  uplink-security-20riflemagazine-name
+  name: uplink-security-20riflemagazine-name
   description: uplink-security-20riflemagazine-desc
   productEntity: BoxMagazineRifle
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -557,7 +557,7 @@
 
 - type: listing
   id: UplinkSecurity30RifleMagazine
-  name:  uplink-security-30riflemagazine-name
+  name: uplink-security-30riflemagazine-name
   description: uplink-security-30riflemagazine-desc
   productEntity: BoxMagazineLightRifle
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -578,7 +578,7 @@
 
 - type: listing
   id: UplinkSecurityWT550Magazine
-  name:  uplink-security-wt550magazine-name
+  name: uplink-security-wt550magazine-name
   description: uplink-security-wt550magazine-desc
   productEntity: BoxMagazinePistolSubMachineGunTopMounted
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -598,7 +598,7 @@
 
 - type: listing
   id: UplinkSecurityPistolMagazineRubber
-  name:  uplink-security-magazinepistol-rubber-name
+  name: uplink-security-magazinepistol-rubber-name
   description: uplink-security-magazinepistol-rubber-desc
   productEntity: BoxMagazinePistolRubber
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -656,7 +656,7 @@
 
 - type: listing
   id: UplinkSecurityHypo
-  name:  uplink-security-hypo-name
+  name: uplink-security-hypo-name
   description: uplink-security-hypo-desc
   productEntity: HypoBrigmedic
   icon: { sprite: _NF/Objects/Specific/Medical/hypobrigmedic.rsi, state: hypo }
@@ -676,7 +676,7 @@
 
 - type: listing
   id: UplinkSecurityAmbuzol
-  name:  uplink-security-ambuzol-name
+  name: uplink-security-ambuzol-name
   description: uplink-security-ambuzol-desc
   productEntity: SyringeAmbuzol
   icon: { sprite: Objects/Specific/Chemistry/syringe.rsi, state: syringe_base0 }
@@ -696,7 +696,7 @@
 
 - type: listing
   id: UplinkSecurityMedkit
-  name:  uplink-security-medkit-name
+  name: uplink-security-medkit-name
   description: uplink-security-medkit-desc
   productEntity: MedkitCombatFilled
   icon: { sprite: _NF/Objects/Specific/Medical/firstaidkits.rsi, state: blackkit } # Frontier: _NF prefix
@@ -716,7 +716,7 @@
 
 - type: listing
   id: UplinkSecurityInspector
-  name:  uplink-security-inspector-name
+  name: uplink-security-inspector-name
   description: uplink-security-inspector-desc
   productEntity: WeaponRevolverInspector
   icon: { sprite: Objects/Weapons/Guns/Revolvers/inspector.rsi, state: icon }
@@ -732,7 +732,7 @@
 
 - type: listing
   id: UplinkSecurityMateba
-  name:  uplink-security-mateba-name
+  name: uplink-security-mateba-name
   description: uplink-security-mateba-desc
   productEntity: WeaponRevolverMateba
   icon: { sprite: Objects/Weapons/Guns/Revolvers/mateba.rsi, state: icon }
@@ -748,7 +748,7 @@
 
 - type: listing
   id: UplinkSecurityTruncheon
-  name:  uplink-security-truncheon-name
+  name: uplink-security-truncheon-name
   description: uplink-security-truncheon-desc
   productEntity: Truncheon
   icon: { sprite: Objects/Weapons/Melee/truncheon.rsi, state: icon }
@@ -764,7 +764,7 @@
 
 - type: listing
   id: UplinkSecurityArmingSword
-  name:  uplink-security-armingsword-name
+  name: uplink-security-armingsword-name
   description: uplink-security-armingsword-desc
   productEntity: PlasteelArmingSword
   icon: { sprite: _NF/Objects/Weapons/Melee/armingsword.rsi, state: icon }
@@ -780,7 +780,7 @@
 
 - type: listing
   id: UplinkSecurityCaptainSword
-  name:  uplink-security-captainsword-name
+  name: uplink-security-captainsword-name
   description: uplink-security-captainsword-desc
   productEntity: ClothingBeltSheathFilled
   icon: { sprite: Objects/Weapons/Melee/captain_sabre.rsi, state: icon }
@@ -801,7 +801,7 @@
 
 - type: listing
   id: UplinkSecurityPulsePistol
-  name:  uplink-security-pulsepistol-name
+  name: uplink-security-pulsepistol-name
   description: uplink-security-pulsepistol-desc
   productEntity: WeaponPulsePistol
   icon: { sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi, state: base }
@@ -822,7 +822,7 @@
 
 - type: listing
   id: UplinkSecurityPulseCarbine
-  name:  uplink-security-pulsecarbine-name
+  name: uplink-security-pulsecarbine-name
   description: uplink-security-pulsecarbine-desc
   productEntity: WeaponPulseCarbine
   icon: { sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi, state: base }
@@ -841,7 +841,7 @@
 
 - type: listing
   id: UplinkSecurityHammer
-  name:  uplink-security-hammer-name
+  name: uplink-security-hammer-name
   description: uplink-security-hammer-desc
   productEntity: SecBreachingHammer
   icon: { sprite: Nyanotrasen/Objects/Weapons/Melee/breaching_hammer.rsi, state: icon }
@@ -862,7 +862,7 @@
 
 - type: listing
   id: UplinkSecurityTeleShield
-  name:  uplink-security-teleshield-name
+  name: uplink-security-teleshield-name
   description: uplink-security-teleshield-desc
   productEntity: TelescopicShield
   icon: { sprite: Objects/Weapons/Melee/teleriot_shield.rsi, state: teleriot-on }
@@ -878,7 +878,7 @@
 
 - type: listing
   id: UplinkSecurityEnergyShield
-  name:  uplink-security-energyshield-name
+  name: uplink-security-energyshield-name
   description: uplink-security-energyshield-desc
   productEntity: EnergyShieldNfsd
   icon: { sprite: _NF/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
@@ -899,7 +899,7 @@
 
 - type: listing
   id: UplinkSecuritySwat
-  name:  uplink-security-swat-name
+  name: uplink-security-swat-name
   description: uplink-security-swat-desc
   productEntity: ClothingMaskGasSheriff
   icon: { sprite: _NF/Clothing/Mask/nfsd_sheriff.rsi, state: icon}
@@ -920,7 +920,7 @@
 
 - type: listing
   id: UplinkSecuritySpeedloader
-  name:  uplink-security-speedloader-name
+  name: uplink-security-speedloader-name
   description: uplink-security-speedloader-desc
   productEntity: SpeedLoaderMagnum
   icon: { sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: base }
@@ -936,7 +936,7 @@
 
 - type: listing
   id: UplinkSecuritySpeedloaderRubber
-  name:  uplink-security-speedloaderrubber-name
+  name: uplink-security-speedloaderrubber-name
   description: uplink-security-speedloaderrubber-desc
   productEntity: SpeedLoaderMagnumRubber
   icon: { sprite: Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: base }
@@ -952,7 +952,7 @@
 
 - type: listing
   id: UplinkSecurityShotLethal
-  name:  uplink-security-shotlethal-name
+  name: uplink-security-shotlethal-name
   description: uplink-security-shotlethal-desc
   productEntity: BoxLethalshot
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -968,7 +968,7 @@
 
 - type: listing
   id: UplinkSecurityShotBeanbag
-  name:  uplink-security-shotbeanbag-name
+  name: uplink-security-shotbeanbag-name
   description: uplink-security-shotbeanbag-desc
   productEntity: BoxBeanbag
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -984,7 +984,7 @@
 
 - type: listing
   id: UplinkSecurityShotIncend
-  name:  uplink-security-shotincend-name
+  name: uplink-security-shotincend-name
   description: uplink-security-shotincend-desc
   productEntity: BoxShotgunIncendiary
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -1000,7 +1000,7 @@
 
 - type: listing
   id: UplinkSecurityShotSlug
-  name:  uplink-security-shotslug-name
+  name: uplink-security-shotslug-name
   description: uplink-security-shotslug-desc
   productEntity: BoxShotgunSlug
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -1016,7 +1016,7 @@
 
 - type: listing
   id: UplinkSecurityCash1000
-  name:  uplink-security-cash1000-name
+  name: uplink-security-cash1000-name
   description: uplink-security-cash1000-desc
   productEntity: SpaceCash1000
   icon: { sprite: Objects/Economy/cash.rsi, state: cash_1000000 }
@@ -1032,7 +1032,7 @@
 
 - type: listing
   id: UplinkSecurityEmpGrenadeBox
-  name:  uplink-security-empgrenade-box-name
+  name: uplink-security-empgrenade-box-name
   description: uplink-security-empgrenade-box-desc
   productEntity: BoxEMPGrenadesNfsd
   icon: { sprite: Objects/Weapons/Grenades/empgrenade.rsi, state: icon}
@@ -1053,7 +1053,7 @@
 
 - type: listing
   id: UplinkSecurityExplosiveGrenadeBox
-  name:  uplink-security-explosivegrenade-box-name
+  name: uplink-security-explosivegrenade-box-name
   description: uplink-security-explosivegrenade-box-desc
   productEntity: BoxExplosiveGrenadesNfsd
   icon: { sprite: Objects/Weapons/Grenades/grenade.rsi, state: icon}
@@ -1074,7 +1074,7 @@
 
 - type: listing
   id: UplinkSecurityIncendiaryGrenadeBox
-  name:  uplink-security-incendiarygrenade-box-name
+  name: uplink-security-incendiarygrenade-box-name
   description: uplink-security-incendiarygrenade-box-desc
   productEntity: BoxIncendiaryGrenadesNfsd
   icon: { sprite: Objects/Weapons/Grenades/pyrogrenade.rsi, state: icon}
@@ -1095,7 +1095,7 @@
 
 - type: listing
   id: UplinkSecurityShrapnelGrenadeBox
-  name:  uplink-security-shrapnelgrenade-box-name
+  name: uplink-security-shrapnelgrenade-box-name
   description: uplink-security-shrapnelgrenade-box-desc
   productEntity: BoxShrapnelGrenadesNfsd
   icon: { sprite: Objects/Weapons/Grenades/shrapnelgrenade.rsi, state: icon}
@@ -1116,7 +1116,7 @@
 
 - type: listing
   id: UplinkSecuritySmokeGrenadeBox
-  name:  uplink-security-smokegrenade-box-name
+  name: uplink-security-smokegrenade-box-name
   description: uplink-security-smokegrenade-box-desc
   productEntity: BoxSmokeGrenades
   icon: { sprite: Objects/Weapons/Grenades/smoke.rsi, state: icon}
@@ -1132,7 +1132,7 @@
 
 - type: listing
   id: UplinkSecurityTeargasGrenadeBox
-  name:  uplink-security-teargasgrenade-box-name
+  name: uplink-security-teargasgrenade-box-name
   description: uplink-security-teargasgrenade-box-desc
   productEntity: BoxTeargasGrenades
   icon: { sprite: Objects/Weapons/Grenades/tear_gas.rsi, state: icon}
@@ -1148,7 +1148,7 @@
 
 - type: listing
   id: UplinkSecurityFlashbangGrenadeBox
-  name:  uplink-security-flashbanggrenade-box-name
+  name: uplink-security-flashbanggrenade-box-name
   description: uplink-security-flashbanggrenade-box-desc
   productEntity: BoxFlashBangGrenades
   icon: { sprite: Objects/Weapons/Grenades/flashbang.rsi, state: icon}
@@ -1164,7 +1164,7 @@
 
 - type: listing
   id: UplinkSecurityStingerGrenadeBox
-  name:  uplink-security-stingergrenade-box-name
+  name: uplink-security-stingergrenade-box-name
   description: uplink-security-stingergrenade-box-desc
   productEntity: BoxStingerGrenadesNfsd
   icon: { sprite: Objects/Weapons/Grenades/stingergrenade.rsi, state: icon}
@@ -1180,7 +1180,7 @@
 
 - type: listing
   id: UplinkSecurityBreachingChargesBox
-  name:  uplink-security-breachingcharge-box-name
+  name: uplink-security-breachingcharge-box-name
   description: uplink-security-breachingcharge-box-desc
   productEntity: BoxBreachingCharges
   icon: { sprite: _DV/Objects/Weapons/Bombs/breaching.rsi, state: icon}
@@ -1201,7 +1201,7 @@
 
 - type: listing
   id: UplinkSecurityHoverbikeNfsdFlatpack
-  name:  uplink-security-hoverbike-name
+  name: uplink-security-hoverbike-name
   description: uplink-security-hoverbike-desc
   productEntity: HoverbikeNfsdFlatpack
   icon: { sprite: _NF/Objects/Vehicles/hoverbike.rsi, state: vehicle }
@@ -1222,7 +1222,7 @@
 
 - type: listing
   id: UplinkSecurityLethalArmory
-  name:  uplink-security-lethalarmory-name
+  name: uplink-security-lethalarmory-name
   description: uplink-security-lethalarmory-desc
   productEntity: CrateArmoryLethalNfsd
   icon: { sprite: _NF/Structures/Storage/Crates/nfsd_secure2.rsi, state: icon }
@@ -1275,7 +1275,7 @@
 
 - type: listing
   id: UplinkSecurityNonLethalArmory
-  name:  uplink-security-nonlethalarmory-name
+  name: uplink-security-nonlethalarmory-name
   description: uplink-security-nonlethalarmory-desc
   productEntity: CrateArmoryNonLethalNfsd
   icon: { sprite: _NF/Structures/Storage/Crates/nfsd_secure1.rsi, state: icon }
@@ -1296,7 +1296,7 @@
 
 - type: listing
   id: UplinkSecurityEmpGrenadeAmmo
-  name:  uplink-security-emp-ammo-name
+  name: uplink-security-emp-ammo-name
   description: uplink-security-emp-ammo-desc
   productEntity: BoxEmpGrenadesAmmo
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -1312,7 +1312,7 @@
 
 - type: listing
   id: UplinkSecurityTrackingDartsAmmo
-  name:  uplink-security-trackingdart-ammo-name
+  name: uplink-security-trackingdart-ammo-name
   description: uplink-security-trackingdart-ammo-desc
   productEntity: NFBoxDartsTracking
   icon: { sprite: Objects/Storage/boxes.rsi, state: box }
@@ -1328,7 +1328,7 @@
 
 - type: listing
   id: UplinkSecuritySpaceBladeSec
-  name:  uplink-security-spaceblade-sec-name
+  name: uplink-security-spaceblade-sec-name
   description: uplink-security-spaceblade-sec-desc
   productEntity: SpaceBladeSec
   icon: { sprite: _NF/Objects/Fun/spaceblade.rsi, state: secblade }

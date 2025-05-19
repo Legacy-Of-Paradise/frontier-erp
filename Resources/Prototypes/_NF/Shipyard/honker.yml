@@ -12,7 +12,7 @@
   id: Honker
   parent: BaseVessel
   name: NT Honker
-  description: "ХОНК ХОНК ХОНК ХОНК ХОНК ХОНК" #LOP Edit
+  description: "ХОНК ХОНК ХОНК ХОНК ХОНК ХОНК" # LOP Edit
   price: 22500
   category: Small
   group: Shipyard

@@ -143,8 +143,8 @@
   - type: Appearance
   - type: Clothing
     sprite: _DV/Objects/Weapons/Guns/Rifles/jackdaw.rsi
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 150
     vendPrice: 91000
-#LOP edit end
+# LOP edit end

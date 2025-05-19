@@ -120,7 +120,9 @@
     slots:
     - Belt
   - type: Item
-    size: Large
+    size: Huge
+    shape:
+    - 1,0,5,0
   - type: RevolverAmmoProvider
     whitelist:
       tags:
@@ -132,6 +134,12 @@
   - type: UseDelayOnShoot
   - type: UseDelay
     delay: 1
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 0.35
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
 
 - type: entity
   name: Judge
@@ -239,3 +247,38 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 20000
+
+- type: entity
+  name: RT-46
+  parent: [BaseWeaponRevolver, BaseC3Contraband]
+  id: LPPWeaponRevolverRT46
+  description: Revolver Tulskii 46 is a handheld cannon chambered in .60 caliber. Popular among USSP comissars and pirates.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/rt46.rsi
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Revolvers/rt46.rsi
+    quickEquip: false
+    slots:
+    - Belt
+  - type: Item
+    size: Huge
+    shape:
+    - 1,0,5,0
+  - type: RevolverAmmoProvider
+    whitelist:
+      tags:
+        - CartridgeAntiMateriel
+    proto: CartridgeAntiMateriel
+    capacity: 4
+    chambers: [ True, True, True, True]
+    ammoSlots: [ null, null, null, null ]
+  - type: UseDelayOnShoot
+  - type: UseDelay
+    delay: 1
+  - type: Gun
+    selectedMode: SemiAuto
+    fireRate: 0.25
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9

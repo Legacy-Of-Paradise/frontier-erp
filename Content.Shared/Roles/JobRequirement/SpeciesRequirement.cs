@@ -24,7 +24,7 @@ public sealed partial class SpeciesRequirement : JobRequirement
         HumanoidCharacterProfile? profile,
         IReadOnlyDictionary<string, TimeSpan> playTimes,
         [NotNullWhen(false)] out FormattedMessage? reason
-#if LOP_Sponsors
+#if LOP
         , int tier = 0
 #endif
         )

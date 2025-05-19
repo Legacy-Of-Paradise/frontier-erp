@@ -10,3 +10,6 @@ ent-NFPillCanisterMannitol = { ent-PillCanister }
 ent-NFPillMannitol = pill
     .suffix = Mannitol 10u
     .desc = { ent-Pill.desc }
+ent-NFPillSheleg = pill
+    .desc = A safe way to stabilize Sheleg patients in critical condition for personnel without advanced medical knowledge.
+    .suffix = Sheleg emergency pill

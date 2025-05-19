@@ -25,8 +25,8 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
-using Content.Server.Preferences.Managers;  //LOP edit
-#if LOP_Sponsors
+using Content.Server.Preferences.Managers;  // LOP edit
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
 
@@ -47,7 +47,7 @@ namespace Content.Server.Administration.Systems
         [Dependency] private readonly IAfkManager _afkManager = default!;
         [Dependency] private readonly IServerDbManager _dbManager = default!;
         [Dependency] private readonly PlayerRateLimitManager _rateLimit = default!;
-        [Dependency] private readonly IServerPreferencesManager _preferencesManager = default!; //LOP edit
+        [Dependency] private readonly IServerPreferencesManager _preferencesManager = default!; // LOP edit
 
         [GeneratedRegex(@"^https://(?:(?:canary|ptb)\.)?discord\.com/api/webhooks/(\d+)/((?!.*/).*)$")]
         private static partial Regex DiscordRegex();
@@ -698,12 +698,19 @@ namespace Content.Server.Administration.Systems
                 {
                     oocColor = prefs.AdminOOCColor.ToHex();
                 }
-#if LOP_Sponsors
-    if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(senderId, out var sponsorInfo))
-    {
-        sponsorColor = sponsorInfo.OOCColor;
-    }
+#if LOP
+                if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(senderId, out var sponsorInfo))
+                {
+                    sponsorColor = sponsorInfo.OOCColor;
+                }
 #endif
+            }
+
+            if (senderAdmin is not null &&
+                senderAdmin.Flags ==
+                AdminFlags.Adminhelp) // Mentor. Not full admin. That's why it's colored differently.
+            {
+                oocColor = Color.Purple.ToString();
             }
             // LOP edit end
 
@@ -712,13 +719,14 @@ namespace Content.Server.Administration.Systems
                 adminPrefix = $"[bold][color={oocColor}]\\[{senderAdmin.Title}\\][/color][/bold] "; // LOP edit
             }
 
-            if (senderAdmin is not null &&
+            /*if (senderAdmin is not null &&
                 senderAdmin.Flags ==
                 AdminFlags.Adminhelp) // Mentor. Not full admin. That's why it's colored differently.
             {
                 bwoinkText = $"[color=purple]{adminPrefix}[/color][color={sponsorColor}]{senderName}[/color]"; // LOP edit
             }
-            else if (fromWebhook || senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp)) // Frontier: anything sent via webhooks are from an admin.
+            else */
+            if (fromWebhook || senderAdmin is not null && senderAdmin.HasFlag(AdminFlags.Adminhelp)) // Frontier: anything sent via webhooks are from an admin.
             {
                 bwoinkText = $"{adminPrefix}[color={sponsorColor}]{senderName}[/color]"; // LOP edit
             }

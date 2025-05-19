@@ -81,7 +81,7 @@
     - Back
     - suitStorage
   - type: AmmoCounter
-  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: GunRequiresWield
   - type: Gun
     fireRate: 0.5
     selectedMode: SemiAuto

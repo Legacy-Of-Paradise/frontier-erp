@@ -86,29 +86,6 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
 
-# - type: entity
-#   name: lato
-#   parent: BaseWeaponSubMachineGun
-#   id: LPPWeaponSubMachineGunLato
-#   description: A pistol manufactured by an unknown civilization, possibly in an alternate universe. Uses .35 auto ammo.
-#   components:
-#   - type: Sprite
-#     sprite: _NewParadise/Objects/Weapons/Guns/Pistols/lato.rsi
-#     layers:
-#     - state: base
-#       map: ["enum.GunVisualLayers.Base"]
-#     - state: mag-0
-#       map: ["enum.GunVisualLayers.Mag"]
-#   - type: Gun
-#     fireRate: 10
-#     soundGunshot:
-#       path: /Audio/Weapons/Guns/Gunshots/smg.ogg
-#   - type: MagazineVisuals
-#     magState: mag
-#     steps: 1
-#     zeroVisible: true
-#   - type: Appearance
-
 - type: entity
   name: m1911
   parent: [BaseWeaponPistol, BaseC1Contraband]
@@ -174,22 +151,6 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
-
-# - type: entity
-#   name: PMm
-#   parent: LPPWeaponPistolPMgufuded112
-#   id: LPPWeaponPistolPMm
-#   description: Widely used in service of USSP pistol now repainted and used by some old-school securities. Uses .38 scecial ammo.
-#   components:
-#   - type: Sprite
-#     sprite: _NewParadise/Objects/Weapons/Guns/Pistols/PMm.rsi
-#     layers:
-#     - state: base
-#       map: ["enum.GunVisualLayers.Base"]
-#     - state: mag-0
-#       map: ["enum.GunVisualLayers.Mag"]
-#   - type: Clothing
-#     sprite: _NewParadise/Objects/Weapons/Guns/Pistols/PMm.rsi
 
 - type: entity
   parent: [BaseItem, BaseC3SyndicateContraband]

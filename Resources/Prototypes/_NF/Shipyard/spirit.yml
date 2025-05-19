@@ -12,8 +12,8 @@
   id: Spirit
   parent: BaseVessel
   name: FSB Spirit
-  description: "Маленький медицинский поисково-спасательный шаттл, такой же шустрый, как и тесный. Эксплуатационные расходы гарантированно* на 5% ниже, чем у конкурирующих моделей!" #LOP Edit
-  price: 18500
+  description: FSB Spirit поисково-спасательный шаттл для опытных медиков Аванпоста.
+  price: 15000
   category: Small
   group: Medical
   shuttlePath: /Maps/_NewParadise/Shuttles/spirit.yml # LOP edit

@@ -1,13 +1,4 @@
 - type: entity
-  parent: LPPClothingBackpackBlueshield
-  id: LPPClothingBackpackBlueshieldFilled
-  components:
-  - type: StorageFill
-    contents:
-    - id: Flash
-    - id: LPPClothingOuterHardsuitBlueshield
-
-- type: entity
   parent: ClothingBackpack
   id: LPPClothingBackpackHop
   name: hop backpack
@@ -15,42 +6,6 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Back/Backpacks/hop.rsi
-
-- type: entity
-  parent: ClothingBackpack
-  id: LPPClothingBackpackPG
-  name: PG backpack
-  description: Backpack for all Predator Grosperox's needs.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Backpacks/pg-backpack.rsi
-
-- type: entity
-  parent: ClothingBackpack
-  id: LPPBlackClothingBackpackPG
-  name: Black PG backpack
-  description: Backpack for all Predator Grosperox's needs. Nighty needs.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Backpacks/black-pg-backpack.rsi
-
-- type: entity
-  parent: ClothingBackpack
-  id: LPPClothingBackpackSecurityEngineer
-  name: hop duffel bag
-  description: Twice as many handcuffs!
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Backpacks/securityEngineer.rsi
-
-- type: entity
-  parent: ClothingBackpack
-  id: LPPClothingBackpackBlueshield
-  name: blueshield backpack
-  description: They say it's bulletproof.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Back/Backpacks/blueshield.rsi
 
 - type: entity
   parent: ClothingBackpack

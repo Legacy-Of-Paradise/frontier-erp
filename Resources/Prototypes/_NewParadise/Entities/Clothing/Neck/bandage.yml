@@ -1,26 +1,4 @@
 - type: entity
-  parent: ClothingNeckBase
-  id: LPPClothingNeckPGBandage
-  name: PG bandage
-  description: A bandage that gives an understanding of what political position the wearer of this bandage has.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Neck/Bandage/pg-hand-bandage.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Neck/Bandage/pg-hand-bandage.rsi
-
-- type: entity
-  parent: ClothingNeckBase
-  id: LPPClothingNeckMantlePGGhillie
-  name: PG ghillie
-  description: A bandage that gives an understanding of what political position the wearer of this bandage has.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Neck/Mantles/pg-camo-mantle.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Neck/Mantles/pg-camo-mantle.rsi
-
-- type: entity
   parent: ClothingHeadBase
   id: LPPClothingHeadHatGreenBandana
   name: green bandana

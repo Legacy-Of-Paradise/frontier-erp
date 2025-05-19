@@ -1,5 +1,3 @@
-ent-LPPClothingNeckCloakBlueshield = плащ офицера "Синий Щит"
-    .desc = Им можно прикрыть тех, кто действительно нуждается в защите. "P.S: представители рабочего класса станции не входят в их число".
 ent-LPPBestMedic = медик+
     .desc = { ent-ClothingNeckBase.desc }
 ent-LPPBestMedicGif = лучший медик+
@@ -16,5 +14,3 @@ ent-LPPCloakAdmiralNPZ = плащ адмирала НПЗ
     .desc = Плащ для пафосного скидывания, чтобы показать всем ваши медали и ордена!
 ent-LPPCloakMantleNPZ = накидка НПЗ
     .desc = Мы торопимся или действуем скрытно?
-ent-LPPADJUCloak = плащ Адъютанта
-    .desc = Синий плащ адъютанта, веет теплом и бюрократией при ношении её.

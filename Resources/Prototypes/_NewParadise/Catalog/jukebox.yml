@@ -2,10 +2,202 @@
   id: LPPPivoDance
   name: Pivo Dance - BL02DL
   path:
-    path: /Audio/Jukebox/PivoDance.ogg
+    path: /Audio/_NewParadise/Jukebox/PivoDance.ogg
 
 - type: jukebox
   id: LPPJaya
   name: Malinovie Palmi - Jaya
   path:
-    path: /Audio/Jukebox/Jaya-MalinoviePalmi.ogg
+    path: /Audio/_NewParadise/Jukebox/Jaya-MalinoviePalmi.ogg
+
+- type: jukebox
+  id: LPPMusicDust
+  name: MOON - Dust
+  path:
+    path: /Audio/_NewParadise/Jukebox/dust.ogg
+
+- type: jukebox
+  id: LPPMusicMagnitofon
+  name: Пират - Магнитофон
+  path:
+    path: /Audio/_NewParadise/Jukebox/magnitofon.ogg
+
+- type: jukebox
+  id: LPPMusicRunningOut
+  name: Bolgarich - Running out
+  path:
+    path: /Audio/_NewParadise/Jukebox/running_out.ogg
+
+- type: jukebox
+  id: LPPMusicTheGame
+  name: Fubar - The game
+  path:
+    path: /Audio/_NewParadise/Jukebox/fubar.ogg
+
+- type: jukebox
+  id: LPPMusicFallenDown
+  name: Undertale - Fallen Down
+  path:
+    path: /Audio/_NewParadise/Jukebox/fallen_down.ogg
+
+- type: jukebox
+  id: LPPMusicArstotzka
+  name: Arstotzka - Main theme
+  path:
+    path: /Audio/_NewParadise/Jukebox/arstotzka.ogg
+
+- type: jukebox
+  id: LPPMusicStarrySummer
+  name: Алла Пугачёва - Звёздное лето
+  path:
+    path: /Audio/_NewParadise/Jukebox/starry_summer.ogg
+
+- type: jukebox
+  id: LPPMusicKomarovo
+  name: Игорь Скляр - Комарово
+  path:
+    path: /Audio/_NewParadise/Jukebox/komarovo.ogg
+
+- type: jukebox
+  id: LPPMusicSaul
+  name: Little Barrie - Better Call Saul
+  path:
+    path: /Audio/_NewParadise/Jukebox/saul.ogg
+
+- type: jukebox
+  id: LPPMusicHydrogen
+  name: MOON - Hydrogen
+  path:
+    path: /Audio/_NewParadise/Jukebox/hydrogen.ogg
+
+- type: jukebox
+  id: LPPMusicParis
+  name: MOON - Paris
+  path:
+    path: /Audio/_NewParadise/Jukebox/paris.ogg
+
+- type: jukebox
+  id: LPPMusicCrystals
+  name: MOON - Crystals
+  path:
+    path: /Audio/_NewParadise/Jukebox/crystals.ogg
+
+- type: jukebox
+  id: LPPMusicMiami
+  name: Jasper Byrne - Miami
+  path:
+    path: /Audio/_NewParadise/Jukebox/miami.ogg
+
+- type: jukebox
+  id: LPPMusicHotline
+  name: Jasper Byrne - Hotline
+  path:
+    path: /Audio/_NewParadise/Jukebox/hotline.ogg
+
+- type: jukebox
+  id: LPPMusicPeacemakers
+  name: Bolgarich - Peacemakers
+  path:
+    path: /Audio/_NewParadise/Jukebox/peacemakers.ogg
+
+- type: jukebox
+  id: LPPMusicDeadline
+  name: Bolgarich - Deadline
+  path:
+    path: /Audio/_NewParadise/Jukebox/deadline.ogg
+
+- type: jukebox
+  id: LPPMusicTearOfVeil
+  name: Bolgarich - Tear of veil
+  path:
+    path: /Audio/_NewParadise/Jukebox/tear_of_veil.ogg
+
+- type: jukebox
+  id: LPPMusicAsshole
+  name: Hugo - Space Asshole
+  path:
+    path: /Audio/_NewParadise/Jukebox/asshole.ogg
+
+- type: jukebox
+  id: LPPMusicRazormind
+  name: Simon Viklund - Razormind
+  path:
+    path: /Audio/_NewParadise/Jukebox/razormind.ogg
+
+- type: jukebox
+  id: LPPMusicAlesso
+  name: Alesso - Payday
+  path:
+    path: /Audio/_NewParadise/Jukebox/alesso.ogg
+
+- type: jukebox
+  id: LPPMusicDeathRow
+  name: Carl Noren - Death Row
+  path:
+    path: /Audio/_NewParadise/Jukebox/death_row.ogg
+
+- type: jukebox
+  id: LPPMusicRebelPath
+  name: Marcin - The Rebel Path
+  path:
+    path: /Audio/_NewParadise/Jukebox/rebel_path.ogg
+
+- type: jukebox
+  id: LPPMusicDivide
+  name: Magna - Divide
+  path:
+    path: /Audio/_NewParadise/Jukebox/divide.ogg
+
+- type: jukebox
+  id: LPPMusicBoss1
+  name: Denis Major - Boss 1
+  path:
+    path: /Audio/_NewParadise/Jukebox/boss1.ogg
+
+- type: jukebox
+  id: LPPMusicBoss2
+  name: Denis Major - Boss 2
+  path:
+    path: /Audio/_NewParadise/Jukebox/boss2.ogg
+
+- type: jukebox
+  id: LPPMusicBump
+  name: Denis Major - Bump
+  path:
+    path: /Audio/_NewParadise/Jukebox/bump.ogg
+
+- type: jukebox
+  id: LPPMusicBusybass
+  name: Denis Major - Busybass
+  path:
+    path: /Audio/_NewParadise/Jukebox/busybass.ogg
+
+- type: jukebox
+  id: LPPMusicIntro
+  name: Denis Major - Intro
+  path:
+    path: /Audio/_NewParadise/Jukebox/intro.ogg
+
+- type: jukebox
+  id: LPPMusicTrumpet
+  name: Denis Major - Dance Trumpet
+  path:
+    path: /Audio/_NewParadise/Jukebox/trumpet.ogg
+
+- type: jukebox
+  id: LPPMusicRock
+  name: Denis Major - Slow Rock
+  path:
+    path: /Audio/_NewParadise/Jukebox/rock.ogg
+
+- type: jukebox
+  id: LPPMusicHEARTBEAT
+  name: NATHALIE - HEARTBEAT
+  path:
+    path: /Audio/_NewParadise/Jukebox/n_heartbeat.ogg
+
+- type: jukebox
+  id: LPPMusicNightRunning
+  name: Night Running - BNA (Brand New Animal)
+  path:
+    path: /Audio/_NewParadise/Jukebox/night_running.ogg

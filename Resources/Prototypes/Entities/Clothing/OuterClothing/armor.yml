@@ -225,10 +225,8 @@
     walkModifier: 0.7
     sprintModifier: 0.7
   - type: HeldSpeedModifier
-  #LOP edit start
   - type: StaticPrice
     vendPrice: 22000
-  # LOP edit end
   # LOP edit end
   - type: ExplosionResistance
     damageCoefficient: 0.7

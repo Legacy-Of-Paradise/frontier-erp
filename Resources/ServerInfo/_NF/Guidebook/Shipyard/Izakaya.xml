@@ -1,0 +1,103 @@
+<Document>
+  # IZAKAYA-ШАТТЛ КЛАССА РЕСТОРАН
+  <Box>
+    <GuideEntityEmbed Entity="SignKitchen" Caption=""/>
+    <GuideEntityEmbed Entity="KitchenAssembler" Caption=""/>
+    <GuideEntityEmbed Entity="KitchenMicrowave" Caption=""/>
+    <GuideEntityEmbed Entity="KitchenDeepFryer" Caption=""/>
+    <GuideEntityEmbed Entity="KitchenElectricRange" Caption=""/>
+    <GuideEntityEmbed Entity="SignKitchen" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ShuttleMapIzakaya" Caption=""/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="SignBar" Caption=""/>
+    <GuideEntityEmbed Entity="BoozeDispenser" Caption=""/>
+    <GuideEntityEmbed Entity="VendingMachineBooze" Caption=""/>
+    <GuideEntityEmbed Entity="SodaDispenser" Caption=""/>
+    <GuideEntityEmbed Entity="SignBar" Caption=""/>
+  </Box>
+  [color=#a4885c]Размер корабля:[/color] Средний
+
+  [color=#a4885c]Рекомендуемый экипаж::[/color] 4-8
+
+  [color=#a4885c]Тип энергогенератора:[/color] Урановый
+
+  [color=#a4885c]Экспедиции:[/color] Нет
+
+  [color=#a4885c]Консоль идентификации:[/color] Нет
+
+  "Японский ресторан/паб средних размеров в стиле японского корабля с большой обеденной зоной и такой же большой кухней."
+
+  "Этот ресторанный шаттл вмещает до 34 посетителей в обеденной зоне, что позволяет одновременно размещать людей по всему сектору."
+
+  "Кухня имеет основную зону готовки, где могут комфортно работать до 2 поваров, отдельную зону для напитков, предназначенную для бармена, склад для хранения ингредиентов, морозильную камеру для разделки мяса и долгосрочного хранения ингредиентов, а также зону для фритюра."
+
+  "Встроенная оранжерея имеет 6 гидропонных лотков и один загон для животных. Она расположена рядом с кухней для удобства транспортировки."
+
+  [italic]Представлено Settler's LLC.[/italic]
+
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
+
+  ## 1. Источник питания
+
+  ## 1.1. Аккумуляторные блоки
+  <Box>
+    <GuideEntityEmbed Entity="SMESBasic"/>
+    <GuideEntityEmbed Entity="SubstationBasic"/>
+    <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+
+  - Убедитесь, что СМЭЕС закреплен на полу.
+  - Убедитесь, что подстанции закреплен на полу.
+  - Убедитесь, что главный  блока ЛКП включен.
+  - Проверьте текущую нагрузку (Вт) блоков ЛКП.
+
+  ## 1.2. Генераторны С.У.П.Е.Р.П.А.К.М.А.Н.
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorSuperPacmanShuttle"/>
+    <GuideEntityEmbed Entity="FuelUranium"/>
+  </Box>
+
+  - Убедитесь, что генераторные установки С.У.П.Е.Р.П.А.К.М.А.Н. закреплены на полу.
+  - Убедитесь, что генераторные установки С.У.П.Е.Р.П.А.К.М.А.Н. имеют топливо. Для длительных полетов убедитесь, что у вас достаточно топлива для обеспечения продолжительной выработки энергии во время полета.
+  - Убедитесь, что генераторные установки С.У.П.Е.Р.П.А.К.М.А.Н. настроены на высоковольтный выход.
+  - Установите целевую мощность на 28-30 [bold]кВт[/bold].
+  - Запустите генераторные установки С.У.П.Е.Р.П.А.К.М.А.Н.
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительный контур
+  <Box>
+    <GuideEntityEmbed Entity="OxygenCanister"/>
+    <GuideEntityEmbed Entity="NitrogenCanister"/>
+    <GuideEntityEmbed Entity="GasPort"/>
+    <GuideEntityEmbed Entity="GasMixer"/>
+  </Box>
+
+  - Убедитесь, что кислородный баллон закреплен на соединительном порту.
+  - Убедитесь, что оба баллона с азотом закреплены на соединительном порту.
+  - Убедитесь, что газовый смеситель настроен на правильное соотношение смешивания (21% кислорода, 79% азота).
+  - Убедитесь, что газовый смеситель настроен на 101 кПа.
+  - Убедитесь, что газовый смеситель включен.
+
+  ## 2.2. Контур отходов
+
+  <Box>
+    <GuideEntityEmbed Entity="GasPressurePump"/>
+    <GuideEntityEmbed Entity="AirAlarm"/>
+  </Box>
+
+  - Убедитесь, что насос контура отходов включен.
+
+  ## 3. Прочие проверки
+  <Box>
+    <GuideEntityEmbed Entity="Gyroscope"/>
+    <GuideEntityEmbed Entity="GravityGeneratorMini"/>
+  </Box>
+
+  - Убедитесь, что гироскоп закреплен, запитан и включен.
+  - Убедитесь, что мини-генератор гравитации закреплен, запитан и включен.
+
+</Document>

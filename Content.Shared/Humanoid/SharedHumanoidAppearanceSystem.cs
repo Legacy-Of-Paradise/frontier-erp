@@ -73,7 +73,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
     }
 
     public HumanoidCharacterProfile FromStream(Stream stream, ICommonSession session, List<string> sponsorProtos // LOP edit
-#if LOP_Sponsors
+#if LOP
         , int sponsorTier = 0
 #endif
     )
@@ -91,8 +91,8 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         var profile = export.Profile;
         var collection = IoCManager.Instance;
-        profile.EnsureValid(session, collection!, sponsorProtos //LOP edit: sponsor system
-#if LOP_Sponsors
+        profile.EnsureValid(session, collection!, sponsorProtos // LOP edit: sponsor system
+#if LOP
             , sponsorTier
 #endif
         );
@@ -425,6 +425,19 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
             ? profile.Appearance.SkinColor.WithAlpha(hairAlpha) : profile.Appearance.HairColor;
         var facialHairColor = _markingManager.MustMatchSkin(profile.Species, HumanoidVisualLayers.FacialHair, out var facialHairAlpha, _proto)
             ? profile.Appearance.SkinColor.WithAlpha(facialHairAlpha) : profile.Appearance.FacialHairColor;
+
+        // Frontier: Match hair and facial hair colors to the forced color if it exists
+        if (_markingManager.MustMatchColor(profile.Species, HumanoidVisualLayers.Hair, out var forcedHairAlpha, _proto) is Color forcedHairColor)
+        {
+            profile.Appearance.SkinColor.WithAlpha(forcedHairAlpha);
+            hairColor = forcedHairColor;
+        }
+        if (_markingManager.MustMatchColor(profile.Species, HumanoidVisualLayers.FacialHair, out var forcedFacialHairAlpha, _proto) is Color forcedFacialHairColor)
+        {
+            profile.Appearance.SkinColor.WithAlpha(forcedFacialHairAlpha);
+            facialHairColor = forcedFacialHairColor;
+        }
+        // End Frontier
 
         if (_markingManager.Markings.TryGetValue(profile.Appearance.HairStyleId, out var hairPrototype) &&
             _markingManager.CanBeApplied(profile.Species, profile.Sex, hairPrototype, _proto))

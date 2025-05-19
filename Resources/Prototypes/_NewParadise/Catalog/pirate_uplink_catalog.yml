@@ -1,6 +1,6 @@
 - type: listing
   id: LPPUplinkLaserKomissar
-  name:  uplink-pirate-laserkomissar-name
+  name: uplink-pirate-laserkomissar-name
   description: uplink-pirate-laserkomissar-desc
   productEntity: LPPLaserKomissar
   cost:
@@ -15,7 +15,7 @@
 
 - type: listing
   id: LPPUplinkWeaponRifleMakeshiftAK
-  name:  uplink-pirate-weaponriflemakeshiftak-name
+  name: uplink-pirate-weaponriflemakeshiftak-name
   description: uplink-pirate-weaponriflemakeshiftak-desc
   productEntity: LPPWeaponRifleMakeshiftAK
   cost:
@@ -30,11 +30,86 @@
 
 - type: listing
   id: LPPUplinkBoxMagazineLightRifle
-  name:  uplink-pirate-boxmagazinelightrifle-name
+  name: uplink-pirate-boxmagazinelightrifle-name
   description: uplink-pirate-boxmagazinelightrifle-desc
   productEntity: BoxMagazineLightRifle
   cost:
     Doubloon: 2
+  categories:
+    - UplinkPirateAmmo
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkWeaponRevolverRT46
+  name: uplink-pirate-weaponrevolverrt46-name
+  description: uplink-pirate-weaponrevolverrt46-desc
+  productEntity: LPPWeaponRevolverRT46
+  cost:
+    Doubloon: 28
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkClothingOuterHardsuitAcientSapper
+  name: uplink-pirate-hardsuitacientsapper-name
+  description: uplink-pirate-hardsuitacientsapper-desc
+  productEntity: LPPClothingOuterHardsuitAcientSapper
+  cost:
+    Doubloon: 30
+  categories:
+    - UplinkPirateHardsuits
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkWeaponRifleAek
+  name: uplink-pirate-weaponrifleaek-name
+  description: uplink-pirate-weaponrifleaek-desc
+  productEntity: LPPWeaponRifleAek
+  cost:
+    Doubloon: 18
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinWeaponLightMachinegunLewis
+  name: uplink-pirate-weaponlightmachinegunlewis-name
+  description: uplink-pirate-weaponlightmachinegunlewis-desc
+  productEntity: LPPWeaponLightMachinegunLewis
+  cost:
+    Doubloon: 22
+  categories:
+    - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkMagazineLightRifleMaxim
+  name:  uplink-pirate-magazinelightriflemaxim-name
+  description: uplink-pirate-magazinelightriflemaxim-desc
+  productEntity: MagazineLightRifleMaxim
+  cost:
+    Doubloon: 3
   categories:
     - UplinkPirateAmmo
   conditions:

@@ -12,7 +12,7 @@
   id: Tyne
   parent: BaseVessel
   name: SBB Tyne
-  description: "Небольшое спасательное судно с внешней палубой и каютами для спасательных операций." #LOP Edit
+  description: "Небольшое спасательное судно с внешней палубой и каютами для спасательных операций." # LOP Edit
   price: 23000 #~5% markup as it's a med ship. Appraises at ~22474.
   category: Small
   group: Medical

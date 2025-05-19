@@ -10,3 +10,5 @@ ent-ClothingBackpackNfsdBrown = NFSD backpack
     .desc = { ent-ClothingBackpackSecurity.desc }
 ent-ClothingBackpackNfsdCream = { ent-ClothingBackpackNfsdBrown }
     .desc = { ent-ClothingBackpackNfsdBrown.desc }
+ent-NFGoblinMadeClothingBackpackTrashBlue = trashpack
+    .desc = This bad boy can fit so much trash!

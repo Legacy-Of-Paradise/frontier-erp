@@ -10,7 +10,7 @@ using Robust.Client.Utility;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using static Robust.Client.UserInterface.Controls.BoxContainer;
-#if LOP_Sponsors
+#if LOP
 using Content.Client._NewParadise.Sponsors;
 #endif
 
@@ -21,7 +21,7 @@ public sealed partial class MarkingPicker : Control
 {
     [Dependency] private readonly MarkingManager _markingManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-#if LOP_Sponsors
+#if LOP
     [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
 #endif
 
@@ -235,20 +235,17 @@ public sealed partial class MarkingPicker : Control
             if (marking.SponsorOnly)
             {
                 item.Disabled = true;
-#if LOP_Sponsors
+#if LOP
                 if (_sponsorsManager.TryGetInfo(out var sponsor))
                 {
                     bool havemarks = false;
-                    if (sponsor.Tier > 3)
-                    {
-                        var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                        havemarks = marks.Contains(marking.ID);
-                    }
+                    if (sponsor.Tier >= 3)
+                        havemarks = true;
                     item.Disabled = !(sponsor.AllowedMarkings.Contains(marking.ID) || sponsor.AllowedMarkings.Contains("ALL") || havemarks);
                 }
 #endif
             }
-            //LOP edit end
+            // LOP edit end
         }
 
         CMarkingPoints.Visible = _currentMarkings.PointsLeft(_selectedMarkingCategory) != -1;
@@ -526,6 +523,17 @@ public sealed partial class MarkingPicker : Control
                 markingObject.SetColor(i, CurrentSkinColor);
             }
         }
+
+        // Frontier: Color overwrite
+        if (_markingManager.MustMatchColor(_currentSpecies, marking.BodyPart, out var _, _prototypeManager) is Color forcedColor)
+        {
+            // Color everything in forced color
+            for (var i = 0; i < marking.Sprites.Count; i++)
+            {
+                markingObject.SetColor(i, forcedColor);
+            }
+        }
+        // End Frontier
 
         markingObject.Forced = Forced;
 

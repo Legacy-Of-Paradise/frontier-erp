@@ -71,8 +71,8 @@
     slots:
     - back
     - suitStorage
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 150
     vendPrice: 29500
-#LOP edit end
+# LOP edit end

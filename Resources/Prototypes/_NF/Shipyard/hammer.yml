@@ -12,7 +12,7 @@
   id: Hammer
   parent: BaseVessel
   name: SBB Hammer
-  description: "Мобильная инженерная платформа в глубоком космосе. Ремонт, апгрейд, модернизация!" #LOP Edit
+  description: "Мобильная инженерная платформа в глубоком космосе. Ремонт, апгрейд, модернизация!" # LOP Edit
   price: 44000 # Appraises at 38257, ~15% markup
   category: Medium
   group: Shipyard

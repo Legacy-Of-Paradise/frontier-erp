@@ -39,3 +39,5 @@ ent-VehicleHoverbikeSyndicate = syndicate hoverbike
 ent-VehicleHoverbikeSyndicateKey = { ent-VehicleHoverbikeSyndicate }
     .suffix = With key
     .desc = { ent-VehicleHoverbikeSyndicate.desc }
+ent-NFGoblinMadeVehicleDumpster = dumpster
+    .desc = It only has one wheel!

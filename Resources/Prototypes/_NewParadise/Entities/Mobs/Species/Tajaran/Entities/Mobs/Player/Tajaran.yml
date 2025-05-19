@@ -5,7 +5,7 @@
   id: LPPMobTajaran
   components:
     - type: CombatMode
-      canDisarm: false  #было null
+      canDisarm: false
     - type: InteractionPopup
       successChance: 1
       interactSuccessString: hugging-success-generic

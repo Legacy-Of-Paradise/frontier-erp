@@ -199,3 +199,5 @@ ent-VendingMachineChemicalsFlatpack = chemvend flatpack
     .desc = A flatpack used for constructing a chemvend.
 ent-StationAdministrationConsoleFlatpack = station administration console flatpack
     .desc = A flatpack used for constructing a station administration console for Medical Dispatch.
+ent-MobileComputerTabletopCommsFlatpack = communication console flatpack
+    .desc = A flatpack used for constructing a communication console.

@@ -12,7 +12,7 @@
   id: Menace
   parent: BaseVesselAntag
   name: Menace
-  description: "Получить почту это теперь не выбор. Получи или сдохни!" #LOP edit
+  description: "Получить почту это теперь не выбор. Получи или сдохни!" # LOP edit
   price: 21000
   category: Small
   group: BlackMarket

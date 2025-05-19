@@ -12,7 +12,7 @@
   id: Anchor
   parent: BaseVessel
   name: KC Anchor
-  description: "Большой роскошный корабль, способный совершать дальние путешествия по всему сектору. Cпособен к экспедициям!" #LOP edit
+  description: "Большой роскошный корабль, способный совершать дальние путешествия по всему сектору. Cпособен к экспедициям!" # LOP edit
   price: 140000 # $108432 after appraisal +30ish% (~32000)
   category: Large
   group: Expedition

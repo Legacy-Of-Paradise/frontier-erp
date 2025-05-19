@@ -31,7 +31,7 @@ using Content.Server._NF.Bank; // Frontier
 using Content.Server.Preferences.Managers; // Frontier
 using System.Linq;
 using Content.Shared.NameIdentifier; // Frontier
-#if LOP_Sponsors
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
 
@@ -124,6 +124,15 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
         // Need to get the loadout up-front to handle names if we use an entity spawn override.
         var jobLoadout = LoadoutSystem.GetJobPrototype(prototype?.ID);
 
+        //LOP edit start
+        int tier = 0;
+#if LOP
+        if (session != null && IoCManager.Resolve<SponsorsManager>().TryGetInfo(session.UserId, out var sponsorinfo))
+            tier = sponsorinfo.Tier;
+
+#endif
+        //LOP edit end
+
         if (_prototypeManager.TryIndex(jobLoadout, out RoleLoadoutPrototype? roleProto))
         {
             profile?.Loadouts.TryGetValue(jobLoadout, out loadout);
@@ -131,16 +140,10 @@ public sealed class StationSpawningSystem : SharedStationSpawningSystem
             // Set to default if not present
             if (loadout == null)
             {
-#if LOP_Sponsors
-                int tier = 0;
-                if (session != null && IoCManager.Resolve<SponsorsManager>().TryGetInfo(session.UserId, out var sponsorinfo))
-                    tier = sponsorinfo.Tier;
-
-#endif
                 loadout = new RoleLoadout(jobLoadout);
                 //loadout.SetDefault(profile, _actors.GetSession(entity), _prototypeManager);
                 loadout.EnsureValid(profile!, session, _dependencyCollection
-#if LOP_Sponsors
+#if LOP
                 , tier
 #endif
                 ); // Frontier - profile must not be null, but if it was, TryGetValue above should fail

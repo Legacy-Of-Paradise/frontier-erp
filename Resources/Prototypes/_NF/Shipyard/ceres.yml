@@ -12,7 +12,7 @@
   id: Ceres
   parent: BaseVessel
   name: SBB Ceres
-  description: "Корабль среднего размера, с просторным рестораном высшего класса, оснащенный ботаникой, и местами для ВИП-клиентов." #LOP Edit
+  description: "Корабль среднего размера, с просторным рестораном высшего класса, оснащенный ботаникой, и местами для ВИП-клиентов." # LOP Edit
   price: 69500 # ~10% markup, big luxury restaurant
   category: Medium
   group: Shipyard

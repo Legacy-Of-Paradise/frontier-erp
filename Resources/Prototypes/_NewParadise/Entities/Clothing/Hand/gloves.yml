@@ -19,9 +19,6 @@
       types:
         Blunt: 7
 
-
-# - < DarkSide
-
 - type: entity
   parent: ClothingHandsButcherable
   id: LPPClothingHandsGlovesTacticalFingerless
@@ -35,8 +32,6 @@
   - type: Fiber
     fiberMaterial: fibers-insulative
     fiberColor: fibers-black
-
-# - >
 
 - type: entity
   parent: ClothingHandsButcherable

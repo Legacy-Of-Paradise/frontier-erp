@@ -50,16 +50,6 @@ namespace Content.Client.Administration.UI.Bwoink
 
             AdminOnly.OnToggled += args => PlaySound.Disabled = args.Pressed;
 
-            // LOP edit start
-            this.MinWidth = 900;
-            ChannelSelector.SetWidth = 250;
-            ChatBox.SetWidth = 700;
-            ChannelSelector.HorizontalAlignment = HAlignment.Left;
-            ChatBox.HorizontalAlignment = HAlignment.Left;
-            SplitChat.State = SplitContainer.SplitState.Auto;
-            SplitChat.StretchDirection = SplitContainer.SplitStretchDirection.BottomRight;
-            // LOP edit end
-
             ChannelSelector.OnSelectionChanged += sel =>
             {
                 _currentPlayer = sel;

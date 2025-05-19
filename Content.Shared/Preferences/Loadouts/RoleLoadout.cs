@@ -56,7 +56,7 @@ public sealed partial class RoleLoadout : IEquatable<RoleLoadout>
     /// Ensures all prototypes exist and effects can be applied.
     /// </summary>
     public void EnsureValid(HumanoidCharacterProfile profile, ICommonSession? session, IDependencyCollection collection
-#if LOP_Sponsors
+#if LOP
     , int sponsorTier = 0
 #endif
     ) // Frontier: nullable session
@@ -123,9 +123,9 @@ public sealed partial class RoleLoadout : IEquatable<RoleLoadout>
                 continue;
             }
 
-            //LOP edit start
+            // LOP edit start
             if (groupProto.ID.ToString().Contains("Sponsor")
-#if LOP_Sponsors
+#if LOP
                 && sponsorTier < 3
 #endif
             )
@@ -133,7 +133,7 @@ public sealed partial class RoleLoadout : IEquatable<RoleLoadout>
                 groupRemove.Add(group);
                 continue;
             }
-            //LOP edit end
+            // LOP edit end
 
             var loadouts = groupLoadouts[..Math.Min(groupLoadouts.Count, groupProto.MaxLimit)];
 

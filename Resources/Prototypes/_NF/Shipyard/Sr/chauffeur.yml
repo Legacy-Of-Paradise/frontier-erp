@@ -13,7 +13,7 @@
   id: Chauffeur
   parent: BaseVessel
   name: NC Chauffeur
-  description: "Небольшой транспортный шаттл, рассчитанный на 4 пассажиров. Оснащен новейшими аудио-развлекательными технологиями." #LOP Edit
+  description: "Небольшой транспортный шаттл, рассчитанный на 4 пассажиров. Оснащен новейшими аудио-развлекательными технологиями." # LOP Edit
   price: 17500 # $14325 after appraisal + ~$1200 (~5% markup) - TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Sr

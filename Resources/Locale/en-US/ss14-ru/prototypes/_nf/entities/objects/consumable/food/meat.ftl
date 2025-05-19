@@ -1,5 +1,7 @@
 ent-FoodMeatGoblin = raw goblin meat
     .desc = Just look at that marbling! Wait, is that microplastic?
+ent-FoodMeatSheleg = raw sheleg meat
+    .desc = A slab of cold.. meat?
 ent-FoodMeatCat = prime-cut cat meat
     .desc = The tainted gift of an evil crime. The meat may be delicious, but at what cost?
 ent-FoodMeatChickenBattered = breaded chicken

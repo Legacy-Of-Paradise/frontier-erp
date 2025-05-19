@@ -4,7 +4,6 @@
   sprite: /Textures/_NewParadise/Tiles/CornerFloors/lattice-half/lattice-half1.png
   baseTurf: Lattice
   isSubfloor: true
-  #canCrowbar: false
   isSpace: true
   footstepSounds:
     collection: FootstepPlating
@@ -18,7 +17,6 @@
   sprite: /Textures/_NewParadise/Tiles/CornerFloors/lattice-half/lattice-half2.png
   baseTurf: Lattice
   isSubfloor: true
-  #canCrowbar: false
   isSpace: true
   footstepSounds:
     collection: FootstepPlating
@@ -32,7 +30,6 @@
   sprite: /Textures/_NewParadise/Tiles/CornerFloors/lattice-half/lattice-half3.png
   baseTurf: Lattice
   isSubfloor: true
-  #canCrowbar: false
   isSpace: true
   footstepSounds:
     collection: FootstepPlating
@@ -46,7 +43,6 @@
   sprite: /Textures/_NewParadise/Tiles/CornerFloors/lattice-half/lattice-half4.png
   baseTurf: Lattice
   isSubfloor: true
-  #canCrowbar: false
   isSpace: true
   footstepSounds:
     collection: FootstepPlating

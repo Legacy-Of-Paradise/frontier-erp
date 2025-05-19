@@ -12,7 +12,7 @@
   id: Heimdall
   name: NSF Heimdall
   parent: BaseVessel
-  description: "Небольшой детективный корабль для сбора разведданных и судебно-медицинской экспертизы." #LOP edit
+  description: "Небольшой детективный корабль для сбора разведданных и судебно-медицинской экспертизы." # LOP edit
   price: 27000 # Approx 20% markup applied to the appraisal price of 22500 due to the presence of advanced radar.
   category: Small
   group: Security

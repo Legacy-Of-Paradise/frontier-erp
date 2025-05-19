@@ -20,3 +20,5 @@ ent-LPPWeaponRevolverPanther = panther
     .desc = A fast revolver for quick decision making. Uses .45 magnum cartridges.
 ent-LPPWeaponRevolverOC-38 = Revolver OC-38
     .desc = Uses .45 magnum bullets
+ent-LPPWeaponRevolverRT46 = RT-46
+    .desc = Revolver Tulskii 46 is a handheld cannon chambered in .60 caliber. Popular among USSP comissars and pirates.

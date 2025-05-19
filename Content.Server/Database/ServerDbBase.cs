@@ -1917,7 +1917,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
         }
 
-#if LOP_Sponsors
+#if LOP
         #region Sponsors
         public async Task<Sponsor?> GetSponsorInfo(NetUserId userId)
         {

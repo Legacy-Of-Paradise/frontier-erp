@@ -79,6 +79,3 @@ ent-FaxMachineNFMedicalDispatch = { ent-BaseStructureDisableToolUse }
 ent-FaxMachineNFSyndicateVessel = { ent-FaxMachineNFLPBravo }
     .suffix = Event, Syndicate Vessel
     .desc = { ent-FaxMachineNFLPBravo.desc }
-ent-FaxMachineShipMcCargo = { ent-FaxMachineBase }
-    .suffix = Ship, McCargo
-    .desc = { ent-FaxMachineBase.desc }

@@ -1,0 +1,40 @@
+# Author Info
+# GitHub: CadenceArgent (https://github.com/CadenceArgent)
+# Discord: Cadence
+
+# Shuttle Notes:
+# Docking Hub Vessel, with basic service setup, reception desk, and a public garden.
+- type: vessel
+  id: Crossroads
+  parent: BaseVessel
+  name: PHI Crossroads
+  description: Просторное и привлекательное служебное судно. Crossroads призван помочь справиться с теснотой в доках, соединить сообщества и служить якорем для собраний # LOP edit
+  price: 75000 #appraises at ~69k with the appraisegrid command, marking up at ~10% for T1 Service/RP ship
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NewParadise/Shuttles/crossroads.yml # LOP edit
+  guidebookPage: ShipyardCrossroads
+  class:
+  - Civilian
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Crossroads
+  mapName: 'PHI Crossroads'
+  mapPath: /Maps/_NewParadise/Shuttles/crossroads.yml # LOP edit
+  minPlayers: 0
+  stations:
+    Crossroads:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Crossroads {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

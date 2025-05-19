@@ -8,3 +8,5 @@ ent-MobRosyMothroach = розовая мотыльковая плотва
 ent-MobAngryBeeTimed = пчела
     .suffix = Злая, Временная
     .desc = { ent-MobAngryBee.desc }
+ent-MobMonkeyNoInventory = { ent-MobMonkey }
+    .desc = { ent-MobMonkey.desc }

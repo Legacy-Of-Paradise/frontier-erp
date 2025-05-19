@@ -21,7 +21,7 @@ job-name-sheriff = шериф
 job-name-stc = диспетчер трафика
 job-name-sr = представитель Фронтира
 job-name-pal = бюр-агент ДШНГ
-job-name-doc = главврач
+job-name-doc = глава службы реанимации
 job-name-valet = стюард
 # Job titles
 job-title-ert-mail-carrier = ОБР почтальон

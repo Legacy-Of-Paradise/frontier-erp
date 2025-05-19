@@ -119,7 +119,7 @@
   description: lpp-uplink-security-judge-desc
   productEntity: LPPWeaponRevolverJudgeLethal
   cost:
-    FrontierUplinkCoin: 9
+    FrontierUplinkCoin: 16
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -305,7 +305,7 @@
   description: uplink-security-goliath-desc
   productEntity: LPPWeaponGoliath
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 8
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -391,7 +391,7 @@
 
 - type: listing
   id: UplinkSecuritykDuffelNFSDUpgraded
-  name:  uplink-security-duffelupgraded-name
+  name: uplink-security-duffelupgraded-name
   description: uplink-security-duffelupgraded-desc
   productEntity: LPPClothingBackpackDuffelNFSDUpgraded
   cost:
@@ -545,7 +545,7 @@
   description: lpp-uplink-security-musket-desc
   productEntity: Musket
   cost:
-    FrontierUplinkCoin: 1
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityWeapons
   conditions:

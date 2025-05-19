@@ -1,14 +1,5 @@
 - type: entity
   parent: ClothingNeckBase
-  id: LPPClothingNeckCloakBlueshield
-  name: blueshield's cloak
-  description: They can hide those who really need protection.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Neck/Cloaks/blueshield_neck.rsi
-
-- type: entity
-  parent: ClothingNeckBase
   id: LPPBestMedic
   name: best medic
   description:
@@ -78,12 +69,3 @@
   components:
     - type: Sprite
       sprite: _NewParadise/Clothing/Neck/NPZ/NPZmantle.rsi
-
-- type: entity
-  parent: ClothingNeckBase
-  id: LPPADJUCloak
-  name: The Adjutant's Cloak
-  description: The blue cloak of the adjutant, breathes warmth and bureaucracy when wearing it.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Neck/Cloaks/LPPADJUCloak.rsi

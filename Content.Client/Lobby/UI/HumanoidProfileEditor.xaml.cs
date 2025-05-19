@@ -9,6 +9,7 @@ using Content.Client.Players.PlayTimeTracking;
 using Content.Client.Sprite;
 using Content.Client.Stylesheets;
 using Content.Client.UserInterface.Systems.Guidebook;
+using Content.Shared._NewParadise; // LOP edit
 using Content.Shared._NewParadise.TTS; // LOP edit
 using Content.Shared.CCVar;
 using Content.Shared.Clothing;
@@ -35,7 +36,7 @@ using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
-#if LOP_Sponsors
+#if LOP
 using Content.Client._NewParadise.Sponsors;
 #endif
 
@@ -54,7 +55,6 @@ namespace Content.Client.Lobby.UI
         private readonly MarkingManager _markingManager;
         private readonly JobRequirementsManager _requirements;
         private readonly LobbyUIController _controller;
-        private readonly EntityWhitelistSystem _whitelist; // Frontier
 
         private FlavorText.FlavorText? _flavorText;
         private TextEdit? _flavorTextEdit;
@@ -133,8 +133,6 @@ namespace Content.Client.Lobby.UI
             _resManager = resManager;
             _requirements = requirements;
             _controller = UserInterfaceManager.GetUIController<LobbyUIController>();
-
-            _whitelist = _entManager.System<EntityWhitelistSystem>(); // Frontier
 
             ImportButton.OnPressed += args =>
             {
@@ -223,6 +221,17 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Gender
+
+            // LOP edit start
+            #region Voice
+
+            if (configurationManager.GetCVar(NewParadiseCvars.TtsEnabled))
+            {
+                TTSContainer.Visible = true;
+            }
+
+            #endregion
+            // LOP edit end
 
             RefreshSpecies();
 
@@ -613,7 +622,16 @@ namespace Content.Client.Lobby.UI
             SpeciesButton.Clear();
             _species.Clear();
 
-            _species.AddRange(_prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(o => o.RoundStart));
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP
+            var sponsorman = IoCManager.Resolve<SponsorsManager>();
+            if (sponsorman.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            // LOP edit end
+
+            _species.AddRange(_prototypeManager.EnumeratePrototypes<SpeciesPrototype>().Where(o => o.RoundStart && o.SponsorTier <= sponsorTier));  //LOP edit
             var speciesIds = _species.Select(o => o.ID).ToList();
 
             for (var i = 0; i < _species.Count; i++)
@@ -1157,6 +1175,22 @@ namespace Content.Client.Lobby.UI
                         Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
                         break;
                     }
+                // Frontier: Sheleg
+                case HumanoidSkinColor.ShelegToned:
+                    {
+                        if (!Skin.Visible)
+                        {
+                            Skin.Visible = true;
+                            RgbSkinColorContainer.Visible = false;
+                        }
+
+                        var color = SkinColor.ShelegSkinTone((int)Skin.Value);
+
+                        Markings.CurrentSkinColor = color;
+                        Profile = Profile.WithCharacterAppearance(Profile.Appearance.WithSkinColor(color));
+                        break;
+                    }
+                    // End Frontier
             }
 
             ReloadProfilePreview();
@@ -1387,6 +1421,20 @@ namespace Content.Client.Lobby.UI
 
                         break;
                     }
+                // Frontier: Sheleg
+                case HumanoidSkinColor.ShelegToned:
+                    {
+                        if (!Skin.Visible)
+                        {
+                            Skin.Visible = true;
+                            RgbSkinColorContainer.Visible = false;
+                        }
+
+                        Skin.Value = SkinColor.ShelegSkinToneFromColor(Profile.Appearance.SkinColor);
+
+                        break;
+                    }
+                    // End Frontier
             }
 
         }
@@ -1489,6 +1537,12 @@ namespace Content.Client.Lobby.UI
                     {
                         hairColor = Profile.Appearance.SkinColor;
                     }
+                    // Frontier: Forced hair color
+                    else if (_markingManager.MustMatchColor(Profile.Species, HumanoidVisualLayers.Hair, out var _, _prototypeManager) is Color matchedColor)
+                    {
+                        hairColor = matchedColor;
+                    }
+                    // End Frontier
                     else
                     {
                         hairColor = Profile.Appearance.HairColor;
@@ -1523,6 +1577,12 @@ namespace Content.Client.Lobby.UI
                     {
                         facialHairColor = Profile.Appearance.SkinColor;
                     }
+                    // Frontier: Forced hair color
+                    else if (_markingManager.MustMatchColor(Profile.Species, HumanoidVisualLayers.Hair, out var _, _prototypeManager) is Color matchedColor)
+                    {
+                        facialHairColor = matchedColor;
+                    }
+                    // End Frontier
                     else
                     {
                         facialHairColor = Profile.Appearance.FacialHairColor;
@@ -1564,7 +1624,17 @@ namespace Content.Client.Lobby.UI
         private void RandomizeEverything()
         {
             var oldBank = Profile?.BankBalance ?? HumanoidCharacterProfile.DefaultBalance; // Frontier
-            Profile = HumanoidCharacterProfile.Random().WithBankBalance(oldBank); // Frontier: add WithBankBalance(oldBank)
+
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP
+            var sponsorman = IoCManager.Resolve<SponsorsManager>();
+            if (sponsorman.TryGetInfo(out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            // LOP edit end
+
+            Profile = HumanoidCharacterProfile.Random(sponsorTier: sponsorTier).WithBankBalance(oldBank); // Frontier: add WithBankBalance(oldBank) //LOP edit
             SetProfile(Profile, CharacterSlot);
             SetDirty();
         }
@@ -1606,26 +1676,27 @@ namespace Content.Client.Lobby.UI
 
             try
             {
-                //LOP edit start
+                // LOP edit start
                 List<string> marks = new();
-#if LOP_Sponsors
+#if LOP
                 int sponsorTier = 0;
                 if (IoCManager.Resolve<SponsorsManager>().TryGetInfo(out var sponsorInfo))
                 {
                     sponsorTier = sponsorInfo.Tier;
-                    if (sponsorTier > 3)
+                    if (sponsorTier >= 3)
                     {
-                        var sponsormarks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                        marks = sponsormarks.Concat(sponsorInfo.AllowedMarkings).ToList();
+                        var sponsormarks = _markingManager.Markings.Select((a, _) => a.Value).Where(a => a.SponsorOnly == true).Select((a, _) => a.ID).ToList();
+                        sponsormarks.AddRange(sponsorInfo.AllowedMarkings.AsEnumerable());
+                        marks.AddRange(sponsormarks);
                     }
                 }
 #endif
                 var profile = _entManager.System<HumanoidAppearanceSystem>().FromStream(file, _playerManager.LocalSession!, marks
-#if LOP_Sponsors
+#if LOP
                 , sponsorTier
 #endif
                 );
-                //LOP edit end
+                // LOP edit end
                 var oldProfile = Profile;
                 profile = profile.WithBankBalance(oldProfile.BankBalance); // Frontier: no free money (enforce import, don't care about import)
                 SetProfile(profile, CharacterSlot);

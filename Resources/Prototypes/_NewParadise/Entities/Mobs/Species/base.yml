@@ -1,11 +1,8 @@
-﻿# The progenitor. This should only container the most basic components possible.
-# Only put things on here if every mob *must* have it. This includes ghosts.
-- type: entity
+﻿- type: entity
   save: false
   id: LPPBaseMob
   abstract: true
   components:
-  # - type: CanBeBorgNTEnemy
   - type: Sprite
     noRot: true
     drawdepth: Mobs
@@ -43,12 +40,9 @@
   - type: MindContainer
   - type: MovementSpeedModifier
   - type: Polymorphable
-#  - type: TTS # Corvax-TTS
-  # - type: ShortExamine
   - type: RequireProjectileTarget
     active: False
 
-# Used for mobs that have health and can take damage.
 - type: entity
   save: false
   id: LPPMobDamageable
@@ -113,7 +107,6 @@
     priority: 2
     lightningExplode: false
 
-# Used for mobs that can enter combat mode and can attack.
 - type: entity
   save: false
   id: LPPMobCombat
@@ -128,7 +121,6 @@
       groups:
         Brute: 5
 
-# Used for mobs that are affected by atmospherics, pressure, and heat
 - type: entity
   save: false
   id: LPPMobAtmosExposed
@@ -139,11 +131,11 @@
     heatDamageThreshold: 325
     coldDamageThreshold: 0
     currentTemperature: 310.15
-    coldDamage: #per second, scales with temperature & other constants
+    coldDamage:
       types:
         Cold : 0.1
     specificHeat: 42
-    heatDamage: #per second, scales with temperature & other constants
+    heatDamage:
       types:
         Heat : 1.5
   - type: ThermalRegulator
@@ -156,7 +148,6 @@
     thermalRegulationTemperatureThreshold: 25
   - type: MovedByPressure
 
-# Used for mobs that require regular atmospheric conditions.
 - type: entity
   parent: LPPMobAtmosExposed
   id: LPPMobAtmosStandard
@@ -177,16 +168,15 @@
     specificHeat: 42
     coldDamage:
       types:
-        Cold: 1 #per second, scales with temperature & other constants
+        Cold: 1
     heatDamage:
       types:
-        Heat: 1.5 #per second, scales with temperature & other constants
+        Heat: 1.5
   - type: Barotrauma
     damage:
       types:
-        Blunt: 0.15 #per second, scales with pressure and other constants.
+        Blunt: 0.15
 
-# Used for mobs that can be set on fire
 - type: entity
   save: false
   id: LPPMobFlammable
@@ -195,14 +185,13 @@
   - type: Flammable
     fireSpread: true
     canResistFire: true
-    damage: #per second, scales with number of fire 'stacks'
+    damage:
       types:
         Heat: 1.5
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Generic_mob_burning
 
-# Used for mobs that need to breathe
 - type: entity
   save: false
   id: LPPMobRespirator
@@ -217,7 +206,6 @@
       types:
         Asphyxiation: -1.0
 
-# Used for mobs that have a bloodstream
 - type: entity
   save: false
   id: LPPMobBloodstream

@@ -2,7 +2,7 @@
   id: Caduceus
   parent: BaseVessel
   name: NM Caduceus
-  description: "Ранее использовался как гуманитарный корабль. Caduceus отлично подходит как мобильный госпиталь, покупаемый за кредиты." #LOP Edit
+  description: "Ранее использовался как гуманитарный корабль. Caduceus отлично подходит как мобильный госпиталь, покупаемый за кредиты." # LOP Edit
   price: 115000 # TODO: fix this value, getting tests to pass - Whatstone You will never fix this - Dusty
   category: Large
   group: Medical

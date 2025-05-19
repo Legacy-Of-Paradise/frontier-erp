@@ -12,7 +12,7 @@
   id: Crescent
   parent: BaseVessel
   name: KC Crescent
-  description: "Crescent, названный из-за своей внешней формы, — это судно, предназначенное для обслуживания, оказания медицинской помощи и проведения научных исследований." #LOP Edit
+  description: "Crescent, названный из-за своей внешней формы, — это судно, предназначенное для обслуживания, оказания медицинской помощи и проведения научных исследований." # LOP Edit
   price: 350020 # It do be like this.
   category: Large
   group: Shipyard

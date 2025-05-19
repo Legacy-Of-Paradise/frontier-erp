@@ -12,7 +12,7 @@
   id: Placebo
   parent: BaseVessel
   name: NC Placebo
-  description: "Маленький психологическиое судно. Названо в честь знаменитого эффекта плацебо." #LOP Edit
+  description: "Маленький психологическиое судно. Названо в честь знаменитого эффекта плацебо." # LOP Edit
   price: 20000
   category: Small
   group: Shipyard

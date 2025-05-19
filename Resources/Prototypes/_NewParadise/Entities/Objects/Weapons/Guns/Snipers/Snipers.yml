@@ -25,7 +25,6 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
-    # autoCycle: false
     capacity: 10
     proto: CartridgeMagnum
     whitelist:
@@ -89,8 +88,8 @@
   - type: Item
     size: Ginormous
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: Sprite
     sprite: _NewParadise/Objects/Weapons/Guns/Snipers/Goliath.rsi
     state: base
@@ -110,7 +109,7 @@
     whitelist:
       tags:
       - CartridgeAntiMateriel
-    capacity: 3
+    capacity: 2
     proto: CartridgeAntiMateriel
   - type: GunRequiresWield
   - type: EyeCursorOffset # Frontier

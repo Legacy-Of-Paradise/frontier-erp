@@ -184,6 +184,7 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+    - state: rubber
 
 - type: entity
   parent: BaseMagazineBoxRifle
@@ -198,6 +199,7 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+    - state: practice
 
 - type: entity
   parent: BaseMagazineBoxRifle
@@ -212,6 +214,7 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+    - state: uranium
 
 - type: entity
   parent: BaseMagazineBoxRifle
@@ -226,3 +229,4 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
+    - state: incendiary

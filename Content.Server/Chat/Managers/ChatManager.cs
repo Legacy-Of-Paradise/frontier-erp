@@ -18,7 +18,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
-#if LOP_Sponsors
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
 
@@ -48,7 +48,7 @@ internal sealed partial class ChatManager : IChatManager
     [Dependency] private readonly IEntityManager _entityManager = default!;
     [Dependency] private readonly PlayerRateLimitManager _rateLimitManager = default!;
 
-#if LOP_Sponsors
+#if LOP
     [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
 #endif
 
@@ -256,7 +256,7 @@ internal sealed partial class ChatManager : IChatManager
         if (_adminManager.HasAdminFlag(player, AdminFlags.NameColor))
         {
             var prefs = _preferencesManager.GetPreferences(player.UserId);
-            //colorOverride = prefs.AdminOOCColor;  //LOP edit
+            //colorOverride = prefs.AdminOOCColor;  // LOP edit
         }
         // LOP edit start
         if (_netConfigManager.GetClientCVar(player.Channel, CCVars.ShowOocPatronColor) && player.Channel.UserData.PatronTier is { } patron && PatronOocColors.TryGetValue(patron, out var patronColor))
@@ -264,7 +264,7 @@ internal sealed partial class ChatManager : IChatManager
             wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", patronColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
         }
         // LOP edit end
-#if LOP_Sponsors
+#if LOP
         if (_sponsorsManager.TryGetInfo(player.UserId, out var sponsorData) && sponsorData.Tier > 0)
         {
             wrappedMessage = Loc.GetString("chat-manager-send-ooc-patron-wrap-message", ("patronColor", sponsorData.OOCColor), ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));

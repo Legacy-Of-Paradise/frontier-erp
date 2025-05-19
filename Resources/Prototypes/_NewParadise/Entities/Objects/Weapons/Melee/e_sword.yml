@@ -1,6 +1,6 @@
 - type: entity
   name: energy axe
-  parent: EnergySword
+  parent: EnergySwordDouble
   id: LPPEnergyAxe
   description: Syndicate engineer's intern thought that having only energy swords was not cool enough.
   components:
@@ -22,8 +22,8 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 12
-            Heat: 28
+            Slash: 14.5
+            Heat: 30.5
             Structural: 225
   - type: ItemToggleActiveSound
     activeSound:
@@ -71,10 +71,11 @@
   - type: StaticPrice
     price: 150
     vendPrice: 80000
+  - type: MeleeRequiresWield
 
 - type: entity
   name: energy scythe
-  parent: EnergySword
+  parent: EnergySwordDouble
   id: LPPEnergyscythe
   description: Syndicate farmer's intern thought that having only energy swords was not cool enough.
   components:
@@ -96,15 +97,14 @@
         variation: 0.250
     activatedDamage:
         types:
-            Slash: 8
-            Heat: 10
+            Slash: 4
+            Heat: 6
             Structural: 25
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg
       params:
         volume: 3
-  - type: Wieldable
   - type: MeleeWeapon
     wideAnimationRotation: -135
     attackRate: 3
@@ -143,7 +143,7 @@
 
 - type: entity
   name: energy broadsword
-  parent: BaseItem
+  parent: [EnergySword, BaseC3SyndicateContraband]
   id: LPPEnergyBroadsword
   description: A very loud & even more dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
   components:

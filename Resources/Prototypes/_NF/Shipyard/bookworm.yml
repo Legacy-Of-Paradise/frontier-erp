@@ -12,7 +12,7 @@
   id: Bookworm
   parent: BaseVessel
   name: SBB Bookworm
-  description: "Уютный корабль среднего размера, с библиотекой для путешественников, что хотят отдохнуть с книжкой в руках, или же играя в настолки." #LOP Edit
+  description: "Уютный корабль среднего размера, с библиотекой для путешественников, что хотят отдохнуть с книжкой в руках, или же играя в настолки." # LOP Edit
   price: 31500 # ~29476 after purchase + ~5% markup
   category: Medium
   group: Shipyard

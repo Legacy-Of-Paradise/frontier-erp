@@ -1,5 +1,3 @@
-ent-LPPClothingUniformJumpskirtAdjutant = adjutant's jumpskirt
-    .desc = { ent-ClothingUniformSkirtBase.desc }
 ent-LPPCargoBlackSkirt = BlackSkirt
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPSkirtleneckCargo = Skirtleneck
@@ -24,8 +22,6 @@ ent-LPPSkirtleneckQMEngi = SkirtleneckQM engi
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPSupplyChiefSkirtEngi = supply chief skirt engi
     .desc = { ent-ClothingUniformBase.desc }
-ent-LPPClothingUniformJumpSkirtSecEngineer = security engineer jumpsuit
-    .desc = A jumpsuit made of strong material, providing robust protection.
 ent-LPPMedicBlackSkirt = BlackSkirt
     .desc = { ent-ClothingUniformBase.desc }
 ent-LPPSkirtleneckMedic = Skirtleneck

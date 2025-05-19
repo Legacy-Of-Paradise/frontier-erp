@@ -22,7 +22,7 @@ public sealed partial class AgeRequirement : JobRequirement
         HumanoidCharacterProfile? profile,
         IReadOnlyDictionary<string, TimeSpan> playTimes,
         [NotNullWhen(false)] out FormattedMessage? reason
-#if LOP_Sponsors
+#if LOP
         , int tier = 0
 #endif
         )

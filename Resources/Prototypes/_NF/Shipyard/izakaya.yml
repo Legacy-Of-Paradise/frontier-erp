@@ -1,0 +1,40 @@
+# Author Info
+# GitHub: AF-Buyrcsp2
+# Discord: Buyrcsp2
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Izakaya
+  parent: BaseVessel
+  name: SSS Izakaya
+  description: Японский ресторан/паб средних размеров в стиле японского корабля с большой обеденной зоной и такой же большой кухней. # LOP edit
+  price: 82000 # ~68000 appraisal price, ~20% markup
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_NewParadise/Shuttles/izakaya.yml # LOP edit
+  guidebookPage: ShipyardIzakaya
+  class:
+  - Kitchen
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Izakaya
+  mapName: 'SSS Izakaya'
+  mapPath: /Maps/_NewParadise/Shuttles/izakaya.yml # LOP edit
+  minPlayers: 0
+  stations:
+    Izakaya:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Izakaya {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

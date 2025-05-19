@@ -15,7 +15,7 @@
   - type: Item
     size: Normal
   - type: Storage
-    maxItemSize: Normal # allow up to 5 large beakers / 10 beakers / 10 pill canisters
+    maxItemSize: Normal
     grid:
     - 0,0,19,9
     quickInsert: true

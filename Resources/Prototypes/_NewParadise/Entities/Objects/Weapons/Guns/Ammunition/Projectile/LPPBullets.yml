@@ -179,7 +179,10 @@
       types:
         Blunt: 10
   - type: StaminaDamageOnCollide
-    damage: 60
+    damage: 90
+  - type: Tracer # Frontier
+    color: "#69beff" # Frontier
+    length: 3 # Frontier
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -190,7 +193,13 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 20
-        Structural: 120
+        Blunt: 17.5
+        Structural: 350
+    penetrationThreshold: 370
+    penetrationDamageTypeRequirement:
+    - Structural
   - type: StaminaDamageOnCollide
-    damage: 10
+    damage: 60
+  - type: Tracer # Frontier
+    color: "#ff0000" # Frontier
+    length: 3 # Frontier

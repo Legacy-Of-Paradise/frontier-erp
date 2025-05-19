@@ -6,7 +6,7 @@
   id: Canister
   parent: BaseVessel
   name: UAC Canister
-  description: "Что бы вы ни взяли с собой, это не поместится. Два места. Включая гравитацию." #LOP edit
+  description: "Что бы вы ни взяли с собой, это не поместится. Два места. Включая гравитацию." # LOP edit
   price: 8000
   category: Micro
   group: Scrap

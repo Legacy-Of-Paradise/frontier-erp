@@ -115,11 +115,11 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 500
     vendPrice: 57500
-#LOP edit end
+# LOP edit end
 
 - type: entity
   name: double-barreled shotgun

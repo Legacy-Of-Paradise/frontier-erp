@@ -1,0 +1,44 @@
+# Author Info
+# GitHub: Chervjakys
+# Discord: Chervjakys
+
+# Maintainer Info
+# GitHub: Chervjakys
+# Discord: Chervjakys
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Nook
+  parent: BaseVessel
+  name: WSE Nook
+  description: Корабль, спроектированный как мобильный дом, с пространством для модификаций. Быстрый и удобный. # LOP edit
+  price: 22500 #base sell price is around 17000
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NewParadise/Shuttles/nook.yml # LOP edit
+  guidebookPage: ShipyardNook
+  class:
+  - Civilian
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: Nook
+  mapName: 'WSE Nook'
+  mapPath: /Maps/_NewParadise/Shuttles/nook.yml # LOP edit
+  minPlayers: 0
+  stations:
+    Nook:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Nook {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

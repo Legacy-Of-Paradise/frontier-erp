@@ -24,3 +24,5 @@ ent-FoodEveryspiceRoasted = roasted everyspice pods
     .desc = Aromatic, charred pods of the everyspice plant. A piquant addition to food when ground.
 ent-FoodOnionRingsBattered = battered onion rings
     .desc = Onion rings dredged in a gloopy flour and egg mixture.
+ent-FoodMonkanana = monkanana
+    .desc = Looks like a monkeyfied banana.

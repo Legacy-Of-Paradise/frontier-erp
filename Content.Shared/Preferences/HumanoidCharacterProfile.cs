@@ -34,7 +34,7 @@ namespace Content.Shared.Preferences
 
         public const int MaxLoadoutNameLength = 32;
 
-        //LOP edit start
+        // LOP edit start
         public static int DescriptionLength(int tier)
         {
             if (tier >= 4)
@@ -42,7 +42,7 @@ namespace Content.Shared.Preferences
 
             return 1024;
         }
-        //LOP edit end
+        // LOP edit end
 
         public const int DefaultBalance = 30000;
 
@@ -242,13 +242,14 @@ namespace Content.Shared.Preferences
         }
 
         // TODO: This should eventually not be a visual change only.
-        public static HumanoidCharacterProfile Random(HashSet<string>? ignoredSpecies = null, int balance = DefaultBalance)
+        public static HumanoidCharacterProfile Random(HashSet<string>? ignoredSpecies = null, int balance = DefaultBalance, int sponsorTier = 0)    //LOP edit
         {
             var prototypeManager = IoCManager.Resolve<IPrototypeManager>();
             var random = IoCManager.Resolve<IRobustRandom>();
 
             var species = random.Pick(prototypeManager
                 .EnumeratePrototypes<SpeciesPrototype>()
+                .Where(a => a.SponsorTier <= sponsorTier)    //LOP edit
                 .Where(x => ignoredSpecies == null ? x.RoundStart : x.RoundStart && !ignoredSpecies.Contains(x.ID))
                 .ToArray()
             ).ID;
@@ -536,17 +537,17 @@ namespace Content.Shared.Preferences
         }
 
         public void EnsureValid(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes// LOP edit start: sponsor system
-#if LOP_Sponsors
+#if LOP
         , int sponsorTier
 #endif
-        //LOP edit end
+        // LOP edit end
         )
         {
             var configManager = collection.Resolve<IConfigurationManager>();
             var prototypeManager = collection.Resolve<IPrototypeManager>();
 
             if (!prototypeManager.TryIndex(Species, out var speciesPrototype) || speciesPrototype.RoundStart == false
-            )//|| (speciesPrototype.SponsorOnly && !sponsorPrototypes.Contains(Species)))   //LOP edit
+            )//|| (speciesPrototype.SponsorOnly && !sponsorPrototypes.Contains(Species)))   // LOP edit
             {
                 Species = SharedHumanoidAppearanceSystem.DefaultSpecies;
                 speciesPrototype = prototypeManager.Index(Species);
@@ -615,17 +616,17 @@ namespace Content.Shared.Preferences
                 name = GetName(Species, gender);
             }
 
-            //LOP edit start
+            // LOP edit start
             var descLength = DescriptionLength(0);
-#if LOP_Sponsors
+#if LOP
             descLength = DescriptionLength(sponsorTier);
 #endif
-            //LOP edit end
+            // LOP edit end
 
             string flavortext;
-            if (FlavorText.Length > descLength) //LOP edit
+            if (FlavorText.Length > descLength) // LOP edit
             {
-                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..descLength];    //LOP edit
+                flavortext = FormattedMessage.RemoveMarkupOrThrow(FlavorText)[..descLength];    // LOP edit
             }
             else
             {
@@ -723,7 +724,7 @@ namespace Content.Shared.Preferences
                 }
 
                 loadouts.EnsureValid(this, session, collection
-#if LOP_Sponsors
+#if LOP
                 , sponsorTier
 #endif
                 );
@@ -775,14 +776,14 @@ namespace Content.Shared.Preferences
         }
 
         public ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes// LOP edit: sponsor system
-#if LOP_Sponsors
+#if LOP
         , int sponsorTier = 0
 #endif
         )
         {
             var profile = new HumanoidCharacterProfile(this);
-            profile.EnsureValid(session, collection, sponsorPrototypes  //LOP edit
-#if LOP_Sponsors
+            profile.EnsureValid(session, collection, sponsorPrototypes  // LOP edit
+#if LOP
             , sponsorTier
 #endif
             );

@@ -12,7 +12,7 @@
   id: Bocadillo
   parent: BaseVessel
   name: NC Bocadillo
-  description: "маленький фуд-трак, идеальный для шефа одиночки." #LOP Edit
+  description: "маленький фуд-трак, идеальный для шефа одиночки." # LOP Edit
   price: 25000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Shipyard
