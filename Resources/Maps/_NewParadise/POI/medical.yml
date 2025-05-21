@@ -1,10 +1,10 @@
 meta:
   format: 7
   category: Grid
-  engineVersion: 251.0.0
+  engineVersion: 250.0.0
   forkId: ""
   forkVersion: ""
-  time: 05/14/2025 09:21:48
+  time: 05/21/2025 14:41:01
   entityCount: 1837
 maps: []
 grids:
@@ -6182,14 +6182,12 @@ entities:
       parent: 1
 - proto: GasFilterOn
   entities:
-  - uid: 1774
+  - uid: 1784
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 9.5,1.5
       parent: 1
-    - type: GasFilter
-      filteredGas: CarbonDioxide
     - type: AtmosPipeColor
       color: '#990000FF'
 - proto: GasMixerOnFlipped
@@ -6341,12 +6339,6 @@ entities:
       parent: 1
     - type: AtmosPipeColor
       color: '#990000FF'
-  - uid: 1775
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 9.5,0.5
-      parent: 1
   - uid: 1776
     components:
     - type: Transform
@@ -6369,29 +6361,17 @@ entities:
       parent: 1
     - type: AtmosPipeColor
       color: '#0055CCFF'
-  - uid: 1784
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 9.5,-1.5
-      parent: 1
-    - type: AtmosPipeColor
-      color: '#990000FF'
-  - uid: 1785
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 10.5,-1.5
-      parent: 1
-    - type: AtmosPipeColor
-      color: '#990000FF'
   - uid: 1786
     components:
     - type: Transform
       pos: 10.5,1.5
       parent: 1
-    - type: AtmosPipeColor
-      color: '#990000FF'
+  - uid: 1788
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 10.5,0.5
+      parent: 1
   - uid: 1821
     components:
     - type: Transform
@@ -8658,6 +8638,20 @@ entities:
       rot: 3.141592653589793 rad
       pos: 7.5,1.5
       parent: 1
+  - uid: 1774
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 9.5,-0.5
+      parent: 1
+    - type: AtmosPipeColor
+      color: '#990000FF'
+  - uid: 1775
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 9.5,0.5
+      parent: 1
   - uid: 1779
     components:
     - type: Transform
@@ -8674,17 +8668,19 @@ entities:
       parent: 1
     - type: AtmosPipeColor
       color: '#990000FF'
-  - uid: 1787
+  - uid: 1785
     components:
     - type: Transform
-      pos: 10.5,-0.5
+      rot: 3.141592653589793 rad
+      pos: 9.5,0.5
       parent: 1
     - type: AtmosPipeColor
       color: '#990000FF'
-  - uid: 1788
+  - uid: 1787
     components:
     - type: Transform
-      pos: 10.5,0.5
+      rot: 3.141592653589793 rad
+      pos: 9.5,-1.5
       parent: 1
     - type: AtmosPipeColor
       color: '#990000FF'
