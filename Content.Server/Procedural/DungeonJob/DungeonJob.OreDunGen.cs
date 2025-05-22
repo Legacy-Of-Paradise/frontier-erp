@@ -45,7 +45,9 @@ public sealed partial class DungeonJob
                 var enumerator2 = _maps.GetAnchoredEntitiesEnumerator(_gridUid, _grid, tile);
                 while (enumerator2.MoveNext(out var uid))
                 {
-                    var prototype = _entManager.GetComponent<MetaDataComponent>(uid.Value).EntityPrototype;
+                    if (!_entManager.TryGetComponent(uid.Value, out MetaDataComponent? meta))
+                        continue;
+                    var prototype = meta.EntityPrototype;
 
                     if (prototype?.ID is null)
                         continue;

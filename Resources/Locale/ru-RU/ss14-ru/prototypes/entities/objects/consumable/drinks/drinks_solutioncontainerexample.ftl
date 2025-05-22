@@ -1,4 +1,4 @@
-ent-DrinkVisualizerTestCut = Колба для кофеварки
+ent-DrinkVisualizerTestCut = колба для кофеварки
     .desc = Термос из нержавеющей стали. Это лучший друг каждого человека по утрам.
-ent-DrinkVisualizerTestNot = Колба для кофеварки
+ent-DrinkVisualizerTestNot = колба для кофеварки
     .desc = Термос из нержавеющей стали. Это лучший друг каждого человека по утрам.
