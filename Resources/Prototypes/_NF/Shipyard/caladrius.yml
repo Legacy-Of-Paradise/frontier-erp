@@ -13,11 +13,11 @@
   id: Caladrius
   parent: BaseVessel
   name: FSB Caladrius
-  description: A medical carrier produced by the Far Star Biotech corporation. Designed for large scale colonization support, humanitarian relief and post-disaster investigation and recovery operations.
+  description: Медицинский носитель производства корпорации Far Star Biotech. Предназначен для поддержки крупномасштабной колонизации, оказания гуманитарной помощи и проведения операций по расследованию и восстановлению после катастроф. # LOP edit
   price: 200000 # 140000 + 40% markup for low economic T3
   category: Large
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/caladrius.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/caladrius.yml # LOP edit
   guidebookPage: ShipyardCaladrius
   class:
   - Medical
@@ -27,7 +27,7 @@
 - type: gameMap
   id: Caladrius
   mapName: 'FSB Caladrius'
-  mapPath: /Maps/_NF/Shuttles/caladrius.yml
+  mapPath: /Maps/_NewParadise/Shuttles/caladrius.yml # LOP edit
   minPlayers: 0
   stations:
     Caladrius:

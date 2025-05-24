@@ -22,7 +22,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: Pulse
+    proto: NFPulse
     fireCost: 600
   - type: Battery
     maxCharge: 9000
@@ -56,15 +56,15 @@
     maxCharge: 750
     startingCharge: 750
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletDisabler
+    proto: NFBulletDisabler
     fireCost: 50
   - type: EnergyGun
     fireModes:
-    - proto: BulletDisabler
+    - proto: NFBulletDisabler
       fireCost: 50
       name: дизейблер
       state: disabler
-    - proto: BulletEnergyGunLaser
+    - proto: NFBulletLaserLow
       fireCost: 75
       name: летальный
       state: lethal

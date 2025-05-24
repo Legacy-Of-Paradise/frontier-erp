@@ -152,7 +152,7 @@
       color: "#61eb34"
 
 - type: entity
-  parent: CartridgeAntiMateriel
+  parent: NFCartridgeRifle60
   id: LPPCartridgeAntiMaterielNonLethal
   name: cartridge (.60 Non-lethal)
   components:
@@ -176,7 +176,7 @@
     price: 20
 
 - type: entity
-  parent: CartridgeAntiMateriel
+  parent: NFCartridgeRifle60
   id: LPPCartridgeAntiMaterielCP
   name: cartridge (.60 Cocntere-Piercing)
   components:

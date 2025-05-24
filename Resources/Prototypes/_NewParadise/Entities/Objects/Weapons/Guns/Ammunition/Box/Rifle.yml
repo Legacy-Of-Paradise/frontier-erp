@@ -148,7 +148,7 @@
   name: ammunition box (.10 rifle)
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeMinigun
+    proto: NFCartridgeRifle10
   - type: Sprite
     layers:
     - state: base

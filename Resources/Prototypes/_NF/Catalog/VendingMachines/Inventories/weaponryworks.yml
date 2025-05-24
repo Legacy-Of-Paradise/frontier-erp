@@ -23,9 +23,9 @@
     LPPMagazineRifleGarand: 2
     LPPMagazineRifleMars: 2
     LPPMagazineBoxHunting: 1
-    WeaponRifleSVS: 1
+    NFWeaponRifleSVS: 1
     LPPWeaponRifleLemasciv: 1
-    MagazineRifle: 2
+    NFMagazineRifle20: 2
     LPPWeaponShotgunPredsedatel: 1
     LPPMagazineShotgunPredsedatelEmpty: 2
     # LOP edit end
@@ -59,9 +59,9 @@
     LPPMagazineRifleGarand: 4294967295
     LPPMagazineRifleMars: 4294967295
     LPPMagazineBoxHunting: 4294967295
-    WeaponRifleSVS: 4294967295
+    NFWeaponRifleSVS: 4294967295
     LPPWeaponRifleLemasciv: 4294967295
-    MagazineRifleEmpty: 4294967295
+    NFMagazineRifle20: 4294967295
     LPPWeaponShotgunPredsedatel: 4294967295
     LPPMagazineShotgunPredsedatelEmpty: 4294967295
 # LOP edit end

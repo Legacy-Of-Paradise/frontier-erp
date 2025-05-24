@@ -130,25 +130,15 @@
 - type: latheRecipePack
   id: NFUniformCloaks
   recipes:
-  - ClothingNeckCloakAroace
   - ClothingNeckCloakCap
   - ClothingNeckCloakCapFormal
-  - ClothingNeckCloakPan
   - ClothingNeckCloakCe
   - ClothingCloakCmo
-  - ClothingNeckCloakIntersex
   - ClothingNeckCloakJanitor
   - ClothingNeckCloakMiner
-  - ClothingNeckCloakGay
   - ClothingNeckCloakNanotrasen
-  - ClothingNeckCloakAce
-  - ClothingNeckCloakLesbian
-  - ClothingNeckCloakBi
-  - ClothingNeckCloakTrans
   - ClothingNeckCloakQm
   - ClothingNeckCloakRd
-  - ClothingNeckCloakEnby
-  - ClothingNeckCloakAro
 
 - type: latheRecipePack
   id: NFUniformCommand

@@ -37,7 +37,7 @@
   parent: LPPBaseMagazinePistolPF20
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeRifle
+    proto: NFCartridgeRifle20
   - type: Sprite
     layers:
     - state: red

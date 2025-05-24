@@ -38,7 +38,7 @@
   parent: LPPBaseMagazineRifleM41A
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeRifle
+    proto: NFCartridgeRifle20
   - type: Sprite
     layers:
     - state: red

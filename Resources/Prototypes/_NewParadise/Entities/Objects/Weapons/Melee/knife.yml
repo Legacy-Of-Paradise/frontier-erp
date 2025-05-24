@@ -18,7 +18,6 @@
   - type: EnergyKatana
   - type: LimitedCharges
     maxCharges: 1
-    charges: 1
   - type: AutoRecharge
     rechargeDuration: 300
   - type: Clothing

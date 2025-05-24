@@ -12,11 +12,11 @@
   id: Surveyor
   parent: BaseVessel
   name: FSB Surveyor
-  description: A budget mining and recovery shuttle for corporations unwilling to operate outside of a shoestring budget. Brought to you by the Far Star Biotech corporation!
+  description: Бюджетный шаттл для добычи и восстановления полезных ископаемых для корпораций, не желающих работать за пределами ограниченного бюджета. Предоставлен корпорацией Far Star Biotech! # LOP edit
   price: 18000
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/surveyor.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/surveyor.yml # LOP edit
   guidebookPage: ShipyardSurveyor
   class:
   - Salvage
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Surveyor
   mapName: 'FSB Surveyor'
-  mapPath: /Maps/_NF/Shuttles/surveyor.yml
+  mapPath: /Maps/_NewParadise/Shuttles/surveyor.yml # LOP edit
   minPlayers: 0
   stations:
     Surveyor:
