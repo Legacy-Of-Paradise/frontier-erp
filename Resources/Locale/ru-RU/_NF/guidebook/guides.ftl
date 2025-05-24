@@ -19,6 +19,8 @@ guide-entry-medical-bounties = Медицинские заказы
 guide-entry-medical-doc = Директор по уходу
 # Reference entries
 guide-entry-medicalrecipes = Медицинские рецепты
+guide-entry-weapons-ranged-archetypes = Архетипы дальнобойного оружия
+guide-entry-weapons-color-codes-ammo = Цветовые коды боеприпасов
 # Expedition faction entries
 guide-entry-expedition-aberrant-flesh = Искривлённая плоть
 guide-entry-expedition-argocytes = Аргоциты
@@ -32,6 +34,8 @@ guide-entry-expedition-silicons = Взбунтовавшиеся синтети�
 guide-entry-expedition-syndicate-naval-forces = Военно-морские силы Синдиката
 guide-entry-expedition-xenos = Ксено
 # Shipyard entries
+guide-entry-shipyard-adder = Adder
+# Shipyard entries
 guide-entry-shipyard-akupara = Akupara
 guide-entry-shipyard-ambition = Ambition
 guide-entry-shipyard-apothecary = Apothecary
@@ -43,6 +47,7 @@ guide-entry-shipyard-bodkin = Bodkin
 guide-entry-shipyard-bookworm = Bookworm
 guide-entry-shipyard-brigand = Brigand
 guide-entry-shipyard-bulker = Bulker
+guide-entry-shipyard-caladrius = Caladrius
 guide-entry-shipyard-camper = Camper
 guide-entry-shipyard-ceres = Ceres
 guide-entry-shipyard-charon = Charon
@@ -82,6 +87,7 @@ guide-entry-shipyard-sparrow = Sparrow
 guide-entry-shipyard-skipper = Skipper
 guide-entry-shipyard-spirit = Spirit
 guide-entry-shipyard-stasis = Stasis
+guide-entry-shipyard-surveyor = Surveyor
 guide-entry-shipyard-tide = Tide
 guide-entry-shipyard-vagabond = Vagabond
 guide-entry-shipyard-vitalis = Vitalis

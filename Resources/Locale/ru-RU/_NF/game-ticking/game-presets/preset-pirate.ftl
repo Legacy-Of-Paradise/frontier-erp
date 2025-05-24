@@ -8,4 +8,7 @@ nf-piratecaptain-role-greeting =
 nf-pirate-role-greeting-equipment = Используйте консоли на верфи, чтобы находить цели и получать награды, а также продавать найденные контрабандные ящики. Купите корабль и отправляйтесь навстречу приключениям!
 objective-issuer-nf-pirate = [color=#F6CE64]Союз Вольных Стрелков[/color]
 nf-pirate-round-end-agent-name = пират
+roles-antag-nf-pirate-name = Пират
+roles-antag-nf-pirate-first-mate-name = Старший помощник пирата
+roles-antag-nf-pirate-captain-name = Капитан пиратов
 roles-antag-nf-pirate-objective = Грабить сектор, накапливать дублоны.
