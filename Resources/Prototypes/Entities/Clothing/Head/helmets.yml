@@ -105,6 +105,10 @@
   - type: FoldableClothing
     foldedEquippedPrefix: open
     foldedHeldPrefix: open
+  - type: HideLayerClothing
+    slots:
+    - HeadTop
+    - HeadSide
   # LOP edit end
 
 #Syndicate SWAT Helmet

@@ -30,15 +30,15 @@
     maxCharge: 2600
     startingCharge: 2600
   - type: ProjectileBatteryAmmoProvider
-    proto: BulletDisabler
+    proto: NFBulletDisabler
     fireCost: 100
   - type: EnergyGun
     fireModes:
-    - proto: BulletDisabler
+    - proto: NFBulletDisabler
       fireCost: 100
       name: дизейблер
       state: disabler
-    - proto: BulletEnergyGunLaser
+    - proto: NFBulletLaserLow
       fireCost: 200
       name: летальный
       state: lethal

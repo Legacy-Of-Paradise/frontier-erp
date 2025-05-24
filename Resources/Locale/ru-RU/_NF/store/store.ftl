@@ -1,2 +1,13 @@
 store-preset-name-pirate-uplink = Пиратский аплинк
+store-category-sechardsuits = Скафандры
+store-category-secweapons = Оружие
+store-category-secutility = Инструменты
+store-category-secammo = Боеприпасы
+store-category-secexplosives = Взрывчатка
+store-category-secbundles = Наборы
 store-preset-name-nfsd-uplink = Аплинк Департамента Шерифа
+store-category-piratehardsuits = Скафандры
+store-category-pirateweapons = Оружие
+store-category-pirateutility = Инструменты
+store-category-pirateammo = Боеприпасы
+store-category-pirateexplosives = Взрывчатка

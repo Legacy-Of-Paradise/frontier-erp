@@ -1,0 +1,12 @@
+ent-NFBaseMagazineShotgunDrum = ammo drum (.50 shells)
+    .desc = { ent-BaseItem.desc }
+ent-NFMagazineShotgunDrumEmpty = ammo drum (.50 shells, any)
+    .desc = { ent-NFBaseMagazineShotgunDrum.desc }
+ent-NFMagazineShotgunDrum = ammo drum (.50 shells, buckshot)
+    .desc = { ent-NFBaseMagazineShotgunDrum.desc }
+ent-NFMagazineShotgunDrumBeanbag = ammo drum (.50 shells, beanbags)
+    .desc = { ent-NFBaseMagazineShotgunDrum.desc }
+ent-NFMagazineShotgunDrumSlug = ammo drum (.50 shells, slugs)
+    .desc = { ent-NFBaseMagazineShotgunDrum.desc }
+ent-NFMagazineShotgunDrumIncendiary = ammo drum (.50 shells, incendiary)
+    .desc = { ent-NFBaseMagazineShotgunDrum.desc }

@@ -52,7 +52,7 @@
   parent: LPPBaseMagazineMinigun
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeMinigun
+    proto: NFCartridgeRifle10
   - type: Sprite
     layers:
     - state: red

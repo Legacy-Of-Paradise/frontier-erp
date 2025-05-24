@@ -1,0 +1,10 @@
+ent-NFBaseSpeedLoaderPistol35 = speed loader (.35 pistol)
+    .desc = { ent-BaseC1Contraband.desc }
+ent-NFSpeedLoaderPistol35Empty = speed loader (.35 pistol, any)
+    .desc = { ent-NFBaseSpeedLoaderPistol35.desc }
+ent-NFSpeedLoaderPistol35 = speed loader (.35 pistol)
+    .desc = { ent-NFBaseSpeedLoaderPistol35.desc }
+ent-NFSpeedLoaderPistol35Practice = speed loader (.35 pistol, practice)
+    .desc = { ent-NFBaseSpeedLoaderPistol35.desc }
+ent-NFSpeedLoaderPistol35Rubber = speed loader (.35 pistol, rubber)
+    .desc = { ent-NFBaseSpeedLoaderPistol35.desc }

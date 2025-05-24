@@ -1,3 +1,13 @@
-ent-WeaponSubMachineGunDrozdRubber = Drozd
-    .suffix = Non-Lethal
-    .desc = { ent-WeaponSubMachineGunDrozd.desc }
+ent-NFWeaponSubMachineGunAtreides = Atreides
+    .desc = Pla-ket-ket-ket-ket! An illegal firearm often used by Syndicate agents.
+ent-NFWeaponSubMachineGunC20r = C-20r
+    .desc = An illegal firearm that is often used by the infamous nuclear operatives.
+ent-NFWeaponSubMachineGunDrozd = Drozd
+    .desc = A fully automatic SMG.
+ent-NFWeaponSubMachineGunDrozdLessLethal = Drozd
+    .desc = A fully automatic SMG.
+    .suffix = Frontier, Less-Lethal
+ent-NFWeaponSubMachineGunWt550 = WT-550
+    .desc = An excellent SMG. On the receiver is a label that says 'for authorized use only.'
+ent-NFWeaponSubMachineGunTypewriter = Typewriter
+    .desc = A modern take on the classic design used by mobsters throughout space and time.

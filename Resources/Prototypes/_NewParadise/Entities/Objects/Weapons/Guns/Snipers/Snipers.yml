@@ -26,7 +26,7 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
     capacity: 10
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     whitelist:
       tags:
       - CartridgeMagnum
@@ -110,7 +110,7 @@
       tags:
       - CartridgeAntiMateriel
     capacity: 2
-    proto: CartridgeAntiMateriel
+    proto: NFCartridgeRifle60
   - type: GunRequiresWield
   - type: EyeCursorOffset # Frontier
     maxOffset: 7 # Frontier

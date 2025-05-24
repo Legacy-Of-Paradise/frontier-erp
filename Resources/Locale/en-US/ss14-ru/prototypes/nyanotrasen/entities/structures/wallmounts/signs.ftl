@@ -1,5 +1,5 @@
 ent-SignLastIdiot = Zero Days Since Last Idiot
-    .desc = Must be an Engineering joke.
+    .desc = Must be an engineering joke.
 ent-SignConspiracyBoard = conspiracy board
     .desc = Perfect for tracking the multiple layers of criminal activities.
 ent-SignDojo = dojo sign

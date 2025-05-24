@@ -2,7 +2,6 @@
   id: BlackmarketcontraVendingMachineInventorySuits
   startingInventory:
 #Броня начало
-    ClothingBackpackDuffelSyndicateRaidBundle: 1
     ClothingHeadHelmetSwatSyndicate: 2
     ClothingOuterVestWeb: 2
     LPPClothingHeadHelmetNPZAssault: 1

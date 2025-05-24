@@ -1,0 +1,12 @@
+ent-NFSpawnerRandomPosterFrontier = random poster spawner
+    .suffix = Frontier only posters
+    .desc = { ent-MarkerBase.desc }
+ent-NFSpawnerRandomPosterLvhi = { ent-NFSpawnerRandomPosterFrontier }
+    .suffix = Frontier, LVHI
+    .desc = { ent-NFSpawnerRandomPosterFrontier.desc }
+ent-NFSpawnerRandomPosterGoblin = { ent-NFSpawnerRandomPosterFrontier }
+    .suffix = Frontier, Goblin
+    .desc = { ent-NFSpawnerRandomPosterFrontier.desc }
+ent-NFSpawnerRandomPosterFsb = { ent-NFSpawnerRandomPosterFrontier }
+    .suffix = Frontier, FSB
+    .desc = { ent-NFSpawnerRandomPosterFrontier.desc }

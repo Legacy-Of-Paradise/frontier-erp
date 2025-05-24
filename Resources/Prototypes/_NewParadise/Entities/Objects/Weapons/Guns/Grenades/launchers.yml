@@ -29,7 +29,7 @@
     whitelist:
       tags:
         - Grenade
-    proto: GrenadeFrag
+    proto: NFGrenadeFrag
   - type: Wieldable
     unwieldOnUse: false
   - type: GunWieldBonus

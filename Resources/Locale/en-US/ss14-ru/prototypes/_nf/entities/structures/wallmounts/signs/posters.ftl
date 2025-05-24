@@ -54,3 +54,5 @@ ent-NFPosterContrabandFsbNightlight = Far Star Biotech Nightlight
     .desc = The FSB Nightlight, chasing the night away.
 ent-NFPosterContrabandFsbRetort = Far Star Biotech Retort
     .desc = The FSB Retort! Ignite your potential!
+ent-NFPosterContrabandFsbCaladrius = Far Star Biotech Caladrius
+    .desc = The FSB Caladrius, when there's no one else to turn to you'll be glad to see us!

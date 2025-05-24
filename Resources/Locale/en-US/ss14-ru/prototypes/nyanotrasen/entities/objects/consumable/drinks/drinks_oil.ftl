@@ -1,5 +1,5 @@
-ent-BaseOilJar = { ent-DrinkBottleBaseEmpty }
-    .desc = { ent-DrinkBottleBaseEmpty.desc }
+ent-BaseOilJar = { ent-RecyclableItemPlasticMedium }
+    .desc = { ent-RecyclableItemPlasticMedium.desc }
 ent-OilJarGhee = jar of ghee
     .desc = A large tinted glass jar with a simple label of butter sticks on it.
 ent-OilJarCorn = jar of corn oil

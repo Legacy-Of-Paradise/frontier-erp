@@ -8,8 +8,3 @@ gun-examine-min-angle = - [color={ $color }]Минимальный разбро�
 gun-examine-fire-rate = - [color={ $color }]Скорострельность[/color]: [color=lightblue]{ $value } выстр/с[/color]
 gun-examine-muzzle-velocity = - [color={ $color }]Начальная скорость пули[/color]: [color=lightblue]{ $value } м/с[/color]
 gun-examine-caliber = Используется калибр [color={ $color }]{ $caliber }[/color].
-# Список калибров Frontier:
-gun-examine-caliber-30 = .30
-gun-examine-caliber-45 = .45
-gun-examine-caliber-50 = .50
-gun-examine-caliber-60 = .60

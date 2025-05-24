@@ -12,11 +12,11 @@
   id: Adder
   parent: BaseVessel
   name: LVHI Adder
-  description: A small maneuverable shuttle designed for mining. Manufactured by Langstad-Voigt Heavy Industries.
+  description: Небольшой маневренный шаттл, предназначенный для добычи полезных ископаемых. Производится компанией Langstad-Voigt Heavy Industries. # LOP edit
   price: 17500 # ~16400$ on mapinit + ~5% (820$) markup
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_NF/Shuttles/adder.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/adder.yml # LOP edit
   guidebookPage: ShipyardAdder
   class:
   - Salvage
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Adder
   mapName: 'Adder'
-  mapPath: /Maps/_NF/Shuttles/adder.yml
+  mapPath: /Maps/_NewParadise/Shuttles/adder.yml # LOP edit
   minPlayers: 0
   stations:
     Adder:

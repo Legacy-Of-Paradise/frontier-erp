@@ -225,7 +225,7 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
     capacity: 7
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     whitelist:
       tags:
       - CartridgeMagnum

@@ -20,7 +20,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineRifle
+        startingItem: NFMagazineRifle20
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -29,7 +29,7 @@
             - MagazineRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: NFCartridgeRifle20
         priority: 1
         whitelist:
           tags:
@@ -65,7 +65,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -74,7 +74,7 @@
             - MagazineLightRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
@@ -114,7 +114,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -123,7 +123,7 @@
             - MagazineLightRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
@@ -249,61 +249,61 @@
     price: 1500
     vendPrice: 71500
 
-- type: entity
-  name: BCR-25r
-  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
-  id: LPPWeaponRifleBCR25r
-  description: Small assault rifle bullpup configuration. It's constructed in the past century, uses .25 ammo.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
-    layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
-  - type: Gun
-    minAngle: 5
-    maxAngle: 20
-    fireRate: 7
-    soundGunshot:
-      path: /Audio/DeltaV/Weapons/Guns/Gunshots/jackdaw.ogg
-  - type: ChamberMagazineAmmoProvider
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        startingItem: MagazineCaselessRifle
-        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
-        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazineCaselessRifle
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeCaselessRifle
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeCaselessRifle
-  - type: Clothing
-    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-  - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -3
-    maxAngle: -12
-  - type: StaticPrice
-    price: 1500
-    vendPrice: 81500
+#- type: entity
+#  name: BCR-25r
+#  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
+#  id: LPPWeaponRifleBCR25r
+#  description: Small assault rifle bullpup configuration. It's constructed in the past century, uses .25 ammo.
+#  components:
+#  - type: Sprite
+#    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
+#    layers:
+#      - state: base
+#        map: ["enum.GunVisualLayers.Base"]
+#      - state: mag-0
+#        map: ["enum.GunVisualLayers.Mag"]
+#  - type: Gun
+#    minAngle: 5
+#    maxAngle: 20
+#    fireRate: 7
+#    soundGunshot:
+#      path: /Audio/DeltaV/Weapons/Guns/Gunshots/jackdaw.ogg
+#  - type: ChamberMagazineAmmoProvider
+#  - type: ItemSlots
+#    slots:
+#      gun_magazine:
+#        startingItem: MagazineCaselessRifle
+#        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+#        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+#        priority: 2
+#        whitelist:
+#          tags:
+#            - MagazineCaselessRifle
+#      gun_chamber:
+#        name: Chamber
+#        startingItem: CartridgeCaselessRifle
+#        priority: 1
+#        whitelist:
+#          tags:
+#            - CartridgeCaselessRifle
+#  - type: Clothing
+#    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
+#  - type: ContainerContainer
+#    containers:
+#      gun_magazine: !type:ContainerSlot
+#      gun_chamber: !type:ContainerSlot
+#  - type: MagazineVisuals
+#    magState: mag
+#    steps: 1
+#    zeroVisible: true
+#  - type: Appearance
+#  - type: Wieldable
+#  - type: GunWieldBonus
+#    minAngle: -3
+#    maxAngle: -12
+#  - type: StaticPrice
+#    price: 1500
+#    vendPrice: 81500
 
 - type: entity
   name: Makeshift'o AK
@@ -337,7 +337,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
@@ -346,7 +346,7 @@
             - MagazineLightRifle
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
@@ -393,7 +393,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineRifle
+        startingItem: NFMagazineRifle20
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
         priority: 2
@@ -403,11 +403,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: NFCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -452,7 +452,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineRifle
+        startingItem: NFMagazineRifle20
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
         priority: 2
@@ -462,11 +462,11 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: NFCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -511,7 +511,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
         priority: 2
@@ -522,12 +522,12 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
             - CartridgeLightRifle
-            - CartridgeRifle
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot

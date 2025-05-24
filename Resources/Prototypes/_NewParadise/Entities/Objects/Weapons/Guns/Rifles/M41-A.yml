@@ -30,7 +30,7 @@
             - MagazineRifleM41A
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:

@@ -182,7 +182,11 @@ public sealed partial class DungeonSystem
                 continue;
 
             var childRot = templateXform.LocalRotation + finalRoomRotation;
-            var protoId = _metaQuery.GetComponent(templateEnt).EntityPrototype?.ID;
+            // Frontier: use TryGetComponent, avoid errors
+            string? protoId = null;
+            if (_metaQuery.TryGetComponent(templateEnt, out var meta))
+                protoId = meta.EntityPrototype?.ID;
+            // End Frontier: use TryGetComponent, avoid errors
 
             // TODO: Copy the templated entity as is with serv
             var ent = Spawn(protoId, new EntityCoordinates(gridUid, childPos));

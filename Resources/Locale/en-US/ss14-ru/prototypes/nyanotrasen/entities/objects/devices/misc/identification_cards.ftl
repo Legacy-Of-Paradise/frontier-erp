@@ -1,6 +1,6 @@
 ent-MailCarrierIDCard = mail carrier ID card
     .desc = { ent-IDCardStandard.desc }
-ent-PrisonerIDCard = prisoner ID card
+ent-NFPrisonerIDCard = prisoner ID card
     .desc = { ent-IDCardStandard.desc }
 ent-ValetIDCard = valet ID card
     .desc = { ent-IDCardStandard.desc }

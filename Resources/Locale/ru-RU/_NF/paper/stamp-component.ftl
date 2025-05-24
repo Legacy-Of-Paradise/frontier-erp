@@ -8,3 +8,4 @@ stamp-component-stamped-name-pal = Бюр-агент ДШНГ
 stamp-component-stamped-name-stc = Диспетчер трафика
 stamp-component-stamped-name-sr = Представитель Фронтира
 stamp-component-stamped-name-bailiff = Надзиратель
+stamp-component-stamped-name-confidential = НТ Конфиденциально

@@ -23,6 +23,6 @@
        - id: LPPMagazineBoxHunting
        - id: LPPWeaponRifleM1A
        - id: LPPWeaponRifleM14
-       - id: MagazineLightRifle
+       - id: NFMagazineRifle30
          amount: 2
        - id: LPPClothingNeckChain

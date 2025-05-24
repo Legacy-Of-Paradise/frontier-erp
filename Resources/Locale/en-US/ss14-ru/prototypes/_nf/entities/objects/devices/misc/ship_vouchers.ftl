@@ -12,3 +12,5 @@ ent-ShipVoucherFrontierMailCarrier = mail carrier ship voucher
     .desc = Allows for one free mail ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
 ent-ShipVoucherFrontierGuard = station guard ship voucher
     .desc = Allows for one free guard ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
+ent-ShipVoucherFrontierStc = station traffic controller ship voucher
+    .desc = Allows for one free tug ship purchase from the Frontier Staff Shipyard. Destroyed on sale.

@@ -74,7 +74,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazinePistolHighCapacity
+        startingItem: NFMagazineHighCapacityPistol35
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -84,7 +84,7 @@
             - MagazinePistol
       gun_chamber:
         name: Chamber
-        startingItem: CartridgePistol
+        startingItem: NFCartridgePistol35
         priority: 1
         whitelist:
           tags:
@@ -134,7 +134,7 @@
             - MagazineMinigun
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeMinigun
+        startingItem: NFCartridgeRifle10
         priority: 1
         whitelist:
           tags:

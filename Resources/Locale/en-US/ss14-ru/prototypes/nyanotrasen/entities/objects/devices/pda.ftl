@@ -1,4 +1,4 @@
-ent-PrisonerPDA = prisoner PDA
+ent-NFPrisonerPDA = prisoner PDA
     .desc = Clear, so you can make sure there's nothing being smuggled inside.
 ent-ValetPDA = valet PDA
     .desc = Why isn't it gray?

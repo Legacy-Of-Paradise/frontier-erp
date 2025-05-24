@@ -46,7 +46,7 @@
       tags:
         - CartridgeMagnum
         - SpeedLoaderMagnum
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     capacity: 8
     chambers: [ True, True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null, null ]
@@ -127,7 +127,7 @@
     whitelist:
       tags:
         - CartridgeAntiMateriel
-    proto: CartridgeAntiMateriel
+    proto: NFCartridgeRifle60
     capacity: 3
     chambers: [ True, True, True ]
     ammoSlots: [ null, null, null ]
@@ -188,9 +188,9 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - CartridgeMagnum
+        - NFCartridgePistol45
         - SpeedLoaderMagnum
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     capacity: 7
     chambers: [ True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null ]
@@ -269,7 +269,7 @@
     whitelist:
       tags:
         - CartridgeAntiMateriel
-    proto: CartridgeAntiMateriel
+    proto: NFCartridgeRifle60
     capacity: 4
     chambers: [ True, True, True, True]
     ammoSlots: [ null, null, null, null ]
