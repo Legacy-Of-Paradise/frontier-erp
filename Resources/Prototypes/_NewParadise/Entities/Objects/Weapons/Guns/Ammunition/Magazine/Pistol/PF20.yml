@@ -61,20 +61,6 @@
       color: "#dbdbdb"
 
 - type: entity
-  id: LPPMagazinePistolPF20Rubber
-  name: Pistol magazine (.20 rubber)
-  parent: LPPBaseMagazinePistolPF20
-  components:
-  - type: BallisticAmmoProvider
-    proto: CartridgeRifleRubber
-  - type: Sprite
-    layers:
-    - state: rubber
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-- type: entity
   id: LPPMagazinePistolPF20Uranium
   name: Pistol magazine (.20 uranium)
   parent: LPPBaseMagazinePistolPF20

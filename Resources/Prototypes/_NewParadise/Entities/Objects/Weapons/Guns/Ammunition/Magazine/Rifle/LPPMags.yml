@@ -47,20 +47,6 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  id: LPPMagazineRifleM4A1Rubber
-  name: Magazine (calibre 5,56x45 rubber)
-  parent: LPPBaseMagazineRifle
-  components:
-  - type: BallisticAmmoProvider
-    proto: LPPCartridgeRubberM4A1
-  - type: Sprite
-    layers:
-    - state: rubber
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-- type: entity
   id: LPPMagazineRifleM4A1Practice
   name: Magazine (calibre 5,56x45 practice)
   parent: LPPBaseMagazineRifle

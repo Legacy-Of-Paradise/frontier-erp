@@ -49,14 +49,6 @@
     proto: LPPBulletM4A1
 
 - type: entity
-  id: LPPCartridgeRubberM4A1
-  name: Bullet (calibre 5,56x45 rubber)
-  parent: LPPBaseCartridgeRifle
-  components:
-  - type: CartridgeAmmo
-    proto: LPPBulletRubberM4A1
-
-- type: entity
   id: LPPCartridgePracticeM4A1
   name: Bullet (calibre 5,56x45 practice)
   parent: LPPBaseCartridgeRifle
@@ -107,23 +99,6 @@
   components:
   - type: CartridgeAmmo
     proto: LPPBulletLightRifleHunting
-
-- type: entity
-  id: LPPCartridgeMinigunrubber
-  name: bullet (.10 rifle rubber)
-  parent: LPPBaseCartridgeMinigun
-  components:
-  - type: CartridgeAmmo
-    proto: LPPBulletMinigunRubber
-    deleteOnSpawn: true
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-    - state: tip
-      map: [ "enum.AmmoVisualLayers.Tip" ]
-      color: "#026dbf"
 
 - type: entity
   id: LPPCartridgeMinigunPractice
