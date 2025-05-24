@@ -17,7 +17,7 @@
          amount: 9
        - id: LPPMagazineBoxHunting
          amount: 3
-       - id: MagazineBoxMagnum
+       - id: NFAmmunitionBoxPistol45
        - id: LPPWeaponSniperLeverPravoved
 
  - type: entity
