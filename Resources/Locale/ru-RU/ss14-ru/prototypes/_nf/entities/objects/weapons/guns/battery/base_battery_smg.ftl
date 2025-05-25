@@ -1,0 +1,9 @@
+ent-NFBaseWeaponFrameEnergySubMachineGun = { ent-NFBaseWeaponEncumbranceSubMachineGun }
+    .suffix = Фронтир
+    .desc = { ent-NFBaseWeaponEncumbranceSubMachineGun.desc }
+ent-NFBaseWeaponFrameEnergySubMachineGunNanotrasen = { ent-NFBaseWeaponFrameEnergySubMachineGun }
+    .desc = { ent-NFBaseWeaponFrameEnergySubMachineGun.desc }
+ent-NFBaseWeaponEnergySubMachineGunFireModes = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponEnergySubMachineGunDisabler = { "" }
+    .desc = { "" }

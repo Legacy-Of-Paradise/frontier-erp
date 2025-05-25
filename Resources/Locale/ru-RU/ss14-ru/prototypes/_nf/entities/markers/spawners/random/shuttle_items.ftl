@@ -1,6 +1,15 @@
+ent-SpawnRandomDrinkMug = случайная кружка
+    .suffix = Шаттл
+    .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnRandomTowel = случайное полотенце
+    .suffix = Шаттл
+    .desc = { ent-MarkerBasePlaceFree.desc }
 ent-SpawnShuttleGearSuitStorageUnitsMercenary = случайный шкаф для хранения скафандра
     .suffix = Шаттл, Наёмник
     .desc = { ent-MarkerBase.desc }
 ent-SpawnShuttleVendomatsClothes = случайный торговый автомат
     .suffix = Шаттл, Одежда
     .desc = { ent-MarkerBase.desc }
+ent-SpawnRandomSignRedDigits = знак со случайныйм числом
+    .suffix = Шаттл
+    .desc = { ent-MarkerBasePlaceFree.desc }

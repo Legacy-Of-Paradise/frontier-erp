@@ -4,7 +4,5 @@ ent-LPPBaseMagazineRifleM41AFull = магазин для M41-A (.30 винтов
     .desc = { ent-LPPBaseMagazineRifleM41A.desc }
 ent-LPPBaseMagazineRifleM41APractice = магазин для M41-A (.30 винтовочные Учебные)
     .desc = { ent-LPPBaseMagazineRifleM41A.desc }
-ent-LPPBaseMagazineRifleM41ARubber = магазин для M41-A (.30 винтовочные Резиновые)
-    .desc = { ent-LPPBaseMagazineRifleM41A.desc }
 ent-LPPBaseMagazineRifleM41AUranium = магазин для M41-A (.30 винтовочные Урановые)
     .desc = { ent-LPPBaseMagazineRifleM41A.desc }

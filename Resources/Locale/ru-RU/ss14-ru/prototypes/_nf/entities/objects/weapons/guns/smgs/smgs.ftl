@@ -1,3 +1,14 @@
-ent-WeaponSubMachineGunDrozdRubber = { ent-WeaponSubMachineGunDrozd }
-    .suffix = Не летал
-    .desc = { ent-WeaponSubMachineGunDrozd.desc }
+ent-NFWeaponSubMachineGunAtreides = Атрейдес
+    .desc = Пла-кет-кет-кет-кет! Незаконное огнестрельное оружие, часто используемое агентами Синдиката.
+ent-NFWeaponSubMachineGunC20r = C-20r
+    .desc = Незаконное огнестрельное оружие, часто используемое печально известными ядерными оперативниками.
+ent-NFWeaponSubMachineGunDrozd = Дрозд
+    .desc = Полностью автоматический пистолет-пулемёт.
+ent-NFWeaponSubMachineGunDrozdLessLethal = Дрозд
+    .suffix = Фронтир, Менее летальный
+    .desc = Полностью автоматический пистолет-пулемёт.
+ent-NFWeaponSubMachineGunWt550 = WT-550
+    .desc = Отличный пистолет-пулемёт. На ствольной коробке есть надпись: «только для авторизованного использования».
+ent-NFWeaponSubMachineGunTypewriter = Пишущая машинка
+    .desc = Современное переосмысление классического дизайна, используемого гангстерами по всему пространству и времени.
+
