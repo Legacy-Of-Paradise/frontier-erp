@@ -585,18 +585,18 @@ ToxinChemistryBottle: ChemistryBottleToxin
 ClothingBackpackDuffelSyndicateRaidBundle: ClothingBackpackSyndicateRaidBundle
 
 # 2025-04-14
-MailRobustToolsSpam: MailSpamLetter
-MailNanotrasenSpam: MailSpamLetter
-MailSyndicateSpam: MailSpamLetter
-MailAlternativeDimensionSpam: MailSpamLetter
-MailNarsieCultSpam: MailSpamLetter
-MailRageCageSpam: MailSpamLetter
-MailVoyageAdvertisementSpam: MailSpamLetter
-MailScienceSpiderClanSpam: MailSpamLetter
-MailAllAccessSpam: MailSpamLetter
-MailCentcommRetributionSpam: MailSpamLetter
-MailEvilLizardSpam: MailSpamLetter
-MailParentsNeedMoneySpam: MailSpamLetter
+MailRobustToolsSpam: null
+MailNanotrasenSpam: null
+MailSyndicateSpam: null
+MailAlternativeDimensionSpam: null
+MailNarsieCultSpam: null
+MailRageCageSpam: null
+MailVoyageAdvertisementSpam: null
+MailScienceSpiderClanSpam: null
+MailAllAccessSpam: null
+MailCentcommRetributionSpam: null
+MailEvilLizardSpam: null
+MailParentsNeedMoneySpam: null
 
 # 2025-04-15
 SimpleXenoArtifact: ComplexXenoArtifact

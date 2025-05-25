@@ -622,6 +622,8 @@ WeaponTaser: null
 WeaponTemperatureGun: NFWeaponEnergyRifleTemperature
 WeaponTeslaGun: null
 WeaponXrayCannon: NFWeaponEnergyRifleSniperXrayCannon
+CratePirateChestCannonBallEmp: CratePirateChestNFCannonBallEmp
+LPPMagazineBoxAntiMaterielCocnterePiercing: null
 
 # 2025-05-16 Syndicate Turret
 WeaponTurretLaserSyndicateNF: NFWeaponTurretLaserSyndicate

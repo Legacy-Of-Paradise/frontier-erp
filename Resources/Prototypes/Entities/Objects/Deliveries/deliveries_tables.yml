@@ -64,9 +64,9 @@
     children:
     - !type:NestedSelector # Don't you love getting mailed trash?
       tableId: GenericTrashItems
-    - !type:NestedSelector
-      weight: 4
-      tableId: SpamMailTable
+#    - !type:NestedSelector
+#      weight: 4
+#      tableId: SpamMailTable
     - !type:NestedSelector
       weight: 2
       tableId: RandomBookTable

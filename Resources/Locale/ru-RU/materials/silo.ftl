@@ -8,3 +8,4 @@ ore-silo-ui-itemlist-entry =
     } { $name } ({ $beacon }) { $inRange ->
         [true] { "" }
        *[false] (Вне зоны действия)
+    }

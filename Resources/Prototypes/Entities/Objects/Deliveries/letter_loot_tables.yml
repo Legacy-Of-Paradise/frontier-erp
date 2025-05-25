@@ -1,11 +1,11 @@
 # Basically all different loot tables that the mail can choose from
 
 # Common
-- type: entityTable
-  id: SpamMailTable
-  table: !type:GroupSelector
-    children:
-      - id: MailSpamLetter
+#- type: entityTable
+#  id: SpamMailTable
+#  table: !type:GroupSelector
+#    children:
+#      - id: MailSpamLetter
 
 # Letter Bundles
 ## Basically items that should always spawn together, specific to letters
