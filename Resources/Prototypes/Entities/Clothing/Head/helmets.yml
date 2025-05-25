@@ -106,6 +106,7 @@
     foldedEquippedPrefix: open
     foldedHeldPrefix: open
   - type: HideLayerClothing
+    slots: []
   # LOP edit end
 
 #Syndicate SWAT Helmet
