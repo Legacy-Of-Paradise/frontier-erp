@@ -1,3 +1,3 @@
 ent-RandomPaintingHalloween = { ent-RandomPainting }
-    .suffix = Halloween
+    .suffix = Хэллоуин
     .desc = { ent-RandomPainting.desc }

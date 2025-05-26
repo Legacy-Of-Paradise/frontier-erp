@@ -1,9 +1,9 @@
-ent-SpawnInhandMeleeWeaponBloodCultLow = random melee weapon
-    .suffix = Blood cult, Low
+ent-SpawnInhandMeleeWeaponBloodCultLow = случайное оружие ближнего боя
+    .suffix = Кровавый культ, Низкий шанс
     .desc = { ent-MarkerBase.desc }
-ent-SpawnInhandMeleeWeaponBloodCultHigh = random melee weapon
-    .suffix = Blood cult, High
+ent-SpawnInhandMeleeWeaponBloodCultHigh = случайное оружие ближнего боя
+    .suffix = Кровавый культ, Высокий шанс
     .desc = { ent-MarkerBase.desc }
-ent-SpawnMobBloodCultistAscendedSummons = ascended cultist summons
-    .suffix = AI, Hostile
+ent-SpawnMobBloodCultistAscendedSummons = призыв вознесшегося культиста
+    .suffix = ИИ, Враждебен
     .desc = { ent-MarkerBase.desc }
