@@ -39,6 +39,7 @@
   description: Boo!
   categories: [ HideSpawnMenu ]
   components:
+  - type: Speech # LOP edit
   - type: Sprite
     sprite: Mobs/Ghosts/ghost_human.rsi
     color: "#fff8"

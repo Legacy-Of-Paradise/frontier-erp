@@ -2,7 +2,7 @@
   name: ARG rifle
   parent: [BaseWeaponRifle, BaseC2Contraband]
   id: LPPWeaponRifleARG
-  description: Cheap rifle, went through many coflicts. Uses .30 caliber rifle cartridges.
+  description: Cheap rifle, went through many coflicts. Uses .20 caliber rifle cartridges.
   components:
   - type: Sprite
     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/arg-rifle.rsi

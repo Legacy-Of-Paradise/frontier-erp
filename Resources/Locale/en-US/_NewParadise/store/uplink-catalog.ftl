@@ -1,5 +1,5 @@
 lpp-uplink-security-arg-name = Винтовка ARG
-lpp-uplink-security-arg-desc = Дешёвая винтовка, прошла через множество конфликтов. Использует винтовочные патроны .30 калибра.
+lpp-uplink-security-arg-desc = Дешёвая винтовка, прошла через множество конфликтов. Использует винтовочные патроны .20 калибра.
 lpp-uplink-security-lemington-name = Лемингтон
 lpp-uplink-security-lemington-desc = See you soon.. Space cowboy... Использует .50 ружейные.
 lpp-uplink-security-pravoved-name = Правовед
