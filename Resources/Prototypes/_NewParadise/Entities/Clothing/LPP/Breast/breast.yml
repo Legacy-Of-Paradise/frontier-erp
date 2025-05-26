@@ -9,7 +9,7 @@
   - type: Item
     size: Tiny
   - type: Clothing
-    slots: [breast]
+    slots: BREAST
   - type: Tag
     tags:
     - breast
