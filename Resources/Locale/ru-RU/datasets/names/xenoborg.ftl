@@ -1,4 +1,4 @@
-﻿names-xenoborg-dataset-1 = ЗЛО
+names-xenoborg-dataset-1 = ЗЛО
 names-xenoborg-dataset-2 = Боргуешь
 names-xenoborg-dataset-3 = Разрушитель
 names-xenoborg-dataset-4 = Стальной вор

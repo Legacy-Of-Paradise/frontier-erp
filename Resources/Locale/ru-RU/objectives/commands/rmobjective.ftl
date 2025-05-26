@@ -1,4 +1,4 @@
-﻿# addobjectives
+# addobjectives
 cmd-rmobjective-desc = Удаляет задачу из разума игрока.
 cmd-rmobjective-help = rmobjective <имя пользователя> <индекс>
 cmd-rmobjective-invalid-args = Ожидалось ровно 2 аргумента.

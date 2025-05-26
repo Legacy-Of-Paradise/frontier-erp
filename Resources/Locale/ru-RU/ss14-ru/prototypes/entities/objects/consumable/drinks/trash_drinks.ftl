@@ -50,11 +50,9 @@ ent-DrinkCartonTomato = упаковка из-под томатного сока
     .desc = { ent-DrinkCartonBaseEmpty.desc }
 ent-DrinkCartonCream = упаковка из-под сливок
     .desc = { ent-DrinkCartonBaseEmpty.desc }
-
 ent-DrinkCartonMilk = упаковка из-под молока
     .desc = { ent-DrinkCartonBaseLargeEmpty.desc }
 ent-DrinkCartonSoyMilk = упаковка из-под соевого молока
     .desc = { ent-DrinkCartonBaseLargeEmpty.desc }
 ent-DrinkCartonOatMilk = упаковка из-под овсяного молока
     .desc = { ent-DrinkCartonBaseLargeEmpty.desc }
-    

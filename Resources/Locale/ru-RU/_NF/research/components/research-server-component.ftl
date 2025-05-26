@@ -1,1 +1,1 @@
-﻿research-server-examine-id = ID сервера: [color=lightblue]{ $id }[/color].
+research-server-examine-id = ID сервера: [color=lightblue]{ $id }[/color].

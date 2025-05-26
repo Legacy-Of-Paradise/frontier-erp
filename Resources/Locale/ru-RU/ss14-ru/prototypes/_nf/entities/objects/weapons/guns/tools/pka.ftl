@@ -16,4 +16,3 @@ ent-NFWeaponPka = { ent-NFBaseWeaponFramePkaNanotrasen }
     .desc = { ent-NFBaseWeaponFramePkaNanotrasen.desc }
 ent-NFWeaponPkaSawn = укороченный прото-кинетический ускоритель
     .desc = Границы и правила созданы для того, чтобы их нарушать; иначе не будет прогресса, но эта штука — хороший аргумент против этого утверждения.
-

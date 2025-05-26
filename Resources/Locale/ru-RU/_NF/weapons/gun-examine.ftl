@@ -1,4 +1,4 @@
-﻿gun-examine-nf-recoil = - [color={ $color }]Отдача[/color]: [color=lightblue]{ NATURALFIXED($value, 1) }°[/color] за выстрел
+gun-examine-nf-recoil = - [color={ $color }]Отдача[/color]: [color=lightblue]{ NATURALFIXED($value, 1) }°[/color] за выстрел
 gun-examine-nf-stability = - [color={ $color }]Стабильность[/color]: [color=lightblue]{ NATURALFIXED($value, 1) }°[/color] в секунду
 gun-examine-nf-max-angle = - [color={ $color }]Максимальный разброс[/color]: [color=lightblue]{ NATURALFIXED($value, 1) }°[/color]
 gun-examine-nf-min-angle = - [color={ $color }]Минимальный разброс[/color]: [color=lightblue]{ NATURALFIXED($value, 1) }°[/color]

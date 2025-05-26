@@ -20,4 +20,3 @@ ent-LightBehaviourTest5 = тест радиуса светового импул�
     .desc = { ent-BaseItem.desc }
 ent-LightBehaviourTest6 = тест случайного радиуса света
     .desc = { ent-BaseItem.desc }
-    

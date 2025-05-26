@@ -1,4 +1,4 @@
-﻿ore-silo-ui-title = Отсек для материалов
+ore-silo-ui-title = Отсек для материалов
 ore-silo-ui-label-clients = Машины
 ore-silo-ui-label-mats = Материалы
 ore-silo-ui-itemlist-entry =

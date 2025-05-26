@@ -1,1 +1,1 @@
-﻿inspect-mind-verb-get-data-text = Проверить разум
+inspect-mind-verb-get-data-text = Проверить разум

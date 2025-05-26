@@ -1,5 +1,5 @@
 ent-LPPWeaponRifleARG = ARG rifle
-    .desc = Cheap rifle, went through many coflicts. Uses .30 caliber rifle cartridges.
+    .desc = Cheap rifle, went through many coflicts. Uses .20 caliber rifle cartridges.
 ent-LPPWeaponRifleHM10 = HM-10
     .desc = The old-style special forces assault rifle is not so relevant now, but it is still better than standard modern analogues. Uses .30 caliber rifle cartridges.
 ent-LPPWeaponRifleSTG144 = STG-144

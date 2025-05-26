@@ -169,4 +169,3 @@ ent-LockerWallColorHydroponicsFilled = { ent-LockerWallColorHydroponics }
 ent-LockerWallColorHydroponicsEmpty = настенный шкафчик ботаника
     .suffix = Пустой, Фронтир
     .desc = { ent-LockerWallColorHydroponics.desc }
-    

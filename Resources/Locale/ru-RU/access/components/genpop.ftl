@@ -1,4 +1,4 @@
-﻿genpop-prisoner-id-expire = Вы отбыли свой срок! Теперь вы можете выйти из тюрьмы через турникеты и забрать свои вещи.
+genpop-prisoner-id-expire = Вы отбыли свой срок! Теперь вы можете выйти из тюрьмы через турникеты и забрать свои вещи.
 genpop-prisoner-id-popup-not-served = Срок ещё не отбыт!
 genpop-prisoner-id-crime-default = [Засекречено]
 genpop-prisoner-id-examine-wait =

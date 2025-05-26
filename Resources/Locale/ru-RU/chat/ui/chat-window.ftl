@@ -1,4 +1,4 @@
-﻿chat-window-title = Чат
+chat-window-title = Чат
 cmd-chatwindow-desc = Дополнительное окно чата
 cmd-chatwindow-help = Использование: chatwindow
 cmd-achatwindow-desc = Окно чата администратора

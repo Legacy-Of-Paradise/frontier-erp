@@ -1,4 +1,4 @@
-﻿cargo-account-cargo-name = Бюджет Снабжения Станции
+cargo-account-cargo-name = Бюджет Снабжения Станции
 cargo-account-cargo-code = СНА
 cargo-account-engineering-name = Сбережения на Обслуживание
 cargo-account-engineering-code = ИНЖ

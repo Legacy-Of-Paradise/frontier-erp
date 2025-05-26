@@ -1,4 +1,4 @@
-﻿-damage-popup-component-type =
+-damage-popup-component-type =
     { $setting ->
         [combined] Комбинированный
         [total] Общий

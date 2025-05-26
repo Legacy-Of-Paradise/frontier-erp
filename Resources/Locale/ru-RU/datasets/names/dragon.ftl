@@ -1,4 +1,4 @@
-﻿names-dragon-dataset-1 = Дейл
+names-dragon-dataset-1 = Дейл
 names-dragon-dataset-2 = Флогдор
 names-dragon-dataset-3 = Нидир
 names-dragon-dataset-4 = Смог

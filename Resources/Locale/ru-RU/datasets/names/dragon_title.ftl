@@ -1,4 +1,4 @@
-﻿names-dragon-title-dataset-1 = Ужасный
+names-dragon-title-dataset-1 = Ужасный
 names-dragon-title-dataset-2 = Обжигающий
 names-dragon-title-dataset-3 = Карпоед
 names-dragon-title-dataset-4 = Непобедимый

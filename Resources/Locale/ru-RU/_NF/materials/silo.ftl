@@ -1,4 +1,4 @@
-﻿ore-silo-ui-nf-itemlist-entry =
+ore-silo-ui-nf-itemlist-entry =
     { $linked ->
         [true] { "[Подключено] " }
        *[False] { "" }

@@ -1,4 +1,4 @@
-﻿blueprint-receiver-popup-invalid-type = Этот чертёж нельзя использовать на этой машине!
+blueprint-receiver-popup-invalid-type = Этот чертёж нельзя использовать на этой машине!
 blueprint-receiver-popup-no-recipes = Этот чертёж не содержит никаких рецептов!
 blueprint-type-engineering-name = Инженерное дело
 blueprint-type-medical-name = Медицина

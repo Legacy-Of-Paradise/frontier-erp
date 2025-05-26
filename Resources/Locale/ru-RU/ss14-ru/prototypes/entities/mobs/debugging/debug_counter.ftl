@@ -1,4 +1,4 @@
-ent-MobDebugCounter = debug счетчик 
+ent-MobDebugCounter = дебаг счетчик
     .desc = He can count
     .suffix = ИИ, DEBUG
 ent-MobDebugRandomCounter = debug случайный счетчик
