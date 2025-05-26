@@ -1,8 +1,8 @@
 shuttle-timer-eta = ПРИБ
 shuttle-timer-etd = ОТБ
-shuttle-timer-shuttle-time = ВрёмШаттла
-shuttle-timer-source-time = ВрёмИстчнк
-shuttle-timer-dest-time = ВрёмПриб
+shuttle-timer-shuttle-time = ВрtмШаттла
+shuttle-timer-source-time = ВрtмИстчнк
+shuttle-timer-dest-time = ВрtмПриб
 shuttle-timer-shuttle-map = КартШаттла
 shuttle-timer-source-map = КартИстчнк
 shuttle-timer-dest-map = КартПриб

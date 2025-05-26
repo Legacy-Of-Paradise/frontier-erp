@@ -9,6 +9,7 @@ lathe-menu-amount = Кол-во:
 lathe-menu-recipe-count =
     { $count ->
         [1] { $count } Рецепт
+        [few] { $count } Рецепта
        *[other] { $count } Рецептов
     }
 lathe-menu-reagent-slot-examine = Сбоку имеется отверстие для мензурки.

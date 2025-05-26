@@ -63,5 +63,5 @@ ent-MindShieldImplanter = { ent-BaseImplantOnlyImplanter }
 ent-RadioImplanterCentcomm = { ent-BaseImplantOnlyImplanter }
     .suffix = радио ЦентКома
     .desc = { ent-BaseImplantOnlyImplanter.desc }
-ent-DeathRattleImplanterCentcomm = имплантатор предсмертного хрипа Центрком
+ent-DeathRattleImplanterCentcomm = имплантат предсмертного хрипа Центрком
     .desc = { ent-BaseImplantOnlyImplanter.desc }

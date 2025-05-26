@@ -13,7 +13,7 @@ salvage-expedition-announcement-elimination =
 salvage-expedition-announcement-destruction-entity-fallback = структура
 salvage-expedition-announcement-elimination-entity-fallback = цель
 salvage-expedition-shuttle-not-found = Нет возможности найти шаттл.
-salvage-expedition-not-everyone-aboard = Не весь экипаж на борту! { CAPITALIZE(THE($target)) } все ещё там!
+salvage-expedition-not-everyone-aboard = Не весь экипаж на борту! { CAPITALIZE($target) } все ещё там!
 # Salvage mods
 salvage-time-mod-standard-time = Нормальная продолжительность
 salvage-time-mod-rush = Штурм
