@@ -4,7 +4,7 @@
   description: job-description-prisoner
   playTimeTracker: JobPrisoner
   # LOP edit
-  whitelisted: true
+  whitelisted: false # LOP edit
   startingGear: PrisonerGear
   alwaysUseSpawner: true
   canBeAntag: false
