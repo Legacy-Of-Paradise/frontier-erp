@@ -28,6 +28,7 @@
     NFMagazineRifle20: 2
     LPPWeaponShotgunPredsedatel: 1
     LPPMagazineShotgunPredsedatelEmpty: 2
+    NFMagazinePistol35: 4
     # LOP edit end
   emaggedInventory:
     NFWeaponPistolViper: 1
@@ -64,6 +65,7 @@
     NFMagazineRifle20: 4294967295
     LPPWeaponShotgunPredsedatel: 4294967295
     LPPMagazineShotgunPredsedatelEmpty: 4294967295
+    NFMagazinePistol35: 4294967295
 # LOP edit end
   emaggedInventory:
     NFWeaponPistolViper: 1

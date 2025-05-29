@@ -131,7 +131,7 @@
   productEntity: ClothingOuterHardsuitNfsdExperimental
   icon: { sprite: _NF/Clothing/OuterClothing/Hardsuits/nfsd_experimental.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 20
+    FrontierUplinkCoin: 30 #LOP edit
   categories:
     - UplinkSecurityHardsuits
   conditions:
@@ -236,7 +236,7 @@
   productEntity: NFWeaponRifleAssaultLecter
   icon: { sprite: Objects/Weapons/Guns/Rifles/lecter.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 9 #LOP edit
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -257,7 +257,7 @@
   productEntity: NFWeaponRifleAssaultVulcan
   icon: { sprite: _DV/Objects/Weapons/Guns/Rifles/vulcan.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 4
+    FrontierUplinkCoin: 10 #LOP edit
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -339,7 +339,7 @@
   productEntity: NFWeaponSubMachineGunWt550
   icon: { sprite: Objects/Weapons/Guns/SMGs/wt550.rsi, state: icon }
   cost:
-    FrontierUplinkCoin: 4
+    FrontierUplinkCoin: 7 #LOP edit
   categories:
     - UplinkSecurityWeapons
   conditions:

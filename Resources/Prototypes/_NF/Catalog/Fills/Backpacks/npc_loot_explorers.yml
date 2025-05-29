@@ -20,13 +20,15 @@
   components:
   - type: SpawnItemsOnUse
     items:
+#LOP edit start
     # Cash
-    - id: SpaceCash100
-      prob: 0.9
-    - id: SpaceCash500
-      prob: 0.4
-    - id: SpaceCash500
-      prob: 0.2
+    # - id: SpaceCash100
+    #   prob: 0.9
+    # - id: SpaceCash500
+    #   prob: 0.4
+    # - id: SpaceCash500
+    #   prob: 0.2
+#LOP edit end
     # Weapons
     - id: Pickaxe
       prob: 0.4
@@ -54,12 +56,14 @@
   - type: SpawnItemsOnUse
     items:
     # Cash
-    - id: SpaceCash100
-      prob: 0.9
-    - id: SpaceCash500
-      prob: 0.4
-    - id: SpaceCash500
-      prob: 0.2
+#LOP edit start
+    # - id: SpaceCash100
+    #   prob: 0.9
+    # - id: SpaceCash500
+    #   prob: 0.4
+    # - id: SpaceCash500
+    #   prob: 0.2
+#LOP edit end
     # Weapons
     - id: NFWeaponPka
       prob: 0.4
@@ -88,13 +92,15 @@
   components:
   - type: SpawnItemsOnUse
     items:
+#LOP edit start
     # Cash
-    - id: SpaceCash500
-      prob: 0.9
-    - id: SpaceCash500
-      prob: 0.4
-    - id: SpaceCash500
-      prob: 0.2
+    # - id: SpaceCash500
+    #   prob: 0.9
+    # - id: SpaceCash500
+    #   prob: 0.4
+    # - id: SpaceCash500
+    #   prob: 0.2
+#LOP edit end
     # Weapons
     - id: WeaponCrusherGlaive
       prob: 0.4
@@ -120,7 +126,7 @@
       prob: 0.1
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.9
+      prob: 0.25 #LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
@@ -135,13 +141,15 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    # Cash
-    - id: SpaceCash500
-      prob: 0.9
-    - id: SpaceCash500
-      prob: 0.4
-    - id: SpaceCash500
-      prob: 0.2
+#LOP edit start
+    # # Cash
+    # - id: SpaceCash500
+    #   prob: 0.9
+    # - id: SpaceCash500
+    #   prob: 0.4
+    # - id: SpaceCash500
+    #   prob: 0.2
+#LOP edit end
     # Weapons
     - id: NFWeaponPka
       prob: 0.4
@@ -170,9 +178,9 @@
       prob: 0.1
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.9
+      prob: 0.25 #LOP edit
     - id: SpaceCash1000
-      prob: 0.7
+      prob: 0.05 #LOP edit
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
     sound:
@@ -187,12 +195,14 @@
   - type: SpawnItemsOnUse
     items:
     # Cash
-    - id: SpaceCash500
-      prob: 0.9
-    - id: SpaceCash500
-      prob: 0.4
-    - id: SpaceCash1000
-      prob: 0.2
+#LOP edit start
+    # - id: SpaceCash500
+    #   prob: 0.9
+    # - id: SpaceCash500
+    #   prob: 0.4
+    # - id: SpaceCash1000
+    #   prob: 0.2
+#LOP edit end
     # Weapons
     - id: MiningDrill
       prob: 0.4
@@ -220,11 +230,11 @@
       prob: 0.1
     # Bonus Loot T2
     - id: SpaceCash1000
-      prob: 0.9
+      prob: 0.25 #LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpaceCash1000
-      prob: 0.7
+      prob: 0.05 #LOP edit
     - id: SpawnDungeonLootPartsEngi
       amount: 2
       prob: 0.7
@@ -243,12 +253,14 @@
   - type: SpawnItemsOnUse
     items:
     # Cash
-    - id: SpaceCash2500
-      prob: 0.9
-    - id: SpaceCash1000
-      prob: 0.4
-    - id: SpaceCash500
-      prob: 0.2
+#LOP edit start
+    # - id: SpaceCash2500
+    #   prob: 0.9
+    # - id: SpaceCash1000
+    #   prob: 0.4
+    # - id: SpaceCash500
+    #   prob: 0.2
+#LOP edit end
     # Weapons
     - id: NFWeaponPka
       prob: 0.4
@@ -278,9 +290,9 @@
       prob: 0.1
     # Bonus Loot T2
     - id: SpaceCash1000
-      prob: 0.9
+      prob: 0.15 #LOP edit
     - id: SpaceCash1000
-      prob: 0.7
+      prob: 0.05 #LOP edit
     - id: SpawnDungeonLootMaterialsValuableFull
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
@@ -302,12 +314,14 @@
   - type: SpawnItemsOnUse
     items:
     # Cash
-    - id: SpaceCash2500
-      prob: 0.9
-    - id: SpaceCash1000
-      prob: 0.4
-    - id: SpaceCash2500
-      prob: 0.2
+#LOP edit start
+    # - id: SpaceCash2500
+    #   prob: 0.9
+    # - id: SpaceCash1000
+    #   prob: 0.4
+    # - id: SpaceCash2500
+    #   prob: 0.2
+#LOP edit end
     # Weapons
     - id: NFEnergyPickaxe
       prob: 0.3
@@ -349,11 +363,11 @@
       prob: 0.1
     # Bonus Loot T3
     - id: SpaceCash1000
-      prob: 0.9
+      prob: 0.1 #LOP edit
     - id: SpaceCash500
-      prob: 0.9
+      prob: 0.15 #LOP edit
     - id: SpaceCash1000
-      prob: 0.7
+      prob: 0.05 #LOP edit
     - id: SpawnDungeonLootMaterialsValuableFull
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi

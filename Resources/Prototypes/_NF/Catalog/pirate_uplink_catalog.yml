@@ -177,7 +177,7 @@
   productEntity: NFWeaponLauncherPirateCannon
   icon: { sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi, state: icon }
   cost:
-    Doubloon: 25 # LOP edit 6<25
+    Doubloon: 12 # LOP edit 6<12
   categories:
     - UplinkPirateWeapons
   conditions:

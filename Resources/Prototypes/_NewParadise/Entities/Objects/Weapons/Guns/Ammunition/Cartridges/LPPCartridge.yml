@@ -28,6 +28,7 @@
     tags:
       - Cartridge
       - CartridgeMinigun
+      - NFCartridgeRifle10
   - type: CartridgeAmmo
     proto: BulletHeavyRifle
   - type: Sprite
@@ -101,23 +102,6 @@
     proto: LPPBulletLightRifleHunting
 
 - type: entity
-  id: LPPCartridgeMinigunPractice
-  name: bullet (.10 rifle practice)
-  parent: LPPBaseCartridgeMinigun
-  components:
-  - type: CartridgeAmmo
-    proto: BaseBulletPractice
-    deleteOnSpawn: true
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-    - state: tip
-      map: [ "enum.AmmoVisualLayers.Tip" ]
-      color: "#026dbf"
-
-- type: entity
   id: LPPCartridgeMinigunAP
   name: bullet (.10 rifle AP)
   parent: LPPBaseCartridgeMinigun
@@ -159,7 +143,7 @@
   - type: Tag
     tags:
     - Cartridge
-    - CartridgeAntiMateriel
+    - NFCartridgeRifle60
   - type: CartridgeAmmo
     proto: LPPBulletAntiMaterielNonlethal
   - type: Sprite
@@ -183,7 +167,7 @@
   - type: Tag
     tags:
     - Cartridge
-    - CartridgeAntiMateriel
+    - NFCartridgeRifle60
   - type: CartridgeAmmo
     proto: LPPBulletAntiMaterielCP
   - type: Sprite

@@ -12,6 +12,7 @@
     whitelist:
       tags:
         - CartridgeMinigun
+        - NFCartridgeRifle10
     capacity: 45
   - type: Item
     size: Small

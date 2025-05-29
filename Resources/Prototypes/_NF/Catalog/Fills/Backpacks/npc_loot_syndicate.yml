@@ -74,14 +74,15 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponRevolverRitland45Expedition
+        prob: 0.2 #LOP edit
       - id: NFSpeedLoaderPistol45
       - id: NFSpeedLoaderPistol45
       - id: SpaceCash5000
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpawnDungeonLootMaterialsValuableFull
@@ -104,16 +105,17 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponRevolverRitland45Expedition
+        prob: 0.2 #LOP edit
       - id: NFSpeedLoaderPistol45
       - id: NFSpeedLoaderPistol45
       - id: SpaceCash2500
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -137,13 +139,13 @@
       - id: SpaceCash2500
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -164,11 +166,11 @@
       - id: SpaceCash2500
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -190,16 +192,17 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponEnergyPistolLaserAdvancedExpedition
+        prob: 0.25 #LOP edit
       - id: SpaceCash2500
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -218,14 +221,15 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponEnergyPistolLaserExpedition
+        prob: 0.25 #LOP edit
       - id: SpaceCash2500
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -249,13 +253,13 @@
       - id: SpaceCash2500
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -273,15 +277,17 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: SpaceCash1000
-      - id: SpaceCash500
+#LOP edit start
+      # - id: SpaceCash1000
+      # - id: SpaceCash500
+#LOP edit end
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -303,28 +309,29 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponRifleAssaultSmExpedition
-      # LOP edit start
-        prob: 0.15
+         #LOP edit start
+        prob: 0.1
       - id: LPPWeaponRifleMakeshiftAK
-      # LOP edit end
+        prob: 0.65 
+        #LOP edit end
       - id: NFMagazineRifle30
       - id: NFMagazineRifle30
       - id: ClothingShoesBootsMagSyndie
       - id: SpaceCash10000
       # Bonus Loot T4
       - id: SpaceCash2500
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootFlatpacks
         prob: 0.9
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 3
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
-        prob: 0.4
+        prob: 0.05 #LOP edit
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -336,24 +343,26 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponRifleAssaultM90GrenadeLauncherExpedition
+        prob: 0.15 #LOP edit
       - id: NFMagazineRifle20
       - id: NFMagazineRifle20
       - id: ClothingShoesBootsMagSyndie
+        prob: 0.75 #LOP edit
       - id: SpaceCash10000
       # Bonus Loot T4
       - id: SpaceCash2500
-        prob: 0.9
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootFlatpacks
         prob: 0.9
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
         amount: 3
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
-        prob: 0.4
+        prob: 0.2 #LOP edit
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -367,7 +376,8 @@
       - id: NFMagazineRifle30
       - id: NFMagazineRifle30
       - id: ClothingShoesBootsMagSyndie
-      - id: SpaceCash10000
+        prob: 0.75 #LOP edit
+      # - id: SpaceCash10000 #LOP edit
       # Bonus Loot T4
       - id: SpaceCash2500
         prob: 0.9
@@ -381,7 +391,7 @@
         amount: 3
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
-        prob: 0.4
+        prob: 0.2 #LOP edit
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -392,7 +402,7 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: SpaceCash10000
+      # - id: SpaceCash10000 #LOP edit
       # Bonus Loot T4
       - id: SpaceCash2500
         prob: 0.9
@@ -406,7 +416,7 @@
         amount: 3
         prob: 0.7
       - id: SpawnDungeonLootVaultGuns
-        prob: 0.4
+        prob: 0.2 #LOP edit
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -419,17 +429,18 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponSubMachineGunC20rExpedition
+        prob: 0.2 #LOP edit
       - id: NFMagazineSubMachineGun35
       - id: NFMagazineSubMachineGun35
       - id: SpaceCash1000
       - id: SpaceCash1000
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -450,18 +461,21 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponSubMachineGunWt550Expedition
+        prob: 0.25 #LOP edit
       - id: NFMagazineSubMachineGunTopMounted35
-      - id: SpaceCash1000
-      - id: SpaceCash500
+#LOP edit start
+      # - id: SpaceCash1000
+      # - id: SpaceCash500
+#LOP edit end
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -481,15 +495,17 @@
     items:
       - id: NFAmmunitionBoxPistol35Overpressure
       - id: NFAmmunitionBoxPistol35Overpressure
-      - id: SpaceCash1000
-      - id: SpaceCash500
+#LOP edit start
+      # - id: SpaceCash1000
+      # - id: SpaceCash500
+#LOP edit end
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -509,17 +525,19 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: SpaceCash1000
-      - id: SpaceCash500
+#LOP edit start
+      # - id: SpaceCash1000
+      # - id: SpaceCash500
+#LOP edit end
       # Bonus Loot T3
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -539,14 +557,15 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponPistolViperExpedition
+        prob: 0.5 #LOP edit
       - id: NFMagazineHighCapacityPistol35
       - id: NFMagazineHighCapacityPistol35
-      - id: SpaceCash1000
+      # - id: SpaceCash1000 #LOP edit
       # Bonus Loot T1
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
     sound:
@@ -560,13 +579,14 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponPistolMk58Expedition
+        prob: 0.75 #LOP edit
       - id: NFMagazineHighCapacityPistol35Overpressure
-      - id: SpaceCash1000
+      # - id: SpaceCash1000 #LOP edit
       # Bonus Loot T1
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
     sound:
@@ -581,12 +601,12 @@
     items:
       - id: NFMagazineHighCapacityPistol35Overpressure
       - id: NFMagazineHighCapacityPistol35Overpressure
-      - id: SpaceCash1000
+      # - id: SpaceCash1000 #LOP edit
       # Bonus Loot T1
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
     sound:
@@ -599,12 +619,12 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: SpaceCash1000
+      # - id: SpaceCash1000
       # Bonus Loot T1
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
     sound:
@@ -647,12 +667,12 @@
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
       - id: Stimpack
-      - id: SpaceCash1000
+      # - id: SpaceCash1000 #LOP edit
       # Bonus Loot T1
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
     sound:
@@ -669,12 +689,12 @@
       - id: BruteAutoInjector
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
-      - id: SpaceCash1000
+      # - id: SpaceCash1000 #LOP edit
       # Bonus Loot T1
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
     sound:
@@ -690,12 +710,12 @@
       - id: HypoMini
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
-      - id: SpaceCash1000
+      # - id: SpaceCash1000 #LOP edit
       # Bonus Loot T1
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
     sound:
@@ -710,12 +730,12 @@
     items:
       - id: AntiPoisonMedipen
       - id: MedicatedSuture
-      - id: SpaceCash1000
+      # - id: SpaceCash1000 #LOP edit
       # Bonus Loot T1
       - id: SpaceCash500
-        prob: 0.9
+        prob: 0.25 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         prob: 0.7
     sound:
@@ -733,17 +753,20 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponShotgunKammererExpedition
+        prob: 0.25 #LOP edit
       - id: SyndicateJawsOfLife
       - id: NFAmmunitionBoxShellShotgunSlug
-      - id: SpaceCash1000
-      - id: SpaceCash1000
+#LOP edit start
+      # - id: SpaceCash1000
+      # - id: SpaceCash1000
+#LOP edit end
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -762,13 +785,14 @@
   - type: SpawnItemsOnUse
     items:
       - id: NFWeaponShotgunKammererExpedition
+        prob: 0.25 #LOP edit
       - id: JawsOfLife
-      - id: SpaceCash1000
+      # - id: SpaceCash1000 #LOP edit
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -789,14 +813,14 @@
   - type: SpawnItemsOnUse
     items:
       - id: JawsOfLife
-      - id: SpaceCash1000
+      # - id: SpaceCash1000
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -814,12 +838,12 @@
   components:
   - type: SpawnItemsOnUse
     items:
-      - id: SpaceCash1000
+      # - id: SpaceCash1000
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -846,14 +870,14 @@
       - id: ClothingBackpackWaterTank
       - id: WeaponSprayNozzle
       - id: Stimpack
-      - id: SpaceCash2500
+      # - id: SpaceCash2500
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -873,12 +897,12 @@
     items:
       - id: WeaponWaterBlasterSuper
       - id: Stimpack
-      - id: SpaceCash2500
+      # - id: SpaceCash2500 #LOP edit
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -899,10 +923,10 @@
   - type: SpawnItemsOnUse
     items:
       - id: WeaponWaterBlaster
-      - id: SpaceCash2500
+      # - id: SpaceCash2500 #LOP edit
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
@@ -925,12 +949,12 @@
   - type: SpawnItemsOnUse
     items:
       - id: WeaponWaterPistol
-      - id: SpaceCash2500
+      # - id: SpaceCash2500 #LOP edit
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -953,14 +977,14 @@
     items:
       - id: ExGrenade
         amount: 4
-      - id: SpaceCash5000
+      # - id: SpaceCash5000 #LOP edit
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -980,12 +1004,12 @@
     items:
       - id: ExGrenade
         amount: 2
-      - id: SpaceCash2500
+      # - id: SpaceCash2500
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
@@ -1007,14 +1031,14 @@
     items:
       - id: GrenadeFlashBang
         amount: 4
-      - id: SpaceCash2500
+      # - id: SpaceCash2500 #LOP edit
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpawnDungeonLootMaterialsBasicFull
         prob: 0.7
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootPartsEngi
         amount: 2
         prob: 0.7
@@ -1034,12 +1058,12 @@
     items:
       - id: GrenadeFlashBang
         amount: 2
-      - id: SpaceCash2500
+      # - id: SpaceCash2500 #LOP edit
       # Bonus Loot T2
       - id: SpaceCash1000
-        prob: 0.9
+        prob: 0.1 #LOP edit
       - id: SpaceCash1000
-        prob: 0.7
+        prob: 0.05 #LOP edit
       - id: SpawnDungeonLootMaterialsValuableFull
         prob: 0.7
       - id: SpawnDungeonLootPartsEngi
