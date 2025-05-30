@@ -26,3 +26,6 @@ lathe-recipe-NFFoodBoxSushi-name = поднос для суши (пустой)
 lathe-recipe-DrinkKegSteel-name = бочка (сталь)
 lathe-recipe-DrinkKegWood-name = бочка (дерево)
 lathe-recipe-DrinkKegPlastic-name = бочка (пластик)
+# Paper
+lathe-recipe-NFSheetPaperFromWood-name = бумага (дерево)
+lathe-recipe-NFSheetPaperFromCardboard-name = бумага (картон)
