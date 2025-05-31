@@ -116,10 +116,8 @@ public sealed class RadioSystem : EntitySystem
 
         var tag = Loc.GetString(
             "radio-icon-tag",
-            ("path", GetIdSprite(messageSource)),
-            ("scale", "3"),
-            ("text", GetIdCardName(messageSource)),
-            ("color", GetIdCardColor(messageSource))
+            ("path", GetIdCardSprite(messageSource)),
+            ("scale", "2")
         );
 
         var formattedName = $"{tag} {name}";
@@ -214,24 +212,8 @@ public sealed class RadioSystem : EntitySystem
         _replay.RecordServerMessage(chat);
         _messages.Remove(message);
     }
-    private string GetIdCardName(EntityUid senderUid)
-    {
-        var idCardTitle = Loc.GetString("chat-radio-no-id");
-        idCardTitle = GetIdCard(senderUid)?.LocalizedJobTitle ?? idCardTitle;
 
-        var textInfo = CultureInfo.CurrentCulture.TextInfo;
-        idCardTitle = textInfo.ToTitleCase(idCardTitle);
-
-        return $"[{idCardTitle}] ";
-    }
-
-    private string GetIdCardColor(EntityUid senderUid)
-    {
-        var color = GetIdCard(senderUid)?.JobColor;
-        return (!string.IsNullOrEmpty(color)) ? color : "#9FED58";
-    }
-
-    private string GetIdSprite(EntityUid senderUid)
+    private string GetIdCardSprite(EntityUid senderUid)
     {
 
         var protoId = GetIdCard(senderUid)?.JobIcon;
@@ -268,10 +250,6 @@ public sealed class RadioSystem : EntitySystem
         }
 
         return null;
-    }
-    private bool GetIdCardIsBold(EntityUid senderUid)
-    {
-        return GetIdCard(senderUid)?.RadioBold ?? false;
     }
     private bool HasActiveServer(MapId mapId, string channelId)
     {
