@@ -10,59 +10,49 @@
     <Box>
       <GuideEntityEmbed Entity="ShuttleMapPhoenix" Caption=""/>
     </Box>
-    [color=#a4885c]Размер судна:[/color] Средний
+    [color=#a4885c]Ship Size:[/color] Medium
 
-    [color=#a4885c]Рекомендуемый экипаж:[/color] 2-3
+    [color=#a4885c]Recommended Crew:[/color] 2-3
 
-    [color=#a4885c]Тип генератора энергии:[/color] Солнечная/Плазменная энергия
+    [color=#a4885c]Power Gen Type:[/color] Uranium
 
-    [color=#a4885c]Экспедиции:[/color] Нет
+    [color=#a4885c]Expeditions:[/color] None
 
-    [color=#a4885c]Консоль идентификации:[/color] Нет
+    [color=#a4885c]IFF Console:[/color] None
 
-    "Научно-исследовательское и утилизационное судно, предназначенное для исследования дальнего космоса."
+    "A research and salvage vessel designed for deep space exploration."
 
-    # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
+    # PREFLIGHT CHECKLIST
 
-    ## 1. Источник питания
+    ## 1. Power supply
 
-    ## 1.1. Аккумуляторные блоки
+    ## 1.1. Battery units
     <Box>
       <GuideEntityEmbed Entity="SMESBasic"/>
       <GuideEntityEmbed Entity="SubstationBasic"/>
       <GuideEntityEmbed Entity="APCBasic"/>
     </Box>
 
-    - Убедитесь, что модуль СМЭС надежно закреплен на полу.
-    - Убедитесь, что подстанция надежно закреплена на полу.
-    - Убедитесь, что главный ЛКП включен.
-    - Проверьте текущую нагрузку блока ЛКП* (Вт).
+    - Check that the SMES unit is anchored to the floor.
+    - Check that the substation unit is anchored to the floor.
+    - Check that the APC unit's Main Breaker is toggled on.
+    - Check the APC unit's current Load* (W).
 
-    ## 1.2. Генераторны  П.А.К.М.А.Н.ы
+    ## 1.2. S.U.P.E.R.P.A.C.M.A.N. generator units
     <Box>
-      <GuideEntityEmbed Entity="PortableGeneratorPacmanShuttle"/>
-      <GuideEntityEmbed Entity="SheetPlasma"/>
+      <GuideEntityEmbed Entity="PortableGeneratorSuperPacman"/>
+      <GuideEntityEmbed Entity="SheetUranium"/>
     </Box>
 
-    - Проверте the Генераторны  П.А.К.М.А.Н.ы прикреплены к полу.
-    - Проверте the Генераторны  П.А.К.М.А.Н.ы заполнены топливом. При длительных полетах убедитесь, что у вас достаточно топлива, чтобы обеспечить длительную выработку электроэнергии во время полета.
-    - Проверте the Генераторны  П.А.К.М.А.Н.ы настроены на высоковольтный выход.
-    - Установите целевую мощность на 9-12** [bold]кВ[/bold].
-    - Убедитесь, что Генераторны  П.А.К.М.А.Н.ы включены.
+    - Check that the S.U.P.E.R.P.A.C.M.A.N. generator units are anchored to the floor.
+    - Check that the S.U.P.E.R.P.A.C.M.A.N. generator units have fuel. For extended flights make sure that you have enough fuel stockpiled to sustain prolonged power generation during flight.
+    - Check that the S.U.P.E.R.P.A.C.M.A.N. generator units are set to HV output.
+    - Check that the power is set to at least 20** on each generator [bold]kW[/bold].
+    - Ensure that the S.U.P.E.R.P.A.C.M.A.N. generator units are enabled.
 
-    ## 1.3. Солнечные панели
-    <Box>
-      <GuideEntityEmbed Entity="ComputerSolarControl"/>
-      <GuideEntityEmbed Entity="SolarTracker"/>
-      <GuideEntityEmbed Entity="SolarPanel"/>
-    </Box>
-    - Проверьте консоль управления солнечными батареями (расположен в кабине пилота шаттла).
-    - Отрегулируйте угловую скорость панелей.
-    - Отрегулируйте угол наклона панели.
+    ## 2. Atmospherics
 
-    ## 2. Атмосфера
-
-    ## 2.1. Распределительный контур
+    ## 2.1. Distribution Loop
     <Box>
       <GuideEntityEmbed Entity="OxygenCanister"/>
       <GuideEntityEmbed Entity="NitrogenCanister"/>
@@ -83,7 +73,7 @@
       <GuideEntityEmbed Entity="AirAlarm"/>
     </Box>
 
-    - Убедитесь, что насос выходного контура включен.
+    - Ensure that the waste loop pump is enabled, it is located within the salvage area.
     - Disable Auto Mode on any Air Alarms.
     - Set Air Alarms to Filtering (Wide).
 
@@ -93,13 +83,14 @@
       <GuideEntityEmbed Entity="GravityGeneratorMini"/>
     </Box>
 
-    - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
-    - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
+    - Check that the gyroscope is anchored, powered, and enabled.
+    - Check that the mini gravity generator is anchored, powered, and enabled.
 
-    ## Рекомендации опытных пилотов
+    ## Sidenotes
 
-    * - Исследовательские суда класса "Феникс" оснащены консолью мониторинга энергопотребления, который используется для оценки энергопотребления судна. Для поддержания работоспособности немодифицированного корабля класса "Феникс" требуется мощность 24,5 кВА.
+    * - Phoenix-class research ships are equipped a power monitoring console that be used to appraise the ship's total power consumption. An unmodified Phoenix-class ship requires 30 kW of power to remain operational.
 
-    ** - Исследовательские суда класса "Феникс" оснащаются солнечными батареями, которые, в идеальных условиях, могут обеспечивать мощность до 17,5 кВт. Предполагая, что солнечная батарея будет обеспечивать треть своей максимальной выходной мощности, рекомендуемая целевая выходная мощность для каждого генератора  П.А.К.М.А.Н. составляет 12 кВ.
+	** - Phoenix-class research ships may spike in power usage up to 40 kW due to operation and use of the artifact analyzer.
+
 
   </Document>

@@ -9,8 +9,10 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 4
-        Blunt: 4
+#LOP edit start
+        Piercing: 6
+        Blunt: 6
+#LOP edit end
   - type: StaminaDamageOnCollide
     damage: 4 # 15 hits to slowdown
 
@@ -23,8 +25,10 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 4
-        Blunt: 5
+#LOP edit start
+        Piercing: 2
+        Blunt: 12
+#LOP edit end
   - type: StaminaDamageOnCollide
     damage: 5 # 12 hits to slowdown
 
@@ -103,8 +107,10 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 5
-        Blunt: 5
+#LOP edit start
+        Piercing: 12.5
+        Blunt: 12.5
+#LOP edit end
   - type: StaminaDamageOnCollide
     damage: 5 # 12 hits to slowdown
 
@@ -117,8 +123,10 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 5
-        Blunt: 6
+#LOP edit end
+        Piercing: 7.5
+        Blunt: 17.5
+#LOP edit
   - type: StaminaDamageOnCollide
     damage: 6 # 10 hits to slowdown
 

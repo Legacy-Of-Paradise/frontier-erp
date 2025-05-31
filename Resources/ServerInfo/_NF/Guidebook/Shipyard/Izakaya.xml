@@ -85,7 +85,6 @@
   ## 2.2. Контур отходов
 
   <Box>
-    <GuideEntityEmbed Entity="GasPressurePump"/>
     <GuideEntityEmbed Entity="AirAlarm"/>
   </Box>
 

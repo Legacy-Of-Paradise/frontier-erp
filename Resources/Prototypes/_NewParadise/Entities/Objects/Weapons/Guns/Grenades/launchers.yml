@@ -29,6 +29,7 @@
     whitelist:
       tags:
         - Grenade
+        - NFCartridgeGrenade40mm
     proto: NFGrenadeFrag
   - type: Wieldable
     unwieldOnUse: false

@@ -8,7 +8,7 @@
 - type: radioChannel
   id: CentCom
   name: chat-radio-centcom
-  keycode: 'н' # LOP edit
+  keycode: 'ц' # LOP edit
   frequency: 1337
   color: "#2681a5"
   longRange: true
@@ -16,56 +16,56 @@
 - type: radioChannel
   id: Command
   name: chat-radio-command
-  keycode: 'с' # LOP edit
+  keycode: 'к' # LOP edit
   frequency: 1353
   color: "#fcdf03"
 
 - type: radioChannel
   id: Engineering
   name: chat-radio-engineering
-  keycode: 'у' # LOP edit
+  keycode: 'и' # LOP edit
   frequency: 1357
   color: "#ff733c"
 
 - type: radioChannel
   id: Medical
   name: chat-radio-medical
-  keycode: 'ь' # LOP edit
+  keycode: 'м' # LOP edit
   frequency: 1355
   color: "#57b8f0"
 
 - type: radioChannel
   id: Science
   name: chat-radio-science
-  keycode: 'т' # LOP edit
+  keycode: 'н' # LOP edit
   frequency: 1351
   color: "#cd7ccd"
 
 - type: radioChannel
   id: Security
   name: chat-radio-security
-  keycode: 'п' # LOP edit
+  keycode: 'о' # LOP edit
   frequency: 1359
   color: "#ff4242"
 
 - type: radioChannel
   id: Service
   name: chat-radio-service
-  keycode: 'м' # LOP edit
+  keycode: 'с' # LOP edit
   frequency: 1349
   color: "#539c00"
 
 - type: radioChannel
   id: Supply
   name: chat-radio-supply
-  keycode: 'г' # LOP edit
+  keycode: 'п' # LOP edit
   frequency: 1347
   color: "#b48b57"
 
 - type: radioChannel
   id: Syndicate
   name: chat-radio-syndicate
-  keycode: 'е' # LOP edit
+  keycode: 'т' # LOP edit
   frequency: 1213
   color: "#8f4a4b"
 #  longRange: true # Frontier - Move to Syndicate Base
@@ -82,7 +82,7 @@
 - type: radioChannel
   id: Binary
   name: chat-radio-binary
-  keycode: 'и' # LOP edit
+  keycode: 'д' # LOP edit
   frequency: 1001
   color: "#5ed7aa"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
@@ -91,7 +91,7 @@
 - type: radioChannel
   id: Freelance
   name: chat-radio-freelance
-  keycode: 'а' # LOP edit
+  keycode: 'ф' # LOP edit
   frequency: 1984
   color: "#f6ce64"
   # long range since otherwise it'd defeat the point of a handheld radio independent of telecomms
@@ -101,7 +101,7 @@
   abstract: true # Frontier
   id: Xenoborg
   name: chat-radio-xenoborg
-  keycode: 'x'
+  keycode: 'х'
   frequency: 2002
   color: "#2288ff"
   # long range since I don't wanna make a special xenoborg telecomm server
@@ -111,7 +111,7 @@
   abstract: true # Frontier
   id: Mothership
   name: chat-radio-mothership
-  keycode: 'z'
+  keycode: 'я'
   frequency: 2003
   color: "#ff2222"
   # long range since I don't wanna make a special xenoborg telecomm server

@@ -14,3 +14,5 @@ ent-LPPCloakAdmiralNPZ = Cloak of NPZ admiral
     .desc = A cloak for pretentious throwing off to show everyone your medals and decorations!
 ent-LPPCloakMantleNPZ = Cape NPZ
     .desc = Are we in a hurry or are we acting stealthy?
+ent-LPPClothingNeckCloakDracula = Dracula's cloak
+    .desc = This cape is straight out of Transylvania of the most legendary bloodsucker in the history of mankind. It smells like garlic and aspen.

@@ -1,6 +1,6 @@
 - type: entity
   name: M14
-  parent: [BaseWeaponRifle, BaseC2Contraband]
+  parent: [BaseWeaponRifle, BaseC2Contraband, NFBaseWeaponEncumbranceSniper]
   id: LPPWeaponRifleM14
   description: An old rifle from distant wars, it smells slightly of the jungle. Uses .30 rifle
   components:
@@ -36,7 +36,7 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgeRifle30

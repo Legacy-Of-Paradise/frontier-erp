@@ -11,7 +11,7 @@
     mayTransfer: true
     whitelist:
       tags:
-        - CartridgeRifle
+        - NFCartridgeRifle20
     capacity: 15
   - type: Item
     size: Small

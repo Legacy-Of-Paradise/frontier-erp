@@ -37,7 +37,7 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgeRifle30

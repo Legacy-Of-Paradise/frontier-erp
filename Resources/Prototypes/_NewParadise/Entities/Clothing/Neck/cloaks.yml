@@ -69,3 +69,14 @@
   components:
     - type: Sprite
       sprite: _NewParadise/Clothing/Neck/NPZ/NPZmantle.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: LPPClothingNeckCloakDracula
+  name: Dracula's cloak
+  description: "This cape is straight out of Transylvania of the most legendary bloodsucker in the history of mankind. It smells like garlic and aspen."
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Clothing/Neck/Cloaks/dracula.rsi
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Neck/Cloaks/dracula.rsi
