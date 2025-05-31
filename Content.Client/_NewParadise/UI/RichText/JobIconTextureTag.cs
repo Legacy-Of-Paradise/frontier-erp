@@ -5,7 +5,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.RichText;
 using Robust.Shared.Utility;
 
-namespace Content.Client._LOP.UI.RText
+namespace Content.Client._NewParadise.UI.RichText
 {
     public sealed class TextureTag : IMarkupTag
     {

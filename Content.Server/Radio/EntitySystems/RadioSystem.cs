@@ -36,14 +36,14 @@ public sealed class RadioSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototype = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly ChatSystem _chat = default!;
-    [Dependency] private readonly InventorySystem _inventorySystem = default!; // _LOP change
+    [Dependency] private readonly InventorySystem _inventorySystem = default!; // LOP edit
 
     // set used to prevent radio feedback loops.
     private readonly HashSet<string> _messages = new();
 
     private EntityQuery<TelecomExemptComponent> _exemptQuery;
 
-    private const string NoIdIconPath = "/Textures/Interface/Misc/job_icons.rsi/NoId.png"; // _LOP change
+    private const string NoIdIconPath = "/Textures/Interface/Misc/job_icons.rsi/NoId.png"; // LOP edit
 
     public override void Initialize()
     {
@@ -113,7 +113,7 @@ public sealed class RadioSystem : EntitySystem
         var name = transformEv.Name; // Frontier: evt.VoiceName<transformEv.Name
         name = FormattedMessage.EscapeText(name);
 
-        // _LOP change START
+        // LOP edit START
         var tag = Loc.GetString(
             "radio-icon-tag",
             ("path", GetIdCardSprite(messageSource)),
@@ -121,7 +121,7 @@ public sealed class RadioSystem : EntitySystem
         );
 
         var formattedName = $"{tag} {name}";
-        // _LOP change END
+        // LOP edit END
 
         SpeechVerbPrototype speech;
         if (evt.SpeechVerb != null && _prototype.TryIndex(evt.SpeechVerb, out var evntProto))
@@ -147,7 +147,7 @@ public sealed class RadioSystem : EntitySystem
             ("fontSize", speech.FontSize),
             ("verb", Loc.GetString(_random.Pick(speech.SpeechVerbStrings))),
             ("channel", channelText), // Frontier: $"\\[{channel.LocalizedName}\\]"<channelText
-            ("name", formattedName), // _LOP change
+            ("name", formattedName), // LOP edit
             ("message", content));
 
         // most radios are relayed to chat, so lets parse the chat message beforehand
@@ -214,7 +214,7 @@ public sealed class RadioSystem : EntitySystem
         _messages.Remove(message);
     }
 
-    // _LOP change START
+    // LOP edit START
 
     private string GetIdCardSprite(EntityUid senderUid)
     {
@@ -254,7 +254,7 @@ public sealed class RadioSystem : EntitySystem
 
         return null;
     }
-    // _LOP change END
+    // LOP edit END
 
     private bool HasActiveServer(MapId mapId, string channelId)
     {

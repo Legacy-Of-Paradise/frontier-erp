@@ -74,7 +74,7 @@ public partial class ChatBox : UIWidget
 
     public void Repopulate()
     {
-        ClearChatContents(); //_LOP changes
+        ClearChatContents(); // LOP edit
 
         foreach (var message in _controller.History)
         {
@@ -84,7 +84,7 @@ public partial class ChatBox : UIWidget
 
     private void OnChannelFilter(ChatChannel channel, bool active)
     {
-        ClearChatContents(); //_LOP changes
+        ClearChatContents(); // LOP edit
 
         foreach (var message in _controller.History)
         {
@@ -97,7 +97,7 @@ public partial class ChatBox : UIWidget
         }
     }
 
-    //_LOP changes START
+    // LOP edit START
     private void ClearChatContents()
     {
         Contents.Clear();
@@ -110,7 +110,7 @@ public partial class ChatBox : UIWidget
             }
         }
     }
-    //_LOP changes END
+    // LOP edit END
 
     public void AddLine(string message, Color color)
     {

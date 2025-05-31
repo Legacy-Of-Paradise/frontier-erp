@@ -7,9 +7,9 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.RichText;
 using Robust.Shared.Configuration;
 using Robust.Shared.Utility;
-using Content.Shared._LOP.LOPCCVars;
+using Content.Shared._NewParadise.NewParadiseCCVars;
 
-namespace Content.Client._LOP.UI.RText
+namespace Content.Client._NewParadise.UI.RichText
 {
     public sealed class RadioIconTag : IMarkupTag
     {
@@ -22,7 +22,7 @@ namespace Content.Client._LOP.UI.RText
         {
             control = null;
 
-            if (_cfg.GetCVar(LOP_CCVars.ChatIconsEnable))
+            if (_cfg.GetCVar(NewParadise_CCVars.ChatIconsEnable))
             {
                 if (!node.Attributes.TryGetValue("path", out var rawPath))
                 {

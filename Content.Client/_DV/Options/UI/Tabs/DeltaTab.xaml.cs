@@ -4,7 +4,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Configuration;
-using Content.Shared._LOP.LOPCCVars; // _LOP change
+using Content.Shared._NewParadise.NewParadiseCCVars; // LOP edit
 
 namespace Content.Client._DV.Options.UI.Tabs;
 
@@ -21,10 +21,10 @@ public sealed partial class DeltaTab : Control
         DisableFiltersCheckBox.OnToggled += OnCheckBoxToggled;
         DisableFiltersCheckBox.Pressed = _cfg.GetCVar(DCCVars.NoVisionFilters);
 
-        //_LOP changes START
+        // LOP edit START
         ChatIconsEnableCheckBox.OnToggled += OnCheckBoxToggled;
-        ChatIconsEnableCheckBox.Pressed = _cfg.GetCVar(LOP_CCVars.ChatIconsEnable);
-        //_LOP changes END
+        ChatIconsEnableCheckBox.Pressed = _cfg.GetCVar(NewParadise_CCVars.ChatIconsEnable);
+        // LOP edit END
 
         ApplyButton.OnPressed += OnApplyButtonPressed;
         UpdateApplyButton();
@@ -38,7 +38,7 @@ public sealed partial class DeltaTab : Control
     private void OnApplyButtonPressed(BaseButton.ButtonEventArgs args)
     {
         _cfg.SetCVar(DCCVars.NoVisionFilters, DisableFiltersCheckBox.Pressed);
-        _cfg.SetCVar(LOP_CCVars.ChatIconsEnable, ChatIconsEnableCheckBox.Pressed); // _LOP changes
+        _cfg.SetCVar(NewParadise_CCVars.ChatIconsEnable, ChatIconsEnableCheckBox.Pressed); // LOP edit
 
         _cfg.SaveToFile();
         UpdateApplyButton();
@@ -47,10 +47,10 @@ public sealed partial class DeltaTab : Control
     private void UpdateApplyButton()
     {
         var isNoVisionFiltersSame = DisableFiltersCheckBox.Pressed == _cfg.GetCVar(DCCVars.NoVisionFilters);
-        //_LOP changes START
-        var isNoVisionJobIconChat = ChatIconsEnableCheckBox.Pressed == _cfg.GetCVar(LOP_CCVars.ChatIconsEnable);
+        // LOP edit START
+        var isNoVisionJobIconChat = ChatIconsEnableCheckBox.Pressed == _cfg.GetCVar(NewParadise_CCVars.ChatIconsEnable);
 
         ApplyButton.Disabled = isNoVisionFiltersSame && isNoVisionJobIconChat;
-        //_LOP changes END
+        // LOP edit END
     }
 }
