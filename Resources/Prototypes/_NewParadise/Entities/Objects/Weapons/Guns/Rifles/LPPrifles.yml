@@ -26,14 +26,14 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - NFMagazineRifle20
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -43,6 +43,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: HM-10
@@ -71,14 +73,14 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: Clothing
     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/old-rifle.rsi
   - type: ContainerContainer
@@ -92,6 +94,8 @@
   - type: Appearance
   - type: StaticPrice
     vendPrice: 81500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: STG-144
@@ -120,14 +124,14 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -140,6 +144,8 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 69500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: BR-12A "Ravager"
@@ -192,6 +198,8 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 82500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: Waffle corp. MK-556 "Liberator"
@@ -248,6 +256,8 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 71500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 #- type: entity
 #  name: BCR-25r
@@ -325,7 +335,7 @@
     - Back
     - suitStorage
   - type: Gun
-    fireRate: 6
+    fireRate: 1.8
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
@@ -343,14 +353,14 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
       gun_chamber:
         name: Chamber
         startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -363,6 +373,8 @@
   - type: StaticPrice
     price: 2700
     vendPrice: 51500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: LE-MAS
@@ -399,7 +411,7 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - NFMagazineRifle20
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
@@ -421,6 +433,8 @@
     price: 1750
   - type: Item
     size: Large
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: PA-DE-FAME
@@ -458,7 +472,7 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - NFMagazineRifle20
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
@@ -477,7 +491,9 @@
     zeroVisible: true
   - type: Appearance
   - type: StaticPrice
-    price: 1750
+    price: 2750
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: 6P68-2
@@ -495,7 +511,7 @@
   - type: Clothing
     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/aek.rsi
   - type: Gun
-    fireRate: 5.5
+    fireRate: 6
     burstFireRate: 15
     selectedMode: SemiAuto
     availableModes:
@@ -517,8 +533,8 @@
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
-            - MagazineLightRifle
+            - NFMagazineRifle20
+            - NFMagazineRifle30
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
@@ -526,7 +542,7 @@
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
             - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
@@ -539,3 +555,97 @@
   - type: Appearance
   - type: StaticPrice
     price: 1750
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
+
+- type: entity
+  id: LPPWeaponM1Garand
+  parent: [BaseWeaponRifle, BaseC1Contraband]
+  name: Rifle M1 Garand
+  description: A replica of the classic World War II rifle from XenoHuntingArmoury, using cartridges .30 hunting. Ping!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/garand.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/garand.rsi
+  - type: Gun
+    fireRate: 3
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: LPPMagazineRifleGarand
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/garandping.ogg
+        priority: 1
+        whitelist:
+          tags:
+            - LPPMagazineGarand
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: StaticPrice
+    vendPrice: 20500
+    price: 1500
+
+- type: entity
+  id: LPPWeaponMarsRifle
+  parent: [BaseWeaponRifle, BaseC1Contraband]
+  name: Rifle XHA "Mars"
+  description: XenoHuntingArmoury hunting rifle using cartridges .30 hunting. An extremely popular model among planetary and space fauna hunters.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: LPPMagazineRifleMars
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 1
+        whitelist:
+          tags:
+            - LPPMagazineMars
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    vendPrice: 12500
+    price: 750

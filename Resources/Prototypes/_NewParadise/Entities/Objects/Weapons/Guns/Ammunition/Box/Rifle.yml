@@ -143,60 +143,67 @@
       map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
-  parent: BaseMagazineBoxRifle
-  id: LPPMagazineBoxRifleMinigun
-  name: ammunition box (.10 rifle)
-  components:
-  - type: BallisticAmmoProvider
-    proto: NFCartridgeRifle10
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-
-- type: entity
-  parent: BaseMagazineBoxRifle
-  id: LPPMagazineBoxRifleMinigunPractice
-  name: ammunition box (.10 rifle practice)
-  components:
-  - type: BallisticAmmoProvider
-    proto: LPPCartridgeMinigunPractice
-  - type: Sprite
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
-    - state: practice
-
-- type: entity
-  parent: BaseMagazineBoxRifle
+  parent: NFAmmunitionBoxRifle10
   id: LPPMagazineBoxRifleMinigunUranium
   name: ammunition box (.10 rifle uranium)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeMinigunUranium
   - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
+      color: green
+    - state: decal-calibre-10
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-    - state: uranium
 
 - type: entity
-  parent: BaseMagazineBoxRifle
+  parent: NFAmmunitionBoxRifle10
   id: LPPMagazineBoxRifleMinigunAP
   name: ammunition box (.10 rifle AP)
   components:
   - type: BallisticAmmoProvider
     proto: LPPCartridgeMinigunAP
   - type: Sprite
+    sprite: _NF/Objects/Weapons/Guns/Ammunition/Boxes/rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
+      color: black
+    - state: decal-calibre-10
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
-    - state: incendiary
+
+- type: entity
+  id: LPPAmmunitionBoxRifle60CP
+  parent: NFBaseAmmunitionBoxRifle60
+  name: ammunition box (.60 rifle Concrete Piercing)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeAntiMaterielCP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+      color: black
+    - state: decal-calibre-60
+    - state: mag-60-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPAmmunitionBoxRifle60NonLethal
+  parent: NFBaseAmmunitionBoxRifle60
+  name: ammunition box (.60 rifle)
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeAntiMaterielNonLethal
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+      color: cyan
+    - state: decal-calibre-60
+    - state: mag-60-1
+      map: ["enum.GunVisualLayers.Mag"]

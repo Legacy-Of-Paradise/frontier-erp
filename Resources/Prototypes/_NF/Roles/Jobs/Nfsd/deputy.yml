@@ -35,6 +35,6 @@
   storage:
     back:
     - Flash
-    - MagazinePistol
+    - NFMagazinePistol35
     - NFMagazinePistol35Rubber
     - FrontierUplinkCoin10

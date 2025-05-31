@@ -83,6 +83,7 @@ Legacy of Paradise — это форк [Space Station 14](https://github.com/spa
 
 | Название | Ссылка | Лицензия |
 |----------|--------|----------|
+| Monolith | https://github.com/Monolith-Station/Monolith | AGPL 3.0 |
 | Space Station 14 | https://github.com/space-wizards/space-station-14 | MIT |
 | White Dream | https://github.com/WWhiteDreamProject/wwdpublic | AGPL 3.0 |
 

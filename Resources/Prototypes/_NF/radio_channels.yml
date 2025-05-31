@@ -1,14 +1,14 @@
 - type: radioChannel
   id: Traffic
   name: chat-radio-traffic
-  keycode: 'в' # LOP edit
+  keycode: 'й' # LOP edit
   frequency: 1022
   color: "#CC6633"
 
 - type: radioChannel
   id: Nfsd
   name: chat-radio-nfsd
-  keycode: 'ы' # LOP edit
+  keycode: 'у' # LOP edit
   frequency: 1023
   color: "#7eac69"
 

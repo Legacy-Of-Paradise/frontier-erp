@@ -43,7 +43,7 @@
   storage:
     back:
     - Flash
-    - SpeedLoaderMagnum
-    - SpeedLoaderMagnum
+    - NFSpeedLoaderPistol45
+    - NFSpeedLoaderPistol45
     - BaseSecurityUplinkRadioOfficer
     - ShipVoucherNfsdSergeant

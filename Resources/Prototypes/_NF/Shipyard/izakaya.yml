@@ -9,7 +9,7 @@
   parent: BaseVessel
   name: SSS Izakaya
   description: Японский ресторан/паб средних размеров в стиле японского корабля с большой обеденной зоной и такой же большой кухней. # LOP edit
-  price: 82000 # ~68000 appraisal price, ~20% markup
+  price: 72000 # ~60000 appraisal price, ~20% markup
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/izakaya.yml # LOP edit

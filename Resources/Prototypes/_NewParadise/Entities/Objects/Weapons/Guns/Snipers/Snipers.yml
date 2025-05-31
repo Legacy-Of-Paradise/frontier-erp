@@ -81,7 +81,7 @@
 
 - type: entity
   name: Goliath
-  parent: [LPPBaseWeaponSniper, BaseGunWieldable]
+  parent: [LPPBaseWeaponSniper, BaseGunWieldable, NFBaseWeaponRifleChamber60]
   id: LPPWeaponGoliath
   description: Specialised "tool" for breaching . Uses .60 anti-materiel ammo.
   components:
@@ -108,7 +108,7 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - CartridgeAntiMateriel
+      - NFCartridgeRifle60
     capacity: 2
     proto: NFCartridgeRifle60
   - type: GunRequiresWield

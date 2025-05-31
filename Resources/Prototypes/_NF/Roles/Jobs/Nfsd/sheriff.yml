@@ -28,7 +28,7 @@
 - type: startingGear
   id: SheriffGear
   equipment:
-    pocket1: LPPWeaponPistolGoldMk58 # LOP edit: WeaponPistolMk58<LPPWeaponPistolM1911
+    pocket1: LPPWeaponPistolGoldMk58 # LOP edit: WeaponPistolMk58<LPPWeaponPistolGoldMk58
     pocket2: NFWeaponEnergyPistolLaserX01Multiphase
   storage:
     back:
