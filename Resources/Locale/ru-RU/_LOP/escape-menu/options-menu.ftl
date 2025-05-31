@@ -1,3 +1,3 @@
-ui-options-chat-icons-enable = Использовать иконки в чате
+ui-options-chat-icons-enable = Иконки профессий в чате
 
 radio-icon-tag = [radicon path="{$path}" scale={$scale}]
