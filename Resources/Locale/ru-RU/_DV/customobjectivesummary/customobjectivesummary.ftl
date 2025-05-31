@@ -1,4 +1,4 @@
-﻿custom-objective-button-text = Напишите свою историю
+custom-objective-button-text = Напишите свою историю
 # UI
 custom-objective-window-title = Ваша история
 custom-objective-window-submit-button-text = Отправить
