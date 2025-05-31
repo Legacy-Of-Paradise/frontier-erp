@@ -4,6 +4,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Configuration;
+using Content.Shared._LOP.LOPCCVars; // LOP change
 
 namespace Content.Client._DV.Options.UI.Tabs;
 
@@ -20,6 +21,9 @@ public sealed partial class DeltaTab : Control
         DisableFiltersCheckBox.OnToggled += OnCheckBoxToggled;
         DisableFiltersCheckBox.Pressed = _cfg.GetCVar(DCCVars.NoVisionFilters);
 
+        ChatIconsEnableCheckBox.OnToggled += OnCheckBoxToggled;
+        ChatIconsEnableCheckBox.Pressed = _cfg.GetCVar(LOP_CCVars.ChatIconsEnable);
+
         ApplyButton.OnPressed += OnApplyButtonPressed;
         UpdateApplyButton();
     }
@@ -32,6 +36,7 @@ public sealed partial class DeltaTab : Control
     private void OnApplyButtonPressed(BaseButton.ButtonEventArgs args)
     {
         _cfg.SetCVar(DCCVars.NoVisionFilters, DisableFiltersCheckBox.Pressed);
+        _cfg.SetCVar(LOP_CCVars.ChatIconsEnable, ChatIconsEnableCheckBox.Pressed);
 
         _cfg.SaveToFile();
         UpdateApplyButton();
@@ -40,7 +45,8 @@ public sealed partial class DeltaTab : Control
     private void UpdateApplyButton()
     {
         var isNoVisionFiltersSame = DisableFiltersCheckBox.Pressed == _cfg.GetCVar(DCCVars.NoVisionFilters);
+        var isNoVisionJobIconChat = ChatIconsEnableCheckBox.Pressed == _cfg.GetCVar(LOP_CCVars.ChatIconsEnable);
 
-        ApplyButton.Disabled = isNoVisionFiltersSame;
+        ApplyButton.Disabled = isNoVisionFiltersSame && isNoVisionJobIconChat;
     }
 }
