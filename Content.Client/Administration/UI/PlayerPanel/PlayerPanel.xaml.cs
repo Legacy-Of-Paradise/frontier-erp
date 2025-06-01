@@ -27,6 +27,7 @@ public sealed partial class PlayerPanel : FancyWindow
     public event Action? OnDelete;
     public event Action? OnRejuvenate;
     public event Action<NetUserId?>? OnOpenJobWhitelists; // DeltaV
+    public event Action<NetUserId?>? OnPlayerPanel; // LOP edit
 
     public NetUserId? TargetPlayer;
     public string? TargetUsername;
@@ -34,28 +35,30 @@ public sealed partial class PlayerPanel : FancyWindow
 
     public PlayerPanel(IClientAdminManager adminManager)
     {
-            RobustXamlLoader.Load(this);
-            _adminManager = adminManager;
+        RobustXamlLoader.Load(this);
+        _adminManager = adminManager;
 
-            UsernameCopyButton.OnPressed += _ => OnUsernameCopy?.Invoke(TargetUsername ?? "");
-            BanButton.OnPressed += _ => OnOpenBanPanel?.Invoke(TargetPlayer);
-            KickButton.OnPressed += _ => OnKick?.Invoke(TargetUsername);
-            NotesButton.OnPressed += _ => OnOpenNotes?.Invoke(TargetPlayer);
-            ShowBansButton.OnPressed += _ => OnOpenBans?.Invoke(TargetPlayer);
-            AhelpButton.OnPressed += _ => OnAhelp?.Invoke(TargetPlayer);
-            WhitelistToggle.OnPressed += _ =>
-            {
-                OnWhitelistToggle?.Invoke(TargetPlayer, _isWhitelisted);
-                SetWhitelisted(!_isWhitelisted);
-            };
-            FollowButton.OnPressed += _ => OnFollow?.Invoke();
-            FreezeButton.OnPressed += _ => OnFreeze?.Invoke();
-            FreezeAndMuteToggleButton.OnPressed += _ => OnFreezeAndMuteToggle?.Invoke();
-            LogsButton.OnPressed += _ => OnLogs?.Invoke();
-            DeleteButton.OnPressed += _ => OnDelete?.Invoke();
-            RejuvenateButton.OnPressed += _ => OnRejuvenate?.Invoke();
+        UsernameCopyButton.OnPressed += _ => OnUsernameCopy?.Invoke(TargetUsername ?? "");
+        BanButton.OnPressed += _ => OnOpenBanPanel?.Invoke(TargetPlayer);
+        KickButton.OnPressed += _ => OnKick?.Invoke(TargetUsername);
+        NotesButton.OnPressed += _ => OnOpenNotes?.Invoke(TargetPlayer);
+        ShowBansButton.OnPressed += _ => OnOpenBans?.Invoke(TargetPlayer);
+        AhelpButton.OnPressed += _ => OnAhelp?.Invoke(TargetPlayer);
+        WhitelistToggle.OnPressed += _ =>
+        {
+            OnWhitelistToggle?.Invoke(TargetPlayer, _isWhitelisted);
+            SetWhitelisted(!_isWhitelisted);
+        };
+        FollowButton.OnPressed += _ => OnFollow?.Invoke();
+        FreezeButton.OnPressed += _ => OnFreeze?.Invoke();
+        FreezeAndMuteToggleButton.OnPressed += _ => OnFreezeAndMuteToggle?.Invoke();
+        LogsButton.OnPressed += _ => OnLogs?.Invoke();
+        DeleteButton.OnPressed += _ => OnDelete?.Invoke();
+        RejuvenateButton.OnPressed += _ => OnRejuvenate?.Invoke();
 
-            JobWhitelistsButton.OnPressed += _ => OnOpenJobWhitelists?.Invoke(TargetPlayer); // DeltaV: Job whitelists
+        JobWhitelistsButton.OnPressed += _ => OnOpenJobWhitelists?.Invoke(TargetPlayer); // DeltaV: Job whitelists
+
+        TimeButton.OnPressed += _ => OnPlayerPanel?.Invoke(TargetPlayer); // LOP edit
     }
 
     public void SetUsername(string player)
@@ -121,6 +124,11 @@ public sealed partial class PlayerPanel : FancyWindow
         AhelpButton.Disabled = !canAhelp;
     }
 
+    public void SetTime() // LOP edit
+    {
+        //
+    }
+
     public void SetButtons()
     {
         BanButton.Disabled = !_adminManager.CanCommand("banpanel");
@@ -133,5 +141,6 @@ public sealed partial class PlayerPanel : FancyWindow
         RejuvenateButton.Disabled = !_adminManager.HasFlag(AdminFlags.Debug);
         DeleteButton.Disabled = !_adminManager.HasFlag(AdminFlags.Debug);
         JobWhitelistsButton.Disabled = !_adminManager.HasFlag(AdminFlags.Whitelist); // DeltaV
+        TimeButton.Disabled = !_adminManager.CanCommand("playerpanel"); // LOP edit
     }
 }

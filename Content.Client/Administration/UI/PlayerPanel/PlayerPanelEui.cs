@@ -37,11 +37,12 @@ public sealed class PlayerPanelEui : BaseEui
         PlayerPanel.OnFreeze += () => SendMessage(new PlayerPanelFreezeMessage());
         PlayerPanel.OnLogs += () => SendMessage(new PlayerPanelLogsMessage());
         PlayerPanel.OnRejuvenate += () => SendMessage(new PlayerPanelRejuvenationMessage());
-        PlayerPanel.OnDelete+= () => SendMessage(new PlayerPanelDeleteMessage());
+        PlayerPanel.OnDelete += () => SendMessage(new PlayerPanelDeleteMessage());
         PlayerPanel.OnFollow += () => SendMessage(new PlayerPanelFollowMessage());
         PlayerPanel.OnOpenJobWhitelists += id => _console.ExecuteCommand($"jobwhitelists \"{id}\""); // DeltaV
 
         PlayerPanel.OnClose += () => SendMessage(new CloseEuiMessage());
+        PlayerPanel.OnPlayerPanel += id => _console.ExecuteCommand($"openahelp \"{id}\""); // LOP edit
     }
 
     public override void Opened()

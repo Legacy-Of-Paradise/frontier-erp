@@ -21,3 +21,6 @@ player-panel-rejuvenate = Вылечить
 player-panel-false = Нет
 player-panel-true = Да
 player-panel-follow = Следовать
+
+#LOP edit
+player-panel-time = Редакция времени
