@@ -39,7 +39,7 @@
       name: дизейблер
       state: disabler
     - proto: NFBulletLaserLow
-      fireCost: 200
+      fireCost: 100
       name: летальный
       state: lethal
   - type: MagazineVisuals

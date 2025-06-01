@@ -1,7 +1,10 @@
 ent-CrateMaterialMetalRods = ящик металлических стержней
     .desc = 90 металлических стержней, упакованных безрассудно.
+ent-CrateMaterialBiomass50 = { ent-CrateMaterialBiomass }
+    .suffix = 50
+    .desc = { ent-CrateMaterialBiomass.desc }
 ent-CrateMaterialBiomass = ящик биомассы
-    .desc = 300 единиц биомассы. Ням.
+    .desc = Биомасса. Ням.
     .suffix = 300
 ent-CrateMaterialsBasicFilled = ящик материалов
     .suffix = Наполенный, Базовые Материалы (Полный)

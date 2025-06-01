@@ -137,13 +137,13 @@
     - SpawnDungeonLootGunT2
     - SpawnDungeonLootMeleeT2
     - SpawnDungeonLootAmmoLethal
-    chance: 0.8
+    chance: 0.25 #LOP edit
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootMeleeT3
     - SpawnDungeonLootGunT3
     - SpawnDungeonLootExplosivesT2
-    rareChance: 0.1
+    rareChance: 0.05 #LOP edit
 
 - type: entity
   name: random weapon
@@ -190,13 +190,13 @@
     - SpawnDungeonLootGunT3
     - SpawnDungeonLootGunT3
     - SpawnDungeonLootMeleeT3
-    chance: 0.9
+    chance: 0.2 #LOP edit
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootMeleeT4
     - SpawnDungeonLootGunT4
     - SpawnDungeonLootExplosivesT3
-    rareChance: 0.1
+    rareChance: 0.05 #LOP edit
 
 - type: entity
   name: random weapon
@@ -433,8 +433,10 @@
     - CrateSecurityHelmet
     - CrateArmoryShotgunExpedition
     - CrateArmoryPistolsExpedition
-    - CrateArmoryRifleGestioExpedition
-    - CrateArmoryRifleNovaliteC1Expedition
+#LOP edit start
+    # - CrateArmoryRifleGestioExpedition
+    # - CrateArmoryRifleNovaliteC1Expedition
+#LOP edit end
     - CrateArmoryEnergyGunExpedition
     # Ammo
     - CrateAmmoBoxLethal20
@@ -453,9 +455,9 @@
     chance: 0.85
     offset: 0.0
     rarePrototypes:
-    - CrateArmorySMGExpedition
+    # - CrateArmorySMGExpedition #LOP edit
     - CrateArmoryLaserExpedition
-    - CrateArmorySMGExpedition
+    # - CrateArmorySMGExpedition #LOP edit
     - CrateArmoryLaserExpedition
     - CrateSecurityNonlethal
     - CrateSecureMercenaryHardsuitMagBoots

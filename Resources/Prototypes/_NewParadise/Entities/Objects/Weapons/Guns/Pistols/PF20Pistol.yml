@@ -54,7 +54,7 @@
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -66,3 +66,5 @@
   - type: Appearance
   - type: StaticPrice
     price: 500
+  - type: NFWeaponDetails
+    class: weapon-details-class-machine-pistol

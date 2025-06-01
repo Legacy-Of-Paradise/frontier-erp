@@ -11,11 +11,13 @@
       - state: grenade
   - type: ExplodeOnTrigger
   - type: Explosive
-    explosionType: Default
-    maxIntensity: 1 # max 15 per tile
-    intensitySlope: 1
-    totalIntensity: 2 # 30 total damage to distribute over tiles
+#LOP edit start
+    explosionType: DemolitionCharge
+    maxIntensity: 10.5
+    intensitySlope: 6
+    totalIntensity: 130
     maxTileBreak: 1
+#LOP edit end
   - type: PointLight
     radius: 3.5
     color: orange
@@ -25,7 +27,7 @@
 - type: entity
   id: NFCartridgeRocketMini
   name: minirocket
-  parent: BaseItem
+  parent: [BaseItem, BaseC2Contraband] #LOP edit
   components:
     - type: Item
       size: Small
@@ -37,6 +39,11 @@
       state: frag
     - type: StaticPrice
       price: 20
+#LOP edit start
+    - type: Tag
+      tags:
+      - LOPminirocket
+#LOP edit end
 
 # Explorer Captain Seismic Charge
 - type: entity

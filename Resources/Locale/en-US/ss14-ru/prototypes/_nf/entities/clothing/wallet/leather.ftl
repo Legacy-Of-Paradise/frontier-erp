@@ -6,3 +6,5 @@ ent-ClothingWalletLeatherMail = { ent-ClothingWalletLeatherBrown }
     .desc = On the inside is an embroidered picture of a cat, a heart, and the word "CLIPPY".
 ent-ClothingWalletLeatherPirate = { ent-ClothingWalletLeatherBrown }
     .desc = There's an old picture of a cat with a beard inside.
+ent-ClothingWalletLeatherPrisoner = prison wallet
+    .desc = Not what you expected.

@@ -662,6 +662,7 @@
   - PrisonerFace
   - PrisonerSurvival
   - PrisonerPDA
+  - PrisonerWallet
   - NFSpeciesSpecific
   # LOP edit start
   - LOPunderwearloadout

@@ -6,3 +6,5 @@ ent-ClothingWalletLeatherMail = { ent-ClothingWalletLeatherBrown }
     .desc = На внутренней стороне вышито изображение кошки, сердечко и надпись "Клиппи".
 ent-ClothingWalletLeatherPirate = { ent-ClothingWalletLeatherBrown }
     .desc = Внутри есть старая фотография кота с бородой.
+ent-ClothingWalletLeatherPrisoner = кошелёк заключенного
+    .desc = Не то, что вы ожидали.

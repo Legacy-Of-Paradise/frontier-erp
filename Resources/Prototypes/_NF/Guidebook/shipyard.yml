@@ -24,6 +24,7 @@
   - ShipyardChisel
   - ShipyardComet
   - ShipyardConstruct
+  - ShipyardCopperhead
   - ShipyardCrossroads
   - ShipyardEagle
   - ShipyardGarden
@@ -154,6 +155,11 @@
   id: ShipyardConstruct
   name: guide-entry-shipyard-construct
   text: "/ServerInfo/_NF/Guidebook/Shipyard/Construct.xml"
+
+- type: guideEntry
+  id: ShipyardCopperhead
+  name: guide-entry-shipyard-copperhead
+  text: "/ServerInfo/_NF/Guidebook/Shipyard/Copperhead.xml"
 
 - type: guideEntry
   id: ShipyardCrossroads

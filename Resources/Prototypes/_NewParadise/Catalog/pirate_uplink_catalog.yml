@@ -32,9 +32,9 @@
   id: LPPUplinkBoxMagazineLightRifle
   name: uplink-pirate-boxmagazinelightrifle-name
   description: uplink-pirate-boxmagazinelightrifle-desc
-  productEntity: BoxMagazineLightRifle
+  productEntity: NFBoxMagazineRifle30Overpressure
   cost:
-    Doubloon: 2
+    Doubloon: 3
   categories:
     - UplinkPirateAmmo
   conditions:
@@ -49,7 +49,7 @@
   description: uplink-pirate-weaponrevolverrt46-desc
   productEntity: LPPWeaponRevolverRT46
   cost:
-    Doubloon: 28
+    Doubloon: 10
   categories:
     - UplinkPirateWeapons
   conditions:
@@ -79,9 +79,24 @@
   description: uplink-pirate-weaponrifleaek-desc
   productEntity: LPPWeaponRifleAek
   cost:
-    Doubloon: 18
+    Doubloon: 12
   categories:
     - UplinkPirateWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
+
+- type: listing
+  id: LPPUplinkRiotLaserShield
+  name: uplink-pirate-riotlasershield-name
+  description: uplink-pirate-riotlasershield-desc
+  productEntity: RiotLaserShield
+  cost:
+    Doubloon: 5
+  categories:
+    - UplinkPirateUtility
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

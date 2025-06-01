@@ -16,3 +16,6 @@ flavor-complex-spices = как специи
 flavor-complex-cinnamon = как корица
 flavor-complex-antiseptic = как химическая лаванда
 flavor-complex-hairy = волосатый и едкий
+flavor-complex-licorice = как лакрица
+flavor-complex-blueraspberry = как синий
+flavor-complex-silence = как тишина
