@@ -21,7 +21,7 @@ public sealed class ChatIconsSystem : EntitySystem
     {
         base.Shutdown();
 
-        _cfg.UnsubValueChanged(NewParadiseCvars.ChatIconsEnable, OnRadioIconsChanged); //NewParadise_CCVars
+        _cfg.UnsubValueChanged(NewParadiseCvars.ChatIconsEnable, OnRadioIconsChanged);
     }
 
     private void OnRadioIconsChanged(bool enable)
