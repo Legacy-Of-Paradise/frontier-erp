@@ -4,7 +4,7 @@ using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
 using Robust.Shared.Configuration;
-using Content.Shared._NewParadise.NewParadiseCCVars; // LOP edit
+using Content.Shared._NewParadise; // LOP edit
 
 namespace Content.Client._DV.Options.UI.Tabs;
 
@@ -23,7 +23,7 @@ public sealed partial class DeltaTab : Control
 
         // LOP edit START
         ChatIconsEnableCheckBox.OnToggled += OnCheckBoxToggled;
-        ChatIconsEnableCheckBox.Pressed = _cfg.GetCVar(NewParadise_CCVars.ChatIconsEnable);
+        ChatIconsEnableCheckBox.Pressed = _cfg.GetCVar(NewParadiseCvars.ChatIconsEnable);
         // LOP edit END
 
         ApplyButton.OnPressed += OnApplyButtonPressed;
@@ -38,7 +38,7 @@ public sealed partial class DeltaTab : Control
     private void OnApplyButtonPressed(BaseButton.ButtonEventArgs args)
     {
         _cfg.SetCVar(DCCVars.NoVisionFilters, DisableFiltersCheckBox.Pressed);
-        _cfg.SetCVar(NewParadise_CCVars.ChatIconsEnable, ChatIconsEnableCheckBox.Pressed); // LOP edit
+        _cfg.SetCVar(NewParadiseCvars.ChatIconsEnable, ChatIconsEnableCheckBox.Pressed); // LOP edit
 
         _cfg.SaveToFile();
         UpdateApplyButton();
@@ -48,7 +48,7 @@ public sealed partial class DeltaTab : Control
     {
         var isNoVisionFiltersSame = DisableFiltersCheckBox.Pressed == _cfg.GetCVar(DCCVars.NoVisionFilters);
         // LOP edit START
-        var isNoVisionJobIconChat = ChatIconsEnableCheckBox.Pressed == _cfg.GetCVar(NewParadise_CCVars.ChatIconsEnable);
+        var isNoVisionJobIconChat = ChatIconsEnableCheckBox.Pressed == _cfg.GetCVar(NewParadiseCvars.ChatIconsEnable);
 
         ApplyButton.Disabled = isNoVisionFiltersSame && isNoVisionJobIconChat;
         // LOP edit END

@@ -1,5 +1,5 @@
 using Content.Client.UserInterface.Systems.Chat;
-using Content.Shared._NewParadise.NewParadiseCCVars;
+using Content.Shared._NewParadise;
 using Robust.Client.UserInterface;
 using Robust.Shared.Configuration;
 
@@ -14,14 +14,14 @@ public sealed class ChatIconsSystem : EntitySystem
     {
         base.Initialize();
 
-        _cfg.OnValueChanged(NewParadise_CCVars.ChatIconsEnable, OnRadioIconsChanged, true);
+        _cfg.OnValueChanged(NewParadiseCvars.ChatIconsEnable, OnRadioIconsChanged, true);
     }
 
     public override void Shutdown()
     {
         base.Shutdown();
 
-        _cfg.UnsubValueChanged(NewParadise_CCVars.ChatIconsEnable, OnRadioIconsChanged);
+        _cfg.UnsubValueChanged(NewParadiseCvars.ChatIconsEnable, OnRadioIconsChanged); //NewParadise_CCVars
     }
 
     private void OnRadioIconsChanged(bool enable)

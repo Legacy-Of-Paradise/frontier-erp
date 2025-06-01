@@ -17,11 +17,11 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
-
+// LOP edit start
 using Content.Shared.Inventory;
-using System.Globalization;
 using Content.Shared.PDA;
 using Content.Shared.Access.Components;
+// LOP edit end
 
 namespace Content.Server.Radio.EntitySystems;
 

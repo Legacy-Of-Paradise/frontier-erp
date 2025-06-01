@@ -7,7 +7,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.RichText;
 using Robust.Shared.Configuration;
 using Robust.Shared.Utility;
-using Content.Shared._NewParadise.NewParadiseCCVars;
+using Content.Shared._NewParadise;
 
 namespace Content.Client._NewParadise.UI.RichText
 {
@@ -22,7 +22,7 @@ namespace Content.Client._NewParadise.UI.RichText
         {
             control = null;
 
-            if (_cfg.GetCVar(NewParadise_CCVars.ChatIconsEnable))
+            if (_cfg.GetCVar(NewParadiseCvars.ChatIconsEnable))
             {
                 if (!node.Attributes.TryGetValue("path", out var rawPath))
                 {
