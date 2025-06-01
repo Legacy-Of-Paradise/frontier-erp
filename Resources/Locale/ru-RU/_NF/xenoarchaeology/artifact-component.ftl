@@ -1,4 +1,4 @@
-﻿artifact-node-nf-class-1 = [color=#ff2bb1]Гилический[/color]
+artifact-node-nf-class-1 = [color=#ff2bb1]Гилический[/color]
 artifact-node-nf-class-2 = [color=#ff8b2b]Психический[/color]
 artifact-node-nf-class-3 = [color=#a9ff38]Ноуменальный[/color]
 artifact-node-nf-class-4 = [color=#2bfff8]Архонт[/color]

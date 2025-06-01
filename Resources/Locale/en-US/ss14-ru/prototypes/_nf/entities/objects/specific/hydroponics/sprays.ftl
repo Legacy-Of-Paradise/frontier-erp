@@ -1,4 +1,4 @@
-﻿ent-PlantBGoneSprayEmpty = Plant-B-Gone
+ent-PlantBGoneSprayEmpty = Plant-B-Gone
     .suffix = Empty
     .desc = { ent-PlantBGoneSpray.desc }
 ent-WeedSprayEmpty = { ent-WeedSpray }
