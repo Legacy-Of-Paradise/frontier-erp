@@ -18,14 +18,10 @@ public sealed class AutoSalarySystem : EntitySystem
 {
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly BankSystem _bank = default!;
-    [Dependency] private readonly InstrumentSystem _instrument = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
-    [Dependency] private readonly EntityManager _entManager = default!;
 
-    // public SoundSpecifier ConfirmSound
-
-    private static float _currentTime = 3600f; // hour
+    private static float _currentTime = 3600f;
 
     [ValidatePrototypeId<DepartmentPrototype>]
     private const string FrontierDep = "Frontier";
