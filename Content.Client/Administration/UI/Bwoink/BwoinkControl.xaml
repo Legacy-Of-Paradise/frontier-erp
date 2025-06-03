@@ -10,16 +10,17 @@
                     <BoxContainer Access="Public" Name="BwoinkArea" VerticalExpand="True" />
                 </BoxContainer>
             </SplitContainer>
-            <BoxContainer Orientation="Horizontal" >
+            <BoxContainer Orientation="Horizontal" > <!--LOP edit-->
                 <CheckBox Name="AdminOnly" Access="Public" Text="{Loc 'admin-ahelp-admin-only'}" ToolTip="{Loc 'admin-ahelp-admin-only-tooltip'}" />
                 <Control HorizontalExpand="True" MinWidth="5" />
                 <CheckBox Name="PlaySound" Access="Public" Text="{Loc 'admin-bwoink-play-sound'}" Pressed="True" />
                 <Control HorizontalExpand="True" MinWidth="5" />
-                    <GridContainer Columns="1" Margin="0,30,0,0">
+                    <GridContainer Columns="1" Margin="0,30,0,0"> <!--LOP edit start-->
                         <Button Visible="True" Name="PopOut" Access="Public" Text="{Loc 'admin-logs-pop-out'}" StyleClasses="OpenBoth" HorizontalAlignment="Left" />
-                    </GridContainer>
+                    </GridContainer> <!--LOP edit end-->
                 <Control HorizontalExpand="True" />
 
+                <!--LOP edit start-->
                 <GridContainer Columns="1" Margin="0,15,0,0">
                     <Button Visible="False" Name="Bans" Text="{Loc 'admin-player-actions-bans'}" StyleClasses="OpenBoth" />
                     <Button Visible="False" Name="Notes" Text="{Loc 'admin-player-actions-notes'}" StyleClasses="OpenRight" />
@@ -33,6 +34,7 @@
                     <Button Visible="False" Name="Follow" Text="{Loc 'admin-player-actions-follow'}" StyleClasses="OpenLeft" />
                     <Button Visible="False" Name="PlayerPanel" Text="Панель игрока" StyleClasses="OpenBoth" /> <!-- LOP edit -->
                 </GridContainer>
+                <!--LOP edit end-->
             </BoxContainer>
         </SplitContainer>
     </PanelContainer>
