@@ -21,8 +21,11 @@ public sealed class AutoSalarySystem : EntitySystem
     [Dependency] private readonly InstrumentSystem _instrument = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
+    [Dependency] private readonly EntityManager _entManager = default!;
 
-    private static float _currentTime = 10f; // 3600f = hour
+    // public SoundSpecifier ConfirmSound
+
+    private static float _currentTime = 3600f; // hour
 
     [ValidatePrototypeId<DepartmentPrototype>]
     private const string FrontierDep = "Frontier";
@@ -34,16 +37,6 @@ public sealed class AutoSalarySystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
-        //SubscribeLocalEvent<PdaComponent, PdaShowMusicMessage>(AddSalary);
-    }
-
-    public void AddSalary(EntityUid uid, PdaComponent pda, PdaShowMusicMessage msg)
-    {
-        if (!PdaUiKey.Key.Equals(msg.UiKey))
-            return;
-
-        if (TryComp<InstrumentComponent>(uid, out var instrument))
-            _instrument.ToggleInstrumentUi(uid, msg.Actor, instrument);
     }
 
     public override void Update(float frameTime)
@@ -54,14 +47,14 @@ public sealed class AutoSalarySystem : EntitySystem
 
         if (_currentTime <= 0)
         {
-            _currentTime = 10f; // 3600f = hour
+            _currentTime = 3600f;
             ProcessSalary();
         }
     }
 
     private void OnRoundRestart(RoundRestartCleanupEvent args)
     {
-        _currentTime = 10f; // 3600f = hour
+        _currentTime = 3600f;
     }
 
     private void ProcessSalary()
@@ -73,8 +66,9 @@ public sealed class AutoSalarySystem : EntitySystem
             {
                 int salary = GetSalary(job);
 
+                _audio.PlayPvs("/Audio/Effects/Cargo/ping.ogg", uid);
                 var message = Loc.GetString("salary-received-popup", ("amount", salary));
-                _popup.PopupEntity(message, uid, PopupType.SmallCaution);
+                _popup.PopupEntity(message, uid, PopupType.Medium);
 
                 _bank.TryBankDeposit(uid, salary);
             }

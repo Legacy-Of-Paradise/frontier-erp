@@ -1,1 +1,1 @@
-salary-received-popup = Поступила зарплата в {$amount}
+salary-received-popup = Поступила зарплата в ${$amount}
