@@ -20,7 +20,7 @@ public sealed class AutoSalarySystem : EntitySystem
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
 
-    private static float _currentTime = 10f; // 3600f = hour
+    private static float _currentTime = 3600f;
 
     [ValidatePrototypeId<DepartmentPrototype>]
     private const string FrontierDep = "Frontier";
@@ -42,14 +42,14 @@ public sealed class AutoSalarySystem : EntitySystem
 
         if (_currentTime <= 0)
         {
-            _currentTime = 10f; // 3600f = hour
+            _currentTime = 3600f;
             ProcessSalary();
         }
     }
 
     private void OnRoundRestart(RoundRestartCleanupEvent args)
     {
-        _currentTime = 10f; // 3600f = hour
+        _currentTime = 3600f;
     }
 
     private void ProcessSalary()
@@ -71,7 +71,6 @@ public sealed class AutoSalarySystem : EntitySystem
                 _bank.TryBankDeposit(uid, salary);
             }
         }
-
     }
 
     private int GetSalary(string key) => key switch
