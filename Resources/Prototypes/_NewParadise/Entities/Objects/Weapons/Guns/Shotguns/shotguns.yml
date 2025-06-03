@@ -1,6 +1,6 @@
 - type: entity
   name: Lemington
-  parent: [BaseWeaponShotgun, BaseC2Contraband, NFBaseWeaponFrameShotgun]
+  parent: [NFBaseWeaponShotgunChamber50, BaseC2Contraband, NFBaseWeaponFrameShotgun]
   id: LPPWeaponShotgunLemington
   description: A lever-action rifle capable of tearing a man in half.
   components:
@@ -22,7 +22,7 @@
 
 - type: entity
   name: TBS-2s "Boomstick"
-  parent: [BaseWeaponShotgun, BaseC3SyndicateContraband, NFBaseWeaponFrameShotgun]
+  parent: [NFBaseWeaponShotgunChamber50, BaseC3SyndicateContraband, NFBaseWeaponFrameShotgun]
   id: LPPWeaponShotgunTBS2S
   description: A pump action shotgun that uses two tubes for ammo storaging, uses .50 ammo.
   components:
@@ -46,7 +46,7 @@
 
 - type: entity
   name: Remington-320B
-  parent: [BaseWeaponShotgun, BaseC3SyndicateContraband, NFBaseWeaponFrameShotgun]
+  parent: [NFBaseWeaponShotgunChamber50, BaseC3SyndicateContraband, NFBaseWeaponFrameShotgun]
   id: LPPWeaponShotgunRemington320b
   description: B stands for "BUDGET". The most cheapest pump action shotgun you can find on the market. Quantity over quality. Uses .50 ammo.
   components:

@@ -106,12 +106,12 @@
     - Back
     - Suitstorage
   - type: Gun
-    fireRate: 0.5
+    fireRate: 0.4
     soundGunshot:
       path: /Audio/_NewParadise/Weapons/Guns/Gunshots/Gauss.ogg
   - type: HitscanBatteryAmmoProvider
     proto: LPPGauss
-    fireCost: 600
+    fireCost: 1200
   - type: Battery
     maxCharge: 3600
     startingCharge: 3600
@@ -119,5 +119,8 @@
     size: Large
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 36
+    autoRechargeRate: 120
   - type: MultiHandedItem
+  - type: EyeCursorOffset # Frontier
+    maxOffset: 7 # Frontier
+    pvsIncrease: 7 # Frontier

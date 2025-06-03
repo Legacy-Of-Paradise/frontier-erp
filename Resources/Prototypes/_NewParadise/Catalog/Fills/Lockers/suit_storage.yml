@@ -1,0 +1,90 @@
+- type: entity
+  id: LPPSuitStorageUpgradedMining
+  parent: SuitStorageBase
+  suffix: Kerateia
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: LPPClothingOuterHardsuitUpgradedMining
+        - id: ClothingMaskGasExplorer
+        - id: JetpackMiniFilled
+        - id: LPPClothingShoesBootsMagHunter
+
+- type: entity
+  id: LPPSuitStorageMiksuit
+  parent: SuitStorageBase
+  suffix: Tamado
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: LPPClothingOuterHardsuitMiksuit
+        - id: ClothingMaskGasExplorer
+        - id: JetpackMiniFilled
+        - id: LPPClothingShoesBootsMagHunter
+
+- type: entity
+  id: LPPSuitStorageAcientHos
+  parent: SuitStorageBase
+  suffix: Granite
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: LPPClothingOuterHardsuitAcientHos
+        - id: ClothingMaskGasSecurity
+        - id: JetpackMiniFilled
+        - id: ClothingShoesBootsMag
+
+- type: entity
+  id: LPPSuitStorageHunter
+  parent: SuitStorageBase
+  suffix: Vadas
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: LPPClothingOuterHardsuitHunter
+        - id: ClothingMaskGasExplorer
+        - id: JetpackMiniFilled
+        - id: LPPClothingShoesBootsMagHunter
+
+- type: entity
+  id: LPPSuitStoragePilotSecurity
+  parent: SuitStorageBase
+  suffix: Stormgrad
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: LPPClothingOuterHardsuitPilotSecurity
+        - id: ClothingMaskGasSecurity
+        - id: JetpackMiniFilled
+        - id: LPPClothingShoesBootsMagHunter
+
+- type: entity
+  id: LPPSuitStorageCombatAlternative
+  parent: SuitStorageBase
+  suffix: Keshik
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: LPPClothingOuterHardsuitCombatAlternative
+        - id: ClothingMaskGasSecurity
+        - id: JetpackMiniFilled
+        - id: LPPClothingShoesBootsMagHunter
+
+- type: entity
+  id: LPPSuitStorageNPZ
+  parent: SuitStorageBase
+  suffix: Soldat
+  components:
+  - type: StorageFill
+    contents:
+        - id: NFTankO2N2EqualFilled
+        - id: LPPClothingOuterHardsuitNPZ
+        - id: LPPClothingMaskNPZGasmask
+        - id: JetpackBlueFilled
+        - id: LPPClothingShoesBootsMagNPZ

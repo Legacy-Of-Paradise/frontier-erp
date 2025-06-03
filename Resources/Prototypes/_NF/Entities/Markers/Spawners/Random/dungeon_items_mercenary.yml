@@ -312,12 +312,17 @@
     - ClothingOuterArmorBasicSlim
     - ClothingOuterArmorBulletproof
     - ClothingOuterArmorRiot
+# LOP edit start
+    - LPPlothingOuterArmorSwatEpistemic
+    - LPPClothingOuterArmorSwat
+# LOP edit end
     chance: 1
     offset: 0.0
     rarePrototypes:
     - ClothingOuterArmorHeavy
     - ClothingOuterArmorReflective
     - ClothingOuterVestWeb
+    - LPPlothingOuterArmorSwatAlternative # LOP edit
     rareChance: 0.1
 
 - type: entity
@@ -339,10 +344,21 @@
     prototypes:
     - ClothingOuterHardsuitMercenary
     - ClothingOuterHardsuitPrivateSecurity
+# LOP edit start
+    - LPPClothingOuterHardsuitMiksuit
+    - LPPClothingOuterHardsuitScienceNPZ
+    - LPPHardsuitAssaultParamedic
+    - LPPClothingOuterHardsuitRND
+# LOP edit end
     chance: 1
     offset: 0.0
     rarePrototypes:
     - ClothingOuterHardsuitScaf
+# LOP edit start
+    - LPPClothingOuterHardsuitPilotSecurity
+    - LPPClothingOuterHardsuitAcientHos
+    - LPPClothingOuterHardsuitCombatAlternative
+# LOP edit end
     rareChance: 0.1
 
 #region Furniture/Lockers
@@ -400,6 +416,12 @@
     offset: 0.0
     rarePrototypes:
     - SuitStorageScaf
+# LOP edit start
+    - LPPSuitStorageMiksuit
+    - LPPSuitStorageAcientHos
+    - LPPSuitStorageCombatAlternative
+    - LPPSuitStorageNPZ
+# LOP edit end
     rareChance: 0.1
 
 - type: entity
