@@ -7,18 +7,16 @@ using Content.Shared.Inventory;
 using Content.Shared.PDA;
 using Content.Shared.Roles;
 using Robust.Shared.Player;
-using Content.Server.Instruments;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Popups;
 
 
-namespace Content.Server.Auto.Salary;
+namespace Content.Server._NewParadise.AutoSalarySystem;
 
 public sealed class AutoSalarySystem : EntitySystem
 {
     [Dependency] private readonly InventorySystem _inventory = default!;
     [Dependency] private readonly BankSystem _bank = default!;
-    [Dependency] private readonly InstrumentSystem _instrument = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPopupSystem _popup = default!;
 
@@ -34,16 +32,6 @@ public sealed class AutoSalarySystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
-        //SubscribeLocalEvent<PdaComponent, PdaShowMusicMessage>(AddSalary);
-    }
-
-    public void AddSalary(EntityUid uid, PdaComponent pda, PdaShowMusicMessage msg)
-    {
-        if (!PdaUiKey.Key.Equals(msg.UiKey))
-            return;
-
-        if (TryComp<InstrumentComponent>(uid, out var instrument))
-            _instrument.ToggleInstrumentUi(uid, msg.Actor, instrument);
     }
 
     public override void Update(float frameTime)
@@ -67,6 +55,7 @@ public sealed class AutoSalarySystem : EntitySystem
     private void ProcessSalary()
     {
         var currentTime = EntityQueryEnumerator<HumanoidAppearanceComponent, BankAccountComponent, ActorComponent>();
+        var currentTimeBank = EntityQueryEnumerator<BankATMComponent>();
         while (currentTime.MoveNext(out var uid, out _, out _, out _))
         {
             if (GetDepartment(uid, out var job))
@@ -74,11 +63,15 @@ public sealed class AutoSalarySystem : EntitySystem
                 int salary = GetSalary(job);
 
                 var message = Loc.GetString("salary-received-popup", ("amount", salary));
-                _popup.PopupEntity(message, uid, PopupType.SmallCaution);
-
+                _popup.PopupEntity(message, uid, PopupType.Medium);
+                while (currentTimeBank.MoveNext(out var bankcomp))
+                {
+                    _audio.PlayPvs(bankcomp.ConfirmSound, uid);
+                }
                 _bank.TryBankDeposit(uid, salary);
             }
         }
+
     }
 
     private int GetSalary(string key) => key switch
