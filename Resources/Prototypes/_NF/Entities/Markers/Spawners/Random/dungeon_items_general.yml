@@ -185,6 +185,15 @@
     - SuitStorageCE
     - SuitStorageQuartermaster
     - SuitStorageCMO
+# LOP edit start
+    - LPPSuitStorageUpgradedMining
+    - LPPSuitStorageMiksuit
+    - LPPSuitStorageAcientHos
+    - LPPSuitStorageHunter
+    - LPPSuitStoragePilotSecurity
+    - LPPSuitStorageCombatAlternative
+    - LPPSuitStorageNPZ
+# LOP edit end
     rareChance: 0.05
 
 - type: entity

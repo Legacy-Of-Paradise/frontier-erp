@@ -42,4 +42,7 @@ public sealed class NewParadiseCvars
     public static readonly CVarDef<string> DiscordBanWebhook =
         CVarDef.Create("discord.ban_webhook", "", CVar.SERVERONLY);
 
+    public static readonly CVarDef<bool> ChatIconsEnable =
+        CVarDef.Create("chat_icon.enable", true, CVar.CLIENTONLY | CVar.ARCHIVE);
+
 }

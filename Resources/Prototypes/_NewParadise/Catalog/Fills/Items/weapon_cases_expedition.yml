@@ -1,0 +1,592 @@
+#region Милишка
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortEnergyBroadswordExpedition
+  suffix: Dungeon, Broadsword
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPEnergyBroadsword
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseHeavy
+  id: LPPWeaponCaseHeavyEnergyAxeexpedition
+  suffix: Dungeon, EnergyAxe
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPEnergyAxe
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseHeavy
+  id: LPPWeaponCaseHeavyEnergyscytheexpedition
+  suffix: Dungeon, EnergyScythe
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPEnergyscythe
+      amount: 1
+
+#region Пистолеты
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortPistolninemileExpedition
+  suffix: Dungeon, HM34
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponPistolninemileExpedition
+      amount: 1
+    - id: NFMagazineHighCapacityPistol35
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortM1911Expedition
+  suffix: Dungeon, M1911
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponPistolM1911Expedition
+      amount: 1
+    - id: NFMagazineHighCapacityPistol35
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortGoldMk58Expedition
+  suffix: Dungeon, GoldMk58
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponPistolGoldMk58Expedition
+      amount: 1
+    - id: NFMagazineHighCapacityPistol35
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortMariaExpedition
+  suffix: Dungeon, Maria
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponPistolMariaExpedition
+      amount: 1
+    - id: NFMagazineHighCapacityPistol35
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortMarsautopistolExpedition
+  suffix: Dungeon, MARS
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponMarsautopistolExpedition
+      amount: 1
+    - id: NFAmmunitionBoxPistol45
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortDesertEagleGoldExpedition
+  suffix: Dungeon, DeagleGold
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponPistolDesertEagleGoldExpedition
+      amount: 1
+    - id: NFMagazinePistol45
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortDesertEagleCamoExpedition
+  suffix: Dungeon, DeagleCamo
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponPistolDesertEagleCamoExpedition
+      amount: 1
+    - id: NFMagazinePistol45
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortDesertEagleExpedition
+  suffix: Dungeon, Deagle
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponPistolDesertEagleExpedition
+      amount: 1
+    - id: NFMagazinePistol45
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortPF20Expedition
+  suffix: Dungeon, PF20
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponPistolPF20Expedition
+      amount: 1
+    - id: LPPMagazinePistolPF20lethal
+      amount: 2
+
+#region Револьверы
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortPantherExpedition
+  suffix: Dungeon, Panther
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRevolverPantherExpedition
+      amount: 1
+    - id: NFSpeedLoaderPistol45Overpressure
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortInspectorCollectionExpedition
+  suffix: Dungeon, InspectorCollection
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRevolverInspectorCollectionExpedition
+      amount: 1
+    - id: NFSpeedLoaderPistol45
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortColtpeacemakerExpedition
+  suffix: Dungeon, InspectorCollection
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRevolverColtpeacemakerExpedition
+      amount: 1
+    - id: NFSpeedLoaderPistol45
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortColtspecialExpedition
+  suffix: Dungeon, InspectorCollection
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRevolverColtspecialExpedition
+      amount: 1
+    - id: NFSpeedLoaderPistol45
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortPeacemakerExpedition
+  suffix: Dungeon, InspectorCollection
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRevolverPeacemakerExpedition
+      amount: 1
+    - id: NFSpeedLoaderPistol45
+      amount: 2
+
+#region Дробовики
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongLemingtonExpedition
+  suffix: Dungeon, Lemington
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponShotgunLemingtonExpedition
+      amount: 1
+    - id: NFAmmunitionBoxShellShotgunBuckshot
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongRemington320bExpedition
+  suffix: Dungeon, Remington320
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponShotgunRemington320bExpedition
+      amount: 1
+    - id: NFAmmunitionBoxShellShotgunBuckshot
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongTBS2SExpedition
+  suffix: Dungeon, TBS2S
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponShotgunTBS2SExpedition
+      amount: 1
+    - id: NFAmmunitionBoxShellShotgunBuckshot
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongPredsedatelExpedition
+  suffix: Dungeon, Predsedatel
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponShotgunPredsedatelExpedition
+      amount: 1
+    - id: LPPMagazineShotgunPredsedatel
+      amount: 4
+
+#region ППшки
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongMAC21Expedition
+  suffix: Dungeon, MAC21
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponSubMachineGunMAC21Expedition
+      amount: 1
+    - id: LPPMagazineMinigun
+      amount: 2
+    - id: NFAmmunitionBoxBigRifle10
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongM90Expedition
+  suffix: Dungeon, M90
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponSubMachineGunM90Expedition
+      amount: 1
+    - id: NFMagazineSubMachineGun35
+      amount: 3
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongIL20Expedition
+  suffix: Dungeon, IL20
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponSubMachineGunIL20Expedition
+      amount: 1
+    - id: NFMagazineHighCapacityPistol35
+      amount: 3
+
+#region Винтовки
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongM1GarandExpedition
+  suffix: Dungeon, M1Garand
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponM1GarandExpedition
+      amount: 1
+    - id: LPPMagazineRifleGarand
+      amount: 3
+    - id: LPPMagazineBoxHunting
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongMarsRifleExpedition
+  suffix: Dungeon, MarsRifle
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponMarsRifleExpedition
+      amount: 1
+    - id: LPPMagazineRifleMars
+      amount: 3
+    - id: LPPMagazineBoxHunting
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongWeaponRifleLemascivExpedition
+  suffix: Dungeon, PaDeFame
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleLemascivExpedition
+      amount: 1
+    - id: NFMagazineRifle20
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongWeaponRifleLemasExpedition
+  suffix: Dungeon, LeMas
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleLemasExpedition
+      amount: 1
+    - id: NFMagazineRifle20
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongWeaponSniperLeverPravovedExpedition
+  suffix: Dungeon, Pravoved
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponSniperLeverPravovedExpedition
+      amount: 1
+    - id: NFAmmunitionBoxPistol45
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongMK556LiberatorExpedition
+  suffix: Dungeon, MK556
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleMK556LiberatorExpedition
+      amount: 1
+    - id: LPPMagazineRifleM4A1Lethal
+      amount: 2
+    - id: LPPMagazineBoxM4A1Lethal
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongRifleM14Expedition
+  suffix: Dungeon, M14
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleM14Expedition
+      amount: 1
+    - id: NFMagazineRifle30
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongRifleM1AExpedition
+  suffix: Dungeon, M1A
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleM1AExpedition
+      amount: 1
+    - id: NFMagazineRifle30
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongRifleMakeshiftAKExpedition
+  suffix: Dungeon, MakeshiftAK
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleMakeshiftAKExpedition
+      amount: 1
+    - id: NFMagazineRifle30
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongBR12ARavagerExpedition
+  suffix: Dungeon, BR12ARavenger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleBR12ARavagerExpedition
+      amount: 1
+    - id: LPPMagazineRifleM4A1Lethal
+      amount: 2
+    - id: LPPMagazineBoxM4A1Lethal
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongAekExpedition
+  suffix: Dungeon, AEK
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleAekExpedition
+      amount: 1
+    - id: NFMagazineRifle30
+      amount: 1
+    - id: NFMagazineRifle20
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongRifleHM10Expedition
+  suffix: Dungeon, HM10
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleHM10Expedition
+      amount: 1
+    - id: NFMagazineRifle30
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongRifleSTG144Expedition
+  suffix: Dungeon, STG144
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRifleSTG144Expedition
+      amount: 1
+    - id: NFMagazineRifle30
+      amount: 2
+
+#region Лазерки
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortSoleilExpedition
+  suffix: Dungeon, Soleil
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponEnergyGunSoleilExpedition
+      amount: 2
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortLaserGunExpedition
+  suffix: Dungeon, Dominator
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponLaserGunExpedition
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortHoSlaserPistolExpedition
+  suffix: Dungeon, Hospistol
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponHoSlaserPistolExpedition
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseShort
+  id: LPPWeaponCaseShortNailGunExpedition
+  suffix: Dungeon, P12Nailgun
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponNailGunExpedition
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongLaserKomissarExpedition
+  suffix: Dungeon, Komissar
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPLaserKomissarExpedition
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseLong
+  id: LPPWeaponCaseLongEnergyEM1GaussExpedition
+  suffix: Dungeon, EM1
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponEM1GaussExpedition
+      amount: 1
+#region Тяжревики
+
+- type: entity
+  parent: WeaponCaseHeavy
+  id: LPPWeaponCaseLongJudgeExpedition
+  suffix: Dungeon, Judge
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRevolverJudgeExpedition
+      amount: 1
+    - id: LPPAmmunitionBoxRifle60CP
+      amount: 1
+    - id: NFAmmunitionBoxRifle60
+      amount: 1
+
+- type: entity
+  parent: WeaponCaseHeavy
+  id: LPPWeaponCaseLongRT46Expedition
+  suffix: Dungeon, RT46
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: StorageFill
+    contents:
+    - id: LPPWeaponRevolverRT46Expedition
+      amount: 1
+    - id: LPPAmmunitionBoxRifle60CP
+      amount: 1
+    - id: NFAmmunitionBoxRifle60
+      amount: 1
+
+#region Патроны

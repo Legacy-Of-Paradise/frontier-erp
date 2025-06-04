@@ -1,0 +1,331 @@
+# region ТИР 1
+## Пистолеты
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponPistolninemile
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponPistolninemileExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponPistolM1911
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponPistolM1911Expedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponPistolGoldMk58
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponPistolGoldMk58Expedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponPistolMaria
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponPistolMariaExpedition
+
+##Винтовки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponM1Garand
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponM1GarandExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponMarsRifle
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponMarsRifleExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponRifleLemasciv
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleLemascivExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponSniperLeverPravoved
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponSniperLeverPravovedExpedition
+##Дробовики
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponShotgunPredsedatel
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponShotgunPredsedatelExpedition
+##Лазерки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier1
+  - LPPWeaponEnergyGunSoleil
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponEnergyGunSoleilExpedition
+
+# - type: entity         !!ЭТО ПРИМЕР!!
+#   parent:
+#   - BaseExpeditionWeaponTier1Syndicate
+#   - NFWeaponRevolverRitland45
+#   categories: [ HideSpawnMenu ]
+#   id: NFWeaponRevolverRitland45Expedition
+
+# region ТИР 2
+## Пистолеты
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2Syndicate
+  - LPPWeaponMarsautopistol
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponMarsautopistolExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2
+  - LPPWeaponPistolPF20
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponPistolPF20Expedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2Pirate
+  - LPPWeaponPistolDesertEagleGold
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponPistolDesertEagleGoldExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2Syndicate
+  - LPPWeaponPistolDesertEagleCamo
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponPistolDesertEagleCamoExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2
+  - LPPWeaponPistolDesertEagle
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponPistolDesertEagleExpedition
+##Револьверы
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2
+  - LPPWeaponRevolverPanther
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRevolverPantherExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2
+  - LPPWeaponRevolverInspectorCollection
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRevolverInspectorCollectionExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2
+  - LPPWeaponRevolverColtpeacemaker
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRevolverColtpeacemakerExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2Syndicate
+  - LPPWeaponRevolverColtspecial
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRevolverColtspecialExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2Syndicate
+  - LPPWeaponRevolverPeacemaker
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRevolverPeacemakerExpedition
+##Лазерки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2
+  - LPPWeaponLaserGun
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponLaserGunExpedition
+##Винтовки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2
+  - LPPWeaponRifleM14
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleM14Expedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2Pirate
+  - LPPWeaponRifleMakeshiftAK
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleMakeshiftAKExpedition
+# region ТИР 3
+#ППшки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier2Syndicate
+  - LPPWeaponSubMachineGunIL20
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponSubMachineGunIL20Expedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier3Syndicate
+  - LPPWeaponSubMachineGunMAC21
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponSubMachineGunMAC21Expedition
+##Винтовки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier3
+  - LPPWeaponRifleLemas
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleLemasExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier3
+  - LPPWeaponRifleM1A
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleM1AExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier3
+  - LPPWeaponGoliath
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponGoliathExpedition
+##Лазерки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier3Pirate
+  - LPPLaserKomissar
+  categories: [ HideSpawnMenu ]
+  id: LPPLaserKomissarExpedition
+
+# region ТИР 4
+##Дробовики
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4
+  - LPPWeaponShotgunLemington
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponShotgunLemingtonExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4Syndicate
+  - LPPWeaponShotgunRemington320b
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponShotgunRemington320bExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4Syndicate
+  - LPPWeaponShotgunTBS2S
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponShotgunTBS2SExpedition
+##Винтовки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4Syndicate
+  - LPPWeaponRifleMK556Liberator
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleMK556LiberatorExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4Syndicate
+  - LPPWeaponRifleBR12ARavager
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleBR12ARavagerExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4Syndicate
+  - LPPWeaponRifleAek
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleAekExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4
+  - LPPWeaponRifleHM10
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleHM10Expedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4Syndicate
+  - LPPWeaponRifleSTG144
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRifleSTG144Expedition
+##ППшки
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4
+  - LPPWeaponSubMachineGunM90
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponSubMachineGunM90Expedition
+##Крупнокалиберные револьверы
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4
+  - LPPWeaponRevolverJudgeLethal
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRevolverJudgeExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier4Syndicate
+  - LPPWeaponRevolverRT46
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponRevolverRT46Expedition
+
+# region ТИР 5
+##Лазерки
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier5
+  - LPPWeaponHoSlaserPistol
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponHoSlaserPistolExpedition
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier5Syndicate
+  - LPPWeaponEM1Gauss
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponEM1GaussExpedition
+##Особое
+
+- type: entity
+  parent:
+  - BaseExpeditionWeaponTier5Syndicate
+  - LPPWeaponNailGun
+  categories: [ HideSpawnMenu ]
+  id: LPPWeaponNailGunExpedition

@@ -10,6 +10,7 @@
   - type: Tag
     tags:
       - FoodSnack
+      - VoxFood
   - type: Sprite
     sprite: Objects/Consumable/Food/snacks.rsi
   - type: SolutionContainerManager
@@ -489,7 +490,6 @@
   - type: StaticPrice
     price: 200.0 # LOP edit
 
-
 - type: entity
   id: FoodSnackMREBrownieOpen
   parent: FoodSnackBase
@@ -512,6 +512,9 @@
           Quantity: 10
         - ReagentId: Theobromine
           Quantity: 3
+  - type: Tag
+    tags:
+    - VoxFood
 
 # Trash
 
@@ -537,7 +540,16 @@
       Steel: 100
   - type: SpaceGarbage
   - type: StaticPrice
-    price: 1
+    price: 1 # Frontier: 0<1
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 10
+        reagents:
+        - ReagentId: ToxinTrash
+          Quantity: 5
+  - type: Food
+    requiresSpecialDigestion: true
 
 - type: entity
   categories: [ HideSpawnMenu ]
