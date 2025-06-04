@@ -4,3 +4,7 @@ ent-PackageDelivery = посылка
     .desc = { ent-BaseDelivery.desc }
 ent-LetterDelivery = письмо
     .desc = { ent-BaseDelivery.desc }
+ent-DeliveryModifierPriority = { "" }
+    .desc = Компоненты, которые добавляются, когда доставка отмечена как приоритетная.
+ent-DeliveryModifierFragile = { "" }
+    .desc = Компоненты, которые добавляются, когда доставка отмечена как хрупкая.

@@ -1,3 +1,5 @@
+ent-BaseStash = { "" }
+    .desc = { "" }
 ent-BasePlushie = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-PlushieThrongler = плюшевый Нагибатор
@@ -71,6 +73,8 @@ ent-BaseFigurineCheapo = фигурка
     .desc = Небольшая миниатюра.
 ent-ToyAi = игрушечный ИИ
     .desc = Уменьшенное игрушечное ядро искусственного интеллекта.
+ent-BaseRubberToy = { ent-BaseItem }
+    .desc = { ent-BaseItem.desc }
 ent-ToyNuke = игрушечная ядерка
     .desc = Пластиковая модель взрывного ядерного устройства. Без урана внутри... скорее всего.
 ent-ToyIan = игрушечный иан
