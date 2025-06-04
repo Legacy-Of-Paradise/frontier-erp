@@ -6,6 +6,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 7200 # LOP edit 21600<7200
+  salary: 20000
   startingGear: CadetGear
   icon: JobIconCadetNF
   supervisors: job-supervisors-cadet

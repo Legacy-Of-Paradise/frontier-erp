@@ -19,6 +19,7 @@
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
       time: 21600 # 6 hours
+  salary: 30000
   startingGear: SeniorOfficerGear
   icon: JobIconSergeant
   supervisors: job-supervisors-bailiff

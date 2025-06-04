@@ -1,4 +1,4 @@
-﻿stack-scrap-chunk =
+stack-scrap-chunk =
     { $amount ->
         [1] кусок лома
        *[other] куски лома

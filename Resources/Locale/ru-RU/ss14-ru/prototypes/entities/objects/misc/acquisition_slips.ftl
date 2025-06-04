@@ -1,4 +1,4 @@
-﻿ent-PaperAcquisitionSlip = накладная на приобретение
+ent-PaperAcquisitionSlip = накладная на приобретение
     .desc = Накладная с деталями заказа. Может быть передана Грузовому отделу для завершения заказа.
 ent-PaperAcquisitionSlipMedical = { ent-PaperAcquisitionSlip }
     .suffix = Медицинский

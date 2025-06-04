@@ -1,4 +1,4 @@
-﻿ent-LPPWeaponCaseShortEnergyBroadswordExpedition = { ent-WeaponCaseShort }
+ent-LPPWeaponCaseShortEnergyBroadswordExpedition = { ent-WeaponCaseShort }
     .suffix = Дандж, Тесак
     .desc = { ent-WeaponCaseShort.desc }
 ent-LPPWeaponCaseHeavyEnergyAxeexpedition = { ent-WeaponCaseHeavy }

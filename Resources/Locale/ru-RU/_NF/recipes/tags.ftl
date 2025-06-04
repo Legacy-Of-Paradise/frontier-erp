@@ -1,4 +1,4 @@
-﻿# other
+# other
 construction-graph-tag-nf-butter-stick = пачка масла
 construction-graph-tag-nf-small-thruster-machine-circuitboard = плата малого двигателя
 construction-graph-tag-shell-shotgun = дробовой патрон

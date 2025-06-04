@@ -1,2 +1,2 @@
-﻿ent-EffectGravityPulse = { "" }
+ent-EffectGravityPulse = { "" }
     .desc = { "" }

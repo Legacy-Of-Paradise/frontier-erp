@@ -1,4 +1,4 @@
-﻿mutation-plant-bioluminescent = Оно светится мягким светом.
+mutation-plant-bioluminescent = Оно светится мягким светом.
 mutation-plant-kudzu = Оно растет необычайно быстро и тонко.
 mutation-plant-ligneous = Оно древесное и потребует острого инструмента для сбора.
 mutation-plant-scream = Это растение кажется почему-то нервным.

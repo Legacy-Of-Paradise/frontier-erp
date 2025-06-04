@@ -1,2 +1,2 @@
-﻿screen-text = Текст
+screen-text = Текст
 screen-color = Цвет

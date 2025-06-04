@@ -5,6 +5,7 @@
   playTimeTracker: JobHeadOfSecurity
   # LOP edit
   whitelisted: true
+  salary: 45000
   startingGear: SheriffGear
   alwaysUseSpawner: true
   icon: JobIconSheriff

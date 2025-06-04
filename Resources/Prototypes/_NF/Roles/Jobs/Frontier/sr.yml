@@ -5,6 +5,7 @@
   playTimeTracker: JobHeadOfPersonnel
   # LOP edit
   whitelisted: true
+  salary: 45000 # LOP edit
   startingGear: SrGear
   alwaysUseSpawner: true
   icon: "JobIconHeadOfPersonnel"

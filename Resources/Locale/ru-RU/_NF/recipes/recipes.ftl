@@ -1,4 +1,4 @@
-﻿recipes-reinforced-secret-door-name = усиленная потайная дверь
+recipes-reinforced-secret-door-name = усиленная потайная дверь
 recipes-shuttle-secret-door-name = потайная дверь шаттла
 recipes-uranium-secret-door-name = урановая потайная дверь
 recipes-wood-secret-door-name = деревянная потайная дверь

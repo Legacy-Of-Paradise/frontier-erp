@@ -1,4 +1,4 @@
-﻿construction-graph-component-logic-gate = логический вентиль
+construction-graph-component-logic-gate = логический вентиль
 construction-graph-component-nf-fire-bomb = зажигательная бомба
 construction-graph-component-condiment-ketchup = бутылка кетчупа
 construction-graph-component-condiment-mustard = бутылка горчицы

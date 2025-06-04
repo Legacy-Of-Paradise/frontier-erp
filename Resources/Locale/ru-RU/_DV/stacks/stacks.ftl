@@ -1,1 +1,1 @@
-﻿stack-rough-bluespace = необработанный блюспейс
+stack-rough-bluespace = необработанный блюспейс

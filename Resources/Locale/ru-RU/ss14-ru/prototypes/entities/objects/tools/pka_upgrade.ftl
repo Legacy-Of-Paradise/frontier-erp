@@ -1,4 +1,4 @@
-﻿ent-BasePKAUpgrade = Модуль ПКУ
+ent-BasePKAUpgrade = Модуль ПКУ
     .desc = Модульный комплект для протокинетического ускорителя.
 ent-PKAUpgradeDamage = Модуль ПКУ (урон)
     .desc = { ent-BasePKAUpgrade.desc }
