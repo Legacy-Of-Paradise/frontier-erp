@@ -98,7 +98,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         # startingItem: MagazineShotgun # Frontier
         priority: 2
         whitelist:
