@@ -78,7 +78,6 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        name: Magazine
         startingItem: NFMagazineShotgunDrum
         priority: 2
         whitelist:

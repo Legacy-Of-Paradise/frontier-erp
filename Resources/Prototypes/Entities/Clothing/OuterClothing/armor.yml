@@ -24,6 +24,11 @@
         Caustic: 0.9
   - type: ExplosionResistance
     damageCoefficient: 0.90
+  # LOP edit start
+  - type: StaticPrice
+    price: 125
+    vendPrice: 17000
+  # LOP edit end
 
 #Standard armor vest, allowed for security and bartenders
 - type: entity

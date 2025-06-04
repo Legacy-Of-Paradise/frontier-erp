@@ -773,16 +773,16 @@
     - SpaceCash500
     - SpaceCash1000
     - SpaceCash1000
-    # - SpaceCash2500 #LOP edit
+    # - SpaceCash2500 # LOP edit
     chance: 0.95
     offset: 0.0
     rarePrototypes:
     - SpaceCash5000
     - SpaceCash10000
-#LOP edit start
+# LOP edit start
     # - SpaceCash20000
     # - SpaceCash30000
-#LOP edit end
+# LOP edit end
     rareChance: 0.05
 
 - type: entity

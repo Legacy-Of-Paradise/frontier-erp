@@ -37,8 +37,8 @@
         paths:
         - /Maps/_NewParadise/Bluespace/cache.yml # LOP edit
     rewardAccounts:
-      Nfsd: 0.2 #LOP edit 1.0>0.2
-      Frontier: 0.2 #LOP edit
+      Nfsd: 0.2 # LOP edit 1.0>0.2
+      Frontier: 0.2 # LOP edit
 
 - type: entity
   id: BluespaceVaultError
@@ -78,8 +78,8 @@
         paths:
         - /Maps/_NewParadise/Bluespace/vault.yml # LOP edit
     rewardAccounts:
-      Nfsd: 0.2 #LOP edit 1.0>0.2
-      Frontier: 0.2 #LOP edit
+      Nfsd: 0.2 # LOP edit 1.0>0.2
+      Frontier: 0.2 # LOP edit
 
 - type: entity
   id: BluespaceVaultSmallError
@@ -120,8 +120,8 @@
         paths:
         - /Maps/_NewParadise/Bluespace/vaultsmall.yml # LOP edit
     rewardAccounts:
-      Nfsd: 0.05 #LOP edit 1.0>0.2
-      Frontier: 0.05 #LOP edit
+      Nfsd: 0.05 # LOP edit 1.0>0.2
+      Frontier: 0.05 # LOP edit
 
 - type: entity
   id: BluespaceSyndicateFTLInterception
@@ -138,7 +138,7 @@
     weight: 1
     duration: 1800
     maxDuration: 2400
-    reoccurrenceDelay: 180 #LOP edit 360>180
+    reoccurrenceDelay: 180 # LOP edit 360>180
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup
@@ -175,7 +175,7 @@
     weight: 1
     duration: 900
     maxDuration: 1200
-    reoccurrenceDelay: 120 #LOP edit 360>120
+    reoccurrenceDelay: 120 # LOP edit 360>120
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup
@@ -212,7 +212,7 @@
     weight: 1
     duration: 1800
     maxDuration: 2400
-    reoccurrenceDelay: 120 #LOP edit 260>120
+    reoccurrenceDelay: 120 # LOP edit 260>120
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup

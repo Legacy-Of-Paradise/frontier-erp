@@ -76,3 +76,14 @@ cargo-funding-alloc-console-label-save-fail = [bold]Неверное распр�
        *[-1] -
     }{ $val }%)[/color]
 cargo-shuttle-console-organics = На шаттле обнаружены органические формы жизни
+# Slip template
+cargo-acquisition-slip-body = [head=3]Детали актива[/head]
+    { "[bold]Продукт:[/bold]" } { $product }
+    { "[bold]Описание:[/bold]" } { $description }
+    { "[bold]Цена штуки:[/bold" }] ${ $unit }
+    { "[bold]Количество:[/bold]" } { $amount }
+    { "[bold]Цена:[/bold]" } ${ $cost }
+
+    { "[head=3]Детали покупки[/head]" }
+    { "[bold]Заказ:[/bold]" } { $orderer }
+    { "[bold]Причина:[/bold]" } { $reason }

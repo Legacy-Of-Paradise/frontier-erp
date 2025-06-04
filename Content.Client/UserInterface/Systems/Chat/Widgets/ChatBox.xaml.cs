@@ -155,8 +155,6 @@ public partial class ChatBox : UIWidget
 
     private void OnChannelFilter(ChatChannel channel, bool active)
     {
-        ClearChatContents(); // LOP edit
-
         foreach (var message in _controller.History)
         {
             OnMessageAdded(message.Item2);
