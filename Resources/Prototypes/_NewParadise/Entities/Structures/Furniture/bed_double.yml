@@ -1,6 +1,8 @@
 - type: entity
+  name: Bed double up
   id: LPPBedDoubleUp
   parent: BaseStructure
+  description: This is used to lie in, sleep in or strap on. Resting here provides extremely slow healing.
   components:
   - type: HealOnBuckle
     damage:
@@ -56,6 +58,8 @@
 - type: entity
   parent: LPPBedDoubleUp
   id: LPPBedDoubleDown
+  name: bed double down
+  description: Better sleep in that then on the floor i guess.
   components:
   - type: Construction
     graph: LPPBedDouble

@@ -258,7 +258,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 62.5 #LOP edit 30>62.5
+        Piercing: 62.5 # LOP edit 30>62.5
         Structural: 200
     penetrationThreshold: 360
     penetrationDamageTypeRequirement:

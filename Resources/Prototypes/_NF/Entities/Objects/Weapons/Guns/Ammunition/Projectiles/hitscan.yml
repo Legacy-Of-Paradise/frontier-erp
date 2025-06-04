@@ -54,7 +54,7 @@
   id: NFRedSpecialLaser
   damage:
     types:
-      Heat: 27.5 #LOP edit 20>27.5
+      Heat: 27.5 # LOP edit 20>27.5
   muzzleFlash: &specialMuzzleFlash
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_beam_heavy2
@@ -89,7 +89,7 @@
   id: NFPulse
   damage:
     types:
-      Heat: 30 #LOP edit 18>30
+      Heat: 30 # LOP edit 18>30
   muzzleFlash:
     sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
     state: muzzle_blue

@@ -149,13 +149,13 @@
   - type: StaticPrice # Frontier
     price: 20 # Frontier
     vendPrice: 1500 # Frontier
-#LOP edit start
+# LOP edit start
   - type: Clothing
     equipSound: /Audio/Mecha/mechmove03.ogg
     unequipSound: /Audio/Mecha/mechmove03.ogg
     equipDelay: 2
     unequipDelay: 2
-#LOP edit end
+# LOP edit end
 
 - type: entity
   abstract: true

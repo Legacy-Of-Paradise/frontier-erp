@@ -208,10 +208,10 @@
   - type: Tag
     tags:
     - WeaponShotgunKammerer
-#LOP edit start
+# LOP edit start
   - type: BallisticAmmoProvider
     capacity: 5
-#LOP edit end
+# LOP edit end
 
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier

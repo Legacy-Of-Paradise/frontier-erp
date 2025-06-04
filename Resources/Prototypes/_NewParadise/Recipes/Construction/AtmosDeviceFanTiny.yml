@@ -5,9 +5,6 @@
    targetNode: AtmosDeviceFanDirectional
    category: construction-category-structures
    canBuildInImpassable: true
-   icon:
-     sprite: Structures/Piping/Atmospherics/directionalfan.rsi
-     state: icon
    objectType: Structure
    placementMode: SnapgridCenter
    conditions:
