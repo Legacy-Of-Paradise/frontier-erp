@@ -40,7 +40,7 @@ zzzz-fmt-energy-watt-hours =
         [2] МВт-ч
         [3] ГВт-ч
         [4] ТВт-ч
-        *[5] ???
+       *[5] ???
     }
 # Used internally by the PLAYTIME() function.
 zzzz-fmt-playtime = { $hours }ч { $minutes }м
