@@ -1,5 +1,6 @@
 # Metals
 materials-scrap = Лом
+materials-bluespace = блюспейс
 # Ores
 materials-raw-scrap = Несортированный лом
 # Other
