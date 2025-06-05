@@ -1,0 +1,17 @@
+ent-NFBaseWeaponFrameEnergyPistol = { ent-NFBaseWeaponEncumbrancePistol }
+    .suffix = Фронтир
+    .desc = { ent-NFBaseWeaponEncumbrancePistol.desc }
+ent-NFBaseWeaponFrameEnergyPistolNanotrasen = { ent-NFBaseWeaponFrameEnergyPistol }
+    .desc = { ent-NFBaseWeaponFrameEnergyPistol.desc }
+ent-NFBaseWeaponFrameEnergyPistolFrontierGunsmith = { ent-NFBaseWeaponFrameEnergyPistol }
+    .desc = { ent-NFBaseWeaponFrameEnergyPistol.desc }
+ent-NFBaseWeaponEnergyPistolFireModes = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponEnergyPistolDisabler = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponEnergyGunPractice = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponEnergyPistolHitScan = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponEnergyPistolHitScanPulse = { "" }
+    .desc = { "" }

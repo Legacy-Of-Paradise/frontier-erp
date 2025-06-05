@@ -13,6 +13,12 @@ trait-clumsy-name = Неуклюжий
 trait-clumsy-desc = Ты очень неуклюжий! Некоторые действия, например стрельба, сложнее.
 trait-unclonable-name = Неклонируемый
 trait-unclonable-desc = Будь то из-за административной ошибки или аномальной генетики, ваши гены не секвенированы NT, и вы не можете быть клонированы.
+trait-lizard-accent-name = Рептильский акцент
+trait-lizard-accent-desc = Неважно, дразните вы рептилий или фанатеете по ним, вы разговариваете ссс их акцентом.
+trait-moth-accent-name = Мольный акцент
+trait-moth-accent-desc = У вас есть жужжание в некоторых словах.
+trait-dwarf-accent-name = Дварфийский акцент
+trait-dwarf-accent-desc = Вы звучите так, словно выпили пять литров эля за раз. Rock and stone!
 # These traits are bound to be replaced with a slider, but they live here for now.
 trait-tall-name = Высокий
 trait-short-name = Низкий

@@ -1,0 +1,99 @@
+<Document>
+  # RETORT-ШАТТЛ КЛАССА ПЕРЕВОЗЧИК
+  <Box>
+    <GuideEntityEmbed Entity="SignEngineering" Caption="Produce"/>
+    <GuideEntityEmbed Entity="NFPosterContrabandFsbLogo" Caption="Research"/>
+    <GuideEntityEmbed Entity="SignAtmos" Caption="Refine"/>
+  </Box>
+  <Box>
+    <GuideEntityEmbed Entity="ShuttleMapRetort" Caption=""/>
+  </Box>
+  [color=#a4885c]Размер судна:[/color] Среднее
+
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 2-4
+
+  [color=#a4885c]Тип генератора энергии:[/color] Бананиум
+
+  [color=#a4885c]Base Power Draw:[/color] 45Кв
+
+  [color=#a4885c]Экспедиции:[/color] Нет
+
+  [color=#a4885c]Консоль идентификации:[/color] Нет
+
+  [color=#a4885c]Доступные роли[/color] Авантюрист, Пилот, Наёмник
+
+  # Пилотing
+  <Box>
+    <GuideEntityEmbed Entity="ComputerShuttle"/>
+  </Box>
+  После нажатия на консоль шаттла вы увидите радарный вид шаттла. Вот шаги для пилотирования шаттла вперед и назад:
+
+  - Сначала отсоедините все шлюзы, подключенные к док-станции.
+  - Затем вы сможете непосредственно пилотировать шаттл. Управление довольно простое: [color=#028ed9]"W"[/color] и [color=#028ed9]"S"[/color] - вперед и назад, [color=#028ed9]"A"[/color] и [color=#028ed9]"D"[/color] - влево и вправо, а [color=#028ed9]"Q"[/color] и [color=#028ed9]"E"[/color] - вращение влево и вправо; [color=#028ed9]"пробел"[/color] - тормоз и точное перемещение при удержании [color=#028ed9]"пробела"[/color] во время других действий.
+
+  # Набор экипажа
+  <Box>
+    <GuideEntityEmbed Entity="ComputerStationRecords"/>
+    <GuideEntityEmbed Entity="ClothingHeadsetGrey"/>
+    <GuideEntityEmbed Entity="IntercomCommon"/>
+  </Box>
+  Как капитан корабля Nanotrasen, вы имеете право по своему усмотрению нанимать, увольнять, понижать или повышать в должности членов экипажа. Есть два способа набора экипажа для капитана: вы можете либо использовать [color=#a4885c]компьютер с записями станции[/color] на своем корабле, чтобы открыть вакансии (доступные должности зависят от корабля), либо пригласить других игроков в свою команду через внутриигровые средства связи.
+
+  # ПРЕДПОЛЕТНАЯ ПРОВЕРКА
+
+  ## 1. Электропитание
+
+  ## 1.1. Аккумуляторные блоки
+  <Box>
+    <GuideEntityEmbed Entity="SubstationBasic"/>
+    <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+
+  - Проверьте, включен ли главный выключатель блока ЛКП.
+  - Проверьте текущую нагрузку* (Вт) блока ЛКП.
+
+  ## 1.2. Генераторны  П.А.К.М.А.Н.
+  <Box>
+    <GuideEntityEmbed Entity="PortableGeneratorDKJr"/>
+    <GuideEntityEmbed Entity="FuelBananium"/>
+    <GuideEntityEmbed Entity="SignRadiation"/>
+  </Box>
+
+  - Проверте the Генераторны  П.А.К.М.А.Н. Прикручены к полу
+  - Проверте the Генераторны  П.А.К.М.А.Н. есть топливо. При длительных полетах убедитесь, что у вас достаточно топлива, чтобы обеспечить длительную выработку электроэнергии во время полета.
+  - Проверте the Генераторны  П.А.К.М.А.Н. is set to LV output.
+  - Установите целевую мощность на 45** [bold]кВ[/bold].
+  - Запустите the Генераторны  П.А.К.М.А.Н..
+
+  ## 2. Атмосфера
+
+  ## 2.1. Распределительный контур
+  <Box>
+    <GuideEntityEmbed Entity="AirCanister"/>
+    <GuideEntityEmbed Entity="GasPort"/>
+    <GuideEntityEmbed Entity="GasPressurePump"/>
+  </Box>
+
+  - Убедитесь, что баллон с воздухом надежно закреплен на порту.
+  - Проверте гастроен ли распределительный насос на давление 101 кПа.
+  - Проверьте распределительный насос. Расположен на палубе инженерного отсека.
+
+  ## 2.2. Выпускной контур
+  <Box>
+    <GuideEntityEmbed Entity="GasPressurePump"/>
+    <GuideEntityEmbed Entity="AirAlarm"/>
+  </Box>
+
+  - Проверьте насос выпускного контура. Расположен на палубе грузового отсека.
+  - Установите воздушную сигнализацию в машинном отделении на фильтрующую (широкую).
+
+  ## 3. Другие проверки
+  <Box>
+    <GuideEntityEmbed Entity="Gyroscope"/>
+    <GuideEntityEmbed Entity="GravityGeneratorMini"/>
+  </Box>
+
+  - Убедитесь, что гироскоп закреплен, подключен к сети и включен.
+  - Убедитесь, что мини-гравитационный генератор закреплен, запитан и включен.
+
+</Document>

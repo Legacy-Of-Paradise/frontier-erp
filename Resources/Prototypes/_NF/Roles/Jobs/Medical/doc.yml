@@ -5,6 +5,7 @@
   playTimeTracker: JobDirectorOfCare
   # LOP edit
   whitelisted: true
+  salary: 50000
   startingGear: DocGear
   alwaysUseSpawner: true
   icon: "JobIconDoc"
@@ -34,6 +35,7 @@
     pocket2: MedicalAppraisalTool
   storage:
     back:
-    - RubberStampDoc
-    - BoxFolderMedicalDoctor
     - StationAdministrationConsoleFlatpack
+    - MobileComputerTabletopCommsFlatpack
+    - BoxFolderMedicalDoctor
+    - RubberStampDoc

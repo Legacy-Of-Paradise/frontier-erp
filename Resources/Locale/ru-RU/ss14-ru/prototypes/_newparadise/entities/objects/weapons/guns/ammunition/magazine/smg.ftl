@@ -1,0 +1,13 @@
+ent-LPPBaseMagazineMinigun = магазин (.10)
+    .desc = { ent-BaseItem.desc }
+ent-LPPMagazineMinigunEmpty = магазин (.10 любой)
+    .suffix = пустой
+    .desc = { ent-LPPBaseMagazineMinigun.desc }
+ent-LPPMagazineMinigun = магазин (.10)
+    .desc = { ent-LPPBaseMagazineMinigun.desc }
+ent-LPPMagazineMinigunPractice = магазин (.10 учебные)
+    .desc = { ent-LPPBaseMagazineMinigun.desc }
+ent-LPPMagazineMinigunUranium = магазин (.10 урановые)
+    .desc = { ent-LPPBaseMagazineMinigun.desc }
+ent-LPPMagazineMinigunArmorPiercing = магазин (.10 бронебойцные)
+    .desc = { ent-LPPBaseMagazineMinigun.desc }

@@ -11,3 +11,4 @@ id-card-console-window-shuttle-placeholder = Нет собственного ш�
 access-id-card-console-component-no-hands-error = У вас нет рук.
 id-card-console-privileged-id = Основная ID
 id-card-console-target-id = Целевая ID
+id-card-console-damaged = Нарушена структурная целостность, содержимое выбрасывается наружу.

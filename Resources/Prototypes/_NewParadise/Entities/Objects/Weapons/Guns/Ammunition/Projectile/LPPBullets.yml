@@ -60,22 +60,6 @@
         Piercing: 19
 
 - type: entity
-  id: LPPBulletRubberM4A1
-  parent: LPPBaseBullet
-  name: Bullet (5,56x45 rubber)
-  categories: [ HideSpawnMenu ]
-  description: America! FUCK YEA!
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Blunt: 3
-    soundHit:
-      path: /Audio/Weapons/Guns/Hits/snap.ogg
-  - type: StaminaDamageOnCollide
-    damage: 24
-
-- type: entity
   id: LPPBulletPracticeM4A1
   name: bullet (5,56x45 practice)
   parent: BaseBulletPractice
@@ -123,17 +107,6 @@
         Blunt: 10
 
 - type: entity
-  id: LPPBulletMinigunRubber
-  name: minigun bullet (.10 rifle rubber)
-  parent: BaseBulletRubber
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Blunt: 1
-
-- type: entity
   id: LPPBulletMinigunPractice
   name: minigun bullet (.10 rifle practice)
   parent: BaseBulletPractice
@@ -179,7 +152,10 @@
       types:
         Blunt: 10
   - type: StaminaDamageOnCollide
-    damage: 60
+    damage: 90
+  - type: Tracer # Frontier
+    color: "#69beff" # Frontier
+    length: 3 # Frontier
 
 - type: entity
   categories: [ HideSpawnMenu ]
@@ -190,7 +166,13 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 20
-        Structural: 120
+        Blunt: 17.5
+        Structural: 350
+    penetrationThreshold: 370
+    penetrationDamageTypeRequirement:
+    - Structural
   - type: StaminaDamageOnCollide
-    damage: 10
+    damage: 60
+  - type: Tracer # Frontier
+    color: "#ff0000" # Frontier
+    length: 3 # Frontier

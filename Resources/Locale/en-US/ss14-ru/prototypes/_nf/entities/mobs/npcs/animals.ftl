@@ -8,3 +8,5 @@ ent-MobRosyMothroach = rosy mothroach
 ent-MobAngryBeeTimed = bee
     .suffix = Angry, Timed
     .desc = { ent-MobAngryBee.desc }
+ent-MobMonkeyNoInventory = { ent-MobMonkey }
+    .desc = { ent-MobMonkey.desc }

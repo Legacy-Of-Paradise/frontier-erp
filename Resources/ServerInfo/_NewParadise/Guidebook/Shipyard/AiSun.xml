@@ -1,7 +1,7 @@
 <Document>
   # AiSun-ШАТТЛ ИССЛЕДОВАТЕЛЬСКОГО КЛАССА
   <Box>
-  <GuideEntityEmbed Entity="VariedXenoArtifactItem"/>
+  <GuideEntityEmbed Entity="ComplexXenoArtifactItem"/>
   <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
   <GuideEntityEmbed Entity="OreProcessor"/>
   <GuideEntityEmbed Entity="Pickaxe"/>

@@ -2,7 +2,7 @@
   id: Orange
   parent: BaseVessel
   name: SV Orange
-  description: "Спасательный челнок cargo slash, сделанный из найденных обломков, получил некоторые повреждения." #LOP edit
+  description: "Спасательный челнок cargo slash, сделанный из найденных обломков, получил некоторые повреждения." # LOP edit
   price: 18000 #Appraisal is 15800, +5% margin - TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Scrap

@@ -29,7 +29,6 @@ namespace Content.Client.Administration.UI.Bwoink
         public AdminAHelpUIHandler AHelpHelper = default!;
 
         private PlayerInfo? _currentPlayer;
-        private readonly Dictionary<Button, ConfirmationData> _confirmations = new();
 
         public BwoinkControl()
         {
@@ -49,16 +48,6 @@ namespace Content.Client.Administration.UI.Bwoink
             UpdateButtons();
 
             AdminOnly.OnToggled += args => PlaySound.Disabled = args.Pressed;
-
-            // LOP edit start
-            this.MinWidth = 900;
-            ChannelSelector.SetWidth = 250;
-            ChatBox.SetWidth = 700;
-            ChannelSelector.HorizontalAlignment = HAlignment.Left;
-            ChatBox.HorizontalAlignment = HAlignment.Left;
-            SplitChat.State = SplitContainer.SplitState.Auto;
-            SplitChat.StretchDirection = SplitContainer.SplitStretchDirection.BottomRight;
-            // LOP edit end
 
             ChannelSelector.OnSelectionChanged += sel =>
             {
@@ -188,11 +177,6 @@ namespace Content.Client.Administration.UI.Bwoink
 
             Kick.OnPressed += _ =>
             {
-                if (!AdminUIHelpers.TryConfirm(Kick, _confirmations))
-                {
-                    return;
-                }
-
                 // TODO: Reason field
                 if (_currentPlayer is not null)
                     _console.ExecuteCommand($"kick \"{_currentPlayer.Username}\"");
@@ -206,11 +190,6 @@ namespace Content.Client.Administration.UI.Bwoink
 
             Respawn.OnPressed += _ =>
             {
-                if (!AdminUIHelpers.TryConfirm(Respawn, _confirmations))
-                {
-                    return;
-                }
-
                 if (_currentPlayer is not null)
                     _console.ExecuteCommand($"respawn \"{_currentPlayer.Username}\"");
             };

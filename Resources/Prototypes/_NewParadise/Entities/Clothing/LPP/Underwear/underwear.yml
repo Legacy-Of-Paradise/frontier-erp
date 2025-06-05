@@ -12,7 +12,7 @@
     slots: UNDERWEAR
   - type: Tag
     tags:
-      - underwear
+    - underwear
 
 
 - type: entity
@@ -33,7 +33,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -42,7 +51,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
 
 #-------белая одежда
 
@@ -53,7 +71,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/boxer_briefs.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
 
 #-----------------
 
@@ -64,7 +82,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -73,7 +100,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -82,7 +118,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -91,7 +136,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -100,7 +154,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -109,7 +172,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -118,7 +190,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -127,7 +208,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -136,7 +226,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/BoxerBriefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #-----------------------Boxer---------------------------
 
@@ -147,7 +246,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -156,7 +264,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -165,7 +283,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/boxers.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -174,7 +293,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -183,7 +311,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -192,7 +329,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -201,7 +347,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -210,7 +365,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -219,7 +383,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -228,7 +401,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -237,7 +419,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -246,7 +437,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Boxers/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Boxers/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #---------------------------------------------------
 
@@ -286,7 +486,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -295,7 +504,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -304,7 +523,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/briefs.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -313,7 +533,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -322,7 +551,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -331,7 +569,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -340,7 +587,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -349,7 +605,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -358,7 +623,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -367,7 +641,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -376,7 +659,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -385,7 +677,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Briefs/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Briefs/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #--------------------Jockstrap----------------------
 
@@ -396,7 +697,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -405,7 +715,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -414,7 +734,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/jockstrap.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -423,7 +744,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -432,7 +762,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -441,7 +780,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -450,7 +798,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -459,7 +816,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -468,7 +834,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -477,7 +852,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -486,7 +870,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -495,7 +888,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Jockstrap/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Jockstrap/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #-----------------------Mankini-------------------------
 
@@ -506,7 +908,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -515,7 +926,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -524,7 +945,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/mankini.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -533,7 +955,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -542,7 +973,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -551,7 +991,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -560,7 +1009,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -569,7 +1027,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -578,7 +1045,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -587,7 +1063,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -596,7 +1081,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -605,7 +1099,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Mankini/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Mankini/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #-------------------------------------------------
 #-----------------------Panties-------------------------
@@ -646,7 +1149,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -655,7 +1167,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -664,7 +1186,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/panties_alt.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -673,7 +1196,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -682,7 +1214,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -691,7 +1232,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -700,7 +1250,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -709,7 +1268,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -718,7 +1286,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -727,7 +1304,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -736,7 +1322,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -745,7 +1340,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesAlt/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #---------------------PantiesNeko-----------------------
 
@@ -756,7 +1360,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -765,7 +1378,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -774,7 +1397,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/panties_neko.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -783,7 +1407,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -792,7 +1425,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -801,7 +1443,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -810,7 +1461,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -819,7 +1479,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -828,7 +1497,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -837,7 +1515,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -846,7 +1533,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -855,7 +1551,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesNeko/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #---------------------PantiesThin-----------------------
 
@@ -866,7 +1571,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -875,7 +1589,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -884,7 +1608,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/panties_thin.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -893,7 +1618,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -902,7 +1636,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -911,7 +1654,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -920,7 +1672,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -929,7 +1690,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -938,7 +1708,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -947,7 +1726,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -956,7 +1744,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -965,7 +1762,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/PantiesThin/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/PantiesThin/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #-------------------------------------
 
@@ -989,7 +1795,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -998,7 +1813,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1007,7 +1832,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/thong.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1016,7 +1842,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1025,7 +1860,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1034,7 +1878,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1043,7 +1896,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1052,7 +1914,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1061,7 +1932,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1070,7 +1950,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1079,7 +1968,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1088,7 +1986,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/Thong/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/Thong/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #-------------------------------------
 #------------------ThongBabydoll--------------------
@@ -1100,7 +2007,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/black.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1109,7 +2025,17 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/blue.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#52AECC"
+
 #-------белая одежда
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1118,7 +2044,8 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/thong_babydoll.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+
 #-------------------
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1127,7 +2054,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/brown.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1136,7 +2072,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/green.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1145,7 +2090,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/grey.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1154,7 +2108,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1163,7 +2126,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/maroon.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1172,7 +2144,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/orange.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1181,7 +2162,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/red.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1190,7 +2180,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/teal.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearBase
@@ -1199,7 +2198,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/yellow.rsi
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Underwear/ThongBabydoll/white.rsi
+    clothingVisuals:
+      underwear:
+      - state: equipped-UNDERWEAR
+        color: "#FBC72D"
 
 #-------------------------------------
 #------------------CommandUnderwear--------------------

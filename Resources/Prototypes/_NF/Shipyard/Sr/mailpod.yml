@@ -12,7 +12,7 @@
   id: MailPod
   parent: BaseVessel
   name: NC Mail Pod
-  description: "Компактный, но надежный шаттл для доставки посылок." #LOP Edit
+  description: "Компактный, но надежный шаттл для доставки посылок." # LOP Edit
   price: 15000
   category: Micro
   group: Sr

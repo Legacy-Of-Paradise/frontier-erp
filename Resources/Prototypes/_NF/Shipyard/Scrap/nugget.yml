@@ -12,7 +12,7 @@
   id: Nugget
   parent: BaseVessel
   name: SV Nugget
-  description: "Летающий кусок дерева и металла, замаскированный под кухонный челнок. Не одобрен FDA." #LOP edit
+  description: "Летающий кусок дерева и металла, замаскированный под кухонный челнок. Не одобрен FDA." # LOP edit
   price: 15950 # +1450 from 10% Markup
   category: Small
   group: Scrap

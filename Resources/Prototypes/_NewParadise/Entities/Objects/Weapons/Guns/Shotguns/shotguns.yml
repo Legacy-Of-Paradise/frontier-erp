@@ -1,6 +1,6 @@
 - type: entity
   name: Lemington
-  parent: [BaseWeaponShotgun, BaseC2Contraband]
+  parent: [NFBaseWeaponShotgunChamber50, BaseC2Contraband, NFBaseWeaponFrameShotgun]
   id: LPPWeaponShotgunLemington
   description: A lever-action rifle capable of tearing a man in half.
   components:
@@ -13,13 +13,16 @@
   - type: Gun
     soundGunshot:
       path: /Audio/Corvax/Weapons/Guns/Gunshots/shotgun_alt.ogg
+    fireRate: 1.75
   - type: StaticPrice
     price: 150
     vendPrice: 61500
+  - type: NFWeaponDetails
+    class: weapon-details-class-shotgun
 
 - type: entity
   name: TBS-2s "Boomstick"
-  parent: [BaseWeaponShotgun, BaseC3SyndicateContraband]
+  parent: [NFBaseWeaponShotgunChamber50, BaseC3SyndicateContraband, NFBaseWeaponFrameShotgun]
   id: LPPWeaponShotgunTBS2S
   description: A pump action shotgun that uses two tubes for ammo storaging, uses .50 ammo.
   components:
@@ -38,10 +41,12 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 70500
+  - type: NFWeaponDetails
+    class: weapon-details-class-shotgun
 
 - type: entity
   name: Remington-320B
-  parent: [BaseWeaponShotgun, BaseC3SyndicateContraband]
+  parent: [NFBaseWeaponShotgunChamber50, BaseC3SyndicateContraband, NFBaseWeaponFrameShotgun]
   id: LPPWeaponShotgunRemington320b
   description: B stands for "BUDGET". The most cheapest pump action shotgun you can find on the market. Quantity over quality. Uses .50 ammo.
   components:
@@ -58,6 +63,8 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 63500
+  - type: NFWeaponDetails
+    class: weapon-details-class-shotgun
 
 - type: entity
   name: Predsedatel
@@ -81,9 +88,9 @@
     - Back
     - suitStorage
   - type: AmmoCounter
-  - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
+  - type: GunRequiresWield
   - type: Gun
-    fireRate: 0.5
+    fireRate: 1.25
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -114,3 +121,5 @@
   - type: Appearance
   - type: StaticPrice
     price: 1000
+  - type: NFWeaponDetails
+    class: weapon-details-class-shotgun

@@ -1,0 +1,104 @@
+- type: entity
+  id: LPPBaseMagazineMinigun
+  name: magazine (.10)
+  parent: [BaseItem, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny
+  abstract: true
+  components:
+  - type: Tag
+    tags:
+      - MagazineMinigun
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - CartridgeMinigun
+        - NFCartridgeRifle10
+    capacity: 45
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/Magnum/magnum_smg_mag.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+  - type: MagazineVisuals
+    magState: mag
+    steps: 2
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: LPPMagazineMinigunEmpty
+  name: magazine (.10 any)
+  suffix: empty
+  parent: LPPBaseMagazineMinigun
+  components:
+  - type: BallisticAmmoProvider
+    proto: null
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazineMinigun
+  name: magazine (.10)
+  parent: LPPBaseMagazineMinigun
+  components:
+  - type: BallisticAmmoProvider
+    proto: NFCartridgeRifle10
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazineMinigunPractice
+  name: magazine (.10 practice)
+  parent: LPPBaseMagazineMinigun
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPBulletMinigunPractice
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazineMinigunUranium
+  name: magazine (.10 uranium)
+  parent: LPPBaseMagazineMinigun
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunUranium
+  - type: Sprite
+    layers:
+    - state: red
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
+
+- type: entity
+  id: LPPMagazineMinigunArmorPiercing
+  name: SMG magazine (.10 armor-piercing)
+  parent: LPPBaseMagazineMinigun
+  components:
+  - type: BallisticAmmoProvider
+    proto: LPPCartridgeMinigunAP
+  - type: Sprite
+    layers:
+    - state: piercing
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]

@@ -2,7 +2,7 @@
 # Elements & basic reagents
 reagent-label-aluminium = [bold]Алюминий[/bold]
 reagent-label-carbon = [bold]Углерод[/bold]
-reagent-label-chlorine = [bold]Хлол[/bold]
+reagent-label-chlorine = [bold]Хлор[/bold]
 reagent-label-copper = [bold]Медь[/bold]
 reagent-label-ethanol = [bold]Этанол[/bold]
 reagent-label-fluorine = [bold]Фтор[/bold]

@@ -7,7 +7,7 @@
   id: Falcon
   parent: BaseVesselAntag
   name: Falcon
-  description: "Перестроенное шахтерское судно, превращенное в пиратский корабль с ангаром для хранения техники, вмещает 3-4 члена экипажа." #LOP edit
+  description: "Перестроенное шахтерское судно, превращенное в пиратский корабль с ангаром для хранения техники, вмещает 3-4 члена экипажа." # LOP edit
   price: 70000 #Selling price is 22520
   category: Medium
   group: BlackMarket

@@ -23,3 +23,22 @@
     size: Normal
   - type: StaticPrice
     price: 30
+
+- type: entity
+  parent: [BaseItem, BaseC3CultContraband]
+  id: LPPCultNarsieDust
+  name: Nar'Sie dust
+  description: Collect 654764123 dust parts and make your own Nar'Sie!
+  components:
+  - type: Sprite
+    sprite: Objects/Misc/reagent_fillings.rsi
+    state: powderpile
+    color: red
+  - type: Item
+    size: Normal
+  - type: StaticPrice
+    price: 5000
+  - type: Contraband
+    turnInValues:
+      FrontierUplinkCoin: 2
+      Doubloon: 2

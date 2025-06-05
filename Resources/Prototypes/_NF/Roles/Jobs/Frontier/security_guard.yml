@@ -6,6 +6,7 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 43200 # LOP edit 36000<43200
+  salary: 30000
   startingGear: SecurityGuardGear
   alwaysUseSpawner: true
   icon: "JobIconSecurityGuard"
@@ -33,13 +34,13 @@
   id: SecurityGuardGear
   equipment:
     eyes: ClothingEyesGlassesSunglasses #ClothingEyesGlassesSecurity
-    pocket1: WeaponPistolMk58 #WeaponPistolMk58Nonlethal
-    pocket2: MagazinePistol
+    pocket1: NFWeaponPistolUniversalNfsdLessLethal
+    pocket2: NFMagazineHighCapacityPistol35
   storage:
     back:
     - EncryptionKeyService
     - EncryptionKeySecurity
     - Flash
-    - MagazinePistol
-    - MagazinePistolRubber
+    - NFMagazineHighCapacityPistol35
+    - NFMagazineHighCapacityPistol35Rubber
     - ShipVoucherFrontierGuard

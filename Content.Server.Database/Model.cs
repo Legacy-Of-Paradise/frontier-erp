@@ -47,7 +47,7 @@ namespace Content.Server.Database
         public DbSet<BanTemplate> BanTemplate { get; set; } = null!;
         public DbSet<IPIntelCache> IPIntelCache { get; set; } = null!;
 
-        public DbSet<Sponsor> Sponsors { get; set; } = null!;  //LOP edit
+        public DbSet<Sponsor> Sponsors { get; set; } = null!;  // LOP edit
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

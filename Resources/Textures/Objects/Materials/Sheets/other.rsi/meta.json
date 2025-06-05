@@ -102,6 +102,9 @@
     },
     {
       "name": "plasma_3"
+    },
+    {
+      "name": "generic_materials"
     }
   ]
 }

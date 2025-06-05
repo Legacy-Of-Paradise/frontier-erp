@@ -23,7 +23,10 @@ time = 60.0
 discord = "https://wiki.legacyofparadise.space/discord"
 github = "https://github.com/Legacy-Of-Paradise/frontier-erp"
 wiki = "http://wiki.legacyofparadise.space/"
-patreon = "https://boosty.to/legacy-of-paradise"
+website = "https://boosty.to/legacy-of-paradise"
+
+[votekick]
+enabled = false
 
 [vote]
 restart_required_ratio = 0.85
@@ -57,3 +60,6 @@ admin_prefix = true
 rate_limit_count = 2
 rate_limit_period = 10
 admin_prefix_webhook = true
+
+[discord]
+rich_main_icon_id = "https://bit.ly/lopicon"

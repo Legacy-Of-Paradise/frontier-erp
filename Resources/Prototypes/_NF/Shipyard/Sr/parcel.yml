@@ -12,7 +12,7 @@
   id: Parcel
   parent: BaseVessel
   name: NC Parcel
-  description: "Надежный шаттл для доставки почты и посылок." #LOP Edit
+  description: "Надежный шаттл для доставки почты и посылок." # LOP Edit
   price: 18000
   category: Small
   group: Sr

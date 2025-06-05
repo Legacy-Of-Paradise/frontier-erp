@@ -1,17 +1,7 @@
 ent-LPPJudjeDreddHelmet = шлем Судьи
     .desc = Ты здесь закон!
-ent-LPPClothingHeadHelmetPG = шлем ПГ
-    .desc = Шлем для потребностей ПГ
-ent-LPPClothingHeadHatPGBeret = берет ПГ
-    .desc = Чёрный берет. На значке изображена голубая мордочка оцелота.
-ent-LPPClothingNeckPGPin = пин ПГ
-    .desc = Мортиус Глория! Вивентибус Фортуна!
-ent-LPPClothingHeadHatTacticalHelmet = тактический шлем ПГ
-    .desc = Тактический шлем для специальных операций. Оснащён фонариком.
 ent-LPPClothingHeadTSFHelmet = шлем ТСФ
     .desc = Шлем для нужд ТСФ
-ent-LPPClothingHeadUrbanHelmetPG = серый шлем ПГ
-    .desc = Шлем ПГ нейтральной расцветки. Когда не нужно выделяться.
 ent-LPPClothingHeadHelmetNPZ = шлем НПЗ
     .desc = Крепкий шлем из кевлара и пластали, защитит от мелкокалиберной пули, а так же шрапнели.
 ent-LPPClothingHeadHelmetNPZAssault = штурмовой шлем НПЗ

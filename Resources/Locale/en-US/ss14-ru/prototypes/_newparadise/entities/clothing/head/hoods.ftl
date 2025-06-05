@@ -1,7 +1,5 @@
 ent-LPPClothingHeadHelmetHardsuitKiravaHoodsec = Kirava Hoodsec
     .desc = beautiful kapeshon u Kirava
-ent-LPPClothingHeadHatHoodPGShemag = Shemag hood
-    .desc = shemag hood
 ent-LPPHelmetHardsuitHoodAtmos = Hood atmos
     .desc = { ent-ClothingHeadBase.desc }
 ent-LPPHelmetHardsuitHoodCaptain = Hood captain

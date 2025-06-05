@@ -119,7 +119,7 @@
   description: lpp-uplink-security-judge-desc
   productEntity: LPPWeaponRevolverJudgeLethal
   cost:
-    FrontierUplinkCoin: 9
+    FrontierUplinkCoin: 12
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -206,29 +206,29 @@
         - Bailiff
         - Sheriff
 
-- type: listing
-  id: LPPUplinkSecurityEnergyshotgun
-  name: lpp-uplink-security-energyshotgun-name
-  description: lpp-uplink-security-energyshotgun-desc
-  productEntity: WeaponEnergyShotgun
-  cost:
-    FrontierUplinkCoin: 18
-  categories:
-    - UplinkSecurityWeapons
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - Sheriff
+# - type: listing
+#   id: LPPUplinkSecurityEnergyshotgun
+#   name: lpp-uplink-security-energyshotgun-name
+#   description: lpp-uplink-security-energyshotgun-desc
+#   productEntity: LPPWeaponEnergyShotgun
+#   cost:
+#     FrontierUplinkCoin: 18
+#   categories:
+#     - UplinkSecurityWeapons
+#   conditions:
+#     - !type:StoreWhitelistCondition
+#       whitelist:
+#         tags:
+#           - SecurityUplink
+#     - !type:BuyerJobCondition
+#       whitelist:
+#         - Sheriff
 
 - type: listing
   id: LPPUplinkSecurityKammerer
   name: lpp-uplink-security-kammerer-name
   description: lpp-uplink-security-kammerer-desc
-  productEntity: WeaponShotgunKammerer
+  productEntity: NFWeaponShotgunKammerer
   cost:
     FrontierUplinkCoin: 2
   categories:
@@ -243,7 +243,7 @@
   id: LPPUplinkSecurityTypewriter
   name: lpp-uplink-security-typewriter-name
   description: lpp-uplink-security-typewriter-desc
-  productEntity: WeaponSubMachineGunTypewriter
+  productEntity: NFWeaponSubMachineGunTypewriter
   cost:
     FrontierUplinkCoin: 6
   categories:
@@ -305,24 +305,9 @@
   description: uplink-security-goliath-desc
   productEntity: LPPWeaponGoliath
   cost:
-    FrontierUplinkCoin: 3
+    FrontierUplinkCoin: 8
   categories:
     - UplinkSecurityWeapons
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-
-- type: listing
-  id: UplinkSecurityBoxAntiMaterielCocnterePiercing
-  name: uplink-security-antimaterielcp-name
-  description: uplink-security-antimaterielcp-desc
-  productEntity: LPPMagazineBoxAntiMaterielCocnterePiercing
-  cost:
-    FrontierUplinkCoin: 1
-  categories:
-    - UplinkSecurityAmmo
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:
@@ -333,24 +318,9 @@
   id: UplinkSecurityBoxAntiMateriel
   name: uplink-security-antimateriel-name
   description: uplink-security-antimateriel-desc
-  productEntity: MagazineBoxAntiMateriel
+  productEntity: NFAmmunitionBoxRifle60
   cost:
     FrontierUplinkCoin: 2
-  categories:
-    - UplinkSecurityAmmo
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-
-- type: listing
-  id: UplinkSecurityBoxAntiMaterielNonLethal
-  name: uplink-security-antimaterielnl-name
-  description: uplink-security-antimaterielnl-desc
-  productEntity: LPPMagazineBoxAntiMaterielNonLethal
-  cost:
-    FrontierUplinkCoin: 1
   categories:
     - UplinkSecurityAmmo
   conditions:
@@ -375,23 +345,8 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityBox20PistolRubber
-  name: uplink-security-box20rubber-name
-  description: uplink-security-box20rubber-desc
-  productEntity: LPPBox20PistolRubber
-  cost:
-    FrontierUplinkCoin: 1
-  categories:
-    - UplinkSecurityAmmo
-  conditions:
-    - !type:StoreWhitelistCondition
-      whitelist:
-        tags:
-          - SecurityUplink
-
-- type: listing
   id: UplinkSecuritykDuffelNFSDUpgraded
-  name:  uplink-security-duffelupgraded-name
+  name: uplink-security-duffelupgraded-name
   description: uplink-security-duffelupgraded-desc
   productEntity: LPPClothingBackpackDuffelNFSDUpgraded
   cost:
@@ -423,7 +378,7 @@
   id: UplinkSecurityBoxMagazinePistolSubMachineGun
   name: uplink-security-boxmagazinesubmachinegun-name
   description: uplink-security-boxmagazinesubmachinegun-desc
-  productEntity: BoxMagazinePistolSubMachineGun
+  productEntity: NFMagazineSubMachineGun35
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -438,9 +393,9 @@
   id: UplinkSecurityGrenadeFrag
   name: uplink-security-GrenadeFrag-name
   description: uplink-security-GrenadeFrag-desc
-  productEntity: GrenadeFrag
+  productEntity: NFCartridgeRocketMini
   cost:
-    FrontierUplinkCoin: 5
+    FrontierUplinkCoin: 3
   categories:
     - UplinkSecurityAmmo
   conditions:
@@ -458,9 +413,9 @@
   id: LPPUplinkSecurityWeaponLauncherNfsdLake
   name: lpp-uplink-security-launchernfsdake-name
   description: lpp-uplink-security-launchernfsdake-desc
-  productEntity: WeaponLauncherNfsdLake
+  productEntity: NFWeaponLauncherGrenadeNfsd
   cost:
-    FrontierUplinkCoin: 2
+    FrontierUplinkCoin: 4
   categories:
     - UplinkSecurityWeapons
   conditions:
@@ -525,10 +480,30 @@
           - SecurityUplink
 
 - type: listing
-  id: UplinkSecurityBoxMagazineRifleM4A1Rubber
-  name: uplink-security-magazinem4a1rubber-name
-  description: uplink-security-magazinem4a1rubber-desc
-  productEntity: LPPBoxMagazineRifleM4A1Rubber
+  id: LPPUplinkSecuritriEnergySwordNfsd
+  name: lpp-uplink-security-energyswordnfsd-name
+  description: lpp-uplink-security-energyswordnfsd-desc
+  productEntity: EnergySwordNfsd
+  cost:
+    FrontierUplinkCoin: 12
+  categories:
+    - UplinkSecurityWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - Bailiff
+        - SeniorOfficer
+        - Sheriff
+
+- type: listing
+  id: UplinkSecurityAmmunitionBoxRifle60CP
+  name: uplink-security-antimaterielcp-name
+  description: uplink-security-antimaterielcp-desc
+  productEntity: LPPAmmunitionBoxRifle60CP
   cost:
     FrontierUplinkCoin: 1
   categories:
@@ -540,14 +515,14 @@
           - SecurityUplink
 
 - type: listing
-  id: LPPUplinkSecurityMusket
-  name: lpp-uplink-security-musket-name
-  description: lpp-uplink-security-musket-desc
-  productEntity: Musket
+  id: UplinkSecurityAmmunitionBoxRifle60NonLethal
+  name: uplink-security-antimaterielnl-name
+  description: uplink-security-antimaterielnl-desc
+  productEntity: LPPAmmunitionBoxRifle60NonLethal
   cost:
     FrontierUplinkCoin: 1
   categories:
-    - UplinkSecurityWeapons
+    - UplinkSecurityAmmo
   conditions:
     - !type:StoreWhitelistCondition
       whitelist:

@@ -5,7 +5,6 @@ using Content.Server.Afk;
 using Content.Server.Afk.Events;
 using Content.Server.GameTicking;
 using Content.Server.GameTicking.Events;
-using Content.Server.Mind;
 using Content.Server.Preferences.Managers;
 using Content.Server.Station.Events;
 using Content.Shared.CCVar;
@@ -22,7 +21,7 @@ using Robust.Shared.Network;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
-#if LOP_Sponsors
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
 
@@ -36,7 +35,6 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
     [Dependency] private readonly IAdminManager _adminManager = default!;
     [Dependency] private readonly IAfkManager _afk = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
-    [Dependency] private readonly MindSystem _minds = default!;
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly IServerPreferencesManager _preferencesManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypes = default!;
@@ -126,7 +124,7 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
     private void OnRoleEvent(RoleEvent ev)
     {
-        if (_minds.TryGetSession(ev.Mind, out var session))
+        if (_playerManager.TryGetSessionById(ev.Mind.UserId, out var session))
             _tracking.QueueRefreshTrackers(session);
     }
 
@@ -206,13 +204,13 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         // LOP edit start: sponsor system
         var tier = 0;
-#if LOP_Sponsors
+#if LOP
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(player.UserId, out var sinfo))
             tier = sinfo.Tier;
 #endif
         return JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?)_preferencesManager.GetPreferences(player.UserId).SelectedCharacter
-#if LOP_Sponsors
+#if LOP
         , tier
 #endif
         );
@@ -230,19 +228,19 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
             playTimes = new Dictionary<string, TimeSpan>();
         }
 
-        //LOP edit start: sponsor system
+        // LOP edit start: sponsor system
         int tier = 0;
-#if LOP_Sponsors
+#if LOP
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(player.UserId, out var sinfo))
             tier = sinfo.Tier;
 #endif
-        //LOP edit end
+        // LOP edit end
 
         foreach (var job in _prototypes.EnumeratePrototypes<JobPrototype>())
         {
             if (JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(player.UserId).SelectedCharacter
-#if LOP_Sponsors
+#if LOP
             , tier
 #endif
             ))
@@ -269,18 +267,18 @@ public sealed class PlayTimeTrackingSystem : EntitySystem
 
         // LOP edit start
         int tier = 0;
-#if LOP_Sponsors
+#if LOP
         //Logger.Error("RemoveDisallowedJobs. Asking for Tier");
         var sponsors = IoCManager.Resolve<SponsorsManager>();
         if (sponsors.TryGetInfo(userId, out var sinfo))
             tier = sinfo.Tier;
 #endif
-        //LOP edit end
+        // LOP edit end
         for (var i = 0; i < jobs.Count; i++)
         {
             if (_prototypes.TryIndex(jobs[i], out var job)
                 && JobRequirements.TryRequirementsMet(job, playTimes, out _, EntityManager, _prototypes, (HumanoidCharacterProfile?) _preferencesManager.GetPreferences(userId).SelectedCharacter
-#if LOP_Sponsors
+#if LOP
                 , tier
 #endif
                 ))

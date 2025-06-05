@@ -30,7 +30,11 @@
   Взять в бою целую станцию - задача не из легких, но, к счастью, вы хорошо подготовлены к ней. У каждого оперативника есть [color=#a4885c]аплинк[/color]. В комплекте с ним идет 40 [color=#a4885c]телекристаллов[/color], которые можно использовать для покупки снаряжения. То, что вы получите, зависит от стратегии, выбранной вашим командиром или голосованием команды. Только ваш командир и агент будут иметь пассажирский доступ, но не будут иметь доступа к внешним шлюзам. Это значит, что вам понадобится что-то, чтобы взломать или взорвать путь на станцию. В целом вам понадобится оружие, что-то для взлома дверей, медицинские препараты и разное по мелочи.
 
   <Box>
-    <GuideEntityEmbed Entity="BaseUplinkRadio40TC" Caption="Аплинк"/>
+    <GuideEntityEmbed Entity="NFWeaponLightMachineGunL6" Caption="Оружие"/> <!-- WeaponLightMachineGunL6<NFWeaponLightMachineGunL6 -->
+    <GuideEntityEmbed Entity="NFAmmunitionBoxRifle30" State="icon" Caption="Патроны"/> <!-- MagazineLightRifleBox<NFAmmunitionBoxRifle30 -->
+    <GuideEntityEmbed Entity="C4" Caption="Взрывное"/>
+    <GuideEntityEmbed Entity="ClothingOuterHardsuitJuggernaut" Caption="Одежда"/>
+    <GuideEntityEmbed Entity="Stimpack" Caption="Химикаты"/>
   </Box>
 
   ## Как добраться до станции
@@ -84,5 +88,3 @@
 
   Если вы чувствуете, что не сможете полностью победить в роли члена экипажа или оперативника, рассмотрите эти варианты компромисса.
 </Document>
-
-

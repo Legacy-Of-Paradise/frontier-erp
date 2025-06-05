@@ -1,0 +1,13 @@
+ent-BoxFolderStc = папка ДДС
+    .desc = Папка, заполненная бланками документации для диспетчерской службы станции.
+    .suffix = Бланки
+ent-PaperWrittenStcFormCitationParking = штраф за парковку
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenStcFormCitationTraffic = штраф за нарушение ПДД
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenStcFormProsecutionRequest = запрос на судебное преследование
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenStcFormTrafficLog = журнал движения
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenStcFormWellnessCheck = проверка благополучия
+    .desc = { ent-Paper.desc }

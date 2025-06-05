@@ -132,7 +132,7 @@
       displayName: Wallet
     # End Frontier: wallet slot
     # LOP edit start
-    - name: breast # LOP edit: slot breast
+    - name: breast
       slotTexture: breast
       slotFlags: BREAST
       stripTime: 6
@@ -142,7 +142,7 @@
       # whitelist:
       #   tags:
       #     - breast
-    - name: underwear # LOP edit: slot underwear
+    - name: underwear
       slotTexture: underwear
       slotFlags: UNDERWEAR
       stripTime: 6
@@ -152,7 +152,7 @@
       # whitelist:
       #   tags:
       #     - underwear
-    - name: socks # LOP edit: slot socks
+    - name: socks
       slotTexture: socks
       slotFlags: SOCKS
       stripTime: 6

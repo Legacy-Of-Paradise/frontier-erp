@@ -12,7 +12,7 @@
   id: Broadhead
   parent: BaseVessel
   name: NSF Broadhead
-  description: "Детективный корабль среднего размера с оборудованием для вскрытия трупов, допросов и детальных расследований." #LOP edit
+  description: "Детективный корабль среднего размера с оборудованием для вскрытия трупов, допросов и детальных расследований." # LOP edit
   price: 60000 # TODO: fix these values, getting tests to pass - Whatstone
   category: Medium
   group: Security

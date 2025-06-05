@@ -22,13 +22,13 @@ public sealed class VoiceMaskBoundUserInterface : BoundUserInterface
 
         _window = this.CreateWindow<VoiceMaskNameChangeWindow>();
         _window.ReloadVerbs(_protomanager);
-        _window.ReloadVoices(_protomanager);    //LOP edit
+        _window.ReloadVoices(_protomanager);    // LOP edit
         _window.AddVerbs();
-        _window.AddVoices();    //LOP edit
+        _window.AddVoices();    // LOP edit
 
         _window.OnNameChange += OnNameSelected;
         _window.OnVerbChange += verb => SendMessage(new VoiceMaskChangeVerbMessage(verb));
-        _window.OnVoiceChange += voice => SendMessage(new VoiceMaskChangeVoiceMessage(voice));  //LOP edit
+        _window.OnVoiceChange += voice => SendMessage(new VoiceMaskChangeVoiceMessage(voice));  // LOP edit
     }
 
     private void OnNameSelected(string name)

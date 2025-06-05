@@ -12,7 +12,7 @@
   id: Barge
   parent: BaseVessel
   name: NC Barge
-  description: "Средний корабль, оснащённый утилизатором отходов и полноценным баром." #LOP Edit
+  description: "Средний корабль, оснащённый утилизатором отходов и полноценным баром." # LOP Edit
   price: 49000 # Appraises for 42901, margin of ~10% - TODO: fix these values, getting tests to pass - Whatstone
   category: Medium
   group: Shipyard

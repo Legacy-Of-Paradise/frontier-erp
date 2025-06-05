@@ -122,21 +122,6 @@
 
 - type: entity
   parent: ClothingUniformBase
-  id: LPPClothingUniformMaika
-  name: PG maika
-  description: Maika for all PG army's needs
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Clothing/Uniforms/WTF/pg-maika.rsi
-  - type: Clothing
-    sprite: _NewParadise/Clothing/Uniforms/WTF/pg-maika.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.9 # Those overalls ARE sturdy.
-
-- type: entity
-  parent: ClothingUniformBase
   id: LPPClothingUniformJumpsuitFleece
   name: Stylish fleece jumpsuit
   description: Clothes for those who prefer reading cells and tactics.

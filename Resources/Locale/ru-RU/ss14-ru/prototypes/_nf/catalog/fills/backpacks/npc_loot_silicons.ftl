@@ -1,5 +1,5 @@
 ent-RogueSiliconGiftBox = вещмешок одичавшего юнита
-    .suffix = NPC Loot
+    .suffix = Лут НПС
     .desc = { ent-BaseItem.desc }
 ent-ClothingBackpackRogueSiliconT0 = { ent-RogueSiliconGiftBox }
     .desc = { ent-RogueSiliconGiftBox.desc }

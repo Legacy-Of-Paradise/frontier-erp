@@ -25,9 +25,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
-    # autoCycle: false
     capacity: 10
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     whitelist:
       tags:
       - CartridgeMagnum
@@ -82,15 +81,15 @@
 
 - type: entity
   name: Goliath
-  parent: [LPPBaseWeaponSniper, BaseGunWieldable]
+  parent: [LPPBaseWeaponSniper, BaseGunWieldable, NFBaseWeaponRifleChamber60]
   id: LPPWeaponGoliath
   description: Specialised "tool" for breaching . Uses .60 anti-materiel ammo.
   components:
   - type: Item
     size: Ginormous
   - type: ClothingSpeedModifier
-    walkModifier: 0.9
-    sprintModifier: 0.9
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: Sprite
     sprite: _NewParadise/Objects/Weapons/Guns/Snipers/Goliath.rsi
     state: base
@@ -109,11 +108,11 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - CartridgeAntiMateriel
-    capacity: 3
-    proto: CartridgeAntiMateriel
+      - NFCartridgeRifle60
+    capacity: 2
+    proto: NFCartridgeRifle60
   - type: GunRequiresWield
   - type: EyeCursorOffset # Frontier
-    maxOffset: 0 # Frontier
-    pvsIncrease: 4.5 # Frontier
+    maxOffset: 7 # Frontier
+    pvsIncrease: 7 # Frontier
   - type: CursorOffsetRequiresWield

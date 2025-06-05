@@ -1,9 +1,9 @@
 ent-SyndieDuffelGiftBox = вещмешок секретного флота Синдиката
     .desc = Лут-боксы здесь?
-    .suffix = NPC Loot
+    .suffix = Лут НПС
 ent-SyndieMessengerGiftBox = вещмешок секретного флота Синдиката
     .desc = Лут-боксы здесь?
-    .suffix = NPC Loot
+    .suffix = Лут НПС
 ent-ClothingBackpackSyndicateCaptainLootA = { ent-SyndieMessengerGiftBox }
     .desc = { ent-SyndieMessengerGiftBox.desc }
 ent-ClothingBackpackSyndicateCaptainLootB = { ent-ClothingBackpackSyndicateCaptainLootA }

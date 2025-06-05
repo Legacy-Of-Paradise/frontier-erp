@@ -90,11 +90,11 @@
       map: [ "blade" ]
   - type: Item
     sprite: Objects/Weapons/Melee/e_sword-inhands.rsi
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 150
     vendPrice: 59500
-#LOP edit end
+# LOP edit end
 
 - type: entity
   name: energy dagger
@@ -159,11 +159,11 @@
     energy: 1.5
     color: white
     netsync: false
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 150
     vendPrice: 19500
-#LOP edit end
+# LOP edit end
 
 - type: entity
   name: pen
@@ -277,11 +277,11 @@
         map: [ "blade" ]
   - type: Item
     sprite: Objects/Weapons/Melee/e_cutlass.rsi
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 150
     vendPrice: 41000
-#LOP edit end
+# LOP edit end
 
 - type: entity
   name: double-bladed energy sword
@@ -410,3 +410,12 @@
   components: # could add energy-draining like the L6C
   - type: Wieldable
     freeHandsRequired: 0 # because borg has no off-hand to wield with.  Without this, it will be unable to activate the esword
+
+- type: entity
+  parent: [ EnergyDaggerLoud, BaseXenoborgContraband ]
+  id: EnergyDaggerLoudBlue
+  suffix: blue
+  components:
+  - type: EnergySword
+    colorOptions:
+    - "#2288ff" # can only be blue

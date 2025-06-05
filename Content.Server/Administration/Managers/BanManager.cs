@@ -473,9 +473,9 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         var targetName = banDef.UserId == null
             ? Loc.GetString("server-ban-no-name", ("hwid", hwidString))
             : (await _db.GetPlayerRecordByUserId(banDef.UserId.Value))?.LastSeenUserName ?? Loc.GetString("server-ban-no-name", ("hwid", hwidString));
-        var expiresString = banDef.ExpirationTime == null ? Loc.GetString("server-ban-string-never") : "" + TimeZoneInfo.ConvertTimeFromUtc(
-    banDef.ExpirationTime.Value.UtcDateTime,
-    TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time"));
+        var expiresString = banDef.ExpirationTime == null
+            ? Loc.GetString("server-ban-string-never")
+            : $"<t:{((DateTimeOffset)banDef.ExpirationTime.Value.UtcDateTime).ToUnixTimeSeconds()}:R>";
         var reason = banDef.Reason;
         var id = banDef.Id;
         var round = "" + banDef.RoundId;
@@ -573,9 +573,9 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         var targetName = banDef.UserId == null
             ? Loc.GetString("server-ban-no-name", ("hwid", hwidString))
             : (await _db.GetPlayerRecordByUserId(banDef.UserId.Value))?.LastSeenUserName ?? Loc.GetString("server-ban-no-name", ("hwid", hwidString));
-        var expiresString = banDef.ExpirationTime == null ? Loc.GetString("server-ban-string-never") : "" + TimeZoneInfo.ConvertTimeFromUtc(
-    banDef.ExpirationTime.Value.UtcDateTime,
-    TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time"));
+        var expiresString = banDef.ExpirationTime == null
+            ? Loc.GetString("server-ban-string-never")
+            : $"<t:{((DateTimeOffset)banDef.ExpirationTime.Value.UtcDateTime).ToUnixTimeSeconds()}:R>";
         var reason = banDef.Reason;
         var id = banDef.Id;
         var round = "" + banDef.RoundId;

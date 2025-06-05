@@ -4,11 +4,11 @@
   loadouts:
   - SeniorOfficerClothingUniformJumpsuitSeniorOfficer
   - SeniorOfficerClothingUniformJumpskirtSeniorOfficer
-  - LPPNfsdClothingUniformJumpsuitSergant #LOP edit
+  - LPPNfsdClothingUniformJumpsuitSergant # LOP edit
   fallbacks:
   - SeniorOfficerClothingUniformJumpsuitSeniorOfficer
   - SeniorOfficerClothingUniformJumpskirtSeniorOfficer
-  - LPPNfsdClothingUniformJumpsuitSergant #LOP edit
+  - LPPNfsdClothingUniformJumpsuitSergant # LOP edit
 
 - type: loadoutGroup
   id: SeniorOfficerOuterClothing

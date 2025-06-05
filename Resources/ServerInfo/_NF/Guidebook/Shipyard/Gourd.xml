@@ -1,14 +1,14 @@
 <Document>
   # GOURD-ШАТТЛ ИНЖЕНЕРНОГО КЛАССА
   <Box>
-  <GuideEntityEmbed Entity="VariedXenoArtifactItem"/>
+  <GuideEntityEmbed Entity="ComplexXenoArtifactItem"/>
   <GuideEntityEmbed Entity="MachineArtifactAnalyzer"/>
   <GuideEntityEmbed Entity="ComputerTabletopAnalysisConsole"/>
   <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
   </Box>
   <Box>
   <GuideEntityEmbed Entity="ClothingMaskGasExplorer"/>
-  <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
+  <GuideEntityEmbed Entity="NFWeaponPka"/>
   <GuideEntityEmbed Entity="IngotSilver"/>
   <GuideEntityEmbed Entity="MobRandomCargoCorpse"/>
   </Box>
@@ -22,7 +22,7 @@
 
 	[color=#a4885c]Консоль идентификации:[/color] Нет
 
-  ""GOURD" - это научно-экспедиционное судно со специальной взрывной камерой."
+  "GOURD" - это научно-экспедиционное судно со специальной взрывной камерой."
 
     # ПРЕДПОЛЕТНАЯ ПРОВЕРКА ОБОРУДОВАНИЯ
 

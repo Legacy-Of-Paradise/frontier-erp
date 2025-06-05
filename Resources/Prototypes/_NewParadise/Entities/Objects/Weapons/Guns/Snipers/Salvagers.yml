@@ -12,7 +12,7 @@
     size: Huge
   - type: AmmoCounter
   - type: Gun
-    fireRate: 4.5
+    fireRate: 2.25
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 44
@@ -58,6 +58,8 @@
   - type: MeleeRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: StaticPrice
+    price: 1200
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -73,7 +75,7 @@
     size: Huge
   - type: AmmoCounter
   - type: Gun
-    fireRate: 5
+    fireRate: 2
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 64
@@ -121,6 +123,8 @@
   - type: EyeCursorOffset # Frontier
     maxOffset: 4 # Frontier
     pvsIncrease: 0.5 # Frontier
+  - type: StaticPrice
+    price: 700
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -149,7 +153,7 @@
     minAngle: -63
     maxAngle: -63
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 8
+    rechargeCooldown: 3.75
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletLebel
@@ -183,6 +187,8 @@
   - type: EyeCursorOffset # Frontier
     maxOffset: 1.5 # Frontier
     pvsIncrease: 0.15 # Frontier
+  - type: StaticPrice
+    price: 1500
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -208,7 +214,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/kinetic_accel.ogg
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 8
+    rechargeCooldown: 4.25
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletchargebarrage
@@ -239,6 +245,8 @@
   - type: MeleeRequiresWield
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: StaticPrice
+    price: 1000
 
 - type: entity
   parent: [BaseItem, BaseC1Contraband]
@@ -254,7 +262,7 @@
     size: Small
   - type: AmmoCounter
   - type: Gun
-    fireRate: 1.2
+    fireRate: 3.5
     selectedMode: SemiAuto
     angleDecay: 45
     minAngle: 2
@@ -264,7 +272,7 @@
     soundGunshot:
       path: /Audio/Weapons/plasma_cutter.ogg
   - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 4
+    rechargeCooldown: 1.75
     rechargeSound: /Audio/Weapons/Guns/MagIn/kinetic_reload.ogg
   - type: BasicEntityAmmoProvider
     proto: LPPBulletChargeWeak
@@ -288,3 +296,5 @@
       collection: MetalThud
   - type: AltFireMelee # Frontier
     attackType: Light # Frontier
+  - type: StaticPrice
+    price: 250

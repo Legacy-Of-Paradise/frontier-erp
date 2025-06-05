@@ -20,6 +20,7 @@ using Content.Client.Replay;
 using Content.Client.Screenshot;
 using Content.Client.Singularity;
 using Content.Client.Stylesheets;
+using Content.Client.UserInterface;
 using Content.Client.Viewport;
 using Content.Client.Voting;
 using Content.Shared.Ame.Components;
@@ -38,7 +39,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
 using Content.Client._NF.Emp.Overlays; // Frontier
-#if LOP_Sponsors
+#if LOP
 using Content.Client._NewParadise.Sponsors;
 using Content.Client._NC.DiscordAuth;
 using Content.Client._PrivateClient._NC.JoinQueue;
@@ -79,10 +80,11 @@ namespace Content.Client.Entry
         [Dependency] private readonly ILogManager _logManager = default!;
         [Dependency] private readonly DebugMonitorManager _debugMonitorManager = default!;
         [Dependency] private readonly TitleWindowManager _titleWindowManager = default!;
+        [Dependency] private readonly IEntitySystemManager _entitySystemManager = default!;
 
-        //LOP edit start
+        // LOP edit start
         [Dependency] private readonly TTSManager _ttsManager = default!;
-#if LOP_Sponsors
+#if LOP
         [Dependency] private readonly SponsorsManager _sponsorsManager = default!;
         [Dependency] private readonly DiscordAuthManager _discordAuthManager = default!;
         [Dependency] private readonly JoinQueueManager _joinQueue = default!;
@@ -156,7 +158,7 @@ namespace Content.Client.Entry
 
             // LOP edit start
             _ttsManager.Initialize();
-#if LOP_Sponsors
+#if LOP
             _sponsorsManager.Initialize();
             _discordAuthManager.Initialize();
             _joinQueue.Initialize();
@@ -254,6 +256,15 @@ namespace Content.Client.Entry
             if (level == ModUpdateLevel.FramePreEngine)
             {
                 _debugMonitorManager.FrameUpdate();
+            }
+
+            if (level == ModUpdateLevel.PreEngine)
+            {
+                if (_baseClient.RunLevel is ClientRunLevel.InGame or ClientRunLevel.SinglePlayerGame)
+                {
+                    var updateSystem = _entitySystemManager.GetEntitySystem<BuiPreTickUpdateSystem>();
+                    updateSystem.RunUpdates();
+                }
             }
         }
     }

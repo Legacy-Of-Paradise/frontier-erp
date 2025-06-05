@@ -48,7 +48,7 @@
   parent: LPPBaseMagazineShotgunPredsedatel
   components:
   - type: BallisticAmmoProvider
-    proto: ShellShotgun
+    proto: NFShellShotgunBuckshot
   - type: Sprite
     layers:
     - state: pellets

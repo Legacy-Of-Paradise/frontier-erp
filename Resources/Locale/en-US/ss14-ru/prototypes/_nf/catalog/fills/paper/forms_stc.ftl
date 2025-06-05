@@ -1,0 +1,13 @@
+ent-BoxFolderStc = stc folder
+    .desc = A folder filled with station traffic control paperwork templates.
+    .suffix = Forms
+ent-PaperWrittenStcFormCitationParking = parking citation
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenStcFormCitationTraffic = traffic citation
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenStcFormProsecutionRequest = prosecution request
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenStcFormTrafficLog = traffic log
+    .desc = { ent-Paper.desc }
+ent-PaperWrittenStcFormWellnessCheck = wellness check
+    .desc = { ent-Paper.desc }

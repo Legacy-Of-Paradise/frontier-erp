@@ -3,15 +3,17 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Server.Database;
+using Content.Shared._NF.CCVar;
 using Content.Shared.CCVar;
 using Content.Shared.Preferences;
 using Robust.Server.Player;
 using Robust.Shared.Configuration;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
-using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
-#if LOP_Sponsors
+using Content.Shared.Humanoid.Markings; //LOP edit
+using YamlDotNet.Core.Tokens;
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 #endif
 
@@ -28,12 +30,12 @@ namespace Content.Server.Preferences.Managers
         [Dependency] private readonly IServerDbManager _db = default!;
         [Dependency] private readonly IPlayerManager _playerManager = default!;
         [Dependency] private readonly IDependencyCollection _dependencies = default!;
-        [Dependency] private readonly IPrototypeManager _protos = default!;
         [Dependency] private readonly ILogManager _log = default!;
         [Dependency] private readonly UserDbDataManager _userDb = default!;
         [Dependency] private readonly IEntityManager _entityManager = default!;
+        [Dependency] private readonly MarkingManager _markingManager = default!;    //LOP edit
 
-#if LOP_Sponsors
+#if LOP
         [Dependency] private readonly SponsorsManager _sponsors = default!;
 #endif
 
@@ -66,7 +68,7 @@ namespace Content.Server.Preferences.Managers
             }
 
             if (index < 0 || index >=
-#if LOP_Sponsors
+#if LOP
             GetMaxUserCharacterSlots(userId)
 #else
             MaxCharacterSlots
@@ -92,7 +94,7 @@ namespace Content.Server.Preferences.Managers
             }
         }
 
-#if LOP_Sponsors
+#if LOP
         private int GetMaxUserCharacterSlots(NetUserId userId)
         {
             var maxSlots = _cfg.GetCVar(CCVars.GameMaxCharacterSlots);
@@ -112,7 +114,7 @@ namespace Content.Server.Preferences.Managers
                 await SetProfile(userId, message.Slot, message.Profile);
         }
 
-        public async Task SetProfile(NetUserId userId, int slot, ICharacterProfile profile)
+        public async Task SetProfile(NetUserId userId, int slot, ICharacterProfile profile, bool validateFields = true) // Frontier: add validateFields
         {
             if (!_cachedPlayerPrefs.TryGetValue(userId, out var prefsData) || !prefsData.PrefsLoaded)
             {
@@ -121,7 +123,7 @@ namespace Content.Server.Preferences.Managers
             }
 
             if (slot < 0 || slot >=
-#if LOP_Sponsors
+#if LOP
             GetMaxUserCharacterSlots(userId)
 #else
             MaxCharacterSlots
@@ -132,27 +134,51 @@ namespace Content.Server.Preferences.Managers
             var curPrefs = prefsData.Prefs!;
             var session = _playerManager.GetSessionById(userId);
 
-            //LOP edit start
+            // LOP edit start
             var allowedMarkings = new List<string>();
-#if LOP_Sponsors
+#if LOP
             int sponsorTier = 0;
             if (_sponsors.TryGetInfo(userId, out var sponsor))
             {
                 sponsorTier = sponsor.Tier;
-                if (sponsorTier > 3)
+                if (sponsorTier >= 3)
                 {
-                    var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                    allowedMarkings = marks.Concat(sponsor.AllowedMarkings).ToList();
+                    var marks = _markingManager.Markings.Select((a,_) => a.Value).Where(a => a.SponsorOnly == true).Select((a,_) => a.ID).ToList();
+                    marks.AddRange(sponsor.AllowedMarkings.AsEnumerable());
+                    allowedMarkings.AddRange(marks);
                 }
             }
 #endif
 
             profile.EnsureValid(session, _dependencies, allowedMarkings
-#if LOP_Sponsors
+#if LOP
             , sponsorTier
 #endif
             );
-            //LOP edit end
+            // LOP edit end
+
+            // Frontier: check for profile modifications (based on Monolith's impl)
+            if (validateFields && profile is HumanoidCharacterProfile humanProfile)
+            {
+                if (curPrefs.Characters.TryGetValue(slot, out var existingProfile) &&
+                    existingProfile is HumanoidCharacterProfile humanoidEditingTarget)
+                {
+                    if (humanProfile.BankBalance != humanoidEditingTarget.BankBalance)
+                    {
+                        _sawmill.Info($"{session.Name} has tried to modify a character's money (expected: {humanoidEditingTarget.BankBalance} requested: {humanProfile.BankBalance}). They may be using a modified client!");
+                        profile = humanProfile.WithBankBalance(humanoidEditingTarget.BankBalance);
+                    }
+                }
+                else
+                {
+                    if (humanProfile.BankBalance != HumanoidCharacterProfile.DefaultBalance)
+                    {
+                        _sawmill.Info($"{session.Name} tried to create a character with a non-default balance (expected: {HumanoidCharacterProfile.DefaultBalance} requested: {humanProfile.BankBalance}). They may be using a modified client!");
+                        profile = humanProfile.WithBankBalance(HumanoidCharacterProfile.DefaultBalance);
+                    }
+                }
+            }
+            // End Frontier: check for profile modifications (based on Monolith's impl)
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
             {
@@ -177,7 +203,7 @@ namespace Content.Server.Preferences.Managers
             }
 
             if (slot < 0 || slot >=
-#if LOP_Sponsors
+#if LOP
             GetMaxUserCharacterSlots(userId)
 #else
             MaxCharacterSlots
@@ -228,12 +254,20 @@ namespace Content.Server.Preferences.Managers
         {
             if (!ShouldStorePrefs(session.Channel.AuthType))
             {
+
+                // LOP edit start
+                int sponsorTier = 0;
+#if LOP
+                if (_sponsors.TryGetInfo(session.UserId, out var sponsorInfo))
+                    sponsorTier = sponsorInfo.Tier;
+#endif
+                // LOP edit end
                 // Don't store data for guests.
                 var prefsData = new PlayerPrefData
                 {
                     PrefsLoaded = true,
                     Prefs = new PlayerPreferences(
-                        new[] { new KeyValuePair<int, ICharacterProfile>(0, HumanoidCharacterProfile.Random()) },
+                        new[] { new KeyValuePair<int, ICharacterProfile>(0, HumanoidCharacterProfile.Random(sponsorTier: sponsorTier)) },   //LOP edit
                         0, Color.Transparent)
                 };
 
@@ -338,10 +372,19 @@ namespace Content.Server.Preferences.Managers
 
         private async Task<PlayerPreferences> GetOrCreatePreferencesAsync(NetUserId userId, CancellationToken cancel)
         {
+
+            // LOP edit start
+            int sponsorTier = 0;
+#if LOP
+            if (_sponsors.TryGetInfo(userId, out var sponsorInfo))
+                sponsorTier = sponsorInfo.Tier;
+#endif
+            // LOP edit end
+
             var prefs = await _db.GetPlayerPreferencesAsync(userId, cancel);
             if (prefs is null)
             {
-                return await _db.InitPrefsAsync(userId, HumanoidCharacterProfile.Random(), cancel);
+                return await _db.InitPrefsAsync(userId, HumanoidCharacterProfile.Random(sponsorTier: sponsorTier), cancel); //LOP edit
             }
 
             return prefs;
@@ -389,9 +432,9 @@ namespace Content.Server.Preferences.Managers
 
             return new PlayerPreferences(prefs.Characters.Select(p =>
             {
-                //LOP edit start
+                // LOP edit start
                 var allowedMarkings = new List<string>();
-#if LOP_Sponsors
+#if LOP
                 int sponsorTier = 0;
                 if (_sponsors.TryGetInfo(session.UserId, out var sponsor))
                 {
@@ -401,9 +444,9 @@ namespace Content.Server.Preferences.Managers
                     allowedMarkings = marks.ToList();
                 }
 #endif
-                //LOP edit end
+                // LOP edit end
                 return new KeyValuePair<int, ICharacterProfile>(p.Key, p.Value.Validated(session, collection, allowedMarkings
-#if LOP_Sponsors
+#if LOP
                 , sponsorTier
 #endif
                 ));

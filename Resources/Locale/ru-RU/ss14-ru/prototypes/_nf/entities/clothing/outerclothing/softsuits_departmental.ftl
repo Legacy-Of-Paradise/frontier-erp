@@ -1,5 +1,7 @@
 ent-NFDepartmentalEVASuit = { ent-NFClothingOuterEVASuitBase }
     .desc = { ent-NFClothingOuterEVASuitBase.desc }
+ent-NFDepartmentalEVASuitShoulderLight = { ent-NFDepartmentalEVASuit }
+    .desc = { ent-NFDepartmentalEVASuit.desc }
 ent-ClothingOuterEVASuitHydro = скафандр ВКД ботаника
     .desc = Костюм ВКД со встроенным шлемом, который обычно выдают работникам гидропоники
 ent-ClothingOuterEVASuitMailman = скафандр ВКД почтальона
@@ -22,6 +24,8 @@ ent-ClothingOuterEVASuitSalvage = утильский скафандр ВКД
     .desc = Костюм ВКД со встроенным шлемом, который обычно выдают утилизаторам
 ent-ClothingOuterEVASuitMedic = медицинский скафандр ВКД
     .desc = Костюм ВКД со встроенным шлемом, который обычно выдают врачам
+ent-ClothingOuterEVASuitParamedic = скафандр ВКД парамедика
+    .desc = Костюм ВКД со встроенным шлемом, который обычно выдается парамедикам.
 ent-ClothingOuterEVASuitScientist = скафандр ВКД учёного
     .desc = Костюм ВКД со встроенным шлемом, который обычно выдают учёным
 ent-ClothingOuterEVASuitJanitor = скафандр ВКД уборщика

@@ -23,6 +23,7 @@
       role: JobSeniorOfficer
       time: 21600 # 6 hours
   startingGear: BailiffGear
+  salary: 30000
   icon: JobIconBailiff
   supervisors: job-supervisors-sheriff
   weight: 150
@@ -50,8 +51,8 @@
   storage:
     back:
     - Flash
-    - MagazinePistol
-    - MagazinePistolRubber
+    - NFMagazineHighCapacityPistol35Overpressure
+    - NFMagazineHighCapacityPistol35Rubber
     - BaseSecurityUplinkRadioOfficer
     - ShipVoucherNfsdBailiff
     - RubberStampBailiff

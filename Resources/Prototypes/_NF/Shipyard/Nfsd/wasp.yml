@@ -2,7 +2,7 @@
   id: Wasp
   parent: BaseVessel
   name: NSF Wasp
-  description: "Большой экспедиционный корабль, предназначенный для содержания заключенных и принуждения их к работе на планете." #LOP edit
+  description: "Большой экспедиционный корабль, предназначенный для содержания заключенных и принуждения их к работе на планете." # LOP edit
   price: 135000
   category: Large
   group: Security

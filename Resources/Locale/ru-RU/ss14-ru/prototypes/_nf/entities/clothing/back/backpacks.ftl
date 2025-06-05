@@ -10,3 +10,5 @@ ent-ClothingBackpackNfsdBrown = рюкзак Департамента Шериф
     .desc = { ent-ClothingBackpackSecurity.desc }
 ent-ClothingBackpackNfsdCream = { ent-ClothingBackpackNfsdBrown }
     .desc = { ent-ClothingBackpackNfsdBrown.desc }
+ent-NFGoblinMadeClothingBackpackTrashBlue = Хламзак
+    .desc = Этот плохой мальчик вместит в себя столько мусора!

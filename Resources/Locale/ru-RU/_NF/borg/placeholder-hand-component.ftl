@@ -1,14 +1,16 @@
 borg-placeholder-display-name-cable-coil = кабель
 borg-placeholder-display-name-electronics = электроника
 borg-placeholder-display-name-trading-crate = торговый ящик
+borg-placeholder-display-name-cookware = кухонная посуда
 borg-placeholder-display-name-construction-material = материалы
-borg-placeholder-display-name-floor-tile = плитка
 borg-placeholder-display-name-flatpack = упаковка
 borg-placeholder-display-name-lights = лампы
 borg-placeholder-display-name-spray-bottle = спрэй
+borg-placeholder-display-name-glass-beaker = стакан
 borg-placeholder-display-name-topical-medication = мазь
 borg-placeholder-display-name-musical-instrument = инструмент
 borg-placeholder-display-name-seeds = семена
+borg-placeholder-display-name-machine-part = детали машин
 borg-placeholder-display-name-produce = производство
 borg-placeholder-display-name-lighter = зажигалка
 borg-placeholder-display-name-smokes = сигареты

@@ -25,7 +25,7 @@ using Content.Shared.Administration.Managers;
 using Content.Shared.Chat;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
-#if LOP_Sponsors
+#if LOP
 using Content.Client._NewParadise.Sponsors;
 using Content.Client._NC.DiscordAuth;
 using Content.Client._PrivateClient._NC.JoinQueue;
@@ -68,7 +68,7 @@ namespace Content.Client.IoC
 
             // LOP edit start
             collection.Register<TTSManager>();
-#if LOP_Sponsors
+#if LOP
             collection.Register<SponsorsManager>();
             collection.Register<DiscordAuthManager>();
             IoCManager.Register<JoinQueueManager>();

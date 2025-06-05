@@ -2,7 +2,7 @@
   id: Rogue
   parent: BaseVessel
   name: NSF Rogue
-  description: "Миниатюрный штурмовой корабль с переключателем для отключения света в глубоком космосе." #LOP edit
+  description: "Миниатюрный штурмовой корабль с переключателем для отключения света в глубоком космосе." # LOP edit
   price: 12200 #the appraisal is 9100$
   category: Micro
   group: Custom

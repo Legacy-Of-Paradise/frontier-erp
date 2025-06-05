@@ -9,8 +9,8 @@
   id: McCargo
   parent: BaseVessel
   name: DC McCargo
-  description: "Ваш собственный McCargo™! Поставляется полностью укомплектованной и готовой к производству McMeals." #LOP Edit
-  price: 80000 # TODO: fix these values, getting tests to pass - Whatstone
+  description: "Ваш собственный McCargo™! Поставляется полностью укомплектованной и готовой к производству McMeals." # LOP Edit
+  price: 65000
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/mccargo.yml # LOP edit

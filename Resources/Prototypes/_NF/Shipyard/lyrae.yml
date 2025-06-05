@@ -11,8 +11,8 @@
 - type: vessel
   id: Lyrae
   parent: BaseVessel
-  name: SBB Lyrae
-  description: "Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии." #LOP Edit
+  name: BB Lyrae
+  description: "Научное судно среднего размера с лабораториями для исследований аномалий и ксеноархеологии." # LOP Edit
   price: 57500 # Appraises at ~52210. Tier 1 vessel, markup is around ~10%.
   category: Medium
   group: Shipyard
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Lyrae
-  mapName: 'SBB Lyrae'
+  mapName: 'BB Lyrae'
   mapPath: /Maps/_NewParadise/Shuttles/lyrae.yml # LOP edit
   minPlayers: 0
   stations:

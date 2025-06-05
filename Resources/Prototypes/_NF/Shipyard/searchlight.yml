@@ -12,8 +12,8 @@
   id: Searchlight
   parent: BaseVessel
   name: LVHI Searchlight
-  description: "Небольшое судно, оборудованное для поиска и эвакуации раненых военнослужащих ДШНГ. Произведено Langstad-Voigt Heavy Industries." #LOP Edit
-  price: 30000 # ~25988$ on mapinit + 15% markup
+  description: "Небольшое судно, оборудованное для поиска и эвакуации раненых военнослужащих ДШНГ. Произведено Langstad-Voigt Heavy Industries." # LOP Edit
+  price: 33500 # ~$29100 on mapinit + ~$4500 from 15% markup
   category: Small
   group: Medical
   shuttlePath: /Maps/_NewParadise/Shuttles/searchlight.yml # LOP edit
@@ -21,7 +21,7 @@
   class:
   - Medical
   engine:
-  - Plasma
+  - Uranium
 
 - type: gameMap
   id: Searchlight

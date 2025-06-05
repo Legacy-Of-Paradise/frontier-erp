@@ -1,6 +1,13 @@
 ent-MindRoleNFPirate = Роль Пирата
     .suffix = Фронтир
     .desc = { ent-BaseMindRoleAntag.desc }
-ent-MindRoleGhostRoleEmotionalSupportPet = Роль призрака (Домашнее животное для эмоциональной поддержки)
+ent-MindRoleNFPirateFirstMate = Роль первого помощника пирата
+    .desc = { ent-MindRoleNFPirate.desc }
+ent-MindRoleNFPirateCaptain = Роль капитана пиратов
+    .desc = { ent-MindRoleNFPirate.desc }
+ent-MindRoleGhostRoleEmotionalSupportPet = Роль призрака Домашнего животного
     .desc = { ent-BaseMindRole.desc }
     .suffix = Фронтир
+ent-MindRoleGhostRoleNFPirate = Роль пирата
+    .suffix = Фронтир
+    .desc = { ent-BaseMindRoleAntag.desc }

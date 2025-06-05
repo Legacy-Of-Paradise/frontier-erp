@@ -1,0 +1,16 @@
+ent-NFBaseWeaponFrameRifle = { ent-NFBaseWeaponEncumbranceRifle }
+    .desc = { ent-NFBaseWeaponEncumbranceRifle.desc }
+ent-NFBaseWeaponFrameRifleFrontierGunsmith = { ent-NFBaseWeaponFrameRifle }
+    .desc = { ent-NFBaseWeaponFrameRifle.desc }
+ent-NFBaseWeaponFrameRifleSteelbolt = { ent-BaseC3PirateContraband }
+    .desc = { ent-BaseC3PirateContraband.desc }
+ent-NFBaseWeaponFrameRifleFoamForce = { ent-NFBaseWeaponFrameRifleFrontierGunsmith }
+    .desc = { ent-NFBaseWeaponFrameRifleFrontierGunsmith.desc }
+ent-NFBaseWeaponRifleChamber = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponRifleChamber20 = { ent-NFBaseWeaponRifleChamber }
+    .desc = { ent-NFBaseWeaponRifleChamber.desc }
+ent-NFBaseWeaponRifleChamber30 = { ent-NFBaseWeaponRifleChamber }
+    .desc = { ent-NFBaseWeaponRifleChamber.desc }
+ent-NFBaseWeaponRifleChamberDartFoam = { ent-NFBaseWeaponRifleChamber }
+    .desc = { ent-NFBaseWeaponRifleChamber.desc }

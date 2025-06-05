@@ -2,7 +2,7 @@
   id: Prowler
   parent: BaseVessel
   name: NSF Prowler
-  description: "Патрульный корабль среднего размера класса Prowler - это специализированное судно для поиска в глубоком космосе с передовым набором датчиков." #LOP edit
+  description: "Патрульный корабль среднего размера класса Prowler - это специализированное судно для поиска в глубоком космосе с передовым набором датчиков." # LOP edit
   price: 42000 #Appraises on purchase at ~35000. 20% markup applied due to the presence of the radar.
   category: Medium
   group: Security

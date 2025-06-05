@@ -11,7 +11,7 @@
 *.userprefs
 
 # Secret
-Secrets
+SecretsFrontier
 _Private*
 Resources/Prototypes/_SPrototypes
 Resources/Textures/_STextures

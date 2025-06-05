@@ -11,8 +11,8 @@
 - type: vessel
   id: Ceres
   parent: BaseVessel
-  name: SBB Ceres
-  description: "Корабль среднего размера, с просторным рестораном высшего класса, оснащенный ботаникой, и местами для ВИП-клиентов." #LOP Edit
+  name: BB Ceres
+  description: "Корабль среднего размера, с просторным рестораном высшего класса, оснащенный ботаникой, и местами для ВИП-клиентов." # LOP Edit
   price: 69500 # ~10% markup, big luxury restaurant
   category: Medium
   group: Shipyard
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Ceres
-  mapName: 'SBB Ceres'
+  mapName: 'BB Ceres'
   mapPath: /Maps/_NewParadise/Shuttles/ceres.yml # LOP edit
   minPlayers: 0
   stations:

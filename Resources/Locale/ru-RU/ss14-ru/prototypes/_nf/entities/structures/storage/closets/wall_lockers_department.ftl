@@ -1,5 +1,7 @@
 ent-LockerWallColorCaptain = настенный шкафчик капитана
     .desc = { ent-LockerWallColorBase.desc }
+ent-LockerWallColorStc = настенный шкафчик трафик-контролера
+    .desc = { ent-LockerWallColorBase.desc }
 ent-LockerWallColorEngineer = настенный шкафчик инженера
     .desc = { ent-LockerWallColorBase.desc }
 ent-LockerWallColorAtmosTech = настенный шкафчик атмосферного техника
@@ -10,6 +12,8 @@ ent-LockerWallColorSalvage = настенный шкафчик утилизат�
     .desc = { ent-LockerWallColorBase.desc }
 ent-LockerWallColorMedical = настенный шкафчик медика
     .desc = { ent-LockerWallColorBase.desc }
+ent-LockerWallColorParamedic = настенный шкафчик парамедика
+    .desc = { ent-NFBaseLockerGridInvWallColor.desc }
 ent-LockerWallColorChemistry = настенный шкафчик химика
     .desc = { ent-LockerWallColorBase.desc }
 ent-LockerWallColorServiceWorker = настенный шкафчик сервисного рабочего

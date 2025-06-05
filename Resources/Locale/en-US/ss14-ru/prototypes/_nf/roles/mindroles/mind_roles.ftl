@@ -1,6 +1,13 @@
 ent-MindRoleNFPirate = Pirate Role
     .suffix = Frontier
     .desc = { ent-BaseMindRoleAntag.desc }
+ent-MindRoleNFPirateFirstMate = Pirate First Mate Role
+    .desc = { ent-MindRoleNFPirate.desc }
+ent-MindRoleNFPirateCaptain = Pirate Captain Role
+    .desc = { ent-MindRoleNFPirate.desc }
 ent-MindRoleGhostRoleEmotionalSupportPet = Emotional Support Pet Role
     .suffix = Frontier
     .desc = { ent-BaseMindRole.desc }
+ent-MindRoleGhostRoleNFPirate = Pirate Ghost Role
+    .suffix = Frontier
+    .desc = { ent-BaseMindRoleAntag.desc }

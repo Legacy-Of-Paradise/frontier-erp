@@ -7,13 +7,12 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 75
+# LOP edit start
+        Piercing: 65
         Structural: 226
-    penetrationThreshold: 360
+    penetrationThreshold: 290
+# LOP Edit end
     penetrationDamageTypeRequirement:
     - Structural
   - type: StaminaDamageOnCollide
-    damage: 60
-  - type: Tracer # Frontier
-    color: "#FFFFFFFF" # Frontier
-    length: 3 # Frontier
+    damage: 40 # LOP edit 60<40

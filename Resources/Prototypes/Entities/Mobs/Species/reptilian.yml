@@ -123,6 +123,7 @@
   - type: HumanoidAppearance
     species: Reptilian
     hideLayersOnEquip:
+    - Hair # LOP edit
     - Snout
     - HeadTop
     - HeadSide

@@ -35,7 +35,7 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
-#if LOP_Sponsors
+#if LOP
 using Content.Server._NewParadise.Sponsors;
 using Content.Server._NC.Discord;
 using Content.Server._NC.JoinQueue;
@@ -121,7 +121,7 @@ namespace Content.Server.Entry
 
                 // LOP edit start
                 IoCManager.Resolve<TTSManager>().Initialize();
-#if LOP_Sponsors
+#if LOP
                 IoCManager.Resolve<SponsorsManager>().Initialize();
                 IoCManager.Resolve<DiscordAuthManager>().Initialize();
                 IoCManager.Resolve<JoinQueueManager>().Initialize();
@@ -234,6 +234,7 @@ namespace Content.Server.Entry
             Load(CCVars.ConfigPresetDebug, "debug");
 #endif
 
+#pragma warning disable CS8321
             void Load(CVarDef<bool> cVar, string name)
             {
                 var path = $"{ConfigPresetsDirBuild}{name}.toml";
@@ -243,6 +244,7 @@ namespace Content.Server.Entry
                     sawmill.Info("Loaded config preset: {Preset}", path);
                 }
             }
+#pragma warning restore CS8321
         }
     }
 }

@@ -2,7 +2,7 @@
   name: ARG rifle
   parent: [BaseWeaponRifle, BaseC2Contraband]
   id: LPPWeaponRifleARG
-  description: Cheap rifle, went through many coflicts. Uses .30 caliber rifle cartridges.
+  description: Cheap rifle, went through many coflicts. Uses .20 caliber rifle cartridges.
   components:
   - type: Sprite
     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/arg-rifle.rsi
@@ -20,20 +20,20 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineRifle
+        startingItem: NFMagazineRifle20
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - NFMagazineRifle20
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: NFCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -43,54 +43,8 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-
-
-# - type: entity
-#   name: braton rifle
-#   parent: BaseWeaponRifle
-#   id: LPPWeaponRifleBraton
-#   description: An automaton created using forgotten technologies from alternate realities. Uses .30 caliber rifle cartridges.
-#   components:
-#   - type: Sprite
-#     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/braton-rifle.rsi
-#     layers:
-#       - state: base
-#         map: ["enum.GunVisualLayers.Base"]
-#       - state: mag-0
-#         map: ["enum.GunVisualLayers.Mag"]
-#   - type: Clothing
-#     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/braton-rifle.rsi
-#   - type: Gun
-#     fireRate: 10
-#     soundGunshot:
-#       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
-#   - type: ItemSlots
-#     slots:
-#       gun_magazine:
-#         name: Magazine
-#         startingItem: MagazineRifle
-#         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
-#         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
-#         priority: 2
-#         whitelist:
-#           tags:
-#             - MagazineRifle
-#       gun_chamber:
-#         name: Chamber
-#         startingItem: CartridgeRifle
-#         priority: 1
-#         whitelist:
-#           tags:
-#             - CartridgeRifle
-#   - type: ContainerContainer
-#     containers:
-#       gun_magazine: !type:ContainerSlot
-#       gun_chamber: !type:ContainerSlot
-#   - type: MagazineVisuals
-#     magState: mag
-#     steps: 1
-#     zeroVisible: true
-#   - type: Appearance
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: HM-10
@@ -113,20 +67,20 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: Clothing
     sprite: _NewParadise/Objects/Weapons/Guns/Rifles/old-rifle.rsi
   - type: ContainerContainer
@@ -140,6 +94,8 @@
   - type: Appearance
   - type: StaticPrice
     vendPrice: 81500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: STG-144
@@ -162,20 +118,20 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -188,6 +144,8 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 69500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: BR-12A "Ravager"
@@ -240,6 +198,8 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 82500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: Waffle corp. MK-556 "Liberator"
@@ -296,62 +256,64 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 71500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
-- type: entity
-  name: BCR-25r
-  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
-  id: LPPWeaponRifleBCR25r
-  description: Small assault rifle bullpup configuration. It's constructed in the past century, uses .25 ammo.
-  components:
-  - type: Sprite
-    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
-    layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
-  - type: Gun
-    minAngle: 5
-    maxAngle: 20
-    fireRate: 7
-    soundGunshot:
-      path: /Audio/DeltaV/Weapons/Guns/Gunshots/jackdaw.ogg
-  - type: ChamberMagazineAmmoProvider
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        startingItem: MagazineCaselessRifle
-        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
-        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - MagazineCaselessRifle
-      gun_chamber:
-        name: Chamber
-        startingItem: CartridgeCaselessRifle
-        priority: 1
-        whitelist:
-          tags:
-            - CartridgeCaselessRifle
-  - type: Clothing
-    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
-  - type: ContainerContainer
-    containers:
-      gun_magazine: !type:ContainerSlot
-      gun_chamber: !type:ContainerSlot
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-  - type: Wieldable
-  - type: GunWieldBonus
-    minAngle: -3
-    maxAngle: -12
-  - type: StaticPrice
-    price: 1500
-    vendPrice: 81500
+#- type: entity
+#  name: BCR-25r
+#  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
+#  id: LPPWeaponRifleBCR25r
+#  description: Small assault rifle bullpup configuration. It's constructed in the past century, uses .25 ammo.
+#  components:
+#  - type: Sprite
+#    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
+#    layers:
+#      - state: base
+#        map: ["enum.GunVisualLayers.Base"]
+#      - state: mag-0
+#        map: ["enum.GunVisualLayers.Mag"]
+#  - type: Gun
+#    minAngle: 5
+#    maxAngle: 20
+#    fireRate: 7
+#    soundGunshot:
+#      path: /Audio/DeltaV/Weapons/Guns/Gunshots/jackdaw.ogg
+#  - type: ChamberMagazineAmmoProvider
+#  - type: ItemSlots
+#    slots:
+#      gun_magazine:
+#        startingItem: MagazineCaselessRifle
+#        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+#        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+#        priority: 2
+#        whitelist:
+#          tags:
+#            - MagazineCaselessRifle
+#      gun_chamber:
+#        name: Chamber
+#        startingItem: CartridgeCaselessRifle
+#        priority: 1
+#        whitelist:
+#          tags:
+#            - CartridgeCaselessRifle
+#  - type: Clothing
+#    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/bcr-25.rsi
+#  - type: ContainerContainer
+#    containers:
+#      gun_magazine: !type:ContainerSlot
+#      gun_chamber: !type:ContainerSlot
+#  - type: MagazineVisuals
+#    magState: mag
+#    steps: 1
+#    zeroVisible: true
+#  - type: Appearance
+#  - type: Wieldable
+#  - type: GunWieldBonus
+#    minAngle: -3
+#    maxAngle: -12
+#  - type: StaticPrice
+#    price: 1500
+#    vendPrice: 81500
 
 - type: entity
   name: Makeshift'o AK
@@ -373,7 +335,7 @@
     - Back
     - suitStorage
   - type: Gun
-    fireRate: 6
+    fireRate: 1.8
     selectedMode: SemiAuto
     availableModes:
       - SemiAuto
@@ -385,20 +347,20 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineLightRifle
+        startingItem: NFMagazineRifle30
         insertSound: /Audio/Weapons/Guns/MagIn/ltrifle_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/ltrifle_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineLightRifle
+            - NFMagazineRifle30
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeLightRifle
+        startingItem: NFCartridgeRifle30
         priority: 1
         whitelist:
           tags:
-            - CartridgeLightRifle
+            - NFCartridgeRifle30
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -411,6 +373,8 @@
   - type: StaticPrice
     price: 2700
     vendPrice: 51500
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: LE-MAS
@@ -441,21 +405,21 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineRifle
+        startingItem: NFMagazineRifle20
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - NFMagazineRifle20
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: NFCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -469,6 +433,8 @@
     price: 1750
   - type: Item
     size: Large
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
 
 - type: entity
   name: PA-DE-FAME
@@ -500,21 +466,84 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineRifle
+        startingItem: NFMagazineRifle20
         insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
         ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazineRifle
+            - NFMagazineRifle20
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeRifle
+        startingItem: NFCartridgeRifle20
         priority: 1
         whitelist:
           tags:
-            - CartridgeRifle
+            - NFCartridgeRifle20
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    price: 2750
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
+
+- type: entity
+  name: 6P68-2
+  parent: [BaseWeaponRifle, BaseC3Contraband]
+  id: LPPWeaponRifleAek
+  description: Second iteration of USSP experimental rifle. Famously used by USSP GRU specops . It can use .20 or .30 ammo and mags, also it has hyperburst firemode.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/aek.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/aek.rsi
+  - type: Gun
+    fireRate: 6
+    burstFireRate: 15
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+      - FullAuto
+      - Burst
+    shotsPerBurst: 2
+    burstCooldown: 0.8
+    soundGunshot:
+      path: /Audio/_NewParadise/Weapons/Guns/Gunshots/aek.ogg
+  - type: Item
+    size: Huge
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: NFMagazineRifle30
+        insertSound: /Audio/_NewParadise/Weapons/Guns/MagIn/M4A1_Magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/M4A1_Magout.ogg
+        priority: 2
+        whitelist:
+          tags:
+            - NFMagazineRifle20
+            - NFMagazineRifle30
+        whitelistFailPopup: gun-magazine-whitelist-fail
+      gun_chamber:
+        name: Chamber
+        startingItem: NFCartridgeRifle30
+        priority: 1
+        whitelist:
+          tags:
+            - NFCartridgeRifle30
+            - NFCartridgeRifle20
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
@@ -526,3 +555,97 @@
   - type: Appearance
   - type: StaticPrice
     price: 1750
+  - type: NFWeaponDetails
+    class: weapon-details-class-assault-rifle
+
+- type: entity
+  id: LPPWeaponM1Garand
+  parent: [BaseWeaponRifle, BaseC1Contraband]
+  name: Rifle M1 Garand
+  description: A replica of the classic World War II rifle from XenoHuntingArmoury, using cartridges .30 hunting. Ping!
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/garand.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Rifles/garand.rsi
+  - type: Gun
+    fireRate: 3
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: LPPMagazineRifleGarand
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/_NewParadise/Weapons/Guns/MagOut/garandping.ogg
+        priority: 1
+        whitelist:
+          tags:
+            - LPPMagazineGarand
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: ChamberMagazineAmmoProvider
+    autoEject: true
+  - type: StaticPrice
+    vendPrice: 20500
+    price: 1500
+
+- type: entity
+  id: LPPWeaponMarsRifle
+  parent: [BaseWeaponRifle, BaseC1Contraband]
+  name: Rifle XHA "Mars"
+  description: XenoHuntingArmoury hunting rifle using cartridges .30 hunting. An extremely popular model among planetary and space fauna hunters.
+  components:
+  - type: Sprite
+    sprite: _NewParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+    layers:
+      - state: base
+        map: ["enum.GunVisualLayers.Base"]
+      - state: mag-0
+        map: ["enum.GunVisualLayers.Mag"]
+  - type: Clothing
+    sprite: _NewParadise/Objects/Weapons/Guns/Snipers/marsrifle.rsi
+  - type: Gun
+    fireRate: 1
+    selectedMode: SemiAuto
+    availableModes:
+      - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
+  - type: ItemSlots
+    slots:
+      gun_magazine:
+        startingItem: LPPMagazineRifleMars
+        insertSound: /Audio/Weapons/Guns/MagIn/batrifle_magin.ogg
+        ejectSound: /Audio/Weapons/Guns/MagOut/batrifle_magout.ogg
+        priority: 1
+        whitelist:
+          tags:
+            - LPPMagazineMars
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+  - type: MagazineVisuals
+    magState: mag
+    steps: 1
+    zeroVisible: true
+  - type: Appearance
+  - type: StaticPrice
+    vendPrice: 12500
+    price: 750

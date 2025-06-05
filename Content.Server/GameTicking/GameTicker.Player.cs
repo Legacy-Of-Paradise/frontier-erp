@@ -33,11 +33,8 @@ namespace Content.Server.GameTicking
             {
                 if (args.NewStatus != SessionStatus.Disconnected)
                 {
-                    mind.Session = session;
-                    _pvsOverride.AddSessionOverride(GetNetEntity(mindId.Value), session);
+                    _pvsOverride.AddSessionOverride(mindId.Value, session);
                 }
-
-                DebugTools.Assert(mind.Session == session);
             }
 
             DebugTools.Assert(session.GetMind() == mindId);
@@ -59,7 +56,7 @@ namespace Content.Server.GameTicking
 
                         // Make the player actually join the game.
                         // timer time must be > tick length
-#if !DiscordAuth //LOP edit: ждем подтверждения от системы авторизации
+#if !LOP // LOP edit: ждем подтверждения от системы авторизации
                         Timer.Spawn(0, () => _playerManager.JoinGame(args.Session));
 #endif
 
@@ -128,15 +125,14 @@ namespace Content.Server.GameTicking
                     }
 
                 case SessionStatus.Disconnected:
+                {
+                    _chatManager.SendAdminAnnouncement(Loc.GetString("player-leave-message", ("name", args.Session.Name)));
+                    if (mindId != null)
                     {
-                        _chatManager.SendAdminAnnouncement(Loc.GetString("player-leave-message", ("name", args.Session.Name)));
-                        if (mind != null)
-                        {
-                            _pvsOverride.ClearOverride(GetNetEntity(mindId!.Value));
-                            mind.Session = null;
-                        }
+                        _pvsOverride.RemoveSessionOverride(mindId.Value, session);
+                    }
 
-#if !DiscordAuth
+#if !LOP
                     _userDb.ClientDisconnected(session);
 #else
                         if (_playerGameStatuses.ContainsKey(session.UserId))

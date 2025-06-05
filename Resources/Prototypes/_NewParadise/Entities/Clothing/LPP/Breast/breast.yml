@@ -9,10 +9,10 @@
   - type: Item
     size: Tiny
   - type: Clothing
-    slots: [breast]
+    slots: BREAST
   - type: Tag
     tags:
-      - breast
+    - breast
 
 
 #------------------------Bra------------------------
@@ -24,7 +24,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/black.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -33,7 +42,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -42,7 +60,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -51,7 +78,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/green.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -60,7 +96,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -69,7 +114,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -78,7 +132,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -87,7 +150,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -96,7 +168,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/red.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -105,7 +186,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -115,6 +205,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -132,7 +231,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Bra/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Bra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #---------------------------------------------------
 
@@ -181,7 +289,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -190,7 +307,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -199,7 +325,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -208,7 +343,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -217,7 +361,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -226,7 +379,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -235,7 +397,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -244,7 +415,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -253,7 +433,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -262,7 +451,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -272,6 +470,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -280,7 +487,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #---------------------BraBinder----------------------
 
@@ -291,7 +507,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -300,7 +525,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -309,7 +543,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -318,7 +561,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -327,7 +579,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -336,7 +597,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -345,7 +615,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -354,7 +633,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -363,7 +651,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -372,7 +669,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -382,6 +688,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -390,7 +705,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinder/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinder/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #-----------------BraBinderStrapless-----------------
 
@@ -401,7 +725,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -410,7 +743,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -419,7 +761,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -428,7 +779,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -437,7 +797,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -446,7 +815,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -455,7 +833,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -464,7 +851,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -473,7 +869,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -482,7 +887,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -492,6 +906,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -500,7 +923,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraBinderStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #---------------------BraNeko----------------------
 
@@ -511,7 +943,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -520,7 +961,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -529,7 +979,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -538,7 +997,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -547,7 +1015,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -556,7 +1033,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -565,7 +1051,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -574,7 +1069,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -583,7 +1087,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -592,7 +1105,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -602,6 +1124,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -610,7 +1141,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraNeko/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraNeko/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #------------------BraStrapless-------------------
 
@@ -621,7 +1161,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -630,7 +1179,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -639,7 +1197,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -648,7 +1215,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -657,7 +1233,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -666,7 +1251,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -675,7 +1269,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -684,7 +1287,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -693,7 +1305,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -702,7 +1323,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -712,6 +1342,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -720,7 +1359,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStrapless/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStrapless/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #------------------BraStraplessAlt---------------------
 
@@ -731,7 +1379,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -740,7 +1397,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -749,7 +1415,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -758,7 +1433,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -767,7 +1451,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -776,7 +1469,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -785,7 +1487,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -794,7 +1505,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -803,7 +1523,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -812,7 +1541,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -822,6 +1560,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -830,7 +1577,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraStraplessAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #----------------------BraSwimming------------------------
 
@@ -841,7 +1597,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -850,7 +1615,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -859,7 +1633,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -868,7 +1651,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -877,7 +1669,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -886,7 +1687,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -895,7 +1705,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -904,7 +1723,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -913,7 +1741,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -922,7 +1759,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -932,6 +1778,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -940,7 +1795,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimming/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimming/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #----------------------BraSwimmingAlt------------------------
 
@@ -951,7 +1815,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/black.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -960,7 +1833,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -969,7 +1851,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -978,7 +1869,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/green.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -987,7 +1887,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -996,7 +1905,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1005,7 +1923,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1014,7 +1941,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1023,7 +1959,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/red.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1032,7 +1977,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1042,6 +1996,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1050,7 +2013,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/BraSwimmingAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #---------------------------------------------------
 
@@ -1099,7 +2071,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/black.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1108,7 +2089,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1117,7 +2107,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1126,7 +2125,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/green.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1135,7 +2143,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1144,7 +2161,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1153,7 +2179,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1162,7 +2197,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1171,7 +2215,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/red.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1180,7 +2233,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1190,6 +2252,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1198,7 +2269,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBra/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBra/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #--------------------SportsBraAlt------------------------
 
@@ -1209,7 +2289,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/black.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1218,7 +2307,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1227,7 +2325,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1236,7 +2343,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/green.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1245,7 +2361,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1254,7 +2379,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1263,7 +2397,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1272,7 +2415,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1281,7 +2433,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/red.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1290,7 +2451,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1300,6 +2470,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1308,7 +2487,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/SportsBraAlt/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #---------------------------------------------------
 
@@ -1330,7 +2518,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/black.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1339,7 +2536,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/blue.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1348,7 +2554,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/brown.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1357,7 +2572,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/green.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1366,7 +2590,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/grey.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1375,7 +2608,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1384,7 +2626,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/maroon.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1393,7 +2644,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/orange.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1402,7 +2662,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/red.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1411,7 +2680,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/teal.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1421,6 +2699,15 @@
   components:
   - type: Sprite
     sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingBreastBase
@@ -1429,7 +2716,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Breast/Tubetop/yellow.rsi
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Breast/Tubetop/white.rsi
+    clothingVisuals:
+      breast:
+      - state: equipped-BREAST
+        color: "#FBC72D"
 
 #---------------------------------------------------
 

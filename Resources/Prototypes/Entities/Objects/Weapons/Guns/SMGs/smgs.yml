@@ -35,7 +35,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazinePistolSubMachineGun
+        # startingItem: MagazinePistolSubMachineGun # Frontier
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -45,7 +45,7 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgePistol
+        # startingItem: CartridgePistol # Frontier
         priority: 1
         whitelist:
           tags:
@@ -73,10 +73,11 @@
     attackType: Light # Frontier
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: Atreides
   parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseMajorContraband<BaseC3SyndicateContraband
   id: WeaponSubMachineGunAtreides
-  description: Pla-ket-ket-ket-ket! Uses .35 auto ammo. An illegal firearm often used by Syndicate agents.
+  description: A rare machine pistol hailing from the Corporate Wars. Its extremely high fire rate and compact profile make it useful in close quarters combat. Despite its age, it is in remarkably good condition. Feeds from .35 SMG magazines.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/atreides.rsi
@@ -94,17 +95,18 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 150
     vendPrice: 66500
-#LOP edit end
+# LOP edit end
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: C-20r submachine gun
   parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponSubMachineGunC20r
-  description: An illegal firearm that is often used by the infamous nuclear operatives. Uses .35 auto ammo.
+  description: A classic and widespread submachine gun, infamous for its use by the Gorlex Marauders. One of the first homegrown Waffle Corp. designs, it remains in service today. Feeds from .35 SMG magazines.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi
@@ -137,17 +139,18 @@
     steps: 6
     zeroVisible: true
   - type: Appearance
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 150
     vendPrice: 60500
-#LOP edit end
+# LOP edit end
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: Drozd
   parent: [BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponSubMachineGunDrozd
-  description: An excellent fully automatic Heavy SMG. An illegal firearm often used by Syndicate agents.
+  description: A modern SMG manufactured by Nanotrasen’s Small Arms Division. It features an exceptional rate of fire in burst mode, useful for holding defensive angles or engaging hostiles at longer ranges. Feeds from .35 SMG magazines.
   components:
     - type: Sprite
       sprite: _NF/Objects/Weapons/Guns/SMGs/drozd.rsi # Frontier: add _NF prefix
@@ -180,7 +183,7 @@
       slots:
         gun_magazine:
           name: Magazine
-          startingItem: MagazinePistolSubMachineGun
+          # startingItem: MagazinePistolSubMachineGun # Frontier
           insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
           ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
           priority: 2
@@ -190,7 +193,7 @@
           whitelistFailPopup: gun-magazine-whitelist-fail
         gun_chamber:
           name: Chamber
-          startingItem: CartridgePistol
+          # startingItem: CartridgePistol # Frontier
           priority: 1
           whitelist:
             tags:
@@ -202,10 +205,11 @@
     - type: Appearance
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: WT550
   parent: [ BaseWeaponSubMachineGun, BaseC2ContrabandUnredeemable ] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponSubMachineGunWt550
-  description: An excellent SMG, produced by NanoTrasen's Small Arms Division. Uses .35 auto ammo. On the receiver is a label that says 'for authorized use only.'
+  description: A truly unique firearm, the WT550 was designed by Nanotrasen's Small Arms Division as a compact submachine gun fully controllable with one hand. It contains an exotic internal recoil buffer and feeds from special top-mounted .35 magazines.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
@@ -241,7 +245,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazinePistolSubMachineGunTopMounted
+        # startingItem: MagazinePistolSubMachineGunTopMounted # Frontier
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
@@ -251,7 +255,7 @@
         whitelistFailPopup: gun-magazine-whitelist-fail
       gun_chamber:
         name: Chamber
-        startingItem: CartridgePistol
+        # startingItem: CartridgePistol # Frontier
         priority: 1
         whitelist:
           tags:
@@ -261,8 +265,8 @@
     steps: 6
     zeroVisible: true
   - type: Appearance
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 150
     vendPrice: 40000
-#LOP edit end
+# LOP edit end

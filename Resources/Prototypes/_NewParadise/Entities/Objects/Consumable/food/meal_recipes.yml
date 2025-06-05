@@ -8,6 +8,8 @@
   solids:
     FoodBreadBun: 1
     FoodBanana: 1
+  recipeType:
+  - Oven
 
 - type: microwaveMealRecipe
   id: LPPRecipeGingerBread
@@ -19,3 +21,5 @@
     Flour: 15
     Sugar: 5
     Ice: 5
+  recipeType:
+  - Oven

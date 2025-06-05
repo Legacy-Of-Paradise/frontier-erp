@@ -1,3 +1,6 @@
+ent-WallShuttleInterior = стена шаттла
+    .suffix = Внутренняя
+    .desc = { ent-BaseWall.desc }
 ent-NFAsteroidWall = суперплотный камень
     .desc = Крепче, чем кажется. Чтобы справиться с этим, вам понадобится специальное оборудование.
 ent-NFWallIce = Суперплотный лёд

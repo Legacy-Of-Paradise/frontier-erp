@@ -16,7 +16,7 @@
         Female: FemaleFelinid
         Unsexed: FemaleFelinid
     - type: Carriable
-    - type: Hunger  # tajaran are already at a disadvantage against the vulpkanin, so the baseDecayRate is unchanged
+    - type: Hunger
     - type: Thirst
     - type: Icon
       sprite: Corvax/Mobs/Species/Tajaran/parts.rsi
@@ -40,10 +40,10 @@
       specificHeat: 42
       coldDamage:
         types:
-          Cold : 0.1 #per second, scales with temperature & other constants
+          Cold : 0.1
       heatDamage:
         types:
-          Heat : 0.1 #per second, scales with temperature & other constants
+          Heat : 0.1
     - type: MovementSpeedModifier
       baseWalkSpeed : 3.0
       baseSprintSpeed : 4.9

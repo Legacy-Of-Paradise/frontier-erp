@@ -23,11 +23,8 @@
         density: 190
         mask:
         - HighImpassable
-#  - type: Tag
-#    tags:
-#      - RCDDeconstructWhitelist
   - type: Damageable
-    damageContainer: Inorganic # The pot. Not the plant. Or is it plastic?
+    damageContainer: Inorganic
   - type: Destructible
     thresholds:
     - trigger:

@@ -5,6 +5,7 @@
   playTimeTracker: JobHeadOfPersonnel
   # LOP edit
   whitelisted: true
+  salary: 45000 # LOP edit
   startingGear: SrGear
   alwaysUseSpawner: true
   icon: "JobIconHeadOfPersonnel"
@@ -28,7 +29,7 @@
 - type: startingGear
   id: SrGear
   equipment:
-    pocket1: WeaponDisabler
+    pocket1: NFWeaponEnergyPistolDisabler
   storage:
     back:
     - Flash

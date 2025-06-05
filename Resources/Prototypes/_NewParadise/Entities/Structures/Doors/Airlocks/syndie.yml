@@ -37,7 +37,7 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.49,-0.49,0.49,0.49" # don't want this colliding with walls or they won't close
+          bounds: "-0.49,-0.49,0.49,0.49"
         density: 100
         mask:
         - FullTileMask
@@ -132,7 +132,6 @@
     tags:
       - Airlock
       - EmagImmune
-      # This tag is used to nagivate the Airlock construction graph. It's needed because the construction graph is shared between Airlock, AirlockGlass, and HighSecDoor
   - type: PryUnpowered
   - type: BlockWeather
   placement:

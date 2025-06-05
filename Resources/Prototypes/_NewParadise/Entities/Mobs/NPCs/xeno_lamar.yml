@@ -7,7 +7,6 @@
   components:
   - type: Insulated
   - type: Clothing
-    #sprite: /Uploaded/lamar.rsi
     sprite: _NewParadise/Mobs/NPCs/lamar.rsi
     slots: [mask]
   - type: Blindfold
@@ -22,7 +21,6 @@
     layers:
     - map: ["enum.DamageStateVisualLayers.Base"]
       state: alive
-      #sprite: /Uploaded/lamar.rsi
       sprite: _NewParadise/Mobs/NPCs/lamar.rsi
   - type: Reactive
     groups:

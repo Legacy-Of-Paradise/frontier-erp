@@ -37,7 +37,8 @@
         paths:
         - /Maps/_NewParadise/Bluespace/cache.yml # LOP edit
     rewardAccounts:
-      Nfsd: 1.0
+      Nfsd: 0.2 # LOP edit 1.0>0.2
+      Frontier: 0.2 # LOP edit
 
 - type: entity
   id: BluespaceVaultError
@@ -77,7 +78,8 @@
         paths:
         - /Maps/_NewParadise/Bluespace/vault.yml # LOP edit
     rewardAccounts:
-      Nfsd: 1.0
+      Nfsd: 0.2 # LOP edit 1.0>0.2
+      Frontier: 0.2 # LOP edit
 
 - type: entity
   id: BluespaceVaultSmallError
@@ -94,7 +96,7 @@
     weight: 5
     duration: 590
     maxDuration: 780
-    reoccurrenceDelay: 360 # 6 hours
+    reoccurrenceDelay: 120 # LOP edit 360>120
     requiredJobs:
       Sheriff: 1
   - type: BluespaceErrorRule
@@ -118,7 +120,8 @@
         paths:
         - /Maps/_NewParadise/Bluespace/vaultsmall.yml # LOP edit
     rewardAccounts:
-      Nfsd: 1.0
+      Nfsd: 0.05 # LOP edit 1.0>0.2
+      Frontier: 0.05 # LOP edit
 
 - type: entity
   id: BluespaceSyndicateFTLInterception
@@ -135,7 +138,7 @@
     weight: 1
     duration: 1800
     maxDuration: 2400
-    reoccurrenceDelay: 360 # 6 hours
+    reoccurrenceDelay: 180 # LOP edit 360>180
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup
@@ -172,7 +175,7 @@
     weight: 1
     duration: 900
     maxDuration: 1200
-    reoccurrenceDelay: 360 # 6 hours
+    reoccurrenceDelay: 120 # LOP edit 360>120
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup
@@ -209,7 +212,7 @@
     weight: 1
     duration: 1800
     maxDuration: 2400
-    reoccurrenceDelay: 360 # 6 hours
+    reoccurrenceDelay: 120 # LOP edit 260>120
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup
@@ -281,7 +284,7 @@
     weight: 5
     duration: 900
     maxDuration: 1800
-    reoccurrenceDelay: 240 # once per 4 hours
+    reoccurrenceDelay: 120 # LOP edit 240>120
   - type: BluespaceErrorRule
     groups:
       grid: !type:GridSpawnGroup

@@ -1,7 +1,3 @@
-ent-LPPClothingNeckPGBandage = PG bandage
-    .desc = A bandage that gives an understanding of what political position the wearer of this bandage has.
-ent-LPPClothingNeckMantlePGGhillie = PG ghillie
-    .desc = A bandage that gives an understanding of what political position the wearer of this bandage has.
 ent-LPPClothingHeadHatGreenBandana = green bandana
     .desc = It's a green bandana.
 ent-LPPClothingHeadHatRedBandana = red bandana

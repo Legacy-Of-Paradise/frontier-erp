@@ -15,14 +15,13 @@
 Информацию о различных технологиях можно посмотреть [textlink="на странице справочника технологий" link="Technologies"].
 
 ## Дисциплины
-Технологии распределены по 5 различным дисциплинам:
-<Box>
-  <GuideEntityEmbed Entity="Wrench" Caption="Промышленность"/>
-  <GuideEntityEmbed Entity="Syringe" Caption="Биохимия"/>
-  <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Экспериментальное"/>
-  <GuideEntityEmbed Entity="ComputerTelevision" Caption="Обслуживание персонала"/>
-  <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Арсенал"/>
-</Box>
+Технологии распределены по 4 различным дисциплинам:
+  <Box>
+    <GuideEntityEmbed Entity="Wrench" Caption="Промышленность"/>
+    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Экспериментальное"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Обслуживание персонала"/>
+    <GuideEntityEmbed Entity="NFWeaponEnergyRifleSniperXrayCannon" Caption="Арсенал"/> <!-- Frontier: WeaponXrayCannon<WeaponEnergyRifleSniperXrayCannon -->
+  </Box>
 
 <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Воспользуйтесь ближайшей консолью РнД, чтобы узнать, какой вид исследований закреплен за каждым древом дисциплины.
 

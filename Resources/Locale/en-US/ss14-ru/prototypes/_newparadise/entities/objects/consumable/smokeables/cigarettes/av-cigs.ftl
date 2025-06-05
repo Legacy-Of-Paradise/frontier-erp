@@ -27,4 +27,4 @@ ent-LPPCigMarbrolo = marbrolo packet
 ent-LPPCigMaximus = maximus packet
     .desc = relatively inexpensive, not the nastiest cigarettes.
 ent-LPPCigWinchester = winchester packet
-    .desc = branded cigarettes. For centuries, the brand's products have retained their status as the most popular among smokers. Consumers choose the company's products, focusing on the optimal price-quality ratio.##!
+    .desc = branded cigarettes. For centuries, the brand's products have retained their status as the most popular among smokers. Consumers choose the company's products, focusing on the optimal price-quality ratio.

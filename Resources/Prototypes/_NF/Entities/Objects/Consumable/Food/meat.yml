@@ -10,6 +10,26 @@
     color: lime
 
 - type: entity
+  parent: FoodFrozenBase
+  id: FoodMeatSheleg
+  name: raw sheleg meat
+  description: A slab of cold.. meat?
+  components:
+  - type: Food
+  - type: Sprite
+    sprite: _NF/Objects/Consumable/Food/frozen.rsi
+    state: sheleg
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 15
+        reagents:
+        - ReagentId: Ice
+          Quantity: 7
+        - ReagentId: Cryoxadone
+          Quantity: 3
+
+- type: entity
   name: prime-cut cat meat
   # can't rot since that would be very bad for syndies
   parent: FoodMeatBase
@@ -87,7 +107,7 @@
           Quantity: 9
         - ReagentId: Fat
           Quantity: 9
-  
+
 - type: entity
   name: battered raw fish fillet
   parent: FoodCuredCarp
@@ -197,3 +217,7 @@
     tags:
       - Slice
       - Meat
+  - type: FoodSequenceElement
+    entries:
+      Burger: Ham
+      Taco: Ham

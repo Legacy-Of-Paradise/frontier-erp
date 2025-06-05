@@ -2,7 +2,7 @@
   # BRIGAND-ШАТТЛ ЭКСПЕДИЦИОННОГО КЛАССА
   <Box>
   <GuideEntityEmbed Entity="ClothingMaskGasMercenary"/>
-  <GuideEntityEmbed Entity="WeaponRifleAk"/>
+  <GuideEntityEmbed Entity="NFWeaponRifleAssaultSm"/>
   <GuideEntityEmbed Entity="IngotGold"/>
   <GuideEntityEmbed Entity="MobRandomSecurityCorpse"/>
   </Box>

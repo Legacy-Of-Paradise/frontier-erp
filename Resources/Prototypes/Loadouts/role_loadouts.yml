@@ -36,9 +36,9 @@
   # LOP edit end
 
 # Silicons
-- type: roleLoadout # Frontier: enabled JobBorg
+- type: roleLoadout
   id: JobBorg
-  nameDataset: NFNamesBorg # Frontier: restored names_borg value, no comment
+  nameDataset: NFNamesBorg # Frontier: use NF variant
   canCustomizeName: true
 
 - type: roleLoadout
@@ -222,6 +222,7 @@
 
 - type: roleLoadout
   id: JobClown
+  canCustomizeName: true
   groups:
   - GroupTankHarness
   - ClownHead
@@ -240,6 +241,7 @@
 
 - type: roleLoadout
   id: JobMime
+  canCustomizeName: true
   groups:
   - GroupTankHarness
   - MimeHead
@@ -569,7 +571,7 @@
   - ChiefMedicalOfficerOuterClothing
   - ChiefMedicalOfficerNeck
   - ChiefMedicalOfficerShoes
-  - Glasses
+  - MedicalEyewear
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
@@ -591,7 +593,7 @@
   - MedicalDoctorOuterClothing
   - MedicalShoes
   - MedicalDoctorPDA
-  - Glasses
+  - MedicalEyewear
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
@@ -607,7 +609,7 @@
   - GroupTankHarness
   - MedicalInternJumpsuit
   - MedicalBackpack
-  - Glasses
+  - MedicalEyewear
   - SurvivalMedical
   - Trinkets
   - GroupSpeciesBreathToolMedical
@@ -639,22 +641,28 @@
 - type: roleLoadout
   id: JobParamedic
   groups:
-  - GroupTankHarness
-  - ParamedicHead
-  - MedicalMask
-  - ParamedicJumpsuit
-  - MedicalGloves
-  - MedicalBackpack
-  - ParamedicOuterClothing
-  - ParamedicShoes
-  - Glasses
-  - SurvivalMedical
-  - Trinkets
-  - GroupSpeciesBreathToolMedical
   # LOP edit start
+  - DocGloves
+  - DocBackpack
+  - ContractorOuterClothing
+  - ParamedicJumpsuit
+  - DocShoes
+  - ParamedicHead
+  - ContractorFace
+  - ContractorGlasses
+  - ContractorBelt
+  - ContractorBoxSurvival
+  - ContractorWallet
+  - ContractorCartridge
+  - ContractorImplanter
+  - ContractorEncryptionKey
+  - ContractorBackpackItems
+  - ContractorHandItems
+  - NFSpeciesSpecific
   - LOPunderwearloadout
   - LOPsocksloadout
   - LOPbraloadout
+  - SponsorsClothing
   # LOP edit end
 
 # Wildcards

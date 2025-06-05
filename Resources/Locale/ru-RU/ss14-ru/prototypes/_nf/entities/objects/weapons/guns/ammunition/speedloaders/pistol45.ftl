@@ -1,0 +1,16 @@
+ent-NFBaseSpeedLoaderPistol45 = ускоритель перезарядки (.45 пистолет)
+    .desc = { ent-BaseC1Contraband.desc }
+ent-NFSpeedLoaderPistol45Empty = ускоритель перезарядки (.45 пистолет, любой)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45 = ускоритель перезарядки (.45 пистолет)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Overpressure = ускоритель перезарядки (.45 пистолет, избыточное давление)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Incendiary = ускоритель перезарядки (.45 пистолет, зажигательный)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Uranium = ускоритель перезарядки (.45 пистолет, урановый)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Practice = ускоритель перезарядки (.45 пистолет, тренировочный)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Rubber = ускоритель перезарядки (.45 пистолет, резиновый)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }

@@ -12,7 +12,7 @@
   id: Bazaar
   parent: BaseVessel
   name: SLI Bazaar
-  description: "Базар — это судно предназначенное для создания самого настоящей торговой зоны. Оно оснащено тремя складами, портами для торговли и постом наемников для охраны!" #LOP Edit
+  description: "Базар — это судно предназначенное для создания самого настоящей торговой зоны. Оно оснащено тремя складами, портами для торговли и постом наемников для охраны!" # LOP Edit
   price: 80000 # TODO: fix this number, just getting tests to pass - Whatstone
   category: Medium
   group: Shipyard

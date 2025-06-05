@@ -171,11 +171,11 @@
   - type: Storage
     grid:
     - 0,0,8,4
-#LOP edit start
+# LOP edit start
   - type: StaticPrice
     price: 100
     vendPrice: 2500
-#LOP edit end
+# LOP edit end
 
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffelSyndicate
@@ -188,7 +188,6 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffelSyndicate
   id: ClothingBackpackDuffelSyndicateAmmo
-  name: syndicate duffel bag
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/syndicate.rsi
@@ -209,7 +208,6 @@
 - type: entity
   parent: NFClothingDuffel # Frontier: ClothingBackpackDuffelNFClothingDuffelSyndicate
   id: ClothingBackpackDuffelSyndicateMedical
-  name: syndicate duffel bag
   components:
     - type: Sprite
       sprite: Clothing/Back/Duffels/syndicate.rsi

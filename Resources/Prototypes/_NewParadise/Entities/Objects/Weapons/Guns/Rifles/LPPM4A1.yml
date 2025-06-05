@@ -1,6 +1,6 @@
 - type: entity
   id: LPPM4A1
-  parent: [BaseWeaponRifle, BaseC2Contraband]
+  parent: [BaseWeaponRifle, BaseC2Contraband, NFBaseWeaponEncumbranceRifleAssault]
   name: M4A1
   description: The famous representative of classic rifles. The great and incomparable M4A1, or as some individuals call it.. Emka. Magazines of different colors are not provided. Uses 5.56x45 caliber cartridges.
   components:

@@ -1,5 +1,5 @@
 ﻿<Document>
-  # Вор
+  # Воры
 
   <Box>
     [color=#999999][italic]"Йоинк! Я возьму это! И это! О, ты же не возражаешь, если я возьму и это!"[/italic][/color]
@@ -25,7 +25,7 @@
   </Box>
 
   ## Инструменты торговли
-  В случае не предвиденных ситуаций, у вас есть еще два туза в запасе: ваш[color=cyan]маячок[/color] и ваш [color=cyan]набор инструментов.[/color]
+  В случае не предвиденных ситуаций, у вас есть еще два туза в запасе: ваш[color=cyan]маячок[/color] и вашу [color=cyan]сумку.[/color]
 
   Ваш [color=cyan]радиомаяк[/color] обеспечивает безопасный возврат в укрытие для безделушек, которые, возможно, нелегко будет пронести с собой в эвакуационном шаттле. Просто найдите укромное место на станции, чтобы включить радиомаяк, а затем укажите в него координаты вашего укрытия.
   Все блестящие, находящиеся рядом с ним, буду [bold]телепортированы в ваше хранилище по окончании смены,[/bold] позволяя вам выполнить ваши задачи.
@@ -36,9 +36,11 @@
     <GuideEntityEmbed Entity="ThiefBeacon"/>
   </Box>
 
-  В вашем [color=cyan]наборе инструментов[/color] есть... ну, все, что вы не забыли взять с собой. [bold]Вы можете выбрать два готовых набора[/bold], которые помогут вам совершать масштабное ограбления.
-  Подтвердите свой выбор в безопасном месте, так как ящик с инструментами растворится, а снаряжение упадет к вашим ногам.
+  В вашей [color=cyan]сумке[/color] есть... ну, все, что вы не забыли взять с собой. [bold]Вы можете выбрать два готовых набора[/bold], которые помогут вам совершать масштабное ограбления.
 
+  <Box>
+    <GuideEntityEmbed Entity="SatchelThief"/>
+  </Box>
   <Box>
     <GuideEntityEmbed Entity="StorageImplanter" Caption="Anatomy"/>
     <GuideEntityEmbed Entity="C4" Caption="Breacher"/>
@@ -61,11 +63,13 @@
   Некоторые из наиболее[italic]живых[/italic] целей могут не работать с вами и не захотять стать частью вашей колеции. Убедитесь, что они живы и будут с вами или с вашим маяком, когда смена закончится.
   Обычно, цели для пополнения вашей колцекции могут стать:
 
+  Вам могут понадобиться следующие вещи, но не только:
+
   <Box>
-    <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Figurines"/>
-    <GuideEntityEmbed Entity="PassengerIDCard" Caption="ID cards"/>
-    <GuideEntityEmbed Entity="ChemDispenser" Caption="Structures"/>
-    <GuideEntityEmbed Entity="MobCorgiIan" Caption="Animals/Pets"/>
+    <GuideEntityEmbed Entity="ToyFigurineGreytider" Caption="Фигурки"/>
+    <GuideEntityEmbed Entity="PassengerIDCard" Caption="ID карты"/>
+    <GuideEntityEmbed Entity="ChemDispenser" Caption="Структуры"/>
+    <GuideEntityEmbed Entity="MobCorgiIan" Caption="Животные"/>
   </Box>
 
 </Document>

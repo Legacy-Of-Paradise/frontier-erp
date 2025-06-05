@@ -8,6 +8,7 @@
       time: 18000 # LOP edit 43200<18000
   icon: "JobIconPilot"
   supervisors: job-supervisors-hire
+  salary: 20000
   weight: 2 # Prioritize station & department jobs
   displayWeight: 30 # Second from the top
   accessGroups: # Frontier

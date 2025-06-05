@@ -1,15 +1,5 @@
-ent-LPPClothingBackpackBlueshieldFilled = { ent-LPPClothingBackpackBlueshield }
-    .desc = { ent-LPPClothingBackpackBlueshield.desc }
 ent-LPPClothingBackpackHop = рюкзак Главы Персонала
     .desc = Сотканный из дорогих тканей рюкзак.
-ent-LPPClothingBackpackPG = рюкзак ПГ
-    .desc = Рюкзак, чтобы вместить все что нужно солдату...
-ent-LPPBlackClothingBackpackPG = чёрный рюкзак ПГ
-    .desc = Рюкзак для всех потребностей ПГ. Ночных потребностей.
-ent-LPPClothingBackpackSecurityEngineer = рюкзак полевого инженера
-    .desc = Свет инженерного отдела продолжает борьбу... Все ещё не заляпан кровью...
-ent-LPPClothingBackpackBlueshield = рюкзак офицера "Синий Щит"
-    .desc = Говорят, он пуленепробиваемый.
 ent-LPPClothingBackpackExpeditor = рюкзак исследователя
     .desc = Соткан на лучшей фабрике NanoTrasen, из лучших материалов! Чтобы быть съеденным космическим карпом...
 ent-LPPClothingBackpackBackPackNPZ = рюкзак НПЗ

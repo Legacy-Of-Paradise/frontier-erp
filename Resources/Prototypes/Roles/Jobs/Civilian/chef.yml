@@ -5,17 +5,26 @@
   playTimeTracker: JobChef
   setPreference: true # LOP edit
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 10800
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 1800 #0.5 hr
+  salary: 20000
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hire # Frontier
+  access:
+  - Service
   accessGroups: # Frontier
   - GeneralAccess # Frontier
   special:
   - !type:AddComponentSpecial
     components:
     - type: ProfessionalChef #Nyano - End Summary.
+  - !type:AddImplantSpecial
+    implants: [ MindShieldImplant ]
+  - !type:GiveItemOnHolidaySpecial # Frontier
+    holiday: FrontierBirthday # Frontier
+    prototype: FrontierBirthdayGift # Frontier
 
 - type: startingGear
   id: ChefGear

@@ -30,16 +30,16 @@ Legacy of Paradise — это форк [Space Station 14](https://github.com/spa
 ### Windows
 
 > 1. Клонируйте репо
-> 3. Запустите `Scripts/bat/buildAllDebug.bat` после каждого измения в C#.
-> 4. Запустите `Scripts/bat/runQuickAll.bat` для запуска клиента и сервера.
-> 5. Подключитесь к "localhost" в клиенте.
+> 2. Запустите `Scripts/bat/buildAllDebug.bat` после каждого измения в C#. Для мапперов - `Scripts/bat/buildAllTools.bat`
+> 3. Запустите `Scripts/bat/runQuickAll.bat` для запуска клиента и сервера.
+> 4. Подключитесь к "localhost" в клиенте.
 
 ### Linux
 
 > 1. Клонируйте репо
-> 3. Запустите `Scripts/sh/buildAllDebug.sh` после каждого изменения в C#.
-> 4. Запустите `Scripts/sh/runQuickAll.sh` для запуска клиента и сервера.
-> 5. Подключитесь к "localhost" в клиенте.
+> 2. Запустите `Scripts/sh/buildAllDebug.sh` после каждого изменения в C#. Для мапперов - `Scripts/sh/buildAllTools.sh`
+> 3. Запустите `Scripts/sh/runQuickAll.sh` для запуска клиента и сервера.
+> 4. Подключитесь к "localhost" в клиенте.
 
 ### Основные решения проблем
 
@@ -83,6 +83,7 @@ Legacy of Paradise — это форк [Space Station 14](https://github.com/spa
 
 | Название | Ссылка | Лицензия |
 |----------|--------|----------|
+| Monolith | https://github.com/Monolith-Station/Monolith | AGPL 3.0 |
 | Space Station 14 | https://github.com/space-wizards/space-station-14 | MIT |
 | White Dream | https://github.com/WWhiteDreamProject/wwdpublic | AGPL 3.0 |
 

@@ -12,8 +12,8 @@
   id: Prospector
   parent: BaseVessel
   name: NC Prospector
-  description: "Малое шахтерское судно, сконструированное для спасательных операций." #LOP Edit
-  price: 24500
+  description: "Малое шахтерское судно, сконструированное для спасательных операций." # LOP Edit
+  price: 22000
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/prospector.yml # LOP edit

@@ -1,0 +1,14 @@
+ent-NFBaseWeaponFrameEnergyRifle = { ent-NFBaseWeaponEncumbranceRifle }
+    .suffix = Фронтир
+    .desc = { ent-NFBaseWeaponEncumbranceRifle.desc }
+ent-NFBaseWeaponFrameEnergyRifleNanotrasen = { ent-NFBaseWeaponFrameEnergyRifle }
+    .desc = { ent-NFBaseWeaponFrameEnergyRifle.desc }
+ent-NFBaseWeaponEnergyRifleFireModes = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponEnergyRifleHitScan = { "" }
+    .suffix = Фронтир
+    .desc = { "" }
+ent-NFBaseWeaponEnergyRifleHitScanPulse = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponEnergyRifleEmp = { "" }
+    .desc = { "" }

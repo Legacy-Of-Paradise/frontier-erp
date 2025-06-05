@@ -12,7 +12,7 @@
   id: Investigator
   parent: BaseVessel
   name: NR Investigator
-  description: "Средний исследовательский шаттл, предназначенный для ксеноархеологических исследований." #LOP Edit
+  description: "Средний исследовательский шаттл, предназначенный для ксеноархеологических исследований." # LOP Edit
   price: 42100 # ~36540$ on mapinit + ~5480$ from 15% markup
   category: Medium
   group: Shipyard

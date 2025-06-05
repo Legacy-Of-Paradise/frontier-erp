@@ -1,9 +1,9 @@
 ent-AirlockShuttleAssemblyNfsd = собираемый внешний шлюз
-    .desc = An incomplete structure necessary for connecting two space craft together.
+    .desc = Незавершенная конструкция, необходимая для соединения двух космических аппаратов вместе.
     .suffix = ДШНГ, Стыковочный
 ent-AirlockGlassShuttleNfsd = внешний шлюз
-    .desc = Necessary for connecting two space craft together.
+    .desc = Необходим для соединения двух космических аппаратов вместе.
     .suffix = ДШНГ, Стеклянный, Стыковочный
 ent-AirlockShuttleNfsd = внешний шлюз
-    .desc = Necessary for connecting two space craft together.
+    .desc = Необходим для соединения двух космических аппаратов вместе.
     .suffix = ДШНГ, Стыковочный

@@ -20,3 +20,5 @@ ent-FoodDoughFlatButtered = buttered flat dough
     .desc = A buttered, flattened dough.
 ent-FoodDoughFlatPastry = pastry dough
     .desc = A buttery, rolled out pastry dough.
+ent-FoodBakedWaffleCone = waffle cone
+    .desc = A sugary waffle cone. Top with ice cream!

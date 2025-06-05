@@ -19,7 +19,9 @@ namespace Content.Shared.Humanoid
         RArm,
         LArm,
         RHand,
-
+        Socks,
+        Underwear,
+        Breast,
         LHand,
         RLeg,
         LLeg,

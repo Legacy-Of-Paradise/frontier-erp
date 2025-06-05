@@ -19,6 +19,7 @@
     - !type:RoleTimeRequirement
       role: JobSecurityOfficer
       time: 21600 # 6 hours
+  salary: 30000
   startingGear: SeniorOfficerGear
   icon: JobIconSergeant
   supervisors: job-supervisors-bailiff
@@ -43,7 +44,7 @@
   storage:
     back:
     - Flash
-    - SpeedLoaderMagnum
-    - SpeedLoaderMagnum
+    - NFSpeedLoaderPistol45
+    - NFSpeedLoaderPistol45
     - BaseSecurityUplinkRadioOfficer
     - ShipVoucherNfsdSergeant

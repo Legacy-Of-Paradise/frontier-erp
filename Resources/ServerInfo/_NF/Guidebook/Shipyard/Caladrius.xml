@@ -1,0 +1,131 @@
+<Document>
+  # "CALADRIUS" ШАТТЛ КЛАССА ГОСПИТАЛЬ 
+  <Box>
+    <GuideEntityEmbed Entity="BannerMedical" Caption="Восстановление"/>
+    <GuideEntityEmbed Entity="NFPosterContrabandFsbLogo" Caption="Исследование"/>
+    <GuideEntityEmbed Entity="BannerEngineering" Caption="Возмещение"/>    
+  </Box>
+  <Box>
+  <GuideEntityEmbed Entity="ShuttleMapCaladrius" Caption=""/>
+  </Box>
+  [color=#a4885c]Размер корабля:[/color] Крупный
+
+  [color=#a4885c]Рекомендуемый экипаж:[/color] 5-10
+
+  [color=#a4885c]Тип генератора энергии:[/color] ДАМ
+
+  [color=#a4885c]Экспедиции:[/color] Нет
+
+  [color=#a4885c]Консоль идентификации:[/color] Нет
+
+  "CALADRIUS" — это первоклассный экспедиционный медицинский носитель Far Star Biotech Corporation. Разработан для крупномасштабной поддержки колонизации, гуманитарной помощи, расследования последствий стихийных бедствий и операций по восстановлению."
+
+  # Функции корабля
+
+  <Box>
+    <GuideEntityEmbed Entity="ButtonFrameCautionSecurity" Caption="Запереть внешние шлюзы"/>
+    <GuideEntityEmbed Entity="ButtonFrameCaution" Caption="Задействовать взрывозащитные двери"/>
+    <GuideEntityEmbed Entity="ButtonFrameGrey" Caption="Задействовать ставни"/>    
+  </Box>
+
+  # ПЕРСОНАЛ CALADRIUS
+
+  <Box>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorCMO" Caption=""/>
+</Box>
+<Box>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorParamedic" Caption=""/>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorMedicalDoctor" Caption=""/>
+  <GuideEntityEmbed Entity="NFSignEms2" Caption=""/>
+  <GuideEntityEmbed Entity="SignChem" Caption=""/>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorChemist" Caption=""/>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorBotanist" Caption=""/>
+</Box>
+<Box>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorSalvageSpecialist" Caption=""/>
+  <GuideEntityEmbed Entity="SignSalvage" Caption=""/>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorCargoTechnician" Caption=""/>
+</Box>
+<Box>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorLawyer" Caption=""/>
+  <GuideEntityEmbed Entity="SignPsychology" Caption=""/>
+  <GuideEntityEmbed Entity="RandomHumanoidVisitorChaplain" Caption=""/>
+</Box>
+
+  # ПРЕДПОЛЕТНЫЙ КОНТРОЛЬНЫЙ СПИСОК
+
+  ## 1. Источник питания
+
+  ## 1.1. Системы питания двигателей
+<Box>
+  <GuideEntityEmbed Entity="ButtonFrameCaution" Caption="Переключить питание двигателей"/>
+</Box>
+
+  - Инженерам рекомендуется отключать двигатели для технического обслуживания или по указанию командира.
+  
+## 1.2. Батарейные блоки
+<Box>
+  <GuideEntityEmbed Entity="SMESBasic"/>
+  <GuideEntityEmbed Entity="SubstationBasic"/>
+  <GuideEntityEmbed Entity="APCBasic"/>
+  </Box>
+  
+  - Убедитесь, что СМЭС закреплены на полу.
+  - Убедитесь, что блок подстанции закреплен на полу.
+  - Убедитесь, что главный выключатель ЛКП включен.
+  - Проверьте текущую нагрузку* (Вт) ЛКП.
+  
+  ## 1.3. Генератор ДАМ.
+  <Box>
+  <GuideEntityEmbed Entity="AmeController"/>
+  <GuideEntityEmbed Entity="AmeJar"/>
+  </Box>
+  
+  - Убедитесь, что ядро ДАМ правильно экранировано.
+  - Убедитесь, что контроллер ДАМ закреплен на полу.
+  - Проверьте статус топлива в контроллере ДАМ.
+  - Проверьте количество впрыска контроллера ДАМ.
+  - Переключите впрыск.
+  
+  ## 2. Атмосферные системы
+  
+  ## 2.1. Контур распределения
+  <Box>
+  <GuideEntityEmbed Entity="OxygenCanister"/>
+  <GuideEntityEmbed Entity="NitrogenCanister"/>
+  <GuideEntityEmbed Entity="GasPort"/>
+  <GuideEntityEmbed Entity="GasMixer"/>
+  <GuideEntityEmbed Entity="GasPressurePump"/>
+  </Box>
+  
+  - Убедитесь, что кислородный баллон закреплен на соединительном порту.
+  - Убедитесь, что азотный баллон закреплен на соединительном порту.
+  - Убедитесь, что газовый смеситель настроен на правильное соотношение смешивания (21% кислорода, 79% азота).
+  - Убедитесь, что газовый смеситель настроен на 101 кПа.
+  - Включите газовый смеситель.
+  
+  ## 2.2. Контур отходов
+  <Box>
+  <GuideEntityEmbed Entity="GasPressurePump"/>
+  </Box>
+    
+  - Включите насос контура отходов (расположен в атмосферном отсеке).
+  - Обратите внимание, что Caladrius оснащен системой улавливания отходящих газов, доступ к которой осуществляется через порт в отсеке утилизации.
+  - Для использования системы улавливания отходящих газов Caladrius внешний насос должен быть деактивирован, а газы направлены в соответствующие системы улавливания.
+  - Эта система лучше всего обслуживается обученным техником по атмосферным системам.
+
+  
+  ## 3. Прочие проверки
+  <Box>
+  <GuideEntityEmbed Entity="Gyroscope"/>
+  <GuideEntityEmbed Entity="GravityGeneratorMini"/>
+  <GuideEntityEmbed Entity="BlastDoor"/>
+  </Box>
+  
+  - Убедитесь, что гироскоп закреплен, запитан и включен.
+  - Убедитесь, что мини-генератор гравитации закреплен, запитан и включен.
+  - Убедитесь, что взрывозащитные двери закрыты и заблокированы.
+  - Убедитесь, что все соответствующие точки доступа к судну отмечены и надлежащим образом защищены.
+  - Убедитесь, что ваш полет будет приятным и продуктивным. Все инструменты для достижения этого результата были предоставлены, если используются надлежащим образом.
+
+</Document>

@@ -15,13 +15,13 @@
   name: "Обновление 0.5 - Выход в бету!"
   description: "Готовые основные механики, подготовка к релизу."
   progress: 100
-  status: roadmap-goal-progress
+  status: roadmap-goal-completed
   order: 1
 
 - type: roadmap
   id: "release"
   name: "Обновление 1.0 - Выпуск релиза!"
   description: "Полная готовность и выпуск!"
-  progress: 15
-  status: roadmap-goal-waiting
+  progress: 30
+  status: roadmap-goal-progress
   order: 2

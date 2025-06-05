@@ -1,7 +1,7 @@
 - type: species
   id: TajaranSpecies
   name: species-name-tajaran
-  roundStart: true #can player role
+  roundStart: true
   prototype: LPPMobTajaran
   sprites: MobTajaranSprites
   defaultSkinTone: "#a6866d"

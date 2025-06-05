@@ -2,7 +2,7 @@
   id: Tide
   parent: BaseVessel
   name: SV Tide
-  description: "Дешевый серийный шаттл, изготовленный из обломков затонувших кораблей. Для опытного помощника." #LOP edit
+  description: "Дешевый серийный шаттл, изготовленный из обломков затонувших кораблей. Для опытного помощника." # LOP edit
   price: 9700
   category: Small
   group: Scrap

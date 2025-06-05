@@ -16,8 +16,8 @@ namespace Content.Shared.Preferences
         /// <summary>
         ///     Makes this profile valid so there's no bad data like negative ages.
         /// </summary>
-        void EnsureValid(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes //LOP edit: sponsor system
-#if LOP_Sponsors
+        void EnsureValid(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes // LOP edit: sponsor system
+#if LOP
         , int sponsorTier
 #endif
         );
@@ -25,8 +25,8 @@ namespace Content.Shared.Preferences
         /// <summary>
         /// Gets a copy of this profile that has <see cref="EnsureValid"/> applied, i.e. no invalid data.
         /// </summary>
-        ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes //LOP edit: sponsor system
-#if LOP_Sponsors
+        ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection, List<string> sponsorPrototypes // LOP edit: sponsor system
+#if LOP
         , int sponsorTier = 0
 #endif
         );

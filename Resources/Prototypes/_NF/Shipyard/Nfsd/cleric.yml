@@ -2,7 +2,7 @@
   id: Cleric
   parent: BaseVessel
   name: NSF Cleric
-  description: "Мелкое вспомогательное судно, используемое для экстренного спасения и оказания первой помощи." #LOP edit
+  description: "Мелкое вспомогательное судно, используемое для экстренного спасения и оказания первой помощи." # LOP edit
   price: 11800 #Appraisal is 10500
   category: Micro
   group: Custom

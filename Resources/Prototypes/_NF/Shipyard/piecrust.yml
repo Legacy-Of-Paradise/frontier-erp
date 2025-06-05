@@ -12,7 +12,7 @@
   id: Piecrust
   parent: BaseVessel
   name: NC Piecrust
-  description: "Ферма-пекарня: и коровы, и караваи!" #LOP Edit
+  description: "Ферма-пекарня: и коровы, и караваи!" # LOP Edit
   price: 35000 # TODO: fix this value, getting tests to pass - Whatstone
   category: Small
   group: Shipyard

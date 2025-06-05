@@ -1,0 +1,12 @@
+ent-NFMagazineGrenadeEmpty = { ent-MagazineGrenadeEmpty }
+    .desc = { ent-MagazineGrenadeEmpty.desc }
+ent-NFMagazineGrenadeFrag = { ent-MagazineGrenadeFrag }
+    .desc = { ent-MagazineGrenadeFrag.desc }
+ent-NFMagazineGrenadeEMP = { ent-MagazineGrenadeEMP }
+    .desc = { ent-MagazineGrenadeEMP.desc }
+ent-NFMagazineGrenadeFlash = { ent-MagazineGrenadeFlash }
+    .desc = { ent-MagazineGrenadeFlash.desc }
+ent-NFMagazineGrenadeBlast = { ent-MagazineGrenadeBlast }
+    .desc = { ent-MagazineGrenadeBlast.desc }
+ent-NFMagazineGrenadeBaton = { ent-MagazineGrenadeBaton }
+    .desc = { ent-MagazineGrenadeBaton.desc }

@@ -110,7 +110,7 @@ public sealed class InjectorSystem : SharedInjectorSystem
     /// </summary>
     private void InjectDoAfter(Entity<InjectorComponent> injector, EntityUid target, EntityUid user)
     {
-        if (HasComp<BlockInjectionComponent>(target)) // DeltaV
+        if (TryComp<BlockInjectionComponent>(target, out var blockInjection) && blockInjection.BlockSyringe) // DeltaV
         {
             Popup.PopupEntity(Loc.GetString("injector-component-deny-user"), target, user);
             return;
@@ -383,7 +383,7 @@ public sealed class InjectorSystem : SharedInjectorSystem
         // var removedSolution = SolutionContainers.Draw(target.Owner, targetSolution, realTransferAmount);
 
         // // Add back non-whitelisted reagents to the target solution
-        // applicableTargetSolution.AddSolution(temporarilyRemovedSolution, null);
+        // SolutionContainers.TryAddSolution(targetSolution, temporarilyRemovedSolution);
 
         Solution removedSolution;
         if (injector.Comp.ReagentWhitelist is { } reagentWhitelist)

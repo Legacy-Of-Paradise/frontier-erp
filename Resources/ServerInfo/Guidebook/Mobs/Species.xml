@@ -18,6 +18,7 @@
   # Виды, характерные для Нового Горизонта
   <Box>
   <GuideEntityEmbed Entity="MobGoblin" Caption="Goblin"/>
+  <GuideEntityEmbed Entity="MobSheleg" Caption="Sheleg"/>
   </Box>
   # Виды, характерные для "Delta-V"
   <Box>

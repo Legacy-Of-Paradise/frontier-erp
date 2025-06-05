@@ -1,0 +1,13 @@
+ent-LPPBaseMagazineMinigun = magazine (.10)
+    .desc = { ent-BaseItem.desc }
+ent-LPPMagazineMinigunEmpty = magazine (.10 any)
+    .suffix = empty
+    .desc = { ent-LPPBaseMagazineMinigun.desc }
+ent-LPPMagazineMinigun = magazine (.10)
+    .desc = { ent-LPPBaseMagazineMinigun.desc }
+ent-LPPMagazineMinigunPractice = magazine (.10 practice)
+    .desc = { ent-LPPBaseMagazineMinigun.desc }
+ent-LPPMagazineMinigunUranium = magazine (.10 uranium)
+    .desc = { ent-LPPBaseMagazineMinigun.desc }
+ent-LPPMagazineMinigunArmorPiercing = SMG magazine (.10 armor-piercing)
+    .desc = { ent-LPPBaseMagazineMinigun.desc }

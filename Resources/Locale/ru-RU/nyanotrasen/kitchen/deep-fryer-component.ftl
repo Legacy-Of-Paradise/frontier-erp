@@ -1,17 +1,17 @@
 ## DeepFryer Entity
 
-deep-fryer-blacklist-item-failed = { CAPITALIZE(THE($item)) } не удалось покрыть маслом.
-deep-fryer-oil-purity-low = { CAPITALIZE(THE($deepFryer)) } булькает без толку.
-deep-fryer-oil-volume-low = { CAPITALIZE(THE($deepFryer)) } загорается и дымит!
+deep-fryer-blacklist-item-failed = { CAPITALIZE($item) } не удалось покрыть маслом.
+deep-fryer-oil-purity-low = { CAPITALIZE($deepFryer) } булькает без толку.
+deep-fryer-oil-volume-low = { CAPITALIZE($deepFryer) } загорается и дымит!
 deep-fryer-oil-no-slag = Шлак не требуется сливать.
 deep-fryer-storage-full = Все корзины заполнены.
-deep-fryer-storage-no-fit = { CAPITALIZE(THE($item)) } не поместится в корзину.
+deep-fryer-storage-no-fit = { CAPITALIZE($item) } не поместится в корзину.
 deep-fryer-interact-using-not-item = Похоже, это не предмет.
 deep-fryer-need-liquid-container-in-hand = Сначала возьмите в руки ёмкость с жидкостью, например, мензурку или миску.
 deep-fryer-thrown-missed = Промах!
 deep-fryer-thrown-hit-oil = Хлоп!
 deep-fryer-thrown-hit-oil-low = Бульк!
-deep-fryer-entity-escape = { CAPITALIZE(THE($victim)) } выпрыгивает из { THE($deepFryer) }!
+deep-fryer-entity-escape = { CAPITALIZE($victim) } выпрыгивает из { $deepFryer }!
 
 ## DeepFryer UI
 
