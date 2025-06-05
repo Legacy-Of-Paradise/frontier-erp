@@ -41,6 +41,11 @@ using Direction = Robust.Shared.Maths.Direction;
 using Content.Client._NewParadise.Sponsors;
 #endif
 
+
+#if LOP
+using Content.Shared._ERPModule.Data;
+#endif
+
 namespace Content.Client.Lobby.UI
 {
     [GenerateTypedNameReferences]
@@ -191,6 +196,19 @@ namespace Content.Client.Lobby.UI
             };
 
             #endregion Sex
+
+
+#if LOP
+            #region ERP-MODULE
+
+            ErpStatusButton.OnItemSelected += args =>
+            {
+                ErpStatusButton.SelectId(args.Id);
+                SetErpStatus((ErpStatus) args.Id);
+            };
+
+            #endregion
+#endif
 
             #region Age
 
@@ -472,7 +490,26 @@ namespace Content.Client.Lobby.UI
 
             UpdateSpeciesGuidebookIcon();
             IsDirty = false;
+
+#if LOP
+            _cfgManager.OnValueChanged(ErpCVars.EroticPanelEnabled,
+                UpdateErpControlsVisibility,
+                true);
+#endif
         }
+
+
+
+#if LOP
+        #region ERP-MODULE
+
+        private void UpdateErpControlsVisibility(bool obj)
+        {
+            ERPStatusContainer.Visible = obj;
+        }
+
+        #endregion
+#endif
 
         /// <summary>
         /// Refreshes the flavor text editor status.
@@ -802,6 +839,10 @@ namespace Content.Client.Lobby.UI
             UpdateCMarkingsFacialHair();
             UpdateTTSVoicesControls(); // LOP edit
 
+#if LOP
+            UpdateErpStatusControls();
+#endif
+
             RefreshAntags();
             RefreshJobs();
             RefreshLoadouts();
@@ -815,6 +856,18 @@ namespace Content.Client.Lobby.UI
                 PreferenceUnavailableButton.SelectId((int)Profile.PreferenceUnavailable);
             }
         }
+
+#if LOP
+        #region ERP-MODULE
+
+        private void SetErpStatus(ErpStatus newErp)
+        {
+            Profile = Profile?.WithErpStatus(newErp);
+            SetDirty();
+        }
+
+        #endregion
+#endif
 
 
         /// <summary>
@@ -1266,6 +1319,11 @@ namespace Content.Client.Lobby.UI
             RefreshJobs();
             // In case there's species restrictions for loadouts
             RefreshLoadouts();
+
+#if LOP
+            UpdateErpStatusControls();
+#endif
+
             // Frontier: In case there's species restrictions for traits
             RefreshTraits(); // Frontier
             UpdateSexControls(); // update sex for new species
@@ -1283,6 +1341,46 @@ namespace Content.Client.Lobby.UI
 
             _entManager.System<MetaDataSystem>().SetEntityName(PreviewDummy, newName);
         }
+
+#if LOP
+        #region ERP-MODULE
+
+        private void UpdateErpStatusControls()
+        {
+            if (Profile == null)
+                return;
+
+            const ErpStatus defaultStatus = ErpStatus.Ask;
+
+            ErpStatusButton.Clear();
+
+            var statusLabels = new Dictionary<ErpStatus, string>
+            {
+                { ErpStatus.Yes, Loc.GetString("humanoid-profile-editor-erp-yes-text") },
+                { ErpStatus.Ask, Loc.GetString("humanoid-profile-editor-erp-ask-text") },
+                { ErpStatus.No, Loc.GetString("humanoid-profile-editor-erp-no-text") }
+            };
+
+            foreach (var status in Enum.GetValues<ErpStatus>())
+            {
+                if (statusLabels.TryGetValue(status, out var label))
+                {
+                    ErpStatusButton.AddItem(label, (int)status);
+                }
+            }
+
+            if (Enum.IsDefined(Profile.ErpStatus))
+            {
+                ErpStatusButton.SelectId((int)Profile.ErpStatus);
+            }
+            else
+            {
+                ErpStatusButton.SelectId((int)defaultStatus);
+            }
+        }
+
+        #endregion
+#endif
 
         private void SetSpawnPriority(SpawnPriorityPreference newSpawnPriority)
         {

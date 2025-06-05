@@ -8,6 +8,10 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
 using Robust.Shared.Utility;
 
+#if LOP
+using Content.Shared._ERPModule.Data;
+#endif
+
 namespace Content.Shared.Humanoid;
 
 [NetworkedComponent, RegisterComponent, AutoGenerateComponentState(true)]
@@ -28,6 +32,13 @@ public sealed partial class HumanoidAppearanceComponent : Component
 
     [DataField, AutoNetworkedField]
     public Gender Gender;
+
+#if LOP
+
+    [DataField, AutoNetworkedField]
+    public ErpStatus ErpStatus;
+
+#endif
 
     [DataField, AutoNetworkedField]
     public int Age = 18;
