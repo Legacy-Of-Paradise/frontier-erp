@@ -34,7 +34,7 @@
                 </GridContainer>
                 <GridContainer Columns="1" Margin="0,15,0,0">
                     <Button Visible="False" Name="Follow" Text="{Loc 'admin-player-actions-follow'}" StyleClasses="OpenLeft" />
-                    <Button Visible="False" Name="PlayerPanel" Text="Панель игрока" StyleClasses="OpenBoth" />
+                    <Button Visible="False" Name="PlayerPanel" Text="{Loc 'admin-player-actions-panel'}" StyleClasses="OpenBoth" />
                 </GridContainer>
                 <!--LOP edit end-->
             </BoxContainer>
