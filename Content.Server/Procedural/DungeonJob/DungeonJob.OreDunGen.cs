@@ -45,7 +45,11 @@ public sealed partial class DungeonJob
                 var enumerator2 = _maps.GetAnchoredEntitiesEnumerator(_gridUid, _grid, tile);
                 while (enumerator2.MoveNext(out var uid))
                 {
-                    var prototype = _entManager.GetComponent<MetaDataComponent>(uid.Value).EntityPrototype;
+                    // Frontier: Use TryGetComponent, avoid errors
+                    if (!_entManager.TryGetComponent(uid.Value, out MetaDataComponent? metaComp))
+                        continue;
+                    var prototype = metaComp.EntityPrototype;
+                    // End Frontier: Use TryGetComponent, avoid errors
 
                     if (prototype?.ID is null)
                         continue;
@@ -133,7 +137,11 @@ public sealed partial class DungeonJob
 
                     if (replaceEntities.TryGetValue(node, out var existingEnt))
                     {
-                        var existingProto = _entManager.GetComponent<MetaDataComponent>(existingEnt).EntityPrototype;
+                        // Frontier: use TryGetComponent, avoid errors
+                        EntityPrototype? existingProto = null;
+                        if (_entManager.TryGetComponent(existingEnt, out MetaDataComponent? existingMeta))
+                            existingProto = existingMeta.EntityPrototype;
+                        // End Frontier: use TryGetComponent, avoid errors
                         _entManager.DeleteEntity(existingEnt);
 
                         if (existingProto != null && remapping.TryGetValue(existingProto.ID, out var remapped))

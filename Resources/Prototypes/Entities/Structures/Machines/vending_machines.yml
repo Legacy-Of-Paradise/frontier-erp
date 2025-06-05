@@ -132,6 +132,7 @@
   - type: ContainerContainer
     containers:
       cash_slot: !type:ContainerSlot
+  - type: BindToStation # Frontier
   # End Frontier
 
 - type: entity

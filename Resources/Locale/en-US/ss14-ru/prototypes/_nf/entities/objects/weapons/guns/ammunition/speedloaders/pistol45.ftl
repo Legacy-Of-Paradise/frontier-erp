@@ -1,0 +1,16 @@
+ent-NFBaseSpeedLoaderPistol45 = speed loader (.45 pistol)
+    .desc = { ent-BaseC1Contraband.desc }
+ent-NFSpeedLoaderPistol45Empty = speed loader (.45 pistol, any)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45 = speed loader (.45 pistol)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Overpressure = speed loader (.45 pistol, overpressure)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Incendiary = speed loader (.45 pistol, incendiary)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Uranium = speed loader (.45 pistol, uranium)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Practice = speed loader (.45 pistol, practice)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }
+ent-NFSpeedLoaderPistol45Rubber = speed loader (.45 pistol, Rubber)
+    .desc = { ent-NFBaseSpeedLoaderPistol45.desc }

@@ -61,5 +61,5 @@ rate_limit_count = 2
 rate_limit_period = 10
 admin_prefix_webhook = true
 
-# [discord]
-# rich_main_icon_id = "legacyparadise"
+[discord]
+rich_main_icon_id = "https://bit.ly/lopicon"

@@ -99,3 +99,7 @@
     collection: FootstepFloor
   itemDrop: LPPFloorTileItemWhiteS
   heatCapacity: 10000
+
+- type: tileAlias
+  id: LPPKitchenSmallS
+  target: FloorKitchen

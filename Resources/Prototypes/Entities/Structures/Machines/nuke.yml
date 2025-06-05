@@ -107,9 +107,15 @@
       Nuke: !type:ContainerSlot
   - type: StealTarget
     stealGroup: NuclearBomb
+  - type: Tag
+    tags:
+    - GhostOnlyWarp
   - type: WarpPoint
     follow: true
-    location: nuclear bomb
+    location: ядерная бомба # LOP edit
+    blacklist:
+      tags:
+      - GhostOnlyWarp
   - type: FTLSmashImmune
   - type: ShipyardSellCondition # Frontier
     blockSale: true # Frontier

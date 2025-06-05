@@ -163,8 +163,9 @@ marking-HumanHairF = Короткая 7
 marking-HumanHairShorthairg = Короткая 8
 marking-HumanHair80s = Короткая (80-ые)
 marking-HumanHairRosa = Короткая (Роза)
+# Frontier: caps on Eye
+marking-HumanHairBAlt = Волосы до плеч (на глаз)
 marking-HumanHairB = Волосы до плеч
-marking-HumanHairShoulderLengthOverEye = До плеч через глаз
 marking-HumanHairSidecut = Боковой вырез
 marking-HumanHairSkinhead = Бритоголовый
 marking-HumanHairProtagonist = Слегка длинная

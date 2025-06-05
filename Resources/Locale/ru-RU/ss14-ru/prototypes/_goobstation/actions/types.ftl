@@ -1,4 +1,4 @@
 ent-ActionHorn = [Х]онк!
     .desc = Хонкни в горн!
-ent-ActionSiren = cирена
+ent-ActionSiren = сирена
     .desc = Предупреждает всех о вашем присутствии

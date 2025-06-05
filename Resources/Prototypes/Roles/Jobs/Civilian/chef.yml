@@ -5,8 +5,10 @@
   playTimeTracker: JobChef
   setPreference: true # LOP edit
   requirements:
-    - !type:OverallPlaytimeRequirement
-      time: 10800
+    - !type:DepartmentTimeRequirement
+      department: Civilian
+      time: 1800 #0.5 hr
+  salary: 20000
   startingGear: ChefGear
   icon: "JobIconChef"
   supervisors: job-supervisors-hire # Frontier

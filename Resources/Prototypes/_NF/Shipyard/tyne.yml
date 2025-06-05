@@ -11,7 +11,7 @@
 - type: vessel
   id: Tyne
   parent: BaseVessel
-  name: SBB Tyne
+  name: BB Tyne
   description: "Небольшое спасательное судно с внешней палубой и каютами для спасательных операций." # LOP Edit
   price: 23000 #~5% markup as it's a med ship. Appraises at ~22474.
   category: Small
@@ -24,7 +24,7 @@
 
 - type: gameMap
   id: Tyne
-  mapName: 'SBB Tyne'
+  mapName: 'BB Tyne'
   mapPath: /Maps/_NewParadise/Shuttles/tyne.yml # LOP edit
   minPlayers: 0
   stations:

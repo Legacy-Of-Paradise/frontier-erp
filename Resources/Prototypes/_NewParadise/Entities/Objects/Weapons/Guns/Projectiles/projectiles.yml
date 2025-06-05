@@ -155,8 +155,8 @@
     impactEffect: BulletImpactEffect
     damage:
       types:
-        Piercing: 35
-        Blunt: 30
+        Piercing: 37.5
+        Blunt: 37.5
 
 - type: entity
   id: LPPBulletLebel

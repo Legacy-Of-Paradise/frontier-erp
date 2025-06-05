@@ -8268,7 +8268,7 @@ entities:
     - type: Transform
       pos: -0.5,0.5
       parent: 1
-- proto: LPPWeaponLightMachinegunStoner25
+- proto: LPPWeaponRifleM14
   entities:
   - uid: 1119
     components:

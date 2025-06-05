@@ -1,6 +1,6 @@
 - type: entity
   name: saiber
-  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
+  parent: [BaseC3SyndicateContraband, NFBaseWeaponSubMachineGunChamber35, NFBaseWeaponFrameSubMachineGunCybersun]
   id: LPPWeaponSubMachineGunSaiber
   description: Pla-ket-ket-ket-ket! But silenced! Uses .35 auto ammo.
   components:
@@ -23,10 +23,12 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 67500
+  - type: NFWeaponDetails
+    class: weapon-details-class-submachine-gun
 
 - type: entity
   name: m90
-  parent: [BaseWeaponSubMachineGun, BaseC2Contraband]
+  parent: [BaseC2Contraband, NFBaseWeaponSubMachineGunChamber35, NFBaseWeaponFrameSubMachineGunNanotrasen]
   id: LPPWeaponSubMachineGunM90
   description: famous submachine gun used by mercenries. Uses .35 auto ammo.
   components:
@@ -46,10 +48,12 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: NFWeaponDetails
+    class: weapon-details-class-submachine-gun
 
 - type: entity
   name: IL-20
-  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband]
+  parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband, NFBaseWeaponFrameMachinePistolGorlex]
   id: LPPWeaponSubMachineGunIL20
   description: famous submachine gun used by mercenries. Uses .35 auto ammo.
   components:
@@ -74,24 +78,26 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazinePistolHighCapacity
+        startingItem: NFMagazineHighCapacityPistol35
         insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
         whitelist:
           tags:
-            - MagazinePistolHighCapacity
-            - MagazinePistol
+            - NFMagazineHighCapacityPistol35
+            - NFMagazinePistol35
       gun_chamber:
         name: Chamber
-        startingItem: CartridgePistol
+        startingItem: NFCartridgePistol35
         priority: 1
         whitelist:
           tags:
-            - CartridgePistol
+            - NFCartridgePistol35
   - type: StaticPrice
     price: 1500
     vendPrice: 29500
+  - type: NFWeaponDetails
+    class: weapon-details-class-submachine-gun
 
 - type: entity
   name: MAC-21
@@ -134,11 +140,12 @@
             - MagazineMinigun
       gun_chamber:
         name: Chamber
-        startingItem: CartridgeMinigun
+        startingItem: NFCartridgeRifle10
         priority: 1
         whitelist:
           tags:
             - CartridgeMinigun
+            - NFCartridgeRifle10
   - type: Gun
     minAngle: 1
     maxAngle: 12
@@ -147,3 +154,5 @@
     angleDecay: 15
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: NFWeaponDetails
+    class: weapon-details-class-submachine-gun

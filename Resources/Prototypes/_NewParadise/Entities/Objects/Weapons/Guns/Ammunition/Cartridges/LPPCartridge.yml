@@ -28,6 +28,7 @@
     tags:
       - Cartridge
       - CartridgeMinigun
+      - NFCartridgeRifle10
   - type: CartridgeAmmo
     proto: BulletHeavyRifle
   - type: Sprite
@@ -47,14 +48,6 @@
   components:
   - type: CartridgeAmmo
     proto: LPPBulletM4A1
-
-- type: entity
-  id: LPPCartridgeRubberM4A1
-  name: Bullet (calibre 5,56x45 rubber)
-  parent: LPPBaseCartridgeRifle
-  components:
-  - type: CartridgeAmmo
-    proto: LPPBulletRubberM4A1
 
 - type: entity
   id: LPPCartridgePracticeM4A1
@@ -109,40 +102,6 @@
     proto: LPPBulletLightRifleHunting
 
 - type: entity
-  id: LPPCartridgeMinigunrubber
-  name: bullet (.10 rifle rubber)
-  parent: LPPBaseCartridgeMinigun
-  components:
-  - type: CartridgeAmmo
-    proto: LPPBulletMinigunRubber
-    deleteOnSpawn: true
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-    - state: tip
-      map: [ "enum.AmmoVisualLayers.Tip" ]
-      color: "#026dbf"
-
-- type: entity
-  id: LPPCartridgeMinigunPractice
-  name: bullet (.10 rifle practice)
-  parent: LPPBaseCartridgeMinigun
-  components:
-  - type: CartridgeAmmo
-    proto: BaseBulletPractice
-    deleteOnSpawn: true
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
-    layers:
-    - state: base
-      map: ["enum.AmmoVisualLayers.Base"]
-    - state: tip
-      map: [ "enum.AmmoVisualLayers.Tip" ]
-      color: "#026dbf"
-
-- type: entity
   id: LPPCartridgeMinigunAP
   name: bullet (.10 rifle AP)
   parent: LPPBaseCartridgeMinigun
@@ -177,14 +136,14 @@
       color: "#61eb34"
 
 - type: entity
-  parent: CartridgeAntiMateriel
+  parent: NFCartridgeRifle60
   id: LPPCartridgeAntiMaterielNonLethal
   name: cartridge (.60 Non-lethal)
   components:
   - type: Tag
     tags:
     - Cartridge
-    - CartridgeAntiMateriel
+    - NFCartridgeRifle60
   - type: CartridgeAmmo
     proto: LPPBulletAntiMaterielNonlethal
   - type: Sprite
@@ -201,14 +160,14 @@
     price: 20
 
 - type: entity
-  parent: CartridgeAntiMateriel
+  parent: NFCartridgeRifle60
   id: LPPCartridgeAntiMaterielCP
   name: cartridge (.60 Cocntere-Piercing)
   components:
   - type: Tag
     tags:
     - Cartridge
-    - CartridgeAntiMateriel
+    - NFCartridgeRifle60
   - type: CartridgeAmmo
     proto: LPPBulletAntiMaterielCP
   - type: Sprite

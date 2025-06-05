@@ -1,5 +1,5 @@
-ent-LPPBaseWeaponLeverSniper = BaseWeaponSniperLever
-    .desc = A rooty tooty point and shooty.
+ent-LPPBaseWeaponLeverSniper = Базовое снайперское оружие с рычажным механзмом
+    .desc = Коренастый, зубастый и меткий.
 ent-LPPWeaponSniperLeverPravoved = правовед
     .desc = See you soon... Space cowboy... Использует патроны .45 магнум.
 ent-LPPBaseWeaponSniper = снайперка

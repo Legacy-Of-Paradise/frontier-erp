@@ -1,0 +1,9 @@
+ent-NFWeaponPistolEchis = echis
+    .desc = A viper for use by cyborgs. Creates .35 ammo on the fly from an internal ammo fabricator, which slowly self-charges.
+ent-NFWeaponPistolViper = viper
+    .desc = A small, easily concealable machine pistol. An illegal firearm often used by Syndicate agents.
+ent-NFWeaponPistolPollock = pollock
+    .desc = A compact and mass-produced combat pistol.
+ent-NFWeaponPistolPollockHighCapacityMag = { ent-NFBaseWeaponPistolChamber35HighCapacity }
+    .suffix = Frontier, High capacity mag
+    .desc = { ent-NFBaseWeaponPistolChamber35HighCapacity.desc }

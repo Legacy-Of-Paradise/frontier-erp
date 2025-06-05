@@ -1,4 +1,4 @@
-vehicle-use-key = Вы используете { THE($keys) } чтобы завести { THE($vehicle) }.
+vehicle-use-key = Вы используете { $keys } чтобы завести { $vehicle }.
 # Frontier
-vehicle-cannot-pull = Вам нужно перестать таскать { THE($object) } чтобы сесть на { THE($vehicle) }.
+vehicle-cannot-pull = Вам нужно перестать таскать { $object } чтобы сесть на { $vehicle }.
 vehicle-slot-component-slot-name-keys = Ключи

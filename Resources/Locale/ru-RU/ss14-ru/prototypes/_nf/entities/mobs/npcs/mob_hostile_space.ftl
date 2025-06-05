@@ -1,3 +1,6 @@
+ent-NFMobSpaceBase = { ent-NFMobRestrictions }
+    .suffix = Фронтир
+    .desc = { ent-NFMobRestrictions.desc }
 ent-NFMobBearSpace = { ent-MobBearSpace }
     .suffix = Фронтир
     .desc = { ent-NFMobRestrictions.desc }

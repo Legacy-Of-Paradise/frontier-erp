@@ -1,4 +1,4 @@
-# Clutter
+#region Clutter
 - type: entity
   name: random clutter
   id: SpawnDungeonLootArmoryClutter
@@ -78,7 +78,7 @@
     - ClothingOuterArmorHeavy
     rareChance: 0.01
 
-# Tools (Weapons)
+#region Tools (Weapons)
 - type: entity
   name: random weapon
   id: SpawnDungeonLootArmoryGuns
@@ -137,13 +137,13 @@
     - SpawnDungeonLootGunT2
     - SpawnDungeonLootMeleeT2
     - SpawnDungeonLootAmmoLethal
-    chance: 0.8
+    chance: 0.25 # LOP edit
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootMeleeT3
     - SpawnDungeonLootGunT3
     - SpawnDungeonLootExplosivesT2
-    rareChance: 0.1
+    rareChance: 0.05 # LOP edit
 
 - type: entity
   name: random weapon
@@ -190,13 +190,13 @@
     - SpawnDungeonLootGunT3
     - SpawnDungeonLootGunT3
     - SpawnDungeonLootMeleeT3
-    chance: 0.9
+    chance: 0.2 # LOP edit
     offset: 0.0
     rarePrototypes:
     - SpawnDungeonLootMeleeT4
     - SpawnDungeonLootGunT4
     - SpawnDungeonLootExplosivesT3
-    rareChance: 0.1
+    rareChance: 0.05 # LOP edit
 
 - type: entity
   name: random weapon
@@ -252,7 +252,7 @@
     - TelescopicShield
     rareChance: 0.01
 
-# Clothes
+#region Clothes
 - type: entity
   name: random clothes
   id: SpawnDungeonLootClothesMercenary
@@ -312,12 +312,17 @@
     - ClothingOuterArmorBasicSlim
     - ClothingOuterArmorBulletproof
     - ClothingOuterArmorRiot
+# LOP edit start
+    - LPPlothingOuterArmorSwatEpistemic
+    - LPPClothingOuterArmorSwat
+# LOP edit end
     chance: 1
     offset: 0.0
     rarePrototypes:
     - ClothingOuterArmorHeavy
     - ClothingOuterArmorReflective
     - ClothingOuterVestWeb
+    - LPPlothingOuterArmorSwatAlternative # LOP edit
     rareChance: 0.1
 
 - type: entity
@@ -339,13 +344,24 @@
     prototypes:
     - ClothingOuterHardsuitMercenary
     - ClothingOuterHardsuitPrivateSecurity
+# LOP edit start
+    - LPPClothingOuterHardsuitMiksuit
+    - LPPClothingOuterHardsuitScienceNPZ
+    - LPPHardsuitAssaultParamedic
+    - LPPClothingOuterHardsuitRND
+# LOP edit end
     chance: 1
     offset: 0.0
     rarePrototypes:
     - ClothingOuterHardsuitScaf
+# LOP edit start
+    - LPPClothingOuterHardsuitPilotSecurity
+    - LPPClothingOuterHardsuitAcientHos
+    - LPPClothingOuterHardsuitCombatAlternative
+# LOP edit end
     rareChance: 0.1
 
-# Furniture/Lockers
+#region Furniture/Lockers
 - type: entity
   name: random locker
   id: SpawnDungeonLootLockersArmory
@@ -400,6 +416,12 @@
     offset: 0.0
     rarePrototypes:
     - SuitStorageScaf
+# LOP edit start
+    - LPPSuitStorageMiksuit
+    - LPPSuitStorageAcientHos
+    - LPPSuitStorageCombatAlternative
+    - LPPSuitStorageNPZ
+# LOP edit end
     rareChance: 0.1
 
 - type: entity
@@ -433,8 +455,10 @@
     - CrateSecurityHelmet
     - CrateArmoryShotgunExpedition
     - CrateArmoryPistolsExpedition
-    - CrateArmoryRifleGestioExpedition
-    - CrateArmoryRifleNovaliteC1Expedition
+# LOP edit start
+    # - CrateArmoryRifleGestioExpedition
+    # - CrateArmoryRifleNovaliteC1Expedition
+# LOP edit end
     - CrateArmoryEnergyGunExpedition
     # Ammo
     - CrateAmmoBoxLethal20
@@ -453,9 +477,9 @@
     chance: 0.85
     offset: 0.0
     rarePrototypes:
-    - CrateArmorySMGExpedition
+    # - CrateArmorySMGExpedition # LOP edit
     - CrateArmoryLaserExpedition
-    - CrateArmorySMGExpedition
+    # - CrateArmorySMGExpedition # LOP edit
     - CrateArmoryLaserExpedition
     - CrateSecurityNonlethal
     - CrateSecureMercenaryHardsuitMagBoots
@@ -533,7 +557,7 @@
     chance: 1.0
     offset: 0.0
 
-# Machines
+#region Machines
 - type: entity
   name: random vendomat
   id: SpawnDungeonVendomatsArmory

@@ -22,3 +22,7 @@ ent-CrateMaterialUranium = ящик урана
     .desc = 90 единиц урана.
 ent-CrateMaterialRandom = излишки материалов
     .desc = Откуда-то взятые излишки материалов.
+ent-CrateMaterialSilo = ящик материалов
+    .desc = Пакет, включающий все материалы для создания склада материалов.
+ent-CrateMaterialBasicResource = ящик с основными листовыми матерялами
+    .desc = 30 листов стали, стекла и пластика.

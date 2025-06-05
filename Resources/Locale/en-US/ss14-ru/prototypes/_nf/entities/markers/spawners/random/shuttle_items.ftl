@@ -1,6 +1,15 @@
+ent-SpawnRandomDrinkMug = random mug
+    .suffix = Ship
+    .desc = { ent-MarkerBasePlaceFree.desc }
+ent-SpawnRandomTowel = random towel
+    .suffix = Ship
+    .desc = { ent-MarkerBasePlaceFree.desc }
 ent-SpawnShuttleGearSuitStorageUnitsMercenary = random suit storage unit
-    .suffix = Shuttle, Mercenary
+    .suffix = Ship
     .desc = { ent-MarkerBase.desc }
 ent-SpawnShuttleVendomatsClothes = random vendomat
-    .suffix = Shuttle, Clothes
+    .suffix = Ship
     .desc = { ent-MarkerBase.desc }
+ent-SpawnRandomSignRedDigits = random number sign
+    .suffix = Ship
+    .desc = { ent-MarkerBasePlaceFree.desc }

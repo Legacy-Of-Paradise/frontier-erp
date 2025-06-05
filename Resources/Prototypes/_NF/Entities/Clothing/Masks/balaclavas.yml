@@ -5,6 +5,7 @@
   name: black balaclava
   description: A black balaclava to make you look menacing.
   components:
+  - type: IdentityBlocker # LOP edit
   - type: FoldableClothing
     foldedSlots:
     - HEAD

@@ -54,3 +54,5 @@ ent-NFPosterContrabandFsbNightlight = Биотехнологический но�
     .desc = Ночник "Далёкая звезда", разгоняющий тмъу всю ночь напролёт.
 ent-NFPosterContrabandFsbRetort = Far Star Biotech Retort
     .desc = FSB Retort! Зажгите свой потенциал!
+ent-NFPosterContrabandFsbCaladrius = Far Star Biotech Caladrius
+    .desc = Фар Стар Биотек Калиадрус, когда больше не к кому обратиться, вы будете рады нас видеть!

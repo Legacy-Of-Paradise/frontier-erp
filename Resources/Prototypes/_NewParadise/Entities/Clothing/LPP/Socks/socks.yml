@@ -9,11 +9,10 @@
   - type: Item
     size: Small
   - type: Clothing
-    slots: [socks]
+    slots: SOCKS
   - type: Tag
     tags:
-      - socks
-
+    - socks
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -60,8 +59,8 @@
   - type: Sprite
     sprite: _NewParadise/Clothing/Socks/commie_thigh.rsi
 
-#----------------Pantyhose------------------
 
+#----------------Pantyhose------------------
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderPantyhoseBlack
@@ -69,7 +68,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -78,7 +86,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -87,7 +104,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -96,7 +122,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -105,7 +140,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -114,7 +158,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -123,7 +176,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -132,7 +194,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -141,8 +212,7 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/pantyhose.rsi
-
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderPantyhoseRed
@@ -150,7 +220,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -159,7 +238,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -168,10 +256,19 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Pantyhose/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Pantyhose/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
 
 #---------------------------------------------------
-
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderRainbowKnee
@@ -193,7 +290,6 @@
 
 #------------------Socks------------------------
 #----------------SocksKnee----------------
-
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderSocksKneeBlack
@@ -201,7 +297,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -210,7 +315,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -219,7 +333,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -228,7 +351,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -237,7 +369,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -246,7 +387,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -255,7 +405,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -264,7 +423,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -273,7 +441,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/socks_knee.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -282,7 +459,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -291,7 +477,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -300,10 +495,19 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
 
 #----------------SocksNorm----------------
-
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderSocksNormBlack
@@ -311,7 +515,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -320,7 +533,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -329,7 +551,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -338,7 +569,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -347,7 +587,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -356,7 +605,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -365,7 +623,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -374,7 +641,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -383,7 +659,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/socks_norm.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -392,7 +677,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -401,7 +695,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -410,10 +713,19 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksNorm/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
 
 #----------------SocksShort----------------
-
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderSocksShortBlack
@@ -421,7 +733,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -430,7 +751,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -439,7 +769,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -448,7 +787,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -457,7 +805,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -466,7 +823,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -475,7 +841,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -484,7 +859,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -493,7 +877,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/socks_short.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -502,7 +895,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -511,7 +913,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -520,10 +931,19 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksShort/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
 
 #----------------SocksThigh----------------
-
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderSocksThighBlack
@@ -531,7 +951,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/black.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -540,7 +969,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -549,7 +987,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -558,7 +1005,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/green.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -567,7 +1023,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -576,7 +1041,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -585,7 +1059,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -594,7 +1077,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -603,7 +1095,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/socks_thigh.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -612,7 +1113,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/red.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -621,7 +1131,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -630,10 +1149,19 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/Socks/SocksThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
+
 
 #---------------------------------------------------
-
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderStripedKnee
@@ -652,8 +1180,8 @@
   - type: Sprite
     sprite: _NewParadise/Clothing/Socks/striped_thigh.rsi
 
-#---------------------ThinKnee----------------------
 
+#---------------------ThinKnee----------------------
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderThinKneeBlack
@@ -661,7 +1189,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/black.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -670,7 +1207,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -679,7 +1225,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -688,7 +1243,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/green.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -697,7 +1261,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -706,7 +1279,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -715,7 +1297,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -724,7 +1315,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -733,7 +1333,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/thin_knee.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -742,7 +1351,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/red.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -751,7 +1369,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -760,11 +1387,19 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinKnee/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinKnee/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"
 
 
 #---------------------ThinThigh----------------------
-
 - type: entity
   parent: LPPClothingUnderwearSocksBase
   id: LPPClothingUnderThinThighBlack
@@ -772,7 +1407,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/black.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#0C0C0C"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#0C0C0C"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -781,7 +1425,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/blue.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#52AECC"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#52AECC"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -790,7 +1443,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/brown.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#A17229"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#A17229"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -799,7 +1461,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/green.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#6FBC22"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#6FBC22"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -808,7 +1479,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/grey.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#B3B3B3"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#B3B3B3"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -817,7 +1497,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/lightpurple.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#944DFE"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#944DFE"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -826,7 +1515,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/maroon.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#BE273E"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#BE273E"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -835,7 +1533,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/orange.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#FF8C19"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FF8C19"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -844,7 +1551,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/thin_thigh.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#FFFFFF"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FFFFFF"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -853,7 +1569,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/red.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#EE1511"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#EE1511"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -862,7 +1587,16 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/teal.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#77F3B7"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#77F3B7"
 
 - type: entity
   parent: LPPClothingUnderwearSocksBase
@@ -871,4 +1605,13 @@
   description:
   components:
   - type: Sprite
-    sprite: _NewParadise/Clothing/Socks/ThinThigh/yellow.rsi
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    layers:
+    - state: icon
+      color: "#FBC72D"
+  - type: Clothing
+    sprite: _NewParadise/Clothing/Socks/ThinThigh/white.rsi
+    clothingVisuals:
+      socks:
+      - state: equipped-SOCKS
+        color: "#FBC72D"

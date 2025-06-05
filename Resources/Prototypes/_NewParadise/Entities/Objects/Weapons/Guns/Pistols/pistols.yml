@@ -1,6 +1,6 @@
 - type: entity
   name: desert eagle
-  parent: [WeaponPistolN1984, BaseC1Contraband]
+  parent: [NFWeaponPistolN1984, BaseC1Contraband]
   id: LPPWeaponPistolDesertEagle
   description: A favorite of gangsters and big gun enthusiasts, uses .35 caliber cartridges.
   components:
@@ -19,10 +19,12 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol
 
 - type: entity
   name: camo desert eagle
-  parent: [WeaponPistolN1984, BaseC1Contraband]
+  parent: [NFWeaponPistolN1984, BaseC1Contraband]
   id: LPPWeaponPistolDesertEagleCamo
   description: A special gold piece with a lemited brindle pattern, highly coveted by collectors and crime bosses, chambered in .35 caliber.
   components:
@@ -41,10 +43,12 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol
 
 - type: entity
   name: gold desert eagle
-  parent: [WeaponPistolN1984, BaseC1Contraband]
+  parent: [NFWeaponPistolN1984, BaseC1Contraband]
   id: LPPWeaponPistolDesertEagleGold
   description: A symbol of high status in the criminal world and beyond, uses .35 caliber cartridges.
   components:
@@ -63,10 +67,12 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/hpistol.ogg
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol
 
 - type: entity
   name: gold mk 58
-  parent: [BaseWeaponPistol, BaseC1Contraband]
+  parent: [NFBaseWeaponFramePistolNanotrasen, BaseC1Contraband, NFBaseWeaponPistolChamber35]
   id: LPPWeaponPistolGoldMk58
   description: Now it will not come out that it began to spread, was produced by a subsidiary of NanoTrasen in limited quantities in honor of the anniversary. Uses .35 auto ammo.
   components:
@@ -85,10 +91,12 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol
 
 - type: entity
   name: m1911
-  parent: [BaseWeaponPistol, BaseC1Contraband]
+  parent: [NFBaseWeaponFramePistolNanotrasen, BaseC1Contraband, NFBaseWeaponPistolChamber35]
   id: LPPWeaponPistolM1911
   description: Pistol, which is older than your grandpa. Uses .35 auto ammo.
   components:
@@ -107,10 +115,15 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol
+  - type: StaticPrice
+    price: 150
+    vendPrice: 12500
 
 - type: entity
   name: maria
-  parent: [BaseWeaponPistol, BaseC1Contraband]
+  parent: [NFBaseWeaponFramePistolNanotrasen, BaseC1Contraband, NFBaseWeaponPistolChamber35]
   id: LPPWeaponPistolMaria
   description: A very iconic, to some extent acceptable weapon, looking at it, you were exposed to someone else's presence. Uses .35 auto ammo.
   components:
@@ -129,10 +142,12 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol
 
 - type: entity
   name: HM34
-  parent: [BaseWeaponPistol, BaseC1Contraband]
+  parent: [NFBaseWeaponFramePistolNanotrasen, BaseC1Contraband, NFBaseWeaponPistolChamber35]
   id: LPPWeaponPistolninemile
   description: An acceptable-medium quality pistol manufactured by a subsidiary of NanoTrasen. Uses .35 auto ammo.
   components:
@@ -151,6 +166,8 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol
 
 - type: entity
   parent: [BaseItem, BaseC3SyndicateContraband]
@@ -204,6 +221,8 @@
   - type: StaticPrice
     price: 150
     vendPrice: 25500
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol
 
 - type: entity
   name: auto pistol "MARS"
@@ -225,10 +244,10 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
     capacity: 7
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     whitelist:
       tags:
-      - CartridgeMagnum
+      - NFCartridgePistol45
   - type: Clothing
     sprite: _NewParadise/Objects/Weapons/Guns/Pistols/magnumer.rsi
     quickEquip: false
@@ -247,3 +266,5 @@
   - type: StaticPrice
     price: 500
     vendPrice: 20500
+  - type: NFWeaponDetails
+    class: weapon-details-class-pistol

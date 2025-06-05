@@ -1,8 +1,11 @@
 ent-CrateMaterialMetalRods = metal rods crate
     .desc = 90 metal rods, packed with reckless abandon.
-ent-CrateMaterialBiomass = biomass crate
-    .desc = 300 units of biomass. Yum.
-    .suffix = 300
+ent-CrateMaterialBiomass50 = { ent-CrateMaterialBiomass }
+    .suffix = 50 biomass
+    .desc = { ent-CrateMaterialBiomass.desc }
+ent-CrateMaterialBiomass = { ent-CrateFreezer }
+    .suffix = 300 biomass
+    .desc = { ent-CrateFreezer.desc }
 ent-CrateMaterialsBasicFilled = materials crate
     .suffix = Filled, Basic Materials (full)
     .desc = { ent-CrateGenericSteel.desc }

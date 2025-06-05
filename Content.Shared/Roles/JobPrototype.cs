@@ -179,6 +179,11 @@ namespace Content.Shared.Roles
         /// </summary>
         [DataField]
         public List<ProtoId<GuideEntryPrototype>>? Guides;
+
+        // LUA edit start
+        [DataField("salary")]
+        public int Salary = 0;
+        // LUA edit end
     }
 
     /// <summary>

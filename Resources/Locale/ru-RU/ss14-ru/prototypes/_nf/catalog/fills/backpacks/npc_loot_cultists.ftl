@@ -1,6 +1,6 @@
 ent-CultistMessengerGiftBox = вещмешок культиста крови
     .desc = Лут-боксы здесь?
-    .suffix = NPC Loot
+    .suffix = Лут НПС
 ent-ClothingBackpackBloodCultZealotLootA = вещмешок экипировки культиста
     .desc = { ent-CultistMessengerGiftBox.desc }
 ent-ClothingBackpackBloodCultZealotLootB = { ent-ClothingBackpackBloodCultZealotLootA }

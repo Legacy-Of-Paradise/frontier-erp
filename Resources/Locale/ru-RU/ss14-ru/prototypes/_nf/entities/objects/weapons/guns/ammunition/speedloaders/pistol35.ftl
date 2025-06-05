@@ -1,0 +1,10 @@
+ent-NFBaseSpeedLoaderPistol35 = ускоритель перезарядки (.35 пистолет)
+    .desc = { ent-BaseC1Contraband.desc }
+ent-NFSpeedLoaderPistol35Empty = ускоритель перезарядки (.35 пистолет, любой)
+    .desc = { ent-NFBaseSpeedLoaderPistol35.desc }
+ent-NFSpeedLoaderPistol35 = ускоритель перезарядки (.35 пистолет)
+    .desc = { ent-NFBaseSpeedLoaderPistol35.desc }
+ent-NFSpeedLoaderPistol35Practice = ускоритель перезарядки (.35 пистолет, тренировочный)
+    .desc = { ent-NFBaseSpeedLoaderPistol35.desc }
+ent-NFSpeedLoaderPistol35Rubber = ускоритель перезарядки (.35 пистолет, резиновый)
+    .desc = { ent-NFBaseSpeedLoaderPistol35.desc }

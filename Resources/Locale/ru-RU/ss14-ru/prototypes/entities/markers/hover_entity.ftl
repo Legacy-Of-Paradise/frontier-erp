@@ -1,2 +1,2 @@
-ent-hoverentity = hover entity
+ent-hoverentity = объект наведения курсора мыши
     .desc = { "" }

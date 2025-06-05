@@ -2,7 +2,7 @@
   # PATHFINDER-ШАТТЛ ЭКСПЕДИЦИОННОГО КЛАССА
   <Box>
   <GuideEntityEmbed Entity="ClothingMaskGasExplorer"/>
-  <GuideEntityEmbed Entity="WeaponProtoKineticAccelerator"/>
+  <GuideEntityEmbed Entity="NFWeaponPka"/>
   <GuideEntityEmbed Entity="IngotSilver"/>
   <GuideEntityEmbed Entity="MobRandomCargoCorpse"/>
   </Box>

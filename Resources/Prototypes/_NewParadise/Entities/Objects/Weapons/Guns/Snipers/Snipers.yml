@@ -26,7 +26,7 @@
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
   - type: BallisticAmmoProvider
     capacity: 10
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     whitelist:
       tags:
       - CartridgeMagnum
@@ -81,7 +81,7 @@
 
 - type: entity
   name: Goliath
-  parent: [LPPBaseWeaponSniper, BaseGunWieldable]
+  parent: [LPPBaseWeaponSniper, BaseGunWieldable, NFBaseWeaponRifleChamber60]
   id: LPPWeaponGoliath
   description: Specialised "tool" for breaching . Uses .60 anti-materiel ammo.
   components:
@@ -108,11 +108,11 @@
   - type: BallisticAmmoProvider
     whitelist:
       tags:
-      - CartridgeAntiMateriel
+      - NFCartridgeRifle60
     capacity: 2
-    proto: CartridgeAntiMateriel
+    proto: NFCartridgeRifle60
   - type: GunRequiresWield
   - type: EyeCursorOffset # Frontier
-    maxOffset: 0 # Frontier
-    pvsIncrease: 4.5 # Frontier
+    maxOffset: 7 # Frontier
+    pvsIncrease: 7 # Frontier
   - type: CursorOffsetRequiresWield

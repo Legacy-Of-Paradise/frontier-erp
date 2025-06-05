@@ -1,3 +1,6 @@
+ent-WallShuttleInterior = shuttle wall
+    .suffix = Interior
+    .desc = { ent-BaseWall.desc }
 ent-NFAsteroidWall = supercompacted rock
     .desc = Harder than hard. You'll need some special equipment to blast through this.
 ent-NFWallIce = supercompacted ice

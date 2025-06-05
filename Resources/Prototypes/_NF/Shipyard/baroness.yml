@@ -11,7 +11,7 @@
 - type: vessel
   id: Baroness
   parent: BaseVessel
-  name: SBB Baroness
+  name: BB Baroness
   description: Небольшое судно класса люкс для одного или двух человек с гостиной, отдельной спальней и потрясающим видом из кабины. # LOP edit
   price: 27000 # ~23,500 on purchase, ~15% markup
   category: Medium
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Baroness
-  mapName: 'SBB Baroness'
+  mapName: 'BB Baroness'
   mapPath: /Maps/_NewParadise/Shuttles/baroness.yml # LOP edit
   minPlayers: 0
   stations:

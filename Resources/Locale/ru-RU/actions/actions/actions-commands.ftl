@@ -3,12 +3,13 @@
 
 ## Upgradeaction command loc
 
-upgradeaction-command-need-one-argument = upgradeaction needs at least one argument, the action entity uid. The second optional argument is a specified level.
-upgradeaction-command-max-two-arguments = upgradeaction has a maximum of two arguments, the action entity uid and the (optional) level to set.
-upgradeaction-command-second-argument-not-number = upgradeaction's second argument can only be a number.
-upgradeaction-command-less-than-required-level = upgradeaction cannot accept a level of 0 or lower.
-upgradeaction-command-incorrect-entityuid-format = You must use a valid entityuid format for upgradeaction.
-upgradeaction-command-entity-does-not-exist = This entity does not exist, a valid entity is required for upgradeaction.
-upgradeaction-command-entity-is-not-action = This entity doesn't have the action upgrade component, so this action cannot be leveled.
-upgradeaction-command-cannot-level-up = The action cannot be leveled up.
-upgradeaction-command-description = Upgrades an action by one level, or to the specified level, if applicable.
+upgradeaction-command-help = Использование: upgradeaction <entityUid> [уровень]
+upgradeaction-command-need-one-argument = Для команды upgradeaction требуется как минимум один аргумент — UID сущности действия. Второй необязательный аргумент — это указанный уровень.
+upgradeaction-command-max-two-arguments = Команда upgradeaction принимает максимум два аргумента: UID сущности действия и (необязательный) уровень для установки.
+upgradeaction-command-second-argument-not-number = Второй аргумент команды upgradeaction может быть только числом.
+upgradeaction-command-less-than-required-level = Команда upgradeaction не может принять уровень 0 или ниже.
+upgradeaction-command-incorrect-entityuid-format = Вы должны использовать допустимый формат UID сущности для upgradeaction.
+upgradeaction-command-entity-does-not-exist = Эта сущность не существует, для upgradeaction требуется действительная сущность.
+upgradeaction-command-entity-is-not-action = Эта сущность не имеет компонента улучшения действия, поэтому её уровень не может быть повышен.
+upgradeaction-command-cannot-level-up = Действие не может быть улучшено.
+upgradeaction-command-description = Повышает уровень действия на один или до указанного уровня, если применимо.

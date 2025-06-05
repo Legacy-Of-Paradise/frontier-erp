@@ -1,5 +1,5 @@
 ent-ExplorerDuffelGiftBox = вещмешок экспедитора
-    .suffix = NPC Loot
+    .suffix = Лут НПС
     .desc = { ent-SyndieDuffelGiftBox.desc }
 ent-ClothingBackpackExplorerMeleeT1 = { ent-ExplorerDuffelGiftBox }
     .desc = { ent-ExplorerDuffelGiftBox.desc }

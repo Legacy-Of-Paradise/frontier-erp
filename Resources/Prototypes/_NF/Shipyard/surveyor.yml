@@ -1,0 +1,44 @@
+# Author Info
+# GitHub: dustylens (https://github.com/dustylens)
+# Discord: dustylens
+
+# Maintainer Info
+# GitHub: dustylens (https://github.com/dustylens)
+# Discord: dustylens
+
+# Shuttle Notes:
+#
+- type: vessel
+  id: Surveyor
+  parent: BaseVessel
+  name: FSB Surveyor
+  description: Бюджетный шаттл для добычи и восстановления полезных ископаемых для корпораций, не желающих работать за пределами ограниченного бюджета. Предоставлен корпорацией Far Star Biotech! # LOP edit
+  price: 18000
+  category: Small
+  group: Shipyard
+  shuttlePath: /Maps/_NewParadise/Shuttles/surveyor.yml # LOP edit
+  guidebookPage: ShipyardSurveyor
+  class:
+  - Salvage
+  engine:
+  - Plasma
+
+- type: gameMap
+  id: Surveyor
+  mapName: 'FSB Surveyor'
+  mapPath: /Maps/_NewParadise/Shuttles/surveyor.yml # LOP edit
+  minPlayers: 0
+  stations:
+    Surveyor:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Surveyor {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            ContractorInterview: [ 0, 0 ]
+            PilotInterview: [ 0, 0 ]
+            MercenaryInterview: [ 0, 0 ]

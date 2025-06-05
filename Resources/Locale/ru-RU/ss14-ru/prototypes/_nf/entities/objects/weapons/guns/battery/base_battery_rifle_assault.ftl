@@ -1,0 +1,11 @@
+ent-NFBaseWeaponFrameEnergyRifleAssault = { ent-NFBaseWeaponEncumbranceRifleAssault }
+    .suffix = Фронтир
+    .desc = { ent-NFBaseWeaponEncumbranceRifleAssault.desc }
+ent-NFBaseWeaponFrameEnergyRifleAssaultNanotrasen = { ent-NFBaseWeaponFrameEnergyRifleAssault }
+    .desc = { ent-NFBaseWeaponFrameEnergyRifleAssault.desc }
+ent-NFBaseWeaponFrameEnergyRifleAssaultCybersun = { ent-BaseC3Contraband }
+    .desc = { ent-BaseC3Contraband.desc }
+ent-NFBaseWeaponEnergyRifleAssaultFireModes = { "" }
+    .desc = { "" }
+ent-NFBaseWeaponEnergyRifleAssaultHitScanPulse = { "" }
+    .desc = { "" }

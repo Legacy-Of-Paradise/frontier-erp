@@ -5,6 +5,7 @@
   playTimeTracker: JobHeadOfSecurity
   # LOP edit
   whitelisted: true
+  salary: 45000
   startingGear: SheriffGear
   alwaysUseSpawner: true
   icon: JobIconSheriff
@@ -28,8 +29,8 @@
 - type: startingGear
   id: SheriffGear
   equipment:
-    pocket1: LPPWeaponPistolGoldMk58 # LOP edit: WeaponPistolMk58<LPPWeaponPistolM1911
-    pocket2: WeaponEnergyGunMultiphase # DeltaV gun
+    pocket1: LPPWeaponPistolGoldMk58 # LOP edit: WeaponPistolMk58<LPPWeaponPistolGoldMk58
+    pocket2: NFWeaponEnergyPistolLaserX01Multiphase
   storage:
     back:
     - NfsdTechFabFlatpack

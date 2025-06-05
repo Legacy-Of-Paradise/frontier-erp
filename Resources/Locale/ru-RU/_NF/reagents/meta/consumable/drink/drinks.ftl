@@ -18,5 +18,3 @@ reagent-name-honey-iced-tea = Холодный чай с мёдом
 reagent-desc-honey-iced-tea = Чай с капелькой мёда.
 reagent-name-wassail = Вассейл
 reagent-desc-wassail = Горячий глинтвейн.
-reagent-name-eggnog = Эгг-ног
-reagent-desc-eggnog = Сливочный, сладкий и слегка пьянящий. Полностью офигенный.

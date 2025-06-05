@@ -11,7 +11,7 @@
 - type: vessel
   id: Bodkin
   parent: BaseVessel
-  name: SBB Bodkin
+  name: BB Bodkin
   description: "Младший брат Бродхеда, оснащённый гораздо более совершенным оборудованием для добычи и переработки руд." # LOP Edit
   price: 39000 #Grid appraises at 35000. Slapped on a ~10% markup.
   category: Medium
@@ -25,7 +25,7 @@
 
 - type: gameMap
   id: Bodkin
-  mapName: 'SBB Bodkin'
+  mapName: 'BB Bodkin'
   mapPath: /Maps/_NewParadise/Shuttles/bodkin.yml # LOP edit
   minPlayers: 0
   stations:

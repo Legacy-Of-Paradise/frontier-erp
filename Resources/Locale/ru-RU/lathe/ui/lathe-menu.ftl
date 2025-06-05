@@ -9,6 +9,7 @@ lathe-menu-amount = Кол-во:
 lathe-menu-recipe-count =
     { $count ->
         [1] { $count } Рецепт
+        [few] { $count } Рецепта
        *[other] { $count } Рецептов
     }
 lathe-menu-reagent-slot-examine = Сбоку имеется отверстие для мензурки.
@@ -28,6 +29,7 @@ lathe-menu-material-amount-missing =
        *[other] { NATURALFIXED($amount, 2) } { $unit } { $material } ([color=red]{ NATURALFIXED($missingAmount, 2) } { $unit } не хватает[/color])
     }
 lathe-menu-no-materials-message = Материалы не загружены
+lathe-menu-silo-linked-message = Силос подключен
 lathe-menu-fabricating-message = Производится...
 lathe-menu-materials-title = Материалы
 lathe-menu-queue-title = Очередь производства

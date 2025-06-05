@@ -5,6 +5,7 @@
   playTimeTracker: JobDirectorOfCare
   # LOP edit
   whitelisted: true
+  salary: 50000
   startingGear: DocGear
   alwaysUseSpawner: true
   icon: "JobIconDoc"

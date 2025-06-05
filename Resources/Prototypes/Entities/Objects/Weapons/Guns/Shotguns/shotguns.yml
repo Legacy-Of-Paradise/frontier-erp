@@ -62,6 +62,7 @@
   # LOP edit end
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: Bulldog
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
@@ -97,7 +98,7 @@
   - type: ItemSlots
     slots:
       gun_magazine:
-        startingItem: MagazineShotgun
+        # startingItem: MagazineShotgun # Frontier
         priority: 2
         whitelist:
           tags:
@@ -122,8 +123,9 @@
 # LOP edit end
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: double-barreled shotgun
-  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC1Contraband] # Frontier: BaseSecurityBartenderContraband<BaseC1Contraband
+  parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC1Contraband] # Frontier: BaseSecurityBartenderZookeeperContraband<BaseC1Contraband
   id: WeaponShotgunDoubleBarreled
   description: An immortal classic. A civilian grade shotgun. Uses .50 shotgun shells.
   components:
@@ -147,6 +149,7 @@
     price: 350
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: double-barreled shotgun
   parent: WeaponShotgunDoubleBarreled
   id: WeaponShotgunDoubleBarreledRubber
@@ -157,6 +160,7 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: Enforcer
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponShotgunEnforcer
@@ -174,6 +178,7 @@
     id: Enforcer # Frontier
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   parent: WeaponShotgunEnforcer
   id: WeaponShotgunEnforcerRubber
   suffix: Non-Lethal
@@ -182,6 +187,7 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: Kammerer
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: BaseSecurityContraband<BaseC2ContrabandUnredeemable
   id: WeaponShotgunKammerer
@@ -202,8 +208,13 @@
   - type: Tag
     tags:
     - WeaponShotgunKammerer
+# LOP edit start
+  - type: BallisticAmmoProvider
+    capacity: 5
+# LOP edit end
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: sawn-off shotgun
   parent: [ BaseWeaponShotgun, BaseC1Contraband ] # Frontier: BaseSecurityBartenderContraband<BaseC1Contraband
   id: WeaponShotgunSawn
@@ -226,6 +237,7 @@
     deconstructionTarget: null
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: sawn-off shotgun
   parent: WeaponShotgunSawn
   id: WeaponShotgunSawnEmpty
@@ -239,6 +251,7 @@
     deconstructionTarget: null
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: handmade pistol
   parent: [BaseWeaponShotgun, BaseC1Contraband] # Frontier: BaseMinorContraband<BaseC1Contraband
   id: WeaponShotgunHandmade
@@ -263,6 +276,7 @@
     price: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: blunderbuss
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC3PirateContraband] # Frontier: BaseMinorContraband<BaseC3PirateContraband
   id: WeaponShotgunBlunderbuss
@@ -284,6 +298,7 @@
     price: 0
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: improvised shotgun
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseC1Contraband] # Frontier: BaseMinorContraband<BaseC1Contraband
   id: WeaponShotgunImprovised
@@ -304,13 +319,14 @@
   - type: BallisticAmmoProvider
     capacity: 1
     proto: null
-  - type: Construction
-    graph: ImprovisedShotgunGraph
-    node: shotgun
+  # - type: Construction # Frontier
+  #   graph: ImprovisedShotgunGraph # Frontier
+  #   node: shotgun # Frontier
   - type: StaticPrice
     price: 20
 
 - type: entity
+  categories: [ HideSpawnMenu ] # Frontier
   name: improvised shotgun
   parent: WeaponShotgunImprovised
   suffix: Loaded

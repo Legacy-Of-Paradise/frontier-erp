@@ -1,7 +1,7 @@
 
 - type: entity
   name: Colt Peacemaker
-  parent: [BaseWeaponRevolver, BaseC2Contraband]
+  parent: [BaseWeaponRevolver, BaseC2Contraband, NFBaseWeaponFrameRevolver]
   id: LPPWeaponRevolverColtpeacemaker
   description: Legendary revolver from wild west. Uses .45 magnum bullets
   components:
@@ -13,6 +13,8 @@
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: peacemakerbase
@@ -46,7 +48,7 @@
       tags:
         - CartridgeMagnum
         - SpeedLoaderMagnum
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     capacity: 8
     chambers: [ True, True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null, null ]
@@ -56,10 +58,12 @@
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
   - type: StaticPrice
     price: 1500
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: peacemaker
-  parent: [LPPAVBase, BaseC2Contraband]
+  parent: [LPPAVBase, BaseC2Contraband, NFBaseWeaponFrameRevolver]
   id: LPPWeaponRevolverPeacemaker
   description: The weapon carried by Detective Artemon Vealis uses a .357 magnum caliber and is engraved with his initials A.V.
   components:
@@ -77,7 +81,7 @@
 
 - type: entity
   name: Colt Special
-  parent: [BaseWeaponRevolver, BaseC2Contraband]
+  parent: [BaseWeaponRevolver, BaseC2Contraband, NFBaseWeaponFrameRevolver]
   id: LPPWeaponRevolverColtspecial
   description: Uses .45 magnum bullets
   components:
@@ -89,10 +93,12 @@
     capacity: 7
     chambers: [ True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null ]
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: collection inspector
-  parent: BaseWeaponRevolver
+  parent: [BaseWeaponRevolver, NFBaseWeaponFrameRevolver]
   id: LPPWeaponRevolverInspectorCollection
   description: Basically, this is given for special merits before the law, order, and professionalism. Uses .45 magnum cartridges.
   components:
@@ -104,6 +110,8 @@
     capacity: 6
     chambers: [ True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null ]
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: Judge
@@ -126,20 +134,22 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - CartridgeAntiMateriel
-    proto: CartridgeAntiMateriel
+        - NFCartridgeRifle60
+    proto: NFCartridgeRifle60
     capacity: 3
     chambers: [ True, True, True ]
     ammoSlots: [ null, null, null ]
   - type: UseDelayOnShoot
   - type: UseDelay
-    delay: 1
+    delay: 0.25
   - type: Gun
     selectedMode: SemiAuto
-    fireRate: 0.35
+    fireRate: 0.75
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: Judge
@@ -157,10 +167,12 @@
     - Belt
   - type: RevolverAmmoProvider
     proto: LPPCartridgeAntiMaterielNonLethal
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: LPPPantherBase
-  parent: [BaseItem, BaseC2Contraband]
+  parent: [BaseItem, BaseC2Contraband, NFBaseWeaponFrameRevolver]
   id: LPPPantherBase
   description: A fast revolver for quick decision making. Uses .45 magnum cartridges.
   abstract: true
@@ -188,9 +200,9 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - CartridgeMagnum
+        - NFCartridgePistol45
         - SpeedLoaderMagnum
-    proto: CartridgeMagnum
+    proto: NFCartridgePistol45
     capacity: 7
     chambers: [ True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null ]
@@ -200,7 +212,8 @@
       path: /Audio/Weapons/Guns/MagIn/revolver_magin.ogg
   - type: StaticPrice
     price: 1000
-
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: panther
@@ -216,10 +229,12 @@
     capacity: 7
     chambers: [ True, True, True, True, True, True, True ]
     ammoSlots: [ null, null, null, null, null, null, null ]
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: Revolver OC-38
-  parent: [BaseWeaponRevolver, BaseC3SyndicateContraband]
+  parent: [BaseWeaponRevolver, BaseC3SyndicateContraband, NFBaseWeaponFrameRevolver]
   id: LPPWeaponRevolverOC-38
   description: Uses .45 magnum bullets
   components:
@@ -247,6 +262,8 @@
   - type: StaticPrice
     price: 1500
     vendPrice: 20000
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver
 
 - type: entity
   name: RT-46
@@ -268,17 +285,19 @@
   - type: RevolverAmmoProvider
     whitelist:
       tags:
-        - CartridgeAntiMateriel
-    proto: CartridgeAntiMateriel
+        - NFCartridgeRifle60
+    proto: NFCartridgeRifle60
     capacity: 4
     chambers: [ True, True, True, True]
     ammoSlots: [ null, null, null, null ]
   - type: UseDelayOnShoot
   - type: UseDelay
-    delay: 1
+    delay: 0.25
   - type: Gun
     selectedMode: SemiAuto
-    fireRate: 0.25
+    fireRate: 0.5
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.9
+  - type: NFWeaponDetails
+    class: weapon-details-class-revolver

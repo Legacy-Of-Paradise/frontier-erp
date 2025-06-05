@@ -11,7 +11,7 @@
     mayTransfer: true
     whitelist:
       tags:
-        - CartridgeRifle
+        - NFCartridgeRifle20
     capacity: 15
   - type: Item
     size: Small
@@ -37,7 +37,7 @@
   parent: LPPBaseMagazinePistolPF20
   components:
   - type: BallisticAmmoProvider
-    proto: CartridgeRifle
+    proto: NFCartridgeRifle20
   - type: Sprite
     layers:
     - state: red
@@ -59,20 +59,6 @@
     - state: mag-1
       map: ["enum.GunVisualLayers.Mag"]
       color: "#dbdbdb"
-
-- type: entity
-  id: LPPMagazinePistolPF20Rubber
-  name: Pistol magazine (.20 rubber)
-  parent: LPPBaseMagazinePistolPF20
-  components:
-  - type: BallisticAmmoProvider
-    proto: CartridgeRifleRubber
-  - type: Sprite
-    layers:
-    - state: rubber
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-1
-      map: ["enum.GunVisualLayers.Mag"]
 
 - type: entity
   id: LPPMagazinePistolPF20Uranium

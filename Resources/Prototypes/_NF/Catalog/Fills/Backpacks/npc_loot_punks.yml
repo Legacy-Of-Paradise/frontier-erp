@@ -49,12 +49,14 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: SpaceCash500
-      prob: 1
-      amount: 1
-    - id: SpaceCash500
-      prob: 0.25
-      amount: 1
+# LOP edit start
+    # - id: SpaceCash500
+    #   prob: 1
+    #   amount: 1
+    # - id: SpaceCash500
+    #   prob: 0.25
+    #   amount: 1
+# LOP edit end
     - id: SpawnDungeonLootCircuitBoard
       prob: 0.35
       amount: 2
@@ -72,9 +74,9 @@
       prob: 0.05
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.9
+      prob: 0.25 # LOP edit
     - id: SpaceCash1000
-      prob: 0.8
+      prob: 0.05 # LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpawnDungeonLootPartsEngi
@@ -89,12 +91,14 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: SpaceCash1000
-      prob: 0.95
-      amount: 1
-    - id: SpaceCash500
-      prob: 0.25
-      amount: 1
+# LOP edit start
+    # - id: SpaceCash1000
+    #   prob: 0.95
+    #   amount: 1
+    # - id: SpaceCash500
+    #   prob: 0.25
+    #   amount: 1
+# LOP edit end
     - id: GroundCannabis
       prob: 0.25
       amount: 3
@@ -115,9 +119,9 @@
       prob: 0.05
     # Bonus Loot T2
     - id: SpaceCash1000
-      prob: 0.9
+      prob: 0.1 # LOP edit
     - id: SpaceCash1000
-      prob: 0.8
+      prob: 0.05 # LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpawnDungeonLootMaterialsValuableFull
@@ -139,12 +143,14 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: SpaceCash1000
-      prob: 0.95
-      amount: 1
-    - id: SpaceCash1000
-      prob: 0.25
-      amount: 1
+# LOP edit start
+    # - id: SpaceCash1000
+    #   prob: 0.95
+    #   amount: 1
+    # - id: SpaceCash1000
+    #   prob: 0.25
+    #   amount: 1
+# LOP edit end
     - id: GroundCannabis
       prob: 0.25
       amount: 3
@@ -153,7 +159,7 @@
       amount: 1
     - id: WeaponCaseLongKammererExpedition
       amount: 1
-      prob: 0.55
+      prob: 0.25 # LOP edit
     - id: SpawnDungeonLootPartsEngi
       amount: 3
       prob: 0.35
@@ -162,11 +168,11 @@
       prob: 0.05
     # Bonus Loot T3
     - id: SpaceCash1000
-      prob: 0.9
+      prob: 0.1 # LOP edit
     - id: SpaceCash500
-      prob: 0.9
+      prob: 0.25 # LOP edit
     - id: SpaceCash1000
-      prob: 0.8
+      prob: 0.05 # LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpawnDungeonLootMaterialsValuableFull
@@ -188,12 +194,14 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: SpaceCash1000
-      prob: 0.95
-      amount: 1
-    - id: SpaceCash1000
-      prob: 0.35
-      amount: 1
+# LOP edit start
+    # - id: SpaceCash1000
+    #   prob: 0.95
+    #   amount: 1
+    # - id: SpaceCash1000
+    #   prob: 0.35
+    #   amount: 1
+# LOP edit end
     - id: GroundCannabis
       prob: 0.35
       amount: 3
@@ -211,17 +219,17 @@
       amount: 1
     - id: WeaponCaseLongDrozdExpedition
       amount: 1
-      prob: 0.55
+      prob: 0.15 # LOP edit
     - id: HoloGraffitiProjector
       amount: 1
       prob: 0.45
     # Bonus Loot T3
     - id: SpaceCash1000
-      prob: 0.9
+      prob: 0.1 # LOP edit
     - id: SpaceCash500
-      prob: 0.9
+      prob: 0.25 # LOP edit
     - id: SpaceCash1000
-      prob: 0.8
+      prob: 0.05 # LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpawnDungeonLootMaterialsValuableFull
@@ -243,12 +251,14 @@
   components:
   - type: SpawnItemsOnUse
     items:
-    - id: SpaceCash2500
-      prob: 0.95
-      amount: 1
-    - id: SpaceCash1000
-      prob: 0.35
-      amount: 1
+# LOP edit start
+    # - id: SpaceCash2500
+    #   prob: 0.95
+    #   amount: 1
+    # - id: SpaceCash1000
+    #   prob: 0.35
+    #   amount: 1
+# LOP edit end
     - id: GroundCannabis
       prob: 0.35
       amount: 3
@@ -266,18 +276,18 @@
       amount: 1
     - id: WeaponCaseLongLaserCarbineExpedition
       amount: 1
-      prob: 0.55
+      prob: 0.15 # LOP edit
     - id: HoloGraffitiProjector
       amount: 1
       prob: 0.45
-    - id: NFBlueprintPortableRecharger
-      prob: 0.1
-      amount: 1
+    # - id: NFBlueprintPortableRecharger # TODO: return this
+    #   prob: 0.1
+    #   amount: 1
     # Bonus Loot T4
     - id: SpaceCash2500
-      prob: 0.9
+      prob: 0.1 # LOP edit
     - id: SpaceCash1000
-      prob: 0.8
+      prob: 0.25 # LOP edit
     - id: SpawnDungeonLootFlatpacks
       prob: 0.9
     - id: SpawnDungeonLootMaterialsValuableFull
@@ -291,7 +301,7 @@
       prob: 0.4
     # LOP edit start
     - id: LPPWeaponRifleMakeshiftAK
-      prob: 0.4
+      prob: 0.15
     # LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg

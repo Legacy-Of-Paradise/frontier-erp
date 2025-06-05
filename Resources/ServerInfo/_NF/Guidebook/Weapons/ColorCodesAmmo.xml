@@ -1,0 +1,213 @@
+<Document>
+  # Цветовые коды боеприпасов
+  <Table Columns="5">
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Тип боеприпасов
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Цветовой код
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Пуля
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Магазин
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#a88b5e">
+      <Box VerticalAlignment="Center">
+      Ящик с патронами
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      Обычные
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#333333">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFCartridgePistol35" Caption=""/>
+      <GuideEntityEmbed Entity="NFBulletGuidebook" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFMagazineHighCapacityPistol35" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFAmmunitionBoxPistol35" Caption=""/>
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      Избыточного давления
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#ff8d00">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFCartridgePistol35Overpressure" Caption=""/>
+      <GuideEntityEmbed Entity="NFBulletOverpressureGuidebook" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFMagazineHighCapacityPistol35Overpressure" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFAmmunitionBoxPistol35Overpressure" Caption=""/>
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      Зажигательные
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#ff0000">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFCartridgePistol35Incendiary" Caption=""/>
+      <GuideEntityEmbed Entity="NFBulletIncendiaryGuidebook" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFMagazineHighCapacityPistol35Incendiary" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFAmmunitionBoxPistol35Incendiary" Caption=""/>
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      Урановые
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#00ff00">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFCartridgePistol35Uranium" Caption=""/>
+      <GuideEntityEmbed Entity="NFBulletUraniumGuidebook" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFMagazineHighCapacityPistol35Uranium" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFAmmunitionBoxPistol35Uranium" Caption=""/>
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      Учебные
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#dddddd">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFCartridgePistol35Practice" Caption=""/>
+      <GuideEntityEmbed Entity="NFBulletPracticeGuidebook" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFMagazineHighCapacityPistol35Practice" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFAmmunitionBoxPistol35Practice" Caption=""/>
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      Резиновые
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#00b0ff">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFCartridgePistol35Rubber" Caption=""/>
+      <GuideEntityEmbed Entity="NFBulletRubberGuidebook" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFMagazineHighCapacityPistol35Rubber" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFAmmunitionBoxPistol35Rubber" Caption=""/>
+      </Box>
+    </ColorBox>
+
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      ЭМИ
+      </Box>
+    </ColorBox>
+    <ColorBox Color="#00ffff">
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFCartridgePistol35Emp" Caption=""/>
+      <GuideEntityEmbed Entity="NFBulletEmpGuidebook" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFMagazineHighCapacityPistol35Emp" Caption=""/>
+      </Box>
+    </ColorBox>
+    <ColorBox>
+      <Box HorizontalAlignment="Center" VerticalAlignment="Stretch" Margin="2">
+      <GuideEntityEmbed Entity="NFAmmunitionBoxPistol35Emp" Caption=""/>
+      </Box>
+    </ColorBox>
+  </Table>
+
+</Document>

@@ -1,30 +1,21 @@
 - type: vendingMachineInventory
   id: WeaponryWorksVendInventory
   startingInventory:
+  # Weapons
+    NFWeaponEnergyPistolLaser: 1
+    NFWeaponRevolverArgenti: 1
+    NFWeaponRevolverFitz: 1
+    NFWeaponRifleRepeater: 1
+    NFWeaponShotgunDoubleBarreled: 1
+    ClothingHandsKnuckleDusters: 1
     SurvivalKnife: 1
-    WeaponBrassKnuckles: 1
-    WeaponNFLaserPistol: 1
-    WeaponRifleGestio: 1
-    WeaponRifleNovaliteC1: 1
-    WeaponShotgunDoubleBarreled: 1
-    WeaponRevolverArgenti: 1
-    WeaponPistolUniversal: 1
-    WeaponRevolverFaith: 1
-    BoxShotgunSlug: 1
-    BoxLethalshot: 1
-    BoxBeanbag: 1
-    MagazineBoxRifle: 2
-    MagazineBoxRifleRubber: 2
-    MagazineBoxLightRifle: 2
-    MagazineBoxLightRifleRubber: 2
-    MagazineBoxPistol: 2
-    MagazineBoxPistolRubber: 2
-    MagazineBoxMagnum: 2
-    MagazineBoxMagnumRubber: 2
-    SpeedLoaderRifleHeavyEmpty: 1
-    MagazineNovaliteC1Empty: 1
-    MagazineLightRifleLowCapacityEmpty: 1
-    MagazineRifleEmpty: 1 # LOP edit MagazinePistolEmpty<MagazineRifleEmpty
+  # Magazines
+    NFSpeedLoaderPistol35Empty: 1
+    NFSpeedLoaderPistol45Empty: 1
+  # Ammo boxes
+    NFAmmunitionBoxPistol35: 2
+    NFAmmunitionBoxPistol45: 2
+    NFAmmunitionBoxRifle20: 2
     # LOP edit start
     LPPWeaponPistolM1911: 1
     LPPWeaponMarsRifle: 2
@@ -32,42 +23,36 @@
     LPPMagazineRifleGarand: 2
     LPPMagazineRifleMars: 2
     LPPMagazineBoxHunting: 1
-    WeaponRifleSVS: 1
+    NFWeaponRifleSVS: 1
     LPPWeaponRifleLemasciv: 1
-    MagazineRifle: 2
+    NFMagazineRifle20: 2
     LPPWeaponShotgunPredsedatel: 1
     LPPMagazineShotgunPredsedatelEmpty: 2
+    NFMagazinePistol35: 4
     # LOP edit end
   emaggedInventory:
-    WeaponPistolViper: 1
+    NFWeaponPistolViper: 1
 
 - type: vendingMachineInventory
   id: WeaponryWorksVendPOIInventory
   startingInventory:
+  # Weapons
+    NFWeaponEnergyPistolLaser: 4294967295
+    NFWeaponRevolverArgenti: 4294967295
+    NFWeaponRevolverFitz: 4294967295
+    NFWeaponRifleRepeater: 4294967295
+    NFWeaponShotgunDoubleBarreled: 4294967295
+    ClothingHandsKnuckleDusters: 4294967295
     SurvivalKnife: 4294967295
-    WeaponBrassKnuckles: 4294967295
-    WeaponNFLaserPistol: 4294967295
-    WeaponRifleGestio: 4294967295
-    WeaponRifleNovaliteC1: 4294967295
-    WeaponShotgunDoubleBarreled: 4294967295
-    WeaponRevolverArgenti: 4294967295
-    WeaponPistolUniversal: 4294967295
-    WeaponRevolverFaith: 4294967295
-    BoxShotgunSlug: 4294967295
-    BoxLethalshot: 4294967295
-    BoxBeanbag: 4294967295
-    MagazineBoxRifle: 4294967295
-    MagazineBoxRifleRubber: 4294967295
-    MagazineBoxLightRifle: 4294967295
-    MagazineBoxLightRifleRubber: 4294967295
-    MagazineBoxPistol: 4294967295
-    MagazineBoxPistolRubber: 4294967295
-    MagazineBoxMagnum: 4294967295
-    MagazineBoxMagnumRubber: 4294967295
-    SpeedLoaderRifleHeavyEmpty: 4294967295
-    MagazineNovaliteC1Empty: 4294967295
-    MagazineLightRifleLowCapacityEmpty: 4294967295
-    MagazinePistolEmpty: 4294967295
+  # Magazines
+    NFSpeedLoaderPistol35Empty: 4294967295
+    NFSpeedLoaderPistol45Empty: 4294967295
+  # Ammo boxes
+    NFAmmunitionBoxPistol35: 4294967295
+    NFAmmunitionBoxPistol45: 4294967295
+    NFAmmunitionBoxRifle20: 4294967295
+    NFAmmunitionBoxShellShotgunBuckshot: 4294967295
+    NFAmmunitionBoxShellShotgunBeanbag: 4294967295
 # LOP edit start
     LPPWeaponPistolM1911: 4294967295
     LPPWeaponMarsRifle: 4294967295
@@ -75,11 +60,12 @@
     LPPMagazineRifleGarand: 4294967295
     LPPMagazineRifleMars: 4294967295
     LPPMagazineBoxHunting: 4294967295
-    WeaponRifleSVS: 4294967295
+    NFWeaponRifleSVS: 4294967295
     LPPWeaponRifleLemasciv: 4294967295
-    MagazineRifleEmpty: 4294967295
+    NFMagazineRifle20: 4294967295
     LPPWeaponShotgunPredsedatel: 4294967295
     LPPMagazineShotgunPredsedatelEmpty: 4294967295
+    NFMagazinePistol35: 4294967295
 # LOP edit end
   emaggedInventory:
-    WeaponPistolViper: 1
+    NFWeaponPistolViper: 1

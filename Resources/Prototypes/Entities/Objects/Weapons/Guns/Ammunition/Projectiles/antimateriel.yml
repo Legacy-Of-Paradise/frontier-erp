@@ -16,6 +16,3 @@
     - Structural
   - type: StaminaDamageOnCollide
     damage: 40 # LOP edit 60<40
-  - type: Tracer # Frontier
-    color: "#FFFFFFFF" # Frontier
-    length: 3 # Frontier

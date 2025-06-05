@@ -1,5 +1,7 @@
 ent-NFDepartmentalEVASuit = { ent-NFClothingOuterEVASuitBase }
     .desc = { ent-NFClothingOuterEVASuitBase.desc }
+ent-NFDepartmentalEVASuitShoulderLight = { ent-NFDepartmentalEVASuit }
+    .desc = { ent-NFDepartmentalEVASuit.desc }
 ent-ClothingOuterEVASuitHydro = botanist EVA suit
     .desc = An EVA suit with a built-in helmet commonly issued to hydroponics workers.
 ent-ClothingOuterEVASuitMailman = mailcarrier EVA suit
@@ -22,6 +24,8 @@ ent-ClothingOuterEVASuitSalvage = salvage specialist EVA suit
     .desc = An EVA suit with a built-in helmet commonly issued to salvage specialists.
 ent-ClothingOuterEVASuitMedic = medical specialist EVA suit
     .desc = An EVA suit with a built-in helmet commonly issued to medical specialists.
+ent-ClothingOuterEVASuitParamedic = paramedic EVA suit
+    .desc = An EVA suit with a built-in helmet commonly issued to paramedics.
 ent-ClothingOuterEVASuitScientist = scientist EVA suit
     .desc = An EVA suit with a built-in helmet commonly issued to scientists.
 ent-ClothingOuterEVASuitJanitor = janitor EVA suit
