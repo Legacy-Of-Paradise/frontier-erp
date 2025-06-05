@@ -1,5 +1,7 @@
 ent-BaseBeaker = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
+ent-BorgBeaker = встроенный стакан
+    .desc = Внутренний отсек, установленный в киборга. Вмещает 50 единиц любой жидкости.
 ent-BaseBeakerMetallic = { ent-BaseItem }
     .desc = { ent-BaseItem.desc }
 ent-Beaker = мензурка

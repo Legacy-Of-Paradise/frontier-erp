@@ -9,7 +9,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 12 #LOP edit 8>12
+        Heat: 12 # LOP edit 8>12
 
 # Assault Rifles / Carbines
 - type: entity
@@ -38,7 +38,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 16 #LOP edit 12>16
+        Heat: 16 # LOP edit 12>16
 
 # Rifles
 - type: entity
@@ -50,7 +50,7 @@
     impactEffect: BulletImpactEffectOrangeDisabler
     damage:
       types:
-        Heat: 20 #LOP edit 16>20
+        Heat: 20 # LOP edit 16>20
 
 #region Disabler bolts
 - type: entity

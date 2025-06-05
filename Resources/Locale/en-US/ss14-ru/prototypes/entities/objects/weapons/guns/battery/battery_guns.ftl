@@ -52,3 +52,7 @@ ent-WeaponEnergyShotgun = energy shotgun
     .desc = A one-of-a-kind prototype energy weapon that uses various shotgun configurations. It offers the possibility of both lethal and non-lethal shots, making it a versatile weapon.
 ent-WeaponTemperatureGun = temperature gun
     .desc = An advanced gun that shoots body-temperature-changing beams. This probably constitutes as some kind of war crime.
+ent-XenoborgLaserGun = xenoborg laser gun
+    .desc = { ent-WeaponAdvancedLaser.desc }
+ent-XenoborgHeavyLaserGun = xenoborg heavy laser gun
+    .desc = { ent-WeaponAdvancedLaser.desc }

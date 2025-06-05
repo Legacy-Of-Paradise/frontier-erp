@@ -112,8 +112,32 @@ public sealed partial class StationJobsSystem : EntitySystem
 
         stationJobs.PlayerJobs.TryAdd(netUserId, new());
         stationJobs.PlayerJobs[netUserId].Add(jobPrototypeId);
+        // LUA edit start: original job saver
+        if (!stationJobs.OriginalPlayerJobs.ContainsKey(netUserId))
+        {
+            stationJobs.OriginalPlayerJobs[netUserId] = jobPrototypeId;
+        }
+        // LUA edit end: original job saver
         return true;
     }
+
+    // LUA edit start: original job saver
+    public bool TryGetOriginalJob(EntityUid station, NetUserId userId, [NotNullWhen(true)] out ProtoId<JobPrototype> job, StationJobsComponent? jobsComponent = null)
+    {
+        job = default;
+        if (!Resolve(station, ref jobsComponent, false))
+            return false;
+
+        return jobsComponent.OriginalPlayerJobs.TryGetValue(userId, out job);
+    }
+    public void ClearOriginalJob(EntityUid station, NetUserId userId, StationJobsComponent? jobsComponent = null)
+    {
+        if (!Resolve(station, ref jobsComponent, false))
+            return;
+
+        jobsComponent.OriginalPlayerJobs.Remove(userId);
+    }
+    // LUA edit end: original job saver
 
     /// <inheritdoc cref="TryAdjustJobSlot(Robust.Shared.GameObjects.EntityUid,string,int,bool,bool,Content.Server.Station.Components.StationJobsComponent?)"/>
     /// <param name="station">Station to adjust the job slot on.</param>

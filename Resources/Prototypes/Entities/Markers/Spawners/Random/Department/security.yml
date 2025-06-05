@@ -73,6 +73,10 @@
         - ClothingHeadHelmetSwat
         - NFWeaponShotgunEnforcer # Frontier: WeaponShotgunEnforcer<NFWeaponShotgunEnforcer
 #        - NFWeaponRifleAssaultSm # Frontier: Ak<NFWeaponRifleAssaultSm
+# LOP edit start
+        - LPPClothingOuterArmorSwat
+        - LPPWeaponRifleAek
+# LOP edit end
       rareChance: 0.05
       prototypes:
         - RiotShield
@@ -90,7 +94,11 @@
         - NFWeaponSubMachineGunDrozd # Frontier: WeaponSubMachineGunDrozd<NFWeaponSubMachineGunDrozd
         - NFWeaponEnergyRifleCarbine # Frontier: WeaponLaserCarbine<NFWeaponEnergyRifleCarbine
         - NFWeaponShotgunKammerer # Frontier: WeaponShotgunKammerer<NFWeaponShotgunKammerer
-      chance: 0.95
+# LOP edit start
+        - LPPWeaponRifleLemas
+        - LPPlothingOuterArmorSwatEpistemic
+# LOP edit end
+      chance: 0.95 
       offset: 0.0
 
 - type: entity
@@ -117,6 +125,7 @@
         - NFWeaponSubMachineGunDrozd # Frontier WeaponSubMachineGunDrozd<NFWeaponSubMachineGunDrozd
         - NFWeaponEnergyRifleCarbine # Frontier: WeaponLaserCarbine<NFWeaponEnergyRifleCarbine
         - NFWeaponShotgunKammerer # Frontier: WeaponShotgunKammerer<NFWeaponShotgunKammerer
+        - LPPWeaponRifleLemas # LOP edit
       chance: 0.95
       offset: 0.0
 
@@ -144,5 +153,6 @@
         - ClothingOuterArmorBasic
         - ClothingOuterArmorRiot
         - ClothingOuterArmorBulletproof
+        - LPPlothingOuterArmorSwatEpistemic # LOP edit
       chance: 0.95
       offset: 0.0

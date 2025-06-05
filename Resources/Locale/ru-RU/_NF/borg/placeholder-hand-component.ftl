@@ -6,6 +6,7 @@ borg-placeholder-display-name-construction-material = материалы
 borg-placeholder-display-name-flatpack = упаковка
 borg-placeholder-display-name-lights = лампы
 borg-placeholder-display-name-spray-bottle = спрэй
+borg-placeholder-display-name-glass-beaker = стакан
 borg-placeholder-display-name-topical-medication = мазь
 borg-placeholder-display-name-musical-instrument = инструмент
 borg-placeholder-display-name-seeds = семена

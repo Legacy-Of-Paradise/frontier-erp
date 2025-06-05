@@ -13,7 +13,7 @@
   parent: BaseVessel
   name: FSB Nightlight
   description: Главный шаттл компании Far Star Biotech по организации питания и обслуживания! Юридически НЕ является испытательным стендом для секвенирования питательных веществ и исследования биогенеративных схем физиологии гуманоидов!
-  price: 45000 # Botany bay
+  price: 45500 # Botany bay
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_NewParadise/Shuttles/nightlight.yml # LOP edit

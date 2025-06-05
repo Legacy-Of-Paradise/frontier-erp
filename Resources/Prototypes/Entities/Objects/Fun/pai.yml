@@ -92,6 +92,7 @@
     whitelist:
       components:
         - SecretStash
+        - WrappedParcel
   - type: TTS
     voicePrototypeId: skippy
 

@@ -13,3 +13,5 @@ ent-AtmosFixFreezerMarker = Атмос маркер Холодный возду�
 ent-AtmosFixVoxMarker = { ent-AtmosFixNitrogenMarker }
     .desc = Азот @ 101 kPa, 20C
     .suffix = Атмосфера для Воксов
+ent-AtmosFixAirMarker = Маркер воздуха
+    .desc = Кислород (21%) и азот (79%) при давлении газодобытчика, 20 C°

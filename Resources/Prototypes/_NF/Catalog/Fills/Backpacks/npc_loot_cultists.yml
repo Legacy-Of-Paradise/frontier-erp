@@ -53,14 +53,18 @@
     - id: CrossbowImprovised
     - id: ClothingBeltQuiverCrossbowFilledBolt
     - id: SpaceCash1000
-      prob: 0.15 #LOP edit
+      prob: 0.15 # LOP edit
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.45 #LOP edit 0.9>0.45
+      prob: 0.45 # LOP edit 0.9>0.45
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpaceCash1000
       prob: 0.7
+# LOP edit start
+    - id: LPPCultNarsieDust
+      prob: 0.08
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -76,11 +80,15 @@
     - id: SpaceCash1000
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.5 #LOP edit
+      prob: 0.5 # LOP edit
     - id: SpaceCash1000
-      prob: 0.25 #LOP edit
+      prob: 0.25 # LOP edit
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
+# LOP edit start
+    - id: LPPCultNarsieDust
+      prob: 0.08
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -93,14 +101,18 @@
     items:
     - id: ClothingBeltQuiverCrossbowFilledPlasma
     - id: SpaceCash500
-      prob: 0.8 #LOP edit
+      prob: 0.8 # LOP edit
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.15 #LOP edit
+      prob: 0.15 # LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpaceCash1000
       prob: 0.7
+# LOP edit start
+    - id: LPPCultNarsieDust
+      prob: 0.08
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -112,14 +124,18 @@
   - type: SpawnItemsOnUse
     items:
     - id: SpaceCash500
-      prob: 0.85 #LOP edit
+      prob: 0.85 # LOP edit
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.45 #LOP edit
+      prob: 0.45 # LOP edit
     - id: SpaceCash1000
-      prob: 0.1 #LOP edit
+      prob: 0.1 # LOP edit
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
+# LOP edit start
+    - id: LPPCultNarsieDust
+      prob: 0.08
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -132,9 +148,9 @@
   - type: SpawnItemsOnUse
     items:
     - id: SpaceCash1000
-      prob: 0.5 #LOP edit
+      prob: 0.5 # LOP edit
     - id: SpaceCash1000
-      prob: 0.25 #LOP edit
+      prob: 0.25 # LOP edit
     - id: Bloodpack
       prob: 0.08
     - id: Tourniquet
@@ -144,7 +160,7 @@
       prob: 0.2
     # Bonus Loot T2
     - id: SpaceCash1000
-      prob: 0.1 #LOP edit
+      prob: 0.1 # LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpaceCash1000
@@ -156,6 +172,10 @@
       prob: 0.7
     - id: SpawnDungeonLootToolsAdvancedEngineering
       prob: 0.3
+# LOP edit start
+    - id: LPPCultNarsieDust
+      prob: 0.08
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -167,9 +187,9 @@
   - type: SpawnItemsOnUse
     items:
     - id: SpaceCash1000
-      prob: 0.1 #LOP edit
+      prob: 0.1 # LOP edit
     - id: SpaceCash500
-      prob: 0.7 #LOP edit
+      prob: 0.7 # LOP edit
     - id: Bloodpack
       prob: 0.06
     - id: BruteAutoInjector
@@ -179,9 +199,9 @@
       prob: 0.1
     # Bonus Loot T3
     - id: SpaceCash1000
-      prob: 0.1 #LOP edit
+      prob: 0.1 # LOP edit
     - id: SpaceCash500
-      prob: 0.25 #LOP edit
+      prob: 0.25 # LOP edit
     - id: SpaceCash1000
       prob: 0.7
     - id: SpawnDungeonLootMaterialsValuableFull
@@ -193,6 +213,10 @@
       prob: 0.5
     - id: SpawnDungeonLootToolsAdvancedEngineering
       prob: 0.4
+# LOP edit start
+    - id: LPPCultNarsieDust
+      prob: 0.08
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -204,7 +228,7 @@
   - type: SpawnItemsOnUse
     items:
     - id: SpaceCash1000
-      prob: 0.45 #LOP edit
+      prob: 0.45 # LOP edit
     - id: Bloodpack
       prob: 0.04
     - id: EmergencyMedipen
@@ -214,11 +238,15 @@
       prob: 0.1
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.25 #LOP edit
+      prob: 0.25 # LOP edit
     - id: SpaceCash1000
-      prob: 0.1 #LOP edit
+      prob: 0.1 # LOP edit
     - id: SpawnDungeonLootPartsEngi
       prob: 0.7
+# LOP edit start
+    - id: LPPCultNarsieDust
+      prob: 0.08
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg
 
@@ -230,7 +258,7 @@
   - type: SpawnItemsOnUse
     items:
     - id: SpaceCash500
-      prob: 0.5 #LOP edit
+      prob: 0.5 # LOP edit
     - id: Bloodpack
       prob: 0.02
     - id: Gauze1
@@ -240,10 +268,14 @@
       prob: 0.05
     # Bonus Loot T1
     - id: SpaceCash500
-      prob: 0.25 #LOP edit
+      prob: 0.2 # LOP edit
     - id: SpawnDungeonLootMaterialsBasicFull
       prob: 0.7
     - id: SpaceCash1000
-      prob: 0.1 #LOP edit
+      prob: 0.1 # LOP edit
+# LOP edit start
+    - id: LPPCultNarsieDust
+      prob: 0.15
+# LOP edit end
     sound:
       path: /Audio/Items/jumpsuit_equip.ogg

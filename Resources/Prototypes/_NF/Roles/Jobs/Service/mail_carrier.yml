@@ -2,6 +2,7 @@
   id: MailCarrier
   name: job-name-mail-carrier
   description: job-description-mail-carrier
+  salary: 20000
   startingGear: MailCarrierGear
   alwaysUseSpawner: true
   playTimeTracker: JobMailCarrier
