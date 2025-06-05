@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using Content.Server.Database;
+using Content.Shared._NF.CCVar;
 using Content.Shared.CCVar;
 using Content.Shared.Preferences;
 using Robust.Server.Player;
@@ -113,7 +114,7 @@ namespace Content.Server.Preferences.Managers
                 await SetProfile(userId, message.Slot, message.Profile);
         }
 
-        public async Task SetProfile(NetUserId userId, int slot, ICharacterProfile profile)
+        public async Task SetProfile(NetUserId userId, int slot, ICharacterProfile profile, bool validateFields = true) // Frontier: add validateFields
         {
             if (!_cachedPlayerPrefs.TryGetValue(userId, out var prefsData) || !prefsData.PrefsLoaded)
             {
@@ -155,6 +156,29 @@ namespace Content.Server.Preferences.Managers
 #endif
             );
             // LOP edit end
+
+            // Frontier: check for profile modifications (based on Monolith's impl)
+            if (validateFields && profile is HumanoidCharacterProfile humanProfile)
+            {
+                if (curPrefs.Characters.TryGetValue(slot, out var existingProfile) &&
+                    existingProfile is HumanoidCharacterProfile humanoidEditingTarget)
+                {
+                    if (humanProfile.BankBalance != humanoidEditingTarget.BankBalance)
+                    {
+                        _sawmill.Info($"{session.Name} has tried to modify a character's money (expected: {humanoidEditingTarget.BankBalance} requested: {humanProfile.BankBalance}). They may be using a modified client!");
+                        profile = humanProfile.WithBankBalance(humanoidEditingTarget.BankBalance);
+                    }
+                }
+                else
+                {
+                    if (humanProfile.BankBalance != HumanoidCharacterProfile.DefaultBalance)
+                    {
+                        _sawmill.Info($"{session.Name} tried to create a character with a non-default balance (expected: {HumanoidCharacterProfile.DefaultBalance} requested: {humanProfile.BankBalance}). They may be using a modified client!");
+                        profile = humanProfile.WithBankBalance(HumanoidCharacterProfile.DefaultBalance);
+                    }
+                }
+            }
+            // End Frontier: check for profile modifications (based on Monolith's impl)
 
             var profiles = new Dictionary<int, ICharacterProfile>(curPrefs.Characters)
             {

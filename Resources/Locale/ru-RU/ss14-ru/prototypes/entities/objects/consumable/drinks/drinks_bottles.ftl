@@ -1,6 +1,11 @@
 ent-DrinkBottlePlasticBaseFull = { ent-DrinkBase }
     .desc = { ent-DrinkBase.desc }
     .suffix = Полный
+ent-DrinkBottlePlasticSmallBaseFull = { ent-DrinkBase }
+    .suffix = Полный
+    .desc = { ent-DrinkBase.desc }
+ent-DrinkBottleGlassSmallBaseFull = { ent-DrinkBottlePlasticSmallBaseFull }
+    .desc = { ent-DrinkBottlePlasticSmallBaseFull.desc }
 ent-DrinkBottleGlassBaseFull = { ent-DrinkBottlePlasticBaseFull }
     .desc = { ent-DrinkBottlePlasticBaseFull.desc }
 ent-DrinkBottleVisualsOpenable = { "" }
@@ -63,6 +68,11 @@ ent-DrinkSodaWaterBottleFull = бутылка газированной воды
     .desc = Как вода, только агрессивная!
 ent-DrinkTonicWaterBottleFull = бутылка тоника
     .desc = Как газированная вода, но, возможно, агрессивнее? И, зачастую, слаще.
+ent-DrinkSakeBottleFull = маленькая бутылка саке
+    .desc =
+        Напиток, этот, прозрачен или мутен.
+        Пьют его горячим иль охлаждённым, со льдом.
+        Налей в чашку, выпей!
 ent-DrinkJuiceLimeCartonXL = лаймовый сок XL
     .desc = Кисло-сладкое удовольствие.
 ent-DrinkJuiceOrangeCartonXL = апельсиновый сок XL

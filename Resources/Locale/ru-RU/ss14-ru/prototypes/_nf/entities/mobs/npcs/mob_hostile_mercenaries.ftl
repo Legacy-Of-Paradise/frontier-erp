@@ -16,5 +16,5 @@ ent-MobMercenarySpecialistMedic = Наёмник-Парамед
     .desc = Опытный специалист, имеющие опыт медицинской практики во время боевых действий или обученый для таких задачь.
 ent-MobMercenarySpecialistAssault = Ренджер-Наёмник
     .desc = { ent-MobMercenaryBase.desc }
-ent-MobMercenaryCaptain = Капитан наёмниках
+ent-MobMercenaryCaptain = Капитан наёмников
     .desc = Предводители этой мини армии, капитаны наёмников, жестоки и смертельно опасны. Будьте осторожны.

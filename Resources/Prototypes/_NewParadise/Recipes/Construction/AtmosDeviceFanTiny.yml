@@ -1,15 +1,10 @@
  - type: construction
-   name: Tiny Fan
    id: AtmosDeviceFanDirectional
    graph: AtmosDeviceFanDirectional
    startNode: start
    targetNode: AtmosDeviceFanDirectional
    category: construction-category-structures
-   description: Small fan that creates air flow
    canBuildInImpassable: true
-   icon:
-     sprite: Structures/Piping/Atmospherics/directionalfan.rsi
-     state: icon
    objectType: Structure
    placementMode: SnapgridCenter
    conditions:

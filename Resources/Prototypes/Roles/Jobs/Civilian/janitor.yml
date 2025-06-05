@@ -4,6 +4,7 @@
   description: job-description-janitor
   playTimeTracker: JobJanitorOld
   setPreference: false # Frontier
+  salary: 20000
   startingGear: JanitorGear
   icon: "JobIconJanitor"
   supervisors: job-supervisors-hop

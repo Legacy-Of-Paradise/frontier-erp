@@ -8,7 +8,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 6.25 #LOP edit 4>6.25
+        Piercing: 6.25 # LOP edit 4>6.25
 
 - type: entity
   categories: [ HideSpawnMenu ]
