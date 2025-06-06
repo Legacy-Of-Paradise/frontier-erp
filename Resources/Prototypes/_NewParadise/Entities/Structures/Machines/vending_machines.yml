@@ -321,7 +321,8 @@
     energy: 1.3
     color: "#ad2c2b"
   - type: MarketModifier
-    mod: 70
+    MinMod: 70
+    MaxMod: 70
 
 - type: entity
   parent: LPPVendingMachineBlackMarketEquipement
@@ -335,7 +336,8 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: MarketModifier
-    mod: 30
+    MinMod: 30
+    MaxMod: 30
 
 - type: entity
   parent: LPPVendingMachineBlackMarketEquipement
@@ -349,4 +351,5 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: MarketModifier
-    mod: 100
+    MinMod: 100
+    MaxMod: 100

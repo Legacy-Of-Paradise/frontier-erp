@@ -22,14 +22,12 @@ public sealed partial class MarketModifierSystem : EntitySystem
 
         // LoP Edit: Start
 
-        SubscribeLocalEvent<MarketModifierComponent, ComponentInit>(OnComponentInit);
+        SubscribeLocalEvent<MarketModifierComponent, MapInitEvent>(OnMapInit);
     }
 
-    private void OnComponentInit(EntityUid uid, MarketModifierComponent component, ComponentInit args)
+    private void OnMapInit(EntityUid uid, MarketModifierComponent component, MapInitEvent args)
     {
-        #if !DebugOpt
-            component.Mod = _random.NextFloat(component.MinMod, component.MaxMod);
-        #endif
+        component.Mod = _random.NextFloat(component.MinMod, component.MaxMod);
     }
 
     // LoP Edit: End

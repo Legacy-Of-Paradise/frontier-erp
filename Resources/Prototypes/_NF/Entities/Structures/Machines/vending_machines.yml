@@ -27,9 +27,10 @@
     energy: 1.6
     color: "#4b93ad"
   - type: MarketModifier
-    mod: 15
-    MinMod: 15 # LoP Edit
-    MaxMod: 15 # LoP Edit
+    # LoP Start
+    MinMod: 15
+    MaxMod: 15
+    # LoP End
 
 - type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachine]
@@ -98,9 +99,10 @@
     energy: 1.6
     color: "#4b93ad"
   - type: MarketModifier
-    mod: 25
-    MinMod: 25 # LoP Edit
-    MaxMod: 25 # LoP Edit
+    # LoP Start
+    MinMod: 25
+    MaxMod: 25
+    # LoP End
 
 - type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachineFlatpackVend]
@@ -469,9 +471,10 @@
   - type: AccessReader
     access: [["HeadOfPersonnel"]]
   - type: MarketModifier
-    mod: 5
-    MinMod: 5 # LoP Edit
-    MaxMod: 5 # LoP Edit
+    # LoP Start
+    MinMod: 5
+    MaxMod: 5
+    # LoP End
 
 - type: entity
   parent: NFVendingMachineCart
@@ -610,7 +613,10 @@
     energy: 1.6
     color: "#4b93ad"
   - type: MarketModifier
-    mod: 30 # damn
+    # LoP Start
+    MinMod: 30
+    MaxMod: 30
+    # LoP End
   - type: Sprite
     sprite: _NF/Structures/Machines/VendingMachines/civimed.rsi
     layers:
