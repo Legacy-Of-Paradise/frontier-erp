@@ -1,0 +1,14 @@
+ent-LoPClothingEyesNVG = очки ночного видения
+    .desc = Теперь ты можешь видеть в темноте! Имеет этикетку "BL CORP technology".
+ent-LoPClothingEyesMesonNVG = инженерные очки ночного видения
+    .desc = { ent-LoPClothingEyesNVG.desc }
+ent-LoPClothingEyesSecNVG = охранные очки ночного видения
+    .desc = { ent-LoPClothingEyesNVG.desc }
+ent-LoPClothingEyesMedNVG = медицинские очки ночного видения
+    .desc = { ent-LoPClothingEyesNVG.desc }
+ent-LoPClothingEyesDiagnosticNVG = диагностирующие очки ночного видения
+    .desc = { ent-LoPClothingEyesNVG.desc }
+ent-ActionBaseToggleNightVision = Переключить ПНВ
+    .desc = Переключает ПНВ из вкл в выкл и наоборот.
+ent-ActionToggleNightVision = { ent-ActionBaseToggleNightVision }
+    .desc = { ent-ActionBaseToggleNightVision.desc }

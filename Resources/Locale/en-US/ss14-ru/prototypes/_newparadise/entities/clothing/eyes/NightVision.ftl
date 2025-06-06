@@ -1,0 +1,14 @@
+ent-LoPClothingEyesNVG = night vision goggles
+    .desc = Now you can see in the dark! It has the label "BL CORP technology".
+ent-LoPClothingEyesMesonNVG = engineering night vision goggles
+    .desc = { ent-LoPClothingEyesNVG.desc }
+ent-LoPClothingEyesSecNVG = security night vision goggles
+    .desc = { ent-LoPClothingEyesNVG.desc }
+ent-LoPClothingEyesMedNVG = medical night vision goggles
+    .desc = { ent-LoPClothingEyesNVG.desc }
+ent-LoPClothingEyesDiagnosticNVG = diagnostic night vision goggles
+    .desc = { ent-LoPClothingEyesNVG.desc }
+ent-ActionBaseToggleNightVision = Toggle NVG
+    .desc = Toggles the NVG on and off.
+ent-ActionToggleNightVision = { ent-ActionBaseToggleNightVision }
+    .desc = { ent-ActionBaseToggleNightVision.desc }
