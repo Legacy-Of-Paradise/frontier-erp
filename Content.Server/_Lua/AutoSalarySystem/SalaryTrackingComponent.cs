@@ -4,7 +4,7 @@ using Robust.Shared.GameStates;
 
 namespace Content.Server._Lua.AutoSalarySystem;
 
-[NetworkedComponent]
+[RegisterComponent]
 public sealed partial class SalaryTrackingComponent : Component
 {
     [ViewVariables] [DataField]
