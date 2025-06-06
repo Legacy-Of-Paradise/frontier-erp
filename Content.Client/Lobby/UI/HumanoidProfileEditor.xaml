@@ -86,6 +86,18 @@
                                     <OptionButton Name="VoiceButton" HorizontalAlignment="Right" />
 									<Button Name="VoicePlayButton" Text="{Loc 'humanoid-profile-editor-voice-play'}" MaxWidth="80" />
                                 </BoxContainer>
+
+
+                                <!-- LOP edit start: ERP-MODULE -->
+
+                                <BoxContainer Name="ERPStatusContainer" HorizontalExpand="True" Visible="False">
+                                    <Label Text="{Loc 'humanoid-profile-editor-erp-label'}" />
+                                    <Control HorizontalExpand="True"/>
+                                    <OptionButton Name="ErpStatusButton" HorizontalAlignment="Right" />
+                                </BoxContainer>
+
+                                <!-- LOP edit end: ERP-MODULE -->
+
                                 <!-- Show clothing -->
                                 <BoxContainer HorizontalExpand="True">
                                     <Label Text="{Loc 'humanoid-profile-editor-clothing'}" />
