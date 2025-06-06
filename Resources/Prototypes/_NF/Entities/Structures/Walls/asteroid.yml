@@ -2,7 +2,7 @@
   abstract: true
   id: NFBaseSoftOreVein
   components:
-  - type: OreVein
+  - type: OreVein # LoP Edit: Deleted gatherDestructionWhitelist
 
 - type: entity
   parent: [NFBaseSoftOreVein, AsteroidRock]
