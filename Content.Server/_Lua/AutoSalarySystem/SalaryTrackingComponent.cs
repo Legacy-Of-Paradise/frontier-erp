@@ -1,9 +1,11 @@
 ﻿//Требуется написать систему бухгалтерского учета, дабы пс/шериф/цк могли менять должности через консоль
 
+using Robust.Shared.GameStates;
+
 namespace Content.Server._Lua.AutoSalarySystem;
 
-[RegisterComponent]
-public sealed partial class SalaryTrackingComponent : Component
+[NetworkedComponent]
+public sealed class SalaryTrackingComponent
 {
     [ViewVariables] [DataField]
     public EntityUid Station;
