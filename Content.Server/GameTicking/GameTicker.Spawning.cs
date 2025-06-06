@@ -1,4 +1,6 @@
-using Content.Server._Corvax.Respawn; // Frontier
+using System.Globalization;
+using System.Linq;
+using System.Numerics;
 using Content.Server.Administration.Managers;
 using Content.Server.Administration.Systems;
 using Content.Server.GameTicking.Events;
@@ -6,13 +8,16 @@ using Content.Server.Ghost;
 using Content.Server.Spawners.Components;
 using Content.Server.Speech.Components;
 using Content.Server.Station.Components;
-using Content.Server._Lua.AutoSalarySystem; // LUA edit
-using Content.Shared._NF.Roles.Components; // Frontier
+using Content.Shared.CCVar;
 using Content.Shared.Database;
 using Content.Shared.GameTicking;
+using Content.Shared.Humanoid;
+using Content.Shared.Humanoid.Prototypes;
 using Content.Shared.Mind;
 using Content.Shared.Players;
 using Content.Shared.Preferences;
+using Content.Shared.Random;
+using Content.Shared.Random.Helpers;
 using Content.Shared.Roles;
 using Content.Shared.Roles.Jobs;
 using Robust.Shared.Map;
@@ -22,9 +27,9 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
-using System.Globalization;
-using System.Linq;
-using System.Numerics;
+using Content.Server._Corvax.Respawn; // Frontier
+using Content.Shared._NF.Roles.Components; // Frontier
+using Content.Server._Lua.AutoSalarySystem; // LUA edit
 
 namespace Content.Server.GameTicking
 {
@@ -306,6 +311,7 @@ namespace Content.Server.GameTicking
             // End Frontier
 
             _roles.MindAddJobRole(newMind, silent: silent, jobPrototype:jobId);
+            _stationJobs.TryAssignJob(station, jobPrototype, player.UserId); // LUA edit
             var jobName = _jobs.MindTryGetJobName(newMind);
             _admin.UpdatePlayerList(player);
 
@@ -339,8 +345,6 @@ namespace Content.Server.GameTicking
             {
                 EntityManager.AddComponent<OwOAccentComponent>(mob);
             }
-
-            _stationJobs.TryAssignJob(station, jobPrototype, player.UserId);
 
             if (lateJoin)
             {
