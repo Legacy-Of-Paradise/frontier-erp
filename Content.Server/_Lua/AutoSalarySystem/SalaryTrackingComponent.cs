@@ -5,7 +5,7 @@ using Robust.Shared.GameStates;
 namespace Content.Server._Lua.AutoSalarySystem;
 
 [NetworkedComponent]
-public sealed class SalaryTrackingComponent
+public sealed class SalaryTrackingComponent : Component
 {
     [ViewVariables] [DataField]
     public EntityUid Station;
