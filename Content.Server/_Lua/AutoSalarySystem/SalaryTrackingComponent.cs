@@ -1,8 +1,12 @@
-﻿namespace Content.Server._Lua.AutoSalarySystem;
+﻿//Требуется написать систему бухгалтерского учета, дабы пс/шериф/цк могли менять должности через консоль
+
+namespace Content.Server._Lua.AutoSalarySystem;
 
 [RegisterComponent]
 public sealed partial class SalaryTrackingComponent : Component
 {
-    [DataField] public EntityUid Station;
-    [DataField] public string JobId = string.Empty;
+    [ViewVariables] [DataField]
+    public EntityUid Station;
+    [ViewVariables] [DataField]
+    public string JobId = string.Empty;
 }

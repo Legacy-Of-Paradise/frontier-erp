@@ -5,11 +5,9 @@
 using Content.Server._NF.Bank;
 using Content.Server.Chat.Managers;
 using Content.Server.Popups;
-using Content.Server.Station.Systems;
 using Content.Shared._NF.Bank.Components;
 using Content.Shared.Chat;
 using Content.Shared.GameTicking;
-using Content.Shared.Humanoid;
 using Content.Shared._Lua.CLVars;
 using Content.Shared.Popups;
 using Content.Shared.Roles;
@@ -27,7 +25,6 @@ public sealed class AutoSalarySystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly IConfigurationManager _cfg = default!;
 
-    private float _interval;
     private float _currentTime;
 
     public override void Initialize()
@@ -35,7 +32,7 @@ public sealed class AutoSalarySystem : EntitySystem
         base.Initialize();
 
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRoundRestart);
-        _cfg.OnValueChanged(CLVars.AutoSalaryInterval, v => _interval = v, true);
+        _currentTime = _cfg.GetCVar(CLVars.AutoSalaryInterval);
     }
 
     public override void Update(float frameTime)
@@ -53,14 +50,13 @@ public sealed class AutoSalarySystem : EntitySystem
 
     private void OnRoundRestart(RoundRestartCleanupEvent args)
     {
-        _currentTime = _interval;
+        _currentTime = _cfg.GetCVar(CLVars.AutoSalaryInterval);
     }
 
-    // Lua start
     private void ProcessSalary()
     {
-        var query = EntityQueryEnumerator<HumanoidAppearanceComponent, BankAccountComponent, ActorComponent, SalaryTrackingComponent>();
-        while (query.MoveNext(out var uid, out _, out _, out var actor, out var salary))
+        var query = EntityQueryEnumerator<BankAccountComponent, ActorComponent, SalaryTrackingComponent>();
+        while (query.MoveNext(out var uid, out var bank, out var actor, out var salary))
         {
             if (string.IsNullOrEmpty(salary.JobId))
                 continue;
@@ -72,27 +68,13 @@ public sealed class AutoSalarySystem : EntitySystem
             var amount = job.Salary;
             if (_bank.TryBankDeposit(uid, amount))
             {
-                NotifySalaryReceived(uid, amount);
+                NotifySalaryReceived(uid, bank, actor, amount);
             }
         }
     }
-    // Lua end
 
-    private EntityUid? GetOwningStation(EntityUid uid)
+    private void NotifySalaryReceived(EntityUid uid, BankAccountComponent bank, ActorComponent actor, int salary)
     {
-        var stationSystem = Get<StationSystem>();
-        return stationSystem.GetOwningStation(uid);
-    }
-
-    // Lua start
-    private void NotifySalaryReceived(EntityUid uid, int salary)
-    {
-        if (!TryComp(uid, out BankAccountComponent? bank))
-            return;
-
-        if (!TryComp(uid, out ActorComponent? actor))
-            return;
-
         var changeAmount = $"+{salary}";
         var message = Loc.GetString(
             "bank-program-change-balance-notification",
@@ -111,14 +93,5 @@ public sealed class AutoSalarySystem : EntitySystem
             false,
             actor.PlayerSession.Channel
         );
-    }
-    // Lua end
-
-    private int GetSalary(ProtoId<JobPrototype> jobId)
-    {
-        if (!_prototypeManager.TryIndex(jobId, out var jobPrototype))
-            throw new KeyNotFoundException($"Неизвестный ID работы: {jobId}");
-
-        return jobPrototype.Salary;
     }
 }
