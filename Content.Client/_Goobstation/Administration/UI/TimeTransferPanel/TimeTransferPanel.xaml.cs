@@ -49,7 +49,8 @@ public sealed partial class TimeTransferPanel : DefaultWindow
         foreach(var job in jobs)
         {
             var jobEntry = new TimeTransferEntry(job, _spriteSystem, _prototypeManager);
-            JobContainer.AddChild(jobEntry);
+            if (job.SetPreference) // LOP edit
+                JobContainer.AddChild(jobEntry);
         }
     }
 
