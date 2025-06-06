@@ -1,5 +1,10 @@
 using System.Linq;
 using System.Text.RegularExpressions;
+
+#if LOP
+using Content.Shared._ERPModule.Data; // LOP edit
+#endif
+
 using Content.Shared._NewParadise.TTS; // LOP edit
 using Content.Shared._NF.Bank;
 using Content.Shared.CCVar;
@@ -105,6 +110,18 @@ namespace Content.Shared.Preferences
         [DataField]
         public int Age { get; set; } = 18;
 
+#if LOP
+
+        [DataField]
+        public ErpStatus ErpStatus { get; set; } = ErpStatus.Ask;
+
+        public HumanoidCharacterProfile WithErpStatus(ErpStatus erpStatus)
+        {
+            return new(this) { ErpStatus = erpStatus };
+        }
+
+#endif
+
         [DataField]
         public Sex Sex { get; private set; } = Sex.Male;
 
@@ -161,6 +178,9 @@ namespace Content.Shared.Preferences
             Sex sex,
             Gender gender,
             int bankBalance,
+#if LOP
+            ErpStatus erpStatus,
+#endif
             HumanoidCharacterAppearance appearance,
             SpawnPriorityPreference spawnPriority,
             Dictionary<ProtoId<JobPrototype>, JobPriority> jobPriorities,
@@ -177,6 +197,9 @@ namespace Content.Shared.Preferences
             Sex = sex;
             Gender = gender;
             BankBalance = bankBalance;
+#if LOP
+            ErpStatus = erpStatus;
+#endif
             Appearance = appearance;
             SpawnPriority = spawnPriority;
             _jobPriorities = jobPriorities;
@@ -194,7 +217,11 @@ namespace Content.Shared.Preferences
             HashSet<ProtoId<AntagPrototype>> antagPreferences,
             HashSet<ProtoId<TraitPrototype>> traitPreferences,
             Dictionary<string, RoleLoadout> loadouts)
-            : this(other.Name, other.FlavorText, other.Species, other.Age, other.Sex, other.Gender, other.BankBalance, other.Appearance, other.SpawnPriority,
+            : this(other.Name, other.FlavorText, other.Species, other.Age, other.Sex, other.Gender, other.BankBalance,
+#if LOP
+                other.ErpStatus,
+#endif
+                other.Appearance, other.SpawnPriority,
                 jobPriorities, other.PreferenceUnavailable, antagPreferences, traitPreferences, loadouts, other.VoiceId) // LOP edit
         {
         }
@@ -208,6 +235,9 @@ namespace Content.Shared.Preferences
                 other.Sex,
                 other.Gender,
                 other.BankBalance,
+#if LOP
+                other.ErpStatus,
+#endif
                 other.Appearance.Clone(),
                 other.SpawnPriority,
                 new Dictionary<ProtoId<JobPrototype>, JobPriority>(other.JobPriorities),
@@ -525,6 +555,9 @@ namespace Content.Shared.Preferences
             if (Gender != other.Gender) return false;
             if (Species != other.Species) return false;
             if (BankBalance != other.BankBalance) return false; // Frontier
+#if LOP
+            if (ErpStatus != other.ErpStatus) return false;
+#endif
             if (PreferenceUnavailable != other.PreferenceUnavailable) return false;
             if (SpawnPriority != other.SpawnPriority) return false;
             if (!_jobPriorities.SequenceEqual(other._jobPriorities)) return false;
@@ -560,6 +593,18 @@ namespace Content.Shared.Preferences
                 Sex.Unsexed => Sex.Unsexed,
                 _ => Sex.Male // Invalid enum values.
             };
+
+#if LOP
+
+            var erpStatus = ErpStatus switch
+            {
+                ErpStatus.Yes => ErpStatus.Yes,
+                ErpStatus.Ask => ErpStatus.Ask,
+                ErpStatus.No => ErpStatus.No,
+                _ => ErpStatus.Ask
+            };
+
+#endif
 
             // ensure the species can be that sex and their age fits the founds
             if (!speciesPrototype.Sexes.Contains(sex))
@@ -694,6 +739,9 @@ namespace Content.Shared.Preferences
             Sex = sex;
             Gender = gender;
             BankBalance = bankBalance;
+#if LOP
+            ErpStatus = erpStatus;
+#endif
             Appearance = appearance;
             SpawnPriority = spawnPriority;
 
@@ -816,6 +864,11 @@ namespace Content.Shared.Preferences
             hashCode.Add(Age);
             hashCode.Add((int)Sex);
             hashCode.Add((int)Gender);
+
+#if LOP
+            hashCode.Add((int)ErpStatus);
+#endif
+
             hashCode.Add(Appearance);
             hashCode.Add(BankBalance); // Frontier
             hashCode.Add((int)SpawnPriority);

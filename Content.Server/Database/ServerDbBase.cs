@@ -23,6 +23,10 @@ using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 
+#if LOP
+using Content.Shared._ERPModule.Data;
+#endif
+
 namespace Content.Server.Database
 {
     public abstract class ServerDbBase
@@ -201,6 +205,12 @@ namespace Content.Server.Database
             if (Enum.TryParse<Gender>(profile.Gender, true, out var genderVal))
                 gender = genderVal;
 
+#if LOP
+            var erpStatus = ErpStatus.Ask;
+            if (Enum.TryParse<ErpStatus>(profile.ErpStatus, true, out var erpStatusVal))
+                erpStatus = erpStatusVal;
+#endif
+
             var balance = profile.BankBalance;
 
             // ReSharper disable once ConditionalAccessQualifierIsNonNullableAccordingToAPIContract
@@ -262,6 +272,9 @@ namespace Content.Server.Database
                 sex,
                 gender,
                 balance,
+#if LOP
+                erpStatus,
+#endif
                 new HumanoidCharacterAppearance
                 (
                     profile.HairName,
@@ -298,6 +311,12 @@ namespace Content.Server.Database
             profile.Species = humanoid.Species;
             profile.Age = humanoid.Age;
             profile.Sex = humanoid.Sex.ToString();
+
+
+#if LOP
+            profile.ErpStatus = humanoid.ErpStatus.ToString();
+#endif
+
             profile.Gender = humanoid.Gender.ToString();
             profile.BankBalance = humanoid.BankBalance;
             profile.HairName = appearance.HairStyleId;
