@@ -145,7 +145,7 @@ public partial class ChatBox : UIWidget
 
     public void Repopulate()
     {
-        Contents.Clear();
+        ClearChatContents(); // LOP edit
         _chatStackList = new List<ChatStackData>(_chatStackAmount); // EE - Chat stacking
         foreach (var message in _controller.History)
         {
@@ -165,6 +165,21 @@ public partial class ChatBox : UIWidget
             _controller.ClearUnfilteredUnreads(channel);
         }
     }
+
+    // LOP edit START
+    private void ClearChatContents()
+    {
+        Contents.Clear();
+
+        foreach (var child in Contents.Children.ToArray())
+        {
+            if (child.Name != "_v_scroll")
+            {
+                Contents.RemoveChild(child);
+            }
+        }
+    }
+    // LOP edit END
 
     public void AddLine(string message, Color color, int repeat = 0) // EE - Chat stacking - repeat
     {

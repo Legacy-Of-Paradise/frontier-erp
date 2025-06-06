@@ -27,6 +27,7 @@ public sealed partial class PlayerPanel : FancyWindow
     public event Action? OnDelete;
     public event Action? OnRejuvenate;
     public event Action<NetUserId?>? OnOpenJobWhitelists; // DeltaV
+    public event Action? OnPlayerPanel; // LOP edit
 
     public NetUserId? TargetPlayer;
     public string? TargetUsername;
@@ -56,6 +57,8 @@ public sealed partial class PlayerPanel : FancyWindow
             RejuvenateButton.OnPressed += _ => OnRejuvenate?.Invoke();
 
             JobWhitelistsButton.OnPressed += _ => OnOpenJobWhitelists?.Invoke(TargetPlayer); // DeltaV: Job whitelists
+
+        TimeButton.OnPressed += _ => OnPlayerPanel?.Invoke(); // LOP edit
     }
 
     public void SetUsername(string player)
@@ -133,5 +136,6 @@ public sealed partial class PlayerPanel : FancyWindow
         RejuvenateButton.Disabled = !_adminManager.HasFlag(AdminFlags.Debug);
         DeleteButton.Disabled = !_adminManager.HasFlag(AdminFlags.Debug);
         JobWhitelistsButton.Disabled = !_adminManager.HasFlag(AdminFlags.Whitelist); // DeltaV
+        TimeButton.Disabled = !_adminManager.CanCommand("timetransferpanel"); // LOP edit
     }
 }

@@ -29,6 +29,7 @@ using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Content.Server._Corvax.Respawn; // Frontier
 using Content.Shared._NF.Roles.Components; // Frontier
+using Content.Server._Lua.AutoSalarySystem; // LUA edit
 
 namespace Content.Server.GameTicking
 {
@@ -300,6 +301,9 @@ namespace Content.Server.GameTicking
             // Frontier: ensure jobs are tracked
             var jobComp = EnsureComp<JobTrackingComponent>(mob);
             jobComp.Job = jobId;
+            var salary = EnsureComp<SalaryTrackingComponent>(mob);
+            salary.Station = station;
+            salary.JobId = jobId;
             jobComp.SpawnStation = station;
             jobComp.Active = true;
             Dirty(mob, jobComp);
@@ -340,8 +344,6 @@ namespace Content.Server.GameTicking
             {
                 EntityManager.AddComponent<OwOAccentComponent>(mob);
             }
-
-            _stationJobs.TryAssignJob(station, jobPrototype, player.UserId);
 
             if (lateJoin)
             {

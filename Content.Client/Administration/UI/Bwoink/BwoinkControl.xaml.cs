@@ -198,6 +198,14 @@ namespace Content.Client.Administration.UI.Bwoink
             {
                 uiController.PopOut();
             };
+
+            // LOP edit start
+            PlayerPanel.OnPressed += _ =>
+            {
+                if (_currentPlayer is not null)
+                    _console.ExecuteCommand($"playerpanel \"{_currentPlayer.Username}\"");
+            };
+            // LOP edit end
         }
 
         public void OnBwoink(NetUserId channel)
@@ -245,6 +253,11 @@ namespace Content.Client.Administration.UI.Bwoink
 
             Follow.Visible = _adminManager.CanCommand("follow");
             Follow.Disabled = !Follow.Visible || disabled;
+
+            // LOP edit start
+            PlayerPanel.Visible = _adminManager.CanCommand("playerpanel");
+            PlayerPanel.Disabled = !PlayerPanel.Visible || disabled;
+            // LOP edit end
         }
 
         private string FormatTabTitle(ItemList.Item li, PlayerInfo? pl = default)

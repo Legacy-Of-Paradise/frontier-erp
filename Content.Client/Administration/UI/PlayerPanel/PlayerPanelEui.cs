@@ -42,6 +42,7 @@ public sealed class PlayerPanelEui : BaseEui
         PlayerPanel.OnOpenJobWhitelists += id => _console.ExecuteCommand($"jobwhitelists \"{id}\""); // DeltaV
 
         PlayerPanel.OnClose += () => SendMessage(new CloseEuiMessage());
+        PlayerPanel.OnPlayerPanel += () => _console.ExecuteCommand($"timetransferpanel"); // LOP edit
     }
 
     public override void Opened()
