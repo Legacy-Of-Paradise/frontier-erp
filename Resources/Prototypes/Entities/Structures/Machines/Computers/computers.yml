@@ -907,7 +907,7 @@
   #   channels: # Frontier
   #   - Supply # Frontier
   - type: ActivatableUI
-    key: enum.NFCargoConsoleUiKey.Orders # Frontier: 
+    key: enum.NFCargoConsoleUiKey.Orders # Frontier:
   - type: UserInterface
     interfaces:
       enum.NFCargoConsoleUiKey.Orders:
@@ -1409,10 +1409,10 @@
     energy: 1.6
     color: "#b89f25"
   - type: MarketModifier # In the case someone got a computer board from QM locker, they can use it to sell on a ship if they have the grids, just to make sure its useless.
-    # LoP Start
-    MinMod: 0
-    MaxMod: 0
-    # LoP End
+    # LOP edit start
+    MinMod: 1
+    MaxMod: 1
+    # LOP edit end
   # - type: GuideHelp # Frontier: guidebook removed
   #   guides: # Frontier: guidebook removed
   #   - Cargo # Frontier: guidebook removed
