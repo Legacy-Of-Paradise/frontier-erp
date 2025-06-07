@@ -62,11 +62,11 @@ namespace Content.Client.Launcher
             ExitButton.OnPressed += _ => _state.Exit();
 
             // LOP edit start
-            OpenDiscordButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkDiscord); // LOP edit
-            OpenWikiButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWiki); // LOP edit
-            OpenWebsiteButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWebsite); // LOP edit
-            OpenPatreonButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkPatreon); // LOP edit
-            OpenBugReportButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkBugReport); // LOP edit
+            OpenDiscordButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkDiscord);
+            OpenWikiButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWiki);
+            OpenWebsiteButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWebsite);
+            OpenPatreonButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkPatreon);
+            OpenBugReportButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkBugReport);
             // LOP edit end
 
             var addr = state.Address;
