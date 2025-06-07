@@ -515,4 +515,13 @@ public enum LogType
     /// </summary>
     ObjectiveSummary = 422,
     #endregion DeltaV Values
+
+
+    // LUA edit
+    #region LUA Values
+    /// <summary>
+    /// Add bank money to player
+    /// </summary>
+    BankTransaction = 423,
+    #endregion LUA Values
 }
