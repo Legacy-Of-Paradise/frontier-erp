@@ -2,3 +2,8 @@
   id: SeeingStatic
   kind: source
   path: "/Textures/_NewParadise/Shaders/seeing_static.swsl"
+
+- type: shader
+  id: LoPNightVision
+  kind: source
+  path: "/Textures/_NewParadise/Shaders/nightvision.swsl"

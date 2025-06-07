@@ -27,7 +27,10 @@ public sealed partial class MarketModifierSystem : EntitySystem
 
     private void OnMapInit(EntityUid uid, MarketModifierComponent component, MapInitEvent args)
     {
-        component.Mod = _random.NextFloat(component.MinMod, component.MaxMod);
+        if (component.Mod == null || component.Mod == 0)
+        {
+            component.Mod = _random.NextFloat(component.MinMod, component.MaxMod);
+        }
     }
 
     // LoP Edit: End
