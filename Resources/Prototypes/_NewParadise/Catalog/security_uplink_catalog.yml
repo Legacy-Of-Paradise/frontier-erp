@@ -528,3 +528,19 @@
       whitelist:
         tags:
           - SecurityUplink
+
+- type: listing
+  id: LoPUplinkSecurityNVG
+  name: lop-uplink-security-nvg
+  description: lop-uplink-security-nvg-desc
+  productEntity: LoPClothingEyesSecNVG
+  icon: { sprite: _NewParadise/Clothing/Eyes/NVG/secnightvision.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 2
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink

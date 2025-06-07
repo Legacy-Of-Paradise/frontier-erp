@@ -13,7 +13,7 @@
       sprite: _NewParadise/Clothing/Eyes/NVG/nightvision.rsi
     - type: NightVision
       tint1: 0.3 # Red
-      tint2: 1.0 # Green
+      tint2: 0.7 # Green
       tint3: 0.3 # Blue
       # strength: 2 # Add if you need
       # noise: 0.5 # Add if you need
@@ -33,7 +33,8 @@
 - type: entity
   id: LoPClothingEyesMesonNVG
   parent: LoPClothingEyesNVG
-  name: engineering night vision goggles
+  name: meson night vision goggles
+  description: Now you can see in the dark and has eye protection! It has the label "BL CORP technology".
   components:
   - type: EyeProtection
 
@@ -41,12 +42,13 @@
   id: LoPClothingEyesSecNVG
   parent: [LoPClothingEyesNVG, ShowSecurityIcons]
   name: security night vision goggles
+  description: Now you can see in the dark and shows job icons! It has the label "BL CORP technology".
   components:
   - type: Tag
     tags:
     - HudSecurity
   - type: NightVision
-    tint1: 1.0
+    tint1: 0.7
     tint2: 0.3
     tint3: 0.3
   - type: Sprite
@@ -59,6 +61,7 @@
   id: LoPClothingEyesMedNVG
   parent: LoPClothingEyesNVG
   name: medical night vision goggles
+  description: Now you can see in the dark and shows health! It has the label "BL CORP technology".
   components:
   - type: ShowHealthBars
     damageContainers:
@@ -82,10 +85,11 @@
   id: LoPClothingEyesDiagnosticNVG
   parent: LoPClothingEyesNVG
   name: diagnostic night vision goggles
+  description: Now you can see in the dark and shows cyborgs health! It has the label "BL CORP technology".
   components:
   - type: NightVision
-    tint1: 1.0
-    tint2: 1.0
+    tint1: 0.7
+    tint2: 0.7
     tint3: 0.3
   - type: Sprite
     sprite: _NewParadise/Clothing/Eyes/NVG/diagnosticnightvision.rsi
@@ -101,7 +105,7 @@
   id: ActionBaseToggleNightVision
   name: Toggle NVG
   description: Toggles the NVG on and off.
-  noSpawn: true
+  categories: [ HideSpawnMenu ] 
   components:
   - type: InstantAction
     itemIconStyle: NoItem
@@ -110,7 +114,7 @@
 - type: entity
   id: ActionToggleNightVision
   parent: ActionBaseToggleNightVision
-  noSpawn: true
+  categories: [ HideSpawnMenu ] 
   components:
   - type: InstantAction
     icon: { sprite: _NewParadise/Clothing/Eyes/NVG/nightvision.rsi, state: toggle-on }

@@ -1,0 +1,25 @@
+- type: latheRecipePack
+  id: LoPNVGPackM
+  recipes:
+  - LoPClothingEyesMedNVG
+
+- type: latheRecipePack
+  id: LoPNVGPackNFSD
+  recipes:
+  - LoPClothingEyesSecNVG
+
+- type: latheRecipePack
+  id: LoPNVGPackEngi
+  recipes:
+  - LoPClothingEyesMesonNVG
+
+- type: latheRecipePack
+  id: LoPNVGPackScience
+  recipes:
+  - LoPClothingEyesNVG
+  - LoPClothingEyesDiagnosticNVG
+
+- type: latheRecipePack
+  id: LoPNVGPackService
+  recipes:
+  - LoPClothingEyesNVG
