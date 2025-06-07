@@ -64,10 +64,10 @@
   suffix: VeryHigh
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 1.25
     MaxMod: 1.75
-    # LoP End
+    # LoP edit end
 
 - type: entity
   parent: ComputerPalletConsoleNFMarket
@@ -75,10 +75,10 @@
   suffix: High
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 1
     MaxMod: 1.5
-    # LoP End
+    # LoP edit end
 
 - type: entity
   parent: ComputerPalletConsoleNFMarket
@@ -86,10 +86,10 @@
   suffix: Normal
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 0.75
     MaxMod: 1.25
-    # LoP End
+    # LoP edit end
 
 - type: entity
   parent: ComputerPalletConsoleNFMarket
@@ -97,10 +97,10 @@
   suffix: Low
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 0.5
     MaxMod: 1
-    # LoP End
+    # LoP edit end
 
 - type: entity
   parent: ComputerPalletConsoleNFMarket
@@ -108,10 +108,10 @@
   suffix: VeryLow
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 0.25
     MaxMod: 0.75
-    # LoP End
+    # LoP edit end
 
 - type: entity
   name: contraband exchange computer
@@ -215,10 +215,10 @@
       enum.WiresUiKey.Key:
         type: WiresBoundUserInterface
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 0.75
     MaxMod: 1.25
-    # LoP End
+    # LoP edit end
   - type: Computer
     board: Null
 
@@ -229,10 +229,10 @@
   suffix: Low
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 3
     MaxMod: 5
-    # LoP End
+    # LoP edit end
 
 - type: entity
   name: cargo market computer
@@ -241,10 +241,10 @@
   suffix: Normal
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 5
     MaxMod: 7
-    # LoP End
+    # LoP edit end
 
 - type: entity
   name: cargo market computer
@@ -253,10 +253,10 @@
   suffix: High
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 7
     MaxMod: 9
-    # LoP End
+    # LoP edit end
 
 #region Pirate
 - type: entity
@@ -475,10 +475,10 @@
     board: Null # FIXME
   - type: MarketModifier
     buy: false
-    # LoP Start
+    # LoP edit start
     MinMod: 0.75
     MaxMod: 1.25
-    # LoP End
+    # LoP edit end
 
 - type: entity
   parent: GasSaleConsole
@@ -486,10 +486,10 @@
   suffix: VeryHigh
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 1.25
     MaxMod: 1.75
-    # LoP End
+    # LoP edit end
 
 - type: entity
   parent: GasSaleConsole
@@ -497,10 +497,10 @@
   suffix: High
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 1
     MaxMod: 1.5
-    # LoP End
+    # LoP edit end
 
 - type: entity
   parent: GasSaleConsole
@@ -508,10 +508,10 @@
   suffix: Low
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 0.5
     MaxMod: 1
-    # LoP End
+    # LoP edit end
 
 - type: entity
   parent: GasSaleConsole
@@ -519,10 +519,10 @@
   suffix: VeryLow
   components:
   - type: MarketModifier
-    # LoP Start
+    # LoP edit start
     MinMod: 0.25
     MaxMod: 0.75
-    # LoP End
+    # LoP edit end
 
 #region Traffic
 - type: entity

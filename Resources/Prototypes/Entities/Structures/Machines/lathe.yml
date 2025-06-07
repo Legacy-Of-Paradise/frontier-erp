@@ -209,9 +209,9 @@
     - ChemistryStatic
     - SurgeryStatic
     dynamicPacks:
-    # LoP Start
+    # LoP edit start
     - LoPNVGPackScience
-    # LoP End
+    # LoP edit end
     - AdvancedTools
     - ScienceEquipment
     - ScienceExplosives
@@ -532,10 +532,10 @@
     - EmptyMedkitsStatic
     - SurgeryStatic
     - NFMedicalStatic # Frontier
-    # LoP Start
+    # LoP edit start
     dynamicPacks:
     - LoPNVGPackM
-    # LoP End
+    # LoP edit end
     # - Chemistry # Frontier
   - type: Machine
     board: MedicalTechFabCircuitboard
