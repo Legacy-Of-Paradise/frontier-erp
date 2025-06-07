@@ -44,9 +44,9 @@ binds:
 - function: Walk
   type: State
   key: Shift
-- function: ToggleStanding
+- function: ToggleStanding # Lop edit
   type: State
-  key: R
+  key: C
 # Shuttle
 - function: ShuttleStrafeUp
   type: State
@@ -189,7 +189,7 @@ binds:
   mod1: Alt
 - function: OpenCharacterMenu
   type: State
-  key: C
+  key: R # LOP edit
 - function: OpenEmotesMenu
   type: State
   key: Y
