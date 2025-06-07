@@ -25,34 +25,31 @@
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenDiscordButton"
-                            Text="{Loc 'discord-button-name'}"
+                            Text="{Loc 'info-link-discord'}"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenWikiButton"
-                            Text="{Loc 'wiki-button-name'}"
+                            Text="{Loc 'info-link-wiki'}"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenWebsiteButton"
-                            Text="{Loc 'website-button-name'}"
-                            StyleClasses="SocialButton SocialButtonDiscord"
+                            Text="{Loc 'info-link-website'}"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenPatreonButton"
-                            Text="{Loc 'patreon-button-name'}"
-                            StyleClasses="SocialButton SocialButtonDiscord"
+                            Text="{Loc 'info-link-patreon'}"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenBugReportButton"
                             Text="{Loc 'bugreport-button-name'}"
-                            StyleClasses="SocialButton SocialButtonDiscord"
                     />
                 </PanelContainer>
             </BoxContainer>
