@@ -67,6 +67,11 @@ namespace Content.Client.Launcher
             OpenWebsiteButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWebsite);
             OpenPatreonButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkPatreon);
             OpenBugReportButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkBugReport);
+
+            OpenDiscordButton.Visible = _cfg.GetCVar(CCVars.InfoLinksDiscord) != "";
+            OpenWikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";
+            OpenWebsiteButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWebsite) != "";
+            OpenBugReportButton.Visible = _cfg.GetCVar(CCVars.InfoLinksBugReport) != "";
             // LOP edit end
 
             var addr = state.Address;
