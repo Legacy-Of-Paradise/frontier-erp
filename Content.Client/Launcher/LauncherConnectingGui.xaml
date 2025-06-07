@@ -14,10 +14,10 @@
             <BoxContainer Orientation="Vertical" Margin="0 5">
                 <controls:StripeBack>
                     <BoxContainer Orientation="Vertical" Margin="0 8">
-                        <Label Text="Ссылки"
+                        <Label Text="{Loc 'launcher-heading-name'}"
                                StyleClasses="LabelHeadingBigger"
                                HorizontalAlignment="Center"/>
-                        <Label Text="Наши сервера:"
+                        <Label Text="{Loc 'launcher-sub-name'}"
                                StyleClasses="LabelSubText"
                                HorizontalAlignment="Center"/>
                     </BoxContainer>
@@ -25,33 +25,33 @@
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenDiscordButton"
-                            Text="Discord"
+                            Text="{Loc 'discord-button-name'}"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenWikiButton"
-                            Text="Wiki"
+                            Text="{Loc 'wiki-button-name'}"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenWebsiteButton"
-                            Text="Website"
+                            Text="{Loc 'website-button-name'}"
                             StyleClasses="SocialButton SocialButtonDiscord"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenPatreonButton"
-                            Text="Patreon"
+                            Text="{Loc 'patreon-button-name'}"
                             StyleClasses="SocialButton SocialButtonDiscord"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
                     <Button Name="OpenBugReportButton"
-                            Text="BugReport"
+                            Text="{Loc 'bugreport-button-name'}"
                             StyleClasses="SocialButton SocialButtonDiscord"
                     />
                 </PanelContainer>

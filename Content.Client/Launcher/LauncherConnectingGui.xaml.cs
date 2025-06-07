@@ -71,6 +71,7 @@ namespace Content.Client.Launcher
             OpenDiscordButton.Visible = _cfg.GetCVar(CCVars.InfoLinksDiscord) != "";
             OpenWikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";
             OpenWebsiteButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWebsite) != "";
+            OpenPatreonButton.Visible = _cfg.GetCVar(CCVars.InfoLinksPatreon) != "";
             OpenBugReportButton.Visible = _cfg.GetCVar(CCVars.InfoLinksBugReport) != "";
             // LOP edit end
 
