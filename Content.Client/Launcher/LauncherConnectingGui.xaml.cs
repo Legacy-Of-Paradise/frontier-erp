@@ -39,6 +39,14 @@ namespace Content.Client.Launcher
             _cfg = config;
             _clipboard = clipboard;
 
+            // LOP edit start
+            var linkDiscord = _cfg.GetCVar(CCVars.InfoLinksDiscord);
+            var linkWebsite = _cfg.GetCVar(CCVars.InfoLinksWebsite);
+            var linkWiki = _cfg.GetCVar(CCVars.InfoLinksWiki);
+            var linkPatreon = _cfg.GetCVar(CCVars.InfoLinksPatreon);
+            var linkBugReport = _cfg.GetCVar(CCVars.InfoLinksBugReport);
+            // LOP edit end
+
             RobustXamlLoader.Load(this);
 
             LayoutContainer.SetAnchorPreset(this, LayoutContainer.LayoutPreset.Wide);
@@ -52,6 +60,14 @@ namespace Content.Client.Launcher
             CopyButton.OnPressed += CopyButtonPressed;
             CopyButtonDisconnected.OnPressed += CopyButtonDisconnectedPressed;
             ExitButton.OnPressed += _ => _state.Exit();
+
+            // LOP edit start
+            OpenDiscordButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkDiscord); // LOP edit
+            OpenWikiButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWiki); // LOP edit
+            OpenWebsiteButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWebsite); // LOP edit
+            OpenPatreonButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkPatreon); // LOP edit
+            OpenBugReportButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkBugReport); // LOP edit
+            // LOP edit end
 
             var addr = state.Address;
             if (addr != null)

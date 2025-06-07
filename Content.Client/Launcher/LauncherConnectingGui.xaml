@@ -4,6 +4,62 @@
          xmlns:parallax="clr-namespace:Content.Client.Parallax"
          xmlns:controls="clr-namespace:Content.Client.UserInterface.Controls">
     <parallax:ParallaxControl SpeedX="20"/>
+
+    <!-- LOP edit start -->
+    <BoxContainer Orientation="Vertical"
+                  HorizontalAlignment="Right"
+                  VerticalAlignment="Center"
+                  Margin="40 0 0 0">
+        <PanelContainer StyleClasses="AngleRect" MinWidth="200">
+            <BoxContainer Orientation="Vertical" Margin="0 5">
+                <controls:StripeBack>
+                    <BoxContainer Orientation="Vertical" Margin="0 8">
+                        <Label Text="Ссылки"
+                               StyleClasses="LabelHeadingBigger"
+                               HorizontalAlignment="Center"/>
+                        <Label Text="Наши сервера:"
+                               StyleClasses="LabelSubText"
+                               HorizontalAlignment="Center"/>
+                    </BoxContainer>
+                </controls:StripeBack>
+
+                <PanelContainer Margin="0 5">
+                    <Button Name="OpenDiscordButton"
+                            Text="Discord"
+                    />
+                </PanelContainer>
+
+                <PanelContainer Margin="0 5">
+                    <Button Name="OpenWikiButton"
+                            Text="Wiki"
+                    />
+                </PanelContainer>
+
+                <PanelContainer Margin="0 5">
+                    <Button Name="OpenWebsiteButton"
+                            Text="Website"
+                            StyleClasses="SocialButton SocialButtonDiscord"
+                    />
+                </PanelContainer>
+
+                <PanelContainer Margin="0 5">
+                    <Button Name="OpenPatreonButton"
+                            Text="Patreon"
+                            StyleClasses="SocialButton SocialButtonDiscord"
+                    />
+                </PanelContainer>
+
+                <PanelContainer Margin="0 5">
+                    <Button Name="OpenBugReportButton"
+                            Text="BugReport"
+                            StyleClasses="SocialButton SocialButtonDiscord"
+                    />
+                </PanelContainer>
+            </BoxContainer>
+        </PanelContainer>
+    </BoxContainer>
+    <!-- LOP edit end -->
+
     <Control HorizontalAlignment="Center" VerticalAlignment="Center">
         <PanelContainer StyleClasses="AngleRect" />
         <BoxContainer Orientation="Vertical" MinSize="300 200">
