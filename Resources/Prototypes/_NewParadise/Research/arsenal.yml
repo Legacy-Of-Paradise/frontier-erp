@@ -1,0 +1,30 @@
+# Tier 2
+
+# - type: technology
+#   id: LoPHUDResearch
+#   name: lop-research-technology-huds
+#   icon:
+#     sprite: Clothing/Eyes/Hud/medsec.rsi
+#     state: icon
+#   discipline: Arsenal
+#   tier: 2
+#   cost: 7500
+#   recipeUnlocks:
+
+# Tier 2
+
+- type: technology
+  id: LoPNVGResearch
+  name: lop-research-technology-night-vision
+  icon:
+    sprite: _NewParadise/Clothing/Eyes/NVG/nightvision.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - LoPClothingEyesNVG
+  - LoPClothingEyesMesonNVG
+  - LoPClothingEyesSecNVG
+  - LoPClothingEyesMedNVG
+  - LoPClothingEyesDiagnosticNVG

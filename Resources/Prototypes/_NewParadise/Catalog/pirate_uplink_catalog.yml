@@ -102,3 +102,18 @@
       whitelist:
         tags:
           - PirateUplink
+
+- type: listing
+  id: LoPUplinkPiratesNVG
+  name: lop-uplink-pirate-nvg
+  description: lop-uplink-pirate-nvg-desc
+  productEntity: LoPClothingEyesMesonNVG
+  cost:
+    Doubloon: 5
+  categories:
+    - UplinkPirateUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink
