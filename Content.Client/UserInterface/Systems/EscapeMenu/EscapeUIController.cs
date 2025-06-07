@@ -125,6 +125,9 @@ public sealed class EscapeUIController : UIController, IOnStateEntered<GameplayS
         {
             _uri.OpenUri(_cfg.GetCVar(CCVars.InfoLinksWebsite));
         };
+
+        _escapeWindow.OpenBoostyButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWebsite) != "";
+        _escapeWindow.OpenDiscordButton.Visible = _cfg.GetCVar(CCVars.InfoLinksDiscord) != "";
         // LOP edit end
 
         // Hide wiki button if we don't have a link for it.

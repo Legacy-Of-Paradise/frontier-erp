@@ -4,11 +4,8 @@
 * @MegaDaimond @Evgencheg
 
 # C#
-*.cs @BL02DL
-*.xaml @BL02DL
-
-# Prototypes
-*.yml @Hqlle
+*.cs @BL02DL @BitBoxxxer
+*.xaml @BL02DL @BitBoxxxer
 
 # Map files
 /Resources/Prototypes/Maps/** @PowerKAT1
