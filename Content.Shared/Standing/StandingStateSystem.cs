@@ -6,6 +6,9 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Systems;
 using Content.Shared._NF.Standing; // Frontier
+using Content.Shared._White;
+using Content.Shared.Buckle;
+using Content.Shared.Buckle.Components;
 
 namespace Content.Shared.Standing;
 
@@ -14,9 +17,11 @@ public sealed class StandingStateSystem : EntitySystem
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
+    [Dependency] private readonly MovementSpeedModifierSystem _movement = default!; // WD EDITAdd commentMore actions
+    [Dependency] private readonly SharedBuckleSystem _buckle = default!; // WD EDIT
 
     // If StandingCollisionLayer value is ever changed to more than one layer, the logic needs to be edited.
-    private const int StandingCollisionLayer = (int) CollisionGroup.MidImpassable;
+    private const int StandingCollisionLayer = (int)CollisionGroup.MidImpassable;
 
     public override void Initialize()
     {
@@ -46,13 +51,13 @@ public sealed class StandingStateSystem : EntitySystem
         if (!Resolve(uid, ref standingState, false))
             return false;
 
-        return !standingState.Standing;
+        return standingState.CurrentState is StandingState.Lying or StandingState.GettingUp;
     }
 
     public bool Down(EntityUid uid,
         bool playSound = true,
         bool dropHeldItems = true,
-        bool force = false,
+        bool force = true,
         StandingStateComponent? standingState = null,
         AppearanceComponent? appearance = null,
         HandsComponent? hands = null)
@@ -64,18 +69,16 @@ public sealed class StandingStateSystem : EntitySystem
         // Optional component.
         Resolve(uid, ref appearance, ref hands, false);
 
-        if (!standingState.Standing)
+        if (standingState.CurrentState is StandingState.Lying or StandingState.GettingUp)
             return true;
 
         // This is just to avoid most callers doing this manually saving boilerplate
         // 99% of the time you'll want to drop items but in some scenarios (e.g. buckling) you don't want to.
         // We do this BEFORE downing because something like buckle may be blocking downing but we want to drop hand items anyway
         // and ultimately this is just to avoid boilerplate in Down callers + keep their behavior consistent.
-        if (dropHeldItems && hands != null
-            && !HasComp<PreventDropOnDownedComponent>(uid)) // Frontier
+        if (dropHeldItems && hands != null)
         {
-            var ev = new DropHandItemsEvent();
-            RaiseLocalEvent(uid, ref ev, false);
+            RaiseLocalEvent(uid, new DropHandItemsEvent(), false);
         }
 
         if (!force)
@@ -87,7 +90,7 @@ public sealed class StandingStateSystem : EntitySystem
                 return false;
         }
 
-        standingState.Standing = false;
+        standingState.CurrentState = StandingState.Lying;
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new DownedEvent(), false);
 
@@ -114,8 +117,9 @@ public sealed class StandingStateSystem : EntitySystem
 
         if (playSound)
         {
-            _audio.PlayPredicted(standingState.DownSound, uid, uid);
+            _audio.PlayPredicted(standingState.DownSound, uid, null);
         }
+        _movement.RefreshMovementSpeedModifiers(uid); // WD EDIT
 
         return true;
     }
@@ -132,8 +136,11 @@ public sealed class StandingStateSystem : EntitySystem
         // Optional component.
         Resolve(uid, ref appearance, false);
 
-        if (standingState.Standing)
+        if (standingState.CurrentState is StandingState.Standing)
             return true;
+
+        if (TryComp(uid, out BuckleComponent? buckle) && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle)) // WD EDIT
+            return false;
 
         if (!force)
         {
@@ -144,7 +151,7 @@ public sealed class StandingStateSystem : EntitySystem
                 return false;
         }
 
-        standingState.Standing = true;
+        standingState.CurrentState = StandingState.Standing;
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new StoodEvent(), false);
 
@@ -159,13 +166,15 @@ public sealed class StandingStateSystem : EntitySystem
             }
         }
         standingState.ChangedFixtures.Clear();
+        _movement.RefreshMovementSpeedModifiers(uid); // WD EDIT
 
         return true;
     }
 }
 
-[ByRefEvent]
-public record struct DropHandItemsEvent();
+public sealed class DropHandItemsEvent : EventArgs
+{
+}
 
 /// <summary>
 /// Subscribe if you can potentially block a down attempt.
