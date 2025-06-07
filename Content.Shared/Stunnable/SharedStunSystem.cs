@@ -20,6 +20,8 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
+using Robust.Shared.Containers;
+using Content.Shared._White.Standing;
 
 namespace Content.Shared.Stunnable;
 
@@ -33,12 +35,14 @@ public abstract class SharedStunSystem : EntitySystem
     [Dependency] private readonly EntityWhitelistSystem _entityWhitelist = default!;
     [Dependency] private readonly StandingStateSystem _standingState = default!;
     [Dependency] private readonly StatusEffectsSystem _statusEffect = default!;
+    [Dependency] private readonly SharedLayingDownSystem _layingDown = default!; // WD EDIT
+    [Dependency] private readonly SharedContainerSystem _container = default!; // WD EDIT
 
     /// <summary>
     /// Friction modifier for knocked down players.
     /// Doesn't make them faster but makes them slow down... slower.
     /// </summary>
-    public const float KnockDownModifier = 0.2f;
+    public const float KnockDownModifier = 0.4f;
 
     public override void Initialize()
     {
@@ -137,12 +141,25 @@ public abstract class SharedStunSystem : EntitySystem
 
     private void OnKnockInit(EntityUid uid, KnockedDownComponent component, ComponentInit args)
     {
-        _standingState.Down(uid);
+        RaiseNetworkEvent(new CheckAutoGetUpEvent(GetNetEntity(uid))); // WD EDIT
+        _layingDown.TryLieDown(uid, null, null, DropHeldItemsBehavior.DropIfStanding); // WD EDIT
     }
 
     private void OnKnockShutdown(EntityUid uid, KnockedDownComponent component, ComponentShutdown args)
     {
-        _standingState.Stand(uid);
+        // WD EDIT START
+        if (!TryComp(uid, out StandingStateComponent? standing))
+            return;
+
+        if (TryComp(uid, out LayingDownComponent? layingDown))
+        {
+            if (layingDown.AutoGetUp && !_container.IsEntityInContainer(uid))
+                _layingDown.TryStandUp(uid, layingDown);
+            return;
+        }
+
+        _standingState.Stand(uid, standing);
+        // WD EDIT END
     }
 
     private void OnStandAttempt(EntityUid uid, KnockedDownComponent component, StandAttemptEvent args)
@@ -249,6 +266,7 @@ public abstract class SharedStunSystem : EntitySystem
             slowed.SprintSpeedModifier *= runSpeedMultiplier;
 
             _movementSpeedModifier.RefreshMovementSpeedModifiers(uid);
+
             return true;
         }
 
