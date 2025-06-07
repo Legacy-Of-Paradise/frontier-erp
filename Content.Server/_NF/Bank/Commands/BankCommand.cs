@@ -1,25 +1,24 @@
 ﻿// MADE BY LUA!!!!!
+
 using System.Linq;
 using System.Threading.Tasks;
 using Content.Server.Administration;
+using Content.Server.Administration.Logs;
+using Content.Server.Chat.Managers;
 using Content.Server.Database;
 using Content.Server.Preferences.Managers;
-using Content.Server._NF.Bank;
-using Content.Server.Chat.Managers;
-using Content.Server.Administration.Logs;
+using Content.Shared._NF.Bank.Components;
 using Content.Shared.Administration;
 using Content.Shared.Database;
 using Content.Shared.Preferences;
-using Content.Shared._NF.Bank.Components;
 using Robust.Server.Player;
 using Robust.Shared.Console;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
-using Robust.Shared.Utility;
 
-namespace Content.Server._NF.Commands;
+namespace Content.Server._NF.Bank.Commands;
 
-[AdminCommand(AdminFlags.Admin)]
+[AdminCommand(AdminFlags.Fun)]
 public sealed class BankCommand : IConsoleCommand
 {
     [Dependency] private readonly IServerPreferencesManager _prefsManager = default!;
