@@ -1,17 +1,36 @@
 using Content.Shared.Examine;
 using Content.Shared._NF.Bank.Components;
 using Content.Shared.VendingMachines;
+using Robust.Shared.Random; // LoP Edit
 
 namespace Content.Shared._NF.Bank;
 
 public sealed partial class MarketModifierSystem : EntitySystem
 {
+
+    // LoP Edit: Start
+
+    [Dependency] private readonly IRobustRandom _random = default!;
+
+    // LoP Edit: End
+
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeLocalEvent<MarketModifierComponent, ExaminedEvent>(OnExamined);
+
+        // LoP Edit: Start
+
+        SubscribeLocalEvent<MarketModifierComponent, MapInitEvent>(OnMapInit);
     }
+
+    private void OnMapInit(EntityUid uid, MarketModifierComponent component, MapInitEvent args)
+    {
+        component.Mod = _random.NextFloat(component.MinMod, component.MaxMod);
+    }
+
+    // LoP Edit: End
 
     // This code is licensed under AGPLv3. See AGPLv3.txt
     private void OnExamined(Entity<MarketModifierComponent> ent, ref ExaminedEvent args)
