@@ -189,7 +189,7 @@ binds:
   mod1: Alt
 - function: OpenCharacterMenu
   type: State
-  key: R # LOP edit
+  key: H # LOP edit
 - function: OpenEmotesMenu
   type: State
   key: Y
