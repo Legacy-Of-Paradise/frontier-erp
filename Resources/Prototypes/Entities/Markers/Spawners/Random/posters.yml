@@ -164,7 +164,7 @@
       - PosterLegit12Gauge
       - PosterLegitHighClassMartini
       - PosterLegitTheOwl
-      - PosterLegitNoERP
+      #- PosterLegitNoERP # LOP edit: yes erp)
       - PosterLegitCarbonDioxide
       - PosterLegitDickGumshue
       - PosterLegitThereIsNoGasGiant
@@ -191,4 +191,22 @@
       - NFPosterLegitHaveYouSeenThisEgg
       - NFPosterLegitGunTurnIn
         # End Frontier
+      # LOP edit start
+      - LPPPosterNoAlcohol
+      - LPPPosterSport
+      - LPPPosterTimeTea
+      - LPPPosterBeach
+      - LPPPosterPress
+      - LPPPosterLustfulVulp1
+      - LPPPosterLustfulVulp2
+      - LPPPosterBeach2
+      - LPPPosterTajaranHalloween
+      - LPPPosterTajaranBikini
+      - LPPPosterTajaranBunny2
+      - LPPPosterTajaranBunny1
+      - LPPPosterTajaranBody
+      - LPPPosterTajaranNewYear
+      - LPPPosterTajaranUnderwear
+      - LPPPosterVulpBunnyUma
+      # LOP edit end
     chance: 1
