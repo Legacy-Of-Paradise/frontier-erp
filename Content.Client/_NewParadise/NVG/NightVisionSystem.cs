@@ -4,6 +4,7 @@ using Robust.Client.Player;
 using Robust.Client.Graphics;
 using Content.Client.Inventory;
 using Content.Shared.Inventory.Events;
+using Robust.Shared.Audio.Systems;
 
 namespace Content.Client.Clothing;
 
@@ -13,6 +14,7 @@ public sealed class NightVisionSystem : SharedNightVisionSystem
     [Dependency] private readonly ILightManager _lightManager = default!;
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly IEntityManager _entityManager = default!;
+    [Dependency] private readonly SharedAudioSystem _audio = default!;
 
     private NightVisionOverlay _overlay = default!;
 
@@ -43,11 +45,13 @@ public sealed class NightVisionSystem : SharedNightVisionSystem
 
         if (state)
         {
+            _audio.PlayLocal(component.SoundOn, parent, uid);
             _lightManager.DrawLighting = false;
             _overlayMan.AddOverlay(_overlay);
         }
         else
         {
+            _audio.PlayLocal(component.SoundOff, parent, uid);
             _lightManager.DrawLighting = true;
             _overlayMan.RemoveOverlay(_overlay);
         }

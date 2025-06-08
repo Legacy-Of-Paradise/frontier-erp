@@ -1,5 +1,6 @@
 using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
+using Robust.Shared.Audio;
 
 namespace Content.Shared.Clothing;
 
@@ -44,4 +45,10 @@ public sealed partial class NightVisionComponent : Component
 
     [DataField]
     public string Slot = "eyes";
+
+    [DataField]
+    public SoundSpecifier SoundOn = new SoundPathSpecifier("/Audio/_NewParadise/SoundUse/nvg_on.ogg");
+
+    [DataField]
+    public SoundSpecifier SoundOff = new SoundPathSpecifier("/Audio/_NewParadise/SoundUse/nvg_off.ogg");
 }
