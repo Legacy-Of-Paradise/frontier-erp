@@ -17,9 +17,6 @@
                         <Label Text="{Loc 'launcher-heading-name'}"
                                StyleClasses="LabelHeadingBigger"
                                HorizontalAlignment="Center"/>
-                        <Label Text="{Loc 'launcher-sub-name'}"
-                               StyleClasses="LabelSubText"
-                               HorizontalAlignment="Center"/>
                     </BoxContainer>
                 </controls:StripeBack>
 
@@ -42,14 +39,14 @@
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
-                    <Button Name="OpenPatreonButton"
-                            Text="{Loc 'info-link-patreon'}"
+                    <Button Name="OpenGithubButton"
+                            Text="{Loc 'info-link-github'}"
                     />
                 </PanelContainer>
 
                 <PanelContainer Margin="0 5">
-                    <Button Name="OpenBugReportButton"
-                            Text="{Loc 'bugreport-button-name'}"
+                    <Button Name="OpenForumButton"
+                            Text="{Loc 'info-link-forum'}"
                     />
                 </PanelContainer>
             </BoxContainer>
