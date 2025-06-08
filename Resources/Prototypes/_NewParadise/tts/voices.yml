@@ -77,6 +77,12 @@
   id: xrenoid
 
 - type: ttsVoice
+  name: tts-voice-name-playboyztv
+  sex: Male
+  speaker: playboyztv
+  id: playboyztv
+
+- type: ttsVoice
   name: tts-voice-name-briman
   sex: Male
   speaker: briman
@@ -222,6 +228,18 @@
   sex: Male
   speaker: colin_moriarty_fl3
   id: colin_moriarty_fl3
+
+- type: ttsVoice
+  name: tts-voice-name-john_henry_eden_fl3
+  sex: Male
+  speaker: john_henry_eden_fl3
+  id: john_henry_eden_fl3
+
+- type: ttsVoice
+  name: tts-voice-name-super_mutant_fl3
+  sex: Male
+  speaker: super_mutant_fl3
+  id: super_mutant_fl3
 
 - type: ttsVoice
   name: tts-voice-name-polina
@@ -447,6 +465,42 @@
   sex: Male
   speaker: zoltan_chivay
   id: zoltan_chivay
+
+- type: ttsVoice
+  name: tts-voice-name-vesemir
+  sex: Male
+  speaker: vesemir
+  id: vesemir
+
+- type: ttsVoice
+  name: tts-voice-name-guillaume_de_launfal
+  sex: Male
+  speaker: guillaume_de_launfal
+  id: guillaume_de_launfal
+
+- type: ttsVoice
+  name: tts-voice-name-philippa_eilhart
+  sex: Female
+  speaker: philippa_eilhart
+  id: philippa_eilhart
+
+- type: ttsVoice
+  name: tts-voice-name-ewald_borsodi
+  sex: Male
+  speaker: ewald_borsodi
+  id: ewald_borsodi
+
+- type: ttsVoice
+  name: tts-voice-name-dandelion
+  sex: Male
+  speaker: dandelion
+  id: dandelion
+
+- type: ttsVoice
+  name: tts-voice-name-shani
+  sex: Female
+  speaker: shani
+  id: shani
 
 - type: ttsVoice
   name: tts-voice-name-azir
@@ -915,6 +969,24 @@
   id: sophronia_franklin
 
 - type: ttsVoice
+  name: tts-voice-name-everett_clopton
+  sex: Male
+  speaker: everett_clopton
+  id: everett_clopton
+
+- type: ttsVoice
+  name: tts-voice-name-generic_goblin_b
+  sex: Male
+  speaker: generic_goblin_b
+  id: generic_goblin_b
+
+- type: ttsVoice
+  name: tts-voice-name-sanctuary_house_elf
+  sex: Male
+  speaker: sanctuary_house_elf
+  id: sanctuary_house_elf
+
+- type: ttsVoice
   name: tts-voice-name-abaddon_dota_2
   sex: Male
   speaker: abaddon_dota_2
@@ -1333,3 +1405,33 @@
   sex: Male
   speaker: zeus_dota_2
   id: zeus_dota_2
+
+- type: ttsVoice
+  name: tts-voice-name-mita
+  sex: Female
+  speaker: mita
+  id: mita
+
+- type: ttsVoice
+  name: tts-voice-name-mitadream
+  sex: Female
+  speaker: mitadream
+  id: mitadream
+
+- type: ttsVoice
+  name: tts-voice-name-mitaghost
+  sex: Female
+  speaker: mitaghost
+  id: mitaghost
+
+- type: ttsVoice
+  name: tts-voice-name-mitakind
+  sex: Female
+  speaker: mitakind
+  id: mitakind
+
+- type: ttsVoice
+  name: tts-voice-name-mitashorthairs
+  sex: Female
+  speaker: mitashorthairs
+  id: mitashorthairs
