@@ -9,3 +9,4 @@ research-technology-robotics-science = Исследовательская роб
 research-technology-robotics-mining = Промышленная робототехника
 research-technology-robotics-erotic = Эротическая робототехника
 research-technology-robotics-hands = Продвинутый модуль манипулятор
+lop-research-technology-night-vision = Усовершенствованные визоры

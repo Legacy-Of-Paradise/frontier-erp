@@ -1,4 +1,3 @@
-#time editor panel
 time-transfer-panel-title = Перенос времени
 time-transfer-panel-player-label = Игрок
 time-transfer-panel-time = Время

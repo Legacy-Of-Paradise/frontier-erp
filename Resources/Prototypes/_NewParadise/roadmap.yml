@@ -3,25 +3,49 @@
 # Order нужен, чтоб выставить в правильном порядке, так что вот, пользуйтесь
 
 - type: roadmap
-  id: "alphatest"
-  name: "Версия 0.0.1 - Открытый альфа тест!"
-  description: "Новая сборка и механики!"
-  progress: 100
-  status: roadmap-goal-completed
-  order: 0
-
-- type: roadmap
-  id: "betatest"
-  name: "Обновление 0.5 - Выход в бету!"
-  description: "Готовые основные механики, подготовка к релизу."
-  progress: 100
-  status: roadmap-goal-completed
-  order: 1
-
-- type: roadmap
   id: "release"
   name: "Обновление 1.0 - Выпуск релиза!"
   description: "Полная готовность и выпуск!"
-  progress: 30
+  progress: 60
+  status: roadmap-goal-progress
+  order: 1
+
+- type: roadmap
+  id: "crawl"
+  name: "Система лежания!"
+  description: "Теперь вы можете ложиться!"
+  progress: 40
   status: roadmap-goal-progress
   order: 2
+
+- type: roadmap
+  id: "gunsystem"
+  name: "Система вооружений!"
+  description: "Система вооружений на шаттлах!"
+  progress: 0
+  status: roadmap-goal-waiting
+  order: 3
+
+- type: roadmap
+  id: "thermal"
+  name: "Система термального зрения!"
+  description: "Смотрите на людей как на тепловую зону!"
+  progress: 0
+  status: roadmap-goal-waiting
+  order: 4
+
+- type: roadmap
+  id: "mods"
+  name: "Система МОДсьютов!"
+  description: "Пересмотрите использование скафандров по новому!"
+  progress: 0
+  status: roadmap-goal-waiting
+  order: 5
+
+- type: roadmap
+  id: "diamonds"
+  name: "Алмазная ветка!"
+  description: "Новые инструменты? Пересмотрите их тоже!"
+  progress: 0
+  status: roadmap-goal-waiting
+  order: 6

@@ -10,7 +10,6 @@ reagent-name-orange-tea = апельсиновый чай
 reagent-desc-orange-tea = Чай с добавлением апельсина, имеет цитрусовый привкус.
 reagent-name-flower-tea = цветочный чай
 reagent-desc-flower-tea = Чай с добавлением различных цветов.
-
 # Не консумабл, но бля)))))
 reagent-name-malecum = Семя
 reagent-desc-malecum = Липкая жидкость белого цвета с резким запахом.

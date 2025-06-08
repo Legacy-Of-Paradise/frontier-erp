@@ -36,3 +36,5 @@ ent-LockerStationRepresentative = station representative's locker
     .desc = { ent-BaseStructureIndestructible.desc }
 ent-ClosetFsbEva = FSB EVA suit locker
     .desc = It's a storage unit that could contain a Far Star Biotech EVA suit. It may also contain other things.
+ent-NFLockerScientist = { ent-LockerScientist }
+    .desc = { ent-LockerScientist.desc }

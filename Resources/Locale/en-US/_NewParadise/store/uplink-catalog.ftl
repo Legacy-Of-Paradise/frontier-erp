@@ -80,3 +80,7 @@ uplink-security-magazinem4a1rubber-name = Коробка патронов 5.56х
 uplink-security-magazinem4a1rubber-desc = Коробка с 4 магазинами 5.56 (резиновые)
 lpp-uplink-security-energyswordnfsd-name = энергетический меч ДШНГ
 lpp-uplink-security-energyswordnfsd-desc = Очень громкий и опасный меч с лучом чистой концентрированной плазмы. Разрубает небронированные цели как масло.
+lop-uplink-security-nvg-name = охранный прибор ночного видения
+lop-uplink-security-nvg-desc = Просто ПНВ с охранным визором в одном.
+lop-uplink-pirate-nvg-name = мезонный прибор ночного видения
+lop-uplink-pirate-nvg-desc = ПНВ со встроенной защитой глаз!

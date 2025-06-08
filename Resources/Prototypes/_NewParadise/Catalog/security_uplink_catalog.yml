@@ -531,7 +531,7 @@
 
 - type: listing
   id: LoPUplinkSecurityNVG
-  name: lop-uplink-security-nvg
+  name: lop-uplink-security-nvg-name
   description: lop-uplink-security-nvg-desc
   productEntity: LoPClothingEyesSecNVG
   icon: { sprite: _NewParadise/Clothing/Eyes/NVG/secnightvision.rsi, state: icon }

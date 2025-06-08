@@ -105,7 +105,7 @@
 
 - type: listing
   id: LoPUplinkPiratesNVG
-  name: lop-uplink-pirate-nvg
+  name: lop-uplink-pirate-nvg-name
   description: lop-uplink-pirate-nvg-desc
   productEntity: LoPClothingEyesMesonNVG
   cost:
