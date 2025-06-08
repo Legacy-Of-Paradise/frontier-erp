@@ -289,8 +289,10 @@
         Asphyxiation: -1.0
   - type: FireVisuals
     alternateState: Standing
-  - type: Carriable # GoobstationAdd commentMore actions
+  - type: Carriable # Goobstation
   - type: LayingDown # WD EDIT
+  - type: Sprite
+    drawdepth: SmallMobs # LOC edit
 
 - type: entity
   save: false
