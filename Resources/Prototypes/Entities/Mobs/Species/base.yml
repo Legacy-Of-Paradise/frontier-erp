@@ -221,6 +221,7 @@
     - DoorBumpOpener
     - AnomalyHost
   - type: ERPBounder # LOP edit
+  - type: LayingDown # _CorvaxNext: LayingDown Laying Down
 
 - type: entity
   save: false
@@ -289,10 +290,6 @@
         Asphyxiation: -1.0
   - type: FireVisuals
     alternateState: Standing
-  - type: Carriable # Goobstation
-  - type: LayingDown # WD EDIT
-  - type: Sprite
-    drawdepth: SmallMobs # LOC edit
 
 - type: entity
   save: false

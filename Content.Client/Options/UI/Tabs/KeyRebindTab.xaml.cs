@@ -103,11 +103,13 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SaveToFile();
         }
 
-        private void HandleToggleAutoGetUp(BaseButton.ButtonToggledEventArgs args) // WD EDIT
+        // start-_CorvaxNext: Laying System
+        void HandleToggleAutoGetUp(BaseButton.ButtonToggledEventArgs args) // WD EDIT
         {
-            _cfg.SetCVar(CCVars.AutoGetUp, args.Pressed);
+            _cfg.SetCVar(Shared._CorvaxNext.NextVars.NextVars.AutoGetUp, args.Pressed);
             _cfg.SaveToFile();
         }
+        // end-_CorvaxNext: Laying System
 
         public KeyRebindTab()
         {
@@ -170,6 +172,7 @@ namespace Content.Client.Options.UI.Tabs
             InitToggleWalk();
             AddButton(ContentKeyFunctions.ToggleStanding);
             AddCheckBox("ui-options-function-auto-get-up", _cfg.GetCVar(CCVars.AutoGetUp), HandleToggleAutoGetUp); // WD EDIT
+            AddCheckBox("ui-options-hotkey-auto-up", _cfg.GetCVar(Shared._CorvaxNext.NextVars.NextVars.AutoGetUp), HandleToggleAutoGetUp); // _CorvaxNext: Laying System
 
             AddHeader("ui-options-header-camera");
             AddButton(EngineKeyFunctions.CameraRotateLeft);
@@ -193,6 +196,7 @@ namespace Content.Client.Options.UI.Tabs
             AddButton(ContentKeyFunctions.MoveStoredItem);
             AddButton(ContentKeyFunctions.RotateStoredItem);
             AddButton(ContentKeyFunctions.SaveItemLocation);
+            AddButton(ContentKeyFunctions.ToggleStanding); // _CorvaxNext: Laying System
 
             AddHeader("ui-options-header-interaction-adv");
             AddButton(ContentKeyFunctions.SmartEquipBackpack);

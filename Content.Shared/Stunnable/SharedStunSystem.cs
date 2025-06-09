@@ -21,7 +21,7 @@ using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Containers;
-using Content.Shared._White.Standing;
+using Content.Shared._CorvaxNext.Standing;
 
 namespace Content.Shared.Stunnable;
 
@@ -36,13 +36,10 @@ public abstract class SharedStunSystem : EntitySystem
     [Dependency] private readonly StandingStateSystem _standingState = default!;
     [Dependency] private readonly StatusEffectsSystem _statusEffect = default!;
     [Dependency] private readonly SharedLayingDownSystem _layingDown = default!; // WD EDIT
-    [Dependency] private readonly SharedContainerSystem _container = default!; // WD EDIT
-
     /// <summary>
     /// Friction modifier for knocked down players.
     /// Doesn't make them faster but makes them slow down... slower.
     /// </summary>
-    public const float KnockDownModifier = 0.4f;
 
     public override void Initialize()
     {
@@ -62,8 +59,6 @@ public abstract class SharedStunSystem : EntitySystem
         // helping people up if they're knocked down
         SubscribeLocalEvent<KnockedDownComponent, InteractHandEvent>(OnInteractHand);
         SubscribeLocalEvent<SlowedDownComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshMovespeed);
-
-        SubscribeLocalEvent<KnockedDownComponent, TileFrictionEvent>(OnKnockedTileFriction);
 
         // Attempt event subscriptions.
         SubscribeLocalEvent<StunnedComponent, ChangeDirectionAttemptEvent>(OnAttempt);
@@ -141,25 +136,31 @@ public abstract class SharedStunSystem : EntitySystem
 
     private void OnKnockInit(EntityUid uid, KnockedDownComponent component, ComponentInit args)
     {
-        RaiseNetworkEvent(new CheckAutoGetUpEvent(GetNetEntity(uid))); // WD EDIT
-        _layingDown.TryLieDown(uid, null, null, DropHeldItemsBehavior.DropIfStanding); // WD EDIT
+        _standingState.Down(uid);
+        // start-_CorvaxNext: Laying System
+        if (TryComp<LayingDownComponent>(uid, out var layingDownComponent))
+        {
+            _layingDown.TryProcessAutoGetUp((uid, layingDownComponent));
+            _layingDown.TryLieDown(uid, layingDownComponent, null, DropHeldItemsBehavior.DropIfStanding); // Ataraxia EDIT
+        }
+        // end-_CorvaxNext: Laying System
     }
 
     private void OnKnockShutdown(EntityUid uid, KnockedDownComponent component, ComponentShutdown args)
     {
-        // WD EDIT START
+        // start-_CorvaxNext: Laying System
         if (!TryComp(uid, out StandingStateComponent? standing))
             return;
 
         if (TryComp(uid, out LayingDownComponent? layingDown))
         {
-            if (layingDown.AutoGetUp && !_container.IsEntityInContainer(uid))
-                _layingDown.TryStandUp(uid, layingDown);
+            _layingDown.TryProcessAutoGetUp((uid, layingDown));
             return;
         }
 
         _standingState.Stand(uid, standing);
-        // WD EDIT END
+        // end-_CorvaxNext: Laying System
+
     }
 
     private void OnStandAttempt(EntityUid uid, KnockedDownComponent component, StandAttemptEvent args)
@@ -341,11 +342,6 @@ public abstract class SharedStunSystem : EntitySystem
         Dirty(uid, knocked);
 
         args.Handled = true;
-    }
-
-    private void OnKnockedTileFriction(EntityUid uid, KnockedDownComponent component, ref TileFrictionEvent args)
-    {
-        args.Modifier *= KnockDownModifier;
     }
 
     #region Attempt Event Handling

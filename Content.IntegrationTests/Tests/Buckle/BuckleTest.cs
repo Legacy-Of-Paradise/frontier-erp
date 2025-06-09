@@ -9,6 +9,7 @@ using Content.Shared.Hands.Components;
 using Content.Shared.Hands.EntitySystems;
 using Content.Shared.Standing;
 using Robust.Shared.GameObjects;
+using Content.Shared._CorvaxNext.Standing;
 
 namespace Content.IntegrationTests.Tests.Buckle
 {
@@ -34,6 +35,7 @@ namespace Content.IntegrationTests.Tests.Buckle
   - type: Body
     prototype: Human
   - type: StandingState
+  - type: LayingDown # _CorvaxNext
 
 - type: entity
   name: {StrapDummyId}
@@ -102,7 +104,7 @@ namespace Content.IntegrationTests.Tests.Buckle
 
                     Assert.That(actionBlocker.CanMove(human), Is.False);
                     Assert.That(actionBlocker.CanChangeDirection(human));
-                   // Assert.That(standingState.Down(human), Is.False);
+                    //Assert.That(standingState.Down(human), Is.False);
                     Assert.That(
                         (xformSystem.GetWorldPosition(human) - xformSystem.GetWorldPosition(chair)).LengthSquared,
                         Is.LessThanOrEqualTo(0)
@@ -290,7 +292,7 @@ namespace Content.IntegrationTests.Tests.Buckle
             await server.WaitAssertion(() =>
             {
                 // Still buckled
-                Assert.That(buckle.Buckled);
+                Assert.That(buckle.Buckled, Is.True);
 
                 // With items in all hands
                 foreach (var hand in hands.Hands.Values)
@@ -298,14 +300,21 @@ namespace Content.IntegrationTests.Tests.Buckle
                     Assert.That(hand.HeldEntity, Is.Not.Null);
                 }
 
-                var bodySystem = entityManager.System<BodySystem>();
-                var legs = bodySystem.GetBodyChildrenOfType(human, BodyPartType.Leg, body);
+                buckleSystem.Unbuckle(human, human);
+                Assert.That(buckle.Buckled, Is.False);
 
-                // Break our guy's kneecaps
-                foreach (var leg in legs)
+                var comp = entityManager.GetComponentOrNull<StandingStateComponent>(human);
+                Assert.That(comp, Is.Not.Null);
+                Assert.That(comp.CurrentState, Is.EqualTo(StandingState.Standing));
+                Assert.That(comp.CurrentState, Is.EqualTo(StandingState.Lying));
+                Assert.That(comp.Standing, Is.False);
+                entityManager.System<StandingStateSystem>().Stand(human);
+                Assert.That(comp.CurrentState, Is.EqualTo(StandingState.Lying));
+
+                /* foreach (var leg in legs)
                 {
                     entityManager.DeleteEntity(leg.Id);
-                }
+                } */
             });
 
             await server.WaitRunTicks(10);

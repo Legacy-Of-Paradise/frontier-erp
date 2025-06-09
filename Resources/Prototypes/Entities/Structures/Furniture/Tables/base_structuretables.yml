@@ -21,7 +21,6 @@
         - TableMask
         layer:
         - TableLayer
-        - BulletImpassable # Goobstation - Crawling
   - type: SpriteFade
   - type: Sprite
   - type: Icon
@@ -41,8 +40,6 @@
   - type: Tag
     tags:
     - ForceFixRotations
-  - type: RequireProjectileTarget # Goobstation - Crawling
-    ignoreThrow: true
 
 - type: entity
   id: CounterBase
@@ -61,4 +58,3 @@
         - TableMask
         layer:
         - TableLayer
-        - BulletImpassable # Goobstation - Crawling

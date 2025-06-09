@@ -227,15 +227,6 @@ public abstract partial class SharedGunSystem : EntitySystem
         EntityManager.DirtyField(gunUid, gun, nameof(GunComponent.ShotCounter));
     }
 
-    // Goobstation - Crawling turret fixAdd commentMore actions
-    public void AttemptShoot(EntityUid user, EntityUid gunUid, GunComponent gun, EntityCoordinates toCoordinates, EntityUid target)
-    {
-        gun.Target = target;
-        gun.ShootCoordinates = toCoordinates;
-        AttemptShoot(user, gunUid, gun);
-        gun.ShotCounter = 0;
-    }
-
     /// <summary>
     /// Shoots by assuming the gun is the user at default coordinates.
     /// </summary>
@@ -324,7 +315,8 @@ public abstract partial class SharedGunSystem : EntitySystem
                 default:
                     throw new ArgumentOutOfRangeException($"No implemented shooting behavior for {gun.SelectedMode}!");
             }
-        } else
+        }
+        else
         {
             shots = Math.Min(shots, gun.ShotsPerBurstModified - gun.ShotCounter);
         }
