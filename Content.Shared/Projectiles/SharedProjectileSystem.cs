@@ -205,6 +205,7 @@ public abstract partial class SharedProjectileSystem : EntitySystem
             args.Cancelled = true;
         }
     }
+
     public void SetShooter(EntityUid id, ProjectileComponent component, EntityUid shooterId)
     {
         if (component.Shooter == shooterId)

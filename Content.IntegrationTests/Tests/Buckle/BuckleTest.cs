@@ -301,6 +301,8 @@ namespace Content.IntegrationTests.Tests.Buckle
                 }
 
                 buckleSystem.Unbuckle(human, human);
+                var bodySystem = entityManager.System<BodySystem>();
+                var legs = bodySystem.GetBodyChildrenOfType(human, BodyPartType.Leg, body);
                 Assert.That(buckle.Buckled, Is.False);
 
                 var comp = entityManager.GetComponentOrNull<StandingStateComponent>(human);
@@ -311,10 +313,10 @@ namespace Content.IntegrationTests.Tests.Buckle
                 entityManager.System<StandingStateSystem>().Stand(human);
                 Assert.That(comp.CurrentState, Is.EqualTo(StandingState.Lying));
 
-                /* foreach (var leg in legs)
+                 foreach (var leg in legs)
                 {
                     entityManager.DeleteEntity(leg.Id);
-                } */
+                }
             });
 
             await server.WaitRunTicks(10);

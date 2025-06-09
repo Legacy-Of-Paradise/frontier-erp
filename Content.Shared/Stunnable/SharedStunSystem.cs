@@ -267,7 +267,6 @@ public abstract class SharedStunSystem : EntitySystem
             slowed.SprintSpeedModifier *= runSpeedMultiplier;
 
             _movementSpeedModifier.RefreshMovementSpeedModifiers(uid);
-
             return true;
         }
 

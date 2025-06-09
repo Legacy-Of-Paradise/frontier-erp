@@ -131,25 +131,4 @@ public sealed class LayingDownSystem : SharedLayingDownSystem
         ProcessVisuals((ent.Owner, transform, null, rotationVisuals));
     }
 
-    /*
-    private void OnCheckAutoGetUp(CheckAutoGetUpEvent ev, EntitySessionEventArgs args)
-    {
-        if (!_timing.IsFirstTimePredicted)
-            return;
-
-        var uid = GetEntity(ev.User);
-
-        if (!TryComp<TransformComponent>(uid, out var transform) || !TryComp<RotationVisualsComponent>(uid, out var rotationVisuals))
-            return;
-
-        var rotation = transform.LocalRotation + (_eyeManager.CurrentEye.Rotation - (transform.LocalRotation - transform.WorldRotation));
-
-        if (rotation.GetDir() is Direction.SouthEast or Direction.East or Direction.NorthEast or Direction.North)
-        {
-            rotationVisuals.HorizontalRotation = Angle.FromDegrees(270);
-            return;
-        }
-
-        rotationVisuals.HorizontalRotation = Angle.FromDegrees(90);
-    }*/
 }
