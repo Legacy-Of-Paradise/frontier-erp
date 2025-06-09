@@ -40,6 +40,7 @@ public abstract class SharedStunSystem : EntitySystem
     /// Friction modifier for knocked down players.
     /// Doesn't make them faster but makes them slow down... slower.
     /// </summary>
+    public const float KnockDownModifier = 0.2f;
 
     public override void Initialize()
     {
@@ -59,6 +60,7 @@ public abstract class SharedStunSystem : EntitySystem
         // helping people up if they're knocked down
         SubscribeLocalEvent<KnockedDownComponent, InteractHandEvent>(OnInteractHand);
         SubscribeLocalEvent<SlowedDownComponent, RefreshMovementSpeedModifiersEvent>(OnRefreshMovespeed);
+        SubscribeLocalEvent<KnockedDownComponent, TileFrictionEvent>(OnKnockedTileFriction);
 
         // Attempt event subscriptions.
         SubscribeLocalEvent<StunnedComponent, ChangeDirectionAttemptEvent>(OnAttempt);
@@ -167,6 +169,11 @@ public abstract class SharedStunSystem : EntitySystem
     {
         if (component.LifeStage <= ComponentLifeStage.Running)
             args.Cancel();
+    }
+
+    private void OnKnockedTileFriction(EntityUid uid, KnockedDownComponent component, ref TileFrictionEvent args)
+    {
+        args.Modifier *= KnockDownModifier;
     }
 
     private void OnSlowInit(EntityUid uid, SlowedDownComponent component, ComponentInit args)

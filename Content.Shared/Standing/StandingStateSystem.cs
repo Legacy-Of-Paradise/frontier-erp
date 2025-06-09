@@ -19,6 +19,31 @@ public sealed class StandingStateSystem : EntitySystem
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
     [Dependency] private readonly MovementSpeedModifierSystem _movement = default!; // _CorvaxNext EDIT
 
+    private const int StandingCollisionLayer = (int)CollisionGroup.MidImpassable;
+
+    public override void Initialize()
+    {
+        base.Initialize();
+        SubscribeLocalEvent<StandingStateComponent, AttemptMobCollideEvent>(OnMobCollide);
+        SubscribeLocalEvent<StandingStateComponent, AttemptMobTargetCollideEvent>(OnMobTargetCollide);
+    }
+
+    private void OnMobTargetCollide(Entity<StandingStateComponent> ent, ref AttemptMobTargetCollideEvent args)
+    {
+        if (!ent.Comp.Standing)
+        {
+            args.Cancelled = true;
+        }
+    }
+
+    private void OnMobCollide(Entity<StandingStateComponent> ent, ref AttemptMobCollideEvent args)
+    {
+        if (!ent.Comp.Standing)
+        {
+            args.Cancelled = true;
+        }
+    }
+
     public bool IsDown(EntityUid uid, StandingStateComponent? standingState = null)
     {
         if (!Resolve(uid, ref standingState, false))
@@ -148,30 +173,6 @@ public sealed class StandingStateSystem : EntitySystem
     }
 
     // If StandingCollisionLayer value is ever changed to more than one layer, the logic needs to be edited.
-    private const int StandingCollisionLayer = (int)CollisionGroup.MidImpassable;
-
-    public override void Initialize()
-    {
-        base.Initialize();
-        SubscribeLocalEvent<StandingStateComponent, AttemptMobCollideEvent>(OnMobCollide);
-        SubscribeLocalEvent<StandingStateComponent, AttemptMobTargetCollideEvent>(OnMobTargetCollide);
-    }
-
-    private void OnMobTargetCollide(Entity<StandingStateComponent> ent, ref AttemptMobTargetCollideEvent args)
-    {
-        if (!ent.Comp.Standing)
-        {
-            args.Cancelled = true;
-        }
-    }
-
-    private void OnMobCollide(Entity<StandingStateComponent> ent, ref AttemptMobCollideEvent args)
-    {
-        if (!ent.Comp.Standing)
-        {
-            args.Cancelled = true;
-        }
-    }
 
 }
 
