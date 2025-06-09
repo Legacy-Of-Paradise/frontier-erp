@@ -20,7 +20,7 @@
         Asphyxiation: -1.0
   - type: Sprite
     noRot: true
-    drawdepth: Mobs
+    drawdepth: SmallMobs
     scale: 1, 0.8
   - type: Body
     prototype: Dwarf

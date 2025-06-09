@@ -63,7 +63,7 @@
   - type: Sprite
     netsync: false
     noRot: true
-    drawdepth: Mobs
+    drawdepth: SmallMobs
     layers:
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
       - map: [ "enum.HumanoidVisualLayers.Head" ]

@@ -75,7 +75,7 @@
       250: 0.4
   - type: Sprite # sprite again because we want different layer ordering
     noRot: true
-    drawdepth: Mobs
+    drawdepth: SmallMobs
     layers:
       - map: [ "enum.HumanoidVisualLayers.Chest" ]
       - map: [ "enum.HumanoidVisualLayers.Head" ]
