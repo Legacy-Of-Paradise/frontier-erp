@@ -140,6 +140,7 @@ internal sealed class BuckleSystem : SharedBuckleSystem
 
         // Animate strapping yourself to something at a given angle
         // TODO: Dump this when buckle is better
-        _rotationVisualizerSystem.AnimateSpriteRotation(uid, args.Sprite, rotVisuals.HorizontalRotation, 0.125f);
+        // _CorvaxNext: Laying System
+        //_rotationVisualizerSystem.AnimateSpriteRotation(uid, args.Sprite, rotVisuals.HorizontalRotation, 0.125f);
     }
 }

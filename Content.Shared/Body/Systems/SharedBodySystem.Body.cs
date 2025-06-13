@@ -14,6 +14,9 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Containers;
 using Robust.Shared.Map;
 using Robust.Shared.Utility;
+using Content.Shared.Rejuvenate;
+using Content.Shared.Silicons.Borgs.Components;
+using Content.Shared.Standing;
 
 namespace Content.Shared.Body.Systems;
 
@@ -42,6 +45,7 @@ public partial class SharedBodySystem
         SubscribeLocalEvent<BodyComponent, ComponentInit>(OnBodyInit);
         SubscribeLocalEvent<BodyComponent, MapInitEvent>(OnBodyMapInit);
         SubscribeLocalEvent<BodyComponent, CanDragEvent>(OnBodyCanDrag);
+        SubscribeLocalEvent<BodyComponent, StandAttemptEvent>(OnStandAttempt); // _CorvaxNext: surgery
     }
 
     private void OnBodyInserted(Entity<BodyComponent> ent, ref EntInsertedIntoContainerMessage args)
@@ -126,6 +130,14 @@ public partial class SharedBodySystem
     {
         args.Handled = true;
     }
+
+    // start-_CorvaxNext: surgery
+    private void OnStandAttempt(Entity<BodyComponent> ent, ref StandAttemptEvent args)
+    {
+        if (!HasComp<BorgChassisComponent>(ent) && ent.Comp.LegEntities.Count == 0)
+            args.Cancel();
+    }
+    // end-_CorvaxNext: surgery
 
     /// <summary>
     /// Sets up all of the relevant body parts for a particular body entity and root part.
