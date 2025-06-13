@@ -1,5 +1,7 @@
+// Corvax edit start
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
+// Corvax edit end
 using Content.Shared.Hands.Components;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Physics;
@@ -16,7 +18,7 @@ public sealed class StandingStateSystem : EntitySystem
     [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
-    [Dependency] private readonly MovementSpeedModifierSystem _movement = default!; // _CorvaxNext EDIT
+    [Dependency] private readonly MovementSpeedModifierSystem _movement = default!; // Corvax edit
 
     // If StandingCollisionLayer value is ever changed to more than one layer, the logic needs to be edited.
     private const int StandingCollisionLayer = (int) CollisionGroup.MidImpassable;
@@ -77,11 +79,13 @@ public sealed class StandingStateSystem : EntitySystem
         if (dropHeldItems && hands != null
             && !HasComp<PreventDropOnDownedComponent>(uid)) // Frontier
         {
-            RaiseLocalEvent(uid, new DropHandItemsEvent(), false);
+            RaiseLocalEvent(uid, new DropHandItemsEvent(), false); // Corvax edit
         }
 
+        // Corvax edit start
         //if (TryComp(uid, out BuckleComponent? buckle) && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle)) // WD EDIT
         //    return false;
+        // Corvax edit end
 
         if (!force)
         {
@@ -92,7 +96,7 @@ public sealed class StandingStateSystem : EntitySystem
                 return false;
         }
 
-        standingState.CurrentState = StandingState.Lying;
+        standingState.CurrentState = StandingState.Lying; // Corvax edit
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new DownedEvent(), false);
 
@@ -119,10 +123,9 @@ public sealed class StandingStateSystem : EntitySystem
 
         if (playSound)
         {
-            _audio.PlayPredicted(standingState.DownSound, uid, null);
+            _audio.PlayPredicted(standingState.DownSound, uid, null); // Corvax edit
         }
-
-        _movement.RefreshMovementSpeedModifiers(uid); // _CorvaxNext EDIT
+        _movement.RefreshMovementSpeedModifiers(uid); // Corvax edit
         return true;
     }
 
@@ -141,8 +144,10 @@ public sealed class StandingStateSystem : EntitySystem
         if (standingState.Standing)
             return true;
 
+        // Corvax edit start
         //if (TryComp(uid, out BuckleComponent? buckle) && buckle.Buckled && !_buckle.TryUnbuckle(uid, uid, buckleComp: buckle)) // WD EDIT
         //    return false;
+        // Corvax edit end
 
         if (!force)
         {
@@ -153,7 +158,7 @@ public sealed class StandingStateSystem : EntitySystem
                 return false;
         }
 
-        standingState.CurrentState = StandingState.Standing;
+        standingState.CurrentState = StandingState.Standing; // Corvax edit
         Dirty(uid, standingState);
         RaiseLocalEvent(uid, new StoodEvent(), false);
 
@@ -168,15 +173,17 @@ public sealed class StandingStateSystem : EntitySystem
             }
         }
         standingState.ChangedFixtures.Clear();
-        _movement.RefreshMovementSpeedModifiers(uid); // _CorvaxNext EDIT
+        _movement.RefreshMovementSpeedModifiers(uid); // Corvax edit
 
         return true;
     }
 }
 
+// Corvax edit start
 public sealed class DropHandItemsEvent : EventArgs
 {
 }
+// Corvax edit end
 
 /// <summary>
 /// Subscribe if you can potentially block a down attempt.

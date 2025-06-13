@@ -1,6 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
 using Content.Shared._CorvaxNext.NextVars;
-//using Content.Shared._CorvaxNext.Targeting;
 using Content.Shared.Body.Components;
 using Content.Shared.Buckle;
 using Content.Shared.Buckle.Components;
