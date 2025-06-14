@@ -36,3 +36,5 @@ ent-LockerStationRepresentative = шкаф представителя станц
     .desc = { ent-BaseStructureIndestructible.desc }
 ent-ClosetFsbEva = шкаф ВКД FSB
     .desc = { ent-NFLockerBaseSecure.desc }
+ent-NFLockerScientist = { ent-LockerScientist }
+    .desc = { ent-LockerScientist.desc }
