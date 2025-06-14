@@ -3827,7 +3827,7 @@ entities:
       pos: -1.8678594,-2.5667224
       parent: 1
     - type: Stamp
-      stampedName: Legacy of Paradise
+      stampedName: Arturo Ward
 - proto: PhoneInstrumentSyndicate
   entities:
   - uid: 887

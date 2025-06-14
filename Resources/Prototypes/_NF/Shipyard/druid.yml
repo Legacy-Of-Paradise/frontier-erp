@@ -12,11 +12,11 @@
   id: Druid
   parent: BaseVessel
   name: FSB Druid
-  description: A medium service vessel providing botanical and chemical services to support the needs of the Frontier. Designed, developed and deployed by the Far Star Biotech company to render aid wherever it is needed.
+  description: Среднее сервисное судно, предоставляющее ботанические и химические услуги для поддержки потребностей Аванпоста. Разработано, создано и запущено компанией Far Star Biotech для оказания помощи там, где это необходимо. # LOP edit
   price: 45000 # 15% t2.
   category: Medium
   group: Medical
-  shuttlePath: /Maps/_NF/Shuttles/druid.yml
+  shuttlePath: /Maps/_NewParadise/Shuttles/druid.yml # LOP edit
   guidebookPage: ShipyardDruid
   class:
   - Botany
@@ -26,7 +26,7 @@
 - type: gameMap
   id: Druid
   mapName: 'FSB Druid'
-  mapPath: /Maps/_NF/Shuttles/druid.yml
+  mapPath: /Maps/_NewParadise/Shuttles/druid.yml # LOP edit
   minPlayers: 0
   stations:
     Druid:

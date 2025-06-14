@@ -1,3 +1,3 @@
-﻿ent-NFLockerScienceFilled = { ent-NFLockerScientist }
+ent-NFLockerScienceFilled = { ent-NFLockerScientist }
     .suffix = Filled
     .desc = { ent-NFLockerScientist.desc }

@@ -1,4 +1,4 @@
-ent-MercenaryDuffelGiftBox = mercanary gear bundle
+ent-MercenaryDuffelGiftBox = mercenary gear bundle
     .desc = Loot boxes? Here?
     .suffix = NPC Loot
 ent-MercenaryWebbingBox = mercanary ammo bundle

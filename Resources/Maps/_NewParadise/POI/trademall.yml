@@ -6824,6 +6824,8 @@ entities:
       parent: 1
   - uid: 489
     components:
+    - type: MetaData
+      name: Forward lounge APC
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 5.5,26.5
@@ -6859,6 +6861,8 @@ entities:
       parent: 1
   - uid: 2596
     components:
+    - type: MetaData
+      name: Forward dock APC
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 2.5,38.5
@@ -6871,6 +6875,8 @@ entities:
       parent: 1
   - uid: 2870
     components:
+    - type: MetaData
+      name: Mail room APC
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -9.5,-3.5
@@ -6883,30 +6889,40 @@ entities:
       parent: 1
   - uid: 3126
     components:
+    - type: MetaData
+      name: Starboard APC
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 17.5,-1.5
       parent: 1
   - uid: 3407
     components:
+    - type: MetaData
+      name: Port APC
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -9.5,-1.5
       parent: 1
   - uid: 3849
     components:
+    - type: MetaData
+      name: Kitchen APC
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -6.5,10.5
       parent: 1
   - uid: 3919
     components:
+    - type: MetaData
+      name: Forward APC
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 3.5,20.5
       parent: 1
   - uid: 3953
     components:
+    - type: MetaData
+      name: Stern APC
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -1.5,-9.5
@@ -6919,6 +6935,8 @@ entities:
       parent: 1
   - uid: 4098
     components:
+    - type: MetaData
+      name: Bridge APC
     - type: Transform
       pos: 13.5,-3.5
       parent: 1
@@ -6930,24 +6948,32 @@ entities:
       parent: 1
   - uid: 4341
     components:
+    - type: MetaData
+      name: Cargo Atmospherics APC
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 40.5,8.5
       parent: 1
   - uid: 4373
     components:
+    - type: MetaData
+      name: Medbay APC
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 44.5,6.5
       parent: 1
   - uid: 4393
     components:
+    - type: MetaData
+      name: Cargo Hallway APC
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 40.5,-1.5
       parent: 1
   - uid: 4427
     components:
+    - type: MetaData
+      name: Cargo Washroom APC
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 46.5,-4.5

@@ -1,17 +1,6 @@
 meta:
-  format: 7
-  category: Grid
-  engineVersion: 250.0.0
-  forkId: ""
-  forkVersion: ""
-  time: 04/26/2025 13:25:44
-  entityCount: 1767
-maps: []
-grids:
-- 1
-orphans:
-- 1
-nullspace: []
+  format: 6
+  postmapinit: false
 tilemap:
   0: Space
   14: FloorBar
@@ -3752,24 +3741,26 @@ entities:
     - type: Transform
       pos: -4.527932,-25.411976
       parent: 1
-- proto: CargoPalletSell
+- proto: Catwalk
   entities:
-  - uid: 70
+  - uid: 563
     components:
     - type: Transform
+      rot: -1.5707963267948966 rad
       pos: 5.5,-2.5
       parent: 1
-  - uid: 71
+  - uid: 564
     components:
     - type: Transform
+      rot: -1.5707963267948966 rad
       pos: 6.5,-2.5
       parent: 1
-  - uid: 72
+  - uid: 565
     components:
     - type: Transform
       pos: 4.5,-1.5
       parent: 1
-  - uid: 73
+  - uid: 566
     components:
     - type: Transform
       pos: 4.5,-2.5
@@ -4180,6 +4171,25 @@ entities:
     - type: Transform
       rot: -12.566370614359172 rad
       pos: 1.9059334,-24.132801
+      parent: 1
+- proto: ChairOfficeLight
+  entities:
+  - uid: 640
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -1.5,13.5
+      parent: 1
+  - uid: 641
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 2.5,13.5
+      parent: 1
+  - uid: 642
+    components:
+    - type: Transform
+      pos: -3.5,-3.5
       parent: 1
 - proto: ChairPilotSeat
   entities:
@@ -7988,7 +7998,7 @@ entities:
     - type: Transform
       pos: 8.5,-18.5
       parent: 1
-- proto: hydroponicsTray
+- proto: hydroponicsTrayAnchored
   entities:
   - uid: 1175
     components:
@@ -8558,7 +8568,7 @@ entities:
       pos: -2.99358,11.696581
       parent: 1
     - type: Stamp
-      stampedName: Legacy of Paradise
+      stampedName: localhost@Gotimanga
 - proto: PinpointerUniversal
   entities:
   - uid: 1248
@@ -9251,6 +9261,20 @@ entities:
       rot: 3.141592653589793 rad
       pos: 1.5,5.5
       parent: 1
+- proto: PoweredlightUltraviolet
+  entities:
+  - uid: 1368
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 2.5,14.5
+      parent: 1
+  - uid: 1369
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -1.5,14.5
+      parent: 1
 - proto: PoweredlightCyan
   entities:
   - uid: 1370
@@ -9290,20 +9314,6 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-27.5
-      parent: 1
-- proto: PoweredlightUltraviolet
-  entities:
-  - uid: 1368
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 2.5,14.5
-      parent: 1
-  - uid: 1369
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -1.5,14.5
       parent: 1
 - proto: PoweredSmallLight
   entities:

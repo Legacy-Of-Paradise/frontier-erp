@@ -9,6 +9,7 @@ adventure-webhook-list-low = Топ самых расходных:
 adventure-webhook-top-profit = Общий доход { $amount }.
 adventure-webhook-top-loss = Общие расходы { $amount }.
 adventure-webhook-ledger-start = Резюме бухгалтерской книги
+adventure-webhook-shipstats-start = Статистика верфи
 adventure-webhook-footer =
     Сервер: { $serverName }
     Раунд: #{ $roundId }

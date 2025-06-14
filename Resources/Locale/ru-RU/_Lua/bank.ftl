@@ -1,4 +1,4 @@
-﻿cmd-bank-wrong-args = Неверное количество аргументов. Использование: bank <имя/идентификатор> <сумма>
+cmd-bank-wrong-args = Неверное количество аргументов. Использование: bank <имя/идентификатор> <сумма>
 cmd-bank-invalid-amount = Сумма должна быть числом.
 cmd-bank-player-not-found = Не удалось найти игрока { $player }.
 cmd-bank-preferences-not-found = Не удалось получить настройки игрока { $player }.

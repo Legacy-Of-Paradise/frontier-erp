@@ -31,5 +31,5 @@ ent-FoodMealShoyuNoodles = shoyu noodles
     .desc = Soy sauce broth with corn, egg, and pork. Salty!
 ent-FoodMealSpicyNoodles = spicy noodles
     .desc = A not-so-simple ramen bowl of noodles, broth, and tofu. Hot!
-ent-FoodMealTonkatsuNoodles = tonkatsu noodles
+ent-FoodMealTonkotsuNoodles = tonkotsu noodles
     .desc = Pork bone broth with garlic and pork. Rich!

@@ -1,17 +1,6 @@
 meta:
-  format: 7
-  category: Grid
-  engineVersion: 250.0.0
-  forkId: ""
-  forkVersion: ""
-  time: 04/20/2025 10:20:18
-  entityCount: 831
-maps: []
-grids:
-- 1
-orphans:
-- 1
-nullspace: []
+  format: 6
+  postmapinit: false
 tilemap:
   0: Space
   30: FloorDark
@@ -558,8 +547,7 @@ entities:
             1: 128
           -3,1:
             2: 112
-            3: 8
-            0: 128
+            0: 136
             1: 1024
           -3,-1:
             0: 63736
@@ -579,8 +567,7 @@ entities:
           -2,4:
             0: 65523
           -1,0:
-            0: 254
-            3: 2048
+            0: 2302
           -1,2:
             0: 2287
           -1,3:
@@ -592,8 +579,7 @@ entities:
           -1,-1:
             0: 61166
           0,0:
-            0: 1655
-            3: 256
+            0: 1911
             1: 32768
           0,1:
             2: 3
@@ -616,8 +602,7 @@ entities:
             1: 2
             0: 61152
           -3,-2:
-            0: 2060
-            3: 32768
+            0: 34828
             2: 25088
           -3,-4:
             1: 128
@@ -690,21 +675,6 @@ entities:
           moles:
           - 0
           - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-          - 0
-        - volume: 2500
-          temperature: 293.14996
-          moles:
-          - 20.078888
-          - 75.53487
           - 0
           - 0
           - 0
@@ -4282,35 +4252,6 @@ entities:
     - type: Transform
       pos: -8.5,4.5
       parent: 1
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14923
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 826
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: LockerSalvageSpecialistFilled
   entities:
   - uid: 602
@@ -4318,103 +4259,16 @@ entities:
     - type: Transform
       pos: -0.5,2.5
       parent: 1
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14923
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 828
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
   - uid: 624
     components:
     - type: Transform
       pos: -8.5,-4.5
       parent: 1
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14923
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 830
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
   - uid: 681
     components:
     - type: Transform
       pos: 0.5,2.5
       parent: 1
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14923
-        moles:
-        - 1.7459903
-        - 6.568249
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-        - 0
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 831
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
 - proto: LockerWallMaterialsFuelPlasmaFilled2
   entities:
   - uid: 617
@@ -4429,36 +4283,6 @@ entities:
     - type: Transform
       pos: -4.5,7.5
       parent: 1
-- proto: MiningDrill
-  entities:
-  - uid: 826
-    components:
-    - type: Transform
-      parent: 83
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 828
-    components:
-    - type: Transform
-      parent: 602
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 830
-    components:
-    - type: Transform
-      parent: 624
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
-  - uid: 831
-    components:
-    - type: Transform
-      parent: 681
-    - type: Physics
-      canCollide: False
-    - type: InsideEntityStorage
 - proto: Mirror
   entities:
   - uid: 657
@@ -4626,7 +4450,7 @@ entities:
     - type: Transform
       pos: -3.5,5.5
       parent: 1
-- proto: PosterLegitSafetyMothHardhat
+- proto: PosterLegitSMHardhats
   entities:
   - uid: 697
     components:
@@ -4981,6 +4805,8 @@ entities:
         - Pressed: Toggle
   - uid: 628
     components:
+    - type: MetaData
+      desc: Opens and closes the blast doors attached at each docking port.
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -8.5,-6.5

@@ -1,1 +1,1 @@
-﻿toggle-nightvision-verb-get-data-text = переключить пнв
+toggle-nightvision-verb-get-data-text = переключить пнв
