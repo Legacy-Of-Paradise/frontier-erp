@@ -1,0 +1,19 @@
+highlights-station-representative = "ПФ", Представитель Фронтира, Представитель
+highlights-station-traffic-controller = Оператор трафика, Оператор
+highlights-valet = Стюард
+highlights-mail-carrier = Почтальон
+# janitor using upstream definition
+highlights-security-guard = Охранник, Станционный охранник, Охрана
+highlights-director-of-care = "ГВ", Главный врач
+highlights-cadet = Кадет, "ДШНГ"
+highlights-deputy = Капрал, "ДШНГ"
+highlights-detective = Детектив, "Детек", "ДШНГ"
+highlights-brigmedic = Бригмедик, Бригмед, "ДШНГ"
+highlights-sergeant = Сержант, Серж, "ДШНГ"
+highlights-bailiff = Надзиратель, "ДШНГ"
+highlights-public-affairs-liaison = Юрист, "АВД", "ДШНГ"
+highlights-sheriff = Шериф, "ДШНГ"
+highlights-prisoner = Заключённый
+highlights-pirate = Пират
+highlights-pirate-first-mate = Пират, Первый помощник капитана
+highlights-pirate-captain = Пират, "Кэп", Капитан

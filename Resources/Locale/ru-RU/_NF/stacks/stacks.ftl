@@ -103,6 +103,7 @@ stack-doubloon =
         [8] восемь реалов
        *[other] дублонов
     }
+stack-anomalite = аномалит
 stack-fuel-grade-plasma = топливная плазма
 stack-fuel-grade-uranium = топливный уран
 stack-fuel-grade-bananium = топливный бананиум

@@ -29,3 +29,13 @@ hud-chatbox-channel-Server = Сервер
 hud-chatbox-channel-Visual = Визуальный
 hud-chatbox-channel-Damage = Повреждения
 hud-chatbox-channel-Unspecified = Неопределённый
+hud-chatbox-highlights = Подсветка:
+hud-chatbox-highlights-button = Отправить
+hud-chatbox-highlights-tooltip =
+    Слова должны быть разделены новой строкой,
+    если они заключены в кавычки, они будут выделены
+    только в том случае, если они разделены пробелами или знаками препинания.
+hud-chatbox-highlights-placeholder =
+    Макхэндс
+    "Судья"
+    Медицина

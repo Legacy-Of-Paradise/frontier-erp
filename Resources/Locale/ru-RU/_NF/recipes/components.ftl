@@ -23,3 +23,4 @@ construction-graph-component-bible = библия
 construction-graph-component-computer-wallmount-board = любая настенная компьютерная плата
 construction-graph-component-computer-tabletop-board = любая настольная компьютерная плата
 construction-graph-component-nf-pirate-toolbox = пиратский ящик с инструментами
+construction-graph-component-nf-weapon-charger-circuitboard = машинная плата зарядного устройства

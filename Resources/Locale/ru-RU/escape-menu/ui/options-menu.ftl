@@ -47,6 +47,11 @@ ui-options-interface-label = Интерфейс
 
 ## Graphics menu
 
+ui-options-auto-fill-highlights = Автоматическое заполнение выделенных полей информацией о персонаже
+# Frontier: "highlighs"<"highlight"
+ui-options-highlights-color = Цвет подсветки:
+# Frontier: "an"<"a", "text"<"sentence"
+ui-options-highlights-color-example = Это выделенное предложение!
 ui-options-show-held-item = Показать удерживаемый элемент рядом с курсором
 ui-options-show-combat-mode-indicators = Показать индикатор боевого режима рядом с курсором
 ui-options-opaque-storage-window = Непрозрачность окна хранилища
