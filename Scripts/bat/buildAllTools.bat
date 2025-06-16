@@ -1,7 +1,7 @@
 @echo off
 cd ../../
 
-call git submodule update --init --recursive
+call python ./RUN_THIS.py
 call dotnet build -c Tools
 
 pause
