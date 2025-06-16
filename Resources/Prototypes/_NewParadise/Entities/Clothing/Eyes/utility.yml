@@ -11,7 +11,7 @@
         map: [ "enum.ToggleVisuals.Layer" ]
     - type: Clothing
       sprite: _NewParadise/Clothing/Eyes/NVG/nightvision.rsi
-    - type: NightVision
+    - type: LoPNightVision
       tint1: 0.3 # Red
       tint2: 0.7 # Green
       tint3: 0.3 # Blue
@@ -47,7 +47,7 @@
   - type: Tag
     tags:
     - HudSecurity
-  - type: NightVision
+  - type: LoPNightVision
     tint1: 0.7
     tint2: 0.3
     tint3: 0.3
@@ -72,7 +72,7 @@
   - type: Tag
     tags:
     - HudMedical
-  - type: NightVision
+  - type: LoPNightVision
     tint1: 0.3
     tint2: 0.3
     tint3: 0.7
@@ -87,7 +87,7 @@
   name: diagnostic night vision goggles
   description: Now you can see in the dark and shows cyborgs health! It has the label "BL CORP technology".
   components:
-  - type: NightVision
+  - type: LoPNightVision
     tint1: 0.7
     tint2: 0.7
     tint3: 0.3
@@ -109,7 +109,7 @@
   components:
   - type: InstantAction
     itemIconStyle: NoItem
-    event: !type:ToggleNightVisionEvent
+    event: !type:ToggleLoPNightVisionEvent
 
 - type: entity
   id: ActionToggleNightVision

@@ -2,11 +2,11 @@ using Robust.Shared.GameStates;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Audio;
 
-namespace Content.Shared.Clothing;
+namespace Content.Shared._NewParadise.NVG;
 
 [RegisterComponent, NetworkedComponent(), AutoGenerateComponentState]
-[Access(typeof(SharedNightVisionSystem))]
-public sealed partial class NightVisionComponent : Component
+[Access(typeof(SharedLoPNightVisionSystem))]
+public sealed partial class LoPNightVisionComponent : Component
 {
     [DataField]
     public EntProtoId ToggleAction = "ActionToggleNightVision";

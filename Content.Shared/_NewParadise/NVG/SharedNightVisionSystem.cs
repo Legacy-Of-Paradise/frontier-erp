@@ -1,14 +1,15 @@
 using Content.Shared.Actions;
 using Content.Shared.Clothing.EntitySystems;
+using Content.Shared._NewParadise.NVG;
 using Content.Shared.Inventory;
 using Content.Shared.Item;
 using Content.Shared.Toggleable;
 using Content.Shared.Verbs;
 using Robust.Shared.Containers;
 
-namespace Content.Shared.Clothing;
+namespace Content.Shared._NewParadise.NVG;
 
-public abstract class SharedNightVisionSystem : EntitySystem
+public abstract class SharedLoPNightVisionSystem : EntitySystem
 {
     [Dependency] private readonly ClothingSystem _clothing = default!;
     [Dependency] private readonly InventorySystem _inventory = default!;
@@ -22,35 +23,35 @@ public abstract class SharedNightVisionSystem : EntitySystem
     {
         base.Initialize();
 
-        SubscribeLocalEvent<NightVisionComponent, GetVerbsEvent<ActivationVerb>>(AddToggleVerb);
-        SubscribeLocalEvent<NightVisionComponent, GetItemActionsEvent>(OnGetActions);
-        SubscribeLocalEvent<NightVisionComponent, ToggleNightVisionEvent>(OnToggleNightVision);
-        SubscribeLocalEvent<NightVisionComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<LoPNightVisionComponent, GetVerbsEvent<ActivationVerb>>(AddToggleVerb);
+        SubscribeLocalEvent<LoPNightVisionComponent, GetItemActionsEvent>(OnGetActions);
+        SubscribeLocalEvent<LoPNightVisionComponent, ToggleLoPNightVisionEvent>(OnToggleLoPNightVision);
+        SubscribeLocalEvent<LoPNightVisionComponent, MapInitEvent>(OnMapInit);
     }
 
-    private void OnMapInit(EntityUid uid, NightVisionComponent component, MapInitEvent args)
+    private void OnMapInit(EntityUid uid, LoPNightVisionComponent component, MapInitEvent args)
     {
         _actionContainer.AddAction(uid, ref component.ToggleActionEntity, component.ToggleAction);
         Dirty(uid, component);
     }
 
-    private void OnToggleNightVision(EntityUid uid, NightVisionComponent component, ToggleNightVisionEvent args)
+    private void OnToggleLoPNightVision(EntityUid uid, LoPNightVisionComponent component, ToggleLoPNightVisionEvent args)
     {
         if (args.Handled)
             return;
 
         args.Handled = true;
 
-        ToggleNightVision(uid, component);
+        ToggleLoPNightVision(uid, component);
     }
 
-    private void ToggleNightVision(EntityUid uid, NightVisionComponent nightvision)
+    private void ToggleLoPNightVision(EntityUid uid, LoPNightVisionComponent nightvision)
     {
         nightvision.Enabled = !nightvision.Enabled;
 
         if (_sharedContainer.TryGetContainingContainer(uid, out var container) &&
             _inventory.TryGetSlotEntity(container.Owner, "eyes", out var entityUid) && entityUid == uid)
-            UpdateNightVisionEffects(container.Owner, uid, true, nightvision);
+            UpdateLoPNightVisionEffects(container.Owner, uid, true, nightvision);
 
         if (TryComp<ItemComponent>(uid, out var item))
         {
@@ -63,28 +64,28 @@ public abstract class SharedNightVisionSystem : EntitySystem
         Dirty(uid, nightvision);
     }
 
-    protected virtual void UpdateNightVisionEffects(EntityUid parent, EntityUid uid, bool state, NightVisionComponent? component) { }
+    protected virtual void UpdateLoPNightVisionEffects(EntityUid parent, EntityUid uid, bool state, LoPNightVisionComponent? component) { }
 
-    protected void OnChanged(EntityUid uid, NightVisionComponent component)
+    protected void OnChanged(EntityUid uid, LoPNightVisionComponent component)
     {
         _sharedActions.SetToggled(component.ToggleActionEntity, component.Enabled);
     }
 
-    private void AddToggleVerb(EntityUid uid, NightVisionComponent component, GetVerbsEvent<ActivationVerb> args)
+    private void AddToggleVerb(EntityUid uid, LoPNightVisionComponent component, GetVerbsEvent<ActivationVerb> args)
     {
         if (!args.CanAccess || !args.CanInteract)
             return;
 
         ActivationVerb verb = new();
         verb.Text = Loc.GetString("toggle-nightvision-verb-get-data-text");
-        verb.Act = () => ToggleNightVision(uid, component);
+        verb.Act = () => ToggleLoPNightVision(uid, component);
         args.Verbs.Add(verb);
     }
 
-    private void OnGetActions(EntityUid uid, NightVisionComponent component, GetItemActionsEvent args)
+    private void OnGetActions(EntityUid uid, LoPNightVisionComponent component, GetItemActionsEvent args)
     {
         args.AddAction(ref component.ToggleActionEntity, component.ToggleAction);
     }
 }
 
-public sealed partial class ToggleNightVisionEvent : InstantActionEvent {}
+public sealed partial class ToggleLoPNightVisionEvent : InstantActionEvent {}

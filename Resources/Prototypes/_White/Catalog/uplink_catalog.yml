@@ -1,0 +1,31 @@
+# Thermal Vision
+
+- type: listing
+  id: UplinkThermalGoggles
+  name: uplink-thermal-vision-name
+  description: uplink-thermal-vision-desc
+  productEntity: ClothingEyesThermalVisionGogglesSyndie
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkWearables
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
+
+- type: listing
+  id: UplinkThermalGogglesNukie
+  name: uplink-thermal-vision-name
+  description: uplink-thermal-vision-desc
+  productEntity: ClothingEyesThermalVisionGogglesNukie
+  cost:
+    Telecrystal: 3
+  categories:
+  - UplinkWearables
+  conditions:
+  - !type:StoreWhitelistCondition
+    whitelist:
+      tags:
+      - NukeOpsUplink

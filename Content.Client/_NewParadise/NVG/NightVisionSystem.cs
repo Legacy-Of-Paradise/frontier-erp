@@ -1,4 +1,4 @@
-using Content.Shared.Clothing;
+using Content.Shared._NewParadise.NVG;
 using Content.Shared.GameTicking;
 using Robust.Client.Player;
 using Robust.Client.Graphics;
@@ -6,9 +6,9 @@ using Content.Client.Inventory;
 using Content.Shared.Inventory.Events;
 using Robust.Shared.Audio.Systems;
 
-namespace Content.Client.Clothing;
+namespace Content.Client._NewParadise.NVG;
 
-public sealed class NightVisionSystem : SharedNightVisionSystem
+public sealed class LoPNightVisionSystem : SharedLoPNightVisionSystem
 {
     [Dependency] private readonly IOverlayManager _overlayMan = default!;
     [Dependency] private readonly ILightManager _lightManager = default!;
@@ -16,27 +16,27 @@ public sealed class NightVisionSystem : SharedNightVisionSystem
     [Dependency] private readonly IEntityManager _entityManager = default!;
     [Dependency] private readonly SharedAudioSystem _audio = default!;
 
-    private NightVisionOverlay _overlay = default!;
+    private LoPNightVisionOverlay _overlay = default!;
 
     public override void Initialize()
     {
         base.Initialize();
 
         SubscribeLocalEvent<RoundRestartCleanupEvent>(OnRestart);
-        SubscribeLocalEvent<NightVisionComponent, GotUnequippedEvent>(OnGotUnequipped);
+        SubscribeLocalEvent<LoPNightVisionComponent, GotUnequippedEvent>(OnGotUnequipped);
 
         _overlay = new(this);
     }
 
-    public NightVisionComponent? GetNightComp()
+    public LoPNightVisionComponent? GetNightComp()
     {
         var playerUid = EntityUid.Parse(_playerManager.LocalPlayer?.ControlledEntity.ToString());
         var slot = _entityManager.GetComponent<InventorySlotsComponent>(playerUid);
-        _entityManager.TryGetComponent<NightVisionComponent>(slot.SlotData["eyes"].HeldEntity, out var nightvision);
+        _entityManager.TryGetComponent<LoPNightVisionComponent>(slot.SlotData["eyes"].HeldEntity, out var nightvision);
         return nightvision;
     }
 
-    protected override void UpdateNightVisionEffects(EntityUid parent, EntityUid uid, bool state, NightVisionComponent? component = null)
+    protected override void UpdateLoPNightVisionEffects(EntityUid parent, EntityUid uid, bool state, LoPNightVisionComponent? component = null)
     {
         if (!Resolve(uid, ref component))
             return;
@@ -56,7 +56,7 @@ public sealed class NightVisionSystem : SharedNightVisionSystem
             _overlayMan.RemoveOverlay(_overlay);
         }
     }
-    private void OnGotUnequipped(EntityUid uid, NightVisionComponent component, GotUnequippedEvent args)
+    private void OnGotUnequipped(EntityUid uid, LoPNightVisionComponent component, GotUnequippedEvent args)
     {
         if (args.Slot == component.Slot)
         {

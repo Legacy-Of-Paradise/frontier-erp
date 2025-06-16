@@ -23,3 +23,13 @@
   id: LoPNVGPackService
   recipes:
   - LoPClothingEyesNVG
+
+- type: latheRecipePack
+  id: LoPTVGPackNFSD
+  recipes:
+  - ClothingEyesThermalVisionGogglesNFSD
+
+- type: latheRecipePack
+  id: LoPTVGPack
+  recipes:
+  - ClothingEyesThermalVisionGoggles

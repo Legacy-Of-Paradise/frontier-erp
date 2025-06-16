@@ -194,6 +194,7 @@
     - ReportingStatic # DeltaV
     # LoP edit start
     dynamicPacks:
+    - LoPTVGPackNFSD
     - LoPNVGPackNFSD
     # LoP edit end
   - type: BlueprintReceiver

@@ -117,3 +117,18 @@
       whitelist:
         tags:
           - PirateUplink
+
+- type: listing
+  id: LoPUplinkPiratesTVG
+  name: lop-uplink-pirate-tvg-name
+  description: lop-uplink-pirate-tvg-desc
+  productEntity: LoPClothingEyesMesonThermalVisionGoggles
+  cost:
+    Doubloon: 7
+  categories:
+    - UplinkPirateUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - PirateUplink

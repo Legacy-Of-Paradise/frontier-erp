@@ -2,19 +2,19 @@ using Robust.Client.Graphics;
 using Robust.Shared.Enums;
 using Robust.Shared.Prototypes;
 
-namespace Content.Client.Clothing;
+namespace Content.Client._NewParadise.NVG;
 
-public sealed class NightVisionOverlay : Overlay
+public sealed class LoPNightVisionOverlay : Overlay
 {
     private readonly IPrototypeManager _prototypeManager;
-    private readonly NightVisionSystem _nightVisionSystem;
+    private readonly LoPNightVisionSystem _nightVisionSystem;
 
     public override bool RequestScreenTexture => true;
     public override OverlaySpace Space => OverlaySpace.WorldSpace;
 
     private readonly ShaderInstance _shader;
 
-    public NightVisionOverlay(NightVisionSystem nightVisionSystem)
+    public LoPNightVisionOverlay(LoPNightVisionSystem nightVisionSystem)
     {
         IoCManager.InjectDependencies(this);
         _nightVisionSystem = nightVisionSystem;

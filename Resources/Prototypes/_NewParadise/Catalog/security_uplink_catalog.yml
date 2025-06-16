@@ -544,3 +544,19 @@
       whitelist:
         tags:
           - SecurityUplink
+
+- type: listing
+  id: LoPUplinkSecurityTVG
+  name: lop-uplink-security-tvg-name
+  description: lop-uplink-security-tvg-desc
+  productEntity: ClothingEyesThermalVisionGoggles
+  icon: { sprite: _White/Clothing/Eyes/Goggles/thermal.rsi, state: icon }
+  cost:
+    FrontierUplinkCoin: 3
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink

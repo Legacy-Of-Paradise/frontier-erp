@@ -1,27 +1,27 @@
-using Content.Shared.Clothing;
+using Content.Shared._NewParadise.NVG;
 using Content.Shared.Inventory.Events;
 
-namespace Content.Server.Clothing;
+namespace Content.Server._NewParadise.NVG;
 
-public sealed class NightVisionSystem : SharedNightVisionSystem
+public sealed class LoPNightVisionSystem : SharedLoPNightVisionSystem
 {
     public override void Initialize()
     {
         base.Initialize();
 
-        SubscribeLocalEvent<NightVisionComponent, GotEquippedEvent>(OnGotEquipped);
-        SubscribeLocalEvent<NightVisionComponent, GotUnequippedEvent>(OnGotUnequipped);
+        SubscribeLocalEvent<LoPNightVisionComponent, GotEquippedEvent>(OnGotEquipped);
+        SubscribeLocalEvent<LoPNightVisionComponent, GotUnequippedEvent>(OnGotUnequipped);
     }
 
-    private void OnGotUnequipped(EntityUid uid, NightVisionComponent component, GotUnequippedEvent args)
+    private void OnGotUnequipped(EntityUid uid, LoPNightVisionComponent component, GotUnequippedEvent args)
     {
         if (args.Slot == component.Slot)
-            UpdateNightVisionEffects(args.Equipee, uid, false, component);
+            UpdateLoPNightVisionEffects(args.Equipee, uid, false, component);
     }
 
-    private void OnGotEquipped(EntityUid uid, NightVisionComponent component, GotEquippedEvent args)
+    private void OnGotEquipped(EntityUid uid, LoPNightVisionComponent component, GotEquippedEvent args)
     {
         if (args.Slot == component.Slot)
-            UpdateNightVisionEffects(args.Equipee, uid, true, component);
+            UpdateLoPNightVisionEffects(args.Equipee, uid, true, component);
     }
 }

@@ -28,3 +28,15 @@
   - LoPClothingEyesSecNVG
   - LoPClothingEyesMedNVG
   - LoPClothingEyesDiagnosticNVG
+
+- type: technology
+  id: LoPTVGResearch
+  name: lop-research-technology-thermal-vision
+  icon:
+    sprite: _White/Clothing/Eyes/Goggles/thermal.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - ClothingEyesThermalVisionGoggles
