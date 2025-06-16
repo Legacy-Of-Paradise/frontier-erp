@@ -17,32 +17,6 @@
   - type: IdentityBlocker
     coverage: EYES
 
-- type: entity
-  parent: ClothingEyesNightVisionGoggles
-  id: ClothingEyesNightVisionGogglesSyndie
-  suffix: "Chameleon"
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Tag
-    tags: [] # ignore "WhitelistChameleon" tag
-  - type: ChameleonClothing
-    slot: [eyes]
-    default: ClothingEyesGlassesSunglasses
-  - type: UserInterface
-    interfaces:
-      enum.ChameleonUiKey.Key:
-        type: ChameleonBoundUserInterface
-
-- type: entity
-  parent: ClothingEyesNightVisionGogglesSyndie
-  id: ClothingEyesNightVisionGogglesNukie
-  suffix: "Chameleon, NukeOps"
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: ShowSyndicateIcons
-  - type: ShowJobIcons
-  - type: ShowMindShieldIcons
-
 # Thermal Vision Goggles
 
 - type: entity

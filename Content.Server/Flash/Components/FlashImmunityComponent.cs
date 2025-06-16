@@ -11,7 +11,9 @@ public sealed partial class FlashImmunityComponent : Component
     [DataField("enabled")]
     public bool Enabled { get; set; } = true;
 
+    // Goob edit start
     [ViewVariables(VVAccess.ReadWrite)]
     [DataField("protectionRange")]
     public float ProtectionRange { get; set; } = 0f;
+    // Goob edit end
 }
