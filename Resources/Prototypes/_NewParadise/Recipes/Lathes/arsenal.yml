@@ -37,3 +37,8 @@
     Silver: 250
     Gold: 250
     Plasma: 100
+
+- type: latheRecipe
+  id: ClothingEyesThermalVisionGogglesNFSD
+  result: ClothingEyesThermalVisionGogglesNFSD
+  parent: ClothingEyesThermalVisionGoggles
