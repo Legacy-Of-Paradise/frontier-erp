@@ -19,17 +19,17 @@
   order: 2
 
 - type: roadmap
-  id: "gunsystem"
-  name: "Система вооружений!"
-  description: "Система вооружений на шаттлах!"
-  progress: 0
-  status: roadmap-goal-waiting
-  order: 3
-
-- type: roadmap
   id: "thermal"
   name: "Система термального зрения!"
   description: "Смотрите на людей как на тепловую зону!"
+  progress: 100
+  status: roadmap-goal-completed
+  order: 3
+
+- type: roadmap
+  id: "gunsystem"
+  name: "Система вооружений!"
+  description: "Система вооружений на шаттлах!"
   progress: 0
   status: roadmap-goal-waiting
   order: 4
