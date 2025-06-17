@@ -14,8 +14,8 @@
   id: "crawl"
   name: "Система лежания!"
   description: "Теперь вы можете ложиться!"
-  progress: 40
-  status: roadmap-goal-progress
+  progress: 100
+  status: roadmap-goal-completed
   order: 2
 
 - type: roadmap
