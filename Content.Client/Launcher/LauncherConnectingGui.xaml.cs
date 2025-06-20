@@ -62,17 +62,17 @@ namespace Content.Client.Launcher
             ExitButton.OnPressed += _ => _state.Exit();
 
             // LOP edit start
-            OpenDiscordButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkDiscord);
-            OpenWikiButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWiki);
-            OpenWebsiteButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWebsite);
-            OpenGithubButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkGithub);
-            OpenForumButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkForum);
-
             OpenDiscordButton.Visible = _cfg.GetCVar(CCVars.InfoLinksDiscord) != "";
             OpenWikiButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWiki) != "";
             OpenWebsiteButton.Visible = _cfg.GetCVar(CCVars.InfoLinksWebsite) != "";
             OpenGithubButton.Visible = _cfg.GetCVar(CCVars.InfoLinksGithub) != "";
             OpenForumButton.Visible = _cfg.GetCVar(CCVars.InfoLinksForum) != "";
+
+            OpenDiscordButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkDiscord);
+            OpenWikiButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWiki);
+            OpenWebsiteButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkWebsite);
+            OpenGithubButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkGithub);
+            OpenForumButton.OnPressed += _ => IoCManager.Resolve<IUriOpener>().OpenUri(linkForum);
             // LOP edit end
 
             var addr = state.Address;
