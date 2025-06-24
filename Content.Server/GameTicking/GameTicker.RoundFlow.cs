@@ -632,23 +632,44 @@ namespace Content.Server.GameTicking
                     return;
 
                 var duration = RoundDuration();
-                var content = Loc.GetString("discord-round-notifications-end",
+                var descriptionText = Loc.GetString("discord-round-notifications-end",
                     ("id", RoundId),
                     ("hours", Math.Truncate(duration.TotalHours)),
                     ("minutes", duration.Minutes),
                     ("seconds", duration.Seconds));
-                var payload = new WebhookPayload { Content = content };
 
-                await _discord.CreateMessage(_webhookIdentifier.Value, payload);
+                var embedColor = 0xB22B27;
 
-                if (DiscordRoundEndRole == null)
+                var payload = new WebhookPayload
+                {
+                    Content = null,
+                    Embeds =
+                    [
+                        new()
+                        {
+                            Title = Loc.GetString("discord-round-notifications-title"),
+                            Description = descriptionText,
+                            Color = embedColor,
+                            Footer = new WebhookEmbedFooter
+                            {
+                                Text = $"{ServerName}",
+                            },
+                        },
+                    ],
+                    AllowedMentions = new WebhookMentions()
+                    {
+                        Parse = [],
+                    }
+                };
+
+                var request = await _discord.CreateMessage(_webhookIdentifier.Value, payload);
+
+                if (!request.IsSuccessStatusCode)
+                {
+                    var content = await request.Content.ReadAsStringAsync();
+                    Log.Error($"Discord returned a bad status code when posting round end message: {request.StatusCode}\nResponse: {content}");
                     return;
-
-                content = Loc.GetString("discord-round-notifications-end-ping", ("roleId", DiscordRoundEndRole));
-                payload = new WebhookPayload { Content = content };
-                payload.AllowedMentions.AllowRoleMentions();
-
-                await _discord.CreateMessage(_webhookIdentifier.Value, payload);
+                }
             }
             catch (Exception e)
             {
@@ -710,11 +731,41 @@ namespace Content.Server.GameTicking
                 if (_webhookIdentifier == null)
                     return;
 
-                var content = Loc.GetString("discord-round-notifications-new");
+                var descriptionText = Loc.GetString("discord-round-notifications-new");
+                var embedColor = 0x91B2C7;
 
-                var payload = new WebhookPayload { Content = content };
+                string? payloadContent = null;
+                if (DiscordRoundEndRole != null)
+                {
+                    payloadContent = $"<@&{DiscordRoundEndRole}>";
+                }
 
-                await _discord.CreateMessage(_webhookIdentifier.Value, payload);
+                var payload = new WebhookPayload
+                {
+                    Content = payloadContent,
+                    Embeds =
+                    [
+                        new()
+                        {
+                            Title = Loc.GetString("discord-round-notifications-title"),
+                            Description = descriptionText,
+                            Color = embedColor,
+                            Footer = new WebhookEmbedFooter
+                            {
+                                Text = $"{ServerName}",
+                            },
+                        },
+                    ],
+                };
+
+                var request = await _discord.CreateMessage(_webhookIdentifier.Value, payload);
+
+                if (!request.IsSuccessStatusCode)
+                {
+                    var content = await request.Content.ReadAsStringAsync();
+                    Log.Error($"Discord returned bad status code when posting round starting message: {request.StatusCode}\nResponse: {content}");
+                    return;
+                }
             }
             catch (Exception e)
             {
@@ -832,15 +883,43 @@ namespace Content.Server.GameTicking
                     return;
 
                 var mapName = _gameMapManager.GetSelectedMap()?.MapName ?? Loc.GetString("discord-round-notifications-unknown-map");
-                var content = Loc.GetString("discord-round-notifications-started", ("id", RoundId), ("map", mapName));
+                var descriptionText = Loc.GetString("discord-round-notifications-started", ("id", RoundId), ("map", mapName));
+                var embedColor = 0x41F097;
 
-                var payload = new WebhookPayload { Content = content };
+                var payload = new WebhookPayload
+                {
+                    Content = null,
+                    Embeds =
+                    [
+                        new()
+                        {
+                            Title = Loc.GetString("discord-round-notifications-title"),
+                            Description = descriptionText,
+                            Color = embedColor,
+                            Footer = new WebhookEmbedFooter
+                            {
+                                Text = $"{ServerName}",
+                            },
+                        },
+                    ],
+                    AllowedMentions = new WebhookMentions()
+                    {
+                        Parse = [],
+                    }
+                };
 
-                await _discord.CreateMessage(_webhookIdentifier.Value, payload);
+                var request = await _discord.CreateMessage(_webhookIdentifier.Value, payload);
+
+                if (!request.IsSuccessStatusCode)
+                {
+                    var content = await request.Content.ReadAsStringAsync();
+                    Log.Error($"Discord returned a bad status code when posting round started message: {request.StatusCode}\nResponse: {content}");
+                    return;
+                }
             }
             catch (Exception e)
             {
-                Log.Error($"Error while sending discord round start message:\n{e}");
+                Log.Error($"Error while sending discord round started message:\n{e}");
             }
         }
     }
