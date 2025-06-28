@@ -50,6 +50,7 @@ emergency_early_launch_allowed = true
 market_stations = 3
 
 [admin]
+admins_count_in_playercount = true
 see_own_notes = true
 
 [interaction]
