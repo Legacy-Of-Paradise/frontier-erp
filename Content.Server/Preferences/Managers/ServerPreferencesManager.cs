@@ -439,9 +439,12 @@ namespace Content.Server.Preferences.Managers
                 if (_sponsors.TryGetInfo(session.UserId, out var sponsor))
                 {
                     sponsorTier = sponsor.Tier;
-                    var marks = Loc.GetString($"sponsor-markings-tier").Split(";", StringSplitOptions.RemoveEmptyEntries);
-                    marks.Concat(sponsor.AllowedMarkings);
-                    allowedMarkings = marks.ToList();
+                    if (sponsorTier >= 3)
+                    {
+                        var marks = _markingManager.Markings.Select((a,_) => a.Value).Where(a => a.SponsorOnly == true).Select((a,_) => a.ID).ToList();
+                        marks.AddRange(sponsor.AllowedMarkings.AsEnumerable());
+                        allowedMarkings.AddRange(marks);
+                    }
                 }
 #endif
                 // LOP edit end
