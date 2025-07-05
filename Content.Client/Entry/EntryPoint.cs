@@ -38,6 +38,7 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Replays;
 using Robust.Shared.Timing;
+using Content.Client._White.ItemSlotRenderer; // WD edit
 using Content.Client._NF.Emp.Overlays; // Frontier
 #if LOP
 using Content.Client._NewParadise.Sponsors;
@@ -192,6 +193,7 @@ namespace Content.Client.Entry
             _overlayManager.AddOverlay(new SingularityOverlay());
             _overlayManager.AddOverlay(new RadiationPulseOverlay());
             _overlayManager.AddOverlay(new EmpBlastOverlay()); // Frontier
+            _overlayManager.AddOverlay(new SpriteToLayerBullshitOverlay()); // WD EDIT
             _chatManager.Initialize();
             _clientPreferencesManager.Initialize();
             _euiManager.Initialize();
