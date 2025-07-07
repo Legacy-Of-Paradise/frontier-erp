@@ -22,8 +22,6 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 // LOP edit start
-using Robust.Shared.IoC;
-using Content.Shared._NewParadise;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.Json;
@@ -32,6 +30,11 @@ using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using JetBrains.Annotations;
 using Robust.Shared;
+using Robust.Shared.IoC;
+using Content.Shared._NewParadise;
+#if LOP
+using Content.Server._NC.Discord;
+#endif
 // LOP edit end
 
 namespace Content.Server.Administration.Managers;
@@ -39,6 +42,9 @@ namespace Content.Server.Administration.Managers;
 public sealed partial class BanManager : IBanManager, IPostInjectInit
 {
     [Dependency] private readonly IServerDbManager _db = default!;
+    #if LOP
+    [Dependency] private readonly DiscordAuthManager _discordAuthManager = default!; // Добавляем эту строку
+    #endif
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly IEntitySystemManager _systems = default!;
@@ -128,7 +134,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
             cachedBans.Add(banDef);
         }
 
-        return banDef.Id ?? 0; // LOP edit
+        return banDef.Id ?? 0;  // LOP edit
     }
 
     public HashSet<string>? GetRoleBans(NetUserId playerUserId)
@@ -219,6 +225,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         _chat.SendAdminAlert(logMessage);
 
         KickMatchingConnectedPlayers(banDef, "newly placed ban");
+
         return banDef?.Id ?? 0; // LOP edit
     }
 
@@ -382,7 +389,6 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         _sawmill = _logManager.GetSawmill(SawmillId);
     }
 
-    // LOP edit start
     #region Webhook
     public async void WebhookUpdateRoleBans(NetUserId? target, string? targetUsername, NetUserId? banningAdmin, (IPAddress, int)? addressRange, ImmutableTypedHwid? hwid, uint? minutes, NoteSeverity severity, string reason, DateTimeOffset timeOfBan, Dictionary<string, int> banids)
     {
@@ -466,13 +472,33 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
     }
     private async Task<WebhookPayload> GenerateJobBanPayload(ServerRoleBanDef banDef, Dictionary<string, int> banids, uint? minutes = null)
     {
+        var targetlink = Loc.GetString("server-ban-no-name");
+        var adminlink = Loc.GetString("system-user");
+#if LOP
+        string? targetDiscordId = null;
+        if (banDef.UserId.HasValue)
+        {
+            targetDiscordId = _discordAuthManager.GetDiscordIdForPlayer(banDef.UserId.Value);
+        }
+
+        targetlink = targetDiscordId != null ? $"<@{targetDiscordId}>" : Loc.GetString("server-ban-no-name-dc");
+
+        string? adminDiscordId = null;
+        if (banDef.BanningAdmin.HasValue)
+        {
+            adminDiscordId = _discordAuthManager.GetDiscordIdForPlayer(banDef.BanningAdmin.Value);
+        }
+
+        adminlink = adminDiscordId != null ? $"<@{adminDiscordId}>" : Loc.GetString("system-user");
+#endif
+
         var hwidString = banDef.HWId != null ? string.Concat(banDef.HWId.Hwid.Select(x => x.ToString("x2"))) : "null";
         var adminName = banDef.BanningAdmin == null
             ? Loc.GetString("system-user")
             : (await _db.GetPlayerRecordByUserId(banDef.BanningAdmin.Value))?.LastSeenUserName ?? Loc.GetString("system-user");
         var targetName = banDef.UserId == null
             ? Loc.GetString("server-ban-no-name", ("hwid", hwidString))
-            : (await _db.GetPlayerRecordByUserId(banDef.UserId.Value))?.LastSeenUserName ?? Loc.GetString("server-ban-no-name", ("hwid", hwidString));
+            : (await _db.GetPlayerRecordByUserId(banDef.UserId.Value))?.LastSeenUserName ?? Loc.GetString("server-ban-no-name", ("hwid", banDef.UserId.Value));
         var expiresString = banDef.ExpirationTime == null
             ? Loc.GetString("server-ban-string-never")
             : $"<t:{((DateTimeOffset)banDef.ExpirationTime.Value.UtcDateTime).ToUnixTimeSeconds()}:R>";
@@ -481,17 +507,25 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         var round = "" + banDef.RoundId;
         var severity = "" + banDef.Severity;
         var serverName = _serverName[..Math.Min(_serverName.Length, 1500)];
-        var timeNow = TimeZoneInfo.ConvertTimeFromUtc(
-    DateTimeOffset.Now.UtcDateTime,
-    TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time"));
+        var timeNow = $"<t:{((DateTimeOffset)DateTimeOffset.Now.UtcDateTime).ToUnixTimeSeconds()}:R>";
         var rolesString = "";
         foreach (var (role, banid) in banids)
             rolesString += $"\n> `#{banid}`: `{role}`";
 
         var mentions = new List<User> { };
+        #if LOP
+        if (targetDiscordId != null)
+        {
+            mentions.Add(new User { Id = targetDiscordId });
+        }
+        if (adminDiscordId != null)
+        {
+            mentions.Add(new User { Id = adminDiscordId });
+        }
+        #endif
         var allowedMentions = new Dictionary<string, string[]>
         {
-            { "parse", new List<string> {"users"}.ToArray() }
+            { "parse", new List<string> {"users"}.ToArray() },
         };
 
         if (banDef.ExpirationTime != null && minutes != null) // Time ban
@@ -502,30 +536,32 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                 AllowedMentions = allowedMentions,
                 Mentions = mentions,
                 Embeds = new List<Embed>
-                {
-                    new()
-                    {
-                        Description = Loc.GetString(
-            "server-role-ban-string",
-            ("serverName", serverName), // LOP edit
-            ("targetName", targetName),
-            ("adminName", adminName),
-            ("TimeNow", timeNow),
-            ("roles", rolesString),
-            ("expiresString", expiresString),
-            ("reason", reason),
-            ("severity", Loc.GetString($"admin-note-editor-severity-{severity.ToLower()}"))),
-                        Color = 0x0042F1,
-    Author = new EmbedAuthor
-                        {
-                        Name = Loc.GetString("server-role-ban", ("mins", minutes.Value)) + $"",
-                        },
-                        Footer = new EmbedFooter
-                        {
-                            Text =  Loc.GetString("server-ban-footer", ("server", serverName), ("round", round)),
-                        },
-        },
-                },
+                 {
+                     new()
+                     {
+                         Description = Loc.GetString(
+             "server-role-ban-string",
+             ("serverName", serverName),
+             ("targetName", targetName),
+             ("adminName", adminName),
+             ("targetLink", targetlink),
+             ("adminLink", adminlink),
+             ("TimeNow", timeNow),
+             ("roles", rolesString),
+             ("expiresString", expiresString),
+             ("reason", reason),
+             ("severity", Loc.GetString($"admin-note-editor-severity-{severity.ToLower()}"))),
+                         Color = 0x0042F1,
+     Author = new EmbedAuthor
+                         {
+                         Name = Loc.GetString("server-role-ban", ("mins", minutes.Value)) + $"",
+                         },
+                         Footer = new EmbedFooter
+                         {
+                             Text =  Loc.GetString("server-ban-footer", ("server", serverName), ("round", round)),
+                         },
+                     },
+                 },
             };
         else // Perma ban
             return new WebhookPayload
@@ -535,35 +571,57 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                 AllowedMentions = allowedMentions,
                 Mentions = mentions,
                 Embeds = new List<Embed>
-                {
-                    new()
-                    {
-                        Description = Loc.GetString(
-            "server-perma-role-ban-string",
-            ("serverName", serverName), // LOP edit
-            ("targetName", targetName),
-            ("adminName", adminName),
-            ("TimeNow", timeNow),
-            ("roles", rolesString),
-            ("expiresString", expiresString),
-            ("reason", reason),
-            ("severity", Loc.GetString($"admin-note-editor-severity-{severity.ToLower()}"))),
-                        Color = 0xffC840,
-    Author = new EmbedAuthor
-                        {
-                        Name = $"{Loc.GetString("server-perma-role-ban")}",
-                        },
-                        Footer = new EmbedFooter
-                        {
-                            Text = Loc.GetString("server-ban-footer", ("server", serverName), ("round", round)),
-                        },
-        },
-                },
+                 {
+                     new()
+                     {
+                         Description = Loc.GetString(
+             "server-perma-role-ban-string",
+             ("serverName", serverName),
+             ("targetName", targetName),
+             ("adminName", adminName),
+             ("targetLink", targetlink),
+             ("adminLink", adminlink),
+             ("TimeNow", timeNow),
+             ("roles", rolesString),
+             ("expiresString", expiresString),
+             ("reason", reason),
+             ("severity", Loc.GetString($"admin-note-editor-severity-{severity.ToLower()}"))),
+                         Color = 0xffC840,
+     Author = new EmbedAuthor
+                         {
+                         Name = $"{Loc.GetString("server-perma-role-ban")}",
+                         },
+                         Footer = new EmbedFooter
+                         {
+                             Text = Loc.GetString("server-ban-footer", ("server", serverName), ("round", round)),
+                         },
+         },
+                 },
             };
     }
 
     private async Task<WebhookPayload> GenerateBanPayload(ServerBanDef banDef, uint? minutes = null)
     {
+        var targetlink = Loc.GetString("server-ban-no-name");
+        var adminlink = Loc.GetString("system-user");
+        #if LOP
+        string? targetDiscordId = null;
+        if (banDef.UserId.HasValue)
+        {
+            targetDiscordId = _discordAuthManager.GetDiscordIdForPlayer(banDef.UserId.Value);
+        }
+
+        targetlink = targetDiscordId != null ? $"<@{targetDiscordId}>" : Loc.GetString("server-ban-no-name-dc");
+
+        string? adminDiscordId = null;
+        if (banDef.BanningAdmin.HasValue)
+        {
+            adminDiscordId = _discordAuthManager.GetDiscordIdForPlayer(banDef.BanningAdmin.Value);
+        }
+
+        adminlink = adminDiscordId != null ? $"<@{adminDiscordId}>" : Loc.GetString("system-user");
+        #endif
+
         var hwidString = banDef.HWId != null
     ? string.Concat(banDef.HWId.Hwid.Select(x => x.ToString("x2")))
     : "null";
@@ -581,11 +639,19 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         var round = "" + banDef.RoundId;
         var severity = "" + banDef.Severity;
         var serverName = _serverName[..Math.Min(_serverName.Length, 1500)];
-        var timeNow = TimeZoneInfo.ConvertTimeFromUtc(
-    DateTimeOffset.Now.UtcDateTime,
-    TimeZoneInfo.FindSystemTimeZoneById("Russian Standard Time"));
+        var timeNow = $"<t:{((DateTimeOffset)DateTimeOffset.Now.UtcDateTime).ToUnixTimeSeconds()}:R>";
 
         var mentions = new List<User> { };
+        #if LOP
+        if (targetDiscordId != null)
+        {
+            mentions.Add(new User { Id = targetDiscordId });
+        }
+        if (adminDiscordId != null)
+        {
+            mentions.Add(new User { Id = adminDiscordId });
+        }
+        #endif
         var allowedMentions = new Dictionary<string, string[]>
         {
             { "parse", new List<string> {"users"}.ToArray() }
@@ -599,29 +665,31 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                 AllowedMentions = allowedMentions,
                 Mentions = mentions,
                 Embeds = new List<Embed>
-                {
-                    new()
-                    {
-                        Description = Loc.GetString(
-            "server-time-ban-string",
-            ("serverName", serverName), // LOP edit
-            ("targetName", targetName),
-            ("adminName", adminName),
-            ("TimeNow", timeNow),
-            ("expiresString", expiresString),
-            ("reason", reason),
-            ("severity", Loc.GetString($"admin-note-editor-severity-{severity.ToLower()}"))),
-                        Color = 0xC03045,
-    Author = new EmbedAuthor
-                        {
-                        Name = Loc.GetString("server-time-ban", ("mins", minutes.Value)) + $" #{id}",
-                        },
-                        Footer = new EmbedFooter
-                        {
-                            Text =  Loc.GetString("server-ban-footer", ("server", serverName), ("round", round)),
-                        },
-        },
-                },
+                 {
+                     new()
+                     {
+                         Description = Loc.GetString(
+             "server-time-ban-string",
+             ("serverName", serverName),
+             ("targetName", targetName),
+             ("adminName", adminName),
+             ("targetLink", targetlink),
+             ("adminLink", adminlink),
+             ("TimeNow", timeNow),
+             ("expiresString", expiresString),
+             ("reason", reason),
+             ("severity", Loc.GetString($"admin-note-editor-severity-{severity.ToLower()}"))),
+                         Color = 0xC03045,
+     Author = new EmbedAuthor
+                         {
+                         Name = Loc.GetString("server-time-ban", ("mins", minutes.Value)) + $" #{id}",
+                         },
+                         Footer = new EmbedFooter
+                         {
+                             Text =  Loc.GetString("server-ban-footer", ("server", serverName), ("round", round)),
+                         },
+         },
+                 },
             };
         else // Perma ban
             return new WebhookPayload
@@ -631,28 +699,30 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
                 AllowedMentions = allowedMentions,
                 Mentions = mentions,
                 Embeds = new List<Embed>
-                {
-                    new()
-                    {
-                        Description = Loc.GetString(
-            "server-perma-ban-string",
-            ("serverName", serverName), // LOP edit
-            ("targetName", targetName),
-            ("adminName", adminName),
-            ("TimeNow", timeNow),
-            ("reason", reason),
-            ("severity", Loc.GetString($"admin-note-editor-severity-{severity.ToLower()}"))),
-                        Color = 0xCB0000,
-    Author = new EmbedAuthor
-                        {
-                        Name = $"{Loc.GetString("server-perma-ban")} #{id}",
-                        },
-                        Footer = new EmbedFooter
-                        {
-                            Text = Loc.GetString("server-ban-footer", ("server", serverName), ("round", round)),
-                        },
-        },
-                },
+                 {
+                     new()
+                     {
+                         Description = Loc.GetString(
+             "server-perma-ban-string",
+             ("serverName", serverName),
+             ("targetName", targetName),
+             ("adminName", adminName),
+             ("targetLink", targetlink),
+             ("adminLink", adminlink),
+             ("TimeNow", timeNow),
+             ("reason", reason),
+             ("severity", Loc.GetString($"admin-note-editor-severity-{severity.ToLower()}"))),
+                         Color = 0xCB0000,
+     Author = new EmbedAuthor
+                         {
+                         Name = $"{Loc.GetString("server-perma-ban")} #{id}",
+                         },
+                         Footer = new EmbedFooter
+                         {
+                             Text = Loc.GetString("server-ban-footer", ("server", serverName), ("round", round)),
+                         },
+         },
+                 },
             };
     }
 
@@ -770,7 +840,7 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
         public Dictionary<string, string[]> AllowedMentions { get; set; } =
             new()
             {
-                    { "parse", Array.Empty<string>() },
+                     { "parse", Array.Empty<string>() },
             };
 
         public WebhookPayload()
@@ -814,5 +884,4 @@ public sealed partial class BanManager : IBanManager, IPostInjectInit
 
     [UsedImplicitly]
     private sealed record DiscordUserResponse(string UserId, string Username);
-    // LOP edit end
 }
