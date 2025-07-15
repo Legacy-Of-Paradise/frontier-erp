@@ -407,6 +407,18 @@
     back:
     - AcousticGuitarInstrument
 
+# LOP edit start
+- type: loadout
+  id: ContractorMicrophoneInstrument
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT1
+  price: 500
+  storage:
+    back:
+    - MicrophoneInstrument
+# LOP edit end
+
 #T2
 - type: loadout
   id: ContractorPonderingOrb
