@@ -289,7 +289,6 @@
         Asphyxiation: -1.0
   - type: FireVisuals
     alternateState: Standing
-  - type: LayingDown # Corvax edit
 
 - type: entity
   save: false

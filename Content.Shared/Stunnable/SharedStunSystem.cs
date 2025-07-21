@@ -20,10 +20,6 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
-// Corvax edit start
-using Content.Shared._CorvaxNext.Standing;
-using Content.Shared.Movement.Components;
-// Corvax edit end
 
 namespace Content.Shared.Stunnable;
 
@@ -37,7 +33,6 @@ public abstract class SharedStunSystem : EntitySystem
     [Dependency] private readonly EntityWhitelistSystem _entityWhitelist = default!;
     [Dependency] private readonly StandingStateSystem _standingState = default!;
     [Dependency] private readonly StatusEffectsSystem _statusEffect = default!;
-    [Dependency] private readonly SharedLayingDownSystem _layingDown = default!; // Corvax edit end
 
     /// <summary>
     /// Friction modifier for knocked down players.
@@ -143,29 +138,11 @@ public abstract class SharedStunSystem : EntitySystem
     private void OnKnockInit(EntityUid uid, KnockedDownComponent component, ComponentInit args)
     {
         _standingState.Down(uid);
-        // Corvax edit start
-        if (TryComp<LayingDownComponent>(uid, out var layingDownComponent))
-        {
-            _layingDown.TryProcessAutoGetUp((uid, layingDownComponent));
-            _layingDown.TryLieDown(uid, layingDownComponent, null, DropHeldItemsBehavior.DropIfStanding); // Ataraxia EDIT
-        }
-        // Corvax edit end
     }
 
     private void OnKnockShutdown(EntityUid uid, KnockedDownComponent component, ComponentShutdown args)
     {
-        // Corvax edit start
-        if (!TryComp(uid, out StandingStateComponent? standing))
-            return;
-
-        if (TryComp(uid, out LayingDownComponent? layingDown))
-        {
-            _layingDown.TryProcessAutoGetUp((uid, layingDown));
-            return;
-        }
-
-        _standingState.Stand(uid, standing);
-        // Corvax edit end
+        _standingState.Stand(uid);
     }
 
     private void OnStandAttempt(EntityUid uid, KnockedDownComponent component, StandAttemptEvent args)
