@@ -1298,3 +1298,11 @@
   id: 85
   time: '2025-07-11T18:12:45.0000000+00:00'
   url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/218
+- author: Kasey
+  changes:
+  - message: "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D \u043C\u0438\u043A\u0440\
+      \u043E\u0444\u043E\u043D \u0432 loadout"
+    type: Add
+  id: 86
+  time: '2025-07-22T09:25:05.0000000+00:00'
+  url: https://github.com/Legacy-Of-Paradise/frontier-erp/pull/219
