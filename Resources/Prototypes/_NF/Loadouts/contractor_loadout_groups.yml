@@ -770,6 +770,7 @@
   - ContractorHarmonicaInstrument
   - ContractorSaxophoneInstrument
   - ContractorAcousticGuitarInstrument
+  - ContractorMicrophoneInstrument # LOP edit
   - ContractorPonderingOrb
   - ContractorPlushieRGBee
   - ContractorMysterySpaceBladeBox
