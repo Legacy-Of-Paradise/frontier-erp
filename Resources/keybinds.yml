@@ -86,9 +86,6 @@ binds:
   type: State
   key: NumpadNum5
 # Misc
-- function: ToggleStanding # _CorvaxNext-edit Laying System
-  type: State
-  key: C
 - function: ShowEscapeMenu
   type: State
   key: F10
@@ -189,7 +186,7 @@ binds:
   mod1: Alt
 - function: OpenCharacterMenu
   type: State
-  key: H # LOP edit
+  key: C
 - function: OpenEmotesMenu
   type: State
   key: Y
